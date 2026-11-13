@@ -1,0 +1,122 @@
+{
+  "id": "fomantis",
+  "species": [
+    {
+      "dex": 753,
+      "name": "Fomantis",
+      "generation": 7,
+      "category": "Sickle Grass Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "fomantis"
+      },
+      "names": {
+        "de": "Imantis",
+        "en": "Fomantis",
+        "es": "Fomantis",
+        "fr": "Mimantis",
+        "it": "Fomantis",
+        "ja": "カリキリ",
+        "ko": "짜랑랑",
+        "ja-Hrkt": "カリキリ",
+        "zh-Hans": "伪螳草",
+        "zh-Hant": "偽螳草"
+      },
+      "description": {
+        "fun": "Fomantis is a plant that looks like a little mantis, flipping around the real orchid mantis, an insect that looks like a flower. By day it spreads its leaves to soak up sunlight and fiercely attacks anyone who disturbs its nap, and at night it wanders off to find a new place to sleep. Its sweet scent draws Bug Pokémon like Cutiefly, and Trainers often give theirs a flowerpot to sunbathe in peace.",
+        "guide": "Fomantis is a Grass-type Pokémon from Alola based on the orchid and the orchid mantis. It gathers energy by photosynthesis during the day and moves to a new sleeping spot each night. It evolves into Lurantis at level 34 during the day.",
+        "tagline": "A sleepy plant mantis that hates having its sunbathing disturbed",
+        "sources": [
+          {
+            "title": "Bulbapedia: Fomantis (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Fomantis_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "753",
+          "name": "Fomantis",
+          "generation": 7,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "87e632add2be16a1e64ce799d8a73cae",
+            "home": "54c8275101b685eb8c15213bae310439"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 754,
+              "form": "754"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 754,
+      "name": "Lurantis",
+      "generation": 7,
+      "category": "Bloom Sickle Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "fomantis"
+      },
+      "names": {
+        "de": "Mantidea",
+        "en": "Lurantis",
+        "es": "Lurantis",
+        "fr": "Floramantis",
+        "it": "Lurantis",
+        "ja": "ラランテス",
+        "ko": "라란티스",
+        "ja-Hrkt": "ラランテス",
+        "zh-Hans": "兰螳花",
+        "zh-Hant": "蘭螳花"
+      },
+      "description": {
+        "fun": "Lurantis is a plant posing as a mantis, the reverse of the real orchid mantis. It looks and smells like a flower to lure foes close for a surprise attack, then fires beams of gathered light from its sickles, strong enough to slice thick metal plates. Its brilliant colours have earned it fame as the most glamorous Grass Pokémon, but they take careful grooming, and it trusts a diligent Trainer far more than a lazy one.",
+        "guide": "Lurantis is a Grass-type Pokémon that evolves from Fomantis, a plant that resembles a mantis in a flowing dress. It lures foes with its flower-like looks and scent, and fires beams of light from its sickles. In Alola, a Totem Lurantis guards Mallow's trial in Lush Jungle.",
+        "tagline": "A glamorous flower mantis with sickles that fire light beams",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lurantis (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lurantis_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "754",
+          "name": "Lurantis",
+          "generation": 7,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "af461cc935440bb262051e0290472c5b",
+            "home": "82504281545e1824d803dcce3f7eb9a7"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 753,
+        "form": "753"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 754,
+        "form": "754"
+      },
+      "change": "evolves",
+      "how": "Level 34, during the day"
+    }
+  ]
+}

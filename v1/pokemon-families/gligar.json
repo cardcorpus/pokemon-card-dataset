@@ -1,0 +1,124 @@
+{
+  "id": "gligar",
+  "species": [
+    {
+      "dex": 207,
+      "name": "Gligar",
+      "generation": 2,
+      "category": "Fly Scorpion Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gligar"
+      },
+      "names": {
+        "de": "Skorgla",
+        "en": "Gligar",
+        "es": "Gligar",
+        "fr": "Scorplane",
+        "it": "Gligar",
+        "ja": "グライガー",
+        "ko": "글라이거",
+        "ja-Hrkt": "グライガー",
+        "zh-Hans": "天蝎",
+        "zh-Hant": "天蠍"
+      },
+      "description": {
+        "fun": "Gligar glides silently from its cliffside nest, flies straight at its target's face, clamps on with its pincers and stings. When the flight is over, it hops all the way home. Part bat, part scorpion and a bit of a gargoyle, it also recalls the face-hugging creatures of science fiction, and its name blends glide with gargoyle.",
+        "guide": "A Ground- and Flying-type Pokémon with features of both a bat and a scorpion. It glides silently, grabs its prey's face with its pincers and stings it. It evolves into Gliscor when levelled up at night holding a Razor Fang.",
+        "tagline": "A gliding bat-scorpion that goes straight for the face",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gligar (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "207",
+          "name": "Gligar",
+          "generation": 2,
+          "types": [
+            "ground",
+            "flying"
+          ],
+          "pictures": {
+            "official": "bdbdb68231829b12f0feb70ffcb5f062",
+            "home": "39df6ab190be170d0009de22a2f0a27a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 472,
+              "form": "472"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 472,
+      "name": "Gliscor",
+      "generation": 4,
+      "category": "Fang Scorpion Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gligar"
+      },
+      "names": {
+        "de": "Skorgro",
+        "en": "Gliscor",
+        "es": "Gliscor",
+        "fr": "Scorvol",
+        "it": "Gliscor",
+        "ja": "グライオン",
+        "ko": "글라이온",
+        "ja-Hrkt": "グライオン",
+        "zh-Hans": "天蝎王",
+        "zh-Hant": "天蠍王"
+      },
+      "description": {
+        "fun": "Gliscor is a vampire bat with a scorpion's pincers: it hangs upside down from trees watching for prey, grabs it with its tail and bites at the neck. It can barely flap its wings, so it rides winds and updrafts, climbing tall trees to launch itself when the air is still. Oddly, it's nearly twice Gligar's height but lighter.",
+        "guide": "A Ground- and Flying-type Pokémon introduced in Generation 4, the evolution of Gligar. It resembles a vampire bat with scorpion features, glides on winds rather than flapping, and hangs upside down while it sleeps. Gligar evolves into it when levelled up at night holding a Razor Fang.",
+        "tagline": "A vampire bat in a scorpion's armour that glides on the wind",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gliscor (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gliscor_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "472",
+          "name": "Gliscor",
+          "generation": 4,
+          "types": [
+            "ground",
+            "flying"
+          ],
+          "pictures": {
+            "official": "3cac51ba2572be03475d720ee0dd5602",
+            "home": "50f5f5521bfda4414cba6df35ed3c18b"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 207,
+        "form": "207"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 472,
+        "form": "472"
+      },
+      "change": "evolves",
+      "how": "Level up, at night, holding Razor Fang"
+    }
+  ]
+}

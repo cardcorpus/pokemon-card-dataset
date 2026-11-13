@@ -1,0 +1,97 @@
+{
+  "id": "kyogre",
+  "species": [
+    {
+      "dex": 382,
+      "name": "Kyogre",
+      "generation": 3,
+      "category": "Sea Basin Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "kyogre"
+      },
+      "names": {
+        "de": "Kyogre",
+        "en": "Kyogre",
+        "es": "Kyogre",
+        "fr": "Kyogre",
+        "it": "Kyogre",
+        "ja": "カイオーガ",
+        "ko": "가이오가",
+        "ja-Hrkt": "カイオーガ",
+        "zh-Hans": "盖欧卡",
+        "zh-Hant": "蓋歐卡"
+      },
+      "description": {
+        "fun": "Kyogre is said to be the personification of the sea, the 'maker of oceans' that spread the seas with heavy rain and great waves, and it was once hailed as a saviour for ending droughts. In ancient times it fought a world-shaking battle with Groudon until Rayquaza stepped in, and it has slept in an undersea trench ever since. It's the mascot of Pokémon Sapphire, and Team Aqua's plans revolve around it.",
+        "guide": "A Water-type Legendary Pokémon resembling a huge whale, one of the super-ancient Pokémon with Groudon and Rayquaza, and the mascot of Sapphire and Alpha Sapphire. It can undergo Primal Reversion with the Blue Orb. It does not evolve.",
+        "tagline": "The 'maker of oceans', mascot of Pokémon Sapphire",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kyogre (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "382",
+          "name": "Kyogre",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "1cc8b717e3de545df231ba2d3c2c9ecd",
+            "home": "4508a1c7ffac77837fb7b1159c954c1e"
+          }
+        },
+        {
+          "id": "382:primal",
+          "name": "Primal Kyogre",
+          "category": "primal",
+          "generation": 6,
+          "types": [
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Proto-Kyogre",
+            "en": "Primal Kyogre",
+            "fr": "Primo-Kyogre"
+          },
+          "pictures": {
+            "official": "d6ac820dd7758590b8409331c5d80dbc",
+            "home": "6e515f90e4115a8e07dbdbbebf7cf122"
+          },
+          "description": {
+            "fun": "Primal Kyogre is said to be Kyogre's true, original form, so full of ancient natural energy that it spills out as seawater. In the primal age it once fought Primal Groudon for 20 days straight, nearly destroying the planet, until Rayquaza stopped them. Its Primordial Sea Ability summons storms that make Fire-type moves fail completely, and the alpha symbols on its fins may stand for life beginning in the sea.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Kyogre (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "primal"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 382,
+        "form": "382"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 382,
+        "form": "382:primal"
+      },
+      "change": "primal"
+    }
+  ]
+}

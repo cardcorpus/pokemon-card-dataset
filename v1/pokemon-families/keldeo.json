@@ -1,0 +1,98 @@
+{
+  "id": "keldeo",
+  "species": [
+    {
+      "dex": 647,
+      "name": "Keldeo",
+      "generation": 5,
+      "category": "Colt Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "keldeo"
+      },
+      "names": {
+        "de": "Keldeo",
+        "en": "Keldeo",
+        "es": "Keldeo",
+        "fr": "Keldeo",
+        "it": "Keldeo",
+        "ja": "ケルディオ",
+        "ko": "케르디오",
+        "ja-Hrkt": "ケルディオ",
+        "zh-Hans": "凯路迪欧",
+        "zh-Hant": "凱路迪歐"
+      },
+      "description": {
+        "fun": "Keldeo was separated from its parents in a fire started by a human war, and Cobalion, Terrakion and Virizion took it in, teaching it to survive until it surpassed its mentors. Now it travels the world to train, running over oceans and rivers by blasting water from its hooves and turning up at scenic waterfronts. It's based on the kelpie, a Scottish water horse, and plays d'Artagnan to the trio's Three Musketeers.",
+        "guide": "Keldeo is a Water- and Fighting-type Mythical Pokémon, the youngest of the Swords of Justice. It runs across water by shooting water from its hooves. When it knows the move Secret Sword, it takes its Resolute Form.",
+        "tagline": "A young water colt raised by the Swords of Justice.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Keldeo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "647",
+          "name": "Keldeo",
+          "generation": 5,
+          "types": [
+            "water",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "845517aea074253254a34a625322dd2c",
+            "home": "751ae3b5dcbbfcb847207518977286d3"
+          }
+        },
+        {
+          "id": "647:resolute",
+          "name": "Resolute Keldeo",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "water",
+            "fighting"
+          ],
+          "names": {
+            "de": "Keldeo (Resolut)",
+            "en": "Resolute Keldeo",
+            "fr": "Keldeo Décidé"
+          },
+          "pictures": {
+            "official": "ac5650fe1ebc1a1d627a00860bc3b098",
+            "home": "b21221e89be3f9790c6e7175e49e7bac"
+          },
+          "description": {
+            "fun": "Once its resolve for battle is strengthened, its body fills with power and its hidden strength flows into its horn, turning it into a sword that can slice through anything. The three-coloured plume on its head stands for the guidance and hopes of its mentors, Cobalion, Terrakion and Virizion.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Keldeo (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 647,
+        "form": "647"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 647,
+        "form": "647:resolute"
+      },
+      "change": "form_change"
+    }
+  ]
+}

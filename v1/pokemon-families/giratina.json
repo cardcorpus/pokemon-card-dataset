@@ -1,0 +1,98 @@
+{
+  "id": "giratina",
+  "species": [
+    {
+      "dex": 487,
+      "name": "Giratina",
+      "generation": 4,
+      "category": "Renegade Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "giratina"
+      },
+      "names": {
+        "de": "Giratina",
+        "en": "Giratina",
+        "es": "Giratina",
+        "fr": "Giratina",
+        "it": "Giratina",
+        "ja": "ギラティナ",
+        "ko": "기라티나",
+        "ja-Hrkt": "ギラティナ",
+        "zh-Hans": "骑拉帝纳",
+        "zh-Hant": "騎拉帝納"
+      },
+      "description": {
+        "fun": "Giratina was banished by Arceus for its violence to the Distortion World, a strange reverse side of our own, where it silently watches us. It's said to appear in ancient cemeteries. Its creators describe it as the embodiment of antimatter, set against Dialga's time and Palkia's space. Pokémon Platinum's box shows it in its serpentine Origin Forme, not its six-legged Altered Forme.",
+        "guide": "Giratina is a Ghost- and Dragon-type Legendary Pokémon, the third of Sinnoh's creation trio with Dialga and Palkia, representing antimatter. It lives in the Distortion World and takes its serpentine Origin Forme there or when holding the Griseous Orb. It is the mascot of Pokémon Platinum.",
+        "tagline": "The banished dragon that watches us from the world's reverse side.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Giratina (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "487",
+          "name": "Giratina",
+          "generation": 4,
+          "types": [
+            "ghost",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "3d12770a0a818ef894fb7f6a5eb5119d",
+            "home": "3f56fe7dbacd9df8cba3dfad6e0fde79"
+          }
+        },
+        {
+          "id": "487:origin",
+          "name": "Origin Forme Giratina",
+          "category": "alternate",
+          "generation": 4,
+          "types": [
+            "ghost",
+            "dragon"
+          ],
+          "names": {
+            "de": "Ur-Giratina",
+            "en": "Origin Forme Giratina",
+            "fr": "Giratina Originel"
+          },
+          "pictures": {
+            "official": "eae6f524ac33cf563b4729f762acabef",
+            "home": "91d66b13f5b07e81675224259c92cc2c"
+          },
+          "description": {
+            "fun": "Its true form, taken in the Distortion World or when holding the Griseous Orb: legless and serpentine, with six ghostly tendrils for wings, it floats freely and can slip between dimensions.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Giratina (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 487,
+        "form": "487"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 487,
+        "form": "487:origin"
+      },
+      "change": "form_change"
+    }
+  ]
+}

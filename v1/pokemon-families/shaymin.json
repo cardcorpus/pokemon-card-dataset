@@ -1,0 +1,97 @@
+{
+  "id": "shaymin",
+  "species": [
+    {
+      "dex": 492,
+      "name": "Shaymin",
+      "generation": 4,
+      "category": "Gratitude Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shaymin"
+      },
+      "names": {
+        "de": "Shaymin",
+        "en": "Shaymin",
+        "es": "Shaymin",
+        "fr": "Shaymin",
+        "it": "Shaymin",
+        "ja": "シェイミ",
+        "ko": "쉐이미",
+        "ja-Hrkt": "シェイミ",
+        "zh-Hans": "谢米",
+        "zh-Hant": "謝米"
+      },
+      "description": {
+        "fun": "Shaymin, the Gratitude Pokémon, breathes in polluted air, breaks it down into water and light, and turns ruined land into a field of flowers in an instant. Its name comes from xièxie, Chinese for 'thank you'. In its shy Land Forme it curls up to pass as a flowering plant, but the scent of a Gracidea flower turns it into its bold, flying Sky Forme.",
+        "guide": "Shaymin is a Grass-type Mythical Pokémon that purifies polluted land and turns it into flower fields. In its shy Land Forme it resembles a hedgehog; the scent of a Gracidea flower changes it into the Grass- and Flying-type Sky Forme.",
+        "tagline": "A thank-you in hedgehog form, leaving flower fields behind.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shaymin (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "492",
+          "name": "Shaymin",
+          "generation": 4,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "68ba6014a96a2d334876ebc58e7f17ea",
+            "home": "1bd3a3efc30c633a3cf2967560dfdee8"
+          }
+        },
+        {
+          "id": "492:sky",
+          "name": "Sky Forme Shaymin",
+          "category": "alternate",
+          "generation": 4,
+          "types": [
+            "grass",
+            "flying"
+          ],
+          "names": {
+            "de": "Shaymin (Zenit)",
+            "en": "Sky Forme Shaymin",
+            "fr": "Shaymin Céleste"
+          },
+          "pictures": {
+            "official": "9f11d3fca18d3edcbff77c45006c8d17",
+            "home": "eb30a19405424d3d114c4f58f4823253"
+          },
+          "description": {
+            "fun": "The scent of a blooming Gracidea flower gives Shaymin the power of flight: slimmer, with a red petal like a scarf, and as bold and playful as its Land Forme is shy. It turns back at night, or if it's frozen.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Shaymin (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 492,
+        "form": "492"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 492,
+        "form": "492:sky"
+      },
+      "change": "form_change"
+    }
+  ]
+}

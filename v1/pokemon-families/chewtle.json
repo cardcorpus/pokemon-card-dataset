@@ -1,0 +1,166 @@
+{
+  "id": "chewtle",
+  "species": [
+    {
+      "dex": 833,
+      "name": "Chewtle",
+      "generation": 8,
+      "category": "Snapping Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "chewtle"
+      },
+      "names": {
+        "de": "Kamehaps",
+        "en": "Chewtle",
+        "es": "Chewtle",
+        "fr": "Khélocrok",
+        "it": "Chewtle",
+        "ja": "カムカメ",
+        "ko": "깨물부기",
+        "ja-Hrkt": "カムカメ",
+        "zh-Hans": "咬咬龟",
+        "zh-Hant": "咬咬龜"
+      },
+      "description": {
+        "fun": "A teething snapping turtle that bites anything in front of it, because its one big front tooth is still coming in and it itches. Sometimes it chomps another Chewtle's horn and the two start a tussle. Children have a game built on that grip: let Chewtle bite a stick, lift it up, and see whose hangs on longest.",
+        "guide": "A small snapping-turtle Pokémon with a head bigger than its body. Chewtle's itching, still-growing front tooth makes it bite at anything, and once it bites it holds on. It evolves into Drednaw.",
+        "tagline": "A teething turtle that bites and never lets go",
+        "sources": [
+          {
+            "title": "Bulbapedia: Chewtle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Chewtle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "833",
+          "name": "Chewtle",
+          "generation": 8,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "9025012db46f7cd633441a2fb3380a63",
+            "home": "bdfc221ab5a884d91c4b93a56ca831f8"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 834,
+              "form": "834"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 834,
+      "name": "Drednaw",
+      "generation": 8,
+      "category": "Bite Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "chewtle"
+      },
+      "names": {
+        "de": "Kamalm",
+        "en": "Drednaw",
+        "es": "Drednaw",
+        "fr": "Torgamord",
+        "it": "Drednaw",
+        "ja": "カジリガメ",
+        "ko": "갈가부기",
+        "ja-Hrkt": "カジリガメ",
+        "zh-Hans": "暴噬龟",
+        "zh-Hant": "暴噬龜"
+      },
+      "description": {
+        "fun": "A vicious snapping turtle with jaws that shear through steel rods and crush boulders in one bite. It lurks by the shore and shoots out its long neck to snatch prey that comes to drink. Drednaw is so hard to handle that some Trainers give up and release it. Its name and Gigantamax form nod to the dreadnought battleship.",
+        "guide": "The evolution of Chewtle, a large, aggressive turtle Pokémon with a rock shell and jaws strong enough to bite through steel. It ambushes prey along shorelines by quickly extending its neck. It has a Gigantamax form.",
+        "tagline": "A snapping turtle with jaws that bite through steel",
+        "sources": [
+          {
+            "title": "Bulbapedia: Drednaw (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Drednaw_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "834",
+          "name": "Drednaw",
+          "generation": 8,
+          "types": [
+            "water",
+            "rock"
+          ],
+          "pictures": {
+            "official": "dc2054a73773178d6cf4f9931d13f05c",
+            "home": "8b919a80582af92e5e4389ddd6e77898"
+          }
+        },
+        {
+          "id": "834:gmax",
+          "name": "Gigantamax Drednaw",
+          "category": "gigantamax",
+          "generation": 8,
+          "types": [
+            "water",
+            "rock"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Gigadynamax-Kamalm",
+            "en": "Gigantamax Drednaw",
+            "fr": "Torgamord Gigamax"
+          },
+          "pictures": {
+            "official": "020bff766494b11c999bd4e7b6adbed8",
+            "home": "5370b3d2e0db6468c4226d543feeaad7"
+          },
+          "description": {
+            "fun": "Rears up on two legs, takes on the look of a dreadnought warship and can punch a hole through a mountain with one strike. A Galar tale says one chewed up a mountain and used the rubble to stop a flood.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Drednaw (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Drednaw_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "gigantamax"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 833,
+        "form": "833"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 834,
+        "form": "834"
+      },
+      "change": "evolves",
+      "how": "Level 22"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 834,
+        "form": "834"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 834,
+        "form": "834:gmax"
+      },
+      "change": "gigantamax"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "nickit",
+  "species": [
+    {
+      "dex": 827,
+      "name": "Nickit",
+      "generation": 8,
+      "category": "Fox Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "nickit"
+      },
+      "names": {
+        "de": "Kleptifux",
+        "en": "Nickit",
+        "es": "Nickit",
+        "fr": "Goupilou",
+        "it": "Nickit",
+        "ja": "クスネ",
+        "ko": "훔처우",
+        "ja-Hrkt": "クスネ",
+        "zh-Hans": "狡小狐",
+        "zh-Hant": "偷兒狐"
+      },
+      "description": {
+        "fun": "A sly fox cub that would rather steal dinner than find its own. Soft footpads let Nickit raid other Pokémon's food stores in silence, and it sweeps away its pawprints with its tail as it makes off with the loot. Even its name is British slang: to nick something is to steal it.",
+        "guide": "A cunning fox Pokémon of Galar that survives by stealing food from others, moving silently on soft footpads and erasing its tracks with its tail. It evolves into Thievul.",
+        "tagline": "A little fox thief that sweeps away its own tracks",
+        "sources": [
+          {
+            "title": "Bulbapedia: Nickit (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Nickit_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "827",
+          "name": "Nickit",
+          "generation": 8,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "2e77fbb58f744a488c786043febcbb95",
+            "home": "4114fffe06d1a0ac8601ae76558162b5"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 828,
+              "form": "828"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 828,
+      "name": "Thievul",
+      "generation": 8,
+      "category": "Fox Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "nickit"
+      },
+      "names": {
+        "de": "Gaunux",
+        "en": "Thievul",
+        "es": "Thievul",
+        "fr": "Roublenard",
+        "it": "Thievul",
+        "ja": "フォクスライ",
+        "ko": "폭슬라이",
+        "ja-Hrkt": "フォクスライ",
+        "zh-Hans": "猾大狐",
+        "zh-Hant": "狐大盜"
+      },
+      "description": {
+        "fun": "A gentleman thief with a villain's moustache: Thievul secretly marks its targets with its scent, then follows its nose to steal their food and eggs when they least expect it. Its natural enemy is Boltund, perhaps a nod to fox hunting with hounds, and its Japanese name, Foxly, blends 'fox' and 'sly'.",
+        "guide": "The evolution of Nickit, a slender fox Pokémon that marks targets with its scent and later tracks them down to steal food and eggs. Its design draws on the red fox and on stereotypical gentleman thieves. Boltund is its natural enemy.",
+        "tagline": "A moustachioed fox burglar that sniffs out its victims",
+        "sources": [
+          {
+            "title": "Bulbapedia: Thievul (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Thievul_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "828",
+          "name": "Thievul",
+          "generation": 8,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "7da488d5b4fa18039f1c3b0d49b45cea",
+            "home": "4d9d73fea2de63b7f6d7bf01a629d8f0"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 827,
+        "form": "827"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 828,
+        "form": "828"
+      },
+      "change": "evolves",
+      "how": "Level 18"
+    }
+  ]
+}

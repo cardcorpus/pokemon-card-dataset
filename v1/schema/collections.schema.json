@@ -1,0 +1,324 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus curated collections",
+  "description": "Our curated collections: lists of copies that belong together, each in sections.",
+  "type": "object",
+  "required": [
+    "collections"
+  ],
+  "properties": {
+    "collections": {
+      "description": "Every collection.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "title"
+        },
+        "required": [
+          "id",
+          "title",
+          "updated",
+          "description",
+          "coverage",
+          "sections"
+        ],
+        "properties": {
+          "id": {
+            "description": "The collection's id in collections.json.",
+            "type": "string"
+          },
+          "title": {
+            "description": "Its title.",
+            "type": "string"
+          },
+          "updated": {
+            "description": "When we last checked it, a full date.",
+            "type": "string",
+            "format": "date"
+          },
+          "description": {
+            "description": "What it collects.",
+            "type": "string"
+          },
+          "coverage": {
+            "description": "How complete it is, in a sentence.",
+            "type": "string"
+          },
+          "sections": {
+            "description": "Its sections, in order.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "label": "title"
+              },
+              "required": [
+                "id",
+                "title",
+                "description",
+                "copies"
+              ],
+              "properties": {
+                "id": {
+                  "description": "The section's id, unique in its collection.",
+                  "type": "string"
+                },
+                "title": {
+                  "description": "Its title.",
+                  "type": "string"
+                },
+                "description": {
+                  "description": "What we wrote about the section, for people to read, and the pages it draws on (docs/static-api.md, \"Descriptions\").",
+                  "type": "object",
+                  "required": [
+                    "text"
+                  ],
+                  "properties": {
+                    "text": {
+                      "description": "The text; paragraphs are split by a blank line.",
+                      "type": "string"
+                    },
+                    "sources": {
+                      "description": "The pages this draws on, each with its title.",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "title",
+                          "url"
+                        ],
+                        "properties": {
+                          "title": {
+                            "description": "The page's title.",
+                            "type": "string"
+                          },
+                          "url": {
+                            "description": "The page's url.",
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "see": {
+                  "description": "Our set and distribution pages its cards come from, which link out to their own sources.",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "x-cc": {
+                      "ref": [
+                        "set",
+                        "distribution"
+                      ],
+                      "label": "name"
+                    },
+                    "required": [
+                      "$kind",
+                      "name",
+                      "languages"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `set` or `distribution`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "enum": [
+                          "set",
+                          "distribution"
+                        ]
+                      },
+                      "set": {
+                        "description": "The set's id (sets.json). Present on a `set`.",
+                        "type": "string"
+                      },
+                      "distribution": {
+                        "description": "The distribution's id (distributions/{distribution}.json). Present on a `distribution`.",
+                        "type": "string"
+                      },
+                      "name": {
+                        "description": "A copy of the target's own `name`.",
+                        "type": "string"
+                      },
+                      "category": {
+                        "description": "A copy of the target's own `category`. Present on a `distribution`.",
+                        "type": "string",
+                        "x-cc": {
+                          "vocabulary": "distribution"
+                        },
+                        "$ref": "#/$defs/vocabulary.distribution"
+                      },
+                      "languages": {
+                        "description": "The languages of its cards: a set's, or those of the sets holding a distribution's cards, English first, then Japanese, then Chinese. A section lists its pages in that order too.",
+                        "type": "array",
+                        "items": {
+                          "description": "A language.",
+                          "type": "string",
+                          "x-cc": {
+                            "vocabulary": "language"
+                          },
+                          "$ref": "#/$defs/vocabulary.language"
+                        }
+                      }
+                    },
+                    "allOf": [
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "set"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "set"
+                          ]
+                        }
+                      },
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "distribution"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "distribution",
+                            "category"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "groups": {
+                  "description": "Small groups of its copies that came the same way (one box, one deck), in order; each copy names its `group`.",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "x-cc": {
+                      "label": "title"
+                    },
+                    "required": [
+                      "id",
+                      "title"
+                    ],
+                    "properties": {
+                      "id": {
+                        "description": "The group's id, unique in its section.",
+                        "type": "string"
+                      },
+                      "title": {
+                        "description": "Its label.",
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "copies": {
+                  "description": "Each copy by its pointer (the card's, where the collection names no copy).",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "x-cc": {
+                      "ref": [
+                        "card",
+                        "variant"
+                      ]
+                    },
+                    "required": [
+                      "$kind",
+                      "set",
+                      "card",
+                      "language"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `card` or `variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "enum": [
+                          "card",
+                          "variant"
+                        ]
+                      },
+                      "set": {
+                        "description": "The set's id (sets.json).",
+                        "type": "string"
+                      },
+                      "card": {
+                        "description": "The card's id, unique in its set.",
+                        "type": "string"
+                      },
+                      "variant": {
+                        "description": "The copy's id, unique among its card's (or product's) variants. On a `variant`.",
+                        "type": "string"
+                      },
+                      "language": {
+                        "description": "A copy of the target's own `language`.",
+                        "type": "string",
+                        "x-cc": {
+                          "vocabulary": "language"
+                        },
+                        "$ref": "#/$defs/vocabulary.language"
+                      },
+                      "note": {
+                        "description": "Our note on why it is here.",
+                        "type": "string"
+                      },
+                      "group": {
+                        "description": "The id of the section's group it is in, when the section has groups.",
+                        "type": "string"
+                      },
+                      "via": {
+                        "description": "Set when the copy is here because it is a piece of a V-UNION or LEGEND card whose other piece qualifies, not on its own stamp.",
+                        "enum": [
+                          "v_union",
+                          "legend"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "vocabulary.distribution": {
+      "description": "Every value of vocabulary.json's `distribution`.",
+      "enum": [
+        "product_promotion",
+        "event",
+        "program",
+        "prize",
+        "retailer_promotion",
+        "staff",
+        "campaign",
+        "publication_promotion",
+        "test"
+      ]
+    },
+    "vocabulary.language": {
+      "description": "Every value of vocabulary.json's `language`.",
+      "enum": [
+        "ja",
+        "en",
+        "zh-Hans",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ko",
+        "pt",
+        "pl",
+        "nl",
+        "zh-Hant"
+      ]
+    }
+  }
+}

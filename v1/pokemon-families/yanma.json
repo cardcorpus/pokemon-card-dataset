@@ -1,0 +1,124 @@
+{
+  "id": "yanma",
+  "species": [
+    {
+      "dex": 193,
+      "name": "Yanma",
+      "generation": 2,
+      "category": "Clear Wing Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "yanma"
+      },
+      "names": {
+        "de": "Yanma",
+        "en": "Yanma",
+        "es": "Yanma",
+        "fr": "Yanma",
+        "it": "Yanma",
+        "ja": "ヤンヤンマ",
+        "ko": "왕자리",
+        "ja-Hrkt": "ヤンヤンマ",
+        "zh-Hans": "蜻蜻蜓",
+        "zh-Hant": "蜻蜻蜓"
+      },
+      "description": {
+        "fun": "Yanma's huge eyes see a full 360 degrees without it turning its head, so prey can't slip away even behind it. It can stop dead, turn in midair or hover in place, and flapping fast enough makes shock waves that shatter glass. Its name comes from yanma, the Japanese word for hawker dragonflies.",
+        "guide": "A large dragonfly Pokémon of the Bug and Flying types that sees all around itself without moving its head. It is an agile flier that can hover and make sudden turns, and its rapid wingbeats create shock waves. It evolves into Yanmega after learning Ancient Power.",
+        "tagline": "A dragonfly with all-round vision and glass-shattering wings",
+        "sources": [
+          {
+            "title": "Bulbapedia: Yanma (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "193",
+          "name": "Yanma",
+          "generation": 2,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "cc399a1e870ceb5e2439f631abcad7e4",
+            "home": "05940eb5001b83a9622b6fe7ad436aab"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 469,
+              "form": "469"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 469,
+      "name": "Yanmega",
+      "generation": 4,
+      "category": "Ogre Darner Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "yanma"
+      },
+      "names": {
+        "de": "Yanmega",
+        "en": "Yanmega",
+        "es": "Yanmega",
+        "fr": "Yanmega",
+        "it": "Yanmega",
+        "ja": "メガヤンマ",
+        "ko": "메가자리",
+        "ja-Hrkt": "メガヤンマ",
+        "zh-Hans": "远古巨蜓",
+        "zh-Hant": "遠古巨蜓"
+      },
+      "description": {
+        "fun": "Yanmega evolves by learning Ancient Power, fitting for a Pokémon that seems modelled on Meganeura, a giant prehistoric relative of today's dragonflies. Its wingbeats can knock down huge trees, and its wings are strong enough to carry an adult human. It's said to be so aggressive that only someone incredibly brave can tame one.",
+        "guide": "A large dragonfly Pokémon of the Bug and Flying types, introduced in Generation 4 as Yanma's evolution. It creates powerful shock waves with its wings and can carry an adult human. It seems to be modelled on Meganeura, a giant prehistoric relative of dragonflies.",
+        "tagline": "A prehistoric-sized dragonfly strong enough to carry a person",
+        "sources": [
+          {
+            "title": "Bulbapedia: Yanmega (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Yanmega_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "469",
+          "name": "Yanmega",
+          "generation": 4,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "05527eaa0e4a3e1447c571ce6f01b0e7",
+            "home": "7e6579faec77fa7b32e201d1a81d995f"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 193,
+        "form": "193"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 469,
+        "form": "469"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Ancient Power"
+    }
+  ]
+}

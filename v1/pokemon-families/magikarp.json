@@ -1,0 +1,166 @@
+{
+  "id": "magikarp",
+  "species": [
+    {
+      "dex": 129,
+      "name": "Magikarp",
+      "generation": 1,
+      "category": "Fish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "magikarp"
+      },
+      "names": {
+        "de": "Karpador",
+        "en": "Magikarp",
+        "es": "Magikarp",
+        "fr": "Magicarpe",
+        "it": "Magikarp",
+        "ja": "コイキング",
+        "ko": "잉어킹",
+        "ja-Hrkt": "コイキング",
+        "zh-Hans": "鲤鱼王",
+        "zh-Hant": "鯉魚王"
+      },
+      "description": {
+        "fun": "Magikarp is famous for being useless: in battle it does nothing but flop about, and its splashing makes it an easy meal for birds like Pidgeotto. Yet it's tough enough to survive in the most polluted water, and a long-lived Magikarp can leap high enough to clear a mountain. Its rise into Gyarados may come from a Chinese legend of carp that leap over the Dragon Gate and become dragons.",
+        "guide": "An orange, carp-like Water Pokémon with a crown-like fin, widely known as one of the weakest Pokémon, able to do little but splash. It evolves into the powerful Gyarados at level 20. Its evolution may draw on a Chinese legend of carp turning into dragons.",
+        "tagline": "The weakest fish, until it isn't",
+        "sources": [
+          {
+            "title": "Bulbapedia: Magikarp (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "129",
+          "name": "Magikarp",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "28003ba7845db3b6fbbc41d41baf5f6e",
+            "home": "80df43726c8f6fc795cfb3d03361c17d"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 130,
+              "form": "130"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 130,
+      "name": "Gyarados",
+      "generation": 1,
+      "category": "Atrocious Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "magikarp"
+      },
+      "names": {
+        "de": "Garados",
+        "en": "Gyarados",
+        "es": "Gyarados",
+        "fr": "Léviator",
+        "it": "Gyarados",
+        "ja": "ギャラドス",
+        "ko": "갸라도스",
+        "ja-Hrkt": "ギャラドス",
+        "zh-Hans": "暴鲤龙",
+        "zh-Hant": "暴鯉龍"
+      },
+      "description": {
+        "fun": "Evolving rewires Gyarados's brain, which is thought to be why it's so violent. Feared since ancient times and called the 'deity of destruction' in some regions, it appears in times of conflict and can rampage for a month, with fangs that crush stone and scales harder than steel. Besides Chinese dragons, it may borrow from the sea serpents drawn on old sailors' maps.",
+        "guide": "A huge, blue, serpentine Water and Flying Pokémon that evolves from Magikarp and is known for its violent temper. Its design draws on Chinese dragons and the legend of carp becoming dragons. It can Mega Evolve into Mega Gyarados, which is Water and Dark.",
+        "tagline": "A furious sea dragon that was once a Magikarp",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gyarados (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "130",
+          "name": "Gyarados",
+          "generation": 1,
+          "types": [
+            "water",
+            "flying"
+          ],
+          "pictures": {
+            "official": "d165f862d70f7586c0941e177f9d9fa2",
+            "home": "686f97fdc56ad1260ebc790966432296"
+          }
+        },
+        {
+          "id": "130:mega",
+          "name": "Mega Gyarados",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "water",
+            "dark"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Garados",
+            "en": "Mega Gyarados",
+            "fr": "Méga-Léviator"
+          },
+          "pictures": {
+            "official": "0c6ada8375811aee5e803663ee5977ae",
+            "home": "b0e92359a2eb1506f05578219532f978"
+          },
+          "description": {
+            "fun": "Mega Evolution puts Gyarados under so much stress that every brain function shuts down except its urge to destroy, though it will still obey a Trainer it truly trusts. Jets of water from its sides launch it at Mach speed, with enough force to split large ships in two.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Gyarados (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 129,
+        "form": "129"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 130,
+        "form": "130"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 130,
+        "form": "130"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 130,
+        "form": "130:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

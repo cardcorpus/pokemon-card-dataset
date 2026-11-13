@@ -1,0 +1,124 @@
+{
+  "id": "ducklett",
+  "species": [
+    {
+      "dex": 580,
+      "name": "Ducklett",
+      "generation": 5,
+      "category": "Water Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ducklett"
+      },
+      "names": {
+        "de": "Piccolente",
+        "en": "Ducklett",
+        "es": "Ducklett",
+        "fr": "Couaneton",
+        "it": "Ducklett",
+        "ja": "コアルヒー",
+        "ko": "꼬지보리",
+        "ja-Hrkt": "コアルヒー",
+        "zh-Hans": "鸭宝宝",
+        "zh-Hant": "鴨寶寶"
+      },
+      "description": {
+        "fun": "Ducklett isn't very good at flying yet, so it watches the dances of its Swanna parents to learn how to move its wings. It's far happier in the water: an excellent diver, it hunts for peat and bog moss to eat, and when attacked it splashes water with its feathers and escapes under cover of the spray. Its line retells The Ugly Duckling, and its darker belly feathers look a little like a swim ring.",
+        "guide": "Ducklett is a Water- and Flying-type Pokémon resembling a duckling, a better swimmer than flyer. It dives to eat peat moss and escapes attackers behind a spray of water. It evolves into Swanna.",
+        "tagline": "A duckling that would much rather dive than fly.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ducklett (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ducklett_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "580",
+          "name": "Ducklett",
+          "generation": 5,
+          "types": [
+            "water",
+            "flying"
+          ],
+          "pictures": {
+            "official": "0d551b9508856ade913641ebdcf10349",
+            "home": "364b6888df36616e15c65320a7d0728b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 581,
+              "form": "581"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 581,
+      "name": "Swanna",
+      "generation": 5,
+      "category": "White Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ducklett"
+      },
+      "names": {
+        "de": "Swaroness",
+        "en": "Swanna",
+        "es": "Swanna",
+        "fr": "Lakmécygne",
+        "it": "Swanna",
+        "ja": "スワンナ",
+        "ko": "스완나",
+        "ja-Hrkt": "スワンナ",
+        "zh-Hans": "舞天鹅",
+        "zh-Hant": "舞天鵝"
+      },
+      "description": {
+        "fun": "At dusk, flocks of Swanna dance in perfect sync around their leader, and many artists say they were inspired by a Swanna dancing in the light of dawn. It's tougher than it looks: its wings carry it thousands of miles, and its long neck whips its bill into sharp, repeated pecks. Based on a mute swan, it also borrows from Odette's costume in the ballet Swan Lake, completing the Ugly Duckling tale its line retells.",
+        "guide": "Swanna is the evolved form of Ducklett, a Water- and Flying-type swan Pokémon. Flocks dance together at dusk around a leader, and it can fly thousands of miles.",
+        "tagline": "A graceful dancing swan with a surprisingly hard peck.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Swanna (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Swanna_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "581",
+          "name": "Swanna",
+          "generation": 5,
+          "types": [
+            "water",
+            "flying"
+          ],
+          "pictures": {
+            "official": "a7867bfb2f4d2ff23686bb4b6215fe3d",
+            "home": "1f6582270625cd7070c0a0fdc26b76ea"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 580,
+        "form": "580"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 581,
+        "form": "581"
+      },
+      "change": "evolves",
+      "how": "Level 35"
+    }
+  ]
+}

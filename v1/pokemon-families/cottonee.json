@@ -1,0 +1,124 @@
+{
+  "id": "cottonee",
+  "species": [
+    {
+      "dex": 546,
+      "name": "Cottonee",
+      "generation": 5,
+      "category": "Cotton Puff Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cottonee"
+      },
+      "names": {
+        "de": "Waumboll",
+        "en": "Cottonee",
+        "es": "Cottonee",
+        "fr": "Doudouvet",
+        "it": "Cottonee",
+        "ja": "モンメン",
+        "ko": "소미안",
+        "ja-Hrkt": "モンメン",
+        "zh-Hans": "木棉球",
+        "zh-Hant": "木棉球"
+      },
+      "description": {
+        "fun": "Cottonee goes wherever the wind takes it, and when it meets others of its kind they stick together until the mass looks like a cumulonimbus cloud. Caught in hurricane winds, it can be blown to the other side of the world. When attacked, it shoots cotton as a decoy and quickly grows more. Its cotton makes top-quality pillows, and woven with Eldegoss cotton it becomes cloth prized by luxury brands.",
+        "guide": "Cottonee is a Grass- and Fairy-type Pokémon resembling a ball of cotton that floats wherever the wind carries it. It shoots cotton from its body as a decoy when attacked; it was pure Grass type until Generation 6. It evolves into Whimsicott with a Sun Stone.",
+        "tagline": "A windblown puff of cotton that clumps into clouds.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cottonee (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cottonee_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "546",
+          "name": "Cottonee",
+          "generation": 5,
+          "types": [
+            "grass",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "ce7dd853e25c98d9928a8309796b5f88",
+            "home": "c56f601a66063ebf8ad6278af0f2d325"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 547,
+              "form": "547"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 547,
+      "name": "Whimsicott",
+      "generation": 5,
+      "category": "Windveiled Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cottonee"
+      },
+      "names": {
+        "de": "Elfun",
+        "en": "Whimsicott",
+        "es": "Whimsicott",
+        "fr": "Farfaduvet",
+        "it": "Whimsicott",
+        "ja": "エルフーン",
+        "ko": "엘풍",
+        "ja-Hrkt": "エルフーン",
+        "zh-Hans": "风妖精",
+        "zh-Hant": "風妖精"
+      },
+      "description": {
+        "fun": "Whimsicott blows in on whirlwinds, slips through any gap into people's homes, moves the furniture, hides important things and leaves the room a cotton-filled mess, then giggles and takes off. If it gets wet, though, it's too heavy to escape and has to answer for its mischief. Designer Atsuko Nishida has joked that Genghis Khan, a Japanese grilled mutton dish, was an inspiration, fitting for a Pokémon that's part sheep.",
+        "guide": "Whimsicott is the evolved form of Cottonee, a Grass- and Fairy-type Pokémon covered in cotton. It travels on whirlwinds and is a notorious prankster, sneaking into houses through small gaps. It became part Fairy type in Generation 6.",
+        "tagline": "A cotton-fluffed prankster that blows in on the wind.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Whimsicott (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Whimsicott_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "547",
+          "name": "Whimsicott",
+          "generation": 5,
+          "types": [
+            "grass",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "db0a2ea5f7111f239813ee3f56a321a4",
+            "home": "5e13be77bed51cc0748dbf3eaebff3e5"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 546,
+        "form": "546"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 547,
+        "form": "547"
+      },
+      "change": "evolves",
+      "how": "Sun Stone"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "makuhita",
+  "species": [
+    {
+      "dex": 296,
+      "name": "Makuhita",
+      "generation": 3,
+      "category": "Guts Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "makuhita"
+      },
+      "names": {
+        "de": "Makuhita",
+        "en": "Makuhita",
+        "es": "Makuhita",
+        "fr": "Makuhita",
+        "it": "Makuhita",
+        "ja": "マクノシタ",
+        "ko": "마크탕",
+        "ja-Hrkt": "マクノシタ",
+        "zh-Hans": "幕下力士",
+        "zh-Hant": "幕下力士"
+      },
+      "description": {
+        "fun": "Makuhita never gives up: every time it's knocked down, it gets back up with more energy than before. It trains by slapping and slamming into trees, so its nest is ringed with broken trunks, and it sometimes mistakes an Exeggutor for a tree and gets flung away. Its name likely comes from makushita, the third-highest division of sumo.",
+        "guide": "A Fighting-type Pokémon based on a young sumo wrestler, with a topknot and hands like boxing gloves. It trains by slamming into trees and eats and sleeps a lot. It evolves into Hariyama at level 24.",
+        "tagline": "A gutsy sumo trainee that gets stronger every time it falls",
+        "sources": [
+          {
+            "title": "Bulbapedia: Makuhita (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Makuhita_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "296",
+          "name": "Makuhita",
+          "generation": 3,
+          "types": [
+            "fighting"
+          ],
+          "pictures": {
+            "official": "a91cd2d6bda2968cd48878751cad5e79",
+            "home": "971b06e2b832cb49f3c560b4a4713bd2"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 297,
+              "form": "297"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 297,
+      "name": "Hariyama",
+      "generation": 3,
+      "category": "Arm Thrust Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "makuhita"
+      },
+      "names": {
+        "de": "Hariyama",
+        "en": "Hariyama",
+        "es": "Hariyama",
+        "fr": "Hariyama",
+        "it": "Hariyama",
+        "ja": "ハリテヤマ",
+        "ko": "하리뭉",
+        "ja-Hrkt": "ハリテヤマ",
+        "zh-Hans": "铁掌力士",
+        "zh-Hant": "鐵掌力士"
+      },
+      "description": {
+        "fun": "Hariyama's palm strikes can send a truck flying, snap a telephone pole in two and even stop a train. For all that power it's a good sport, praising its opponents and keeping to the etiquette of the ring, and older Hariyama spend their days training young Makuhita. The Paradox Pokémon Iron Hands is said to be a future relative of it.",
+        "guide": "A Fighting-type Pokémon based on a sumo wrestler, its body made almost entirely of muscle. Every one of its base stats is exactly double Makuhita's. It evolves from Makuhita at level 24.",
+        "tagline": "A sumo heavyweight whose palm strikes can stop a train",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hariyama (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hariyama_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "297",
+          "name": "Hariyama",
+          "generation": 3,
+          "types": [
+            "fighting"
+          ],
+          "pictures": {
+            "official": "cb2f593ba08d2ed0d644eb5e8ac9b4b5",
+            "home": "0bd6b3ce22a40b03ee406bced37817e2"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 296,
+        "form": "296"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 297,
+        "form": "297"
+      },
+      "change": "evolves",
+      "how": "Level 24"
+    }
+  ]
+}

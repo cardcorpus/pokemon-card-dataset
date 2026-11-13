@@ -1,0 +1,122 @@
+{
+  "id": "tarountula",
+  "species": [
+    {
+      "dex": 917,
+      "name": "Tarountula",
+      "generation": 9,
+      "category": "String Ball Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tarountula"
+      },
+      "names": {
+        "de": "Tarundel",
+        "en": "Tarountula",
+        "es": "Tarountula",
+        "fr": "Tissenboule",
+        "it": "Tarountula",
+        "ja": "タマンチュラ",
+        "ko": "타랜툴라",
+        "ja-Hrkt": "タマンチュラ",
+        "zh-Hans": "团珠蛛",
+        "zh-Hant": "團珠蛛"
+      },
+      "description": {
+        "fun": "A little spider wrapped in a ball of thread it spins from its rear. The thread is as strong as wire and elastic enough to deflect the scythes of Scyther, its natural enemy, and researchers are still trying to work out its secret. Tarountula sometimes hangs upside down from trees on a strand of it.",
+        "guide": "A Bug-type spider Pokémon from Pokémon Scarlet and Violet, wrapped in a ball of wire-strong thread. Tarountula evolves into Spidops.",
+        "tagline": "A spider wrapped in a ball of super-strong string",
+        "sources": [
+          {
+            "title": "Bulbapedia: Tarountula (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Tarountula_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "917",
+          "name": "Tarountula",
+          "generation": 9,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "2d464d30700648729ca9c641bf694f53",
+            "home": "e9790ac63d40f408541f14014f3b72fc"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 918,
+              "form": "918"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 918,
+      "name": "Spidops",
+      "generation": 9,
+      "category": "Trap Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tarountula"
+      },
+      "names": {
+        "de": "Spinsidias",
+        "en": "Spidops",
+        "es": "Spidops",
+        "fr": "Filentrappe",
+        "it": "Spidops",
+        "ja": "ワナイダー",
+        "ko": "트래피더",
+        "ja-Hrkt": "ワナイダー",
+        "zh-Hans": "操陷蛛",
+        "zh-Hant": "操陷蛛"
+      },
+      "description": {
+        "fun": "A spider with the look of a special-ops agent, goggle eyes and armoured vest included. It clings to branches and ceilings with its threads, moves without a sound and takes out its prey before it even notices. It covers its territory in tough, sticky threads to trap intruders. Its name packs in 'spider', 'spy' and 'ops'.",
+        "guide": "The evolution of Tarountula, a Bug-type Pokémon based on net-casting spiders and special forces. It moves silently on its threads and traps its territory with sticky silk.",
+        "tagline": "A spy spider that rigs its territory with tripwires",
+        "sources": [
+          {
+            "title": "Bulbapedia: Spidops (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Spidops_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "918",
+          "name": "Spidops",
+          "generation": 9,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "997213ce624a74ae1ad987eb439b3569",
+            "home": "81f8f0a2236841854b1d27c3f059209b"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 917,
+        "form": "917"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 918,
+        "form": "918"
+      },
+      "change": "evolves",
+      "how": "Level 15"
+    }
+  ]
+}

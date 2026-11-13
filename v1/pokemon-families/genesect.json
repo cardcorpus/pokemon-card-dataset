@@ -1,0 +1,189 @@
+{
+  "id": "genesect",
+  "species": [
+    {
+      "dex": 649,
+      "name": "Genesect",
+      "generation": 5,
+      "category": "Paleozoic Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "genesect"
+      },
+      "names": {
+        "de": "Genesect",
+        "en": "Genesect",
+        "es": "Genesect",
+        "fr": "Genesect",
+        "it": "Genesect",
+        "ja": "ゲノセクト",
+        "ko": "게노세크트",
+        "ja-Hrkt": "ゲノセクト",
+        "zh-Hans": "盖诺赛克特",
+        "zh-Hant": "蓋諾賽克特"
+      },
+      "description": {
+        "fun": "Genesect was feared as the strongest of hunters some 300 million years ago, in the Paleozoic era, until Team Plasma revived it from a fossil and modified it, adding the cannon on its back. Slot in one of four Drives and its cannon fires blasts of water, electricity, fire or ice. It can fold into a disc-like flight configuration to soar at high speed, and it's said to be completely devoid of mercy.",
+        "guide": "Genesect is a Bug- and Steel-type Mythical Pokémon, an ancient bug revived and modified by Team Plasma. Inserting a Drive into the cannon on its back changes the element of its attack.",
+        "tagline": "A 300-million-year-old bug rebuilt with a cannon on its back.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Genesect (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "649",
+          "name": "Genesect",
+          "lookName": "Genesect",
+          "generation": 5,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "pictures": {
+            "official": "2d9a56f86a52b77bbcddca66b8dfe6f7",
+            "home": "3cc5c3b6007541d9d1d3b7a918e78643"
+          }
+        },
+        {
+          "id": "649:douse",
+          "name": "Douse Drive Genesect",
+          "category": "cosmetic",
+          "generation": 5,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "names": {
+            "de": "Genesect (Aquamodul)",
+            "en": "Douse Drive Genesect",
+            "fr": "Genesect Aqua"
+          },
+          "pictures": {
+            "official": "62b3e323bc39fba35167cc16464190a1",
+            "home": "3bcce5c203733f28bfea91b5d11f9b4a"
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "649:shock",
+          "name": "Shock Drive Genesect",
+          "category": "cosmetic",
+          "generation": 5,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "names": {
+            "de": "Genesect (Blitzmodul)",
+            "en": "Shock Drive Genesect",
+            "fr": "Genesect Choc"
+          },
+          "pictures": {
+            "official": "bc62bcc679468c0c9be6beb790c05f1b",
+            "home": "78e506834873ed7f609c2046943559cf"
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "649:burn",
+          "name": "Burn Drive Genesect",
+          "category": "cosmetic",
+          "generation": 5,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "names": {
+            "de": "Genesect (Flammenmodul)",
+            "en": "Burn Drive Genesect",
+            "fr": "Genesect Pyro"
+          },
+          "pictures": {
+            "official": "f9db90387ed9a8211937ac25d08cf257",
+            "home": "4bd3e936036ef727a5334259437195b7"
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "649:chill",
+          "name": "Chill Drive Genesect",
+          "category": "cosmetic",
+          "generation": 5,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "names": {
+            "de": "Genesect (Gefriermodul)",
+            "en": "Chill Drive Genesect",
+            "fr": "Genesect Cryo"
+          },
+          "pictures": {
+            "official": "7b305e41642de2db2fac154fe77f40f2",
+            "home": "d1ecba721c7c744e412f12703d864981"
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649:douse"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649:shock"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649:burn"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 649,
+        "form": "649:chill"
+      },
+      "change": "form_change"
+    }
+  ]
+}

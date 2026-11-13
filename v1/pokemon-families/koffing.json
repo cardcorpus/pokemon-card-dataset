@@ -1,0 +1,185 @@
+{
+  "id": "koffing",
+  "species": [
+    {
+      "dex": 109,
+      "name": "Koffing",
+      "generation": 1,
+      "category": "Poison Gas Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "koffing"
+      },
+      "names": {
+        "de": "Smogon",
+        "en": "Koffing",
+        "es": "Koffing",
+        "fr": "Smogo",
+        "it": "Koffing",
+        "ja": "ドガース",
+        "ko": "또가스",
+        "ja-Hrkt": "ドガース",
+        "zh-Hans": "瓦斯弹",
+        "zh-Hant": "瓦斯彈"
+      },
+      "description": {
+        "fun": "Koffing brews its gas by mixing toxins with rubbish, and makes more of it when it's hot. The gas is lighter than air, which is how it floats, and it causes sniffles, coughs and watery eyes in anyone nearby. Its skin is so thin that over-inflating can make it explode. Its name is a play on 'coughing', and its Japanese name, Dogars, on 'poison gas'.",
+        "guide": "A round, purple Poison Pokémon filled with toxic gases that let it float, marked with a skull-and-crossbones pattern. It feeds on fumes from rubbish and polluted air. It evolves into Weezing, or into Galarian Weezing if it evolves in Galar.",
+        "tagline": "A floating ball of smog with a skull and crossbones",
+        "sources": [
+          {
+            "title": "Bulbapedia: Koffing (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "109",
+          "name": "Koffing",
+          "generation": 1,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "ebf6e8387eec018447e7304ad6368792",
+            "home": "18e4c83ff57a4d2d37dd8ad9f2308085"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 110,
+              "form": "110"
+            },
+            {
+              "$kind": "form",
+              "species": 110,
+              "form": "110:galar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 110,
+      "name": "Weezing",
+      "generation": 1,
+      "category": "Poison Gas Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "koffing"
+      },
+      "names": {
+        "de": "Smogmog",
+        "en": "Weezing",
+        "es": "Weezing",
+        "fr": "Smogogo",
+        "it": "Weezing",
+        "ja": "マタドガス",
+        "ko": "또도가스",
+        "ja-Hrkt": "マタドガス",
+        "zh-Hans": "双弹瓦斯",
+        "zh-Hant": "雙彈瓦斯"
+      },
+      "description": {
+        "fun": "Weezing forms when two Koffing fuse over many years in pools of poisonous gas, and a rare triplet version has even been reported. Each head holds a different toxin, and it mixes them by inflating one head and deflating the other. It nests in messy houses and rummages in the bins at night. Strangely, its gas, diluted as far as possible, makes top-grade perfume.",
+        "guide": "The evolution of Koffing, a Poison Pokémon with two gas-filled heads joined together, each holding a different toxin. It lives in dirty places and feeds on gases from rubbish. Its Galarian form is a Poison and Fairy type that cleans polluted air.",
+        "tagline": "Two Koffing fused into one smelly, two-headed cloud",
+        "sources": [
+          {
+            "title": "Bulbapedia: Weezing (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "110",
+          "name": "Weezing",
+          "generation": 1,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "870279e6869090a2b5576e2c256990c1",
+            "home": "2979cad91141859b15a6c6e8685a0645"
+          }
+        },
+        {
+          "id": "110:galar",
+          "name": "Galarian Weezing",
+          "category": "regional",
+          "region": "galar",
+          "generation": 8,
+          "types": [
+            "poison",
+            "fairy"
+          ],
+          "names": {
+            "de": "Galar Smogmog",
+            "en": "Galarian Weezing",
+            "fr": "Smogogo de Galar"
+          },
+          "pictures": {
+            "official": "8740497fd6de5e51eb365a73215751b3",
+            "home": "7e4a1c1eb398ac672363b9cd3eee1f81"
+          },
+          "description": {
+            "fun": "Factory smog turned Galar's Weezing into a gentleman with top-hat chimneys and a moustache of poison gas. It breathes in polluted air and puffs out clean air instead, and a single whiff of the gas clouds drifting around it can stop a foe in its tracks.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Weezing (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "galarian"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 109,
+        "form": "109"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 110,
+        "form": "110"
+      },
+      "change": "evolves",
+      "how": "Level 35"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 109,
+        "form": "109"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 110,
+        "form": "110:galar"
+      },
+      "change": "evolves",
+      "how": "Level 35, in Galar",
+      "note": {
+        "text": "Same level, different place: any Koffing that evolves in Galar becomes Galarian Weezing, wherever it came from.",
+        "term": "regional_rule",
+        "sources": [
+          {
+            "title": "Bulbapedia: Regional form",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Regional_form"
+          },
+          {
+            "title": "Bulbapedia: Weezing (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

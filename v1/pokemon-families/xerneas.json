@@ -1,0 +1,89 @@
+{
+  "id": "xerneas",
+  "species": [
+    {
+      "dex": 716,
+      "name": "Xerneas",
+      "generation": 6,
+      "category": "Life Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "xerneas"
+      },
+      "names": {
+        "de": "Xerneas",
+        "en": "Xerneas",
+        "es": "Xerneas",
+        "fr": "Xerneas",
+        "it": "Xerneas",
+        "ja": "ゼルネアス",
+        "ko": "제르네아스",
+        "ja-Hrkt": "ゼルネアス",
+        "zh-Hans": "哲尔尼亚斯",
+        "zh-Hant": "哲爾尼亞斯"
+      },
+      "description": {
+        "fun": "Xerneas, the mascot of Pokémon X, is the Legendary Pokémon of life: its antlers shine in seven colours and can share eternal life, and its energy can raise whole forests. Legend says it rescued wounded Pokémon in an ancient war, and that when its energy is spent it turns into a tree and sleeps for 1,000 years. Ken Sugimori and Yusuke Ohmura shaped its silhouette like the letter X.",
+        "guide": "Xerneas is a Fairy-type Legendary Pokémon and the mascot of Pokémon X, a stag shaped like the letter X that represents life. Its antlers glow in many colours in Active Mode, its battle form, and turn blue when it rests. With Yveltal it keeps the balance of life and death in Kalos.",
+        "tagline": "The rainbow-antlered stag of life from Pokémon X",
+        "sources": [
+          {
+            "title": "Bulbapedia: Xerneas (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "716",
+          "name": "Xerneas",
+          "lookName": "Neutral Xerneas",
+          "generation": 6,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "b6beb10493768ed98f1f010a81e81c72",
+            "home": "bc05d3a69486d2c4c02a0488ec34409f"
+          }
+        },
+        {
+          "id": "716:active",
+          "name": "Active Xerneas",
+          "category": "cosmetic",
+          "generation": 6,
+          "types": [
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Xerneas (Aktiv)",
+            "en": "Active Xerneas",
+            "fr": "Xerneas Déchaîné"
+          },
+          "pictures": {
+            "official": "c5640a11fd11918efa80e529712f2f79",
+            "home": "2565fd4d69c76ec77601f23ef31132d1"
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 716,
+        "form": "716"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 716,
+        "form": "716:active"
+      },
+      "change": "form_change"
+    }
+  ]
+}

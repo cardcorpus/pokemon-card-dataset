@@ -1,0 +1,124 @@
+{
+  "id": "tirtouga",
+  "species": [
+    {
+      "dex": 564,
+      "name": "Tirtouga",
+      "generation": 5,
+      "category": "Prototurtle Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tirtouga"
+      },
+      "names": {
+        "de": "Galapaflos",
+        "en": "Tirtouga",
+        "es": "Tirtouga",
+        "fr": "Carapagos",
+        "it": "Tirtouga",
+        "ja": "プロトーガ",
+        "ko": "프로토가",
+        "ja-Hrkt": "プロトーガ",
+        "zh-Hans": "原盖海龟",
+        "zh-Hant": "原蓋海龜"
+      },
+      "description": {
+        "fun": "Tirtouga swam warm seas about a hundred million years ago, and studies of its skeleton suggest it could dive more than half a mile deep. It's thought to be the ancestor of most turtle Pokémon. Its hunting grounds ran from the deep sea right up onto land, where it crawled ashore after prey even though crawling was all it could manage. It draws on Protostega and Archelon, the largest sea turtles ever known.",
+        "guide": "Tirtouga is a Water- and Rock-type Fossil Pokémon revived from the Cover Fossil, an ancient sea turtle thought to be the ancestor of most turtle Pokémon. It could dive to great depths and came onto land to hunt. It evolves into Carracosta.",
+        "tagline": "A prehistoric sea turtle that crawled ashore to hunt.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Tirtouga (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Tirtouga_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "564",
+          "name": "Tirtouga",
+          "generation": 5,
+          "types": [
+            "water",
+            "rock"
+          ],
+          "pictures": {
+            "official": "6f8386c2c0dbc819a2c445a303a10189",
+            "home": "d6c7f362bc59c1a0252953fc5ccf3b5a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 565,
+              "form": "565"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 565,
+      "name": "Carracosta",
+      "generation": 5,
+      "category": "Prototurtle Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tirtouga"
+      },
+      "names": {
+        "de": "Karippas",
+        "en": "Carracosta",
+        "es": "Carracosta",
+        "fr": "Mégapagos",
+        "it": "Carracosta",
+        "ja": "アバゴーラ",
+        "ko": "늑골라",
+        "ja-Hrkt": "アバゴーラ",
+        "zh-Hans": "肋骨海龟",
+        "zh-Hant": "肋骨海龜"
+      },
+      "description": {
+        "fun": "Carracosta eats every last bit of its prey, shells and bones included, and that diet is what builds its thick, sturdy shell. Its jaws can chew through steel beams and rocks, and one slap of its flippers can punch a hole in the bottom of a tanker. Slow on land, it drags land prey into the water to finish it off, and in ancient seas it hunted Omanyte and Omastar.",
+        "guide": "Carracosta is the evolved form of Tirtouga, a Water- and Rock-type Fossil Pokémon with powerful flippers and jaws. It eats its prey shells, bones and all, which makes its own shell thick and sturdy. It hunts both in the sea and on land.",
+        "tagline": "An ancient turtle that eats shells, bones and steel beams.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Carracosta (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Carracosta_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "565",
+          "name": "Carracosta",
+          "generation": 5,
+          "types": [
+            "water",
+            "rock"
+          ],
+          "pictures": {
+            "official": "2792441ffd04cccf4dea96edcbe4b47e",
+            "home": "caf338d5182976539b53dc7ca7c35a5f"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 564,
+        "form": "564"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 565,
+        "form": "565"
+      },
+      "change": "evolves",
+      "how": "Level 37"
+    }
+  ]
+}

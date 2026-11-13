@@ -1,0 +1,185 @@
+{
+  "id": "cubone",
+  "species": [
+    {
+      "dex": 104,
+      "name": "Cubone",
+      "generation": 1,
+      "category": "Lonely Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cubone"
+      },
+      "names": {
+        "de": "Tragosso",
+        "en": "Cubone",
+        "es": "Cubone",
+        "fr": "Osselait",
+        "it": "Cubone",
+        "ja": "カラカラ",
+        "ko": "탕구리",
+        "ja-Hrkt": "カラカラ",
+        "zh-Hans": "卡拉卡拉",
+        "zh-Hant": "卡拉卡拉"
+      },
+      "description": {
+        "fun": "Cubone is famous for wearing a skull as a helmet, which the Pokédex says belonged to its mother. It cries for her at night, especially under a full moon, and the skull rattles with a mournful sound. It's said to evolve once it comes to terms with its loss. Curiously, Cubone that hatch from Eggs in the games already come wearing a skull.",
+        "guide": "A small, brown Ground Pokémon that wears a skull on its head, said in the Pokédex to be its mother's, and carries a bone as a weapon. It is shy and often cries at night. It evolves into Marowak, or into Alolan Marowak if it evolves in Alola.",
+        "tagline": "A lonely little Pokémon in a skull helmet",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cubone (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cubone_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "104",
+          "name": "Cubone",
+          "generation": 1,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "0586bfe3f8180e6b22b941079596660b",
+            "home": "0bde5092440f1bb9d827cad58d64a38b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 105,
+              "form": "105"
+            },
+            {
+              "$kind": "form",
+              "species": 105,
+              "form": "105:alola"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 105,
+      "name": "Marowak",
+      "generation": 1,
+      "category": "Bone Keeper Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cubone"
+      },
+      "names": {
+        "de": "Knogga",
+        "en": "Marowak",
+        "es": "Marowak",
+        "fr": "Ossatueur",
+        "it": "Marowak",
+        "ja": "ガラガラ",
+        "ko": "텅구리",
+        "ja-Hrkt": "ガラガラ",
+        "zh-Hans": "嘎啦嘎啦",
+        "zh-Hant": "嘎啦嘎啦"
+      },
+      "description": {
+        "fun": "Once Cubone has worked through its grief, it becomes Marowak, a tough fighter that wields its bone as a club and a boomerang; the skull is now part of its body and can't come off. It taps out messages to other Marowak by pounding rocks with its bone, and rumour says a hidden graveyard for Marowak exists somewhere in the world, a nod to the legendary elephants' graveyard.",
+        "guide": "The evolution of Cubone, a Ground Pokémon whose skull helmet has become part of its body. Having overcome its grief, it is a fierce fighter that uses its bone as a club and a boomerang. Its Alolan form is a Fire and Ghost type.",
+        "tagline": "Cubone, grown tough, with a bone boomerang",
+        "sources": [
+          {
+            "title": "Bulbapedia: Marowak (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "105",
+          "name": "Marowak",
+          "generation": 1,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "1b22abb6c54eb56d820adb096e62574e",
+            "home": "4f80f3b9a658853f9207a5e15d0e47b2"
+          }
+        },
+        {
+          "id": "105:alola",
+          "name": "Alolan Marowak",
+          "category": "regional",
+          "region": "alola",
+          "generation": 7,
+          "types": [
+            "fire",
+            "ghost"
+          ],
+          "names": {
+            "de": "Alola Knogga",
+            "en": "Alolan Marowak",
+            "fr": "Ossatueur d’Alola"
+          },
+          "pictures": {
+            "official": "eaf8c979648f4c03f80cbcd627344082",
+            "home": "c2a010ffefc0997f98528d516418b662"
+          },
+          "description": {
+            "fun": "Surrounded by Grass-type foes in Alola, Marowak bonded closely with its friends and took on a new form, wielding a bone it lights with green flames said to be its mother's spirit. Alolans once feared it as a conjurer for its dance with the burning bone, which is also how it mourns lost friends.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Marowak (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "alolan"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 104,
+        "form": "104"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 105,
+        "form": "105"
+      },
+      "change": "evolves",
+      "how": "Level 28"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 104,
+        "form": "104"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 105,
+        "form": "105:alola"
+      },
+      "change": "evolves",
+      "how": "Level 28, at night, in Alola",
+      "note": {
+        "text": "In Alola, Cubone evolves at night, and always into Alolan Marowak, wherever it came from.",
+        "term": "regional_rule",
+        "sources": [
+          {
+            "title": "Bulbapedia: Regional form",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Regional_form"
+          },
+          {
+            "title": "Bulbapedia: Marowak (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

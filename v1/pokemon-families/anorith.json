@@ -1,0 +1,124 @@
+{
+  "id": "anorith",
+  "species": [
+    {
+      "dex": 347,
+      "name": "Anorith",
+      "generation": 3,
+      "category": "Old Shrimp Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "anorith"
+      },
+      "names": {
+        "de": "Anorith",
+        "en": "Anorith",
+        "es": "Anorith",
+        "fr": "Anorith",
+        "it": "Anorith",
+        "ja": "アノプス",
+        "ko": "아노딥스",
+        "ja-Hrkt": "アノプス",
+        "zh-Hans": "太古羽虫",
+        "zh-Hant": "太古羽蟲"
+      },
+      "description": {
+        "fun": "Anorith swam the seas 100 million years ago, rowing itself along with the eight wing-like flaps on its sides like the oars of a boat. It can be revived from a Claw Fossil, but it can't thrive in today's oceans because the water has changed since ancient times. It's thought to be an ancestor of modern Bug Pokémon, and it's closely modelled on Anomalocaris, a real prehistoric sea creature.",
+        "guide": "A Rock- and Bug-type Fossil Pokémon based on Anomalocaris, revived from the Claw Fossil. It is thought to be an ancestor of today's Bug Pokémon. It evolves into Armaldo at level 40.",
+        "tagline": "A prehistoric sea bug that rowed with eight wing-like oars",
+        "sources": [
+          {
+            "title": "Bulbapedia: Anorith (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Anorith_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "347",
+          "name": "Anorith",
+          "generation": 3,
+          "types": [
+            "rock",
+            "bug"
+          ],
+          "pictures": {
+            "official": "561bab6f1ae2925321713095ef393bea",
+            "home": "a8de05e5ce2600e50e847a7370ad4c7c"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 348,
+              "form": "348"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 348,
+      "name": "Armaldo",
+      "generation": 3,
+      "category": "Plate Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "anorith"
+      },
+      "names": {
+        "de": "Armaldo",
+        "en": "Armaldo",
+        "es": "Armaldo",
+        "fr": "Armaldo",
+        "it": "Armaldo",
+        "ja": "アーマルド",
+        "ko": "아말도",
+        "ja-Hrkt": "アーマルド",
+        "zh-Hans": "太古盔甲",
+        "zh-Hant": "太古盔甲"
+      },
+      "description": {
+        "fun": "Armaldo lived on land at the water's edge in ancient times, diving into the sea to hunt and swimming with the two large wings on its back. Its thick shell protected it, and its retractable claws could smash stone and punch through a steel slab. With Anorith, it's the only Pokémon that can have Swift Swim yet is weak to Water-type moves.",
+        "guide": "A Rock- and Bug-type Fossil Pokémon based on Anomalocaris, covered in thick armour plates. It evolves from Anorith at level 40.",
+        "tagline": "An armoured ancient hunter with claws that punch through steel",
+        "sources": [
+          {
+            "title": "Bulbapedia: Armaldo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "348",
+          "name": "Armaldo",
+          "generation": 3,
+          "types": [
+            "rock",
+            "bug"
+          ],
+          "pictures": {
+            "official": "f6b2d3fb175b69d033be63e7c04bb9e7",
+            "home": "8116cda63397479498fad02e7ab84842"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 347,
+        "form": "347"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 348,
+        "form": "348"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

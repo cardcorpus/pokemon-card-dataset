@@ -1,0 +1,123 @@
+{
+  "id": "bunnelby",
+  "species": [
+    {
+      "dex": 659,
+      "name": "Bunnelby",
+      "generation": 6,
+      "category": "Digging Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "bunnelby"
+      },
+      "names": {
+        "de": "Scoppel",
+        "en": "Bunnelby",
+        "es": "Bunnelby",
+        "fr": "Sapereau",
+        "it": "Bunnelby",
+        "ja": "ホルビー",
+        "ko": "파르빗",
+        "ja-Hrkt": "ホルビー",
+        "zh-Hans": "掘掘兔",
+        "zh-Hant": "掘掘兔"
+      },
+      "description": {
+        "fun": "Bunnelby's ears double as shovels: the three-fingered tips are strong enough to scoop earth and chop through tree roots, so it can dig a 10-metre burrow in one night without stopping for a rest. It's nervous by nature, and the flap of a Corviknight's wings, its natural predator, sends it straight underground. Its name is a bunny and a tunnel rolled into one.",
+        "guide": "Bunnelby is a Normal-type rabbit Pokémon from Kalos. Its large ears end in hand-like tips that it uses like shovels to dig burrows and cut through roots. It is very alert to danger and hides underground at the first sign of a predator.",
+        "tagline": "A nervous bunny with shovels for ears",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bunnelby (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bunnelby_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "659",
+          "name": "Bunnelby",
+          "generation": 6,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "77cf7056fbcc71976236fba2258b3523",
+            "home": "7d00b416214575e83207a2b2263970dc"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 660,
+              "form": "660"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 660,
+      "name": "Diggersby",
+      "generation": 6,
+      "category": "Digging Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "bunnelby"
+      },
+      "names": {
+        "de": "Grebbit",
+        "en": "Diggersby",
+        "es": "Diggersby",
+        "fr": "Excavarenne",
+        "it": "Diggersby",
+        "ja": "ホルード",
+        "ko": "파르토",
+        "ja-Hrkt": "ホルード",
+        "zh-Hans": "掘地兔",
+        "zh-Hant": "掘地兔"
+      },
+      "description": {
+        "fun": "Diggersby is a walking excavator: its arm-like ears can lift more than a ton and smash dense bedrock to rubble, making it a star at construction sites, especially on tunnel jobs. Once the work is done, it lounges about with its paws tucked into the woolly band round its belly, fur so warm that people once made winter clothes from it. That band is modelled on a haramaki belly warmer.",
+        "guide": "Diggersby is a Normal- and Ground-type Pokémon that evolves from Bunnelby. Its huge, muscular ears work like an excavator, so it is a great help with tunnelling and construction, though it lazes about once the job is done. The thick fur around its waist holds heat well.",
+        "tagline": "A lazy construction worker whose ears are excavators",
+        "sources": [
+          {
+            "title": "Bulbapedia: Diggersby (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Diggersby_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "660",
+          "name": "Diggersby",
+          "generation": 6,
+          "types": [
+            "normal",
+            "ground"
+          ],
+          "pictures": {
+            "official": "97f9e67900730d639fccab554fa9efba",
+            "home": "2faf23ca5487953de8f19f7004a6d83a"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 659,
+        "form": "659"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 660,
+        "form": "660"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    }
+  ]
+}

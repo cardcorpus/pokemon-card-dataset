@@ -1,0 +1,122 @@
+{
+  "id": "greavard",
+  "species": [
+    {
+      "dex": 971,
+      "name": "Greavard",
+      "generation": 9,
+      "category": "Ghost Dog Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "greavard"
+      },
+      "names": {
+        "de": "Gruff",
+        "en": "Greavard",
+        "es": "Greavard",
+        "fr": "Toutombe",
+        "it": "Greavard",
+        "ja": "ボチ",
+        "ko": "망망이",
+        "ja-Hrkt": "ボチ",
+        "zh-Hans": "墓仔狗",
+        "zh-Hant": "墓仔狗"
+      },
+      "description": {
+        "fun": "A shaggy ghost puppy said to be the rebirth of a dog Pokémon that died in the wild without ever meeting a human. It buries itself with just the candle on its head showing, then pops out with a spooky cry. It's friendly and hates being alone: pay it the slightest attention and it will follow you forever, though cuddling it too often slowly drains your life force.",
+        "guide": "A Ghost-type dog Pokémon from Pokémon Scarlet and Violet, designed by Kazuyuki Kurashima and based on the Catalan Sheepdog. It evolves into Houndstone when levelled up at night.",
+        "tagline": "A lonely ghost puppy that follows you forever",
+        "sources": [
+          {
+            "title": "Bulbapedia: Greavard (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Greavard_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "971",
+          "name": "Greavard",
+          "generation": 9,
+          "types": [
+            "ghost"
+          ],
+          "pictures": {
+            "official": "fdd3d265e50e141e2f2fdd6504f2c7fe",
+            "home": "9fe0d0cbbce750c49cf3e278f87f132c"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 972,
+              "form": "972"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 972,
+      "name": "Houndstone",
+      "generation": 9,
+      "category": "Ghost Dog Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "greavard"
+      },
+      "names": {
+        "de": "Friedwuff",
+        "en": "Houndstone",
+        "es": "Houndstone",
+        "fr": "Tomberro",
+        "it": "Houndstone",
+        "ja": "ハカドッグ",
+        "ko": "묘두기",
+        "ja-Hrkt": "ハカドッグ",
+        "zh-Hans": "墓扬犬",
+        "zh-Hant": "墓揚犬"
+      },
+      "description": {
+        "fun": "The most loyal of all dog Pokémon. A Pokémon that was lovingly mourned, or one that spent years guarding its departed master's grave, may be reborn as Houndstone. It spends most of its time sleeping in graveyards, and it doesn't like anyone touching the headstone on its head. It's one of the few Pokémon that weighs less than its pre-evolution.",
+        "guide": "The evolution of Greavard, a Ghost-type dog Pokémon tied to mourning and graveyards, with a headstone on its head. It may draw on dog spirits from Spanish folklore, such as the Pesanta and the Dip, and on the loyal White Cadejo.",
+        "tagline": "The most loyal dog, still guarding a grave",
+        "sources": [
+          {
+            "title": "Bulbapedia: Houndstone (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Houndstone_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "972",
+          "name": "Houndstone",
+          "generation": 9,
+          "types": [
+            "ghost"
+          ],
+          "pictures": {
+            "official": "50aa541495ad545f8bc4c73c84237fd4",
+            "home": "676f6ad407d8f2206e2e947428c81e5d"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 971,
+        "form": "971"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 972,
+        "form": "972"
+      },
+      "change": "evolves",
+      "how": "Level 30, at night"
+    }
+  ]
+}

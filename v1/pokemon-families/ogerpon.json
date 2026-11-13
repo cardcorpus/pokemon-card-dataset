@@ -1,0 +1,178 @@
+{
+  "id": "ogerpon",
+  "species": [
+    {
+      "dex": 1017,
+      "name": "Ogerpon",
+      "generation": 9,
+      "category": "Mask Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ogerpon"
+      },
+      "names": {
+        "de": "Ogerpon",
+        "en": "Ogerpon",
+        "es": "Ogerpon",
+        "fr": "Ogerpon",
+        "it": "Ogerpon",
+        "ja": "オーガポン",
+        "ko": "오거폰",
+        "ja-Hrkt": "オーガポン",
+        "zh-Hans": "厄诡椪",
+        "zh-Hant": "厄鬼椪"
+      },
+      "description": {
+        "fun": "A mischievous, mask-wearing ogre that Kitakami's legends paint as a villain, though it's really the hero of the tale. It's curious about people, slipping into the Festival of Masks in disguise and pinching snacks from town. Each of its four masks changes its type, and when it Terastallizes a giant crystal copy of the mask floats in front of it. Its orange face may be modelled on a dekopon.",
+        "guide": "A Grass-type Legendary Pokémon and the mascot of The Teal Mask, designed by Hitoshi Ariga and based on the oni of Japanese folklore. It has four forms, one for each mask it wears: the Teal Mask, Wellspring Mask (Water), Hearthflame Mask (Fire) and Cornerstone Mask (Rock).",
+        "tagline": "A mischievous mask-wearing ogre who's secretly the hero",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ogerpon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "1017",
+          "name": "Ogerpon",
+          "generation": 9,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "65b0c760fc752ed0c19c03c658fbf15e",
+            "home": "5f752e2732ecc6057263e543a0305235"
+          }
+        },
+        {
+          "id": "1017:wellspring-mask",
+          "name": "Wellspring Mask Ogerpon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "grass",
+            "water"
+          ],
+          "names": {
+            "en": "Wellspring Mask Ogerpon",
+            "fr": "Ogerpon du Puits"
+          },
+          "pictures": {
+            "official": "8cbc6d02c40f1dfcfb056e65271a36a2",
+            "home": "c5c998df287ae5a690206459e60b2e2b"
+          },
+          "description": {
+            "fun": "Wearing the Wellspring Mask, Ogerpon becomes Grass and Water and attacks as relentlessly as gushing spring water; the mask is said to be able to stop a river's flow. It may draw on the legend of a maiden turned into a dragon in Lake Tazawa.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Ogerpon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1017:hearthflame-mask",
+          "name": "Hearthflame Mask Ogerpon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "grass",
+            "fire"
+          ],
+          "names": {
+            "en": "Hearthflame Mask Ogerpon",
+            "fr": "Ogerpon du Fourneau"
+          },
+          "pictures": {
+            "official": "58a749aa0fc972b2887326c3b8c7adc1",
+            "home": "d32833dc27165617dddde3943cb41a91"
+          },
+          "description": {
+            "fun": "The Hearthflame Mask makes Ogerpon Grass and Fire and its most aggressive form, spearing foes with thorny ivy; the mask is said to rouse a candle flame into an inferno. Its furious face resembles the oni masks of Noh theatre.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Ogerpon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1017:cornerstone-mask",
+          "name": "Cornerstone Mask Ogerpon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "grass",
+            "rock"
+          ],
+          "names": {
+            "en": "Cornerstone Mask Ogerpon",
+            "fr": "Ogerpon de la Pierre"
+          },
+          "pictures": {
+            "official": "7f784030f208a80ccc8291ca99a5bebf",
+            "home": "50f7442b657d25a1d65a378f2a1d83dd"
+          },
+          "description": {
+            "fun": "The Cornerstone Mask makes Ogerpon Grass and Rock, its body as solid as the cornerstones that hold up houses; the mask is said to split even the hardest stone. It may be based on onigawara, the oni-faced ornaments on Japanese roofs.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Ogerpon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1017,
+        "form": "1017"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1017,
+        "form": "1017:wellspring-mask"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1017,
+        "form": "1017"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1017,
+        "form": "1017:hearthflame-mask"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1017,
+        "form": "1017"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1017,
+        "form": "1017:cornerstone-mask"
+      },
+      "change": "form_change"
+    }
+  ]
+}

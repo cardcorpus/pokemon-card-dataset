@@ -1,0 +1,98 @@
+{
+  "id": "thundurus",
+  "species": [
+    {
+      "dex": 642,
+      "name": "Thundurus",
+      "generation": 5,
+      "category": "Bolt Strike Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "thundurus"
+      },
+      "names": {
+        "de": "Voltolos",
+        "en": "Thundurus",
+        "es": "Thundurus",
+        "fr": "Fulguris",
+        "it": "Thundurus",
+        "ja": "ボルトロス",
+        "ko": "볼트로스",
+        "ja-Hrkt": "ボルトロス",
+        "zh-Hans": "雷电云",
+        "zh-Hant": "雷電雲"
+      },
+      "description": {
+        "fun": "Thundurus flies around firing lightning bolts from the spikes on its tail, starting forest fires wherever it goes, so it's widely disliked, and charred remains mark every place it has passed. Yet the bolts it hurls pierce the earth and enrich the soil. It has waged war with its nemesis Tornadus since time immemorial. Its genie-like form is based on Raijin, the Japanese god of thunder and lightning.",
+        "guide": "Thundurus is an Electric- and Flying-type Legendary Pokémon, one of the forces of nature, that hurls lightning as it flies. It has an Incarnate Forme and a beast-like Therian Forme. It does not evolve.",
+        "tagline": "A lightning-hurling thunder genie that leaves scorched land behind.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Thundurus (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "642",
+          "name": "Thundurus",
+          "generation": 5,
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "pictures": {
+            "official": "ff16418cc0ba168a528c6a29c86b48ac",
+            "home": "c76196721138e40b31df8d29b97122a3"
+          }
+        },
+        {
+          "id": "642:therian",
+          "name": "Therian Forme Thundurus",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "names": {
+            "de": "Voltolos (Tiergeist)",
+            "en": "Therian Forme Thundurus",
+            "fr": "Fulguris Totémique"
+          },
+          "pictures": {
+            "official": "4bbf316f61acc0ab954447408aedb022",
+            "home": "be363b83f95b00c6c434778b31ffb9f2"
+          },
+          "description": {
+            "fun": "Its true form, revealed by the Reveal Glass, is a sleek blue dragon-like beast that materialises out of nowhere and pulverises foes with lightning from the orbs on its tail. It loosely matches the Azure Dragon of the east, and in Hisui it roams the eastern Cobalt Coastlands.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Thundurus (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 642,
+        "form": "642"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 642,
+        "form": "642:therian"
+      },
+      "change": "form_change"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "palkia",
+  "species": [
+    {
+      "dex": 484,
+      "name": "Palkia",
+      "generation": 4,
+      "category": "Spatial Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "palkia"
+      },
+      "names": {
+        "de": "Palkia",
+        "en": "Palkia",
+        "es": "Palkia",
+        "fr": "Palkia",
+        "it": "Palkia",
+        "ja": "パルキア",
+        "ko": "펄기아",
+        "ja-Hrkt": "パルキア",
+        "zh-Hans": "帕路奇亚",
+        "zh-Hant": "帕路奇亞"
+      },
+      "description": {
+        "fun": "Palkia rules space: legend says that when it was born, the walls of the world vanished and an infinite sky opened up, and space has been steadied by its every breath since. It lives in a gap in a parallel dimension and can warp space to reach far-off places or other worlds. Its name mixes pearl, galaxia and the Japanese kai, 'sea'.",
+        "guide": "Palkia is a Water- and Dragon-type Legendary Pokémon that controls space, and the mascot of Pokémon Pearl. In Sinnoh myth it was created by Arceus alongside Dialga and Giratina. With the Lustrous Globe it takes its Origin Forme, said to be its true form.",
+        "tagline": "The legendary dragon whose every breath steadies space.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Palkia (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "484",
+          "name": "Palkia",
+          "generation": 4,
+          "types": [
+            "water",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "846e7f56b24461750d37f665f4c81e0f",
+            "home": "4e699fef3050e29449865414dfecfafe"
+          }
+        },
+        {
+          "id": "484:origin",
+          "name": "Origin Forme Palkia",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "water",
+            "dragon"
+          ],
+          "names": {
+            "de": "Ur-Palkia",
+            "en": "Origin Forme Palkia",
+            "fr": "Palkia Originel"
+          },
+          "pictures": {
+            "official": "0f52c406a9370686a87c62664acaab71",
+            "home": "f11d6176a936ac23af267204526a5e8e"
+          },
+          "description": {
+            "fun": "Its true form, brought out by the Lustrous Globe: a winged, centaur-like dragon that walks on all fours, can rear up on its hind legs, and resembles Arceus, perhaps, it's thought, to borrow its creator's power.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Palkia (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 484,
+        "form": "484"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 484,
+        "form": "484:origin"
+      },
+      "change": "form_change"
+    }
+  ]
+}

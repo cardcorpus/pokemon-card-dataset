@@ -1,0 +1,98 @@
+{
+  "id": "dialga",
+  "species": [
+    {
+      "dex": 483,
+      "name": "Dialga",
+      "generation": 4,
+      "category": "Temporal Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "dialga"
+      },
+      "names": {
+        "de": "Dialga",
+        "en": "Dialga",
+        "es": "Dialga",
+        "fr": "Dialga",
+        "it": "Dialga",
+        "ja": "ディアルガ",
+        "ko": "디아루가",
+        "ja-Hrkt": "ディアルガ",
+        "zh-Hans": "帝牙卢卡",
+        "zh-Hant": "帝牙盧卡"
+      },
+      "description": {
+        "fun": "Dialga rules time: legend says time began to flow when it was born and keeps flowing as long as its heart beats. The gear-like fin on its back and the clock-hand lines on its body fit the theme, and its Steel type nods to adamant, the unbreakable metal of old legends. Ken Sugimori designed it, and it fronted Pokémon Diamond on the box.",
+        "guide": "Dialga is a Steel- and Dragon-type Legendary Pokémon that controls time, and the mascot of Pokémon Diamond. In Sinnoh myth it was created by Arceus alongside Palkia and Giratina. With the Adamant Crystal it takes its Origin Forme, said to be its true form.",
+        "tagline": "The legendary dragon whose heartbeat keeps time flowing.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dialga (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "483",
+          "name": "Dialga",
+          "generation": 4,
+          "types": [
+            "steel",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "92f7f4ff7c997693b244cce123ea491a",
+            "home": "d9121635599b304e4b534d4283b8dbee"
+          }
+        },
+        {
+          "id": "483:origin",
+          "name": "Origin Forme Dialga",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "steel",
+            "dragon"
+          ],
+          "names": {
+            "de": "Ur-Dialga",
+            "en": "Origin Forme Dialga",
+            "fr": "Diagla Originel"
+          },
+          "pictures": {
+            "official": "84326136455bf85cb3d5eadfdc81fa59",
+            "home": "be95cba875c10973e96c004f3f00b2c0"
+          },
+          "description": {
+            "fun": "Its true form, brought out by the Adamant Crystal: a four-legged, centaur-like dragon that strongly resembles its creator, Arceus, with full command of time.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Dialga (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 483,
+        "form": "483"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 483,
+        "form": "483:origin"
+      },
+      "change": "form_change"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus marketplace ids of a set",
+  "description": "The TCGplayer and Cardmarket products that sell one set's cards: each card by its id with every product its records name, and each of its copies by its id with the one product that prices it, TCGplayer's product and subtype, Cardmarket's product and, with reverseHolo, the price guide's -holo fields (docs/static-api.md, \"Marketplace ids\").",
+  "type": "object",
+  "required": [
+    "set",
+    "cards"
+  ],
+  "properties": {
+    "set": {
+      "description": "The set's id (sets.json).",
+      "type": "string"
+    },
+    "cards": {
+      "description": "Each card, by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "tcgplayer": {
+            "description": "Every TCGplayer product its records name.",
+            "type": "array",
+            "items": {
+              "description": "A TCGplayer product id.",
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "cardmarket": {
+            "description": "Every Cardmarket product its records name.",
+            "type": "array",
+            "items": {
+              "description": "A Cardmarket product id.",
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "variants": {
+            "description": "Each of its copies, by its id, with the one product that prices it.",
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "tcgplayer": {
+                  "description": "TCGplayer's product and subtype.",
+                  "type": "object",
+                  "required": [
+                    "product",
+                    "subtype"
+                  ],
+                  "properties": {
+                    "product": {
+                      "description": "The TCGplayer product id.",
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "subtype": {
+                      "description": "The price subtype (\"Holofoil\", \"Reverse Holofoil\").",
+                      "type": "string"
+                    }
+                  }
+                },
+                "cardmarket": {
+                  "description": "Cardmarket's product.",
+                  "type": "object",
+                  "required": [
+                    "product"
+                  ],
+                  "properties": {
+                    "product": {
+                      "description": "The Cardmarket product id.",
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "reverseHolo": {
+                      "description": "Present where the copy is priced by the price guide's -holo fields.",
+                      "const": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

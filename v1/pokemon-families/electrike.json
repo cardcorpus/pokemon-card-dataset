@@ -1,0 +1,164 @@
+{
+  "id": "electrike",
+  "species": [
+    {
+      "dex": 309,
+      "name": "Electrike",
+      "generation": 3,
+      "category": "Lightning Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "electrike"
+      },
+      "names": {
+        "de": "Frizelbliz",
+        "en": "Electrike",
+        "es": "Electrike",
+        "fr": "Dynavolt",
+        "it": "Electrike",
+        "ja": "ラクライ",
+        "ko": "썬더라이",
+        "ja-Hrkt": "ラクライ",
+        "zh-Hans": "落雷兽",
+        "zh-Hant": "落雷獸"
+      },
+      "description": {
+        "fun": "Electrike charges its leg muscles with the electricity in its fur and runs faster than the human eye can follow. It makes that electricity from friction with the air, so it throws off showers of sparks in dry weather or before a storm. In the anime, grooming one with a metal brush gives the groomer a nasty shock.",
+        "guide": "An Electric-type Pokémon resembling a green puppy, partly inspired by the raijū, a lightning creature of Japanese folklore. It makes electricity from friction with the air. It evolves into Manectric at level 26.",
+        "tagline": "A sparking green pup that outruns the human eye",
+        "sources": [
+          {
+            "title": "Bulbapedia: Electrike (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "309",
+          "name": "Electrike",
+          "generation": 3,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "ff51ccf110516112c8a9f02a8bdf93d1",
+            "home": "ea387b5d33098163f1ca8e95828a4234"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 310,
+              "form": "310"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 310,
+      "name": "Manectric",
+      "generation": 3,
+      "category": "Discharge Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "electrike"
+      },
+      "names": {
+        "de": "Voltenso",
+        "en": "Manectric",
+        "es": "Manectric",
+        "fr": "Élecsprint",
+        "it": "Manectric",
+        "ja": "ライボルト",
+        "ko": "썬더볼트",
+        "ja-Hrkt": "ライボルト",
+        "zh-Hans": "雷电兽",
+        "zh-Hant": "雷電獸"
+      },
+      "description": {
+        "fun": "Manectric gathers electricity in its mane and discharges it to create thunderclouds. Lightning strikes so often around it that people say it was born from lightning and nests where a bolt has struck. It rarely lets people see it. Its English name joins 'mane' and 'electric', and its snout looks a little like a crocodile clip.",
+        "guide": "An Electric-type Pokémon resembling a blue wolf with a spiky yellow mane, which builds thunderclouds from the electricity it stores. It evolves from Electrike at level 26 and can Mega Evolve with the Manectite.",
+        "tagline": "A lightning wolf said to nest where thunderbolts strike",
+        "sources": [
+          {
+            "title": "Bulbapedia: Manectric (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Manectric_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "310",
+          "name": "Manectric",
+          "generation": 3,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "2c34cae765a475c1c1523cfcbdf5744e",
+            "home": "407a32a7f55e290c84e5c70b0425ec71"
+          }
+        },
+        {
+          "id": "310:mega",
+          "name": "Mega Manectric",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "electric"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Voltenso",
+            "en": "Mega Manectric",
+            "fr": "Méga-Élecsprint"
+          },
+          "pictures": {
+            "official": "15eff3304621e327feb4df9d7795ff24",
+            "home": "8adc82b20fd17c556e482f4693b8dc71"
+          },
+          "description": {
+            "fun": "Mega Manectric's mane grows huge and runs down its back in jagged spikes, and it moves as fast as a lightning bolt. Its body fills with more electricity than it can control, which leaves it permanently irritable. It may take some inspiration from the maned wolf.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Manectric (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Manectric_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 309,
+        "form": "309"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 310,
+        "form": "310"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 310,
+        "form": "310"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 310,
+        "form": "310:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

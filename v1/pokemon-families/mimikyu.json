@@ -1,0 +1,98 @@
+{
+  "id": "mimikyu",
+  "species": [
+    {
+      "dex": 778,
+      "name": "Mimikyu",
+      "generation": 7,
+      "category": "Disguise Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mimikyu"
+      },
+      "names": {
+        "de": "Mimigma",
+        "en": "Mimikyu",
+        "es": "Mimikyu",
+        "fr": "Mimiqui",
+        "it": "Mimikyu",
+        "ja": "ミミッキュ",
+        "ko": "따라큐",
+        "ja-Hrkt": "ミミッキュ",
+        "zh-Hans": "谜拟丘",
+        "zh-Hant": "謎擬Ｑ"
+      },
+      "description": {
+        "fun": "Mimikyu is a lonely little ghost hiding under a homemade Pikachu costume, hoping to make friends because Pikachu goods were all the rage twenty years ago; sadly, the crayon face only makes it creepier. No one knows what's underneath, and Alolans dare not peek, since anyone who sees its true form is said to fall mysteriously ill. Designed by Megumi Mizutani, it was voted the most popular Generation VII Pokémon in a 2020 poll.",
+        "guide": "Mimikyu is a Ghost- and Fairy-type Pokémon from Alola that hides under a cloth made to look like Pikachu. Its Disguise Ability lets the costume take the first hit, after which it switches to its Busted Form. Its true appearance is unknown.",
+        "tagline": "A lonely ghost in a homemade Pikachu costume, desperate for friends",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mimikyu (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "778",
+          "name": "Mimikyu",
+          "generation": 7,
+          "types": [
+            "ghost",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "d044acfd560b6b2eccee96ad8fb30d59",
+            "home": "f071a42154d196a8fc21690297e6a556"
+          }
+        },
+        {
+          "id": "778:busted",
+          "name": "Busted Form Mimikyu",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "ghost",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mimigma (Entlarvt)",
+            "en": "Busted Form Mimikyu",
+            "fr": "Mimiqui Forme Démasquée"
+          },
+          "pictures": {
+            "official": "e03604c1a71046d80bce6090b056914b",
+            "home": "36626b4c4dad266b00ba9427fee5541f"
+          },
+          "description": {
+            "fun": "When an attack hits Mimikyu, its costume's neck snaps and the head flops back, giving the disguise away. It's deeply sad when that happens and spends all night patching the rag in front of a mirror, crying inside, then hunts down whoever damaged it and never forgets them.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Mimikyu (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 778,
+        "form": "778"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 778,
+        "form": "778:busted"
+      },
+      "change": "form_change"
+    }
+  ]
+}

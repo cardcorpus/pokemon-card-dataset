@@ -1,0 +1,180 @@
+{
+  "id": "castform",
+  "species": [
+    {
+      "dex": 351,
+      "name": "Castform",
+      "generation": 3,
+      "category": "Weather Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "castform"
+      },
+      "names": {
+        "de": "Formeo",
+        "en": "Castform",
+        "es": "Castform",
+        "fr": "Morphéo",
+        "it": "Castform",
+        "ja": "ポワルン",
+        "ko": "캐스퐁",
+        "ja-Hrkt": "ポワルン",
+        "zh-Hans": "飘浮泡泡",
+        "zh-Hant": "飄浮泡泡"
+      },
+      "description": {
+        "fun": "Castform is an artificial Pokémon whose body is made of cells like water molecules, so temperature and humidity change its shape whether it likes it or not. It becomes a little sun in strong sunlight, a raindrop in the rain and a snow cloud in hail. Every experiment to trigger its changes artificially has failed. Its look recalls a teru teru bōzu, a Japanese charm doll hung up to wish for good weather.",
+        "guide": "A Normal-type Pokémon created artificially, whose Forecast Ability changes its form and type with the weather in battle. It lives in grassland areas. It does not evolve.",
+        "tagline": "A man-made weather sprite that changes shape with the sky",
+        "sources": [
+          {
+            "title": "Bulbapedia: Castform (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "351",
+          "name": "Castform",
+          "generation": 3,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "d1f06876e07379b46ef975dd7cd21c33",
+            "home": "51ddbca7480c078351700b3cd5dbe08d"
+          }
+        },
+        {
+          "id": "351:sunny",
+          "name": "Sunny Form Castform",
+          "category": "alternate",
+          "generation": 3,
+          "types": [
+            "fire"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Formeo (Sonne)",
+            "en": "Sunny Form Castform",
+            "fr": "Morphéo Solaire"
+          },
+          "pictures": {
+            "official": "4c1c804be02a4ba6fa4b3ec5a339731d",
+            "home": "496db9301dcdc3f51dcbb31e7011d566"
+          },
+          "description": {
+            "fun": "In harsh sunlight Castform becomes a little sun sitting on a white cloud: its head turns orange and is ringed with small orbs, and its skin glows and dries out until it's hot to the touch. In this form it is a Fire type.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Castform (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "351:rainy",
+          "name": "Rainy Form Castform",
+          "category": "alternate",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Formeo (Regen)",
+            "en": "Rainy Form Castform",
+            "fr": "Morphéo Eau de Pluie"
+          },
+          "pictures": {
+            "official": "1b2a326e16662d560a146713f91caed2",
+            "home": "789fdf827423e195353bedb327de1e4b"
+          },
+          "description": {
+            "fun": "When it's soaked by rain, Castform becomes a blue raindrop above a dark storm cloud. Its body turns soft and slippery and seeps water if squeezed. In this form it is a Water type.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Castform (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "351:snowy",
+          "name": "Snowy Form Castform",
+          "category": "alternate",
+          "generation": 3,
+          "types": [
+            "ice"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Formeo (Schnee)",
+            "en": "Snowy Form Castform",
+            "fr": "Morphéo Blizzard"
+          },
+          "pictures": {
+            "official": "4996b9e07fcf259d5f84e6ab41e58dc0",
+            "home": "2cc23d3071b85fa62a30742910353cb2"
+          },
+          "description": {
+            "fun": "In hail or snow, Castform's head turns purplish blue and its body becomes a mint-green cloud of smooth, ice-like material, chilled to about −5 °C. In this form it is an Ice type.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Castform (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 351,
+        "form": "351"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 351,
+        "form": "351:sunny"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 351,
+        "form": "351"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 351,
+        "form": "351:rainy"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 351,
+        "form": "351"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 351,
+        "form": "351:snowy"
+      },
+      "change": "form_change"
+    }
+  ]
+}

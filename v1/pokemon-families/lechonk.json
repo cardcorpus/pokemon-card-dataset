@@ -1,0 +1,176 @@
+{
+  "id": "lechonk",
+  "species": [
+    {
+      "dex": 915,
+      "name": "Lechonk",
+      "generation": 9,
+      "category": "Hog Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "lechonk"
+      },
+      "names": {
+        "de": "Ferkuli",
+        "en": "Lechonk",
+        "es": "Lechonk",
+        "fr": "Gourmelet",
+        "it": "Lechonk",
+        "ja": "グルトン",
+        "ko": "맛보돈",
+        "ja-Hrkt": "グルトン",
+        "zh-Hans": "爱吃豚",
+        "zh-Hant": "愛吃豚"
+      },
+      "description": {
+        "fun": "A little hog that spends all day hunting for food, and it uses its excellent nose for nothing else. It turns its snout up at anything but the finest fragrant grasses, and all that herbal eating leaves it with a scent that bug Pokémon detest. It looks round, but it's mostly muscle from walking around foraging. It even starred in The Pokémon Company's April Fools' campaign in 2023.",
+        "guide": "A Normal-type hog Pokémon from Pokémon Scarlet and Violet that forages for fragrant food with its keen sense of smell. Lechonk evolves into Oinkologne, which looks different depending on whether it is male or female.",
+        "tagline": "A gourmet piglet with a nose only for food",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lechonk (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lechonk_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "branches": {
+        "text": "Gender decides. A male Lechonk becomes the black Oinkologne with an atomizer-shaped tail and an alluring scent; a female becomes the brown Oinkologne with a tasselled tail and a soothing floral aroma.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Oinkologne (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Oinkologne_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "915",
+          "name": "Lechonk",
+          "generation": 9,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "c51a7aaf15af53ed339935fe2da40b22",
+            "home": "2909e731e48770404f0bc2144c8335ee"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 916,
+              "form": "916"
+            },
+            {
+              "$kind": "form",
+              "species": 916,
+              "form": "916:female"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 916,
+      "name": "Oinkologne",
+      "generation": 9,
+      "category": "Hog Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "lechonk"
+      },
+      "names": {
+        "de": "Fragrunz",
+        "en": "Oinkologne",
+        "es": "Oinkologne",
+        "fr": "Fragroin",
+        "it": "Oinkologne",
+        "ja": "パフュートン",
+        "ko": "퍼퓨돈",
+        "ja-Hrkt": "パフュートン",
+        "zh-Hans": "飘香豚",
+        "zh-Hant": "飄香豚"
+      },
+      "description": {
+        "fun": "Oinkologne is proud of its fine, glossy skin and wears a scent like perfume. The male sprays a concentrated aroma from the bulb on the tip of its tail, shaped like a perfume atomizer, to entrance female Pokémon. Its design plays on the fact that real pigs prefer to be clean, and its name blends 'oink' with eau de Cologne.",
+        "guide": "The evolution of Lechonk, a Normal-type hog Pokémon that gives off perfume-like scents. Males and females differ in colour, tail and Ability; it is the only Pokémon introduced in Generation IX with gender differences.",
+        "tagline": "A pig that wears its own perfume",
+        "sources": [
+          {
+            "title": "Bulbapedia: Oinkologne (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Oinkologne_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "916",
+          "name": "Oinkologne",
+          "generation": 9,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "4abd41a8841881319ef97d64e51075eb",
+            "home": "c69ec0f8c3e4f4a9321a6f8d4314ceb7"
+          }
+        },
+        {
+          "id": "916:female",
+          "name": "Female Oinkologne",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "normal"
+          ],
+          "names": {
+            "en": "Female Oinkologne",
+            "fr": "Fragroin Femelle"
+          },
+          "pictures": {
+            "official": "c7390003b84bbafce2a58d56d28a960a",
+            "home": "b6da91cf25225d09ca0b910a13f197d9"
+          },
+          "description": {
+            "fun": "The female has a brown coat and a tail ending in three tassels, and wraps herself in a floral aroma that soothes the Pokémon around her. She's meticulous and likes to keep things tidy, and her strong legs let her leap more than 16 feet with no trouble at all.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Oinkologne (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Oinkologne_(Pok%C3%A9mon)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 915,
+        "form": "915"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 916,
+        "form": "916"
+      },
+      "change": "evolves",
+      "how": "Level 18 (male)"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 915,
+        "form": "915"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 916,
+        "form": "916:female"
+      },
+      "change": "evolves",
+      "how": "Level 18 (female)"
+    }
+  ]
+}

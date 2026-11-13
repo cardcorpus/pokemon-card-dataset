@@ -1,0 +1,123 @@
+{
+  "id": "pineco",
+  "species": [
+    {
+      "dex": 204,
+      "name": "Pineco",
+      "generation": 2,
+      "category": "Bagworm Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pineco"
+      },
+      "names": {
+        "de": "Tannza",
+        "en": "Pineco",
+        "es": "Pineco",
+        "fr": "Pomdepik",
+        "it": "Pineco",
+        "ja": "クヌギダマ",
+        "ko": "피콘",
+        "ja-Hrkt": "クヌギダマ",
+        "zh-Hans": "榛果球",
+        "zh-Hant": "榛果球"
+      },
+      "description": {
+        "fun": "Pineco makes its own armour, spitting a glue that hardens in air and sticking tree bark onto its shell, so the oldest Pineco grow huge. It hangs from branches waiting for flying insects (in Alola, Cutiefly is its favourite), and if you shake its tree while it's eating, it drops to the ground and explodes. Between the bark and the bang, it looks a lot like a grenade.",
+        "guide": "A Bug-type Pokémon that thickens its pine-cone-like shell by gluing tree bark to it. It hangs from branches waiting for insects and explodes if its tree is shaken. It evolves into Forretress at level 31.",
+        "tagline": "A pine cone that glues on bark and explodes if disturbed",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pineco (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pineco_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "204",
+          "name": "Pineco",
+          "generation": 2,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "88d10469f31999f74102c6f931633c58",
+            "home": "cde582a15f807ea2f21e7897fb750795"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 205,
+              "form": "205"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 205,
+      "name": "Forretress",
+      "generation": 2,
+      "category": "Bagworm Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pineco"
+      },
+      "names": {
+        "de": "Forstellka",
+        "en": "Forretress",
+        "es": "Forretress",
+        "fr": "Foretress",
+        "it": "Forretress",
+        "ja": "フォレトス",
+        "ko": "쏘콘",
+        "ja-Hrkt": "フォレトス",
+        "zh-Hans": "佛烈托斯",
+        "zh-Hant": "佛烈托斯"
+      },
+      "description": {
+        "fun": "Forretress is a steel-plated ball that fixes itself to tree trunks and, by sheer reflex, fires bits of its shell at anything that comes near. It opens up to snatch prey so fast that nobody has seen what's inside. It's also the first Pokémon in the National Pokédex that was a Steel type from the start, since Magnemite and Magneton only gained the type in Generation 2.",
+        "guide": "A Bug- and Steel-type Pokémon, the evolution of Pineco, with a spherical body capped by steel plates and tube-like spikes. It attaches itself to tree trunks and shoots pieces of its shell at enemies. Its name blends 'forest' and 'fortress'.",
+        "tagline": "A steel-plated fortress whose insides no one has ever seen",
+        "sources": [
+          {
+            "title": "Bulbapedia: Forretress (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "205",
+          "name": "Forretress",
+          "generation": 2,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "pictures": {
+            "official": "2078b2e7ac576140077f35f8684881cb",
+            "home": "00f389bd30f199f2df5c80dd028b7937"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 204,
+        "form": "204"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 205,
+        "form": "205"
+      },
+      "change": "evolves",
+      "how": "Level 31"
+    }
+  ]
+}

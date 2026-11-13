@@ -1,0 +1,98 @@
+{
+  "id": "enamorus",
+  "species": [
+    {
+      "dex": 905,
+      "name": "Enamorus",
+      "generation": 8,
+      "category": "Love-Hate Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "enamorus"
+      },
+      "names": {
+        "de": "Cupidos",
+        "en": "Enamorus",
+        "es": "Enamorus",
+        "fr": "Amovénus",
+        "it": "Enamorus",
+        "ja": "ラブトロス",
+        "ko": "러브로스",
+        "ja-Hrkt": "ラブトロス",
+        "zh-Hans": "眷恋云",
+        "zh-Hant": "眷戀雲"
+      },
+      "description": {
+        "fun": "The Herald of Spring: when Enamorus flies in from across the sea, Hisui's bitter winter comes to an end, and its love is said to make fresh life bud across the land. It's the fourth of the forces of nature, alongside Tornadus, Thundurus and Landorus, and the only female one. Its name blends 'enamour', 'amorous' and Aeolus, the Greek ruler of the winds.",
+        "guide": "A Fairy and Flying-type Legendary Pokémon from Pokémon Legends: Arceus and the only female member of the forces of nature. The Reveal Glass changes it from Incarnate Forme to Therian Forme.",
+        "tagline": "The Herald of Spring who ends Hisui's winter",
+        "sources": [
+          {
+            "title": "Bulbapedia: Enamorus (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "905",
+          "name": "Enamorus",
+          "generation": 8,
+          "types": [
+            "fairy",
+            "flying"
+          ],
+          "pictures": {
+            "official": "11226df7b81d32943b701ebe360c2767",
+            "home": "ab269b5c3fd44e3227142962c88777e5"
+          }
+        },
+        {
+          "id": "905:therian",
+          "name": "Therian Forme Enamorus",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "fairy",
+            "flying"
+          ],
+          "names": {
+            "de": "Enamorus (Tiergeist)",
+            "en": "Therian Forme Enamorus",
+            "fr": "Amovénus Totémique"
+          },
+          "pictures": {
+            "official": "912262fb7ab57ab2b1a83eac6174aa20",
+            "home": "0ebf6f93d0740132ce7d367d70d7fe35"
+          },
+          "description": {
+            "fun": "Its true form, revealed by the Reveal Glass: a long-necked turtle whose snake-like tail coils on top of its cloud shell, echoing the Black Tortoise of Chinese myth. In this guise it descends from the clouds on those who treat any form of life with disrespect, and metes out wrathful, ruthless punishment.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Enamorus (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 905,
+        "form": "905"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 905,
+        "form": "905:therian"
+      },
+      "change": "form_change"
+    }
+  ]
+}

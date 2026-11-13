@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus eras",
+  "description": "Every era, by catalog, each with its sets in order.",
+  "type": "object",
+  "required": [
+    "eraCount",
+    "eras"
+  ],
+  "properties": {
+    "eraCount": {
+      "description": "How many eras; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "eras": {
+      "description": "Every era, by catalog, then in order.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "catalog",
+          "id",
+          "name",
+          "position",
+          "sets"
+        ],
+        "properties": {
+          "catalog": {
+            "description": "Its catalog.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "catalog"
+            },
+            "$ref": "#/$defs/vocabulary.catalog"
+          },
+          "id": {
+            "description": "Its id: its catalog, then a slug kept when the era is renamed (\"international/original-series\").",
+            "type": "string"
+          },
+          "name": {
+            "description": "Its name.",
+            "type": "string"
+          },
+          "position": {
+            "description": "Its place among its catalog's eras.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "sets": {
+            "description": "Its sets, in order.",
+            "type": "array",
+            "items": {
+              "description": "A set.",
+              "type": "object",
+              "x-cc": {
+                "ref": "set"
+              },
+              "required": [
+                "$kind",
+                "set"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "set"
+                },
+                "set": {
+                  "description": "The set's id (sets.json).",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    }
+  }
+}

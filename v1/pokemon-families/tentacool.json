@@ -1,0 +1,124 @@
+{
+  "id": "tentacool",
+  "species": [
+    {
+      "dex": 72,
+      "name": "Tentacool",
+      "generation": 1,
+      "category": "Jellyfish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tentacool"
+      },
+      "names": {
+        "de": "Tentacha",
+        "en": "Tentacool",
+        "es": "Tentacool",
+        "fr": "Tentacool",
+        "it": "Tentacool",
+        "ja": "メノクラゲ",
+        "ko": "왕눈해",
+        "ja-Hrkt": "メノクラゲ",
+        "zh-Hans": "玛瑙水母",
+        "zh-Hant": "瑪瑙水母"
+      },
+      "description": {
+        "fun": "Tentacool is 99% water; the other 1% is the organ that makes its poison. It drifts on ocean currents rather than swimming, and its clear body makes it almost impossible to spot. It even turns sunlight into energy beams by refracting it through the water in its body. A Tentacool washed up and shrivelled on the beach is still dangerous, but throw it back and it may revive.",
+        "guide": "A small, clear, jellyfish-like Water and Poison Pokémon whose body is 99% water. It drifts on ocean currents and stings with poisonous tentacles. It evolves into Tentacruel.",
+        "tagline": "A drifting jellyfish that's 99% water and 1% poison",
+        "sources": [
+          {
+            "title": "Bulbapedia: Tentacool (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "72",
+          "name": "Tentacool",
+          "generation": 1,
+          "types": [
+            "water",
+            "poison"
+          ],
+          "pictures": {
+            "official": "4716e2bc6caab6ce1e7f875a3c54c916",
+            "home": "a01edf3f298f650624e47e294aec86aa"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 73,
+              "form": "73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 73,
+      "name": "Tentacruel",
+      "generation": 1,
+      "category": "Jellyfish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tentacool"
+      },
+      "names": {
+        "de": "Tentoxa",
+        "en": "Tentacruel",
+        "es": "Tentacruel",
+        "fr": "Tentacruel",
+        "it": "Tentacruel",
+        "ja": "ドククラゲ",
+        "ko": "독파리",
+        "ja-Hrkt": "ドククラゲ",
+        "zh-Hans": "毒刺水母",
+        "zh-Hant": "毒刺水母"
+      },
+      "description": {
+        "fun": "Tentacruel has 80 tentacles, though it keeps most of them short and hidden; it shoots them out in a net to snare prey, then paralyses it with poison. The red orbs on its head glow when it's excited and flash to warn others of danger. When large groups gather, every fish Pokémon nearby flees.",
+        "guide": "The evolution of Tentacool, a large jellyfish-like Water and Poison Pokémon with up to 80 extendable tentacles that it uses to catch and poison prey. The red orbs on its head glow to communicate. It lives among rocks on the sea floor.",
+        "tagline": "Eighty tentacles, most of them hidden",
+        "sources": [
+          {
+            "title": "Bulbapedia: Tentacruel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "73",
+          "name": "Tentacruel",
+          "generation": 1,
+          "types": [
+            "water",
+            "poison"
+          ],
+          "pictures": {
+            "official": "856fe240a5dc13b8b1d5d666cf3639f5",
+            "home": "993d5428282fdb9452f3bfc0da5dcc40"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 72,
+        "form": "72"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 73,
+        "form": "73"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

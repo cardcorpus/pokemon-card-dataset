@@ -1,0 +1,124 @@
+{
+  "id": "surskit",
+  "species": [
+    {
+      "dex": 283,
+      "name": "Surskit",
+      "generation": 3,
+      "category": "Pond Skater Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "surskit"
+      },
+      "names": {
+        "de": "Gehweiher",
+        "en": "Surskit",
+        "es": "Surskit",
+        "fr": "Arakdo",
+        "it": "Surskit",
+        "ja": "アメタマ",
+        "ko": "비구술",
+        "ja-Hrkt": "アメタマ",
+        "zh-Hans": "溜溜糖球",
+        "zh-Hant": "溜溜糖球"
+      },
+      "description": {
+        "fun": "Surskit skates across ponds on oily feet, as if the water were ice. The antenna on its head oozes a thick, sugary syrup to fend off enemies, or gives off a sweet scent to lure in prey, and it also turns up in puddles after rainstorms. Its Japanese name, Ametama, mixes the words for water strider, candy and raindrop.",
+        "guide": "A Bug- and Water-type Pokémon based on the water strider, which skates on water using oil from its feet. Its antenna secretes sweet syrup for defence and a scent to attract prey. It evolves into Masquerain at level 22.",
+        "tagline": "A water-skating bug with a sweet, syrupy defence",
+        "sources": [
+          {
+            "title": "Bulbapedia: Surskit (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Surskit_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "283",
+          "name": "Surskit",
+          "generation": 3,
+          "types": [
+            "bug",
+            "water"
+          ],
+          "pictures": {
+            "official": "5dd2bf3738117e8a0ee9157a462d142a",
+            "home": "ee60c552cf4d50a6c4429f9703cd601b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 284,
+              "form": "284"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 284,
+      "name": "Masquerain",
+      "generation": 3,
+      "category": "Eyeball Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "surskit"
+      },
+      "names": {
+        "de": "Maskeregen",
+        "en": "Masquerain",
+        "es": "Masquerain",
+        "fr": "Maskadra",
+        "it": "Masquerain",
+        "ja": "アメモース",
+        "ko": "비나방",
+        "ja-Hrkt": "アメモース",
+        "zh-Hans": "雨翅蛾",
+        "zh-Hant": "雨翅蛾"
+      },
+      "description": {
+        "fun": "Masquerain can hover and fly in any direction on its four wings, but it can't fly when they're wet, and rain makes its antennae droop, so it shelters under trees and eaves. Those antennae are its mask: eyespots with lashes that look like angry eyes, there to scare enemies off. Oddly for a pond bug, it drops its Water type on evolving and becomes Bug and Flying.",
+        "guide": "A Bug- and Flying-type Pokémon, the evolution of Surskit, with four wings that let it hover and large antennae marked like angry eyes. It cannot fly when its wings are wet, so it shelters from rain. Its name blends 'masquerade' and 'rain'.",
+        "tagline": "A rain-shy flyer whose antennae wear an angry mask",
+        "sources": [
+          {
+            "title": "Bulbapedia: Masquerain (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Masquerain_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "284",
+          "name": "Masquerain",
+          "generation": 3,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "a27e5c87fc7a06536d0f78bc54bd4e6f",
+            "home": "2971deaffaa1cf66b5af87b4b6c318bd"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 283,
+        "form": "283"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 284,
+        "form": "284"
+      },
+      "change": "evolves",
+      "how": "Level 22"
+    }
+  ]
+}

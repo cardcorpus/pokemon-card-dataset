@@ -1,0 +1,166 @@
+{
+  "id": "wimpod",
+  "species": [
+    {
+      "dex": 767,
+      "name": "Wimpod",
+      "generation": 7,
+      "category": "Turn Tail Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wimpod"
+      },
+      "names": {
+        "de": "Reißlaus",
+        "en": "Wimpod",
+        "es": "Wimpod",
+        "fr": "Sovkipou",
+        "it": "Wimpod",
+        "ja": "コソクムシ",
+        "ko": "꼬시레",
+        "ja-Hrkt": "コソクムシ",
+        "zh-Hans": "胆小虫",
+        "zh-Hant": "膽小蟲"
+      },
+      "description": {
+        "fun": "Wimpod is a cowardly little isopod that scatters at the slightest noise, but it's curious enough to creep up to anyone standing still. Its many scurrying legs leave a sparkling clean path behind it, and it eats anything, sea garbage included, so people value it as a cleaner. When it finds coins, Murkrow and Alolan Meowth come after it.",
+        "guide": "Wimpod is a Bug- and Water-type Pokémon from Alola based on isopods and trilobites. It is timid, fleeing at any sign of danger, and scavenges anything it can eat. It evolves into Golisopod at level 30.",
+        "tagline": "A skittish beach bug that cleans as it flees",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wimpod (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wimpod_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "767",
+          "name": "Wimpod",
+          "generation": 7,
+          "types": [
+            "bug",
+            "water"
+          ],
+          "pictures": {
+            "official": "45312dcf6e2849f557e5e10b4bc7c429",
+            "home": "5f801292b72c8bfd73ff9d5a9db0dec2"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 768,
+              "form": "768"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 768,
+      "name": "Golisopod",
+      "generation": 7,
+      "category": "Hard Scale Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wimpod"
+      },
+      "names": {
+        "de": "Tectass",
+        "en": "Golisopod",
+        "es": "Golisopod",
+        "fr": "Sarmuraï",
+        "it": "Golisopod",
+        "ja": "グソクムシャ",
+        "ko": "갑주무사",
+        "ja-Hrkt": "グソクムシャ",
+        "zh-Hans": "具甲武者",
+        "zh-Hant": "具甲武者"
+      },
+      "description": {
+        "fun": "Golisopod is a giant isopod in samurai armour, with a shell as hard as diamond and claws that can split seawater in two. It meditates quietly in seaside caves, but in a fight it'll do whatever it takes to win, finishing foes off with the small claws on its front arms. Its designer, Kensaku Nabana, spent over six months creating it.",
+        "guide": "Golisopod is a Bug- and Water-type Pokémon that evolves from Wimpod, based on the giant isopod and samurai armour. It has a diamond-hard shell and three pairs of arms. It gained a Mega Evolution in the Mega Dimension DLC for Pokémon Legends: Z-A.",
+        "tagline": "A samurai sea bug that meditates, then wins by any means",
+        "sources": [
+          {
+            "title": "Bulbapedia: Golisopod (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "768",
+          "name": "Golisopod",
+          "generation": 7,
+          "types": [
+            "bug",
+            "water"
+          ],
+          "pictures": {
+            "official": "5c058f3de51ecb48fe630b56421d4eda",
+            "home": "83bb21d3e0ea7d8c7337c796db64b9a6"
+          }
+        },
+        {
+          "id": "768:mega",
+          "name": "Mega Golisopod",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Golisopod",
+            "fr": "Méga-Sarmuraï"
+          },
+          "pictures": {
+            "official": "6182a42b8baf04187243b245ba84c74e",
+            "home": "c842efdd111b1675466c2150cf0a5670"
+          },
+          "description": {
+            "fun": "Introduced in Legends: Z-A's Mega Dimension DLC, Mega Golisopod turns dark purple, gains the Steel type and grows an extra pair of arms whose claws it can shoot like projectiles. It batters foes with four arms, then finishes them with a hidden pair, and it has the highest base stat total of any Bug Pokémon.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Golisopod (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 767,
+        "form": "767"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 768,
+        "form": "768"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 768,
+        "form": "768"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 768,
+        "form": "768:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "wingull",
+  "species": [
+    {
+      "dex": 278,
+      "name": "Wingull",
+      "generation": 3,
+      "category": "Seagull Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wingull"
+      },
+      "names": {
+        "de": "Wingull",
+        "en": "Wingull",
+        "es": "Wingull",
+        "fr": "Goélise",
+        "it": "Wingull",
+        "ja": "キャモメ",
+        "ko": "갈모매",
+        "ja-Hrkt": "キャモメ",
+        "zh-Hans": "长翅鸥",
+        "zh-Hant": "長翅鷗"
+      },
+      "description": {
+        "fun": "Wingull's hollow bones make it light enough to ride updrafts across the sky on its long, stiff wings, which it folds only to rest. It stashes food and valuables in hidden spots with its beak, especially in winter, and fishermen follow it to find waters full of fish Pokémon. The tufts on its head look like cat ears, perhaps a nod to the gull Japan calls the 'sea cat'.",
+        "guide": "A small Water- and Flying-type seagull Pokémon that glides on updrafts over the sea. It hides food and valuables with its beak. It evolves into Pelipper at level 25.",
+        "tagline": "A gliding gull that hides treasures and leads fishermen to fish",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wingull (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wingull_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "278",
+          "name": "Wingull",
+          "generation": 3,
+          "types": [
+            "water",
+            "flying"
+          ],
+          "pictures": {
+            "official": "f07029b987a71b7aab18efb754d3d4f6",
+            "home": "9a33748538546acadaf0b14308144910"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 279,
+              "form": "279"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 279,
+      "name": "Pelipper",
+      "generation": 3,
+      "category": "Water Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wingull"
+      },
+      "names": {
+        "de": "Pelipper",
+        "en": "Pelipper",
+        "es": "Pelipper",
+        "fr": "Bekipan",
+        "it": "Pelipper",
+        "ja": "ペリッパー",
+        "ko": "패리퍼",
+        "ja-Hrkt": "ペリッパー",
+        "zh-Hans": "大嘴鸥",
+        "zh-Hant": "大嘴鷗"
+      },
+      "description": {
+        "fun": "Pelipper's huge bill holds a pouch big enough to carry Eggs, small Pokémon or even a small child, so it's often likened to a courier, and there's even a delivery company called Pelipper Couriers. It skims the waves and can scoop up 30 Wishiwashi in one gulp. Along with Gyarados, it's the Pokémon used by the most Gym Leaders: seven of them.",
+        "guide": "A Water- and Flying-type pelican Pokémon, the evolution of Wingull, with a large bill pouch for carrying food, Eggs and small Pokémon. It skims the sea for food and rests floating on the waves.",
+        "tagline": "A pelican courier with a pouch big enough for a passenger",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pelipper (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "279",
+          "name": "Pelipper",
+          "generation": 3,
+          "types": [
+            "water",
+            "flying"
+          ],
+          "pictures": {
+            "official": "6cf158caa33defe3421a72e187ffc93b",
+            "home": "b6380a43432944c10c02e36fdb8aeb68"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 278,
+        "form": "278"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 279,
+        "form": "279"
+      },
+      "change": "evolves",
+      "how": "Level 25"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "phantump",
+  "species": [
+    {
+      "dex": 708,
+      "name": "Phantump",
+      "generation": 6,
+      "category": "Stump Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "phantump"
+      },
+      "names": {
+        "de": "Paragoni",
+        "en": "Phantump",
+        "es": "Phantump",
+        "fr": "Brocélôme",
+        "it": "Phantump",
+        "ja": "ボクレー",
+        "ko": "나목령",
+        "ja-Hrkt": "ボクレー",
+        "zh-Hans": "小木灵",
+        "zh-Hant": "小木靈"
+      },
+      "description": {
+        "fun": "Phantump is a tree stump possessed by a spirit, said to be the ghost of a child who got lost in the forest and died. Its cries sound like a child's voice, and people who follow them get lost themselves, though Phantump only wants to make friends. Brewing the leaves on its branches makes a healing medicine. It was designed by James Turner.",
+        "guide": "Phantump is a Ghost- and Grass-type Pokémon from Kalos, a spirit inhabiting a tree stump. Its childlike cries lure people deeper into the forest, though it means no harm. It is based on the kodama tree spirits of Japanese folklore and evolves into Trevenant when traded.",
+        "tagline": "A lonely little stump ghost that only wants a friend",
+        "sources": [
+          {
+            "title": "Bulbapedia: Phantump (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Phantump_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "708",
+          "name": "Phantump",
+          "generation": 6,
+          "types": [
+            "ghost",
+            "grass"
+          ],
+          "pictures": {
+            "official": "f6ef06fb962cff68278672fe10686a42",
+            "home": "46a41d3488e25fa7f8c7036123310dc0"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 709,
+              "form": "709"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 709,
+      "name": "Trevenant",
+      "generation": 6,
+      "category": "Elder Tree Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "phantump"
+      },
+      "names": {
+        "de": "Trombork",
+        "en": "Trevenant",
+        "es": "Trevenant",
+        "fr": "Desséliande",
+        "it": "Trevenant",
+        "ja": "オーロット",
+        "ko": "대로트",
+        "ja-Hrkt": "オーロット",
+        "zh-Hans": "朽木妖",
+        "zh-Hant": "朽木妖"
+      },
+      "description": {
+        "fun": "Trevenant is the forest's guardian: it controls other trees through its roots as if they were its nerves, traps anyone who harms its woods, and curses people who cut trees down. It's kind to the creatures that live inside its trunk, though, and it hates Fire types, so lumberjacks bring them along. Rumours that it eats people have never been confirmed.",
+        "guide": "Trevenant is a Ghost- and Grass-type Pokémon that evolves from Phantump when traded. It commands the trees of its forest through its roots and punishes those who damage the woods, while sheltering forest Pokémon. It is based on kodama tree spirits and other forest guardians.",
+        "tagline": "A haunted tree that curses anyone who harms its forest",
+        "sources": [
+          {
+            "title": "Bulbapedia: Trevenant (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Trevenant_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "709",
+          "name": "Trevenant",
+          "generation": 6,
+          "types": [
+            "ghost",
+            "grass"
+          ],
+          "pictures": {
+            "official": "8a7b79a4d97ddca01fba5cff5391b135",
+            "home": "9600d635a3c0a137e46027bd25770c82"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 708,
+        "form": "708"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 709,
+        "form": "709"
+      },
+      "change": "evolves",
+      "how": "Trade"
+    }
+  ]
+}

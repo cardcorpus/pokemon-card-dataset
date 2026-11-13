@@ -1,0 +1,124 @@
+{
+  "id": "murkrow",
+  "species": [
+    {
+      "dex": 198,
+      "name": "Murkrow",
+      "generation": 2,
+      "category": "Darkness Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "murkrow"
+      },
+      "names": {
+        "de": "Kramurx",
+        "en": "Murkrow",
+        "es": "Murkrow",
+        "fr": "Cornèbre",
+        "it": "Murkrow",
+        "ja": "ヤミカラス",
+        "ko": "니로우",
+        "ja-Hrkt": "ヤミカラス",
+        "zh-Hans": "黑暗鸦",
+        "zh-Hant": "黑暗鴉"
+      },
+      "description": {
+        "fun": "Murkrow loves anything that sparkles and will fight other Pokémon for their stash, yet it sometimes gives its treasures to Trainers it likes. Its witchy look, with a crest like a pointed hat and a tail like a broom, and its habit of leading travellers astray on dark mountain paths have made it a symbol of bad luck. It's the only Pokémon that isn't a Ghost type to evolve with a Dusk Stone.",
+        "guide": "A crow Pokémon of the Dark and Flying types, active at night, with a crest and tail that resemble a witch's hat and broom. It collects sparkling objects and is traditionally seen as a sign of bad luck. A Dusk Stone evolves it into Honchkrow.",
+        "tagline": "A witch-hatted crow with a weakness for shiny things",
+        "sources": [
+          {
+            "title": "Bulbapedia: Murkrow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "198",
+          "name": "Murkrow",
+          "generation": 2,
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "pictures": {
+            "official": "b061606ec5d453d581a3e38cc10f869f",
+            "home": "7b880e8c1aa3c176a5d3b7e25bbc2a15"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 430,
+              "form": "430"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 430,
+      "name": "Honchkrow",
+      "generation": 4,
+      "category": "Big Boss Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "murkrow"
+      },
+      "names": {
+        "de": "Kramshef",
+        "en": "Honchkrow",
+        "es": "Honchkrow",
+        "fr": "Corboss",
+        "it": "Honchkrow",
+        "ja": "ドンカラス",
+        "ko": "돈크로우",
+        "ja-Hrkt": "ドンカラス",
+        "zh-Hans": "乌鸦头头",
+        "zh-Hant": "烏鴉頭頭"
+      },
+      "description": {
+        "fun": "Honchkrow is a mob boss in feathers, with a fedora-like crest and a white 'cravat'. One cry summons a flock of over a hundred Murkrow to fetch its food or fight for it, and it steps in only for the finishing blow; failure and betrayal are never forgiven. A former Nintendo of America marketer has said one Generation 4 Pokémon was nearly called 'Doncrowleone', and going by its Japanese name, Dongkarasu, it was very likely this one.",
+        "guide": "A large crow Pokémon of the Dark and Flying types, introduced in Generation 4 as Murkrow's evolution. Its feathers resemble a mob boss's fedora and cravat, and it commands flocks of more than a hundred Murkrow. It is nicknamed the 'Summoner of Night'.",
+        "tagline": "The crow boss with a hundred Murkrow on call",
+        "sources": [
+          {
+            "title": "Bulbapedia: Honchkrow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Honchkrow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "430",
+          "name": "Honchkrow",
+          "generation": 4,
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "pictures": {
+            "official": "afb46bd2db0542112c29626f05ba5dec",
+            "home": "7439f9864e554728ef505756f299321e"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 198,
+        "form": "198"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 430,
+        "form": "430"
+      },
+      "change": "evolves",
+      "how": "Dusk Stone"
+    }
+  ]
+}

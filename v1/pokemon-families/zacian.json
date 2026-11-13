@@ -1,0 +1,98 @@
+{
+  "id": "zacian",
+  "species": [
+    {
+      "dex": 888,
+      "name": "Zacian",
+      "generation": 8,
+      "category": "Warrior Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "zacian"
+      },
+      "names": {
+        "de": "Zacian",
+        "en": "Zacian",
+        "es": "Zacian",
+        "fr": "Zacian",
+        "it": "Zacian",
+        "ja": "ザシアン",
+        "ko": "자시안",
+        "ja-Hrkt": "ザシアン",
+        "zh-Hans": "苍响",
+        "zh-Hant": "蒼響"
+      },
+      "description": {
+        "fun": "The legendary hero of Pokémon Sword. Some say this wolf is Zamazenta's elder sister, others its rival, and 3,000 years ago the pair helped two young heroes stop Eternatus and the Darkest Day. Zacian absorbs metal and turns it into a weapon, and it was once known as the Fairy King's Sword, able to cut down anything in a single strike. It may take after King Arthur's Excalibur.",
+        "guide": "The Fairy-type Legendary Pokémon on the cover of Pokémon Sword, designed by Yusuke Ohmura. Holding the Rusted Sword, it becomes the Fairy and Steel-type Crowned Sword Zacian.",
+        "tagline": "The sword-wielding wolf hero of Pokémon Sword",
+        "sources": [
+          {
+            "title": "Bulbapedia: Zacian (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "888",
+          "name": "Zacian",
+          "generation": 8,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "8324a064c93c7a6e26439f8dc5d2c037",
+            "home": "9e86a2930bd7765eb13aa6d6679889b5"
+          }
+        },
+        {
+          "id": "888:crowned",
+          "name": "Crowned Sword Zacian",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "fairy",
+            "steel"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "König Zacian",
+            "en": "Crowned Sword Zacian",
+            "fr": "Zacian Épée Suprême"
+          },
+          "pictures": {
+            "official": "aa21d517f5299dc63c2cb516ff954c00",
+            "home": "263ab56a582e06c22a881a559095b4e5"
+          },
+          "description": {
+            "fun": "Armed again with the weapon it wielded in ancient times, Zacian needs only one strike to fell even a Gigantamax Pokémon. It moves too fast for the eye to follow, and it's said that it can split the ocean in two.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Zacian (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 888,
+        "form": "888"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 888,
+        "form": "888:crowned"
+      },
+      "change": "form_change"
+    }
+  ]
+}

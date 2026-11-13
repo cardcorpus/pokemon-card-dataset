@@ -1,0 +1,124 @@
+{
+  "id": "hoothoot",
+  "species": [
+    {
+      "dex": 163,
+      "name": "Hoothoot",
+      "generation": 2,
+      "category": "Owl Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "hoothoot"
+      },
+      "names": {
+        "de": "Hoothoot",
+        "en": "Hoothoot",
+        "es": "Hoothoot",
+        "fr": "Hoothoot",
+        "it": "Hoothoot",
+        "ja": "ホーホー",
+        "ko": "부우부",
+        "ja-Hrkt": "ホーホー",
+        "zh-Hans": "咕咕",
+        "zh-Hant": "咕咕"
+      },
+      "description": {
+        "fun": "Hoothoot is a living clock: an organ that senses the world's rotation tells it the time, so it starts hooting at the same moment every day, and people once kept them as clocks. It stands on one foot, switching feet too fast to see. Designer Ken Sugimori has called it his favourite Pokémon, because a pet bird he had as a child stood on one foot too.",
+        "guide": "A small, round owl Pokémon of the Normal and Flying types whose face markings resemble a clock's gears and hands. An internal organ that senses the earth's rotation lets it keep time, and people once raised it as a clock. It evolves into Noctowl.",
+        "tagline": "An owl with a clock inside that always knows the time",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hoothoot (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "163",
+          "name": "Hoothoot",
+          "generation": 2,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "c379c082229f278e6168f69e1d6c0115",
+            "home": "db820e22c2cd72d0f705d920d215738e"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 164,
+              "form": "164"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 164,
+      "name": "Noctowl",
+      "generation": 2,
+      "category": "Owl Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "hoothoot"
+      },
+      "names": {
+        "de": "Noctuh",
+        "en": "Noctowl",
+        "es": "Noctowl",
+        "fr": "Noarfang",
+        "it": "Noctowl",
+        "ja": "ヨルノズク",
+        "ko": "야부엉",
+        "ja-Hrkt": "ヨルノズク",
+        "zh-Hans": "猫头夜鹰",
+        "zh-Hant": "貓頭夜鷹"
+      },
+      "description": {
+        "fun": "Called 'the emperor of dark nights', Noctowl gathers the faintest light with its eyes, flies without a sound and never misses prey in the dark. It can twist its head 180 degrees, which is said to sharpen its thinking, and turns it fully upside down when something troubles it. In Kitakami it works the Flying Taxi.",
+        "guide": "A nocturnal owl Pokémon of the Normal and Flying types, the evolved form of Hoothoot. It has night vision, flies silently and can turn its head 180 degrees. Some call it 'the emperor of dark nights'.",
+        "tagline": "A silent night hunter that thinks harder with its head turned",
+        "sources": [
+          {
+            "title": "Bulbapedia: Noctowl (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "164",
+          "name": "Noctowl",
+          "generation": 2,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "85b42d75c4b83eb9d7986e059993eab0",
+            "home": "1c5b15fccb9cfc4a5d1b25a6b1c972f3"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 163,
+        "form": "163"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 164,
+        "form": "164"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    }
+  ]
+}

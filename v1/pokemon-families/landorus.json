@@ -1,0 +1,98 @@
+{
+  "id": "landorus",
+  "species": [
+    {
+      "dex": 645,
+      "name": "Landorus",
+      "generation": 5,
+      "category": "Abundance Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "landorus"
+      },
+      "names": {
+        "de": "Demeteros",
+        "en": "Landorus",
+        "es": "Landorus",
+        "fr": "Démétéros",
+        "it": "Landorus",
+        "ja": "ランドロス",
+        "ko": "랜드로스",
+        "ja-Hrkt": "ランドロス",
+        "zh-Hans": "土地云",
+        "zh-Hant": "土地雲"
+      },
+      "description": {
+        "fun": "Lands visited by Landorus yield such bountiful crops that it's hailed as the Guardian of the Fields: the energy from its tail, made from the forces of wind and lightning, enriches the soil. When Tornadus and Thundurus clash, Landorus arrives to calm them, and once the storms abate the land is blessed with a rich harvest. It may be based on Inari, the Japanese kami of agriculture and fertility.",
+        "guide": "Landorus is a Ground- and Flying-type Legendary Pokémon, one of the forces of nature, that makes the land fertile. It has an Incarnate Forme and a cat-like Therian Forme. It does not evolve.",
+        "tagline": "The harvest-bringing guardian who calms the storm and thunder genies.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Landorus (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "645",
+          "name": "Landorus",
+          "generation": 5,
+          "types": [
+            "ground",
+            "flying"
+          ],
+          "pictures": {
+            "official": "8c8d02b711a00bdb10d310b706b45e00",
+            "home": "bb8d4011d3da799aa4e5c7078f91ff03"
+          }
+        },
+        {
+          "id": "645:therian",
+          "name": "Therian Forme Landorus",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "ground",
+            "flying"
+          ],
+          "names": {
+            "de": "Demeteros (Tiergeist)",
+            "en": "Therian Forme Landorus",
+            "fr": "Démétéros Totémique"
+          },
+          "pictures": {
+            "official": "22e42faa25ad51fd434aeef4f5131fc2",
+            "home": "a3439f5786411bc6729fc7533dc8a11b"
+          },
+          "description": {
+            "fun": "Revealed by the Reveal Glass, its true form is a lean, tiger-like beast that can cross the whole of Hisui in a couple of hours, blessing the land with plentiful harvests. It loosely matches the White Tiger of the west, and in Hisui it roams the western Obsidian Fieldlands.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Landorus (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 645,
+        "form": "645"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 645,
+        "form": "645:therian"
+      },
+      "change": "form_change"
+    }
+  ]
+}

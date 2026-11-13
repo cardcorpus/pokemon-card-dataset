@@ -1,0 +1,122 @@
+{
+  "id": "pansear",
+  "species": [
+    {
+      "dex": 513,
+      "name": "Pansear",
+      "generation": 5,
+      "category": "High Temp Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pansear"
+      },
+      "names": {
+        "de": "Grillmak",
+        "en": "Pansear",
+        "es": "Pansear",
+        "fr": "Flamajou",
+        "it": "Pansear",
+        "ja": "バオップ",
+        "ko": "바오프",
+        "ja-Hrkt": "バオップ",
+        "zh-Hans": "爆香猴",
+        "zh-Hant": "爆香猴"
+      },
+      "description": {
+        "fun": "Pansear lives in volcanic caves, and the flame in the tuft on its head can reach 300 °C, hottest when it's angry. It's very clever, likes to help people, and roasts berries before it eats them, fitting for a Pokémon made for a restaurant Gym, with hands like oven mitts. With a hand by its ear, it plays 'hear no evil' of the three wise monkeys.",
+        "guide": "Pansear is a Fire-type monkey Pokémon and one of the three elemental monkeys, with Pansage and Panpour. The tuft on its head holds a flame, and it is intelligent and likes to help people. It evolves into Simisear with a Fire Stone.",
+        "tagline": "A clever fire monkey that roasts its berries.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pansear (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pansear_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "513",
+          "name": "Pansear",
+          "generation": 5,
+          "types": [
+            "fire"
+          ],
+          "pictures": {
+            "official": "bcd4c35645f62adc030215ef69349bd1",
+            "home": "c3c2b2241be9d76db777ec23bf0e5f7f"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 514,
+              "form": "514"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 514,
+      "name": "Simisear",
+      "generation": 5,
+      "category": "Ember Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pansear"
+      },
+      "names": {
+        "de": "Grillchita",
+        "en": "Simisear",
+        "es": "Simisear",
+        "fr": "Flamoutan",
+        "it": "Simisear",
+        "ja": "バオッキー",
+        "ko": "바오키",
+        "ja-Hrkt": "バオッキー",
+        "zh-Hans": "爆香猿",
+        "zh-Hant": "爆香猿"
+      },
+      "description": {
+        "fun": "For some reason Simisear loves sweets, which fuel the flame burning inside its body, and when it gets excited, embers rise from its head and tail. Its smoky shoulder ruffs and flame-like tufts make it look like a little active volcano. It came last in a Japanese fan vote to pick a Pokémon to give away at screenings of the film Volcanion and the Mechanical Marvel, and was handed out at Pokémon Centers to mark its loss.",
+        "guide": "Simisear is the evolved form of Pansear, a Fire-type monkey with flame-like tufts on its head and tail. It loves sweet food, which fuels the fire inside its body, and scatters embers at opponents.",
+        "tagline": "A sweet-toothed fire monkey shaped like a little volcano.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Simisear (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Simisear_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "514",
+          "name": "Simisear",
+          "generation": 5,
+          "types": [
+            "fire"
+          ],
+          "pictures": {
+            "official": "9c92188d655205a4135ae39783df5850",
+            "home": "7ae31c5e54bb6d24c42a1dfc4ec64305"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 513,
+        "form": "513"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 514,
+        "form": "514"
+      },
+      "change": "evolves",
+      "how": "Fire Stone"
+    }
+  ]
+}

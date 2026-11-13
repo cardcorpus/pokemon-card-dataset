@@ -1,0 +1,124 @@
+{
+  "id": "woobat",
+  "species": [
+    {
+      "dex": 527,
+      "name": "Woobat",
+      "generation": 5,
+      "category": "Bat Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "woobat"
+      },
+      "names": {
+        "de": "Fleknoil",
+        "en": "Woobat",
+        "es": "Woobat",
+        "fr": "Chovsourir",
+        "it": "Woobat",
+        "ja": "コロモリ",
+        "ko": "또르박쥐",
+        "ja-Hrkt": "コロモリ",
+        "zh-Hans": "滚滚蝙蝠",
+        "zh-Hant": "滾滾蝙蝠"
+      },
+      "description": {
+        "fun": "Woobat sleeps stuck to cave walls by the suction of its nostrils, leaving a heart-shaped mark behind, so a wall lined with hearts means Woobat live in that cave. A heart-shaped mark left on someone is said to bring good fortune. It finds its way, and its Bug-type prey, with ultrasonic waves from its nose. It looks like a Honduran white bat, the fluffy kind that roosts curled up together under leaves.",
+        "guide": "Woobat is a Psychic- and Flying-type bat Pokémon with a heart-shaped nose. It uses ultrasonic waves to sense its surroundings and sticks to cave walls with its nostrils when it sleeps, leaving heart-shaped marks. It evolves into Swoobat with high friendship.",
+        "tagline": "A fluffy bat that leaves heart-shaped marks on cave walls.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Woobat (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Woobat_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "527",
+          "name": "Woobat",
+          "generation": 5,
+          "types": [
+            "psychic",
+            "flying"
+          ],
+          "pictures": {
+            "official": "99461daad9b607d1408d905299041715",
+            "home": "cb255afa760d03aa9029634e1922139b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 528,
+              "form": "528"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 528,
+      "name": "Swoobat",
+      "generation": 5,
+      "category": "Courting Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "woobat"
+      },
+      "names": {
+        "de": "Fletiamo",
+        "en": "Swoobat",
+        "es": "Swoobat",
+        "fr": "Rhinolove",
+        "it": "Swoobat",
+        "ja": "ココロモリ",
+        "ko": "맘박쥐",
+        "ja-Hrkt": "ココロモリ",
+        "zh-Hans": "心蝙蝠",
+        "zh-Hant": "心蝙蝠"
+      },
+      "description": {
+        "fun": "Swoobat's heart-shaped nose looks so auspicious that some regions consider it a symbol of good luck. It emits sound waves of all kinds from it: shaking its tail, it can reduce concrete to rubble, while a courting male's waves lift the mood of anyone who hears them. All that effort wears it out, though, and it can't fly for a while afterward.",
+        "guide": "Swoobat is the evolved form of Woobat, a Psychic- and Flying-type bat with a heart-shaped nose. It emits ultrasonic waves of many frequencies, some strong enough to break concrete. Its nose is considered a symbol of good luck in some regions.",
+        "tagline": "A lucky heart-nosed bat whose love songs lift your mood.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Swoobat (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Swoobat_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "528",
+          "name": "Swoobat",
+          "generation": 5,
+          "types": [
+            "psychic",
+            "flying"
+          ],
+          "pictures": {
+            "official": "666ff0a55204b2b49552aab874831edf",
+            "home": "dd0b9613bfe98e5a280f86c10f532abd"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 527,
+        "form": "527"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 528,
+        "form": "528"
+      },
+      "change": "evolves",
+      "how": "High friendship"
+    }
+  ]
+}

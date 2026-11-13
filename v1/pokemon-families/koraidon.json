@@ -1,0 +1,207 @@
+{
+  "id": "koraidon",
+  "species": [
+    {
+      "dex": 1007,
+      "name": "Koraidon",
+      "generation": 9,
+      "category": "Paradox Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "koraidon"
+      },
+      "names": {
+        "de": "Koraidon",
+        "en": "Koraidon",
+        "es": "Koraidon",
+        "fr": "Koraidon",
+        "it": "Koraidon",
+        "ja": "コライドン",
+        "ko": "코라이돈",
+        "ja-Hrkt": "コライドン",
+        "zh-Hans": "故勒顿",
+        "zh-Hant": "故勒頓"
+      },
+      "description": {
+        "fun": "The scarlet, feathered lizard on the box of Pokémon Scarlet, and your ride across Paldea: it runs on all fours like a motorbike, paddles across water and glides on its unfurled head tendrils. An old expedition journal calls it the Winged King. Its name may be meant to sound like 'go ride on', and Honda has a project to recreate it as a real, moving model.",
+        "guide": "A Fighting and Dragon-type Legendary Paradox Pokémon and the mascot of Pokémon Scarlet, said to be either an ancestor of Cyclizar or a version of it from a parallel timeline. It changes shape to sprint, swim and glide, and battles in its Apex Build. Its futuristic counterpart is Miraidon.",
+        "tagline": "A feathered ancient lizard you ride like a motorbike",
+        "sources": [
+          {
+            "title": "Bulbapedia: Koraidon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "1007",
+          "name": "Koraidon",
+          "generation": 9,
+          "types": [
+            "fighting",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "59fac30c20d1d458b3e3d24c1da48ad0",
+            "home": "86a4031f8883bff52c96dd6cdf333ac6"
+          }
+        },
+        {
+          "id": "1007:limited-build",
+          "name": "Limited Build Koraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "fighting",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Koraidon Forme Limitée"
+          },
+          "pictures": {},
+          "description": {
+            "fun": "Koraidon's low-power form: it walks on all fours with its head and tail feathers folded and its throat sac drawn in, showing a tyre-like bump. It takes this shape when weakened or out of battle.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Koraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1007:sprinting-build",
+          "name": "Sprinting Build Koraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "fighting",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Koraidon Forme de Course"
+          },
+          "pictures": {
+            "official": "ecc3868c6f5d52ba48abcc47a0f1a585"
+          },
+          "description": {
+            "fun": "Koraidon tucks in its tail and runs on all fours like a motorcycle, fast enough to reach high speeds and climb steep cliffs.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Koraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1007:swimming-build",
+          "name": "Swimming Build Koraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "fighting",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Koraidon Forme de Nage"
+          },
+          "description": {
+            "fun": "Koraidon inflates its throat sac to float, then paddles through rivers, lakes and the sea with its webbed feet.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Koraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1007:gliding-build",
+          "name": "Gliding Build Koraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "fighting",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Koraidon Forme de Vol"
+          },
+          "pictures": {
+            "official": "642e81386f5b2eecbb1a508c7e7b2543"
+          },
+          "description": {
+            "fun": "The tendrils on Koraidon's head unfurl into wings, letting it glide and even fly.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Koraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Koraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007:limited-build"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007:sprinting-build"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007:swimming-build"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1007,
+        "form": "1007:gliding-build"
+      },
+      "change": "form_change"
+    }
+  ]
+}

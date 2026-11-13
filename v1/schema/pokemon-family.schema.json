@@ -1,0 +1,483 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus Pokémon evolution family",
+  "description": "One evolution family: its species with every form, and the transitions between forms (evolutions, Mega Evolution, Primal Reversion, Gigantamax, form changes and fusions).",
+  "type": "object",
+  "required": [
+    "id",
+    "species",
+    "transitions"
+  ],
+  "properties": {
+    "id": {
+      "description": "The evolution family's id (pokemon-families/{family}.json).",
+      "type": "string"
+    },
+    "species": {
+      "description": "Its species, in National Pokédex order.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "dex",
+          "name",
+          "generation",
+          "family",
+          "forms"
+        ],
+        "properties": {
+          "dex": {
+            "description": "Its National Pokédex number.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "description": "Its name.",
+            "type": "string"
+          },
+          "generation": {
+            "description": "The generation the species first appeared in.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "category": {
+            "description": "Its Pokédex category (\"Mouse Pokémon\").",
+            "type": "string"
+          },
+          "status": {
+            "description": "Where it is one: a baby, legendary or mythical Pokémon.",
+            "enum": [
+              "baby",
+              "legendary",
+              "mythical"
+            ]
+          },
+          "family": {
+            "description": "Its evolution family, by pointer.",
+            "type": "object",
+            "x-cc": {
+              "ref": "pokemon-family"
+            },
+            "required": [
+              "$kind",
+              "family"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `pokemon-family`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "pokemon-family"
+              },
+              "family": {
+                "description": "The evolution family's id (pokemon-families/{family}.json).",
+                "type": "string"
+              }
+            }
+          },
+          "names": {
+            "description": "Its name in other languages, by language code.",
+            "type": "object",
+            "additionalProperties": {
+              "description": "The name.",
+              "type": "string"
+            }
+          },
+          "description": {
+            "description": "What we wrote about the species, in three voices, and the pages it draws on.",
+            "type": "object",
+            "required": [
+              "fun"
+            ],
+            "properties": {
+              "fun": {
+                "description": "Two to three playful sentences: the one pages show.",
+                "type": "string"
+              },
+              "guide": {
+                "description": "A calmer, Pokédex-like voice.",
+                "type": "string"
+              },
+              "tagline": {
+                "description": "One line, for lists and tooltips.",
+                "type": "string"
+              },
+              "sources": {
+                "description": "The pages this draws on, each with its title.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "branches": {
+            "description": "Our note on how the family branches, where it does.",
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "description": "The note.",
+                "type": "string"
+              },
+              "sources": {
+                "description": "The pages this draws on, each with its title.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "forms": {
+            "description": "Every form, the default first.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "label": "name"
+              },
+              "required": [
+                "id",
+                "name",
+                "generation",
+                "types"
+              ],
+              "properties": {
+                "id": {
+                  "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "The form's name.",
+                  "type": "string"
+                },
+                "category": {
+                  "description": "What kind of form it is, where it isn't the default.",
+                  "enum": [
+                    "regional",
+                    "mega",
+                    "primal",
+                    "gigantamax",
+                    "costume",
+                    "cosmetic",
+                    "alternate"
+                  ]
+                },
+                "region": {
+                  "description": "The region a regional form comes from (pokemon.json's `regions`).",
+                  "enum": [
+                    "alola",
+                    "galar",
+                    "hisui",
+                    "paldea"
+                  ]
+                },
+                "generation": {
+                  "description": "The generation the form first appeared in.",
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "types": {
+                  "description": "Its types, in game order.",
+                  "type": "array",
+                  "items": {
+                    "description": "A type.",
+                    "type": "string"
+                  }
+                },
+                "battleOnly": {
+                  "description": "Present where the form only exists during battle.",
+                  "type": "boolean"
+                },
+                "names": {
+                  "description": "Its name in other languages, by language code.",
+                  "type": "object",
+                  "additionalProperties": {
+                    "description": "The name.",
+                    "type": "string"
+                  }
+                },
+                "pictures": {
+                  "description": "Its pictures by style, each a picture id: `official` artwork and `home` renders.",
+                  "type": "object",
+                  "properties": {
+                    "official": {
+                      "description": "Its official artwork.",
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{32}$",
+                      "x-cc": {
+                        "picture": true
+                      }
+                    },
+                    "home": {
+                      "description": "Its HOME render.",
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{32}$",
+                      "x-cc": {
+                        "picture": true
+                      }
+                    }
+                  },
+                  "additionalProperties": {
+                    "description": "A picture in another style.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  }
+                },
+                "description": {
+                  "description": "What we wrote about the form, in three voices, and the pages it draws on.",
+                  "type": "object",
+                  "required": [
+                    "fun"
+                  ],
+                  "properties": {
+                    "fun": {
+                      "description": "Two to three playful sentences: the one pages show.",
+                      "type": "string"
+                    },
+                    "guide": {
+                      "description": "A calmer, Pokédex-like voice.",
+                      "type": "string"
+                    },
+                    "tagline": {
+                      "description": "One line, for lists and tooltips.",
+                      "type": "string"
+                    },
+                    "sources": {
+                      "description": "The pages this draws on, each with its title.",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "title",
+                          "url"
+                        ],
+                        "properties": {
+                          "title": {
+                            "description": "The page's title.",
+                            "type": "string"
+                          },
+                          "url": {
+                            "description": "The page's url.",
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "term": {
+                  "description": "The term in pokemon.json's glossary that explains a form other than the default, where one does (family files only).",
+                  "type": "string"
+                },
+                "evolvesInto": {
+                  "description": "Every form it evolves into, at any remove (family files only).",
+                  "type": "array",
+                  "items": {
+                    "description": "A form it evolves into.",
+                    "type": "object",
+                    "x-cc": {
+                      "ref": "form"
+                    },
+                    "required": [
+                      "$kind",
+                      "species",
+                      "form"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "const": "form"
+                      },
+                      "species": {
+                        "description": "The species' National Pokédex number.",
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "form": {
+                        "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "transitions": {
+      "description": "Every step between its forms.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from",
+          "to",
+          "change"
+        ],
+        "properties": {
+          "from": {
+            "description": "The form before the step.",
+            "type": "object",
+            "x-cc": {
+              "ref": "form"
+            },
+            "required": [
+              "$kind",
+              "species",
+              "form"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "form"
+              },
+              "species": {
+                "description": "The species' National Pokédex number.",
+                "type": "integer",
+                "minimum": 1
+              },
+              "form": {
+                "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
+                "type": "string"
+              }
+            }
+          },
+          "to": {
+            "description": "The form after the step.",
+            "type": "object",
+            "x-cc": {
+              "ref": "form"
+            },
+            "required": [
+              "$kind",
+              "species",
+              "form"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "form"
+              },
+              "species": {
+                "description": "The species' National Pokédex number.",
+                "type": "integer",
+                "minimum": 1
+              },
+              "form": {
+                "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
+                "type": "string"
+              }
+            }
+          },
+          "change": {
+            "description": "What kind of step it is.",
+            "enum": [
+              "evolves",
+              "mega",
+              "primal",
+              "gigantamax",
+              "form_change",
+              "fuses"
+            ]
+          },
+          "with": {
+            "description": "The species it fuses with, on a `fuses` step.",
+            "type": "string"
+          },
+          "how": {
+            "description": "How it happens today.",
+            "type": "string"
+          },
+          "otherWays": {
+            "description": "Other ways older games or other places had.",
+            "type": "array",
+            "items": {
+              "description": "One way.",
+              "type": "string"
+            }
+          },
+          "note": {
+            "description": "Our note on why the step is there.",
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "description": "The note.",
+                "type": "string"
+              },
+              "term": {
+                "description": "The glossary term it leans on.",
+                "type": "string"
+              },
+              "sources": {
+                "description": "The pages this draws on, each with its title.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

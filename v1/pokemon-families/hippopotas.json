@@ -1,0 +1,122 @@
+{
+  "id": "hippopotas",
+  "species": [
+    {
+      "dex": 449,
+      "name": "Hippopotas",
+      "generation": 4,
+      "category": "Hippo Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "hippopotas"
+      },
+      "names": {
+        "de": "Hippopotas",
+        "en": "Hippopotas",
+        "es": "Hippopotas",
+        "fr": "Hippopotas",
+        "it": "Hippopotas",
+        "ja": "ヒポポタス",
+        "ko": "히포포타스",
+        "ja-Hrkt": "ヒポポタス",
+        "zh-Hans": "沙河马",
+        "zh-Hant": "沙河馬"
+      },
+      "description": {
+        "fun": "Hippopotas is a hippo turned inside out: it hates getting wet and bathes in sand instead, coating itself to keep germs away, and it sweats sand rather than water. It strolls through dunes with its nostrils shut and its mouth wide open, swallowing whatever it scoops up. Males are tan with dark patches and females the reverse.",
+        "guide": "Hippopotas is a Ground-type hippopotamus Pokémon of deserts. It covers itself in sand to protect against germs, expels sand instead of sweat and avoids water. It lives in colonies of about ten and evolves into Hippowdon.",
+        "tagline": "A hippo that bathes in sand and sweats it too.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hippopotas (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hippopotas_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "449",
+          "name": "Hippopotas",
+          "generation": 4,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "924a1c13f27adfd9696ba6a0bbfb5e77",
+            "home": "67b555a354b270b0306477eb7a8f5588"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 450,
+              "form": "450"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 450,
+      "name": "Hippowdon",
+      "generation": 4,
+      "category": "Heavyweight Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "hippopotas"
+      },
+      "names": {
+        "de": "Hippoterus",
+        "en": "Hippowdon",
+        "es": "Hippowdon",
+        "fr": "Hippodocus",
+        "it": "Hippowdon",
+        "ja": "カバルドン",
+        "ko": "하마돈",
+        "ja-Hrkt": "カバルドン",
+        "zh-Hans": "河马兽",
+        "zh-Hant": "河馬獸"
+      },
+      "description": {
+        "fun": "Hippowdon's yawn is a threat display: it opens its mouth more than two metres wide to show off, and its jaws are strong enough to crush a car. It stores sand in its body and blasts it from the ports on its back as swirling sandstorms. Small Dwebble pick stuck stones out of its ports in exchange for shelter, and even Drapion steer clear of it.",
+        "guide": "Hippowdon is the evolved form of Hippopotas, a large Ground-type hippo. It stores sand in its body and blasts it from ports on its back to create sandstorms, and its huge jaws are powerful enough to crush cars.",
+        "tagline": "A short-tempered sand hippo with a car-crushing yawn.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hippowdon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hippowdon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "450",
+          "name": "Hippowdon",
+          "generation": 4,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "1e6b90fb3d971b3636cbab4c0b4cc900",
+            "home": "062d72e2d3dbe49938d5fef5b32b2799"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 449,
+        "form": "449"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 450,
+        "form": "450"
+      },
+      "change": "evolves",
+      "how": "Level 34"
+    }
+  ]
+}

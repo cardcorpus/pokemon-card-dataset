@@ -1,0 +1,96 @@
+{
+  "id": "darkrai",
+  "species": [
+    {
+      "dex": 491,
+      "name": "Darkrai",
+      "generation": 4,
+      "category": "Pitch-Black Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "darkrai"
+      },
+      "names": {
+        "de": "Darkrai",
+        "en": "Darkrai",
+        "es": "Darkrai",
+        "fr": "Darkrai",
+        "it": "Darkrai",
+        "ja": "ダークライ",
+        "ko": "다크라이",
+        "ja-Hrkt": "ダークライ",
+        "zh-Hans": "达克莱伊",
+        "zh-Hant": "達克萊伊"
+      },
+      "description": {
+        "fun": "Darkrai lurks on moonless nights, lulling people into deep sleep and nightmares. It isn't really malicious: it does this to defend itself and keep intruders out of its territory, and one Pokédex tells of a whole village plagued by nightmares in which Darkrai appeared. Only Cresselia, the crescent moon to its new moon, or one of her Lunar Feathers can lift the curse.",
+        "guide": "Darkrai is a Dark-type Mythical Pokémon that can put people to sleep and give them nightmares, mostly to protect itself. It is active on nights of the new moon and is the counterpart of Cresselia, whose feathers can cure its nightmares. It can Mega Evolve into Mega Darkrai, introduced in the Mega Dimension expansion of Pokémon Legends: Z-A.",
+        "tagline": "The new-moon shadow that brings nightmares to keep you away.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Darkrai (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "491",
+          "name": "Darkrai",
+          "generation": 4,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "39556a21ede0742cf508c72123bd9bbc",
+            "home": "4ffdd2c346fc3e418fbc73eb415f9490"
+          }
+        },
+        {
+          "id": "491:mega",
+          "name": "Mega Darkrai",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "dark"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Darkrai",
+            "fr": "Méga-Darkrai"
+          },
+          "pictures": {
+            "official": "24e10b01444893af6b6e95d867142acd",
+            "home": "89f96a56c3015b19297c45299cbd153e"
+          },
+          "description": {
+            "fun": "Twice as long, with tentacle arms and a neck that opens around one huge, menacing eye. Its nightmare power grows strong enough to blot out the Sun and plunge everything into darkness.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Darkrai (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 491,
+        "form": "491"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 491,
+        "form": "491:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "sentret",
+  "species": [
+    {
+      "dex": 161,
+      "name": "Sentret",
+      "generation": 2,
+      "category": "Scout Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "sentret"
+      },
+      "names": {
+        "de": "Wiesor",
+        "en": "Sentret",
+        "es": "Sentret",
+        "fr": "Fouinette",
+        "it": "Sentret",
+        "ja": "オタチ",
+        "ko": "꼬리선",
+        "ja-Hrkt": "オタチ",
+        "zh-Hans": "尾立",
+        "zh-Hant": "尾立"
+      },
+      "description": {
+        "fun": "Sentret stands up on its own striped tail to watch for danger, and when it spots any it screeches and thumps the tail on the ground to warn the others. It won't fall asleep unless another Sentret is keeping watch. Its name blends 'sentry' with 'ferret', though it behaves more like a meerkat.",
+        "guide": "A small, timid Normal-type Pokémon that stands on its tail to scout its surroundings. It sleeps only while another Sentret keeps watch and warns its group of danger by screeching and thumping its tail. It evolves into Furret.",
+        "tagline": "The lookout that stands on its tail and never sleeps unguarded",
+        "sources": [
+          {
+            "title": "Bulbapedia: Sentret (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sentret_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "161",
+          "name": "Sentret",
+          "generation": 2,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "271ab20974ec914c14777108a9a7b3ca",
+            "home": "d8b07acadd9c5cc8b3259def7b029675"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 162,
+              "form": "162"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 162,
+      "name": "Furret",
+      "generation": 2,
+      "category": "Long Body Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "sentret"
+      },
+      "names": {
+        "de": "Wiesenior",
+        "en": "Furret",
+        "es": "Furret",
+        "fr": "Fouinar",
+        "it": "Furret",
+        "ja": "オオタチ",
+        "ko": "다꼬리",
+        "ja-Hrkt": "オオタチ",
+        "zh-Hans": "大尾立",
+        "zh-Hant": "大尾立"
+      },
+      "description": {
+        "fun": "Furret is so long and slim that you can't tell where its body ends and its tail begins. It digs narrow, maze-like burrows that bigger Pokémon can't follow it into, and it's quick enough to wriggle out of a person's arms. Its bouncy walk animation, made for Sun and Moon, went viral online as the 'Furret walk'.",
+        "guide": "A long, slender, ferret-like Normal-type Pokémon with ringed fur, the evolved form of Sentret. It is quick despite its short limbs and lives in narrow, maze-like burrows that other Pokémon struggle to enter. Its walk animation is known online as the 'Furret walk'.",
+        "tagline": "So long nobody knows where the tail starts",
+        "sources": [
+          {
+            "title": "Bulbapedia: Furret (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "162",
+          "name": "Furret",
+          "generation": 2,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "82aa1caa63b72e797a1fa3a59778d809",
+            "home": "ff7041bff4f4fe2bc54d789c5033df9e"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 161,
+        "form": "161"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 162,
+        "form": "162"
+      },
+      "change": "evolves",
+      "how": "Level 15"
+    }
+  ]
+}

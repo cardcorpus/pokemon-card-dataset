@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus artists",
+  "description": "Every artist a card's credit names.",
+  "type": "object",
+  "required": [
+    "artistCount",
+    "artists"
+  ],
+  "properties": {
+    "artistCount": {
+      "description": "How many artists; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "artists": {
+      "description": "Every artist.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name",
+          "record": "artist"
+        },
+        "required": [
+          "id",
+          "name",
+          "cardCount"
+        ],
+        "properties": {
+          "id": {
+            "description": "The artist's id (artists.json).",
+            "type": "string"
+          },
+          "name": {
+            "description": "The name to show them under.",
+            "type": "string"
+          },
+          "cardCount": {
+            "description": "How many cards whose credit names them; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "credits": {
+            "description": "The other ways cards credit them.",
+            "type": "array",
+            "items": {
+              "description": "A credit.",
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

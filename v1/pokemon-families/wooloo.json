@@ -1,0 +1,122 @@
+{
+  "id": "wooloo",
+  "species": [
+    {
+      "dex": 831,
+      "name": "Wooloo",
+      "generation": 8,
+      "category": "Sheep Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wooloo"
+      },
+      "names": {
+        "de": "Wolly",
+        "en": "Wooloo",
+        "es": "Wooloo",
+        "fr": "Moumouton",
+        "it": "Wooloo",
+        "ja": "ウールー",
+        "ko": "우르",
+        "ja-Hrkt": "ウールー",
+        "zh-Hans": "毛辫羊",
+        "zh-Hant": "毛辮羊"
+      },
+      "description": {
+        "fun": "A walking cotton ball of a sheep whose fleece is such a good cushion it could fall off a cliff and stand right up at the bottom. Its wool grows back three months after shearing and makes remarkably strong cloth, but if it grows too long Wooloo can't move. Wooloo hates conflict and simply rolls away from enemies.",
+        "guide": "A friendly sheep Pokémon of Galar's farms whose fleece is used for clothing and carpets. Wooloo dislikes conflict, lives in herds and follows its leader. It evolves into Dubwool.",
+        "tagline": "A fluffy sheep that rolls away from trouble",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wooloo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wooloo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "831",
+          "name": "Wooloo",
+          "generation": 8,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "01dc0cd17f182c90e6966415e779a71d",
+            "home": "d019067a9879ce114cffe89c2566635a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 832,
+              "form": "832"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 832,
+      "name": "Dubwool",
+      "generation": 8,
+      "category": "Sheep Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wooloo"
+      },
+      "names": {
+        "de": "Zwollock",
+        "en": "Dubwool",
+        "es": "Dubwool",
+        "fr": "Moumouflon",
+        "it": "Dubwool",
+        "ja": "バイウールー",
+        "ko": "배우르",
+        "ja-Hrkt": "バイウールー",
+        "zh-Hans": "毛毛角羊",
+        "zh-Hant": "毛毛角羊"
+      },
+      "description": {
+        "fun": "Dubwool's wool is so springy that a carpet woven from it works like a trampoline. Its grand curled horns are purely for show, meant only to impress a mate and never used in battle. Its look may come from the Jacob sheep, a British breed known for its many horns and black-and-white fleece.",
+        "guide": "The evolution of Wooloo, a sheep Pokémon with springy wool and large curled horns used only to attract a mate. It may be based on the Jacob sheep, a British breed.",
+        "tagline": "A sheep so springy its wool makes trampoline carpets",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dubwool (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dubwool_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "832",
+          "name": "Dubwool",
+          "generation": 8,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "55df6ce91bf8d1c059eb65a97ce2108e",
+            "home": "fac347deebe985b2865bb44a1162d69d"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 831,
+        "form": "831"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 832,
+        "form": "832"
+      },
+      "change": "evolves",
+      "how": "Level 24"
+    }
+  ]
+}

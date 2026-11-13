@@ -1,0 +1,175 @@
+{
+  "id": "inkay",
+  "species": [
+    {
+      "dex": 686,
+      "name": "Inkay",
+      "generation": 6,
+      "category": "Revolving Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "inkay"
+      },
+      "names": {
+        "de": "Iscalar",
+        "en": "Inkay",
+        "es": "Inkay",
+        "fr": "Sepiatop",
+        "it": "Inkay",
+        "ja": "マーイーカ",
+        "ko": "오케이징",
+        "ja-Hrkt": "マーイーカ",
+        "zh-Hans": "好啦鱿",
+        "zh-Hant": "好啦魷"
+      },
+      "description": {
+        "fun": "Inkay dazes threats with the flashing spots on its body and talks to other Inkay in rhythmic patterns of light. It floats upside down to clear its head and boost its psychic power, and that is also the secret to its evolution: you have to turn your console upside down. Shigeru Ohmori came up with the trick to make use of the Nintendo 3DS's new gyroscope.",
+        "guide": "Inkay is a Dark- and Psychic-type squid Pokémon from Kalos. It flashes the luminous spots on its body to daze foes, lure prey and communicate. It famously evolves into Malamar when it levels up while the game system is held upside down.",
+        "tagline": "A flashing little squid that evolves when you flip your console",
+        "sources": [
+          {
+            "title": "Bulbapedia: Inkay (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Inkay_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "686",
+          "name": "Inkay",
+          "generation": 6,
+          "types": [
+            "dark",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "8f01462bbe31ac7dcef3eeb79752129d",
+            "home": "4a450339641baae45174637bf4c5eb29"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 687,
+              "form": "687"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 687,
+      "name": "Malamar",
+      "generation": 6,
+      "category": "Overturning Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "inkay"
+      },
+      "names": {
+        "de": "Calamanero",
+        "en": "Malamar",
+        "es": "Malamar",
+        "fr": "Sepiatroce",
+        "it": "Malamar",
+        "ja": "カラマネロ",
+        "ko": "칼라마네로",
+        "ja-Hrkt": "カラマネロ",
+        "zh-Hans": "乌贼王",
+        "zh-Hant": "烏賊王"
+      },
+      "description": {
+        "fun": "Malamar has the strongest hypnotic powers of any Pokémon, flashing its lights to lure prey into its tentacles and to bend people to its will. Its victims forget everything once the trance wears off, and its powers are said to have shaped history. Hitoshi Ariga drew it upside down because squids are so often shown that way in picture books, giving it the look of an alien supervillain.",
+        "guide": "Malamar is a Dark- and Psychic-type Pokémon that evolves from Inkay, resembling an upside-down squid. Its hypnosis is said to be the most powerful of any Pokémon and can control people as well as prey. It can Mega Evolve into Mega Malamar, introduced in Pokémon Legends: Z-A.",
+        "tagline": "An upside-down squid with the strongest hypnosis of all",
+        "sources": [
+          {
+            "title": "Bulbapedia: Malamar (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Malamar_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "687",
+          "name": "Malamar",
+          "generation": 6,
+          "types": [
+            "dark",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "6b362f74704f414caeacced06e67b5c5",
+            "home": "3a742b75bde7127cd31cc7f2c4036979"
+          }
+        },
+        {
+          "id": "687:mega",
+          "name": "Mega Malamar",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "dark",
+            "psychic"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Malamar",
+            "fr": "Méga-Sepiatroce"
+          },
+          "pictures": {
+            "official": "7184854ad04c9fedce02e6eb6ab3b110",
+            "home": "682fa9465baacf30d877be6c6f04bc23"
+          },
+          "description": {
+            "fun": "Mega Malamar, from Pokémon Legends: Z-A, grows tall and thin with a swollen brain wrapped in tentacles and a villain's popped collar. Its hypnosis can rewrite personalities and memories, it boosts its power by poking its own brain, and it may even hypnotise its own Trainer if it disagrees.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Malamar (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Malamar_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 686,
+        "form": "686"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 687,
+        "form": "687"
+      },
+      "change": "evolves",
+      "how": "Level 30, holding the console upside down",
+      "note": {
+        "text": "On the Nintendo 3DS you simply turn the console over as Inkay levels up; on the Nintendo Switch it only works in handheld mode with no other controllers connected, using the Joy-Con's sensors. Shigeru Ohmori suggested the method to put the 3DS's new gyroscope to use.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Inkay (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Inkay_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 687,
+        "form": "687"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 687,
+        "form": "687:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

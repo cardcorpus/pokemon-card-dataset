@@ -1,0 +1,122 @@
+{
+  "id": "shelmet",
+  "species": [
+    {
+      "dex": 616,
+      "name": "Shelmet",
+      "generation": 5,
+      "category": "Snail Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shelmet"
+      },
+      "names": {
+        "de": "Schnuthelm",
+        "en": "Shelmet",
+        "es": "Shelmet",
+        "fr": "Escargaume",
+        "it": "Shelmet",
+        "ja": "チョボマキ",
+        "ko": "쪼마리",
+        "ja-Hrkt": "チョボマキ",
+        "zh-Hans": "小嘴蜗",
+        "zh-Hant": "小嘴蝸"
+      },
+      "description": {
+        "fun": "Shelmet shuts the lid of its knight's-helmet shell when attacked and spits a sticky, poisonous liquid, but that defence is useless against Karrablast, its rival and natural predator. For some reason, the two evolve together when bathed in electric-like energy at the same time. Its look may draw on the scaly-foot snail, whose shell contains iron, and on medieval drawings of knights battling giant snails.",
+        "guide": "Shelmet is a Bug-type snail Pokémon with a helmet-like shell it closes to defend itself. It evolves into Accelgor when traded for a Karrablast, which evolves into Escavalier at the same time.",
+        "tagline": "A snail in a knight's helmet that can't keep Karrablast out.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shelmet (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shelmet_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "616",
+          "name": "Shelmet",
+          "generation": 5,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "4b3f6e6eb8195c3f7c093e7b3efc7846",
+            "home": "e24350b08a7504a548f6039b1b8cc6f9"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 617,
+              "form": "617"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 617,
+      "name": "Accelgor",
+      "generation": 5,
+      "category": "Shell Out Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shelmet"
+      },
+      "names": {
+        "de": "Hydragil",
+        "en": "Accelgor",
+        "es": "Accelgor",
+        "fr": "Limaspeed",
+        "it": "Accelgor",
+        "ja": "アギルダー",
+        "ko": "어지리더",
+        "ja-Hrkt": "アギルダー",
+        "zh-Hans": "敏捷虫",
+        "zh-Hant": "敏捷蟲"
+      },
+      "description": {
+        "fun": "Free of the heavy shell that Karrablast takes when they evolve together, Accelgor became light and nimble, fighting with ninja-like moves at blinding speed and lobbing poison at foes. Its body weakens if it dries out, so it wraps itself in layers of thin membrane like a ninja's bandages. Its sulky pout and crossed arms come from missing its shell. Making Accelgor the lead is said to be a surefire way to turn a movie or comic into a hit.",
+        "guide": "Accelgor is the evolved form of Shelmet, a Bug-type Pokémon that shed its shell and fights with ninja-like speed. It wraps itself in membrane to avoid drying out.",
+        "tagline": "A shell-less snail ninja that moves at blinding speed.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Accelgor (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Accelgor_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "617",
+          "name": "Accelgor",
+          "generation": 5,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "a47c85dba6b029bcb3ca429c99ae9d49",
+            "home": "47f9f52459923d6d43629dc120804aa7"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 616,
+        "form": "616"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 617,
+        "form": "617"
+      },
+      "change": "evolves",
+      "how": "Trade for Karrablast"
+    }
+  ]
+}

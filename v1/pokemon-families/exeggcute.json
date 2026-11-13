@@ -1,0 +1,187 @@
+{
+  "id": "exeggcute",
+  "species": [
+    {
+      "dex": 102,
+      "name": "Exeggcute",
+      "generation": 1,
+      "category": "Egg Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "exeggcute"
+      },
+      "names": {
+        "de": "Owei",
+        "en": "Exeggcute",
+        "es": "Exeggcute",
+        "fr": "Noeunoeuf",
+        "it": "Exeggcute",
+        "ja": "タマタマ",
+        "ko": "아라리",
+        "ja-Hrkt": "タマタマ",
+        "zh-Hans": "蛋蛋",
+        "zh-Hant": "蛋蛋"
+      },
+      "description": {
+        "fun": "Exeggcute look like a clutch of six eggs but are really closer to seeds. The six talk to each other with a telepathy only they understand, and they need all six to feel steady; one short, and they get nervous and may recruit a similar-sized Pokémon to fill the gap. More cracks in the shells mean it's close to evolving, and when it does, all six merge into a single Exeggutor.",
+        "guide": "A group of six egg-like Grass and Psychic Pokémon that are actually closer to seeds. The six communicate telepathically and stay together as a group. It evolves into Exeggutor with a Leaf Stone, or into Alolan Exeggutor if it evolves in Alola.",
+        "tagline": "Six psychic eggs that are actually seeds",
+        "sources": [
+          {
+            "title": "Bulbapedia: Exeggcute (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Exeggcute_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "102",
+          "name": "Exeggcute",
+          "generation": 1,
+          "types": [
+            "grass",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "52e7e0398bad52f48cd7422c6475db3b",
+            "home": "b29b56351062ef2cf2384d6f60fc9595"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 103,
+              "form": "103"
+            },
+            {
+              "$kind": "form",
+              "species": 103,
+              "form": "103:alola"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 103,
+      "name": "Exeggutor",
+      "generation": 1,
+      "category": "Coconut Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "exeggcute"
+      },
+      "names": {
+        "de": "Kokowei",
+        "en": "Exeggutor",
+        "es": "Exeggutor",
+        "fr": "Noadkoko",
+        "it": "Exeggutor",
+        "ja": "ナッシー",
+        "ko": "나시",
+        "ja-Hrkt": "ナッシー",
+        "zh-Hans": "椰蛋树",
+        "zh-Hant": "椰蛋樹"
+      },
+      "description": {
+        "fun": "Exeggutor is a walking palm tree with three coconut heads that each think for themselves and speak their minds, though they never squabble; if they all want to go different ways, the body simply stays put. A head that grows too big falls off and becomes an Exeggcute. It's been called 'the walking tropical rainforest', and it gets sluggish on cloudy days.",
+        "guide": "The evolution of Exeggcute with a Leaf Stone, a palm tree-like Grass and Psychic Pokémon with three coconut-shaped heads that think independently. A head that grows too large can fall off and become an Exeggcute. Its Alolan form is a very tall Grass and Dragon type.",
+        "tagline": "A three-headed palm tree that can't always agree where to go",
+        "sources": [
+          {
+            "title": "Bulbapedia: Exeggutor (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "103",
+          "name": "Exeggutor",
+          "generation": 1,
+          "types": [
+            "grass",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "7e72098fc2065efce3b157657da48337",
+            "home": "a5010e5672a707447ea1609f582184aa"
+          }
+        },
+        {
+          "id": "103:alola",
+          "name": "Alolan Exeggutor",
+          "category": "regional",
+          "region": "alola",
+          "generation": 7,
+          "types": [
+            "grass",
+            "dragon"
+          ],
+          "names": {
+            "de": "Alola Kokowei",
+            "en": "Alolan Exeggutor",
+            "fr": "Noadkoko d’Alola"
+          },
+          "pictures": {
+            "official": "e0ed20f847b8526ce8c62b908f620063",
+            "home": "578597902f53b7b323eb3ed05757d53c"
+          },
+          "description": {
+            "fun": "Alola's strong sun makes Exeggutor grow over five times taller, with a long neck and a fourth head on its tail that guards the rear. Alolans say this is how Exeggutor ought to look, though swinging that long neck in battle makes it dizzy.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Exeggutor (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "alolan"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 102,
+        "form": "102"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 103,
+        "form": "103"
+      },
+      "change": "evolves",
+      "how": "Leaf Stone"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 102,
+        "form": "102"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 103,
+        "form": "103:alola"
+      },
+      "change": "evolves",
+      "how": "Leaf Stone, in Alola",
+      "note": {
+        "text": "Same Leaf Stone, different place: any Exeggcute that evolves in Alola becomes Alolan Exeggutor, wherever it came from.",
+        "term": "regional_rule",
+        "sources": [
+          {
+            "title": "Bulbapedia: Regional form",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Regional_form"
+          },
+          {
+            "title": "Bulbapedia: Exeggutor (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

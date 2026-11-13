@@ -1,0 +1,122 @@
+{
+  "id": "wailmer",
+  "species": [
+    {
+      "dex": 320,
+      "name": "Wailmer",
+      "generation": 3,
+      "category": "Ball Whale Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wailmer"
+      },
+      "names": {
+        "de": "Wailmer",
+        "en": "Wailmer",
+        "es": "Wailmer",
+        "fr": "Wailmer",
+        "it": "Wailmer",
+        "ja": "ホエルコ",
+        "ko": "고래왕자",
+        "ja-Hrkt": "ホエルコ",
+        "zh-Hans": "吼吼鲸",
+        "zh-Hant": "吼吼鯨"
+      },
+      "description": {
+        "fun": "Wailmer fills itself with seawater and blasts it out of its nostrils to startle people, and the more water it holds, the higher it bounces, like a beach ball. It swims with its mouth open, eating tons of food a day. Wailmer was one of the first Generation 3 Pokémon ever revealed, along with Azurill and Kecleon, on 7 March 2001.",
+        "guide": "A Water-type Pokémon based on a baleen whale with a touch of beach ball, which lives in the sea and can only stay on land briefly. It evolves into Wailord at level 40.",
+        "tagline": "A bouncing beach-ball whale that sprays water to startle people",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wailmer (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wailmer_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "320",
+          "name": "Wailmer",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "c7d6f05655c8c3593d894522fedca1db",
+            "home": "1d0c3d0c11478a47c82c9ea82bc99114"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 321,
+              "form": "321"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 321,
+      "name": "Wailord",
+      "generation": 3,
+      "category": "Float Whale Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wailmer"
+      },
+      "names": {
+        "de": "Wailord",
+        "en": "Wailord",
+        "es": "Wailord",
+        "fr": "Wailord",
+        "it": "Wailord",
+        "ja": "ホエルオー",
+        "ko": "고래왕",
+        "ja-Hrkt": "ホエルオー",
+        "zh-Hans": "吼鲸王",
+        "zh-Hant": "吼鯨王"
+      },
+      "description": {
+        "fun": "Wailord is one of the biggest Pokémon ever found and the tallest that isn't Legendary, so big it has almost no natural enemies. It leaps out of the water and crashes back down, and the shockwave knocks out foes and herds its prey. It's so popular that Wailord-watching is a favourite outing around the world. On a single breath it can dive 3,000 metres deep.",
+        "guide": "A Water-type Pokémon based on the blue whale, living at sea in pods that protect their young Wailmer. It has the highest base HP of any Water-type Pokémon. It evolves from Wailmer at level 40.",
+        "tagline": "A gentle giant whale and the tallest non-Legendary Pokémon",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wailord (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wailord_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "321",
+          "name": "Wailord",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "4f539a30b0456a9668119f7432957676",
+            "home": "9071d0fa15f4b203523674b0291e2a67"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 320,
+        "form": "320"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 321,
+        "form": "321"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

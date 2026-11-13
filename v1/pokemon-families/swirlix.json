@@ -1,0 +1,122 @@
+{
+  "id": "swirlix",
+  "species": [
+    {
+      "dex": 684,
+      "name": "Swirlix",
+      "generation": 6,
+      "category": "Cotton Candy Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "swirlix"
+      },
+      "names": {
+        "de": "Flauschling",
+        "en": "Swirlix",
+        "es": "Swirlix",
+        "fr": "Sucroquin",
+        "it": "Swirlix",
+        "ja": "ペロッパフ",
+        "ko": "나룸퍼프",
+        "ja-Hrkt": "ペロッパフ",
+        "zh-Hans": "绵绵泡芙",
+        "zh-Hant": "綿綿泡芙"
+      },
+      "description": {
+        "fun": "Swirlix eats nothing but sweets, its own weight in sugar, and it gets grumpy when it doesn't get enough. All that sugar makes its fur as sticky as cotton candy, and it smells like it too, so it can tangle up foes in sweet, sticky threads. Cotton candy is also called fairy floss, which may be where its Fairy type comes from.",
+        "guide": "Swirlix is a Fairy-type Pokémon from Kalos based on cotton candy and a fluffy lap dog. It eats only sweets, which make its fur sticky, and it can bind opponents with sticky white threads. It evolves into Slurpuff when traded holding a Whipped Dream.",
+        "tagline": "A sugar-crazed puff of living cotton candy",
+        "sources": [
+          {
+            "title": "Bulbapedia: Swirlix (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Swirlix_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "684",
+          "name": "Swirlix",
+          "generation": 6,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "db978c6c44e312312577d097f4a4846f",
+            "home": "ac285eb25b9db30eed2c3c52fa4126e7"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 685,
+              "form": "685"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 685,
+      "name": "Slurpuff",
+      "generation": 6,
+      "category": "Meringue Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "swirlix"
+      },
+      "names": {
+        "de": "Sabbaione",
+        "en": "Slurpuff",
+        "es": "Slurpuff",
+        "fr": "Cupcanaille",
+        "it": "Slurpuff",
+        "ja": "ペロリーム",
+        "ko": "나루림",
+        "ja-Hrkt": "ペロリーム",
+        "zh-Hans": "胖甜妮",
+        "zh-Hant": "胖甜妮"
+      },
+      "description": {
+        "fun": "Slurpuff's nose is 100 million times more sensitive than a human's, so it can pick out the faintest smell. Pastry chefs keep it in the kitchen as an assistant, and it can even tell how someone is feeling, body and mind, from their scent. Its fluffy, air-filled fur is topped with a cherry, like a meringue with a chef's hat on.",
+        "guide": "Slurpuff is a Fairy-type Pokémon that evolves from Swirlix when traded holding a Whipped Dream. Its sense of smell is extraordinarily keen, which makes it a helper for pastry chefs and lets it sense a person's condition. Its look is based on meringue desserts.",
+        "tagline": "A meringue with a nose that helps pastry chefs",
+        "sources": [
+          {
+            "title": "Bulbapedia: Slurpuff (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Slurpuff_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "685",
+          "name": "Slurpuff",
+          "generation": 6,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "fd171be95af9120bca00370bdd133e59",
+            "home": "33c5ed27bb5f3ff3f80f007edad0aba6"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 684,
+        "form": "684"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 685,
+        "form": "685"
+      },
+      "change": "evolves",
+      "how": "Trade holding Whipped Dream"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "morelull",
+  "species": [
+    {
+      "dex": 755,
+      "name": "Morelull",
+      "generation": 7,
+      "category": "Illuminating Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "morelull"
+      },
+      "names": {
+        "de": "Bubungus",
+        "en": "Morelull",
+        "es": "Morelull",
+        "fr": "Spododo",
+        "it": "Morelull",
+        "ja": "ネマシュ",
+        "ko": "자마슈",
+        "ja-Hrkt": "ネマシュ",
+        "zh-Hans": "睡睡菇",
+        "zh-Hant": "睡睡菇"
+      },
+      "description": {
+        "fun": "Morelull is a tiny glowing mushroom that moves to a new spot every night so it never drains one patch of ground, and it talks to other Morelull through its roots. When threatened, it scatters spores that burst into glittering sparks whose pulsing light makes you drowsy. Rumour has it a whole group once let fly at the same time, and a plane passing overhead had a near brush with disaster.",
+        "guide": "Morelull is a Grass- and Fairy-type mushroom Pokémon from Alola, based on bioluminescent fungi. Its glowing spores can lull foes to sleep, and its caps grow back overnight. It evolves into Shiinotic at level 24.",
+        "tagline": "A tiny glowing mushroom whose sparkling spores make you sleepy",
+        "sources": [
+          {
+            "title": "Bulbapedia: Morelull (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Morelull_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "755",
+          "name": "Morelull",
+          "generation": 7,
+          "types": [
+            "grass",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "e2dfb8e08a42a14a31f28ed1c17b2d77",
+            "home": "f19bb5014abcf32423f4081176a5b2df"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 756,
+              "form": "756"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 756,
+      "name": "Shiinotic",
+      "generation": 7,
+      "category": "Illuminating Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "morelull"
+      },
+      "names": {
+        "de": "Lamellux",
+        "en": "Shiinotic",
+        "es": "Shiinotic",
+        "fr": "Lampignon",
+        "it": "Shiinotic",
+        "ja": "マシェード",
+        "ko": "마셰이드",
+        "ja-Hrkt": "マシェード",
+        "zh-Hans": "灯罩夜菇",
+        "zh-Hant": "燈罩夜菇"
+      },
+      "description": {
+        "fun": "Shiinotic is a walking mushroom lamp: the strange light from its cap confuses people who wander into its dark forest so they lose their way, and its flickering spores make them sleepy. It then sucks energy from sleeping prey through its fingertips, though it can also pass energy to anyone it likes. It squabbles with Parasect over territory, and their fights leave the forest coated in spores.",
+        "guide": "Shiinotic is a Grass- and Fairy-type mushroom Pokémon that evolves from Morelull. Its glowing cap leads people astray, and it drains energy from sleeping prey. Its design may draw on bedside lamps and will-o'-the-wisps.",
+        "tagline": "A mushroom lamp that leads travellers astray in dark forests",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shiinotic (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shiinotic_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "756",
+          "name": "Shiinotic",
+          "generation": 7,
+          "types": [
+            "grass",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "858a1ac8a052344aaded533e3d55c46c",
+            "home": "325c358a6d5fa9e4a8572644623956ca"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 755,
+        "form": "755"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 756,
+        "form": "756"
+      },
+      "change": "evolves",
+      "how": "Level 24"
+    }
+  ]
+}

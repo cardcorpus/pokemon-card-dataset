@@ -1,0 +1,122 @@
+{
+  "id": "wiglett",
+  "species": [
+    {
+      "dex": 960,
+      "name": "Wiglett",
+      "generation": 9,
+      "category": "Garden Eel Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wiglett"
+      },
+      "names": {
+        "de": "Schligda",
+        "en": "Wiglett",
+        "es": "Wiglett",
+        "fr": "Taupikeau",
+        "it": "Wiglett",
+        "ja": "ウミディグダ",
+        "ko": "바다그다",
+        "ja-Hrkt": "ウミディグダ",
+        "zh-Hans": "海地鼠",
+        "zh-Hant": "海地鼠"
+      },
+      "description": {
+        "fun": "It looks just like Diglett, and researchers first took it for a Paldean form, but Wiglett is a garden eel that lives buried in beach sand. The likeness is a coincidence of living the same burrowing life. It's timid, and its nose is so sharp that it can smell a Veluza 20 metres away and duck back into the sand. Nobody knows how long it is underneath.",
+        "guide": "A Water-type garden eel Pokémon from Pokémon Scarlet and Violet that closely resembles Diglett but is unrelated, a case of convergent evolution. It evolves into Wugtrio.",
+        "tagline": "A garden eel that only looks like Diglett",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wiglett (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wiglett_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "960",
+          "name": "Wiglett",
+          "generation": 9,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "57a0578304c97610c02490a1cb0c2eb1",
+            "home": "633974dc3934537eac0edfba3719cc9f"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 961,
+              "form": "961"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 961,
+      "name": "Wugtrio",
+      "generation": 9,
+      "category": "Garden Eel Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wiglett"
+      },
+      "names": {
+        "de": "Schligdri",
+        "en": "Wugtrio",
+        "es": "Wugtrio",
+        "fr": "Triopikeau",
+        "it": "Wugtrio",
+        "ja": "ウミトリオ",
+        "ko": "바닥트리오",
+        "ja-Hrkt": "ウミトリオ",
+        "zh-Hans": "三海地鼠",
+        "zh-Hant": "三海地鼠"
+      },
+      "description": {
+        "fun": "Three red eels poking out of a spiky rock, and far more vicious than they look. Wugtrio wraps its long bodies around prey and drags it down into its den, the way moray eels hunt. It was once thought to be a regional form of Dugtrio, until that was disproven. Nobody knows what the rest of it looks like inside the rock.",
+        "guide": "The evolution of Wiglett, a Water-type Pokémon made of three garden eels that resembles Dugtrio but is unrelated. It drags its prey into its den.",
+        "tagline": "A vicious trio of eels that only looks like Dugtrio",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wugtrio (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wugtrio_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "961",
+          "name": "Wugtrio",
+          "generation": 9,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "3dd364b776849aa90133e746acf4b0ff",
+            "home": "64e4370fa3828edb3699c4e040d5890c"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 960,
+        "form": "960"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 961,
+        "form": "961"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "psyduck",
+  "species": [
+    {
+      "dex": 54,
+      "name": "Psyduck",
+      "generation": 1,
+      "category": "Duck Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "psyduck"
+      },
+      "names": {
+        "de": "Enton",
+        "en": "Psyduck",
+        "es": "Psyduck",
+        "fr": "Psykokwak",
+        "it": "Psyduck",
+        "ja": "コダック",
+        "ko": "고라파덕",
+        "ja-Hrkt": "コダック",
+        "zh-Hans": "可达鸭",
+        "zh-Hant": "可達鴨"
+      },
+      "description": {
+        "fun": "Psyduck lives with a constant headache that leaves it too dazed to think straight. When the pain gets bad enough, it unleashes strong psychic powers, then can't remember a thing about it. It's game director Junichi Masuda's favourite Pokémon, and it was nearly Pikachu's partner in Let's Go before Eevee got the job; it was passed over for being too yellow.",
+        "guide": "A yellow, duck-like Water Pokémon that suffers from constant headaches. When the pain becomes too much, it releases powerful psychic energy that it later cannot remember using. It evolves into Golduck.",
+        "tagline": "A dazed yellow duck with a headache and hidden psychic power",
+        "sources": [
+          {
+            "title": "Bulbapedia: Psyduck (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "54",
+          "name": "Psyduck",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "b574fdf7bfc06e9bb37d65e417d38f7c",
+            "home": "667ce0e292d4b5dd119a8a0b5b1c5585"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 55,
+              "form": "55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 55,
+      "name": "Golduck",
+      "generation": 1,
+      "category": "Duck Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "psyduck"
+      },
+      "names": {
+        "de": "Entoron",
+        "en": "Golduck",
+        "es": "Golduck",
+        "fr": "Akwakwak",
+        "it": "Golduck",
+        "ja": "ゴルダック",
+        "ko": "골덕",
+        "ja-Hrkt": "ゴルダック",
+        "zh-Hans": "哥达鸭",
+        "zh-Hant": "哥達鴨"
+      },
+      "description": {
+        "fun": "Golduck is built for the water, with webbed limbs and a rudder-like tail that let it outswim the fastest human, even in rough seas, and it sometimes rescues people from shipwrecks. The gem on its forehead glows when it uses its psychic powers; people once hunted it, believing the gem gave supernatural powers. It's sometimes mistaken for the kappa of Japanese folklore.",
+        "guide": "The evolution of Psyduck, a blue, duck-like Water Pokémon with a red gem on its forehead that glows when it uses psychic powers. It is a powerful swimmer that hunts fish in lakes and rivers. It is sometimes mistaken for the kappa of Japanese folklore.",
+        "tagline": "A sleek, psychic swimmer with a glowing gem on its brow",
+        "sources": [
+          {
+            "title": "Bulbapedia: Golduck (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "55",
+          "name": "Golduck",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "c7c83bc66220d303cfea629cca5024c0",
+            "home": "6750b3d337f7c1fa25a54747ffe6a59c"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 54,
+        "form": "54"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 55,
+        "form": "55"
+      },
+      "change": "evolves",
+      "how": "Level 33"
+    }
+  ]
+}

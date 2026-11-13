@@ -1,0 +1,122 @@
+{
+  "id": "purrloin",
+  "species": [
+    {
+      "dex": 509,
+      "name": "Purrloin",
+      "generation": 5,
+      "category": "Devious Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "purrloin"
+      },
+      "names": {
+        "de": "Felilou",
+        "en": "Purrloin",
+        "es": "Purrloin",
+        "fr": "Chacripan",
+        "it": "Purrloin",
+        "ja": "チョロネコ",
+        "ko": "쌔비냥",
+        "ja-Hrkt": "チョロネコ",
+        "zh-Hans": "扒手猫",
+        "zh-Hant": "扒手貓"
+      },
+      "description": {
+        "fun": "Purrloin steals things just to enjoy the looks on its victims' faces. Its cute act is pure con artistry: drop your guard and you'll come away with your valuables gone, stinging scratches and your pride wounded by its laughter. Even so, it's so charming that its victims can't help forgiving it. In Galar it has a running rivalry with Nickit, a fellow sneak thief.",
+        "guide": "Purrloin is a Dark-type cat Pokémon that steals from people for fun, luring them in with a deceptively cute act. It attacks with sharp claws when angered. It evolves into Liepard.",
+        "tagline": "A cute cat burglar you'll forgive anyway.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Purrloin (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Purrloin_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "509",
+          "name": "Purrloin",
+          "generation": 5,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "8d3738e45a70a9ffa1ab2eebabd46a4d",
+            "home": "71467baedaac5e1453ce4e5051fbce45"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 510,
+              "form": "510"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 510,
+      "name": "Liepard",
+      "generation": 5,
+      "category": "Cruel Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "purrloin"
+      },
+      "names": {
+        "de": "Kleoparda",
+        "en": "Liepard",
+        "es": "Liepard",
+        "fr": "Léopardus",
+        "it": "Liepard",
+        "ja": "レパルダス",
+        "ko": "레파르다스",
+        "ja-Hrkt": "レパルダス",
+        "zh-Hans": "酷豹",
+        "zh-Hant": "酷豹"
+      },
+      "description": {
+        "fun": "Liepard appears without warning and vanishes just as suddenly. The muscles beneath its spotted coat let it run silently through the night and strike from behind before its victim can react. Many Trainers fall for its beautiful fur and elegant figure, but don't be fooled: it's moody and vicious. Its name mixes 'lie' with 'leopard', and in Galar it competes with Thievul for territory.",
+        "guide": "Liepard is the evolved form of Purrloin, a Dark-type leopard-like Pokémon prized by Trainers for its beautiful fur. It moves silently, sneaks up on its targets and strikes from behind, and it has a moody, vicious temperament.",
+        "tagline": "A gorgeous, moody leopard that strikes without a sound.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Liepard (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Liepard_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "510",
+          "name": "Liepard",
+          "generation": 5,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "3d7f492adff5f3eebc77e619584432df",
+            "home": "19f4ef36d98f896027cfd972eb494091"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 509,
+        "form": "509"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 510,
+        "form": "510"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    }
+  ]
+}

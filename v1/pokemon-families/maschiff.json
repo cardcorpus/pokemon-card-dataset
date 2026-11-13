@@ -1,0 +1,122 @@
+{
+  "id": "maschiff",
+  "species": [
+    {
+      "dex": 942,
+      "name": "Maschiff",
+      "generation": 9,
+      "category": "Rascal Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "maschiff"
+      },
+      "names": {
+        "de": "Mobtiff",
+        "en": "Maschiff",
+        "es": "Maschiff",
+        "fr": "Grondogue",
+        "it": "Maschiff",
+        "ja": "オラチフ",
+        "ko": "오라티프",
+        "ja-Hrkt": "オラチフ",
+        "zh-Hans": "偶叫獒",
+        "zh-Hant": "偶叫獒"
+      },
+      "description": {
+        "fun": "A mastiff puppy that always tilts its head and scowls, desperate to be taken seriously. It doesn't work: even crying children burst out laughing at its face. Its jaws really are strong enough to crunch through boulders, though, and a thick layer of fat protects it from attacks. Packs of Maschiff are incredibly close-knit.",
+        "guide": "A Dark-type puppy Pokémon from Pokémon Scarlet and Violet, based on the Spanish Mastiff. Maschiff scowls to look tough but fails to scare anyone. It evolves into Mabosstiff.",
+        "tagline": "A scowling puppy that only makes children laugh",
+        "sources": [
+          {
+            "title": "Bulbapedia: Maschiff (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Maschiff_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "942",
+          "name": "Maschiff",
+          "generation": 9,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "3a70e69ab7e224a328d23311f228adfe",
+            "home": "c15107f7193834ee6cddd5dcb513dec9"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 943,
+              "form": "943"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 943,
+      "name": "Mabosstiff",
+      "generation": 9,
+      "category": "Boss Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "maschiff"
+      },
+      "names": {
+        "de": "Mastifioso",
+        "en": "Mabosstiff",
+        "es": "Mabosstiff",
+        "fr": "Dogrino",
+        "it": "Mabosstiff",
+        "ja": "マフィティフ",
+        "ko": "마피티프",
+        "ja-Hrkt": "マフィティフ",
+        "zh-Hans": "獒教父",
+        "zh-Hant": "獒教父"
+      },
+      "description": {
+        "fun": "It looks like a mob boss, slicked-back fur and all, but Mabosstiff has a kind and gentle heart and loves playing with children. Threaten its family, though, and it bares its teeth and relentlessly chases the threat down. It stores energy in its big dewlap and unleashes it all at once to blow enemies away.",
+        "guide": "The evolution of Maschiff, a Dark-type dog Pokémon based on mastiffs and the look of crime-family bosses. Though gentle with children, it fiercely protects its family.",
+        "tagline": "A mob-boss mastiff with a soft spot for children",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mabosstiff (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mabosstiff_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "943",
+          "name": "Mabosstiff",
+          "generation": 9,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "63c7e8c831559d0243d40a54c1ceaea3",
+            "home": "3fc9a0cd96dc684b681e0c317a6af666"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 942,
+        "form": "942"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 943,
+        "form": "943"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

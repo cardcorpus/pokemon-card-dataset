@@ -1,0 +1,122 @@
+{
+  "id": "cranidos",
+  "species": [
+    {
+      "dex": 408,
+      "name": "Cranidos",
+      "generation": 4,
+      "category": "Head Butt Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cranidos"
+      },
+      "names": {
+        "de": "Koknodon",
+        "en": "Cranidos",
+        "es": "Cranidos",
+        "fr": "Kranidos",
+        "it": "Cranidos",
+        "ja": "ズガイドス",
+        "ko": "두개도스",
+        "ja-Hrkt": "ズガイドス",
+        "zh-Hans": "头盖龙",
+        "zh-Hant": "頭蓋龍"
+      },
+      "description": {
+        "fun": "Cranidos is all skull. A hundred million years ago it charged through the jungle headbutting trees out of its way with a head as hard as iron, then ate their ripe berries, and fossilised trunks snapped in two turn up in the same rock layers as its bones. When two Cranidos butt heads, the crack rings out like a bell. It is modelled on the dinosaur Pachycephalosaurus.",
+        "guide": "Cranidos is a Rock-type Fossil Pokémon revived from the Skull Fossil, modelled on the dinosaur Pachycephalosaurus. It lived in jungles about 100 million years ago and attacked by headbutting. It evolves into Rampardos.",
+        "tagline": "A prehistoric headbutter with a skull as hard as iron.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cranidos (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cranidos_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "408",
+          "name": "Cranidos",
+          "generation": 4,
+          "types": [
+            "rock"
+          ],
+          "pictures": {
+            "official": "415d7192ccbf9a6dfa7b7da96ea152d4",
+            "home": "442913ccb0a72cf2a6842a3b96887247"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 409,
+              "form": "409"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 409,
+      "name": "Rampardos",
+      "generation": 4,
+      "category": "Head Butt Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cranidos"
+      },
+      "names": {
+        "de": "Rameidon",
+        "en": "Rampardos",
+        "es": "Rampardos",
+        "fr": "Charkos",
+        "it": "Rampardos",
+        "ja": "ラムパルド",
+        "ko": "램펄드",
+        "ja-Hrkt": "ラムパルド",
+        "zh-Hans": "战槌龙",
+        "zh-Hant": "戰槌龍"
+      },
+      "description": {
+        "fun": "Rampardos headbutted everything until its skull grew a foot thick and harder than steel, while its brain shrank smaller than Cranidos's; some theories say that lack of brains led to its extinction. Records tell of a revived Rampardos that escaped and knocked down a skyscraper. It is the unstoppable spear to Bastiodon's unbreakable shield, and their fossils turn up side by side.",
+        "guide": "Rampardos is the evolved form of Cranidos, a Rock-type Fossil Pokémon based on Pachycephalosaurus. Its thick skull can withstand any impact, and its headbutts can knock down almost anything. Its fossils are often found alongside Bastiodon's.",
+        "tagline": "All skull, very little brain, and a skyscraper on its record.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Rampardos (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "409",
+          "name": "Rampardos",
+          "generation": 4,
+          "types": [
+            "rock"
+          ],
+          "pictures": {
+            "official": "68b6fa66bbf0457f4bcf6e3ace17ce63",
+            "home": "91b1e55b9be5419da2cf0d7598dd99c3"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 408,
+        "form": "408"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 409,
+        "form": "409"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

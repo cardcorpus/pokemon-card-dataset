@@ -1,0 +1,97 @@
+{
+  "id": "skarmory",
+  "species": [
+    {
+      "dex": 227,
+      "name": "Skarmory",
+      "generation": 2,
+      "category": "Armor Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skarmory"
+      },
+      "names": {
+        "de": "Panzaeron",
+        "en": "Skarmory",
+        "es": "Skarmory",
+        "fr": "Airmure",
+        "it": "Skarmory",
+        "ja": "エアームド",
+        "ko": "무장조",
+        "ja-Hrkt": "エアームド",
+        "zh-Hans": "盔甲鸟",
+        "zh-Hant": "盔甲鳥"
+      },
+      "description": {
+        "fun": "Skarmory grows up in thorn bushes, where constant scratches toughen its skin into armour, and each year its battered steel wings grow back fully, with feathers sharper than any human-made sword. Warriors of old made swords from the feathers it shed. Hollow wings let it fly at 300 km/h, though rain makes it rust, so it stays in the nest on wet days.",
+        "guide": "A Steel- and Flying-type bird Pokémon covered in steel armour, with razor-sharp wing feathers that regrow each year. It rusts easily, so it avoids rain. It does not evolve, but since Legends: Z-A it can Mega Evolve into Mega Skarmory.",
+        "tagline": "A steel-armoured bird whose shed feathers became swords",
+        "sources": [
+          {
+            "title": "Bulbapedia: Skarmory (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "227",
+          "name": "Skarmory",
+          "generation": 2,
+          "types": [
+            "steel",
+            "flying"
+          ],
+          "pictures": {
+            "official": "62298c1c73678c9bd2b1d381cb155bd0",
+            "home": "c1f84971d3dc8d5fa44f555e91f96607"
+          }
+        },
+        {
+          "id": "227:mega",
+          "name": "Mega Skarmory",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "steel",
+            "flying"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Skarmory",
+            "fr": "Méga-Airmure"
+          },
+          "pictures": {
+            "official": "1e9080afe3d47776c13a25fc924d26a7",
+            "home": "ed1a3dc524071c8278de17dc6ac0ab88"
+          },
+          "description": {
+            "fun": "Mega Skarmory turns gold, perhaps a nod to Gold and Silver, and grows huge armoured talons that it tucks behind it as it flies faster than the speed of sound. It knocks foes flying with shock waves, then finishes them with those talons, which also pun on a crane and a claw-crane game.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Skarmory (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 227,
+        "form": "227"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 227,
+        "form": "227:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

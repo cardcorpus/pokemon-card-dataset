@@ -1,0 +1,140 @@
+{
+  "id": "mewtwo",
+  "species": [
+    {
+      "dex": 150,
+      "name": "Mewtwo",
+      "generation": 1,
+      "category": "Genetic Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mewtwo"
+      },
+      "names": {
+        "de": "Mewtu",
+        "en": "Mewtwo",
+        "es": "Mewtwo",
+        "fr": "Mewtwo",
+        "it": "Mewtwo",
+        "ja": "ミュウツー",
+        "ko": "뮤츠",
+        "ja-Hrkt": "ミュウツー",
+        "zh-Hans": "超梦",
+        "zh-Hant": "超夢"
+      },
+      "description": {
+        "fun": "Mewtwo was made by scientists from Mew's DNA, modified and spliced in the aim of creating the most powerful Pokémon in existence. The experiments left it with the most savage heart of any Pokémon, and it broke free, wrecking the mansion where it was kept. It saves its energy by keeping perfectly still, so it can unleash everything in battle. Though it was created from Mew, it comes one number before it in the Pokédex.",
+        "guide": "A grey and purple, humanoid Psychic Legendary Pokémon created by scientists from Mew's DNA to be the most powerful Pokémon. It does not evolve, but it can Mega Evolve into two forms: Mega Mewtwo X, a Psychic and Fighting type, and Mega Mewtwo Y.",
+        "tagline": "A clone engineered to be the strongest",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mewtwo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "150",
+          "name": "Mewtwo",
+          "generation": 1,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "8de1d9a402e2bcfbe53d311adbc4f37d",
+            "home": "c98135b317c12257ec76b3a24f51134f"
+          }
+        },
+        {
+          "id": "150:mega-x",
+          "name": "Mega Mewtwo X",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "psychic",
+            "fighting"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Mewtu X",
+            "en": "Mega Mewtwo X",
+            "fr": "Méga-Mewtwo X"
+          },
+          "pictures": {
+            "official": "222638cc65f5b94bd09b16ef6c0c0b5b",
+            "home": "eda80602a368bcbe0a6c538e5abe73e0"
+          },
+          "description": {
+            "fun": "Mega Mewtwo X pours its psychic power into its muscles, giving it a one-ton grip and the speed to sprint 100 metres in two seconds. It becomes part Fighting type.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Mewtwo (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        },
+        {
+          "id": "150:mega-y",
+          "name": "Mega Mewtwo Y",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "psychic"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Mewtu Y",
+            "en": "Mega Mewtwo Y",
+            "fr": "Méga-Mewtwo Y"
+          },
+          "pictures": {
+            "official": "08d8448990811c8778c7932c68f35aee",
+            "home": "76d7e37a77382c3b473b4bf03c476d4e"
+          },
+          "description": {
+            "fun": "Mega Mewtwo Y is smaller and lighter than Mewtwo, yet its mind is strong enough to smash buildings with a single thought, and it stays constantly in the air. It was the first Mega Evolution ever revealed to the public.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Mewtwo (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 150,
+        "form": "150"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 150,
+        "form": "150:mega-x"
+      },
+      "change": "mega"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 150,
+        "form": "150"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 150,
+        "form": "150:mega-y"
+      },
+      "change": "mega"
+    }
+  ]
+}

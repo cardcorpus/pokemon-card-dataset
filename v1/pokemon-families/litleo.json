@@ -1,0 +1,183 @@
+{
+  "id": "litleo",
+  "species": [
+    {
+      "dex": 667,
+      "name": "Litleo",
+      "generation": 6,
+      "category": "Lion Cub Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "litleo"
+      },
+      "names": {
+        "de": "Leufeo",
+        "en": "Litleo",
+        "es": "Litleo",
+        "fr": "Hélionceau",
+        "it": "Litleo",
+        "ja": "シシコ",
+        "ko": "레오꼬",
+        "ja-Hrkt": "シシコ",
+        "zh-Hans": "小狮狮",
+        "zh-Hant": "小獅獅"
+      },
+      "description": {
+        "fun": "Litleo is a hot-headed lion cub with a red mohawk that radiates heat in battle, burning hotter the stronger its opponent. Cubs are raised in a pride by the female Pyroar, who teach them to hunt, but as soon as a young Litleo can fend for itself it is sent off to make its own way. Its name mixes 'little', 'lit' and 'leo', Latin for lion.",
+        "guide": "Litleo is a Fire- and Normal-type lion cub Pokémon from Kalos. It is curious and quick to pick fights, and the tuft of mane on its head gives off heat in battle. Young Litleo grow up in prides and leave to live alone once they can hunt.",
+        "tagline": "A hot-headed lion cub with a smouldering mohawk",
+        "sources": [
+          {
+            "title": "Bulbapedia: Litleo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Litleo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "667",
+          "name": "Litleo",
+          "generation": 6,
+          "types": [
+            "fire",
+            "normal"
+          ],
+          "pictures": {
+            "official": "821b640126c404351e28250b159833bc",
+            "home": "0e78eadfe952716be2c729c8eff248e5"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 668,
+              "form": "668"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 668,
+      "name": "Pyroar",
+      "generation": 6,
+      "category": "Royal Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "litleo"
+      },
+      "names": {
+        "de": "Pyroleo",
+        "en": "Pyroar",
+        "es": "Pyroar",
+        "fr": "Némélios",
+        "it": "Pyroar",
+        "ja": "カエンジシ",
+        "ko": "화염레오",
+        "ja-Hrkt": "カエンジシ",
+        "zh-Hans": "火炎狮",
+        "zh-Hant": "火炎獅"
+      },
+      "description": {
+        "fun": "Pyroar lives in prides like real lions, and you can tell the sexes apart at a glance: males wear a huge red mane patterned like the kanji for 'great' and 'fire', while females sport a long flowing crest. Females outnumber males seven to one, a gender ratio only Litleo and Pyroar have. A lazy male still guards its pride, and its fiery breath tops 6,000 °C.",
+        "guide": "Pyroar is a Fire- and Normal-type lion Pokémon that evolves from Litleo. Males have a large red mane and females a long, crest-like one, and females far outnumber males. It lives in prides led by the male with the biggest mane, and can Mega Evolve into Mega Pyroar, introduced in Pokémon Legends: Z-A.",
+        "tagline": "A lion king whose mane is written in fire",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pyroar (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pyroar_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "668",
+          "name": "Pyroar",
+          "lookName": "Male Pyroar",
+          "generation": 6,
+          "types": [
+            "fire",
+            "normal"
+          ],
+          "pictures": {
+            "official": "3120fa82caab06529e6a83855d51ed45",
+            "home": "cf01c6bc88c45866427639eff62ffafb"
+          }
+        },
+        {
+          "id": "668:mega",
+          "name": "Mega Pyroar",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "fire",
+            "normal"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Pyroar",
+            "fr": "Méga-Némélios"
+          },
+          "pictures": {
+            "official": "8313b8930e7acb5d080dc9610873793b",
+            "home": "68cad4e8408b53e0905d93e3e8874fc2"
+          },
+          "description": {
+            "fun": "Mega Pyroar, from Pokémon Legends: Z-A, merges the male's and female's looks into one, with a vast flaring mane that spells out the kanji for 'flame'. Its fiery breath climbs to 10,000 °C, and it swings its mane around to shield its allies.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Pyroar (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Pyroar_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        },
+        {
+          "id": "668:female",
+          "name": "Female Pyroar",
+          "category": "cosmetic",
+          "generation": 6,
+          "types": [
+            "fire",
+            "normal"
+          ],
+          "names": {
+            "en": "Female Pyroar"
+          },
+          "pictures": {
+            "official": "d15a604462678c661dbfb8a78af567af"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 667,
+        "form": "667"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 668,
+        "form": "668"
+      },
+      "change": "evolves",
+      "how": "Level 35"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 668,
+        "form": "668"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 668,
+        "form": "668:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

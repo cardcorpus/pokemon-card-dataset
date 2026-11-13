@@ -1,0 +1,155 @@
+{
+  "id": "cherubi",
+  "species": [
+    {
+      "dex": 420,
+      "name": "Cherubi",
+      "generation": 4,
+      "category": "Cherry Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cherubi"
+      },
+      "names": {
+        "de": "Kikugi",
+        "en": "Cherubi",
+        "es": "Cherubi",
+        "fr": "Ceribou",
+        "it": "Cherubi",
+        "ja": "チェリンボ",
+        "ko": "체리버",
+        "ja-Hrkt": "チェリンボ",
+        "zh-Hans": "樱花宝",
+        "zh-Hant": "櫻花寶"
+      },
+      "description": {
+        "fun": "Cherubi comes with a snack attached: the small ball on its stem holds the nutrients it needs to evolve, and it's sweet enough that bird Pokémon like Starly try to peck it off. The redder Cherubi turns in the sun, the more it has stored up. When that little ball shrivels, evolution is near, and afterwards it drops off and becomes food for other creatures.",
+        "guide": "Cherubi is a small Grass-type cherry Pokémon. A second, smaller ball on its stem stores the nutrients it uses to evolve, and it turns redder in sunlight as it stores more. It evolves into Cherrim.",
+        "tagline": "A cherry Pokémon with a sweet snack hanging off its stem.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cherubi (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cherubi_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "420",
+          "name": "Cherubi",
+          "generation": 4,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "e001d65133f84247307bb060486e6ef0",
+            "home": "b41349603e5f9896f472c8c6e91bd1c1"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 421,
+              "form": "421"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 421,
+      "name": "Cherrim",
+      "generation": 4,
+      "category": "Blossom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cherubi"
+      },
+      "names": {
+        "de": "Kinoso",
+        "en": "Cherrim",
+        "es": "Cherrim",
+        "fr": "Ceriflor",
+        "it": "Cherrim",
+        "ja": "チェリム",
+        "ko": "체리꼬",
+        "ja-Hrkt": "チェリム",
+        "zh-Hans": "樱花儿",
+        "zh-Hant": "櫻花兒"
+      },
+      "description": {
+        "fun": "On a dull day Cherrim sits as a quiet purple bud, barely moving. When strong sunlight hits, it bursts open into a pink cherry blossom and turns cheerful and lively, as if making up for everything it endured as a bud, until the sun goes in and it folds right back up. The faint scent of its petals draws Bug Pokémon from all around.",
+        "guide": "Cherrim is the evolved form of Cherubi. In normal weather it stays closed as a purple bud (Overcast Form), and in strong sunlight it opens into a pink, cherry-blossom-like Sunshine Form and becomes much more active.",
+        "tagline": "A gloomy bud that blossoms into joy when the sun comes out.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cherrim (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "421",
+          "name": "Cherrim",
+          "generation": 4,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "04c757b79711f566858c725371819e1b",
+            "home": "cc0b195ca681752ef54c9deeb49099ed"
+          }
+        },
+        {
+          "id": "421:sunshine",
+          "name": "Sunshine Form Cherrim",
+          "category": "alternate",
+          "generation": 4,
+          "types": [
+            "grass"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Kinoso (Sonne)",
+            "en": "Sunshine Form Cherrim",
+            "fr": "Ceriflor Ensoleillé"
+          },
+          "pictures": {
+            "official": "4ce5e1f06f281587abfdc6e868d66f43",
+            "home": "bed04b2db25aa24d18a03558b30edc88"
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 420,
+        "form": "420"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 421,
+        "form": "421"
+      },
+      "change": "evolves",
+      "how": "Level 25"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 421,
+        "form": "421"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 421,
+        "form": "421:sunshine"
+      },
+      "change": "form_change"
+    }
+  ]
+}

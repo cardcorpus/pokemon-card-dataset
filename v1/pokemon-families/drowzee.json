@@ -1,0 +1,122 @@
+{
+  "id": "drowzee",
+  "species": [
+    {
+      "dex": 96,
+      "name": "Drowzee",
+      "generation": 1,
+      "category": "Hypnosis Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drowzee"
+      },
+      "names": {
+        "de": "Traumato",
+        "en": "Drowzee",
+        "es": "Drowzee",
+        "fr": "Soporifik",
+        "it": "Drowzee",
+        "ja": "スリープ",
+        "ko": "슬리프",
+        "ja-Hrkt": "スリープ",
+        "zh-Hans": "催眠貘",
+        "zh-Hant": "催眠貘"
+      },
+      "description": {
+        "fun": "Drowzee eats dreams, sucking them out through the sleeper's nose, so if your nose itches in your sleep, a Drowzee may be standing by your pillow. It's a picky eater: fun dreams are its favourite and bad ones make it ill. It remembers every dream it has ever eaten and may show them to someone it trusts. It's based on the baku, the dream-eating tapir of Japanese legend.",
+        "guide": "A yellow and brown Psychic Pokémon resembling a tapir that puts people to sleep and eats their dreams. It is based on the baku of Japanese folklore. It evolves into Hypno.",
+        "tagline": "A dream-eating tapir that prefers the fun ones",
+        "sources": [
+          {
+            "title": "Bulbapedia: Drowzee (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Drowzee_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "96",
+          "name": "Drowzee",
+          "generation": 1,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "dcfe0b08d382427d4bf6146d329672c1",
+            "home": "22843f726b62a606082fc6ab86afc265"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 97,
+              "form": "97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 97,
+      "name": "Hypno",
+      "generation": 1,
+      "category": "Hypnosis Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drowzee"
+      },
+      "names": {
+        "de": "Hypno",
+        "en": "Hypno",
+        "es": "Hypno",
+        "fr": "Hypnomade",
+        "it": "Hypno",
+        "ja": "スリーパー",
+        "ko": "슬리퍼",
+        "ja-Hrkt": "スリーパー",
+        "zh-Hans": "引梦貘人",
+        "zh-Hant": "引夢貘人"
+      },
+      "description": {
+        "fun": "Hypno never goes anywhere without its pendulum, swinging it to put people to sleep, and it polishes it while waiting for someone to wander by; in the anime, a damaged pendulum leaves it heartbroken. Older Pokédex entries make it sound sinister, but in Alola it mostly hunts Komala, and some Hypno help out in hospitals when patients can't sleep.",
+        "guide": "The evolution of Drowzee, a yellow, humanoid Psychic Pokémon that always carries a pendulum it uses to hypnotise people and eat their dreams. It is based on hypnosis and the dream-eating baku of Japanese folklore.",
+        "tagline": "A pendulum-swinging hypnotist that eats your dreams",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hypno (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hypno_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "97",
+          "name": "Hypno",
+          "generation": 1,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "43cfeb57edf733f19f7769a747ad3617",
+            "home": "30efbe87a4189d6daf98f3b2cc3c3915"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 96,
+        "form": "96"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 97,
+        "form": "97"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    }
+  ]
+}

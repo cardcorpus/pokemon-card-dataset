@@ -1,0 +1,124 @@
+{
+  "id": "sandygast",
+  "species": [
+    {
+      "dex": 769,
+      "name": "Sandygast",
+      "generation": 7,
+      "category": "Sand Heap Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "sandygast"
+      },
+      "names": {
+        "de": "Sankabuh",
+        "en": "Sandygast",
+        "es": "Sandygast",
+        "fr": "Bacabouh",
+        "it": "Sandygast",
+        "ja": "スナバァ",
+        "ko": "모래꿍",
+        "ja-Hrkt": "スナバァ",
+        "zh-Hans": "沙丘娃",
+        "zh-Hant": "沙丘娃"
+      },
+      "description": {
+        "fun": "Sandygast is a haunted sandpile, born from grudges that seep into beach sand, with a toy shovel stuck in its head. Anyone who grabs that shovel or puts a hand in its mouth falls under its control, and it uses this to make children pile more sand onto it so it can grow. If it loses its shovel it'll make do with a branch or a flag, but it keeps searching for the original.",
+        "guide": "Sandygast is a Ghost- and Ground-type Pokémon from Alola, a mound of beach sand with a shovel on its head. It is born from grudges in the sand and can control people who touch it. It evolves into Palossand at level 42.",
+        "tagline": "A haunted sandpile that makes kids build it bigger",
+        "sources": [
+          {
+            "title": "Bulbapedia: Sandygast (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sandygast_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "769",
+          "name": "Sandygast",
+          "generation": 7,
+          "types": [
+            "ghost",
+            "ground"
+          ],
+          "pictures": {
+            "official": "16e1438a7bc56f5406db5c5c3e4d6989",
+            "home": "a1053fdb0423cc6ccd88f42628826457"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 770,
+              "form": "770"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 770,
+      "name": "Palossand",
+      "generation": 7,
+      "category": "Sand Castle Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "sandygast"
+      },
+      "names": {
+        "de": "Colossand",
+        "en": "Palossand",
+        "es": "Palossand",
+        "fr": "Trépassable",
+        "it": "Palossand",
+        "ja": "シロデスナ",
+        "ko": "모래성이당",
+        "ja-Hrkt": "シロデスナ",
+        "zh-Hans": "噬沙堡爷",
+        "zh-Hant": "噬沙堡爺"
+      },
+      "description": {
+        "fun": "Palossand is a haunted sand castle known as the 'Beach Nightmare': it drags small Pokémon down into its sandy body and drains their vitality whenever it likes, while the shovel on its tower spins like a radar. It curses people into piling up more sand for it, and every grain of its body has a will of its own. But it hates water, and heavy rain washes its castle shape away.",
+        "guide": "Palossand is a Ghost- and Ground-type Pokémon that evolves from Sandygast, resembling a sand castle. It controls sand, traps smaller Pokémon in its body and drains their energy. Along with Sandygast, it is the only Pokémon that can learn Shore Up.",
+        "tagline": "A haunted sand castle that drags small Pokémon into its depths",
+        "sources": [
+          {
+            "title": "Bulbapedia: Palossand (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Palossand_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "770",
+          "name": "Palossand",
+          "generation": 7,
+          "types": [
+            "ghost",
+            "ground"
+          ],
+          "pictures": {
+            "official": "4c49163b3a0bf1b0bbd2af273cd5ec11",
+            "home": "f6a187432dfa704f66bfa4ebfd118c0b"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 769,
+        "form": "769"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 770,
+        "form": "770"
+      },
+      "change": "evolves",
+      "how": "Level 42"
+    }
+  ]
+}

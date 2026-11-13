@@ -1,0 +1,138 @@
+{
+  "id": "absol",
+  "species": [
+    {
+      "dex": 359,
+      "name": "Absol",
+      "generation": 3,
+      "category": "Disaster Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "absol"
+      },
+      "names": {
+        "de": "Absol",
+        "en": "Absol",
+        "es": "Absol",
+        "fr": "Absol",
+        "it": "Absol",
+        "ja": "アブソル",
+        "ko": "앱솔",
+        "ja-Hrkt": "アブソル",
+        "zh-Hans": "阿勃梭鲁",
+        "zh-Hant": "阿勃梭魯"
+      },
+      "description": {
+        "fun": "Absol senses coming disasters with its horn and comes down from its mountain home to warn people, but because it turns up just before catastrophe, it has long been blamed for causing it. The games play along, placing it near trouble spots, such as Route 120 just before Hoenn's villains steal a sacred orb. It may be based on the Bai Ze, a wise white beast of Chinese myth.",
+        "guide": "A Dark-type Pokémon that lives in mountains far from people and senses disasters with its horn, often wrongly blamed for them. It does not evolve, but can Mega Evolve into Mega Absol, or into Mega Absol Z in the Mega Dimension DLC for Legends: Z-A.",
+        "tagline": "A misunderstood herald that warns people of coming disasters",
+        "sources": [
+          {
+            "title": "Bulbapedia: Absol (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "359",
+          "name": "Absol",
+          "generation": 3,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "2ebb1749bc81e4fd8c4824bffea7ed42",
+            "home": "60c961fa51d5dae4885aa452d67518d6"
+          }
+        },
+        {
+          "id": "359:mega",
+          "name": "Mega Absol",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "dark"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Absol",
+            "en": "Mega Absol",
+            "fr": "Méga-Absol"
+          },
+          "pictures": {
+            "official": "f284b5c3e2bd029269616e57fb3b403f",
+            "home": "87837ffdba7b4d6719e7996525c4d55b"
+          },
+          "description": {
+            "fun": "Energy surging through Mega Absol makes the fur on its back stand up like wings, though it can't fly with them. It gives off an aura so fearsome it is said to have killed faint-hearted people from shock, yet Absol dislikes this form because it hates fighting. Its winged look recalls the lamassu, a protective spirit of Assyrian myth.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Absol (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        },
+        {
+          "id": "359:mega-z",
+          "name": "Mega Absol Z",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "dark",
+            "ghost"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Absol Z",
+            "fr": "Méga-Absol Z"
+          },
+          "pictures": {
+            "official": "314ff010acfd82fc6f10f86b0af0fe40",
+            "home": "8c96ac54f7b4db47720b403ec23c4cc1"
+          },
+          "description": {
+            "fun": "Mega Absol Z, from the Mega Dimension DLC for Legends: Z-A, turns dark blue and gains the Ghost type alongside Dark, playing up Absol's likeness to the Grim Reaper. It shapes the long fur on its right side into claws and fells foes with a single blow, said to be an act of kindness that spares them a long struggle.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Absol (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 359,
+        "form": "359"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 359,
+        "form": "359:mega"
+      },
+      "change": "mega"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 359,
+        "form": "359"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 359,
+        "form": "359:mega-z"
+      },
+      "change": "mega"
+    }
+  ]
+}

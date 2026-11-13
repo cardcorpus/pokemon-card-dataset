@@ -1,0 +1,123 @@
+{
+  "id": "seel",
+  "species": [
+    {
+      "dex": 86,
+      "name": "Seel",
+      "generation": 1,
+      "category": "Sea Lion Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "seel"
+      },
+      "names": {
+        "de": "Jurob",
+        "en": "Seel",
+        "es": "Seel",
+        "fr": "Otaria",
+        "it": "Seel",
+        "ja": "パウワウ",
+        "ko": "쥬쥬",
+        "ja-Hrkt": "パウワウ",
+        "zh-Hans": "小海狮",
+        "zh-Hant": "小海獅"
+      },
+      "description": {
+        "fun": "Seel lives on icebergs and loves the cold: it swims happily in water as cold as −40°C, gets livelier as the temperature drops and tires out in warm water. It sleeps by day and hunts under the ice in the evening, boring through ice floes with the horn on its head and its tusks. It's a graceful swimmer but clumsy on land, and one of the few Pokémon with eyebrows.",
+        "guide": "A white, seal-like Water Pokémon with a small horn on its head and tusks on its lower jaw. It lives on icebergs, swims comfortably in freezing water and breaks through ice with its horn. It evolves into Dewgong.",
+        "tagline": "An ice-loving seal pup with a horn and eyebrows",
+        "sources": [
+          {
+            "title": "Bulbapedia: Seel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Seel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "86",
+          "name": "Seel",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "424d4476633bcbaedc6e21c35a3846fa",
+            "home": "a26d7e1ee322db944c0be4e65cbdb73a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 87,
+              "form": "87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 87,
+      "name": "Dewgong",
+      "generation": 1,
+      "category": "Sea Lion Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "seel"
+      },
+      "names": {
+        "de": "Jugong",
+        "en": "Dewgong",
+        "es": "Dewgong",
+        "fr": "Lamantine",
+        "it": "Dewgong",
+        "ja": "ジュゴン",
+        "ko": "쥬레곤",
+        "ja-Hrkt": "ジュゴン",
+        "zh-Hans": "白海狮",
+        "zh-Hant": "白海獅"
+      },
+      "description": {
+        "fun": "Dewgong's snow-white fur makes it almost invisible in snowy weather, and the heat it stores in its body means even the harshest cold can't hurt it. It sleeps on the ice by day, hunts at night, and after a meal sunbathes on the beach to warm up and help its digestion. Its name, like its Japanese name Jugon, comes from the dugong.",
+        "guide": "The evolution of Seel, a white, seal-like Water and Ice Pokémon with a sharp horn it uses to cut through ice. It lives on drifting icebergs, is unharmed by extreme cold and swims swiftly through icy waters.",
+        "tagline": "A snow-white sea lion the cold can't touch",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dewgong (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dewgong_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "87",
+          "name": "Dewgong",
+          "generation": 1,
+          "types": [
+            "water",
+            "ice"
+          ],
+          "pictures": {
+            "official": "74fbf9f2293775f72a778c9e06f06b41",
+            "home": "51fe4412a0cbdc7f7768e8b19041b4e9"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 86,
+        "form": "86"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 87,
+        "form": "87"
+      },
+      "change": "evolves",
+      "how": "Level 34"
+    }
+  ]
+}

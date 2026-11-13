@@ -1,0 +1,122 @@
+{
+  "id": "buizel",
+  "species": [
+    {
+      "dex": 418,
+      "name": "Buizel",
+      "generation": 4,
+      "category": "Sea Weasel Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "buizel"
+      },
+      "names": {
+        "de": "Bamelin",
+        "en": "Buizel",
+        "es": "Buizel",
+        "fr": "Mustébouée",
+        "it": "Buizel",
+        "ja": "ブイゼル",
+        "ko": "브이젤",
+        "ja-Hrkt": "ブイゼル",
+        "zh-Hans": "泳圈鼬",
+        "zh-Hant": "泳圈鼬"
+      },
+      "description": {
+        "fun": "Buizel wears its own life ring: the yellow collar around its neck is a flotation sac it inflates to bob along with its head above water, watching for prey, and deflates to dive. Underwater it spins its two tails like a boat's propeller, which also slices through clinging seaweed. Its name is buoy plus weasel, and Ken Sugimori's first artwork of it left out one of its paw pads.",
+        "guide": "Buizel is a Water-type Pokémon resembling a weasel and a sea otter. It inflates the flotation sac around its neck to float and spins its two tails to swim. It evolves into Floatzel.",
+        "tagline": "A sea weasel with a built-in life ring and propeller tails.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Buizel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Buizel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "418",
+          "name": "Buizel",
+          "generation": 4,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "e3010a32c933b4297f5009356d1ca357",
+            "home": "e239be2640825a96b27d65de81467b89"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 419,
+              "form": "419"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 419,
+      "name": "Floatzel",
+      "generation": 4,
+      "category": "Sea Weasel Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "buizel"
+      },
+      "names": {
+        "de": "Bojelin",
+        "en": "Floatzel",
+        "es": "Floatzel",
+        "fr": "Mustéflott",
+        "it": "Floatzel",
+        "ja": "フローゼル",
+        "ko": "플로젤",
+        "ja-Hrkt": "フローゼル",
+        "zh-Hans": "浮潜鼬",
+        "zh-Hant": "浮潛鼬"
+      },
+      "description": {
+        "fun": "Floatzel's flotation sac has grown into a long ring around its body, developed from chasing prey through the water, and it keeps Floatzel from drowning even in stormy seas. It is a common sight around fishing ports, where it rescues drowning people by carrying them like a rubber raft and helps fishers carry their catch. Its name mixes float and weasel, with a hint of flotsam.",
+        "guide": "Floatzel is the evolved form of Buizel. Its large flotation sac lets it float in rough seas and carry people on its back like a raft, and it is known for rescuing people and helping out at fishing ports.",
+        "tagline": "A lifeguard otter that doubles as a raft.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Floatzel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Floatzel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "419",
+          "name": "Floatzel",
+          "generation": 4,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "8330b65411e2c8ace90c85e5f3806ee9",
+            "home": "ea80c631790467aa61b08e76eef07b34"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 418,
+        "form": "418"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 419,
+        "form": "419"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    }
+  ]
+}

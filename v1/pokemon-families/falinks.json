@@ -1,0 +1,95 @@
+{
+  "id": "falinks",
+  "species": [
+    {
+      "dex": 870,
+      "name": "Falinks",
+      "generation": 8,
+      "category": "Formation Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "falinks"
+      },
+      "names": {
+        "de": "Legios",
+        "en": "Falinks",
+        "es": "Falinks",
+        "fr": "Hexadron",
+        "it": "Falinks",
+        "ja": "タイレーツ",
+        "ko": "대여르",
+        "ja-Hrkt": "タイレーツ",
+        "zh-Hans": "列阵兵",
+        "zh-Hant": "列陣兵"
+      },
+      "description": {
+        "fun": "Six Pokémon that count as one: five troopers and the brass at the front, whose orders are absolute. They march in single file and keep changing formation as they fight, like soldiers in a phalanx, which with 'links' gives Falinks its name. It's the only Pokémon from Sword and Shield that can Mega Evolve, a power it gained in Legends: Z-A.",
+        "guide": "A Fighting-type Pokémon made of six individuals: five troopers and a leader called the brass. Falinks gained a Mega Evolution in Pokémon Legends: Z-A, the only Generation VIII Pokémon to have one.",
+        "tagline": "Six soldiers marching as one Pokémon",
+        "sources": [
+          {
+            "title": "Bulbapedia: Falinks (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Falinks_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "870",
+          "name": "Falinks",
+          "generation": 8,
+          "types": [
+            "fighting"
+          ],
+          "pictures": {
+            "official": "d050f0b64f2d29ac7004cc72c717e8d1",
+            "home": "fe2965d0850f25545a8f6b1721f4e103"
+          }
+        },
+        {
+          "id": "870:mega",
+          "name": "Mega Falinks",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "fighting"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Falinks",
+            "fr": "Méga-Hexadron"
+          },
+          "pictures": {
+            "official": "6c8e741fcfc1faa7a7bc8803a9b30d90",
+            "home": "443a3e9c86317a392f79f15655b8fb17"
+          },
+          "description": {
+            "fun": "The six stack into a single warrior, their 'ultimate battle formation', which only the strongest bonds make possible. The brass becomes the head, one trooper a spear arm and another a shield, all held up by a middle trooper with a pained look. It ends up 1.4 metres shorter, the biggest height drop of any Mega Evolution.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Falinks (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Falinks_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 870,
+        "form": "870"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 870,
+        "form": "870:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

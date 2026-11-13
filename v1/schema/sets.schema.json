@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus set index",
+  "description": "Every set, by catalog, era and release date (docs/static-api.md, \"Sets\").",
+  "type": "object",
+  "required": [
+    "setCount",
+    "sets"
+  ],
+  "properties": {
+    "setCount": {
+      "description": "How many sets; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "sets": {
+      "description": "Every set, in catalog order.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name",
+          "record": "set"
+        },
+        "required": [
+          "id",
+          "catalog",
+          "name",
+          "type",
+          "language",
+          "cardCount",
+          "productCount",
+          "releases",
+          "linkCount"
+        ],
+        "properties": {
+          "id": {
+            "description": "The set's id. Treat it as opaque: it never changes once published.",
+            "type": "string"
+          },
+          "catalog": {
+            "description": "The catalog the set belongs to.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "catalog"
+            },
+            "$ref": "#/$defs/vocabulary.catalog"
+          },
+          "name": {
+            "description": "The set's name.",
+            "type": "string"
+          },
+          "era": {
+            "description": "Its era, by pointer, which stays when the era is renamed.",
+            "type": "object",
+            "x-cc": {
+              "ref": "era"
+            },
+            "required": [
+              "$kind",
+              "era",
+              "name"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `era`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "era"
+              },
+              "era": {
+                "description": "The era's id (eras.json).",
+                "type": "string"
+              },
+              "name": {
+                "description": "A copy of the target's own `name`.",
+                "type": "string"
+              }
+            }
+          },
+          "type": {
+            "description": "What the set is, by how its cards reached people.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "setType"
+            },
+            "$ref": "#/$defs/vocabulary.setType"
+          },
+          "language": {
+            "description": "The language its cards are printed in: its releases' (a French McDonald's set is international but French).",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "$ref": "#/$defs/vocabulary.language"
+          },
+          "position": {
+            "description": "Its place among its catalog's sets of one release date, where the data orders them.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "line": {
+            "description": "The line the set is one part of, where several of our sets came out as one product or range of products (docs/static-api.md, \"Lines\").",
+            "type": "object",
+            "x-cc": {
+              "ref": "line"
+            },
+            "required": [
+              "$kind",
+              "line",
+              "name",
+              "part"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `line`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "line"
+              },
+              "line": {
+                "description": "The line's id (lines.json).",
+                "type": "string"
+              },
+              "name": {
+                "description": "A copy of the target's own `name`.",
+                "type": "string"
+              },
+              "part": {
+                "description": "The words that tell this set from the line's others.",
+                "type": "string"
+              }
+            }
+          },
+          "printedTotal": {
+            "description": "The total its card numbers print (the 102 of 4/102), where they print one.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "actualTotal": {
+            "description": "How many cards the set has by its own count, secret cards included, where known.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "cardCount": {
+            "description": "How many cards the set has in its `cards`; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "productCount": {
+            "description": "How many sealed products the set has in its `products`; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "released": {
+            "description": "When the set first (its earliest release) came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "properties": {
+              "date": {
+                "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "code": {
+            "description": "The set code it prints: the first of its releases' that has one.",
+            "type": "string"
+          },
+          "logo": {
+            "description": "Its logo: the first of its releases' that has one.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$",
+            "x-cc": {
+              "picture": true
+            }
+          },
+          "symbol": {
+            "description": "Its set symbol: the first of its releases' that has one.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$",
+            "x-cc": {
+              "picture": true
+            }
+          },
+          "releases": {
+            "description": "Each release of the set: one per language it came out in.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "label": "name"
+              },
+              "required": [
+                "language",
+                "name"
+              ],
+              "properties": {
+                "language": {
+                  "description": "The language this release is printed in.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "language"
+                  },
+                  "$ref": "#/$defs/vocabulary.language"
+                },
+                "name": {
+                  "description": "The set's name in this release.",
+                  "type": "string"
+                },
+                "code": {
+                  "description": "The set code it prints.",
+                  "type": "string"
+                },
+                "released": {
+                  "description": "When this release came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+                  "type": "object",
+                  "properties": {
+                    "date": {
+                      "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                      "type": "string",
+                      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "logo": {
+                  "description": "The release's logo.",
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{32}$",
+                  "x-cc": {
+                    "picture": true
+                  }
+                },
+                "symbol": {
+                  "description": "The set symbol, the small mark its cards print (an icon a source gives for a set that prints none).",
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{32}$",
+                  "x-cc": {
+                    "picture": true
+                  }
+                }
+              }
+            }
+          },
+          "linkCount": {
+            "description": "How many links the set has to other sets; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    },
+    "vocabulary.setType": {
+      "description": "Every value of vocabulary.json's `setType`.",
+      "enum": [
+        "deck",
+        "expansion",
+        "box",
+        "special_expansion",
+        "promo",
+        "tie_in",
+        "prize",
+        "energy"
+      ]
+    },
+    "vocabulary.language": {
+      "description": "Every value of vocabulary.json's `language`.",
+      "enum": [
+        "ja",
+        "en",
+        "zh-Hans",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ko",
+        "pt",
+        "pl",
+        "nl",
+        "zh-Hant"
+      ]
+    }
+  }
+}

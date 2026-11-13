@@ -1,0 +1,172 @@
+{
+  "id": "qwilfish",
+  "species": [
+    {
+      "dex": 211,
+      "name": "Qwilfish",
+      "generation": 2,
+      "category": "Balloon Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "qwilfish"
+      },
+      "names": {
+        "de": "Baldorfish",
+        "en": "Qwilfish",
+        "es": "Qwilfish",
+        "fr": "Qwilfish",
+        "it": "Qwilfish",
+        "ja": "ハリーセン",
+        "ko": "침바루",
+        "ja-Hrkt": "ハリーセン",
+        "zh-Hans": "千针鱼",
+        "zh-Hant": "千針魚"
+      },
+      "description": {
+        "fun": "To attack, Qwilfish gulps down more than ten litres of water, puffs up and uses the pressure to fire poisonous quills, though it's left defenceless for a moment afterwards. Round and bloated, it's a poor swimmer. Along with its Hisuian evolution, Overqwil, it's one of only two Pokémon with a Q in its name that isn't followed by a U.",
+        "guide": "A Water- and Poison-type pufferfish Pokémon that inflates itself with water and shoots poisonous spines. It does not evolve, but its Dark- and Poison-type Hisuian form evolves into Overqwil.",
+        "tagline": "A pufferfish that drinks deep and fires poison quills",
+        "sources": [
+          {
+            "title": "Bulbapedia: Qwilfish (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "211",
+          "name": "Qwilfish",
+          "generation": 2,
+          "types": [
+            "water",
+            "poison"
+          ],
+          "pictures": {
+            "official": "1914fa7614de066c67cffd0206abbf3b",
+            "home": "4d296cf17e6b3f54ce00525e2cd9058c"
+          }
+        },
+        {
+          "id": "211:hisui",
+          "name": "Hisuian Qwilfish",
+          "category": "regional",
+          "region": "hisui",
+          "generation": 8,
+          "types": [
+            "dark",
+            "poison"
+          ],
+          "names": {
+            "de": "Hisui Baldorfish",
+            "en": "Hisuian Qwilfish",
+            "fr": "Qwilfish de Hisui"
+          },
+          "pictures": {
+            "official": "b1c548bc330eaed9e127642a927ed685",
+            "home": "72bc55d9a2a6073980b35f7b6ebab1d8"
+          },
+          "description": {
+            "fun": "Hisui's Qwilfish feeds on poison such as toxic minerals, which turns parts of it purple and makes its thick, short spines venomous enough to cause three days and nights of misery. Hated by Hisui's fishermen, it's Dark and Poison, a typing that may nod to Japan's past bans on eating fugu.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Qwilfish (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "hisuian",
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 904,
+              "form": "904"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 904,
+      "name": "Overqwil",
+      "generation": 8,
+      "category": "Pin Cluster Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "qwilfish"
+      },
+      "names": {
+        "de": "Myriador",
+        "en": "Overqwil",
+        "es": "Overqwil",
+        "fr": "Qwilpik",
+        "it": "Overqwil",
+        "ja": "ハリーマン",
+        "ko": "장침바루",
+        "ja-Hrkt": "ハリーマン",
+        "zh-Hans": "万针鱼",
+        "zh-Hant": "萬針魚"
+      },
+      "description": {
+        "fun": "Overqwil is a Hisuian Qwilfish whose spikes got completely out of hand, and its name, a blend of overkill and Qwilfish, says as much. Short-tempered enough to be nicknamed the 'sea fiend', it lives on poison, and its barbed spikes stab anything that moves nearby, even while it sleeps. A library book in Brilliant Diamond and Shining Pearl hinted at it first: 'a Qwilfish with huge spikes'.",
+        "guide": "A Dark- and Poison-type Pokémon from Legends: Arceus, the evolution of Hisuian Qwilfish. It is covered in oversized barbed spikes that strike automatically at anything moving near it. Its name blends 'overkill' and 'Qwilfish'.",
+        "tagline": "A Qwilfish with overkill spikes and a temper to match",
+        "sources": [
+          {
+            "title": "Bulbapedia: Overqwil (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "904",
+          "name": "Overqwil",
+          "generation": 8,
+          "types": [
+            "dark",
+            "poison"
+          ],
+          "pictures": {
+            "official": "5beb157d7b9be7ed631bbf8881ff455e",
+            "home": "9f2aef525c839a9574b69fe90396dcd5"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 211,
+        "form": "211:hisui"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 904,
+        "form": "904"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Barb Barrage",
+      "otherWays": [
+        "Use Barb Barrage 20 times",
+        "Use Barb Barrage in the Strong Style 20 times"
+      ],
+      "note": {
+        "text": "Only Hisuian Qwilfish evolves into Overqwil, using the move Barb Barrage; Qwilfish from anywhere else doesn't evolve at all.",
+        "term": "regional_evolution",
+        "sources": [
+          {
+            "title": "Bulbapedia: Qwilfish (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Overqwil (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Overqwil_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

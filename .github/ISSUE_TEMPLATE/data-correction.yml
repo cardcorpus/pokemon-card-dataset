@@ -1,0 +1,25 @@
+name: Report a mistake in the data
+description: A missing or wrong card, set, date, name, picture or link between cards
+labels: ["data"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Which card or set?
+      description: A file path in v1/, a cardcorpus.com url, or the set name and card number
+      placeholder: v1/sets/international/base1.json, card 4
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what should it be?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A link to a page or picture that shows it (an official site, a set list, a photo of the card). Reports with evidence are much quicker to fix.
+    validations:
+      required: true

@@ -1,0 +1,98 @@
+{
+  "id": "mawile",
+  "species": [
+    {
+      "dex": 303,
+      "name": "Mawile",
+      "generation": 3,
+      "category": "Deceiver Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mawile"
+      },
+      "names": {
+        "de": "Flunkifer",
+        "en": "Mawile",
+        "es": "Mawile",
+        "fr": "Mysdibule",
+        "it": "Mawile",
+        "ja": "クチート",
+        "ko": "입치트",
+        "ja-Hrkt": "クチート",
+        "zh-Hans": "大嘴娃",
+        "zh-Hant": "大嘴娃"
+      },
+      "description": {
+        "fun": "Mawile's sweet face is a decoy: the huge jaws on the back of its head are transformed steel horns that can bite through an iron beam. It lulls foes with its harmless look, then turns around and chomps. The jaws can't taste anything, so it uses them to eat the food it doesn't like. It may come from the futakuchi-onna, a woman of Japanese legend with a second mouth on the back of her head.",
+        "guide": "A Steel- and Fairy-type Pokémon (pure Steel before Generation 6) with a huge pair of jaws, made from steel horns, on the back of its head. It fights with its back to the enemy. It does not evolve, but can Mega Evolve with the Mawilite.",
+        "tagline": "A sweet-faced deceiver with steel jaws on the back of its head",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mawile (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mawile_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "303",
+          "name": "Mawile",
+          "generation": 3,
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "11fb5a42be08c9f3dd9922d664c99a34",
+            "home": "51becc74f2b4b1cb065b78a11842c5cb"
+          }
+        },
+        {
+          "id": "303:mega",
+          "name": "Mega Mawile",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Flunkifer",
+            "en": "Mega Mawile",
+            "fr": "Méga-Mysdibule"
+          },
+          "pictures": {
+            "official": "e441658844be9ec4d6ae93c493d5ebf7",
+            "home": "ed84988cd0b9431c3347b67c9722e667"
+          },
+          "description": {
+            "fun": "Mega Mawile grows a second set of jaws, each topped with a spiky tuft, and works them independently to grip its prey and thrash it about. Its Ability, Huge Power, is chikaramochi in Japanese, a pun that can also read as 'strengthening mochi', perhaps a nod to the legendary woman who ate rice cakes through the mouth on the back of her head.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Mawile (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Mawile_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 303,
+        "form": "303"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 303,
+        "form": "303:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

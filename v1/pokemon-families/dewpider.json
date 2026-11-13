@@ -1,0 +1,124 @@
+{
+  "id": "dewpider",
+  "species": [
+    {
+      "dex": 751,
+      "name": "Dewpider",
+      "generation": 7,
+      "category": "Water Bubble Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "dewpider"
+      },
+      "names": {
+        "de": "Araqua",
+        "en": "Dewpider",
+        "es": "Dewpider",
+        "fr": "Araqua",
+        "it": "Dewpider",
+        "ja": "シズクモ",
+        "ko": "물거미",
+        "ja-Hrkt": "シズクモ",
+        "zh-Hans": "滴蛛",
+        "zh-Hant": "滴蛛"
+      },
+      "description": {
+        "fun": "Dewpider is a spider that can only breathe oxygen from water, so on land it wears a bubble of water over its head, held in place with silk and three of its legs (sometimes it secretly swaps which ones). The bubble also protects its soft head and doubles as a battering ram. When two Dewpider meet, they compare bubbles, and the one with the smaller bubble steps aside.",
+        "guide": "Dewpider is a Water- and Bug-type spider Pokémon from Alola. It can breathe only in water, so it carries a bubble of water around its head, the reverse of the real diving bell spider's air bubble. It evolves into Araquanid at level 22.",
+        "tagline": "A spider that wears a water bubble like a diving helmet",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dewpider (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dewpider_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "751",
+          "name": "Dewpider",
+          "generation": 7,
+          "types": [
+            "water",
+            "bug"
+          ],
+          "pictures": {
+            "official": "6a66851e6838a57dc675c81ee505dcc4",
+            "home": "868fade250bf9c1ff42b0e0ba79cc501"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 752,
+              "form": "752"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 752,
+      "name": "Araquanid",
+      "generation": 7,
+      "category": "Water Bubble Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "dewpider"
+      },
+      "names": {
+        "de": "Aranestro",
+        "en": "Araquanid",
+        "es": "Araquanid",
+        "fr": "Tarenbulle",
+        "it": "Araquanid",
+        "ja": "オニシズクモ",
+        "ko": "깨비물거미",
+        "ja-Hrkt": "オニシズクモ",
+        "zh-Hans": "滴蛛霸",
+        "zh-Hant": "滴蛛霸"
+      },
+      "description": {
+        "fun": "Araquanid's water bubble is both shield and weapon: it headbutts foes with it and traps small Pokémon inside until they pass out. But it also shelters weaker Pokémon and valuables in there, and it carries its Dewpider babies around inside its bubble, feeding them as it goes. In Alola, a Totem Araquanid guards Lana's trial at Brooklet Hill.",
+        "guide": "Araquanid is a Water- and Bug-type spider Pokémon that evolves from Dewpider. It surrounds its head with a large water bubble that it uses to attack and to store food. It also carries its young, and weaker Pokémon, inside the bubble to protect them.",
+        "tagline": "A spider whose head bubble is weapon, safe and nursery",
+        "sources": [
+          {
+            "title": "Bulbapedia: Araquanid (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Araquanid_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "752",
+          "name": "Araquanid",
+          "generation": 7,
+          "types": [
+            "water",
+            "bug"
+          ],
+          "pictures": {
+            "official": "83fa5a1b065d87dfdad9945f4d5d84f0",
+            "home": "96d43cde8d15e4a61327b5448e1ad4ba"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 751,
+        "form": "751"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 752,
+        "form": "752"
+      },
+      "change": "evolves",
+      "how": "Level 22"
+    }
+  ]
+}

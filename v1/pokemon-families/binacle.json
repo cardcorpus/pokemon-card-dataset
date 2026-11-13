@@ -1,0 +1,166 @@
+{
+  "id": "binacle",
+  "species": [
+    {
+      "dex": 688,
+      "name": "Binacle",
+      "generation": 6,
+      "category": "Two-Handed Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "binacle"
+      },
+      "names": {
+        "de": "Bithora",
+        "en": "Binacle",
+        "es": "Binacle",
+        "fr": "Opermine",
+        "it": "Binacle",
+        "ja": "カメテテ",
+        "ko": "거북손손",
+        "ja-Hrkt": "カメテテ",
+        "zh-Hans": "龟脚脚",
+        "zh-Hant": "龜腳腳"
+      },
+      "description": {
+        "fun": "Binacle always comes as a pair, two goose barnacles sharing one rock and working together to survive, hopping the rock along by stretching and squeezing their bodies. They squabble a lot, and when they fall out, one leaves to find a new rock with another Binacle. Their hand-shaped bodies have eyes in the palm, a little like the hamsa charm.",
+        "guide": "Binacle is a Rock- and Water-type Pokémon from Kalos based on the goose barnacle. Two Binacle always live together on one rock and must cooperate to move and survive. It eats seaweed washed up on the shore and evolves into Barbaracle.",
+        "tagline": "Two bickering barnacles sharing one rock",
+        "sources": [
+          {
+            "title": "Bulbapedia: Binacle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Binacle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "688",
+          "name": "Binacle",
+          "generation": 6,
+          "types": [
+            "rock",
+            "water"
+          ],
+          "pictures": {
+            "official": "959bdb8a42f61bb7f0a9afe5c466b12c",
+            "home": "ca4f4708261509f1d67f4037bb68375d"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 689,
+              "form": "689"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 689,
+      "name": "Barbaracle",
+      "generation": 6,
+      "category": "Collective Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "binacle"
+      },
+      "names": {
+        "de": "Thanathora",
+        "en": "Barbaracle",
+        "es": "Barbaracle",
+        "fr": "Golgopathe",
+        "it": "Barbaracle",
+        "ja": "ガメノデス",
+        "ko": "거북손데스",
+        "ja-Hrkt": "ガメノデス",
+        "zh-Hans": "龟足巨铠",
+        "zh-Hant": "龜足巨鎧"
+      },
+      "description": {
+        "fun": "Barbaracle is a team of seven Binacle sharing one body: the head gives the orders and six more act as arms and legs. Each limb thinks for itself and will fight on its own in an emergency, and with an eye in every palm Barbaracle sees in all directions at once. Its fused body may nod to the combining robots of science fiction.",
+        "guide": "Barbaracle is a Rock- and Water-type Pokémon that evolves from Binacle. Its body is made of seven Binacle, with the head directing six independent limbs that each have an eye in the palm. It can Mega Evolve into Mega Barbaracle, introduced in Pokémon Legends: Z-A.",
+        "tagline": "Seven barnacles, one body, eyes in every hand",
+        "sources": [
+          {
+            "title": "Bulbapedia: Barbaracle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Barbaracle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "689",
+          "name": "Barbaracle",
+          "generation": 6,
+          "types": [
+            "rock",
+            "water"
+          ],
+          "pictures": {
+            "official": "0c22c74535f840b639b53a7d408e4dec",
+            "home": "3fae483236670d8533d92454049ab803"
+          }
+        },
+        {
+          "id": "689:mega",
+          "name": "Mega Barbaracle",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "rock",
+            "fighting"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Barbaracle",
+            "fr": "Méga-Golgopathe"
+          },
+          "pictures": {
+            "official": "e57fe920da288ac84aab31c03a869cfa",
+            "home": "a441696d8a7f10c6aa6ec6f85173df57"
+          },
+          "description": {
+            "fun": "Mega Evolution, new in Pokémon Legends: Z-A, multiplies Barbaracle to 11 Binacle with eight arms, on bigger, cracked, spiky rocks. Its horned head makes a 'rock on' hand sign, and it uses its many arms to keep foes busy before landing quick punches and beams.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Barbaracle (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Barbaracle_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 688,
+        "form": "688"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 689,
+        "form": "689"
+      },
+      "change": "evolves",
+      "how": "Level 39"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 689,
+        "form": "689"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 689,
+        "form": "689:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

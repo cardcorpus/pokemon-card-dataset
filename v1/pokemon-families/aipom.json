@@ -1,0 +1,122 @@
+{
+  "id": "aipom",
+  "species": [
+    {
+      "dex": 190,
+      "name": "Aipom",
+      "generation": 2,
+      "category": "Long Tail Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "aipom"
+      },
+      "names": {
+        "de": "Griffel",
+        "en": "Aipom",
+        "es": "Aipom",
+        "fr": "Capumain",
+        "it": "Aipom",
+        "ja": "エイパム",
+        "ko": "에이팜",
+        "ja-Hrkt": "エイパム",
+        "zh-Hans": "长尾怪手",
+        "zh-Hant": "長尾怪手"
+      },
+      "description": {
+        "fun": "Aipom's tail ends in a three-fingered hand that's strong enough to hang from a branch yet nimble enough to pick fruit. It uses the tail for so much that its real arms have grown clumsy. It even sleeps with the tail wrapped round a branch so it doesn't fall.",
+        "guide": "A purple, monkey-like Normal-type Pokémon with a hand at the end of its tail. It relies on its tail for climbing, picking fruit and handling objects, so its arms have become clumsy. It evolves into Ambipom after learning Double Hit.",
+        "tagline": "A monkey whose tail does all the handiwork",
+        "sources": [
+          {
+            "title": "Bulbapedia: Aipom (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Aipom_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "190",
+          "name": "Aipom",
+          "generation": 2,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "6da0080c48b2bf6077e1836ceb70e47d",
+            "home": "9ec9b3eaa54170c9234091a988ae1e5d"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 424,
+              "form": "424"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 424,
+      "name": "Ambipom",
+      "generation": 4,
+      "category": "Long Tail Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "aipom"
+      },
+      "names": {
+        "de": "Ambidiffel",
+        "en": "Ambipom",
+        "es": "Ambipom",
+        "fr": "Capidextre",
+        "it": "Ambipom",
+        "ja": "エテボース",
+        "ko": "겟핸보숭",
+        "ja-Hrkt": "エテボース",
+        "zh-Hans": "双尾怪手",
+        "zh-Hant": "雙尾怪手"
+      },
+      "description": {
+        "fun": "Two tails, two hands: Ambipom relies on them so completely that it hardly uses its arms, shucking nuts and swinging between trees with its tails alone. Ambipom link tails to make rings as a sign of friendship, sometimes offer a ring to a human, and hug people tight with both tails. Its name plays on 'ambidextrous'.",
+        "guide": "A monkey-like Normal-type Pokémon with two tails, each ending in a hand, introduced in Generation 4 as Aipom's evolution. It uses its tails to eat, climb and communicate, and links tails with others as a sign of friendship. It lives in colonies in forest treetops.",
+        "tagline": "Two tail-hands, linked with friends in rings",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ambipom (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ambipom_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "424",
+          "name": "Ambipom",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "935187bc1c6609424a6c1030ff34ae92",
+            "home": "78769bd4e990f70f2f0b5861b9979163"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 190,
+        "form": "190"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 424,
+        "form": "424"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Double Hit"
+    }
+  ]
+}

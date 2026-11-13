@@ -1,0 +1,124 @@
+{
+  "id": "helioptile",
+  "species": [
+    {
+      "dex": 694,
+      "name": "Helioptile",
+      "generation": 6,
+      "category": "Generator Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "helioptile"
+      },
+      "names": {
+        "de": "Eguana",
+        "en": "Helioptile",
+        "es": "Helioptile",
+        "fr": "Galvaran",
+        "it": "Helioptile",
+        "ja": "エリキテル",
+        "ko": "목도리키텔",
+        "ja-Hrkt": "エリキテル",
+        "zh-Hans": "伞电蜥",
+        "zh-Hant": "傘電蜥"
+      },
+      "description": {
+        "fun": "Helioptile is a solar-powered lizard: the frills on the sides of its head work like solar panels, turning sunlight into electricity, so it can thrive in the desert without eating. If something cuts off its sunshine, the stress leaves it weak. It's the only Pokémon outside the Grass type that evolves with a Sun Stone.",
+        "guide": "Helioptile is an Electric- and Normal-type lizard Pokémon from Kalos, based on the frilled lizard. Cells in its head frills generate electricity from sunlight, letting it live in the desert without food. It evolves into Heliolisk with a Sun Stone.",
+        "tagline": "A desert lizard that runs on sunshine instead of food",
+        "sources": [
+          {
+            "title": "Bulbapedia: Helioptile (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Helioptile_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "694",
+          "name": "Helioptile",
+          "generation": 6,
+          "types": [
+            "electric",
+            "normal"
+          ],
+          "pictures": {
+            "official": "e40e347fc8adec5d01940c54a01e58ac",
+            "home": "20a6ee8260941facc976086e690c4ffc"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 695,
+              "form": "695"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 695,
+      "name": "Heliolisk",
+      "generation": 6,
+      "category": "Generator Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "helioptile"
+      },
+      "names": {
+        "de": "Elezard",
+        "en": "Heliolisk",
+        "es": "Heliolisk",
+        "fr": "Iguolta",
+        "it": "Heliolisk",
+        "ja": "エレザード",
+        "ko": "일레도리자드",
+        "ja-Hrkt": "エレザード",
+        "zh-Hans": "光电伞蜥",
+        "zh-Hant": "光電傘蜥"
+      },
+      "description": {
+        "fun": "Flaring its frill, Heliolisk makes enough electricity to power a skyscraper, and basking in the sun with it open, enough for a whole city. It also zaps its own leg muscles, sprinting 100 yards in five seconds and even running across water. A desert kingdom that has since fallen once cherished it, and Heliolisk first reached Galar with that kingdom's treasure.",
+        "guide": "Heliolisk is an Electric- and Normal-type Pokémon that evolves from Helioptile. By spreading its frill in sunlight it generates huge amounts of electricity, which it also uses to power its legs for bursts of speed. Its design draws on the frilled lizard and the basilisk.",
+        "tagline": "A frilled lizard that could light up a city",
+        "sources": [
+          {
+            "title": "Bulbapedia: Heliolisk (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Heliolisk_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "695",
+          "name": "Heliolisk",
+          "generation": 6,
+          "types": [
+            "electric",
+            "normal"
+          ],
+          "pictures": {
+            "official": "2eb3f6dcb912f3d36633155b554f3bc6",
+            "home": "1b33c68445c1eee4ce3fe3f18735f370"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 694,
+        "form": "694"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 695,
+        "form": "695"
+      },
+      "change": "evolves",
+      "how": "Sun Stone"
+    }
+  ]
+}

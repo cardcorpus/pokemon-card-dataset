@@ -1,0 +1,99 @@
+{
+  "id": "meloetta",
+  "species": [
+    {
+      "dex": 648,
+      "name": "Meloetta",
+      "generation": 5,
+      "category": "Melody Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "meloetta"
+      },
+      "names": {
+        "de": "Meloetta",
+        "en": "Meloetta",
+        "es": "Meloetta",
+        "fr": "Meloetta",
+        "it": "Meloetta",
+        "ja": "メロエッタ",
+        "ko": "메로엣타",
+        "ja-Hrkt": "メロエッタ",
+        "zh-Hans": "美洛耶塔",
+        "zh-Hant": "美洛耶塔"
+      },
+      "description": {
+        "fun": "Meloetta's songs use a special vocalisation that can make anyone who hears them happy or sad, and artists in Unova say its music and dance inspired many famous songs and works of art. Its design is music itself: a treble-clef headpiece that doubles as a microphone, arms shaped like notes, and hair like the lines of a stave. It may be inspired by the Muses, the Greek goddesses of artistic inspiration.",
+        "guide": "Meloetta is a Normal- and Psychic-type Mythical Pokémon whose songs can control the emotions of those who hear them. In battle it can switch from its singing Aria Forme to its dancing Pirouette Forme.",
+        "tagline": "A singing muse whose melodies sway the hearts of listeners.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Meloetta (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "648",
+          "name": "Meloetta",
+          "generation": 5,
+          "types": [
+            "normal",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "92cd1cc42bb7f0690bcd8c68c10442d3",
+            "home": "bb937d6e93c23f48a1d502688b8f66ca"
+          }
+        },
+        {
+          "id": "648:pirouette",
+          "name": "Pirouette Forme Meloetta",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "normal",
+            "fighting"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Meloetta (Tanz)",
+            "en": "Pirouette Forme Meloetta",
+            "fr": "Meloetta Danse"
+          },
+          "pictures": {
+            "official": "e18b705e26b1ff7590fba94c5e257858",
+            "home": "fb548aa89f6f37233dd243fb6acf7918"
+          },
+          "description": {
+            "fun": "When it sings the ancient Relic Song, Meloetta becomes a dancer, its hair swept up in a bun like a ballerina's, and turns Normal and Fighting type. Its enchanting steps captivate everyone who watches. The guitarist who teaches it the song says it lost its red shoes when sorrow darkened the world, perhaps a nod to Andersen's The Red Shoes.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Meloetta (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 648,
+        "form": "648"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 648,
+        "form": "648:pirouette"
+      },
+      "change": "form_change"
+    }
+  ]
+}

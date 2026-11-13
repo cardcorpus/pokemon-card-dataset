@@ -1,0 +1,124 @@
+{
+  "id": "mareanie",
+  "species": [
+    {
+      "dex": 747,
+      "name": "Mareanie",
+      "generation": 7,
+      "category": "Brutal Star Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mareanie"
+      },
+      "names": {
+        "de": "Garstella",
+        "en": "Mareanie",
+        "es": "Mareanie",
+        "fr": "Vorastérie",
+        "it": "Mareanie",
+        "ja": "ヒドイデ",
+        "ko": "시마사리",
+        "ja-Hrkt": "ヒドイデ",
+        "zh-Hans": "好坏星",
+        "zh-Hant": "好壞星"
+      },
+      "description": {
+        "fun": "Mareanie is a spiky starfish that preys on Corsola, eating their branches, though in Galar it hasn't learned to hunt them yet. Its poison causes numbness and intense itching, and it can regrow any body part overnight except its head; the lost limbs taste too bitter to eat. It even munches Pincurchin's broken-off spines, despite the risk of a shock.",
+        "guide": "Mareanie is a Poison- and Water-type Pokémon from Alola based on the crown-of-thorns starfish. It poisons prey with the spike on its head and feeds on Corsola's branches. It evolves into Toxapex at level 38.",
+        "tagline": "A spiky starfish with a taste for Corsola",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mareanie (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mareanie_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "747",
+          "name": "Mareanie",
+          "generation": 7,
+          "types": [
+            "poison",
+            "water"
+          ],
+          "pictures": {
+            "official": "db1a70d2afeae086d03ef862d61f2e6f",
+            "home": "25e26a3f860220f81ed292f29f001ee0"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 748,
+              "form": "748"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 748,
+      "name": "Toxapex",
+      "generation": 7,
+      "category": "Brutal Star Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mareanie"
+      },
+      "names": {
+        "de": "Aggrostella",
+        "en": "Toxapex",
+        "es": "Toxapex",
+        "fr": "Prédastérie",
+        "it": "Toxapex",
+        "ja": "ドヒドイデ",
+        "ko": "더시마사리",
+        "ja-Hrkt": "ドヒドイデ",
+        "zh-Hans": "超坏星",
+        "zh-Hant": "超壞星"
+      },
+      "description": {
+        "fun": "Toxapex walks the sea floor on twelve long legs hunting Corsola, and when danger comes it folds them into a dome, a shelter that also keeps out the tides and, in cold seas, keeps it warm. Its spines sense the currents and fire a venom so strong that even a Wailord suffers for three days, with aftereffects that linger after it recovers.",
+        "guide": "Toxapex is a Poison- and Water-type Pokémon that evolves from Mareanie. It can close its twelve spiny legs into a protective dome, and it is the only Pokémon that learns Baneful Bunker. Its poisonous spines cause pain for three days.",
+        "tagline": "A twelve-legged starfish fortress with venom that lasts three days",
+        "sources": [
+          {
+            "title": "Bulbapedia: Toxapex (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Toxapex_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "748",
+          "name": "Toxapex",
+          "generation": 7,
+          "types": [
+            "poison",
+            "water"
+          ],
+          "pictures": {
+            "official": "d525a6fd5381b7dd83cda5ab390431f5",
+            "home": "3dba877754bd17d974ef597a48cd9909"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 747,
+        "form": "747"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 748,
+        "form": "748"
+      },
+      "change": "evolves",
+      "how": "Level 38"
+    }
+  ]
+}

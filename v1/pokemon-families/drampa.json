@@ -1,0 +1,97 @@
+{
+  "id": "drampa",
+  "species": [
+    {
+      "dex": 780,
+      "name": "Drampa",
+      "generation": 7,
+      "category": "Placid Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drampa"
+      },
+      "names": {
+        "de": "Sen-Long",
+        "en": "Drampa",
+        "es": "Drampa",
+        "fr": "Draïeul",
+        "it": "Drampa",
+        "ja": "ジジーロン",
+        "ko": "할비롱",
+        "ja-Hrkt": "ジジーロン",
+        "zh-Hans": "老翁龙",
+        "zh-Hant": "老翁龍"
+      },
+      "description": {
+        "fun": "Drampa is a grandfatherly dragon that lives alone high in the mountains but comes down every day at dawn for Berries, and it loves playing with children in parks and schools. Parents never worry, because it protects kids from any danger, but if a child it cares about gets hurt, it flies into a rage and may burn the bully's house down. Its angry Dragon Breath can demolish buildings.",
+        "guide": "Drampa is a Normal- and Dragon-type Pokémon from Alola based on a Chinese dragon with an old man's face. It is kind, especially to children, but becomes destructive when they are harmed. Pokémon Legends: Z-A gave it a Mega Evolution, designed like Drampa itself by Hitoshi Ariga.",
+        "tagline": "A gentle grandpa dragon you really don't want to anger",
+        "sources": [
+          {
+            "title": "Bulbapedia: Drampa (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "780",
+          "name": "Drampa",
+          "generation": 7,
+          "types": [
+            "normal",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "5fefefeee7e2165c4a248b3a9067498a",
+            "home": "465880a529c780db9bfac26129e5fb69"
+          }
+        },
+        {
+          "id": "780:mega",
+          "name": "Mega Drampa",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "normal",
+            "dragon"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Drampa",
+            "fr": "Méga-Draïeul"
+          },
+          "pictures": {
+            "official": "8f91b34df3be4b2e11a1df60e88c9354",
+            "home": "4b02dd87562ef46e5aa9061620bfca76"
+          },
+          "description": {
+            "fun": "Introduced in Legends: Z-A, Mega Drampa's cells are reinvigorated, giving it back its youth: its fur darkens like storm clouds, it floats off the ground and it can summon storms. It has the highest base Special Attack of any Normal-type Pokémon.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Drampa (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 780,
+        "form": "780"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 780,
+        "form": "780:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

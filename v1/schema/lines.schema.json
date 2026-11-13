@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus lines",
+  "description": "The lines several of our sets make up together, each set with a checklist of its own (a year's World Championships decks, a Trainer Kit's two half decks), in the order their first set comes in sets.json; each with its sets in that order and the `part` that tells each from the others (docs/static-api.md, \"Lines\").",
+  "type": "object",
+  "required": [
+    "lineCount",
+    "lines"
+  ],
+  "properties": {
+    "lineCount": {
+      "description": "How many lines; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "lines": {
+      "description": "Every line.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "id",
+          "catalog",
+          "name",
+          "sets"
+        ],
+        "properties": {
+          "id": {
+            "description": "The line's id (lines.json).",
+            "type": "string"
+          },
+          "catalog": {
+            "description": "Its catalog.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "catalog"
+            },
+            "$ref": "#/$defs/vocabulary.catalog"
+          },
+          "name": {
+            "description": "Its name.",
+            "type": "string"
+          },
+          "sets": {
+            "description": "Its sets, in sets.json's order.",
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "ref": "set"
+              },
+              "required": [
+                "$kind",
+                "set",
+                "name",
+                "part"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "set"
+                },
+                "set": {
+                  "description": "The set's id (sets.json).",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "A copy of the target's own `name`.",
+                  "type": "string"
+                },
+                "part": {
+                  "description": "The words that tell this set from the line's others.",
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    }
+  }
+}

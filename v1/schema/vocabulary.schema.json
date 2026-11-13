@@ -1,0 +1,1034 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus vocabulary",
+  "description": "The words public/v1 uses, each with a label and, where curated, a tell: how to spot it. Roles, reprint differences, a variant's axes and distribution kinds; rarity words and how showy they are; catalogs and languages; set types, how they group, and links between sets; card types and pieces. A value is never renamed: a rename adds a new value (docs/static-api.md, \"Vocabulary\").",
+  "type": "object",
+  "required": [
+    "role",
+    "differs",
+    "finish",
+    "material",
+    "edition",
+    "stamp",
+    "errorState",
+    "distribution",
+    "rarity",
+    "rarityTier",
+    "catalog",
+    "language",
+    "setType",
+    "setGroup",
+    "setLink",
+    "cardType",
+    "piece"
+  ],
+  "properties": {
+    "role": {
+      "description": "What a copy is on its card (a variant's `role`). Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "description": {
+            "description": "What a group of a role's copies holds.",
+            "type": "string"
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "differs": {
+      "description": "What sets a reprint apart from its original (a reprint's `differs`). Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "finish": {
+      "description": "A copy's finish. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "material": {
+      "description": "What a copy is printed on, where that isn't ordinary card. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "edition": {
+      "description": "A copy's edition, or a print run's. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "mark": {
+            "description": "The edition mark an edition prints.",
+            "enum": [
+              "first_edition"
+            ]
+          },
+          "order": {
+            "description": "The word's place when its group is listed in order, from 1; for an edition, its place among a card's print runs, earliest first, where known.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "stamp": {
+      "description": "A stamp a copy carries. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "errorState": {
+      "description": "A printing error a copy shows. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "distribution": {
+      "description": "What kind of distribution something is, and how a copy came out of it (`as`). Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "order": {
+            "description": "The word's place when its group is listed in order, from 1; for an edition, its place among a card's print runs, earliest first, where known.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "rarity": {
+      "description": "A card's rarity, as its mark reads (docs/rarity.md). Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "tier": {
+            "description": "The rarity word's tier.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "rarityTier"
+            },
+            "$ref": "#/$defs/vocabulary.rarityTier"
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "rarityTier": {
+      "description": "How showy a rarity is: our editorial grouping of rarity words. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "rank": {
+            "description": "How showy a rarity tier is, from 0.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "catalog": {
+      "description": "A catalog: the grouping a set's structure belongs to (international, japanese, zh-hans), apart from the language a card prints. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "short": {
+            "description": "The catalog's short code: EN, JP, ZH.",
+            "type": "string"
+          },
+          "language": {
+            "description": "The language most of the catalog's cards are printed in.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "$ref": "#/$defs/vocabulary.language"
+          },
+          "order": {
+            "description": "The word's place when its group is listed in order, from 1; for an edition, its place among a card's print runs, earliest first, where known.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "language": {
+      "description": "A language cards are printed in. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "catalog": {
+            "description": "The catalog printed in the language, where one is.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "catalog"
+            },
+            "$ref": "#/$defs/vocabulary.catalog"
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "setType": {
+      "description": "What a set is, by how its cards reached people. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "group": {
+            "description": "The set group the set type is listed under.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "setGroup"
+            },
+            "$ref": "#/$defs/vocabulary.setGroup"
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "setGroup": {
+      "description": "The groups set types are listed under. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "order": {
+            "description": "The word's place when its group is listed in order, from 1; for an edition, its place among a card's print runs, earliest first, where known.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "setLink": {
+      "description": "What one set is to another. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "incoming": {
+            "description": "The set link's label read from the other set, where it differs.",
+            "type": "string"
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "cardType": {
+      "description": "What kind of card it is. Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "order": {
+            "description": "The word's place when its group is listed in order, from 1; for an edition, its place among a card's print runs, earliest first, where known.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "piece": {
+      "description": "A card printed in pieces (`inSet.pieces.format`). Each value by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "useCount"
+        ],
+        "properties": {
+          "label": {
+            "description": "The value's label, to show it by.",
+            "type": "string"
+          },
+          "tell": {
+            "description": "How to spot it on the card, in a sentence; one with no `sources` is a draft.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "positions": {
+            "description": "The positions of a card printed in pieces, in the order a piece's `position` counts them from 1.",
+            "type": "array",
+            "items": {
+              "description": "A position's name.",
+              "type": "string"
+            }
+          },
+          "useCount": {
+            "description": "How many things use it: cards for a rarity or card type, copies for a copy's axis or role, sets for a set type, links for a set link; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "vocabulary.rarityTier": {
+      "description": "Every value of vocabulary.json's `rarityTier`.",
+      "enum": [
+        "promo",
+        "common",
+        "uncommon",
+        "rare",
+        "holo",
+        "ultra",
+        "chase",
+        "top_chase"
+      ]
+    },
+    "vocabulary.language": {
+      "description": "Every value of vocabulary.json's `language`.",
+      "enum": [
+        "ja",
+        "en",
+        "zh-Hans",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ko",
+        "pt",
+        "pl",
+        "nl",
+        "zh-Hant"
+      ]
+    },
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    },
+    "vocabulary.setGroup": {
+      "description": "Every value of vocabulary.json's `setGroup`.",
+      "enum": [
+        "expansion",
+        "deck",
+        "box",
+        "promo",
+        "prize",
+        "tie_in",
+        "energy"
+      ]
+    }
+  }
+}

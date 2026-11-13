@@ -1,0 +1,122 @@
+{
+  "id": "ekans",
+  "species": [
+    {
+      "dex": 23,
+      "name": "Ekans",
+      "generation": 1,
+      "category": "Snake Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ekans"
+      },
+      "names": {
+        "de": "Rettan",
+        "en": "Ekans",
+        "es": "Ekans",
+        "fr": "Abo",
+        "it": "Ekans",
+        "ja": "アーボ",
+        "ko": "아보",
+        "ja-Hrkt": "アーボ",
+        "zh-Hans": "阿柏蛇",
+        "zh-Hant": "阿柏蛇"
+      },
+      "description": {
+        "fun": "Ekans is 'snake' spelled backwards, and its evolution Arbok is 'cobra' backwards with a K. It slithers silently through grass, flicks its tongue to sense danger and prey, and raids Pidgey and Spearow nests for eggs. Its jaw unhinges for big meals, though swallowing something too large can leave it too heavy to move.",
+        "guide": "A purple, Poison-type snake Pokémon with a rattle on its tail. It moves silently through grass, senses prey and danger with its tongue and eats eggs from bird Pokémon nests. It evolves into Arbok.",
+        "tagline": "'Snake' backwards, and an egg thief forwards",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ekans (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "23",
+          "name": "Ekans",
+          "generation": 1,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "b3d7602d58ff20fb01e98fe10ba8fb88",
+            "home": "cb7daa919b11893ef3dcabbe8e82f027"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 24,
+              "form": "24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 24,
+      "name": "Arbok",
+      "generation": 1,
+      "category": "Cobra Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ekans"
+      },
+      "names": {
+        "de": "Arbok",
+        "en": "Arbok",
+        "es": "Arbok",
+        "fr": "Arbok",
+        "it": "Arbok",
+        "ja": "アーボック",
+        "ko": "아보크",
+        "ja-Hrkt": "アーボック",
+        "zh-Hans": "阿柏怪",
+        "zh-Hant": "阿柏怪"
+      },
+      "description": {
+        "fun": "The scary face on Arbok's hood is its main weapon: it rears up, flashes the pattern to freeze its foe in fear, then squeezes hard enough to flatten a steel drum. The pattern comes in more than 20 variations. Vengeful by nature, once it picks a target it will chase it no matter how far.",
+        "guide": "The evolution of Ekans, a large, cobra-like Poison Pokémon with a frightening face-like pattern on its hood that comes in more than 20 variations. It uses the pattern to paralyse prey with fear, then constricts and poisons it. It is territorial and relentless in pursuit.",
+        "tagline": "A cobra whose hood wears a face to scare you stiff",
+        "sources": [
+          {
+            "title": "Bulbapedia: Arbok (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "24",
+          "name": "Arbok",
+          "generation": 1,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "ee19cf5168fb41924a26ce670c82b8dd",
+            "home": "68161d76d321128506f0bc8f54237bb1"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 23,
+        "form": "23"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 24,
+        "form": "24"
+      },
+      "change": "evolves",
+      "how": "Level 22"
+    }
+  ]
+}

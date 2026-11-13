@@ -1,0 +1,167 @@
+{
+  "id": "houndour",
+  "species": [
+    {
+      "dex": 228,
+      "name": "Houndour",
+      "generation": 2,
+      "category": "Dark Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "houndour"
+      },
+      "names": {
+        "de": "Hunduster",
+        "en": "Houndour",
+        "es": "Houndour",
+        "fr": "Malosse",
+        "it": "Houndour",
+        "ja": "デルビル",
+        "ko": "델빌",
+        "ja-Hrkt": "デルビル",
+        "zh-Hans": "戴鲁比",
+        "zh-Hant": "戴魯比"
+      },
+      "description": {
+        "fun": "Houndour hunts in packs with unmatched teamwork, using barks only the pack understands to keep track of one another and howls to claim territory, and it sometimes howls in its sleep, maybe dreaming of the hunt. It's modelled on the hellhounds and black dogs of legend, with a skull-like marking on its forehead and bands like shackles round its ankles. In Gold and Silver it was the only Dark type that could evolve.",
+        "guide": "A Dark- and Fire-type dog Pokémon based on hellhounds, with skeletal markings and bands around its ankles. It hunts in coordinated packs and communicates by barking and howling. It evolves into Houndoom at level 24.",
+        "tagline": "A hellhound pup that hunts with its pack by bark and howl",
+        "sources": [
+          {
+            "title": "Bulbapedia: Houndour (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "228",
+          "name": "Houndour",
+          "generation": 2,
+          "types": [
+            "dark",
+            "fire"
+          ],
+          "pictures": {
+            "official": "203aed1678cd4d2e8a4877165570b0d1",
+            "home": "50c702f17577f5aa80044284612743d2"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 229,
+              "form": "229"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 229,
+      "name": "Houndoom",
+      "generation": 2,
+      "category": "Dark Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "houndour"
+      },
+      "names": {
+        "de": "Hundemon",
+        "en": "Houndoom",
+        "es": "Houndoom",
+        "fr": "Démolosse",
+        "it": "Houndoom",
+        "ja": "ヘルガー",
+        "ko": "헬가",
+        "ja-Hrkt": "ヘルガー",
+        "zh-Hans": "黑鲁加",
+        "zh-Hant": "黑魯加"
+      },
+      "description": {
+        "fun": "Houndoom's fire is brewed with toxins from its gut, so its flames smell foul and its burns never heal. People once thought its eerie howl was the grim reaper calling. The pack leader is the one with horns raked furthest back, a title won by fighting, and after a kill the prey is shared out evenly. Even its Mega Stone's index number in the games is 666.",
+        "guide": "A Dark- and Fire-type dog Pokémon with curved horns, a skull pendant and a pointed tail, the evolution of Houndour. It lives in packs led by the Houndoom with the most swept-back horns, and its poisonous flames leave burns that do not heal. It can Mega Evolve into Mega Houndoom.",
+        "tagline": "A horned hellhound whose burns never heal",
+        "sources": [
+          {
+            "title": "Bulbapedia: Houndoom (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "229",
+          "name": "Houndoom",
+          "generation": 2,
+          "types": [
+            "dark",
+            "fire"
+          ],
+          "pictures": {
+            "official": "8f18a856206375e62875816938b17540",
+            "home": "36b5c6bc8a4a5c40df80ecd2469c9660"
+          }
+        },
+        {
+          "id": "229:mega",
+          "name": "Mega Houndoom",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "dark",
+            "fire"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Hundemon",
+            "en": "Mega Houndoom",
+            "fr": "Méga-Démolosse"
+          },
+          "pictures": {
+            "official": "c0c73dd224f4e1c80f2d777591dd7e6d",
+            "home": "414bf20ded583d86c51e8edc8f421aad"
+          },
+          "description": {
+            "fun": "Mega Evolution makes Houndoom's whole body burn so hot that its claws glow dark red and the heat hurts it, while bony plates spread along its back, tail and neck. Its breath can now reduce foes to charcoal.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Houndoom (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 228,
+        "form": "228"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 229,
+        "form": "229"
+      },
+      "change": "evolves",
+      "how": "Level 24"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 229,
+        "form": "229"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 229,
+        "form": "229:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

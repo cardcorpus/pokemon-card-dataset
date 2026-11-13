@@ -1,0 +1,126 @@
+{
+  "id": "nosepass",
+  "species": [
+    {
+      "dex": 299,
+      "name": "Nosepass",
+      "generation": 3,
+      "category": "Compass Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "nosepass"
+      },
+      "names": {
+        "de": "Nasgnet",
+        "en": "Nosepass",
+        "es": "Nosepass",
+        "fr": "Tarinor",
+        "it": "Nosepass",
+        "ja": "ノズパス",
+        "ko": "코코파스",
+        "ja-Hrkt": "ノズパス",
+        "zh-Hans": "朝北鼻",
+        "zh-Hant": "朝北鼻"
+      },
+      "description": {
+        "fun": "Nosepass's big red nose is a magnet that always points north, so travellers once used it as a compass, and in games where wild Pokémon roam the overworld it turns back to face north when left alone. It moves only about a centimetre a year, but in an emergency it can spin itself into the ground like a drill. Its look comes from the moai of Easter Island.",
+        "guide": "A Rock-type Pokémon modelled on the moai of Easter Island and a compass, with a magnetic nose that points north. It evolves into Probopass when levelled up in a special magnetic field or exposed to a Thunder Stone.",
+        "tagline": "A moai with a magnetic nose that always points north",
+        "sources": [
+          {
+            "title": "Bulbapedia: Nosepass (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Nosepass_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "299",
+          "name": "Nosepass",
+          "generation": 3,
+          "types": [
+            "rock"
+          ],
+          "pictures": {
+            "official": "b3daf708fc54833d3aa3e6bd348584bc",
+            "home": "882d5861dc8df32ede1ce38a337844ab"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 476,
+              "form": "476"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 476,
+      "name": "Probopass",
+      "generation": 4,
+      "category": "Compass Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "nosepass"
+      },
+      "names": {
+        "de": "Voluminas",
+        "en": "Probopass",
+        "es": "Probopass",
+        "fr": "Tarinorme",
+        "it": "Probopass",
+        "ja": "ダイノーズ",
+        "ko": "대코파스",
+        "ja-Hrkt": "ダイノーズ",
+        "zh-Hans": "大朝北鼻",
+        "zh-Hant": "大朝北鼻"
+      },
+      "description": {
+        "fun": "Probopass sports a moustache of iron sand stuck to its magnetic nose and a red cap that may echo the stone hats once set on moai. It steers three little 'Mini-Noses' around its body to attack from every side, though now and then one wanders off and never comes back. Its noses sit like a compass rose: the big one north, the small ones east, south and west.",
+        "guide": "A Rock- and Steel-type Pokémon introduced in Generation 4, with an iron-sand moustache and three Mini-Noses it controls. It evolves from Nosepass in a special magnetic field or with a Thunder Stone.",
+        "tagline": "A moustached moai with three remote-controlled Mini-Noses",
+        "sources": [
+          {
+            "title": "Bulbapedia: Probopass (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Probopass_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "476",
+          "name": "Probopass",
+          "generation": 4,
+          "types": [
+            "rock",
+            "steel"
+          ],
+          "pictures": {
+            "official": "c493e4da6d5ff425892e5ffb00a78099",
+            "home": "c2840d566dff448aa7b8612429fdd321"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 299,
+        "form": "299"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 476,
+        "form": "476"
+      },
+      "change": "evolves",
+      "how": "Thunder Stone",
+      "otherWays": [
+        "Level up, at Blush Mountain, Vast Poni Canyon, New Mauville, Route 13, Chargestone Cave or Mt. Coronet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "deoxys",
+  "species": [
+    {
+      "dex": 386,
+      "name": "Deoxys",
+      "generation": 3,
+      "category": "DNA Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "deoxys"
+      },
+      "names": {
+        "de": "Deoxys",
+        "en": "Deoxys",
+        "es": "Deoxys",
+        "fr": "Deoxys",
+        "it": "Deoxys",
+        "ja": "デオキシス",
+        "ko": "테오키스",
+        "ja-Hrkt": "デオキシス",
+        "zh-Hans": "代欧奇希斯",
+        "zh-Hant": "代歐奇希斯"
+      },
+      "description": {
+        "fun": "Deoxys was born when an alien virus that fell to Earth on a meteorite was mutated by a laser beam. The crystal on its chest is said to be its brain, and it can fire lasers from it. Its name comes from deoxyribonucleic acid, DNA, and the first letters of its Defense, Normal and Attack Formes even spell it out. It often clashes with Rayquaza in space.",
+        "guide": "A Psychic-type Mythical Pokémon from space, born from a mutated alien virus, with Normal, Attack, Defense and Speed Formes it switches between using meteorites. It was designed by Hironobu Yoshida. It does not evolve.",
+        "tagline": "An alien virus from a meteorite that reshapes its own body",
+        "sources": [
+          {
+            "title": "Bulbapedia: Deoxys (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "386",
+          "name": "Deoxys",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "c059a98985e08be452ff442d7b2f44f5",
+            "home": "2ef3e82a0061a71590375fdfc1e891fb"
+          }
+        },
+        {
+          "id": "386:attack",
+          "name": "Attack Forme Deoxys",
+          "category": "alternate",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "names": {
+            "de": "Deoxys (Angriff)",
+            "en": "Attack Forme Deoxys",
+            "fr": "Deoxys Attaque"
+          },
+          "pictures": {
+            "official": "71f836f454bacc01ef66ecf18f6aa9ff",
+            "home": "011e46cdc303d790f1a90c42a3008db1"
+          },
+          "description": {
+            "fun": "In its Attack Forme, Deoxys sheds most of its orange skin to bare a striated black body and grows whip-like tentacles with pointed tips. It's the most powerful form on the attack and is said to have an aggressive temperament, though with a base Special Defense of just 20 it's very fragile.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Deoxys (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "386:defense",
+          "name": "Defense Forme Deoxys",
+          "category": "alternate",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "names": {
+            "de": "Deoxys (Verteidigung)",
+            "en": "Defense Forme Deoxys",
+            "fr": "Deoxys Défense"
+          },
+          "pictures": {
+            "official": "3b9757456f5350eee59c5c359d17fae4",
+            "home": "ea4c4124157c7f62633007673a306841"
+          },
+          "description": {
+            "fun": "Deoxys's Defense Forme pulls its head into its body like a helmet, covers itself completely in orange skin and flattens its tentacles into broad shields. It's the toughest of its four forms, with the highest base Special Defense of any Psychic-type Pokémon.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Deoxys (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "386:speed",
+          "name": "Speed Forme Deoxys",
+          "category": "alternate",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "names": {
+            "de": "Deoxys (Initiative)",
+            "en": "Speed Forme Deoxys",
+            "fr": "Deoxys Vitesse"
+          },
+          "pictures": {
+            "official": "82ce355ad40a757c821abe4ae238603e",
+            "home": "6115b168a54a1acc85ecc1c098ea5a22"
+          },
+          "description": {
+            "fun": "Speed Forme Deoxys is sleek and black, with one tentacle on each side and a long spike sweeping back from its head. It's the most agile of the four forms, with a base Speed of 180, the highest of any Psychic-type Pokémon.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Deoxys (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 386,
+        "form": "386"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 386,
+        "form": "386:attack"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 386,
+        "form": "386"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 386,
+        "form": "386:defense"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 386,
+        "form": "386"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 386,
+        "form": "386:speed"
+      },
+      "change": "form_change"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "tornadus",
+  "species": [
+    {
+      "dex": 641,
+      "name": "Tornadus",
+      "generation": 5,
+      "category": "Cyclone Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tornadus"
+      },
+      "names": {
+        "de": "Boreos",
+        "en": "Tornadus",
+        "es": "Tornadus",
+        "fr": "Boréas",
+        "it": "Tornadus",
+        "ja": "トルネロス",
+        "ko": "토네로스",
+        "ja-Hrkt": "トルネロス",
+        "zh-Hans": "龙卷云",
+        "zh-Hant": "龍捲雲"
+      },
+      "description": {
+        "fun": "Tornadus whips up storms with the energy pouring from its tail, strong enough to blow houses away and even, it's said, to turn the seasons. It has fought Thundurus since time immemorial, and farmers have long feared the damage its gales do. Its genie-like form is based on Fūjin, the Japanese god of wind. Ken Sugimori first planned to colour it red, but then the pair looked too much like Throh and Sawk.",
+        "guide": "Tornadus is a Flying-type Legendary Pokémon, one of the forces of nature, that whips up powerful winds and storms. It has an Incarnate Forme and a bird-like Therian Forme. It does not evolve.",
+        "tagline": "A cloud-riding wind genie whose storms change the seasons.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Tornadus (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "641",
+          "name": "Tornadus",
+          "generation": 5,
+          "types": [
+            "flying"
+          ],
+          "pictures": {
+            "official": "e4378c8757e2b0022b5bc4a96220a34d",
+            "home": "b1f3c4bacdcb6c523ae0110f5f0ba2c0"
+          }
+        },
+        {
+          "id": "641:therian",
+          "name": "Therian Forme Tornadus",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "flying"
+          ],
+          "names": {
+            "de": "Boreos (Tiergeist)",
+            "en": "Therian Forme Tornadus",
+            "fr": "Boréas Totémique"
+          },
+          "pictures": {
+            "official": "69ded5e7394cbfbeaabb32d26db19beb",
+            "home": "4e4d2575bae88d87285b22473c8affb5"
+          },
+          "description": {
+            "fun": "The Reveal Glass shows what may be Tornadus's true form: a great green bird with a beak-like moustache and feathered wings. In this guise it has been seen crossing the ocean in search of a region to settle in. It loosely matches the Vermilion Bird of Chinese myth.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Tornadus (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 641,
+        "form": "641"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 641,
+        "form": "641:therian"
+      },
+      "change": "form_change"
+    }
+  ]
+}

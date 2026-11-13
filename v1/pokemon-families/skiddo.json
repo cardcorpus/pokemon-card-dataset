@@ -1,0 +1,122 @@
+{
+  "id": "skiddo",
+  "species": [
+    {
+      "dex": 672,
+      "name": "Skiddo",
+      "generation": 6,
+      "category": "Mount Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skiddo"
+      },
+      "names": {
+        "de": "Mähikel",
+        "en": "Skiddo",
+        "es": "Skiddo",
+        "fr": "Cabriolaine",
+        "it": "Skiddo",
+        "ja": "メェークル",
+        "ko": "메이클",
+        "ja-Hrkt": "メェークル",
+        "zh-Hans": "坐骑小羊",
+        "zh-Hant": "坐騎小羊"
+      },
+      "description": {
+        "fun": "Skiddo is thought to be one of the first Pokémon ever to live alongside people, who have long ridden it across the mountains. The leafy mane on its back photosynthesises, so as long as it gets sunshine and water it doesn't need to eat at all. With handlebar-like horns, it's part goat and part bicycle, and its Japanese name, Meecle, is a goat's bleat plus 'vehicle'.",
+        "guide": "Skiddo is a Grass-type goat Pokémon from Kalos. The leaves on its back let it live on sunlight and water through photosynthesis, and its docile nature has made it a riding Pokémon since ancient times. Its design mixes a goat with a bicycle.",
+        "tagline": "A gentle, solar-powered goat built for riding",
+        "sources": [
+          {
+            "title": "Bulbapedia: Skiddo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Skiddo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "672",
+          "name": "Skiddo",
+          "generation": 6,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "82c4cb970147776022fabbab3dba34ba",
+            "home": "a1986afe2d44c845e90079960e48efb4"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 673,
+              "form": "673"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 673,
+      "name": "Gogoat",
+      "generation": 6,
+      "category": "Mount Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skiddo"
+      },
+      "names": {
+        "de": "Chevrumm",
+        "en": "Gogoat",
+        "es": "Gogoat",
+        "fr": "Chevroum",
+        "it": "Gogoat",
+        "ja": "ゴーゴート",
+        "ko": "고고트",
+        "ja-Hrkt": "ゴーゴート",
+        "zh-Hans": "坐骑山羊",
+        "zh-Hant": "坐騎山羊"
+      },
+      "description": {
+        "fun": "People have ridden Gogoat for 5,000 years, and it can sense its rider's feelings just from the way they grip its horns, moving as if the two were one. In the wild, herds pick their leader by butting horns. In Lumiose City it once ran the Gogoat Shuttle, a ride service that had shut down by Pokémon Legends: Z-A because wild Pokémon frightened the goats.",
+        "guide": "Gogoat is a Grass-type Pokémon that evolves from Skiddo and has been used for transport by people for thousands of years. It reads its rider's feelings through their grip on its horns, and wild herds settle leadership with horn battles. It has the highest base HP of any Grass type.",
+        "tagline": "A goat you steer by feel, ridden for 5,000 years",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gogoat (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gogoat_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "673",
+          "name": "Gogoat",
+          "generation": 6,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "7c0c75c79e17ba18d07382e9a934c4f5",
+            "home": "2c15d417cb68337cb01b81cc27983d80"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 672,
+        "form": "672"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 673,
+        "form": "673"
+      },
+      "change": "evolves",
+      "how": "Level 32"
+    }
+  ]
+}

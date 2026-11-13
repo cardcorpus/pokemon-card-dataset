@@ -1,0 +1,183 @@
+{
+  "id": "zygarde",
+  "species": [
+    {
+      "dex": 718,
+      "name": "Zygarde",
+      "generation": 6,
+      "category": "Order Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "zygarde"
+      },
+      "names": {
+        "de": "Zygarde",
+        "en": "Zygarde",
+        "es": "Zygarde",
+        "fr": "Zygarde",
+        "it": "Zygarde",
+        "ja": "ジガルデ",
+        "ko": "지가르데",
+        "ja-Hrkt": "ジガルデ",
+        "zh-Hans": "基格尔德",
+        "zh-Hant": "基格爾德"
+      },
+      "description": {
+        "fun": "Zygarde guards the balance of the whole ecosystem, watching from deep caves and stepping in only when nature is in grave danger. It's not one creature but many: countless Cells and a few Cores that gather in different amounts to make a dog-like 10% Forme, a serpent-like 50% Forme or a giant Complete Forme. It plays a central role in Pokémon Legends: Z-A.",
+        "guide": "Zygarde is a Dragon- and Ground-type Legendary Pokémon from Kalos that watches over the ecosystem and can cancel out the auras of Xerneas and Yveltal. It is made of Zygarde Cells and Cores, which assemble into its 10%, 50% and Complete Formes. Its Complete Forme can Mega Evolve, introduced in Pokémon Legends: Z-A.",
+        "tagline": "The guardian of nature, built from countless living cells",
+        "sources": [
+          {
+            "title": "Bulbapedia: Zygarde (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "718",
+          "name": "Zygarde",
+          "generation": 6,
+          "types": [
+            "dragon",
+            "ground"
+          ],
+          "pictures": {
+            "official": "9fc199b79e5b6454d2d5e7e1908a43ff",
+            "home": "dcd9d2fb16566afd587bad67da12bf97"
+          }
+        },
+        {
+          "id": "718:10",
+          "name": "10% Forme Zygarde",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "dragon",
+            "ground"
+          ],
+          "names": {
+            "de": "Zygarde (10%)",
+            "en": "10% Forme Zygarde",
+            "fr": "Zygarde Forme 10 %"
+          },
+          "pictures": {
+            "official": "d460ac841d45346c8784366e9a8e4f3d",
+            "home": "025fd642d5591ac464fc8c8e4889d60e"
+          },
+          "description": {
+            "fun": "A tenth of its Cells gathered in an emergency make a fast, dog-like Zygarde that runs over 100 km/h and leaps at foes' chests. With only one Core as its brain, it can't hold together for long; its green 'leash' may come from the rope that bound the wolf Fenrir.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Zygarde (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "718:complete",
+          "name": "Complete Forme Zygarde",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "dragon",
+            "ground"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Zygarde (Optimum)",
+            "en": "Complete Forme Zygarde",
+            "fr": "Zygarde Forme Parfaite"
+          },
+          "pictures": {
+            "official": "fd40f23e53a0b59477fdf5d5379ca73f",
+            "home": "97e6dfc899bde036026c2165a731d6c9"
+          },
+          "description": {
+            "fun": "With all its Cells and five Cores gathered, Zygarde becomes a towering giant with four serpent-like wings, kept for huge threats to the ecosystem. A Zygarde with Power Construct takes this form when worn down in battle, and it's strong enough to overwhelm Xerneas or Yveltal.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Zygarde (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "718:mega",
+          "name": "Mega Zygarde",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "dragon",
+            "ground"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Zygarde",
+            "fr": "Méga-Zygarde"
+          },
+          "pictures": {
+            "official": "c33b3af434968edf43547fe4082857ab",
+            "home": "354e32a698c3a7e44552378a630249f1"
+          },
+          "description": {
+            "fun": "Only Complete Forme Zygarde can Mega Evolve, a form from Pokémon Legends: Z-A said to be born from people's feelings in a crisis. Six small arms hold up a giant cannon marked X, Y and Z, which fires a nature-defying beam, and it has the highest Special Attack of any Pokémon.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Zygarde (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 718,
+        "form": "718"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 718,
+        "form": "718:10"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 718,
+        "form": "718"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 718,
+        "form": "718:complete"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 718,
+        "form": "718:complete"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 718,
+        "form": "718:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

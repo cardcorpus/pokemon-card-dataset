@@ -1,0 +1,122 @@
+{
+  "id": "yungoos",
+  "species": [
+    {
+      "dex": 734,
+      "name": "Yungoos",
+      "generation": 7,
+      "category": "Loitering Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "yungoos"
+      },
+      "names": {
+        "de": "Mangunior",
+        "en": "Yungoos",
+        "es": "Yungoos",
+        "fr": "Manglouton",
+        "it": "Yungoos",
+        "ja": "ヤングース",
+        "ko": "영구스",
+        "ja-Hrkt": "ヤングース",
+        "zh-Hans": "猫鼬少",
+        "zh-Hant": "貓鼬少"
+      },
+      "description": {
+        "fun": "Yungoos is always hungry, and the hungrier it gets, the fiercer it becomes: most of its long body is stomach, and its teeth crunch through the hardest things. It patrols its territory for food until it drops from exhaustion, choosing spots where it can safely collapse. It isn't native to Alola, a nod to the mongooses brought to Hawaii to fight rats, which hunt by day while rats come out at night.",
+        "guide": "Yungoos is a Normal-type mongoose Pokémon found in Alola, where it was brought from elsewhere. It has an enormous appetite and powerful teeth, and it wanders its territory searching for food until it collapses. It evolves into Gumshoos when levelled up during the day.",
+        "tagline": "A ravenous mongoose that eats until it drops",
+        "sources": [
+          {
+            "title": "Bulbapedia: Yungoos (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Yungoos_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "734",
+          "name": "Yungoos",
+          "generation": 7,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "be46303f253a17ab0dedc942147d00c6",
+            "home": "80bcb70b1e0880006e83a7fc3e692cbf"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 735,
+              "form": "735"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 735,
+      "name": "Gumshoos",
+      "generation": 7,
+      "category": "Stakeout Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "yungoos"
+      },
+      "names": {
+        "de": "Manguspektor",
+        "en": "Gumshoos",
+        "es": "Gumshoos",
+        "fr": "Argouste",
+        "it": "Gumshoos",
+        "ja": "デカグース",
+        "ko": "형사구스",
+        "ja-Hrkt": "デカグース",
+        "zh-Hans": "猫鼬探长",
+        "zh-Hant": "貓鼬探長"
+      },
+      "description": {
+        "fun": "Gumshoos is a mongoose detective in a trenchcoat of fur, standing with its paws behind its back. It hunts by staking out its prey's routes and waiting patiently, going without food for ages, then pouncing. Its favourite targets are Alolan Rattata and Raticate, but it's active by day and they come out at night, so it rarely meets them; at sunset it falls asleep where it stands.",
+        "guide": "Gumshoos is a Normal-type Pokémon that evolves from Yungoos, combining a mongoose with a detective. It hunts by waiting patiently along its prey's paths and was brought to Alola to deal with Rattata. A Totem Gumshoos guards Ilima's trial in Sun and Ultra Sun.",
+        "tagline": "A trench-coated mongoose detective on a permanent stakeout",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gumshoos (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gumshoos_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "735",
+          "name": "Gumshoos",
+          "generation": 7,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "e644dd70afd2ec5a9fcdc9d5ed79b8f1",
+            "home": "c92879cea8eb4620374576943bcfd97d"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 734,
+        "form": "734"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 735,
+        "form": "735"
+      },
+      "change": "evolves",
+      "how": "Level 20, during the day"
+    }
+  ]
+}

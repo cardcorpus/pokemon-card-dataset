@@ -1,0 +1,122 @@
+{
+  "id": "spoink",
+  "species": [
+    {
+      "dex": 325,
+      "name": "Spoink",
+      "generation": 3,
+      "category": "Bounce Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spoink"
+      },
+      "names": {
+        "de": "Spoink",
+        "en": "Spoink",
+        "es": "Spoink",
+        "fr": "Spoink",
+        "it": "Spoink",
+        "ja": "バネブー",
+        "ko": "피그점프",
+        "ja-Hrkt": "バネブー",
+        "zh-Hans": "跳跳猪",
+        "zh-Hant": "跳跳豬"
+      },
+      "description": {
+        "fun": "Spoink bounces on its spring-like tail all day and even in its sleep, because the bouncing keeps its heart beating. It wears a pearl from a Clamperl on its head to boost its psychic power and is always on the lookout for a bigger one; in the anime, it's easily fooled by other round objects. It also loves mushrooms that grow underground, like a truffle hog.",
+        "guide": "A Psychic-type Pokémon based on a piglet, with a spring for a tail and a pearl on its head that amplifies its powers. It lives in mountainous areas. It evolves into Grumpig at level 32.",
+        "tagline": "A pogo-stick piglet that must keep bouncing to stay alive",
+        "sources": [
+          {
+            "title": "Bulbapedia: Spoink (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "325",
+          "name": "Spoink",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "039204c5faefe182908c40cd97a69261",
+            "home": "b079686c60f8d5bf6c2843702c6aeabe"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 326,
+              "form": "326"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 326,
+      "name": "Grumpig",
+      "generation": 3,
+      "category": "Manipulate Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spoink"
+      },
+      "names": {
+        "de": "Groink",
+        "en": "Grumpig",
+        "es": "Grumpig",
+        "fr": "Groret",
+        "it": "Grumpig",
+        "ja": "ブーピッグ",
+        "ko": "피그킹",
+        "ja-Hrkt": "ブーピッグ",
+        "zh-Hans": "噗噗猪",
+        "zh-Hant": "噗噗豬"
+      },
+      "description": {
+        "fun": "Grumpig uses the black pearls on its body to amplify psychic powers that let it control its opponents, and the strange dance it performs while doing so is very popular. Spoink and Grumpig may play on the saying 'pearls before swine', except these pigs put their pearls of wisdom to good use. Its name mixes 'grumpy' and 'pig'.",
+        "guide": "A Psychic-type Pokémon based on a pig, with three black pearls on its body that amplify its powers. It lives in the mountains. It evolves from Spoink at level 32.",
+        "tagline": "A dancing psychic pig that controls foes with its black pearls",
+        "sources": [
+          {
+            "title": "Bulbapedia: Grumpig (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Grumpig_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "326",
+          "name": "Grumpig",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "2fd699e9c74ee3d2fd44bdc6508badd8",
+            "home": "4ba52eea7d61245fa1d9e1561e527549"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 325,
+        "form": "325"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 326,
+        "form": "326"
+      },
+      "change": "evolves",
+      "how": "Level 32"
+    }
+  ]
+}

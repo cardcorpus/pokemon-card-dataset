@@ -1,0 +1,122 @@
+{
+  "id": "tadbulb",
+  "species": [
+    {
+      "dex": 938,
+      "name": "Tadbulb",
+      "generation": 9,
+      "category": "EleTadpole Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tadbulb"
+      },
+      "names": {
+        "de": "Blipp",
+        "en": "Tadbulb",
+        "es": "Tadbulb",
+        "fr": "Têtampoule",
+        "it": "Tadbulb",
+        "ja": "ズピカ",
+        "ko": "빈나두",
+        "ja-Hrkt": "ズピカ",
+        "zh-Hans": "光蚪仔",
+        "zh-Hant": "光蚪仔"
+      },
+      "description": {
+        "fun": "A tadpole with a light bulb for a head. It makes electricity by wiggling its tail, and stores enough to power a whole city. It floats along on that electricity, higher still when thunderclouds are around, and if it senses danger it blinks its head on and off to warn its friends.",
+        "guide": "An Electric-type tadpole Pokémon from Pokémon Scarlet and Violet, designed by Atsuko Nishida. Tadbulb glows and floats using the electricity it generates. It evolves into Bellibolt with a Thunder Stone.",
+        "tagline": "A floating tadpole with a light bulb for a head",
+        "sources": [
+          {
+            "title": "Bulbapedia: Tadbulb (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Tadbulb_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "938",
+          "name": "Tadbulb",
+          "generation": 9,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "6a0a351b7f1dba1cb8619f56cf933b07",
+            "home": "54bbe97ec0fb5cdbd23df20fd8cf76d8"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 939,
+              "form": "939"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 939,
+      "name": "Bellibolt",
+      "generation": 9,
+      "category": "EleFrog Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "tadbulb"
+      },
+      "names": {
+        "de": "Wampitz",
+        "en": "Bellibolt",
+        "es": "Bellibolt",
+        "fr": "Ampibidou",
+        "it": "Bellibolt",
+        "ja": "ハラバリー",
+        "ko": "찌리배리",
+        "ja-Hrkt": "ハラバリー",
+        "zh-Hans": "电肚蛙",
+        "zh-Hant": "電肚蛙"
+      },
+      "description": {
+        "fun": "A big, squishy frog whose belly-button dynamo makes a huge amount of electricity as its wobbly body expands and contracts. The 'eyes' on top of its head aren't eyes at all, but organs that discharge that power; its real eyes are the tiny ones in the middle of its face. It can move fast but prefers to laze about, and at night its stomach rumbles when it's hungry.",
+        "guide": "The evolution of Tadbulb, an easygoing Electric-type frog Pokémon that generates electricity in its belly. The large eye-like bumps on its head discharge electricity. It was first revealed through the streamer Iono's videos, as her partner Pokémon.",
+        "tagline": "A squishy frog powered by its belly button",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bellibolt (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bellibolt_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "939",
+          "name": "Bellibolt",
+          "generation": 9,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "1fe5b3c2e744c6541a1eaae96bc8a685",
+            "home": "4e518ff114d39202a57bec3966f479e2"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 938,
+        "form": "938"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 939,
+        "form": "939"
+      },
+      "change": "evolves",
+      "how": "Thunder Stone"
+    }
+  ]
+}

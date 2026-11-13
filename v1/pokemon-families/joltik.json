@@ -1,0 +1,124 @@
+{
+  "id": "joltik",
+  "species": [
+    {
+      "dex": 595,
+      "name": "Joltik",
+      "generation": 5,
+      "category": "Attaching Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "joltik"
+      },
+      "names": {
+        "de": "Wattzapf",
+        "en": "Joltik",
+        "es": "Joltik",
+        "fr": "Statitik",
+        "it": "Joltik",
+        "ja": "バチュル",
+        "ko": "파쪼옥",
+        "ja-Hrkt": "バチュル",
+        "zh-Hans": "电电虫",
+        "zh-Hant": "電電蟲"
+      },
+      "description": {
+        "fun": "Joltik is one of the tiniest Pokémon of all, far too small to make its own electricity. So it clings to bigger Pokémon and sucks up their static, often riding on Yamper's hindquarters, and city Joltik have learned to drink from the electrical outlets in people's homes. It stores the stolen charge in an electric pouch. Its name mixes 'jolt' and 'tick', the parasite it seems to be modelled on.",
+        "guide": "Joltik is a Bug- and Electric-type Pokémon, one of the smallest known, that clings to larger Pokémon to absorb their static electricity. It evolves into Galvantula.",
+        "tagline": "A tiny tick that steals static electricity from bigger Pokémon.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Joltik (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Joltik_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "595",
+          "name": "Joltik",
+          "generation": 5,
+          "types": [
+            "bug",
+            "electric"
+          ],
+          "pictures": {
+            "official": "71ada57ca6e6c5667f1386bef7526e61",
+            "home": "694aa6279e830096039beabf8ea1b05b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 596,
+              "form": "596"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 596,
+      "name": "Galvantula",
+      "generation": 5,
+      "category": "EleSpider Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "joltik"
+      },
+      "names": {
+        "de": "Voltula",
+        "en": "Galvantula",
+        "es": "Galvantula",
+        "fr": "Mygavolt",
+        "it": "Galvantula",
+        "ja": "デンチュラ",
+        "ko": "전툴라",
+        "ja-Hrkt": "デンチュラ",
+        "zh-Hans": "电蜘蛛",
+        "zh-Hant": "電蜘蛛"
+      },
+      "description": {
+        "fun": "Galvantula spins electrically charged threads, both as traps and as a barrier against attackers. It strings them near the nests of bird Pokémon to snare chicks that can't fly well yet, and the electrified fur it launches from its abdomen can paralyse a target for three full days and nights. Despite being a spider, it has only four legs. It was designed by Saya Tsuruta, and its name mixes 'galvanism' and 'tarantula'.",
+        "guide": "Galvantula is the evolved form of Joltik, a Bug- and Electric-type tarantula Pokémon. It traps prey and fends off attackers with electrically charged threads.",
+        "tagline": "A four-legged tarantula that spins electrified webs.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Galvantula (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Galvantula_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "596",
+          "name": "Galvantula",
+          "generation": 5,
+          "types": [
+            "bug",
+            "electric"
+          ],
+          "pictures": {
+            "official": "47a88811f083443abf4d94cb2bdad9dd",
+            "home": "594f2086746ee2989db1c9278b69e311"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 595,
+        "form": "595"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 596,
+        "form": "596"
+      },
+      "change": "evolves",
+      "how": "Level 36"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "spearow",
+  "species": [
+    {
+      "dex": 21,
+      "name": "Spearow",
+      "generation": 1,
+      "category": "Tiny Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spearow"
+      },
+      "names": {
+        "de": "Habitak",
+        "en": "Spearow",
+        "es": "Spearow",
+        "fr": "Piafabec",
+        "it": "Spearow",
+        "ja": "オニスズメ",
+        "ko": "깨비참",
+        "ja-Hrkt": "オニスズメ",
+        "zh-Hans": "烈雀",
+        "zh-Hant": "烈雀"
+      },
+      "description": {
+        "fun": "Spearow can't fly high or far, so it makes up for it by flapping furiously and being very, very loud: its shrieks carry over a kilometre to warn the rest of the flock. Its Japanese name means 'demon sparrow', and it lives up to it; a whole flock of angry Spearow gave chase in the anime's very first episode.",
+        "guide": "A small, aggressive Normal and Flying bird Pokémon. It flies poorly over long distances but quickly enough to defend its territory, and its loud cries warn others of danger. It evolves into Fearow.",
+        "tagline": "A small, loud, short-tempered sparrow that never flies alone",
+        "sources": [
+          {
+            "title": "Bulbapedia: Spearow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "21",
+          "name": "Spearow",
+          "generation": 1,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "03c345b678152ebc68eff4928fcc74d5",
+            "home": "f3a9b1d38323a4e7f0ab3bd7f03348f6"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 22,
+              "form": "22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 22,
+      "name": "Fearow",
+      "generation": 1,
+      "category": "Beak Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spearow"
+      },
+      "names": {
+        "de": "Ibitak",
+        "en": "Fearow",
+        "es": "Fearow",
+        "fr": "Rapasdepic",
+        "it": "Fearow",
+        "ja": "オニドリル",
+        "ko": "깨비드릴조",
+        "ja-Hrkt": "オニドリル",
+        "zh-Hans": "大嘴雀",
+        "zh-Hant": "大嘴雀"
+      },
+      "description": {
+        "fun": "Fearow has barely changed in a very long time: a Pokémon just like it appears on ancient murals. Its broad wings and stamina let it fly for a whole day without landing, and its long neck and beak pluck prey from the ground or the water, and snacks from unwary humans.",
+        "guide": "The evolution of Spearow, a large bird Pokémon with a long neck, a long beak and broad wings. It can fly for a whole day without landing and catches prey on land and in water. A Pokémon resembling it appears on ancient murals.",
+        "tagline": "A vulture-necked hunter that can stay in the air all day",
+        "sources": [
+          {
+            "title": "Bulbapedia: Fearow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "22",
+          "name": "Fearow",
+          "generation": 1,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "622634fe837203353da85ef025996e69",
+            "home": "28471f8b1569a24a4968bf2f28b2d269"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 21,
+        "form": "21"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 22,
+        "form": "22"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    }
+  ]
+}

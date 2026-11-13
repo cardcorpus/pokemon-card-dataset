@@ -1,0 +1,97 @@
+{
+  "id": "pinsir",
+  "species": [
+    {
+      "dex": 127,
+      "name": "Pinsir",
+      "generation": 1,
+      "category": "Stag Beetle Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pinsir"
+      },
+      "names": {
+        "de": "Pinsir",
+        "en": "Pinsir",
+        "es": "Pinsir",
+        "fr": "Scarabrute",
+        "it": "Pinsir",
+        "ja": "カイロス",
+        "ko": "쁘사이저",
+        "ja-Hrkt": "カイロス",
+        "zh-Hans": "凯罗斯",
+        "zh-Hant": "凱羅斯"
+      },
+      "description": {
+        "fun": "Pinsir grabs prey in its spiky pincers and won't let go until it has torn it in two, and it can lift things twice its own weight. Cold nights leave it unable to move, so it burrows into the ground or hides in the treetops. Among Pinsir, the thickest, most impressive pincers make you the most popular. It's often paired with Heracross, another beetle: one has 'sir' in its English name, the other 'her'.",
+        "guide": "A brown, stag beetle-like Bug Pokémon with a huge pair of spiked pincers on its head. It lives in forests and uses its pincers to grip and crush its prey. It does not evolve, but it can Mega Evolve into Mega Pinsir, which is Bug and Flying.",
+        "tagline": "A stag beetle that never lets go",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pinsir (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "127",
+          "name": "Pinsir",
+          "generation": 1,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "65e5b5e8a9f9350145fb009e19769abe",
+            "home": "acbad39e06efba373c371408d10bd697"
+          }
+        },
+        {
+          "id": "127:mega",
+          "name": "Mega Pinsir",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Pinsir",
+            "en": "Mega Pinsir",
+            "fr": "Méga-Scarabrute"
+          },
+          "pictures": {
+            "official": "1272df01870841cb4ae0b9421a595188",
+            "home": "e8c1366596ef1433164eda3d9adf40bd"
+          },
+          "description": {
+            "fun": "Mega Pinsir sprouts wings and finally takes to the air, rarely touching the ground and flying at about 50 km/h. Left in a constant state of excitement, it can lift foes ten times its own weight in its horns and still fly around easily.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Pinsir (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 127,
+        "form": "127"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 127,
+        "form": "127:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

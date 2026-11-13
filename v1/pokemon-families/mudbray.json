@@ -1,0 +1,122 @@
+{
+  "id": "mudbray",
+  "species": [
+    {
+      "dex": 749,
+      "name": "Mudbray",
+      "generation": 7,
+      "category": "Donkey Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mudbray"
+      },
+      "names": {
+        "de": "Pampuli",
+        "en": "Mudbray",
+        "es": "Mudbray",
+        "fr": "Tiboudet",
+        "it": "Mudbray",
+        "ja": "ドロバンコ",
+        "ko": "머드나기",
+        "ja-Hrkt": "ドロバンコ",
+        "zh-Hans": "泥驴仔",
+        "zh-Hant": "泥驢仔"
+      },
+      "description": {
+        "fun": "Mudbray is a little donkey that eats dirt, brings it back up as mud and covers itself in it; the mud never dries out, even in the sun, and it keeps its hooves from slipping on rough ground. Deny it mud time and it gets stressed and stops listening. It can haul fifty times its own weight, and after being hunted nearly to extinction it seems to be slowly coming back.",
+        "guide": "Mudbray is a Ground-type donkey Pokémon from Alola. It coats itself in mud, which gives its hooves grip and power, and it is remarkably strong for its size. It evolves into Mudsdale at level 30.",
+        "tagline": "A mud-loving donkey that hauls fifty times its weight",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mudbray (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mudbray_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "749",
+          "name": "Mudbray",
+          "generation": 7,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "c2819306915a3cef3192ffbbb7f89e86",
+            "home": "e041a1468b60c5eb419e20d96b49ff15"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 750,
+              "form": "750"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 750,
+      "name": "Mudsdale",
+      "generation": 7,
+      "category": "Draft Horse Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "mudbray"
+      },
+      "names": {
+        "de": "Pampross",
+        "en": "Mudsdale",
+        "es": "Mudsdale",
+        "fr": "Bourrinos",
+        "it": "Mudsdale",
+        "ja": "バンバドロ",
+        "ko": "만마드",
+        "ja-Hrkt": "バンバドロ",
+        "zh-Hans": "重泥挽马",
+        "zh-Hant": "重泥挽馬"
+      },
+      "description": {
+        "fun": "Mudsdale is a Clydesdale-like draft horse with dreadlocks of hard red mud: a single kick can turn a truck into scrap, and it can drag over ten tons for three days and nights. It never cries out, whatever trouble it's in. Its mud, mixed from dirt and saliva, is harder than stone and stands up to wind and water, so old houses were coated with it, and it makes fine pottery.",
+        "guide": "Mudsdale is a Ground-type draft horse Pokémon that evolves from Mudbray. It is known for its strength, stamina and unflappable temperament, and its hard, weatherproof mud has been used for building and pottery. In Alola, people ride it across rocky ground.",
+        "tagline": "A dreadlocked draft horse whose mud is harder than stone",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mudsdale (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mudsdale_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "750",
+          "name": "Mudsdale",
+          "generation": 7,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "68f02585f3b46cc2c2589654d08aad3b",
+            "home": "eb3e11c2a306376eafde4c368e47d6cd"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 749,
+        "form": "749"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 750,
+        "form": "750"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

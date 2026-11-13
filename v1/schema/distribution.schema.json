@@ -1,0 +1,858 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus distribution",
+  "description": "One distribution, its description where it has one, the sets that name it (every copy of each came out that way), earliest first, and every copy that names it one by one, in set order.",
+  "type": "object",
+  "x-cc": {
+    "label": "name"
+  },
+  "required": [
+    "id",
+    "name",
+    "category",
+    "copies"
+  ],
+  "properties": {
+    "id": {
+      "description": "The distribution's id (distributions/{distribution}.json).",
+      "type": "string"
+    },
+    "name": {
+      "description": "Its name.",
+      "type": "string"
+    },
+    "short": {
+      "description": "Its name in its series, where it is in one (see distribution-series).",
+      "type": "string"
+    },
+    "category": {
+      "description": "What kind of distribution it is: a product, an event, a program, a shop, a campaign, a publication, a test run or staff.",
+      "type": "string",
+      "x-cc": {
+        "vocabulary": "distribution"
+      },
+      "$ref": "#/$defs/vocabulary.distribution"
+    },
+    "series": {
+      "description": "The series it belongs to, where it is in one.",
+      "type": "object",
+      "x-cc": {
+        "ref": "distribution-series"
+      },
+      "required": [
+        "$kind",
+        "series",
+        "name"
+      ],
+      "properties": {
+        "$kind": {
+          "description": "What the pointer points at: `distribution-series`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+          "const": "distribution-series"
+        },
+        "series": {
+          "description": "The distribution series' id (distribution-series/{series}.json).",
+          "type": "string"
+        },
+        "name": {
+          "description": "A copy of the target's own `name`.",
+          "type": "string"
+        }
+      }
+    },
+    "description": {
+      "description": "What we wrote about the distribution, for people to read, and the pages it draws on (docs/static-api.md, \"Descriptions\").",
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "description": "The text; paragraphs are split by a blank line.",
+          "type": "string"
+        },
+        "sources": {
+          "description": "The pages this draws on, each with its title.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "description": "The page's title.",
+                "type": "string"
+              },
+              "url": {
+                "description": "The page's url.",
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sets": {
+      "description": "The sets that name it, earliest first.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "ref": "set"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "name",
+          "catalog",
+          "cardCount",
+          "variantCount"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "const": "set"
+          },
+          "set": {
+            "description": "The set's id (sets.json).",
+            "type": "string"
+          },
+          "name": {
+            "description": "A copy of the target's own `name`.",
+            "type": "string"
+          },
+          "catalog": {
+            "description": "A copy of the target's own `catalog`.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "catalog"
+            },
+            "$ref": "#/$defs/vocabulary.catalog"
+          },
+          "released": {
+            "description": "When the set first came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "properties": {
+              "date": {
+                "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "cardCount": {
+            "description": "How many cards in the set; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "variantCount": {
+            "description": "How many copies in the set; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "image": {
+            "description": "Its first copy's picture.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$",
+            "x-cc": {
+              "picture": true
+            }
+          },
+          "as": {
+            "description": "How the copy came out of a distribution that also handed out others: as a `prize` or to `staff`.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "distribution"
+            },
+            "$ref": "#/$defs/vocabulary.distribution"
+          },
+          "region": {
+            "description": "Where it was handed out, where only in some places.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "copies": {
+      "description": "Each copy it handed out one by one, in set order: its card, with the copy under `variant`.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "ref": "card",
+          "label": "name"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "card",
+          "name",
+          "language",
+          "released",
+          "defaultCopy",
+          "defaultCollectingVariation",
+          "variant"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "const": "card"
+          },
+          "set": {
+            "description": "The set's id (sets.json).",
+            "type": "string"
+          },
+          "card": {
+            "description": "The card's id, unique in its set.",
+            "type": "string"
+          },
+          "name": {
+            "description": "A copy of the target's own `name`. The card's name, as printed.",
+            "type": "string"
+          },
+          "displayName": {
+            "description": "A copy of the target's own `displayName`. A numberless card's name with its versions, where another card of the set's versions shares its name: \"Pikachu (blue)\" (docs/static-api.md, \"Versions\").",
+            "type": "string"
+          },
+          "number": {
+            "description": "A copy of the target's own `number`. Its number as printed (\"4/102\", \"SWSH001\"), and the part of it a sort reads.",
+            "type": "object",
+            "required": [
+              "numerator"
+            ],
+            "properties": {
+              "printed": {
+                "description": "The number as printed, where the card prints one.",
+                "type": "string"
+              },
+              "numerator": {
+                "description": "The part of the number a sort reads.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "rarity": {
+            "description": "A copy of the target's own `rarity`. Its rarity, as its mark reads (docs/rarity.md).",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "rarity"
+            },
+            "$ref": "#/$defs/vocabulary.rarity"
+          },
+          "cardType": {
+            "description": "A copy of the target's own `cardType`. Pokémon, Trainer or Energy; a sealed product has none.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "cardType"
+            },
+            "$ref": "#/$defs/vocabulary.cardType"
+          },
+          "language": {
+            "description": "A copy of the target's own `language`. The language its text is printed in: its set's, or another where its product held a foreign print (docs/static-api.md, \"Foreign prints\"). Every card has one; a sealed product has none.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "$ref": "#/$defs/vocabulary.language"
+          },
+          "released": {
+            "description": "A copy of the target's own `released`. When the card first came out, in any of its copies: its own date, or, in a set whose cards came out together, the set's (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "required": [
+              "sort"
+            ],
+            "properties": {
+              "date": {
+                "description": "The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              },
+              "sort": {
+                "description": "Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one.",
+                "type": "string"
+              },
+              "sources": {
+                "description": "The pages the card's own date comes from; absent when it has the set's.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url",
+                    "site"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "site": {
+                      "description": "The site, as the title names it before the page (\"Pokumon: Base Set\" is Pokumon).",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "credit": {
+            "description": "A copy of the target's own `credit`. The credit as printed (\"CR CG gangs & K. Hoshiba\").",
+            "type": "string"
+          },
+          "artists": {
+            "description": "A copy of the target's own `artists`. The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "ref": "artist"
+              },
+              "required": [
+                "$kind",
+                "artist",
+                "name"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `artist`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "artist"
+                },
+                "artist": {
+                  "description": "The artist's id (artists.json).",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "The artist's name as this card prints it.",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "species": {
+            "description": "A copy of the target's own `species`. The species it shows, each once, in the order the card shows them.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "ref": "species"
+              },
+              "required": [
+                "$kind",
+                "species",
+                "name"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `species`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "species"
+                },
+                "species": {
+                  "description": "The species' National Pokédex number.",
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "name": {
+                  "description": "A copy of the target's own `name`.",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "picture": {
+            "description": "A copy of the target's own `picture`. The picture to show for the card (docs/static-api.md, \"Pictures\"): `front.image`, and `front.of`, the copy it is a picture of (its default copy, another copy standing in, or, for a reprint with no picture of any copy, its original's); `back`, where its back is unlike the usual one; `oversized` where the card only came as a jumbo or its picture is a jumbo copy's.",
+            "type": "object",
+            "properties": {
+              "front": {
+                "description": "The front: a picture id, and whose picture it is.",
+                "type": "object",
+                "required": [
+                  "image"
+                ],
+                "properties": {
+                  "image": {
+                    "description": "The picture's id.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  },
+                  "of": {
+                    "description": "The copy it is a picture of, where that isn't the copy it is on (on a card, always).",
+                    "type": "object",
+                    "x-cc": {
+                      "ref": [
+                        "variant",
+                        "product-variant"
+                      ]
+                    },
+                    "required": [
+                      "$kind",
+                      "set",
+                      "variant"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "enum": [
+                          "variant",
+                          "product-variant"
+                        ]
+                      },
+                      "set": {
+                        "description": "The set's id (sets.json).",
+                        "type": "string"
+                      },
+                      "card": {
+                        "description": "The card's id, unique in its set. Present on a `variant`.",
+                        "type": "string"
+                      },
+                      "product": {
+                        "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                        "type": "string"
+                      },
+                      "variant": {
+                        "description": "The copy's id, unique among its card's (or product's) variants.",
+                        "type": "string"
+                      }
+                    },
+                    "allOf": [
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "variant"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "card"
+                          ]
+                        }
+                      },
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "product-variant"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "product"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "watermark": {
+                    "description": "Whose watermark the picture carries, where it carries one.",
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "back": {
+                "description": "Its back, where that is unlike the usual one.",
+                "type": "object",
+                "required": [
+                  "image"
+                ],
+                "properties": {
+                  "image": {
+                    "description": "The picture's id.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  }
+                },
+                "additionalProperties": false
+              },
+              "oversized": {
+                "description": "Present where the card only came as a jumbo or its picture is a jumbo copy's.",
+                "const": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "defaultCopy": {
+            "description": "A copy of the target's own `defaultCopy`. The copy that stands for the card where one must (prices, a tile): by id in `variants`.",
+            "type": "string"
+          },
+          "defaultCollectingVariation": {
+            "description": "A copy of the target's own `defaultCollectingVariation`. The collectingVariations id of defaultCopy. Quick Collect saves it, with defaultCollectingCopy where that is present.",
+            "type": "string"
+          },
+          "defaultCollectingCopy": {
+            "description": "A copy of the target's own `defaultCollectingCopy`. Present where defaultCollectingVariation has more than one print run: defaultCopy, which quick Collect saves with it, as the copy on show is the one meant (Base Set Charizard's Unlimited). Absent where the variation has one copy, since a selection of it never names the copy.",
+            "type": "string"
+          },
+          "links": {
+            "description": "A copy of the card's `links`, holding only its `painting`.",
+            "type": "object",
+            "required": [
+              "painting"
+            ],
+            "properties": {
+              "painting": {
+                "description": "The painting it prints.",
+                "type": "object",
+                "x-cc": {
+                  "ref": "painting"
+                },
+                "required": [
+                  "$kind",
+                  "set",
+                  "painting"
+                ],
+                "properties": {
+                  "$kind": {
+                    "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                    "const": "painting"
+                  },
+                  "set": {
+                    "description": "The set's id (sets.json).",
+                    "type": "string"
+                  },
+                  "painting": {
+                    "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "variant": {
+            "description": "The copy, by its pointer, with its name and picture.",
+            "type": "object",
+            "x-cc": {
+              "ref": [
+                "variant",
+                "product-variant"
+              ],
+              "label": "name"
+            },
+            "required": [
+              "$kind",
+              "set",
+              "variant",
+              "name"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "enum": [
+                  "variant",
+                  "product-variant"
+                ]
+              },
+              "set": {
+                "description": "The set's id (sets.json).",
+                "type": "string"
+              },
+              "card": {
+                "description": "The card's id, unique in its set. Present on a `variant`.",
+                "type": "string"
+              },
+              "product": {
+                "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                "type": "string"
+              },
+              "variant": {
+                "description": "The copy's id, unique among its card's (or product's) variants.",
+                "type": "string"
+              },
+              "name": {
+                "description": "A copy of the target's own `name`.",
+                "type": "string"
+              },
+              "picture": {
+                "description": "A copy of the target's own `picture`.",
+                "type": "object",
+                "properties": {
+                  "front": {
+                    "description": "The front: a picture id, and whose picture it is.",
+                    "type": "object",
+                    "required": [
+                      "image"
+                    ],
+                    "properties": {
+                      "image": {
+                        "description": "The picture's id.",
+                        "type": "string",
+                        "pattern": "^[0-9a-f]{32}$",
+                        "x-cc": {
+                          "picture": true
+                        }
+                      },
+                      "of": {
+                        "description": "The copy it is a picture of, where that isn't the copy it is on (on a card, always).",
+                        "type": "object",
+                        "x-cc": {
+                          "ref": [
+                            "variant",
+                            "product-variant"
+                          ]
+                        },
+                        "required": [
+                          "$kind",
+                          "set",
+                          "variant"
+                        ],
+                        "properties": {
+                          "$kind": {
+                            "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                            "enum": [
+                              "variant",
+                              "product-variant"
+                            ]
+                          },
+                          "set": {
+                            "description": "The set's id (sets.json).",
+                            "type": "string"
+                          },
+                          "card": {
+                            "description": "The card's id, unique in its set. Present on a `variant`.",
+                            "type": "string"
+                          },
+                          "product": {
+                            "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                            "type": "string"
+                          },
+                          "variant": {
+                            "description": "The copy's id, unique among its card's (or product's) variants.",
+                            "type": "string"
+                          }
+                        },
+                        "allOf": [
+                          {
+                            "if": {
+                              "properties": {
+                                "$kind": {
+                                  "const": "variant"
+                                }
+                              }
+                            },
+                            "then": {
+                              "required": [
+                                "card"
+                              ]
+                            }
+                          },
+                          {
+                            "if": {
+                              "properties": {
+                                "$kind": {
+                                  "const": "product-variant"
+                                }
+                              }
+                            },
+                            "then": {
+                              "required": [
+                                "product"
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "watermark": {
+                        "description": "Whose watermark the picture carries, where it carries one.",
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "back": {
+                    "description": "Its back, where that is unlike the usual one.",
+                    "type": "object",
+                    "required": [
+                      "image"
+                    ],
+                    "properties": {
+                      "image": {
+                        "description": "The picture's id.",
+                        "type": "string",
+                        "pattern": "^[0-9a-f]{32}$",
+                        "x-cc": {
+                          "picture": true
+                        }
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "$kind": {
+                      "const": "variant"
+                    }
+                  }
+                },
+                "then": {
+                  "required": [
+                    "card"
+                  ]
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "$kind": {
+                      "const": "product-variant"
+                    }
+                  }
+                },
+                "then": {
+                  "required": [
+                    "product"
+                  ]
+                }
+              }
+            ],
+            "additionalProperties": false
+          },
+          "as": {
+            "description": "How the copy came out of a distribution that also handed out others: as a `prize` or to `staff`.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "distribution"
+            },
+            "$ref": "#/$defs/vocabulary.distribution"
+          },
+          "region": {
+            "description": "Where it was handed out, where only in some places.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "vocabulary.distribution": {
+      "description": "Every value of vocabulary.json's `distribution`.",
+      "enum": [
+        "product_promotion",
+        "event",
+        "program",
+        "prize",
+        "retailer_promotion",
+        "staff",
+        "campaign",
+        "publication_promotion",
+        "test"
+      ]
+    },
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    },
+    "vocabulary.rarity": {
+      "description": "Every value of vocabulary.json's `rarity`.",
+      "enum": [
+        "Uncommon",
+        "Common",
+        "Common (C)",
+        "Promo",
+        "Uncommon (U)",
+        "Rare",
+        "Holo Rare",
+        "Ultra Rare",
+        "Super Rare (SR)",
+        "Rare (R)",
+        "Double Rare (RR)",
+        "Art Rare (AR)",
+        "Double Rare",
+        "Ultra Rare (UR)",
+        "Illustration Rare",
+        "Hyper Rare (HR)",
+        "Special Art Rare (SAR)",
+        "Shiny Rare (S)",
+        "Shiny Rare",
+        "Rainbow Rare",
+        "Secret Rare",
+        "Triple Rare (RRR)",
+        "Special Illustration Rare",
+        "Triple Rare",
+        "Shiny Super Rare (SSR)",
+        "Classic Collection",
+        "Pikachu Rare",
+        "Character Rare (CHR)",
+        "Hyper Rare",
+        "Prism Rare (PR)",
+        "ACE SPEC Rare",
+        "Character Super Rare (CSR)",
+        "ACE SPEC Rare (ACE)",
+        "Gold Star",
+        "LEGEND",
+        "Trainer Rare (TR)",
+        "Prism Rare",
+        "Radiant Rare (K)",
+        "Radiant Rare",
+        "Shining Rare",
+        "Amazing Rare (A)",
+        "Shiny Ultra Rare",
+        "Mega Attack Rare (MA)",
+        "Amazing Rare",
+        "Mega Hyper Rare",
+        "RGB Rare",
+        "Mega Ultra Rare (MUR)",
+        "Mega Attack Rare",
+        "Black White Rare",
+        "Black White Rare (BWR)",
+        "Futuristic Rare (FUR)",
+        "Futuristic Rare"
+      ]
+    },
+    "vocabulary.cardType": {
+      "description": "Every value of vocabulary.json's `cardType`.",
+      "enum": [
+        "pokemon",
+        "trainer",
+        "energy",
+        "product"
+      ]
+    },
+    "vocabulary.language": {
+      "description": "Every value of vocabulary.json's `language`.",
+      "enum": [
+        "ja",
+        "en",
+        "zh-Hans",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ko",
+        "pt",
+        "pl",
+        "nl",
+        "zh-Hant"
+      ]
+    }
+  }
+}

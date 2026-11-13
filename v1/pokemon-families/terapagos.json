@@ -1,0 +1,137 @@
+{
+  "id": "terapagos",
+  "species": [
+    {
+      "dex": 1024,
+      "name": "Terapagos",
+      "generation": 9,
+      "category": "Tera Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "terapagos"
+      },
+      "names": {
+        "de": "Terapagos",
+        "en": "Terapagos",
+        "es": "Terapagos",
+        "fr": "Terapagos",
+        "it": "Terapagos",
+        "ja": "テラパゴス",
+        "ko": "테라파고스",
+        "ja-Hrkt": "テラパゴス",
+        "zh-Hans": "太乐巴戈斯",
+        "zh-Hant": "太樂巴戈斯"
+      },
+      "description": {
+        "fun": "The little turtle behind the Terastal phenomenon. It was thought to have died out in seismic shifts some two million years ago, but it survived by crystallising its body and hibernating deep under Area Zero, and its crystals gave Area Zero its glittering look. In battle it shifts into a shaggy Terastal Form, and its name blends Terastal, terrapin and Galápagos.",
+        "guide": "A Normal-type Legendary Pokémon introduced in The Indigo Disk and the source of the Terastal phenomenon. It changes from its small Normal Form into its Terastal Form at the start of a battle, and into its Stellar Form when it Terastallizes.",
+        "tagline": "The little turtle that's the source of Terastallization",
+        "sources": [
+          {
+            "title": "Bulbapedia: Terapagos (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Terapagos_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "1024",
+          "name": "Terapagos",
+          "generation": 9,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "a3ead3eb40f8791ab576a37ce148011f",
+            "home": "013448f271be99f28f19901c34726b76"
+          }
+        },
+        {
+          "id": "1024:terastal",
+          "name": "Terastal Form Terapagos",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "normal"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Terastal Form Terapagos",
+            "fr": "Terapagos Téracristal"
+          },
+          "pictures": {
+            "official": "a9c7401a34056e4b8137652c0a47934e",
+            "home": "4cffd8f04915cf9c95f86d26c661298f"
+          },
+          "description": {
+            "fun": "Sensing a fight, Terapagos grows a shell of crystallised Terastal energy made of eighteen panels, one for each type, plus a glowing mane, and floats instead of walking. This form, the mascot of The Indigo Disk, is called 'the Indigo Disk' for its colour and disk-shaped shell.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Terapagos (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Terapagos_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1024:stellar",
+          "name": "Stellar Form Terapagos",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "normal"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Stellar Form Terapagos",
+            "fr": "Terapagos Stellaire"
+          },
+          "pictures": {
+            "official": "ff95a46dce734ac02750fee07cf62556",
+            "home": "eb180e4992574dd454e1fece2460b7a9"
+          },
+          "description": {
+            "fun": "When Terapagos Terastallizes it becomes Stellar Form, floating over a huge crystal dome with eighteen type gems circling it, its energy amplified so far it seems to lose control. The Pokédex says it resembles the world as the ancients saw it, perhaps a nod to the World Turtle that carries the world on its back.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Terapagos (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Terapagos_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1024,
+        "form": "1024"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1024,
+        "form": "1024:terastal"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1024,
+        "form": "1024"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1024,
+        "form": "1024:stellar"
+      },
+      "change": "form_change"
+    }
+  ]
+}

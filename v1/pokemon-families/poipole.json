@@ -1,0 +1,123 @@
+{
+  "id": "poipole",
+  "species": [
+    {
+      "dex": 803,
+      "name": "Poipole",
+      "generation": 7,
+      "category": "Poison Pin Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "poipole"
+      },
+      "names": {
+        "de": "Venicro",
+        "en": "Poipole",
+        "es": "Poipole",
+        "fr": "Vémini",
+        "it": "Poipole",
+        "ja": "ベベノム",
+        "ko": "베베놈",
+        "ja-Hrkt": "ベベノム",
+        "zh-Hans": "毒贝比",
+        "zh-Hant": "毒貝比"
+      },
+      "description": {
+        "fun": "Poipole is a cheerful little Ultra Beast from Ultra Megalopolis, where it's a popular first partner Pokémon. Its big head is full of glowing, sticky poison that it sprays from its needles while laughing wildly, and it can learn to understand human speech if it spends enough time with people. It's the only Ultra Beast that can evolve.",
+        "guide": "Poipole is a Poison-type Ultra Beast, codenamed UB Adhesive, introduced in Ultra Sun and Ultra Moon and based on a bee larva. It sprays sticky poison from the needles on its head. It evolves into Naganadel when levelled up knowing Dragon Pulse, and it was created by James Turner.",
+        "tagline": "A giggly poison-squirting Ultra Beast and popular first partner",
+        "sources": [
+          {
+            "title": "Bulbapedia: Poipole (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Poipole_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "803",
+          "name": "Poipole",
+          "generation": 7,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "dc9162fa3b8970b56da54b7d91ea28d7",
+            "home": "178942ddcaaba43e9b9cd48419103b06"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 804,
+              "form": "804"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 804,
+      "name": "Naganadel",
+      "generation": 7,
+      "category": "Poison Pin Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "poipole"
+      },
+      "names": {
+        "de": "Agoyon",
+        "en": "Naganadel",
+        "es": "Naganadel",
+        "fr": "Mandrillon",
+        "it": "Naganadel",
+        "ja": "アーゴヨン",
+        "ko": "아고용",
+        "ja-Hrkt": "アーゴヨン",
+        "zh-Hans": "四颚针龙",
+        "zh-Hant": "四顎針龍"
+      },
+      "description": {
+        "fun": "Naganadel is a wasp-like dragon whose brain sits in its swollen, poison-filled lower body, so it reacts violently if anyone touches the stingers wired to it. Its main stinger can squirt glowing, sticky poison more than six miles. It and Poipole are the only Ultra Beasts in an evolutionary line, and both were created by James Turner.",
+        "guide": "Naganadel is a Poison- and Dragon-type Ultra Beast, codenamed UB Stinger, that evolves from Poipole. It resembles a dragon with a wasp's abdomen, from which it fires glowing poison over long distances. It comes from Ultra Megalopolis.",
+        "tagline": "A wasp dragon that shoots poison more than six miles",
+        "sources": [
+          {
+            "title": "Bulbapedia: Naganadel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Naganadel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "804",
+          "name": "Naganadel",
+          "generation": 7,
+          "types": [
+            "poison",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "38c0a466c499a43a19ca9079a2dc144d",
+            "home": "f4ee26b10ac27f176bca2e3410466533"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 803,
+        "form": "803"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 804,
+        "form": "804"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Dragon Pulse"
+    }
+  ]
+}

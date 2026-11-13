@@ -1,0 +1,165 @@
+{
+  "id": "buneary",
+  "species": [
+    {
+      "dex": 427,
+      "name": "Buneary",
+      "generation": 4,
+      "category": "Rabbit Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "buneary"
+      },
+      "names": {
+        "de": "Haspiror",
+        "en": "Buneary",
+        "es": "Buneary",
+        "fr": "Laporeille",
+        "it": "Buneary",
+        "ja": "ミミロル",
+        "ko": "이어롤",
+        "ja-Hrkt": "ミミロル",
+        "zh-Hans": "卷卷耳",
+        "zh-Hant": "捲捲耳"
+      },
+      "description": {
+        "fun": "Buneary always keeps one ear rolled up like a spring, ready to snap it out in a counterattack that can make a grown-up cry or shatter a boulder. Slamming its ears on the ground can launch it so high it surprises itself. Its arms and legs are weak by comparison, and if both ears are rolled up, it's a sign that Buneary isn't well.",
+        "guide": "Buneary is a Normal-type rabbit that keeps one ear rolled up and can unroll it with great force to strike. The position of its ears shows its mood and health. It evolves into Lopunny when it has a close bond with its Trainer.",
+        "tagline": "A bunny that fights with spring-loaded ears.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Buneary (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Buneary_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "427",
+          "name": "Buneary",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "293d259159064070c6e8e1fb75f694c0",
+            "home": "9e5df5e6caa60d484528386c869c5f33"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 428,
+              "form": "428"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 428,
+      "name": "Lopunny",
+      "generation": 4,
+      "category": "Rabbit Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "buneary"
+      },
+      "names": {
+        "de": "Schlapor",
+        "en": "Lopunny",
+        "es": "Lopunny",
+        "fr": "Lockpin",
+        "it": "Lopunny",
+        "ja": "ミミロップ",
+        "ko": "이어롭",
+        "ja-Hrkt": "ミミロップ",
+        "zh-Hans": "长耳兔",
+        "zh-Hant": "長耳兔"
+      },
+      "description": {
+        "fun": "Lopunny is Sinnoh's fashion plate: it grooms its ears constantly, regrows its coat twice a year, and its fluffy cuffs and boots seem to echo Japan's gyaru fashion. Touch those ears roughly, though, and you'll get a kick worthy of a karate master. Its fur is so warm and light that mufflers and hats made from it are really cosy. Mega Evolution turns this cautious bunny into a brawler.",
+        "guide": "Lopunny is the evolved form of Buneary, a Normal-type rabbit known for its long, fluffy-tipped ears, which it grooms carefully. It is cautious but delivers powerful kicks, and it sheds its warm fur twice a year. It can Mega Evolve into Mega Lopunny.",
+        "tagline": "A glamorous rabbit with a kick like a karate master.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lopunny (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "428",
+          "name": "Lopunny",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "60bfb921540714fa15d2b9da5fe6d3a0",
+            "home": "21358ec1508f84f1668b7a4fcbb09b17"
+          }
+        },
+        {
+          "id": "428:mega",
+          "name": "Mega Lopunny",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "normal",
+            "fighting"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Schlapor",
+            "en": "Mega Lopunny",
+            "fr": "Méga-Lockpin"
+          },
+          "pictures": {
+            "official": "0b3200a71f6719c8c77d51da2a8dfd66",
+            "home": "deaac410d2923b8f70ea69d0a25a5e8c"
+          },
+          "description": {
+            "fun": "Mega Evolution awakens wild fighting instincts: Lopunny sheds any fur that gets in its way, leaving leg markings like ripped tights, becomes Normal and Fighting type, and whips its ears hard enough to crumple steel plates.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Lopunny (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 427,
+        "form": "427"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 428,
+        "form": "428"
+      },
+      "change": "evolves",
+      "how": "High friendship"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 428,
+        "form": "428"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 428,
+        "form": "428:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

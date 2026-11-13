@@ -1,0 +1,97 @@
+{
+  "id": "hawlucha",
+  "species": [
+    {
+      "dex": 701,
+      "name": "Hawlucha",
+      "generation": 6,
+      "category": "Wrestling Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "hawlucha"
+      },
+      "names": {
+        "de": "Resladero",
+        "en": "Hawlucha",
+        "es": "Hawlucha",
+        "fr": "Brutalibré",
+        "it": "Hawlucha",
+        "ja": "ルチャブル",
+        "ko": "루차불",
+        "ja-Hrkt": "ルチャブル",
+        "zh-Hans": "摔角鹰人",
+        "zh-Hant": "摔角鷹人"
+      },
+      "description": {
+        "fun": "Hawlucha is a pint-sized luchador that keeps up with bruisers like Machamp and Hariyama, using its wings to strike from above where foes can't defend. Once an opponent is worn out it just has to show off a flashy finishing move it has practised in the forest, a vanity rivals sometimes exploit. Its red, white and green feathers nod to Mexico's flag, and masked wrestling began in Paris.",
+        "guide": "Hawlucha is a Fighting- and Flying-type Pokémon from Kalos that combines a hawk with a lucha libre wrestler. It wins fights with nimble aerial attacks and loves finishing with a flashy move. It can Mega Evolve into Mega Hawlucha, introduced in Pokémon Legends: Z-A.",
+        "tagline": "A show-off masked wrestler that fights from the top rope",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hawlucha (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "701",
+          "name": "Hawlucha",
+          "generation": 6,
+          "types": [
+            "fighting",
+            "flying"
+          ],
+          "pictures": {
+            "official": "bbc16d7d5fb09c28739e14293f966aea",
+            "home": "2a66a3efcb9adadd149521d0049cd1fc"
+          }
+        },
+        {
+          "id": "701:mega",
+          "name": "Mega Hawlucha",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "fighting",
+            "flying"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Hawlucha",
+            "fr": "Méga-Brutalibré"
+          },
+          "pictures": {
+            "official": "1d70a55f33d66d4847318446692b7000",
+            "home": "ca21d6efeb261d59d4c8ae8be4354e0c"
+          },
+          "description": {
+            "fun": "Mega Hawlucha, from Pokémon Legends: Z-A, bulks up into a heavyweight in a black-and-gold luchador mask and a golden chest plate. Tough enough to take hits, it flexes and poses wide open to lure foes in, then strikes back and dives on them.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Hawlucha (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 701,
+        "form": "701"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 701,
+        "form": "701:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

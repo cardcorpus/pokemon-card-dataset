@@ -1,0 +1,122 @@
+{
+  "id": "fidough",
+  "species": [
+    {
+      "dex": 926,
+      "name": "Fidough",
+      "generation": 9,
+      "category": "Puppy Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "fidough"
+      },
+      "names": {
+        "de": "Hefel",
+        "en": "Fidough",
+        "es": "Fidough",
+        "fr": "Pâtachiot",
+        "it": "Fidough",
+        "ja": "パピモッチ",
+        "ko": "쫀도기",
+        "ja-Hrkt": "パピモッチ",
+        "zh-Hans": "狗仔包",
+        "zh-Hant": "狗仔包"
+      },
+      "description": {
+        "fun": "A puppy made of dough, smooth, moist and springy to the touch, that puffs itself up to look bigger when it's upset. It grows yeast inside its body, and its breath makes anything nearby ferment, so people have treasured it as a kitchen helper since ancient times. Its puppy-bread design may be a pun on 'purebred'.",
+        "guide": "A Fairy-type puppy Pokémon made of dough, designed by Mari Shimazaki. Fidough's yeasty breath causes fermentation, which has made it a helper in cooking for a long time. It evolves into Dachsbun.",
+        "tagline": "A dough puppy whose breath makes bread rise",
+        "sources": [
+          {
+            "title": "Bulbapedia: Fidough (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Fidough_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "926",
+          "name": "Fidough",
+          "generation": 9,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "03ecc48371dde58d7831ab272c90e527",
+            "home": "2d31f62ba9d2b5addb15b10aecefc138"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 927,
+              "form": "927"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 927,
+      "name": "Dachsbun",
+      "generation": 9,
+      "category": "Dog Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "fidough"
+      },
+      "names": {
+        "de": "Backel",
+        "en": "Dachsbun",
+        "es": "Dachsbun",
+        "fr": "Briochien",
+        "it": "Dachsbun",
+        "ja": "バウッツェル",
+        "ko": "바우첼",
+        "ja-Hrkt": "バウッツェル",
+        "zh-Hans": "麻花犬",
+        "zh-Hant": "麻花犬"
+      },
+      "description": {
+        "fun": "A dachshund baked golden brown. Dachsbun gives off a pleasant aroma that helps wheat grow, so farming villages have long treasured it. Its skin hardens when exposed to intense heat, and its appetising scent can send an opponent's hunger into overdrive until their willpower crumbles. Its browner colour may nod to the Maillard reaction that browns real bread.",
+        "guide": "The evolution of Fidough, a Fairy-type dog Pokémon based on dachshunds and baked bread. Its aroma helps wheat grow, and its skin hardens in intense heat.",
+        "tagline": "A dachshund loaf that smells too good to fight",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dachsbun (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dachsbun_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "927",
+          "name": "Dachsbun",
+          "generation": 9,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "bcf48933ee63d5da732ea9fd37acb231",
+            "home": "067a736b91599deb0e409e6d98a4f659"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 926,
+        "form": "926"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 927,
+        "form": "927"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    }
+  ]
+}

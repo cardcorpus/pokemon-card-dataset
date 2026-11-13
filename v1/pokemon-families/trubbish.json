@@ -1,0 +1,164 @@
+{
+  "id": "trubbish",
+  "species": [
+    {
+      "dex": 568,
+      "name": "Trubbish",
+      "generation": 5,
+      "category": "Trash Bag Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "trubbish"
+      },
+      "names": {
+        "de": "Unratütox",
+        "en": "Trubbish",
+        "es": "Trubbish",
+        "fr": "Miamiasme",
+        "it": "Trubbish",
+        "ja": "ヤブクロン",
+        "ko": "깨봉이",
+        "ja-Hrkt": "ヤブクロン",
+        "zh-Hans": "破破袋",
+        "zh-Hant": "破破袋"
+      },
+      "description": {
+        "fun": "Trubbish was born when a bag of household rubbish and industrial waste underwent a chemical reaction. It loves unsanitary places and follows people who litter, hoping for more garbage; leave trash lying around and one might move into your room. The gas it belches can put a person in hospital. On the bright side, Galarian Weezing relish its fumes, and Muk come drooling at its stench.",
+        "guide": "Trubbish is a Poison-type Pokémon resembling a garbage bag, created when household and industrial waste reacted. It lives in unsanitary places and belches poisonous gas. It was made to represent city pollution and evolves into Garbodor.",
+        "tagline": "A living trash bag that burps toxic gas.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Trubbish (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Trubbish_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "568",
+          "name": "Trubbish",
+          "generation": 5,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "8b85fdd1ec6a366c87466098396ab195",
+            "home": "d1ccddaf34b211d567d08a12f3b81c7b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 569,
+              "form": "569"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 569,
+      "name": "Garbodor",
+      "generation": 5,
+      "category": "Trash Heap Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "trubbish"
+      },
+      "names": {
+        "de": "Deponitox",
+        "en": "Garbodor",
+        "es": "Garbodor",
+        "fr": "Miasmax",
+        "it": "Garbodor",
+        "ja": "ダストダス",
+        "ko": "더스트나",
+        "ja-Hrkt": "ダストダス",
+        "zh-Hans": "灰尘山",
+        "zh-Hant": "灰塵山"
+      },
+      "description": {
+        "fun": "Garbodor absorbs rubbish into its body and turns it into poison, and what kind depends on what it ate. It sprays poisonous liquid from the fingertips of its right arm and clenches foes with its left before finishing them with a foul belch. Garbodor once flourished in Alola until Grimer and Muk, which prey on them, arrived; the survivors are said to be a little stronger than Garbodor elsewhere.",
+        "guide": "Garbodor is the evolved form of Trubbish, a Poison-type Pokémon resembling a burst bag of garbage. It absorbs trash and turns it into poisons it sprays from its fingers. It is the only Generation 5 Pokémon with a Gigantamax form.",
+        "tagline": "A heap of garbage that brews poison from what it eats.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Garbodor (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Garbodor_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "569",
+          "name": "Garbodor",
+          "generation": 5,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "3337f395a9d44265ca69b8a01644a41d",
+            "home": "1bd3d1128eeec7d23a4f365c2e9b3be0"
+          }
+        },
+        {
+          "id": "569:gmax",
+          "name": "Gigantamax Garbodor",
+          "category": "gigantamax",
+          "generation": 8,
+          "types": [
+            "poison"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Gigadynamax-Deponitox",
+            "en": "Gigantamax Garbodor",
+            "fr": "Miasmax Gigamax"
+          },
+          "pictures": {
+            "official": "be8acb71f67f77b9945f915c533d49e4",
+            "home": "336419f3ca490f6fcb441c82f71116e6"
+          },
+          "description": {
+            "fun": "Gigantamax energy makes its toxic gas so thick that it congeals into the shapes of discarded toys, from a toy car and train to a Poké Doll and even a Master Ball. Engulfed in that gas, toxins seep right down to your bones.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Garbodor (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Garbodor_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "gigantamax"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 568,
+        "form": "568"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 569,
+        "form": "569"
+      },
+      "change": "evolves",
+      "how": "Level 36"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 569,
+        "form": "569"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 569,
+        "form": "569:gmax"
+      },
+      "change": "gigantamax"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "cubchoo",
+  "species": [
+    {
+      "dex": 613,
+      "name": "Cubchoo",
+      "generation": 5,
+      "category": "Chill Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cubchoo"
+      },
+      "names": {
+        "de": "Petznief",
+        "en": "Cubchoo",
+        "es": "Cubchoo",
+        "fr": "Polarhume",
+        "it": "Cubchoo",
+        "ja": "クマシュン",
+        "ko": "코고미",
+        "ja-Hrkt": "クマシュン",
+        "zh-Hans": "喷嚏熊",
+        "zh-Hant": "噴嚏熊"
+      },
+      "description": {
+        "fun": "Cubchoo's nose is always running, and that's the point: its frosty snot is the raw material for its moves, so it sniffs it back up before attacking. The snot doubles as a health check, thick and sticky when it's well and watery when it isn't, and it will smear it on anyone it doesn't like. If one sneezes on you, watch out for frostbite. Its designer had long wanted to use an idea for freezing snot.",
+        "guide": "Cubchoo is an Ice-type polar bear cub Pokémon that uses the frosty mucus dripping from its nose to power its moves. It lives along the shores of cold regions. It evolves into Beartic.",
+        "tagline": "A polar bear cub whose runny nose powers its ice attacks.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cubchoo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cubchoo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "613",
+          "name": "Cubchoo",
+          "generation": 5,
+          "types": [
+            "ice"
+          ],
+          "pictures": {
+            "official": "b2e0761dd54b9b0562295a95f5a47235",
+            "home": "bc84d0a5140e8fd342bf0f90d525f088"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 614,
+              "form": "614"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 614,
+      "name": "Beartic",
+      "generation": 5,
+      "category": "Freezing Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cubchoo"
+      },
+      "names": {
+        "de": "Siberio",
+        "en": "Beartic",
+        "es": "Beartic",
+        "fr": "Polagriffe",
+        "it": "Beartic",
+        "ja": "ツンベアー",
+        "ko": "툰베어",
+        "ja-Hrkt": "ツンベアー",
+        "zh-Hans": "冻原熊",
+        "zh-Hant": "凍原熊"
+      },
+      "description": {
+        "fun": "Beartic can freeze its own breath at will, building pathways across the sea, and when it tires while swimming in frigid northern waters, it freezes the water to rest on the ice. It forms icy fangs harder than steel and claws to fight with, and it freezes its prey to keep it fresh. Northern lands fear it as the Snow-White Demon. With its icy beard and peaked head, it even looks a little like a snow-capped mountain.",
+        "guide": "Beartic is the evolved form of Cubchoo, an Ice-type polar bear Pokémon of cold northern seas. It freezes its breath to make icy fangs and claws and to build paths across the water.",
+        "tagline": "A polar bear with an icy beard and fangs harder than steel.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Beartic (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Beartic_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "614",
+          "name": "Beartic",
+          "generation": 5,
+          "types": [
+            "ice"
+          ],
+          "pictures": {
+            "official": "de656a2c38ad3539799d01b03e242549",
+            "home": "f74f2792ebb67d1002cf574a581a9320"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 613,
+        "form": "613"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 614,
+        "form": "614"
+      },
+      "change": "evolves",
+      "how": "Level 37"
+    }
+  ]
+}

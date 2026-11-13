@@ -1,0 +1,124 @@
+{
+  "id": "girafarig",
+  "species": [
+    {
+      "dex": 203,
+      "name": "Girafarig",
+      "generation": 2,
+      "category": "Long Neck Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "girafarig"
+      },
+      "names": {
+        "de": "Girafarig",
+        "en": "Girafarig",
+        "es": "Girafarig",
+        "fr": "Girafarig",
+        "it": "Girafarig",
+        "ja": "キリンリキ",
+        "ko": "키링키",
+        "ja-Hrkt": "キリンリキ",
+        "zh-Hans": "麒麟奇",
+        "zh-Hant": "麒麟奇"
+      },
+      "description": {
+        "fun": "Girafarig's tail has a head of its own, with sharp teeth and a small brain that can't really think but bites anything that smells interesting, and warns the front half of danger while it sleeps. Its name is a palindrome, reading the same both ways like the two-ended animal itself, and so is its Japanese name, Kirinriki. In the 1997 Space World demo it looked even more symmetrical, like a pushmi-pullyu.",
+        "guide": "A Normal- and Psychic-type giraffe Pokémon whose tail ends in a second head that reacts to smells and can use psychic powers. Its English and Japanese names are both palindromes. It evolves into Farigiraf when levelled up knowing Twin Beam.",
+        "tagline": "A giraffe with a biting second head where its tail should be",
+        "sources": [
+          {
+            "title": "Bulbapedia: Girafarig (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "203",
+          "name": "Girafarig",
+          "generation": 2,
+          "types": [
+            "normal",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "542576e95e0256cd1e296ad5f6a4e28b",
+            "home": "27f9888dcfd724fb57c2747778866868"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 981,
+              "form": "981"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 981,
+      "name": "Farigiraf",
+      "generation": 9,
+      "category": "Long Neck Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "girafarig"
+      },
+      "names": {
+        "de": "Farigiraf",
+        "en": "Farigiraf",
+        "es": "Farigiraf",
+        "fr": "Farigiraf",
+        "it": "Farigiraf",
+        "ja": "リキキリン",
+        "ko": "키키링",
+        "ja-Hrkt": "リキキリン",
+        "zh-Hans": "奇麒麟",
+        "zh-Hant": "奇麒麟"
+      },
+      "description": {
+        "fun": "When Girafarig evolves, its tail head slides forward, hardens and wraps over its main head like a hood, leaving no visible tail at all. With two brains linked by thick nerves, its psychic power is ten times Girafarig's, and its long neck swings hard enough to smash stone and steel beams. Its name swaps the two halves of Girafarig around, fitting for a Pokémon that turned itself back to front.",
+        "guide": "A Normal- and Psychic-type Pokémon introduced in Generation 9, the evolution of Girafarig. Its former tail head covers its main head as armour and fires psychic waves through four antennae. Like Girafarig, its English name is a palindrome.",
+        "tagline": "Girafarig turned back to front, wearing its old tail as a helmet",
+        "sources": [
+          {
+            "title": "Bulbapedia: Farigiraf (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Farigiraf_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "981",
+          "name": "Farigiraf",
+          "generation": 9,
+          "types": [
+            "normal",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "a3d5a6eb92a18ad031943ac240f830c4",
+            "home": "a2015fa37f96314b2a0c9e5e9c7ee9bd"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 203,
+        "form": "203"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 981,
+        "form": "981"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Twin Beam"
+    }
+  ]
+}

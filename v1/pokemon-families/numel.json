@@ -1,0 +1,167 @@
+{
+  "id": "numel",
+  "species": [
+    {
+      "dex": 322,
+      "name": "Numel",
+      "generation": 3,
+      "category": "Numb Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "numel"
+      },
+      "names": {
+        "de": "Camaub",
+        "en": "Numel",
+        "es": "Numel",
+        "fr": "Chamallot",
+        "it": "Numel",
+        "ja": "ドンメル",
+        "ko": "둔타",
+        "ja-Hrkt": "ドンメル",
+        "zh-Hans": "呆火驼",
+        "zh-Hant": "呆火駝"
+      },
+      "description": {
+        "fun": "Numel carries a volcano on its back, full of magma at about 1,200 °C, but it's so dim it often doesn't notice when it has been hit. It's gentle, rarely attacking unless provoked, and people have long used it to carry loads of up to 100 kg. It slows down when wet and can't stand being hungry. Its Japanese name, Donmel, starts with don, meaning dull or slow.",
+        "guide": "A Fire- and Ground-type Pokémon based on a dromedary camel whose hump is a dormant volcano, living on volcanic mountains. Females have bigger humps than males. It evolves into Camerupt at level 33.",
+        "tagline": "A dim, gentle camel carrying a volcano on its back",
+        "sources": [
+          {
+            "title": "Bulbapedia: Numel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Numel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "322",
+          "name": "Numel",
+          "generation": 3,
+          "types": [
+            "fire",
+            "ground"
+          ],
+          "pictures": {
+            "official": "0d3a98a8d57f7f2e64ecaa07797b2dbd",
+            "home": "5d59b54be33c92c6466794308db938d5"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 323,
+              "form": "323"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 323,
+      "name": "Camerupt",
+      "generation": 3,
+      "category": "Eruption Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "numel"
+      },
+      "names": {
+        "de": "Camerupt",
+        "en": "Camerupt",
+        "es": "Camerupt",
+        "fr": "Camérupt",
+        "it": "Camerupt",
+        "ja": "バクーダ",
+        "ko": "폭타",
+        "ja-Hrkt": "バクーダ",
+        "zh-Hans": "喷火驼",
+        "zh-Hant": "噴火駝"
+      },
+      "description": {
+        "fun": "Camerupt's humps are volcanoes holding lava at 10,000 °C, and if it gets angry, they erupt. Even when it stays calm, the humps go off on their own every ten years. In the anime, hitting one in the face sends it into an uncontrollable rage. In the Hoenn games it's the partner of Team Magma's leader Maxie, just as Sharpedo is for Team Aqua's Archie.",
+        "guide": "A Fire- and Ground-type Pokémon based on a Bactrian camel with volcanoes for humps, living in volcano craters. It evolves from Numel at level 33 and can Mega Evolve with the Cameruptite.",
+        "tagline": "A two-humped camel whose volcanoes erupt when it gets angry",
+        "sources": [
+          {
+            "title": "Bulbapedia: Camerupt (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "323",
+          "name": "Camerupt",
+          "generation": 3,
+          "types": [
+            "fire",
+            "ground"
+          ],
+          "pictures": {
+            "official": "e669da776611433ffe92fbedd95d9d69",
+            "home": "4a42e0f77f5706c45faab5ea7237eeda"
+          }
+        },
+        {
+          "id": "323:mega",
+          "name": "Mega Camerupt",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "fire",
+            "ground"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Camerupt",
+            "en": "Mega Camerupt",
+            "fr": "Méga-Camérupt"
+          },
+          "pictures": {
+            "official": "7269b5123e121dcef5396dcf523e31a8",
+            "home": "60ec60cca1076bfe69a9afc373a4bd7e"
+          },
+          "description": {
+            "fun": "Mega Camerupt's two humps merge into one constantly erupting volcano, and its shaggy fur grows so long that only its hooves show. It has a short temper and a deep hatred of water, and it hurls molten rocks from its hump that explode a little later. The 'M' on its face may stand for Team Magma, whose leader Maxie uses one in Omega Ruby and Alpha Sapphire.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Camerupt (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 322,
+        "form": "322"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 323,
+        "form": "323"
+      },
+      "change": "evolves",
+      "how": "Level 33"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 323,
+        "form": "323"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 323,
+        "form": "323:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

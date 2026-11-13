@@ -1,0 +1,98 @@
+{
+  "id": "morpeko",
+  "species": [
+    {
+      "dex": 877,
+      "name": "Morpeko",
+      "generation": 8,
+      "category": "Two-Sided Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "morpeko"
+      },
+      "names": {
+        "de": "Morpeko",
+        "en": "Morpeko",
+        "es": "Morpeko",
+        "fr": "Morpeko",
+        "it": "Morpeko",
+        "ja": "モルペコ",
+        "ko": "모르페코",
+        "ja-Hrkt": "モルペコ",
+        "zh-Hans": "莫鲁贝可",
+        "zh-Hant": "莫魯貝可"
+      },
+      "description": {
+        "fun": "A tiny hamster with an even tinier stomach, Morpeko has to keep snacking on the electrically roasted seeds it carries in its pockets like precious treasures. Let it go hungry and its hormones flip it into Hangry Mode: the electricity in its cheeks turns into dark energy and it runs riot until it's fed. No wonder it's called the Two-Sided Pokémon.",
+        "guide": "An Electric and Dark-type hamster Pokémon that switches from Full Belly Mode to Hangry Mode when it gets hungry. Morpeko does not evolve.",
+        "tagline": "Gets hangry the moment it stops snacking",
+        "sources": [
+          {
+            "title": "Bulbapedia: Morpeko (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Morpeko_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "877",
+          "name": "Morpeko",
+          "generation": 8,
+          "types": [
+            "electric",
+            "dark"
+          ],
+          "pictures": {
+            "official": "a638baf8a3c8c90217f804b956b30504",
+            "home": "6ab124002f1ca44015ff9a821d1864e1"
+          }
+        },
+        {
+          "id": "877:hangry",
+          "name": "Hangry Mode Morpeko",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "electric",
+            "dark"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Morpeko (Kohldampf)",
+            "en": "Hangry Mode Morpeko",
+            "fr": "Morpeko Affamé"
+          },
+          "pictures": {
+            "official": "1ed101efdcfead99caceef66aec67bbb",
+            "home": "65f1832632481a8c2b489162098cf05d"
+          },
+          "description": {
+            "fun": "Hunger has thrown its hormones off, and the electricity in its cheeks has turned to dark energy. Its body turns purple, its eyes turn red and its mouth sets in a snarl, and it gets up to all manner of evil deeds, still running riot after its energy is spent, until its hunger is satisfied.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Morpeko (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Morpeko_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 877,
+        "form": "877"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 877,
+        "form": "877:hangry"
+      },
+      "change": "form_change"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "patrat",
+  "species": [
+    {
+      "dex": 504,
+      "name": "Patrat",
+      "generation": 5,
+      "category": "Scout Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "patrat"
+      },
+      "names": {
+        "de": "Nagelotz",
+        "en": "Patrat",
+        "es": "Patrat",
+        "fr": "Ratentif",
+        "it": "Patrat",
+        "ja": "ミネズミ",
+        "ko": "보르쥐",
+        "ja-Hrkt": "ミネズミ",
+        "zh-Hans": "探探鼠",
+        "zh-Hant": "探探鼠"
+      },
+      "description": {
+        "fun": "Patrat are so cautious that they take turns keeping watch over their nest, living for days on food stored in their cheek pouches, and they feel uneasy without a lookout. There's one flaw: a lookout won't notice a foe sneaking up from behind. Its tail shoots up when it spots danger. Fittingly, 'pátrat' is Czech for 'to search' or 'to scout'.",
+        "guide": "Patrat is a Normal-type rodent Pokémon resembling a chipmunk or prairie dog. It is extremely cautious, taking turns keeping watch over its nest and signalling with its tail. It evolves into Watchog.",
+        "tagline": "A nervous lookout that never checks behind itself.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Patrat (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Patrat_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "504",
+          "name": "Patrat",
+          "generation": 5,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "cbaca559902277aa0e2d4f31e79a08f2",
+            "home": "709da9d0d34c29b49155aacc69a1642b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 505,
+              "form": "505"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 505,
+      "name": "Watchog",
+      "generation": 5,
+      "category": "Lookout Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "patrat"
+      },
+      "names": {
+        "de": "Kukmarda",
+        "en": "Watchog",
+        "es": "Watchog",
+        "fr": "Miradar",
+        "it": "Watchog",
+        "ja": "ミルホッグ",
+        "ko": "보르그",
+        "ja-Hrkt": "ミルホッグ",
+        "zh-Hans": "步哨鼠",
+        "zh-Hant": "步哨鼠"
+      },
+      "description": {
+        "fun": "Watchog makes the stripes on its body and its eyes glow with luminescent matter, stunning attackers and scaring off predators. Its keen eyes see in the dark, and when it spots an enemy, its tail stands straight up and it spits berry seeds stored in its cheeks. With its striped suit and glowing 'safety vest', it may be modelled on a road worker or traffic guard.",
+        "guide": "Watchog is the evolved form of Patrat, a Normal-type Pokémon resembling a meerkat or groundhog. It makes its stripes and eyes glow to intimidate predators, sees well in the dark and spits seeds at enemies.",
+        "tagline": "A glow-in-the-dark lookout in a safety-vest pattern.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Watchog (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Watchog_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "505",
+          "name": "Watchog",
+          "generation": 5,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "cf75bdc2cc5299a2e40cfe434bd93c76",
+            "home": "64b49048341ae12bdd1dbe6f0d38156b"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 504,
+        "form": "504"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 505,
+        "form": "505"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    }
+  ]
+}

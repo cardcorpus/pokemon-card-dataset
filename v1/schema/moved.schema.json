@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus moved addresses",
+  "description": "Every address that was published and no longer resolves, and what became of it: merged into another, moved to another, split into several (every successor, none picked), or removed. An id never changes once published and a retired address is never given to anything else, so a consumer only needs this file when a stored pointer stops resolving. Each successor is the current address, any chain already followed (docs/static-api.md, \"Ids\").",
+  "type": "object",
+  "required": [
+    "moved"
+  ],
+  "properties": {
+    "moved": {
+      "description": "Every retired address, with what became of it.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from"
+        ],
+        "properties": {
+          "from": {
+            "description": "The retired address.",
+            "type": "object",
+            "x-cc": {
+              "ref": [
+                "set",
+                "card",
+                "product",
+                "variant",
+                "product-variant",
+                "painting"
+              ]
+            },
+            "required": [
+              "$kind",
+              "set"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "enum": [
+                  "set",
+                  "card",
+                  "product",
+                  "variant",
+                  "product-variant",
+                  "painting"
+                ]
+              },
+              "set": {
+                "description": "The set's id (sets.json).",
+                "type": "string"
+              },
+              "card": {
+                "description": "The card's id, unique in its set.",
+                "type": "string"
+              },
+              "product": {
+                "description": "The sealed product's id, unique in its set.",
+                "type": "string"
+              },
+              "variant": {
+                "description": "The copy's id, unique among its card's (or product's) variants.",
+                "type": "string"
+              },
+              "painting": {
+                "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                "type": "string"
+              }
+            }
+          },
+          "merged": {
+            "description": "The address it was merged into.",
+            "type": "object",
+            "x-cc": {
+              "ref": [
+                "set",
+                "card",
+                "product",
+                "variant",
+                "product-variant",
+                "painting"
+              ]
+            },
+            "required": [
+              "$kind",
+              "set"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "enum": [
+                  "set",
+                  "card",
+                  "product",
+                  "variant",
+                  "product-variant",
+                  "painting"
+                ]
+              },
+              "set": {
+                "description": "The set's id (sets.json).",
+                "type": "string"
+              },
+              "card": {
+                "description": "The card's id, unique in its set.",
+                "type": "string"
+              },
+              "product": {
+                "description": "The sealed product's id, unique in its set.",
+                "type": "string"
+              },
+              "variant": {
+                "description": "The copy's id, unique among its card's (or product's) variants.",
+                "type": "string"
+              },
+              "painting": {
+                "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                "type": "string"
+              }
+            }
+          },
+          "moved": {
+            "description": "The address it moved to.",
+            "type": "object",
+            "x-cc": {
+              "ref": [
+                "set",
+                "card",
+                "product",
+                "variant",
+                "product-variant",
+                "painting"
+              ]
+            },
+            "required": [
+              "$kind",
+              "set"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "enum": [
+                  "set",
+                  "card",
+                  "product",
+                  "variant",
+                  "product-variant",
+                  "painting"
+                ]
+              },
+              "set": {
+                "description": "The set's id (sets.json).",
+                "type": "string"
+              },
+              "card": {
+                "description": "The card's id, unique in its set.",
+                "type": "string"
+              },
+              "product": {
+                "description": "The sealed product's id, unique in its set.",
+                "type": "string"
+              },
+              "variant": {
+                "description": "The copy's id, unique among its card's (or product's) variants.",
+                "type": "string"
+              },
+              "painting": {
+                "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                "type": "string"
+              }
+            }
+          },
+          "split": {
+            "description": "Every address it was split into; none is picked.",
+            "type": "array",
+            "items": {
+              "description": "A successor.",
+              "type": "object",
+              "x-cc": {
+                "ref": [
+                  "set",
+                  "card",
+                  "product",
+                  "variant",
+                  "product-variant",
+                  "painting"
+                ]
+              },
+              "required": [
+                "$kind",
+                "set"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "enum": [
+                    "set",
+                    "card",
+                    "product",
+                    "variant",
+                    "product-variant",
+                    "painting"
+                  ]
+                },
+                "set": {
+                  "description": "The set's id (sets.json).",
+                  "type": "string"
+                },
+                "card": {
+                  "description": "The card's id, unique in its set.",
+                  "type": "string"
+                },
+                "product": {
+                  "description": "The sealed product's id, unique in its set.",
+                  "type": "string"
+                },
+                "variant": {
+                  "description": "The copy's id, unique among its card's (or product's) variants.",
+                  "type": "string"
+                },
+                "painting": {
+                  "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                  "type": "string"
+                }
+              }
+            },
+            "minItems": 2
+          },
+          "removed": {
+            "description": "Present where it was removed with no successor.",
+            "const": true
+          }
+        },
+        "oneOf": [
+          {
+            "required": [
+              "merged"
+            ]
+          },
+          {
+            "required": [
+              "moved"
+            ]
+          },
+          {
+            "required": [
+              "split"
+            ]
+          },
+          {
+            "required": [
+              "removed"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

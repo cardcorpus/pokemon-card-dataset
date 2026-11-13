@@ -1,0 +1,99 @@
+{
+  "id": "diancie",
+  "species": [
+    {
+      "dex": 719,
+      "name": "Diancie",
+      "generation": 6,
+      "category": "Jewel Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "diancie"
+      },
+      "names": {
+        "de": "Diancie",
+        "en": "Diancie",
+        "es": "Diancie",
+        "fr": "Diancie",
+        "it": "Diancie",
+        "ja": "ディアンシー",
+        "ko": "디안시",
+        "ja-Hrkt": "ディアンシー",
+        "zh-Hans": "蒂安希",
+        "zh-Hant": "蒂安希"
+      },
+      "description": {
+        "fun": "Diancie is a Carbink that mutated, for reasons nobody understands, into a jewelled princess: it squeezes carbon out of the air between its hands to make diamonds in an instant. It's said to be one of the most beautiful Pokémon in the world, and legends call it a guardian that protects those it travels with. Packs of Carbink gather around it, though it pays them little attention.",
+        "guide": "Diancie is a Rock- and Fairy-type Mythical Pokémon from Kalos, a rare mutation of Carbink. It creates diamonds by compressing carbon from the air and is said to live in a jewelled kingdom with Carbink. It can Mega Evolve into Mega Diancie, introduced in Omega Ruby and Alpha Sapphire.",
+        "tagline": "A diamond princess born from a Carbink's mutation",
+        "sources": [
+          {
+            "title": "Bulbapedia: Diancie (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "719",
+          "name": "Diancie",
+          "generation": 6,
+          "types": [
+            "rock",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "d3cdaf753360a5643301b56576a15875",
+            "home": "51ac072dff24947ce85e8e76ee47497f"
+          }
+        },
+        {
+          "id": "719:mega",
+          "name": "Mega Diancie",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "rock",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Diancie",
+            "en": "Mega Diancie",
+            "fr": "Méga-Diancie"
+          },
+          "pictures": {
+            "official": "f9f8b57ced75373d71bd69150a4af5af",
+            "home": "1d2c7a4712f0a468b9af05503e15393d"
+          },
+          "description": {
+            "fun": "Introduced in Omega Ruby and Alpha Sapphire, Mega Diancie sheds every impurity and shines too brightly to look at, earning it the name 'Royal Pink Princess'. The heart-shaped diamond on its forehead weighs 2,000 carats, and it can forge a sword from its own diamonds.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Diancie (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 719,
+        "form": "719"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 719,
+        "form": "719:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

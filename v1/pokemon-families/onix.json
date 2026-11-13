@@ -1,0 +1,180 @@
+{
+  "id": "onix",
+  "species": [
+    {
+      "dex": 95,
+      "name": "Onix",
+      "generation": 1,
+      "category": "Rock Snake Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "onix"
+      },
+      "names": {
+        "de": "Onix",
+        "en": "Onix",
+        "es": "Onix",
+        "fr": "Onix",
+        "it": "Onix",
+        "ja": "イワーク",
+        "ko": "롱스톤",
+        "ja-Hrkt": "イワーク",
+        "zh-Hans": "大岩蛇",
+        "zh-Hant": "大岩蛇"
+      },
+      "description": {
+        "fun": "Onix is a giant chain of boulders, the tallest Rock Pokémon, that tunnels at over 80 km/h with a roar that echoes a long way, absorbing hard objects into its body as it goes to make itself tougher. A magnet in its brain works like a compass so it never gets lost underground. Diglett move into the tunnels it leaves behind.",
+        "guide": "A huge, snake-like Rock and Ground Pokémon made of a chain of boulders, the tallest Rock-type Pokémon. It burrows through the ground at high speed, eating boulders and absorbing hard objects into its body. It evolves into Steelix when traded holding a Metal Coat.",
+        "tagline": "A rocky serpent with a compass in its head",
+        "sources": [
+          {
+            "title": "Bulbapedia: Onix (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "95",
+          "name": "Onix",
+          "generation": 1,
+          "types": [
+            "rock",
+            "ground"
+          ],
+          "pictures": {
+            "official": "6480ec569483f470ae092debb8a4b606",
+            "home": "d6b098ea20d144aed26aab2d160b5693"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 208,
+              "form": "208"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 208,
+      "name": "Steelix",
+      "generation": 2,
+      "category": "Iron Snake Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "onix"
+      },
+      "names": {
+        "de": "Stahlos",
+        "en": "Steelix",
+        "es": "Steelix",
+        "fr": "Steelix",
+        "it": "Steelix",
+        "ja": "ハガネール",
+        "ko": "강철톤",
+        "ja-Hrkt": "ハガネール",
+        "zh-Hans": "大钢蛇",
+        "zh-Hant": "大鋼蛇"
+      },
+      "description": {
+        "fun": "Steelix burrows deeper than Onix ever could, with records of it reaching more than a kilometre underground as it digs towards the Earth's core. The heat and pressure down there, plus a diet of iron-rich soil, have made its body harder than diamond. Its jaws chew easily through boulders, and its eyes can see in the dark.",
+        "guide": "The evolution of Onix, introduced in Generation 2, a huge, serpent-like Steel and Ground Pokémon whose body has been hardened by underground heat and pressure. It burrows deep underground and chews through boulders. It can Mega Evolve into Mega Steelix.",
+        "tagline": "An iron serpent that digs towards the Earth's core",
+        "sources": [
+          {
+            "title": "Bulbapedia: Steelix (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "208",
+          "name": "Steelix",
+          "generation": 2,
+          "types": [
+            "steel",
+            "ground"
+          ],
+          "pictures": {
+            "official": "638e80fcbe25c7b2e0d31ae3a6b8c034",
+            "home": "c709e400f5b1ec9a3285c89273512afb"
+          }
+        },
+        {
+          "id": "208:mega",
+          "name": "Mega Steelix",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "steel",
+            "ground"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Stahlos",
+            "en": "Mega Steelix",
+            "fr": "Méga-Steelix"
+          },
+          "pictures": {
+            "official": "f7e7731ebdb2903f1c2b3f250c587181",
+            "home": "ae61c4f4a3b174c17bfbcb33c6c8fed9"
+          },
+          "description": {
+            "fun": "Its body grows longer and nearly doubles in weight, its spikes turn to glittering crystal, and its cells crystallise until they're stronger than any mineral. It moves very slowly but shrugs off damage, steering flakes of its shell with magnetism to shield itself.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Steelix (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 95,
+        "form": "95"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 208,
+        "form": "208"
+      },
+      "change": "evolves",
+      "how": "Trade holding Metal Coat",
+      "note": {
+        "text": "In the games it takes a trade while holding a Metal Coat, but the Pokédex tells it differently: an Onix that lives for about 100 years turns diamond-like and becomes Steelix.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Onix (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Steelix (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 208,
+        "form": "208"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 208,
+        "form": "208:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

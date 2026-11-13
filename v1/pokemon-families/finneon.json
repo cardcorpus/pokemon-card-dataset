@@ -1,0 +1,122 @@
+{
+  "id": "finneon",
+  "species": [
+    {
+      "dex": 456,
+      "name": "Finneon",
+      "generation": 4,
+      "category": "Wing Fish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "finneon"
+      },
+      "names": {
+        "de": "Finneon",
+        "en": "Finneon",
+        "es": "Finneon",
+        "fr": "Écayon",
+        "it": "Finneon",
+        "ja": "ケイコウオ",
+        "ko": "형광어",
+        "ja-Hrkt": "ケイコウオ",
+        "zh-Hans": "荧光鱼",
+        "zh-Hant": "螢光魚"
+      },
+      "description": {
+        "fun": "With its butterfly-shaped tail fins, Finneon is known as the 'Beautifly of the Sea'. The pink stripes on its fins store sunlight and glow at night, as a lure and as camouflage. Some resorts feed Finneon so divers can see them. It also leaps out of the water like a flying fish, which sometimes ends with a Wingull snatching it.",
+        "guide": "Finneon is a Water-type fish Pokémon with butterfly-like tail fins. Its pink markings store sunlight and shine at night, and it is popular with divers. It evolves into Lumineon.",
+        "tagline": "The 'Beautifly of the Sea', with glowing pink fins.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Finneon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Finneon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "456",
+          "name": "Finneon",
+          "generation": 4,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "fc5411cb66e0ff68ae2d37204b3cbea1",
+            "home": "7f5ab5b237be78e724f1682b5114608d"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 457,
+              "form": "457"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 457,
+      "name": "Lumineon",
+      "generation": 4,
+      "category": "Neon Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "finneon"
+      },
+      "names": {
+        "de": "Lumineon",
+        "en": "Lumineon",
+        "es": "Lumineon",
+        "fr": "Luminéon",
+        "it": "Lumineon",
+        "ja": "ネオラント",
+        "ko": "네오라이트",
+        "ja-Hrkt": "ネオラント",
+        "zh-Hans": "霓虹鱼",
+        "zh-Hant": "霓虹魚"
+      },
+      "description": {
+        "fun": "Lumineon lives on the deep seafloor and crawls along the bottom on its chest fins so predators can't see it from above. To hunt, it flashes the glowing patterns on its fins to lure prey, though the light also draws fierce fish Pokémon. A school of Lumineon swimming at night is said to look like stars in the night sky.",
+        "guide": "Lumineon is the evolved form of Finneon, a Water-type fish living on the deep-sea floor. It crawls along the bottom with its chest fins and attracts prey by flashing the glowing patterns on its fins, competing with Lanturn for food.",
+        "tagline": "A deep-sea fish whose fins shine like stars.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lumineon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lumineon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "457",
+          "name": "Lumineon",
+          "generation": 4,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "933b147c75ee1ac57f9a59e06ed436a7",
+            "home": "9cee2e2248aa13dbc2e4bfd76cc3df89"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 456,
+        "form": "456"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 457,
+        "form": "457"
+      },
+      "change": "evolves",
+      "how": "Level 31"
+    }
+  ]
+}

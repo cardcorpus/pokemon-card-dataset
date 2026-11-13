@@ -1,0 +1,165 @@
+{
+  "id": "staryu",
+  "species": [
+    {
+      "dex": 120,
+      "name": "Staryu",
+      "generation": 1,
+      "category": "Star Shape Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "staryu"
+      },
+      "names": {
+        "de": "Sterndu",
+        "en": "Staryu",
+        "es": "Staryu",
+        "fr": "Stari",
+        "it": "Staryu",
+        "ja": "ヒトデマン",
+        "ko": "별가사리",
+        "ja-Hrkt": "ヒトデマン",
+        "zh-Hans": "海星星",
+        "zh-Hant": "海星星"
+      },
+      "description": {
+        "fun": "Staryu can lose an arm to a predator and simply grow it back, as long as its red core is intact. When the sun goes down its core glows brightest, and groups of Staryu float up from the seabed to line themselves up with the stars, their cores flickering. Near the end of summer, crowds of them gather and light up in a steady rhythm.",
+        "guide": "A golden-brown, starfish-like Water Pokémon with a glowing red core in its centre. It can regrow lost limbs as long as the core is intact, and moves using psychic power. It evolves into Starmie with a Water Stone.",
+        "tagline": "A starfish that lines up with the night sky",
+        "sources": [
+          {
+            "title": "Bulbapedia: Staryu (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "120",
+          "name": "Staryu",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "504bd3d259ef3e96be3e2314334c0548",
+            "home": "b0e2ca17c59312a787f9ad0eddd924bf"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 121,
+              "form": "121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 121,
+      "name": "Starmie",
+      "generation": 1,
+      "category": "Mysterious Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "staryu"
+      },
+      "names": {
+        "de": "Starmie",
+        "en": "Starmie",
+        "es": "Starmie",
+        "fr": "Staross",
+        "it": "Starmie",
+        "ja": "スターミー",
+        "ko": "아쿠스타",
+        "ja-Hrkt": "スターミー",
+        "zh-Hans": "宝石海星",
+        "zh-Hant": "寶石海星"
+      },
+      "description": {
+        "fun": "Starmie's jewel-like core glows in seven colours, which it may use to talk to other Starmie, and it sends out electrical waves said to reach the far corners of the universe. Signals beamed at the sky, plus that unearthly shape, have some people convinced it came from outer space. It swims by spinning its back star like a propeller, and getting too close can give you a headache.",
+        "guide": "The evolution of Staryu with a Water Stone, a purple, double-starfish Water and Psychic Pokémon with a jewel-like core that glows in seven colours. It swims by spinning its body and sends out signals some believe reach space. It can Mega Evolve into Mega Starmie.",
+        "tagline": "A spinning starfish that signals to the stars",
+        "sources": [
+          {
+            "title": "Bulbapedia: Starmie (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "121",
+          "name": "Starmie",
+          "generation": 1,
+          "types": [
+            "water",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "74be795c581ed93d5073a50b74af7b2b",
+            "home": "d5b6726e2830263bb4a2a96532dbb827"
+          }
+        },
+        {
+          "id": "121:mega",
+          "name": "Mega Starmie",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "water",
+            "psychic"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Starmie",
+            "fr": "Méga-Staross"
+          },
+          "pictures": {
+            "official": "209c7e55e798ce4ff9eb81a491c11909",
+            "home": "44ba78dd319f0047d0b51a94465024fd"
+          },
+          "description": {
+            "fun": "Mega Starmie stretches into a strangely human shape that can bend its knees and elbows, walk and even sprint. Nobody knows whether it's imitating humans to communicate with them or to replace them, and it can survive the harsh conditions of outer space unaided.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Starmie (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 120,
+        "form": "120"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 121,
+        "form": "121"
+      },
+      "change": "evolves",
+      "how": "Water Stone"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 121,
+        "form": "121"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 121,
+        "form": "121:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

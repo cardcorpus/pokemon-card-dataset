@@ -1,0 +1,97 @@
+{
+  "id": "audino",
+  "species": [
+    {
+      "dex": 531,
+      "name": "Audino",
+      "generation": 5,
+      "category": "Hearing Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "audino"
+      },
+      "names": {
+        "de": "Ohrdoch",
+        "en": "Audino",
+        "es": "Audino",
+        "fr": "Nanméouïe",
+        "it": "Audino",
+        "ja": "タブンネ",
+        "ko": "다부니",
+        "ja-Hrkt": "タブンネ",
+        "zh-Hans": "差不多娃娃",
+        "zh-Hant": "差不多娃娃"
+      },
+      "description": {
+        "fun": "Audino was designed as Unova's nurse Pokémon, taking over from Chansey as Nurse Joy's partner in the animated series. The feelers on its ears work like a stethoscope: by listening to heartbeats, it can tell how someone feels, how healthy they are, or when an Egg is about to hatch. Its hearing is so sharp it can catch a pebble rolling over a mile away. Its name puns on 'audio' and 'I dunno'.",
+        "guide": "Audino is a Normal-type Pokémon with superb hearing. The feelers on its ears let it hear heartbeats to judge others' feelings and health, and it is known for its kind heart. It can Mega Evolve into Mega Audino.",
+        "tagline": "A kind-hearted nurse that listens to your heartbeat.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Audino (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Audino_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "531",
+          "name": "Audino",
+          "generation": 5,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "7c10afc6aecfcd3b0798a0bb0a8fe381",
+            "home": "1a6dacd2a84ab8087adca4206197a318"
+          }
+        },
+        {
+          "id": "531:mega",
+          "name": "Mega Audino",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "normal",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Ohrdoch",
+            "en": "Mega Audino",
+            "fr": "Méga-Nanméouïe"
+          },
+          "pictures": {
+            "official": "6d80335e99f7eec109ce8b133b3ba706",
+            "home": "97a72e55bc1c39354b5a1be32164ed27"
+          },
+          "description": {
+            "fun": "Mega Evolution dresses Audino in what looks like a flowing white lab coat and makes it Normal and Fairy type. It sends out pulses that calm hostility, and anyone who touches the new feelers below its throat falls into a deep sleep.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Audino (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Audino_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 531,
+        "form": "531"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 531,
+        "form": "531:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

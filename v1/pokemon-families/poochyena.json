@@ -1,0 +1,122 @@
+{
+  "id": "poochyena",
+  "species": [
+    {
+      "dex": 261,
+      "name": "Poochyena",
+      "generation": 3,
+      "category": "Bite Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "poochyena"
+      },
+      "names": {
+        "de": "Fiffyen",
+        "en": "Poochyena",
+        "es": "Poochyena",
+        "fr": "Medhyèna",
+        "it": "Poochyena",
+        "ja": "ポチエナ",
+        "ko": "포챠나",
+        "ja-Hrkt": "ポチエナ",
+        "zh-Hans": "土狼犬",
+        "zh-Hant": "土狼犬"
+      },
+      "description": {
+        "fun": "Poochyena bites at anything that moves, bristling its tail and barking hard to look tough, but the barking hides a cowardly streak: if prey fights back, it may turn tail. With its pack it tracks prey by scent and chases it until the victim tires out. Its name blends pooch with hyena, and its Japanese name uses Pochi, a classic name for a pet dog in Japan.",
+        "guide": "A Dark-type Pokémon resembling a small hyena, with a keen sense of smell. It hunts in packs and bites at anything that moves, though it tends to back off if prey fights back. It evolves into Mightyena at level 18.",
+        "tagline": "A loud little hyena pup whose bark is worse than its bite",
+        "sources": [
+          {
+            "title": "Bulbapedia: Poochyena (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Poochyena_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "261",
+          "name": "Poochyena",
+          "generation": 3,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "29c7e16dc46f0d7f539cfe61b10a81c5",
+            "home": "e75519e2893f01bfea82d2eec2c4ccf4"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 262,
+              "form": "262"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 262,
+      "name": "Mightyena",
+      "generation": 3,
+      "category": "Bite Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "poochyena"
+      },
+      "names": {
+        "de": "Magnayen",
+        "en": "Mightyena",
+        "es": "Mightyena",
+        "fr": "Grahyèna",
+        "it": "Mightyena",
+        "ja": "グラエナ",
+        "ko": "그라에나",
+        "ja-Hrkt": "グラエナ",
+        "zh-Hans": "大狼犬",
+        "zh-Hant": "大狼犬"
+      },
+      "description": {
+        "fun": "Mightyena lives in packs of about ten under a strict hierarchy, chasing prey with perfectly coordinated teamwork and howling in unison to pass messages over long distances. Once it targets prey, it never lets it escape. That pack instinct means it only obeys the most experienced Trainers, though it does give fair warning before an attack, growling deeply and flattening itself low.",
+        "guide": "A Dark-type Pokémon resembling a cross between a wolf and a hyena, the evolution of Poochyena. It lives in packs with a strict hierarchy and hunts with coordinated teamwork. It obeys only experienced Trainers.",
+        "tagline": "A wolfish pack hunter that obeys only seasoned Trainers",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mightyena (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mightyena_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "262",
+          "name": "Mightyena",
+          "generation": 3,
+          "types": [
+            "dark"
+          ],
+          "pictures": {
+            "official": "2e0ba4fb69f73cb8e12e849b2ab29159",
+            "home": "9cda71c9d65b69d285d937b19f026691"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 261,
+        "form": "261"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 262,
+        "form": "262"
+      },
+      "change": "evolves",
+      "how": "Level 18"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "archen",
+  "species": [
+    {
+      "dex": 566,
+      "name": "Archen",
+      "generation": 5,
+      "category": "First Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "archen"
+      },
+      "names": {
+        "de": "Flapteryx",
+        "en": "Archen",
+        "es": "Archen",
+        "fr": "Arkéapti",
+        "it": "Archen",
+        "ja": "アーケン",
+        "ko": "아켄",
+        "ja-Hrkt": "アーケン",
+        "zh-Hans": "始祖小鸟",
+        "zh-Hant": "始祖小鳥"
+      },
+      "description": {
+        "fun": "Archen was long thought to be the ancestor of all bird Pokémon, though the latest research suggests that may not be so. Revived from the Plume Fossil, it can't fly: it lived in the treetops, hopping from branch to branch and gliding down to snatch prey, eating berries and Bug-type Pokémon. It's very good at jumping, though. It's based on Archaeopteryx, once thought to be the very first bird.",
+        "guide": "Archen is a Rock- and Flying-type Fossil Pokémon revived from the Plume Fossil and based on Archaeopteryx. It cannot fly but hops between treetops and glides down to catch prey. It evolves into Archeops.",
+        "tagline": "A flightless first bird that hops and glides through the trees.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Archen (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Archen_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "566",
+          "name": "Archen",
+          "generation": 5,
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "pictures": {
+            "official": "78951a30ca3942bc7fb1cc439b547957",
+            "home": "5244e77ce1ca83b5a4a0c178ed4237e5"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 567,
+              "form": "567"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 567,
+      "name": "Archeops",
+      "generation": 5,
+      "category": "First Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "archen"
+      },
+      "names": {
+        "de": "Aeropteryx",
+        "en": "Archeops",
+        "es": "Archeops",
+        "fr": "Aéroptéryx",
+        "it": "Archeops",
+        "ja": "アーケオス",
+        "ko": "아케오스",
+        "ja-Hrkt": "アーケオス",
+        "zh-Hans": "始祖大鸟",
+        "zh-Hant": "始祖大鳥"
+      },
+      "description": {
+        "fun": "Archeops can fly, but its wing muscles are weak, so it needs a long runway: it sprints at nearly 40 km/h over about 4 km before it can take off. It's better on the ground anyway, running as fast as a car and hunting in clever flocks where one corners the prey and another swoops in. Its plumage is so delicate that only an experienced professional can restore it from a fossil.",
+        "guide": "Archeops is the evolved form of Archen, a Rock- and Flying-type Fossil Pokémon. It can fly but needs a long running start, and it hunts more effectively on the ground, working in groups to catch prey.",
+        "tagline": "An ancient bird that needs a 4 km runway to take off.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Archeops (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Archeops_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "567",
+          "name": "Archeops",
+          "generation": 5,
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "pictures": {
+            "official": "d57eefc198eda08753ca46bbc4b7b0c5",
+            "home": "481b880492267335cfed8a25e7709d15"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 566,
+        "form": "566"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 567,
+        "form": "567"
+      },
+      "change": "evolves",
+      "how": "Level 37"
+    }
+  ]
+}

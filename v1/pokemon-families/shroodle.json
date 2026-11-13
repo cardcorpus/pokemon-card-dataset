@@ -1,0 +1,124 @@
+{
+  "id": "shroodle",
+  "species": [
+    {
+      "dex": 944,
+      "name": "Shroodle",
+      "generation": 9,
+      "category": "Toxic Mouse Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shroodle"
+      },
+      "names": {
+        "de": "Sproxi",
+        "en": "Shroodle",
+        "es": "Shroodle",
+        "fr": "Gribouraigne",
+        "it": "Shroodle",
+        "ja": "シルシュルー",
+        "ko": "땃쭈르",
+        "ja-Hrkt": "シルシュルー",
+        "zh-Hans": "滋汁鼹",
+        "zh-Hant": "滋汁鼴"
+      },
+      "description": {
+        "fun": "A tiny shrew that's usually mellow, but anger it and it sinks its oversized, poison-soaked front teeth in, paralysing whatever bit it. It marks out its territory by painting acrid-smelling poison around its nest to keep enemies away. Its shape and its graffiti-artist evolution may pay homage to the famous 'Kilroy was here' doodle.",
+        "guide": "A Poison and Normal-type shrew Pokémon from Pokémon Scarlet and Violet. Shroodle marks its territory with poisonous liquid and bites with venomous teeth. It evolves into Grafaiai.",
+        "tagline": "A mellow shrew with a paralysing bite",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shroodle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shroodle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "944",
+          "name": "Shroodle",
+          "generation": 9,
+          "types": [
+            "poison",
+            "normal"
+          ],
+          "pictures": {
+            "official": "481dd03223878c7a800ae22c889e7999",
+            "home": "ec173c451f2329f77448b5cbc1fa904e"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 945,
+              "form": "945"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 945,
+      "name": "Grafaiai",
+      "generation": 9,
+      "category": "Toxic Monkey Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shroodle"
+      },
+      "names": {
+        "de": "Affiti",
+        "en": "Grafaiai",
+        "es": "Grafaiai",
+        "fr": "Tag-Tag",
+        "it": "Grafaiai",
+        "ja": "タギングル",
+        "ko": "태깅구르",
+        "ja-Hrkt": "タギングル",
+        "zh-Hans": "涂标客",
+        "zh-Hant": "塗標客"
+      },
+      "description": {
+        "fun": "A moody graffiti artist. At night, Grafaiai licks its fingers and paints patterns on trees with its poisonous saliva, whose colour depends on what it's been eating. The paint marks its territory and lures in Bug Pokémon, which stick fast until it collects them at dawn. Each Grafaiai has its own signature pattern that it paints over and over all its life.",
+        "guide": "The evolution of Shroodle, a Poison and Normal-type Pokémon based on the aye-aye and the slow loris. It paints signature patterns on trees with colourful, poisonous saliva, like graffiti.",
+        "tagline": "A monkey that tags trees with poison paint",
+        "sources": [
+          {
+            "title": "Bulbapedia: Grafaiai (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Grafaiai_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "945",
+          "name": "Grafaiai",
+          "generation": 9,
+          "types": [
+            "poison",
+            "normal"
+          ],
+          "pictures": {
+            "official": "c31cbfeb42ee9023733b813b12c3b11a",
+            "home": "b995233229b4c00701e16815cfc97dc5"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 944,
+        "form": "944"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 945,
+        "form": "945"
+      },
+      "change": "evolves",
+      "how": "Level 28"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "paras",
+  "species": [
+    {
+      "dex": 46,
+      "name": "Paras",
+      "generation": 1,
+      "category": "Mushroom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "paras"
+      },
+      "names": {
+        "de": "Paras",
+        "en": "Paras",
+        "es": "Paras",
+        "fr": "Paras",
+        "it": "Paras",
+        "ja": "パラス",
+        "ko": "파라스",
+        "ja-Hrkt": "パラス",
+        "zh-Hans": "派拉斯",
+        "zh-Hant": "派拉斯"
+      },
+      "description": {
+        "fun": "The mushrooms on Paras's back are tochukaso, parasitic fungi that sprout from spores the mushroom on its mother's back sprinkles on it at birth. They feed on Paras as they grow and even boss it around, sending it to drain nutrients from tree roots. Collectors prize the mushrooms, which are used in medicines said to extend life.",
+        "guide": "A small, orange Bug and Grass Pokémon resembling a cicada nymph, with two parasitic tochukaso mushrooms growing on its back. The mushrooms draw nutrients from Paras and influence its behaviour. It lives in caves and damp forests and evolves into Parasect.",
+        "tagline": "A bug with mushrooms on its back, and the mushrooms are in charge",
+        "sources": [
+          {
+            "title": "Bulbapedia: Paras (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "46",
+          "name": "Paras",
+          "generation": 1,
+          "types": [
+            "bug",
+            "grass"
+          ],
+          "pictures": {
+            "official": "ead6ca9ef385b440abbda4aad421cffe",
+            "home": "00b631dff5a2119bfb59836b728a1d5e"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 47,
+              "form": "47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 47,
+      "name": "Parasect",
+      "generation": 1,
+      "category": "Mushroom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "paras"
+      },
+      "names": {
+        "de": "Parasek",
+        "en": "Parasect",
+        "es": "Parasect",
+        "fr": "Parasect",
+        "it": "Parasect",
+        "ja": "パラセクト",
+        "ko": "파라섹트",
+        "ja-Hrkt": "パラセクト",
+        "zh-Hans": "派拉斯特",
+        "zh-Hant": "派拉斯特"
+      },
+      "description": {
+        "fun": "By the time Paras evolves, the mushroom has won: Parasect is an insect drained of nutrients and fully controlled by the giant tochukaso on its back, and if the mushroom is removed, the bug stops moving. Swarms infest trees, drain them until they die, then move on to the next one. One old Pokédex entry even says its spores are used as medicine in China.",
+        "guide": "The evolution of Paras, a Bug and Grass Pokémon whose body has been taken over by the large parasitic mushroom on its back. It lives in dark, damp forests, where swarms drain trees of nutrients. The mushroom, not the insect, is in control.",
+        "tagline": "A mushroom wearing a bug, not the other way round",
+        "sources": [
+          {
+            "title": "Bulbapedia: Parasect (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "47",
+          "name": "Parasect",
+          "generation": 1,
+          "types": [
+            "bug",
+            "grass"
+          ],
+          "pictures": {
+            "official": "d4355204101b2ee1f8dee2697922b0a4",
+            "home": "4553cc799a11c8c988dddff0c2311c9a"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 46,
+        "form": "46"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 47,
+        "form": "47"
+      },
+      "change": "evolves",
+      "how": "Level 24"
+    }
+  ]
+}

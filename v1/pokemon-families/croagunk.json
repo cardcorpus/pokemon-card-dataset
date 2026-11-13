@@ -1,0 +1,124 @@
+{
+  "id": "croagunk",
+  "species": [
+    {
+      "dex": 453,
+      "name": "Croagunk",
+      "generation": 4,
+      "category": "Toxic Mouth Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "croagunk"
+      },
+      "names": {
+        "de": "Glibunkel",
+        "en": "Croagunk",
+        "es": "Croagunk",
+        "fr": "Cradopaud",
+        "it": "Croagunk",
+        "ja": "グレッグル",
+        "ko": "삐딱구리",
+        "ja-Hrkt": "グレッグル",
+        "zh-Hans": "不良蛙",
+        "zh-Hant": "不良蛙"
+      },
+      "description": {
+        "fun": "Croagunk puffs up the poison sacs in its cheeks to make an eerie blubbering sound, then jabs startled foes with its toxic fingers. It rarely fights fair, but only to survive. Diluted, the poison from its fingers is used to treat lower back pain, so it's a fitting mascot for a pharmaceutical company. It sometimes even startles itself awake with its own cheek noises.",
+        "guide": "Croagunk is a Poison- and Fighting-type frog Pokémon based on a poison dart frog. It inflates poison sacs in its cheeks to make an intimidating sound before jabbing foes with toxic fingers. It evolves into Toxicroak.",
+        "tagline": "A shifty frog with poison fingers and a comic croak.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Croagunk (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Croagunk_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "453",
+          "name": "Croagunk",
+          "generation": 4,
+          "types": [
+            "poison",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "2579f250a2ab69b430790834f31737cb",
+            "home": "3a95548e4c833df083a41a227981c290"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 454,
+              "form": "454"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 454,
+      "name": "Toxicroak",
+      "generation": 4,
+      "category": "Toxic Mouth Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "croagunk"
+      },
+      "names": {
+        "de": "Toxiquak",
+        "en": "Toxicroak",
+        "es": "Toxicroak",
+        "fr": "Coatox",
+        "it": "Toxicroak",
+        "ja": "ドクロッグ",
+        "ko": "독개굴",
+        "ja-Hrkt": "ドクロッグ",
+        "zh-Hans": "毒骷蛙",
+        "zh-Hant": "毒骷蛙"
+      },
+      "description": {
+        "fun": "Toxicroak's croak churns the poison in its throat sac, and tubes carry it down its arms to the claws on its knuckles, where one scratch can knock out a foe. It ducks and weaves like a boxer and lets out a victory croak after a win. Diluted, mixed with wild grasses and boiled for two days, its poison is said to make a tonic.",
+        "guide": "Toxicroak is the evolved form of Croagunk, a Poison- and Fighting-type frog. Poison from the sac at its throat is pumped to claws on the backs of its hands, and it fights by dodging attacks and striking with them.",
+        "tagline": "A boxing frog with poison claws on its knuckles.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Toxicroak (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Toxicroak_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "454",
+          "name": "Toxicroak",
+          "generation": 4,
+          "types": [
+            "poison",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "4698b7d0c7f21f4e7ab212f4d9925b80",
+            "home": "0842922d8b454a60a78a3cd6d2186763"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 453,
+        "form": "453"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 454,
+        "form": "454"
+      },
+      "change": "evolves",
+      "how": "Level 37"
+    }
+  ]
+}

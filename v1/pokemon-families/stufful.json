@@ -1,0 +1,124 @@
+{
+  "id": "stufful",
+  "species": [
+    {
+      "dex": 759,
+      "name": "Stufful",
+      "generation": 7,
+      "category": "Flailing Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "stufful"
+      },
+      "names": {
+        "de": "Velursi",
+        "en": "Stufful",
+        "es": "Stufful",
+        "fr": "Nounourson",
+        "it": "Stufful",
+        "ja": "ヌイコグマ",
+        "ko": "포곰곰",
+        "ja-Hrkt": "ヌイコグマ",
+        "zh-Hans": "童偶熊",
+        "zh-Hant": "童偶熊"
+      },
+      "description": {
+        "fun": "Stufful looks like a cuddly teddy bear, right down to a little tag under its tail (really a scent organ for talking to other Stufful), but it hates being hugged. Pick it up and it flails its arms hard enough to snap thick tree trunks, and it can knock out a well-trained Pokémon that's caught off guard. It even flails in its sleep.",
+        "guide": "Stufful is a Normal- and Fighting-type Pokémon from Alola based on a red panda and a stuffed toy. Despite its cute looks it is extremely strong and dislikes being touched. It evolves into Bewear at level 27.",
+        "tagline": "A teddy bear cub that really doesn't want a hug",
+        "sources": [
+          {
+            "title": "Bulbapedia: Stufful (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Stufful_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "759",
+          "name": "Stufful",
+          "generation": 7,
+          "types": [
+            "normal",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "a48346a8202f8a3b07b347b6bfa0d63f",
+            "home": "431318030ed250f7c880c62899ba27c4"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 760,
+              "form": "760"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 760,
+      "name": "Bewear",
+      "generation": 7,
+      "category": "Strong Arm Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "stufful"
+      },
+      "names": {
+        "de": "Kosturso",
+        "en": "Bewear",
+        "es": "Bewear",
+        "fr": "Chelours",
+        "it": "Bewear",
+        "ja": "キテルグマ",
+        "ko": "이븐곰",
+        "ja-Hrkt": "キテルグマ",
+        "zh-Hans": "穿着熊",
+        "zh-Hant": "穿著熊"
+      },
+      "description": {
+        "fun": "Bewear looks like a friendly mascot in a bear costume, but it's considered the most dangerous Pokémon in Alola. When it accepts you as a friend it shows it with a hug strong enough to shatter bones, so Trainers must teach it to hold back, and its friendly arm-waving is really a warning. It learned martial arts by watching Black Belts train in the woods.",
+        "guide": "Bewear is a Normal- and Fighting-type bear Pokémon that evolves from Stufful. It is immensely strong and shows affection with hugs that can be deadly, and it is considered the most dangerous Pokémon in Alola. It is very protective of its young.",
+        "tagline": "A mascot-like bear whose friendly hugs can shatter bones",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bewear (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bewear_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "760",
+          "name": "Bewear",
+          "generation": 7,
+          "types": [
+            "normal",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "6240c0fac3130046d00234628c76651c",
+            "home": "5d4ca018601a5a05ca2243575c3f1f33"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 759,
+        "form": "759"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 760,
+        "form": "760"
+      },
+      "change": "evolves",
+      "how": "Level 27"
+    }
+  ]
+}

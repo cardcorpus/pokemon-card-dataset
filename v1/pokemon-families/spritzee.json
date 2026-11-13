@@ -1,0 +1,122 @@
+{
+  "id": "spritzee",
+  "species": [
+    {
+      "dex": 682,
+      "name": "Spritzee",
+      "generation": 6,
+      "category": "Perfume Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spritzee"
+      },
+      "names": {
+        "de": "Parfi",
+        "en": "Spritzee",
+        "es": "Spritzee",
+        "fr": "Fluvetin",
+        "it": "Spritzee",
+        "ja": "シュシュプ",
+        "ko": "슈쁘",
+        "ja-Hrkt": "シュシュプ",
+        "zh-Hans": "粉香香",
+        "zh-Hant": "粉香香"
+      },
+      "description": {
+        "fun": "Before perfume, there was Spritzee: royal ladies of the past carried one around for its scent, which changes with whatever it has been eating. Its beaky face recalls a plague doctor's mask, which was filled with perfumes, and its fluffy body a powder puff. Its name may come from 'spritz' and 'Fee', German and Dutch for fairy.",
+        "guide": "Spritzee is a Fairy-type bird-like Pokémon from Kalos that gives off a scent shaped by its diet. In the past, noblewomen carried it in place of perfume. It evolves into Aromatisse when traded holding a Sachet.",
+        "tagline": "A living perfume bottle once carried by royalty",
+        "sources": [
+          {
+            "title": "Bulbapedia: Spritzee (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "682",
+          "name": "Spritzee",
+          "generation": 6,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "9a03a6707aa1594b6505b80f797a2829",
+            "home": "9a29b6af523807e1f4000c60feaea5d7"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 683,
+              "form": "683"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 683,
+      "name": "Aromatisse",
+      "generation": 6,
+      "category": "Fragrance Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spritzee"
+      },
+      "names": {
+        "de": "Parfinesse",
+        "en": "Aromatisse",
+        "es": "Aromatisse",
+        "fr": "Cocotine",
+        "it": "Aromatisse",
+        "ja": "フレフワン",
+        "ko": "프레프티르",
+        "ja-Hrkt": "フレフワン",
+        "zh-Hans": "芳香精",
+        "zh-Hant": "芳香精"
+      },
+      "description": {
+        "fun": "Aromatisse can make any smell it likes, from a fragrance that cheers on its allies to a stench so foul that foes lose the will to fight. Its perfume is so strong that its Trainer and companions slowly lose their own sense of smell. With its fluffy skirt and masquerade-mask face, it looks like an aristocrat dressed for a ball.",
+        "guide": "Aromatisse is a Fairy-type Pokémon that evolves from Spritzee when traded holding a Sachet. It can give off scents that range from pleasant to repulsive, using them to support allies or deter foes. Its design suggests a noblewoman at a masquerade ball.",
+        "tagline": "A masked noblewoman who can smell like anything",
+        "sources": [
+          {
+            "title": "Bulbapedia: Aromatisse (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Aromatisse_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "683",
+          "name": "Aromatisse",
+          "generation": 6,
+          "types": [
+            "fairy"
+          ],
+          "pictures": {
+            "official": "f8fd550b82c2bcece36e071dc6a745a6",
+            "home": "c10c810034c42a311528dadc6523c8a8"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 682,
+        "form": "682"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 683,
+        "form": "683"
+      },
+      "change": "evolves",
+      "how": "Trade holding Sachet"
+    }
+  ]
+}

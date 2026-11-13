@@ -1,0 +1,168 @@
+{
+  "id": "magearna",
+  "species": [
+    {
+      "dex": 801,
+      "name": "Magearna",
+      "generation": 7,
+      "category": "Artificial Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "magearna"
+      },
+      "names": {
+        "de": "Magearna",
+        "en": "Magearna",
+        "es": "Magearna",
+        "fr": "Magearna",
+        "it": "Magearna",
+        "ja": "マギアナ",
+        "ko": "마기아나",
+        "ja-Hrkt": "マギアナ",
+        "zh-Hans": "玛机雅娜",
+        "zh-Hant": "瑪機雅娜"
+      },
+      "description": {
+        "fun": "Magearna is a robot built about 500 years ago by a scientist as a gift for a king's daughter, and its metal body is just a vessel: its real self is the Soul-Heart in its chest, an artificial heart made by gathering life energy from other living things. It can understand how people and Pokémon feel, though it can't speak, and when it's sad it curls up into a ball that looks just like a Poké Ball.",
+        "guide": "Magearna is a Steel- and Fairy-type Mythical Pokémon, an artificial Pokémon made about 500 years ago. Its true self is the Soul-Heart, an artificial soul inside its mechanical body. It has an Original Color form, and both forms gained a Mega Evolution in the Mega Dimension DLC for Legends: Z-A.",
+        "tagline": "A 500-year-old robot maid with an artificial heart",
+        "sources": [
+          {
+            "title": "Bulbapedia: Magearna (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "801",
+          "name": "Magearna",
+          "generation": 7,
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "f013aac8fdbbfa1061e8701a846c36b1",
+            "home": "1798c1622476057c31c386c308be1fd4"
+          }
+        },
+        {
+          "id": "801:original",
+          "name": "Original Color Magearna",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "names": {
+            "de": "Magearna",
+            "en": "Original Color Magearna",
+            "fr": "Magearna Couleur du Passé"
+          },
+          "pictures": {
+            "official": "cd65307a98040aa7efc73c5ebac2c1af",
+            "home": "e37681c437184d4d5277993c59dca355"
+          },
+          "description": {
+            "fun": "Magearna's colours when it was first made: gold and red, like a Poké Ball, a luxurious finish that delighted the king's daughter who received it. Over the centuries the paint faded away, leaving the silver Magearna known today.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Magearna (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)"
+              }
+            ]
+          }
+        },
+        {
+          "id": "801:mega",
+          "name": "Mega Magearna",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Magearna",
+            "fr": "Méga-Magearna"
+          },
+          "pictures": {
+            "official": "7d44e47cc1c881adc577f542e8c5d954",
+            "home": "997d7b07bdf7540d79b7269ca4e47904"
+          },
+          "description": {
+            "fun": "Introduced in Legends: Z-A's Mega Dimension DLC, Mega Magearna gets back its original colours, but its Mega Stone also triggers a secret mechanism built in when it was made, removing its limits and locking away its feelings. It becomes a heartless fighting machine that hurls floating gears and fires beams from its flower-shaped cannon.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Magearna (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        },
+        {
+          "id": "801:original-mega",
+          "name": "Mega Original Magearna",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Original Magearna",
+            "fr": "Méga-Magearna Couleur du Passé"
+          },
+          "pictures": {
+            "official": "2d3da94dfc60b81c85bc1134131658db",
+            "home": "58cbacfec2ad77c84d6e050194be1217"
+          },
+          "description": {
+            "fun": "The Mega Evolution of Original Color Magearna keeps its golden rings and gets white and silver details where the regular Mega has dark grey. Like the regular Mega, it becomes a heartless fighting machine, its feelings locked away by a secret mechanism.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Magearna (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 801,
+        "form": "801"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 801,
+        "form": "801:mega"
+      },
+      "change": "mega"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 801,
+        "form": "801:original"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 801,
+        "form": "801:original-mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

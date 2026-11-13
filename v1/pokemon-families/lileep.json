@@ -1,0 +1,124 @@
+{
+  "id": "lileep",
+  "species": [
+    {
+      "dex": 345,
+      "name": "Lileep",
+      "generation": 3,
+      "category": "Sea Lily Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "lileep"
+      },
+      "names": {
+        "de": "Liliep",
+        "en": "Lileep",
+        "es": "Lileep",
+        "fr": "Lilia",
+        "it": "Lileep",
+        "ja": "リリーラ",
+        "ko": "릴링",
+        "ja-Hrkt": "リリーラ",
+        "zh-Hans": "触手百合",
+        "zh-Hant": "觸手百合"
+      },
+      "description": {
+        "fun": "Lileep has been extinct for 100 million years, but it can be brought back from a Root Fossil. In ancient warm seas it anchored itself to rocks on the sea floor and waved its tentacles to look like seaweed, then swallowed whole any prey that got tangled in them. The yellow rings on its head are only markings; its real eyes glow from the dark opening at the top.",
+        "guide": "A Rock- and Grass-type Fossil Pokémon based on a crinoid, or sea lily, revived from the Root Fossil. In ancient times it lived anchored to the sea floor. It evolves into Cradily at level 40.",
+        "tagline": "An ancient sea lily that disguised itself as seaweed",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lileep (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lileep_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "345",
+          "name": "Lileep",
+          "generation": 3,
+          "types": [
+            "rock",
+            "grass"
+          ],
+          "pictures": {
+            "official": "c2c8025742d147d8eb685afd2449e8ec",
+            "home": "5c2bde3e97d3e426fc4eaf9e5a0ff7b3"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 346,
+              "form": "346"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 346,
+      "name": "Cradily",
+      "generation": 3,
+      "category": "Barnacle Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "lileep"
+      },
+      "names": {
+        "de": "Wielie",
+        "en": "Cradily",
+        "es": "Cradily",
+        "fr": "Vacilys",
+        "it": "Cradily",
+        "ja": "ユレイドル",
+        "ko": "릴리요",
+        "ja-Hrkt": "ユレイドル",
+        "zh-Hans": "摇篮百合",
+        "zh-Hant": "搖籃百合"
+      },
+      "description": {
+        "fun": "Cradily's heavy body anchored it against rough currents in the shallows of ancient warm seas, and when the tide went out it crept onto land to hunt. Its short legs made it slow, so it stretched its neck and tentacles to three times their usual length to catch prey, then melted it with acid from its tentacles. Its name and look may nod to a mobile hanging over a baby's cradle.",
+        "guide": "A Rock- and Grass-type Fossil Pokémon based on a crinoid, with fake eyespots on its head and its real eyes hidden in a dark opening. It evolves from Lileep at level 40.",
+        "tagline": "An ancient sea lily that stretches its neck to snatch prey",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cradily (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cradily_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "346",
+          "name": "Cradily",
+          "generation": 3,
+          "types": [
+            "rock",
+            "grass"
+          ],
+          "pictures": {
+            "official": "686e50f9248200ac1d3819ca6fc6bc2f",
+            "home": "962ec0a39c3759b52b253b4ee8d911d5"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 345,
+        "form": "345"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 346,
+        "form": "346"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cutiefly",
+  "species": [
+    {
+      "dex": 742,
+      "name": "Cutiefly",
+      "generation": 7,
+      "category": "Bee Fly Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cutiefly"
+      },
+      "names": {
+        "de": "Wommel",
+        "en": "Cutiefly",
+        "es": "Cutiefly",
+        "fr": "Bombydou",
+        "it": "Cutiefly",
+        "ja": "アブリー",
+        "ko": "에블리",
+        "ja-Hrkt": "アブリー",
+        "zh-Hans": "萌虻",
+        "zh-Hant": "萌虻"
+      },
+      "description": {
+        "fun": "Cutiefly is tied for the shortest Pokémon of all, a tiny bee fly that finds flowers by the colour and brightness of their auras. Trouble is, an excited person's aura looks just like a flower in full bloom, so Cutiefly gather around anyone feeling strong emotions and poke them with their long proboscis. Any pollen it doesn't finish gets stored in its fur.",
+        "guide": "Cutiefly is a Bug- and Fairy-type Pokémon from Alola based on the bee fly. It senses the auras of living things, which it uses to find flowers and to predict opponents' moves. It evolves into Ribombee at level 25.",
+        "tagline": "A tiny bee fly that mistakes your excitement for a flower",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cutiefly (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cutiefly_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "742",
+          "name": "Cutiefly",
+          "generation": 7,
+          "types": [
+            "bug",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "b7a65dbbd80e3d99a4b844baaa7706c2",
+            "home": "861d6c844c2930bbadcbac542bb812b4"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 743,
+              "form": "743"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 743,
+      "name": "Ribombee",
+      "generation": 7,
+      "category": "Bee Fly Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cutiefly"
+      },
+      "names": {
+        "de": "Bandelby",
+        "en": "Ribombee",
+        "es": "Ribombee",
+        "fr": "Rubombelle",
+        "it": "Ribombee",
+        "ja": "アブリボン",
+        "ko": "에리본",
+        "ja-Hrkt": "アブリボン",
+        "zh-Hans": "蝶结萌虻",
+        "zh-Hant": "蝶結萌虻"
+      },
+      "description": {
+        "fun": "Ribombee rolls pollen and nectar into Pollen Puffs, little balls that work as food or soothe tiredness, and Alolans sell them as valuable supplements. When it senses someone feeling sad, it cheers them up with a handmade puff. Rain ruins its fluffy hair and dampens its pollen, so it only goes out in clear weather and waits out storms stock-still in a tree hollow.",
+        "guide": "Ribombee is a Bug- and Fairy-type Pokémon that evolves from Cutiefly, and one of the smallest fully evolved Pokémon. It gathers pollen and nectar into nourishing Pollen Puffs. In Alola, a Totem Ribombee guards Mina's trial in Seafolk Village.",
+        "tagline": "A tiny bee fly that makes pollen puffs to cheer you up",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ribombee (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ribombee_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "743",
+          "name": "Ribombee",
+          "generation": 7,
+          "types": [
+            "bug",
+            "fairy"
+          ],
+          "pictures": {
+            "official": "6bad219c7c7b6a735a458a245768368e",
+            "home": "1e59701b9ac8db88405b440dab812e64"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 742,
+        "form": "742"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 743,
+        "form": "743"
+      },
+      "change": "evolves",
+      "how": "Level 25"
+    }
+  ]
+}

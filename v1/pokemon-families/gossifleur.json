@@ -1,0 +1,122 @@
+{
+  "id": "gossifleur",
+  "species": [
+    {
+      "dex": 829,
+      "name": "Gossifleur",
+      "generation": 8,
+      "category": "Flowering Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gossifleur"
+      },
+      "names": {
+        "de": "Cottini",
+        "en": "Gossifleur",
+        "es": "Gossifleur",
+        "fr": "Tournicoton",
+        "it": "Gossifleur",
+        "ja": "ヒメンカ",
+        "ko": "꼬모카",
+        "ja-Hrkt": "ヒメンカ",
+        "zh-Hans": "幼棉棉",
+        "zh-Hant": "幼棉棉"
+      },
+      "description": {
+        "fun": "A cotton flower that rides the wind, steering with its petals and singing a joyful song as it goes, a display that has charmed many into raising one. Its healing pollen was once brewed into a folk-remedy tea for sick children in Galar. The design grew from a legend director Shigeru Ohmori had heard, that catching floating cotton brings good luck.",
+        "guide": "A small Grass-type flower Pokémon based on the cotton plant. Gossifleur travels long distances on the wind, and its pollen was once made into a tea for sick children in Galar. It evolves into Eldegoss.",
+        "tagline": "A singing cotton flower that travels on the breeze",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gossifleur (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gossifleur_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "829",
+          "name": "Gossifleur",
+          "generation": 8,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "81bdff9baeeb61035cc3fd498bf52c4c",
+            "home": "9618f1107b271d97d0a3c7467dab26d2"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 830,
+              "form": "830"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 830,
+      "name": "Eldegoss",
+      "generation": 8,
+      "category": "Cotton Bloom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gossifleur"
+      },
+      "names": {
+        "de": "Cottomi",
+        "en": "Eldegoss",
+        "es": "Eldegoss",
+        "fr": "Blancoton",
+        "it": "Eldegoss",
+        "ja": "ワタシラガ",
+        "ko": "백솜모카",
+        "ja-Hrkt": "ワタシラガ",
+        "zh-Hans": "白蓬蓬",
+        "zh-Hant": "白蓬蓬"
+      },
+      "description": {
+        "fun": "Eldegoss's cotton fluff is spun into a glossy yarn that's a Galar speciality, and woven with Cottonee's cotton it makes a cloth luxury brands love. The seeds tucked into its fluff are packed with nutrients, and it scatters them on the wind to enrich the soil wherever they land.",
+        "guide": "The evolution of Gossifleur, a cotton-topped Pokémon whose fluff cushions its head and is spun into a glossy yarn prized in Galar. Eldegoss spreads nutritious seeds on the wind.",
+        "tagline": "Its cotton fluff is Galar's luxury yarn",
+        "sources": [
+          {
+            "title": "Bulbapedia: Eldegoss (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Eldegoss_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "830",
+          "name": "Eldegoss",
+          "generation": 8,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "424a71d3820a7bd06be06f6c6f721d69",
+            "home": "01048429351f77c146d65326d4ca2da2"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 829,
+        "form": "829"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 830,
+        "form": "830"
+      },
+      "change": "evolves",
+      "how": "Level 20"
+    }
+  ]
+}

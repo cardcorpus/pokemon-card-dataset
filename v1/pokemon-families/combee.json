@@ -1,0 +1,133 @@
+{
+  "id": "combee",
+  "species": [
+    {
+      "dex": 415,
+      "name": "Combee",
+      "generation": 4,
+      "category": "Tiny Bee Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "combee"
+      },
+      "names": {
+        "de": "Wadribie",
+        "en": "Combee",
+        "es": "Combee",
+        "fr": "Apitrini",
+        "it": "Combee",
+        "ja": "ミツハニー",
+        "ko": "세꿀버리",
+        "ja-Hrkt": "ミツハニー",
+        "zh-Hans": "三蜜蜂",
+        "zh-Hant": "三蜜蜂"
+      },
+      "description": {
+        "fun": "Combee is three Pokémon in one: three faces in honeycomb cells, together since birth, each with its own taste in nectar, and able to fly only when the top two flap in time. Only females, marked with a red spot, can become the queen Vespiquen. Ken Sugimori recalled that the first design, three grubs wedged in a honeycomb, sounded 'gross', so the faces were simplified to look friendlier.",
+        "guide": "Combee is a Bug- and Flying-type Pokémon made of three bee-like faces joined in honeycomb cells. It gathers nectar for its queen, Vespiquen, and swarms sleep packed together like a hive. Most Combee are male; only females, recognisable by a red spot, can evolve.",
+        "tagline": "Three bee faces, one honeycomb, and a queen to serve.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Combee (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "415",
+          "name": "Combee",
+          "generation": 4,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "ba8022011b348d95e3be222d0fbbfcbd",
+            "home": "dd7db231b245ad1980efd62da56e033a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 416,
+              "form": "416"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 416,
+      "name": "Vespiquen",
+      "generation": 4,
+      "category": "Beehive Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "combee"
+      },
+      "names": {
+        "de": "Honweisel",
+        "en": "Vespiquen",
+        "es": "Vespiquen",
+        "fr": "Apireine",
+        "it": "Vespiquen",
+        "ja": "ビークイン",
+        "ko": "비퀸",
+        "ja-Hrkt": "ビークイン",
+        "zh-Hans": "蜂女王",
+        "zh-Hant": "蜂女王"
+      },
+      "description": {
+        "fun": "Vespiquen is the only queen in its colony, and its ballgown of an abdomen doubles as a honeycomb where it raises grubs on the honey Combee bring home. It commands them with pheromones, and the more it gives off, the bigger its swarm; its grubs will risk their lives to defend it. Its name joins vespa, Latin for wasp, with queen.",
+        "guide": "Vespiquen is the female-only evolution of Combee, a Bug- and Flying-type queen bee. Its abdomen holds honeycomb cells for raising grubs, and it controls its colony with pheromones. Each colony has only one.",
+        "tagline": "A queen bee whose ballgown is a nursery.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Vespiquen (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Vespiquen_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "416",
+          "name": "Vespiquen",
+          "generation": 4,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "e1b8232124bb823f2c2a6bf5462ca01d",
+            "home": "9ca1591d4d0146b6f572bfeabed9311a"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 415,
+        "form": "415"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 416,
+        "form": "416"
+      },
+      "change": "evolves",
+      "how": "Level 21 (female)",
+      "note": {
+        "text": "Only female Combee evolve, and females are rare: most Combee are male. A female has a red spot on its lower face.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Combee (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

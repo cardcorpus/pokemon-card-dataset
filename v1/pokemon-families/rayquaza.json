@@ -1,0 +1,99 @@
+{
+  "id": "rayquaza",
+  "species": [
+    {
+      "dex": 384,
+      "name": "Rayquaza",
+      "generation": 3,
+      "category": "Sky High Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "rayquaza"
+      },
+      "names": {
+        "de": "Rayquaza",
+        "en": "Rayquaza",
+        "es": "Rayquaza",
+        "fr": "Rayquaza",
+        "it": "Rayquaza",
+        "ja": "レックウザ",
+        "ko": "레쿠쟈",
+        "ja-Hrkt": "レックウザ",
+        "zh-Hans": "烈空坐",
+        "zh-Hant": "烈空坐"
+      },
+      "description": {
+        "fun": "Rayquaza has lived high in the ozone layer for millions of years, feeding on water, meteoroids and other particles, so high that from the ground it looks like a meteor. Millennia ago it stopped Groudon and Kyogre's battle and sealed them away, and the Draconid people worshipped it as Hoenn's saviour. It's the mascot of Pokémon Emerald, and in a 2020 poll it was voted the most popular Generation 3 Pokémon.",
+        "guide": "A Dragon- and Flying-type Legendary Pokémon resembling a long serpent, living in the ozone layer, and the mascot of Pokémon Emerald. It was designed by Hironobu Yoshida. It does not evolve, but can Mega Evolve without a Mega Stone once it knows Dragon Ascent.",
+        "tagline": "The sky dragon that ended the clash of land and sea",
+        "sources": [
+          {
+            "title": "Bulbapedia: Rayquaza (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "384",
+          "name": "Rayquaza",
+          "generation": 3,
+          "types": [
+            "dragon",
+            "flying"
+          ],
+          "pictures": {
+            "official": "5833ad2f5ecc822adc90e270e2c24ff8",
+            "home": "06885596bdb5a7d32667cc3a060a3e8b"
+          }
+        },
+        {
+          "id": "384:mega",
+          "name": "Mega Rayquaza",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "dragon",
+            "flying"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Rayquaza",
+            "en": "Mega Rayquaza",
+            "fr": "Méga-Rayquaza"
+          },
+          "pictures": {
+            "official": "b72f23e3536b0abf154a81e195e25ebc",
+            "home": "20ce4f97519eaf60d20af10349c684e1"
+          },
+          "description": {
+            "fun": "Rayquaza is said to be the first Pokémon ever to Mega Evolve, and it needs no Mega Stone: an organ inside it, fed by the meteoroids it eats, does the job instead. Mega Rayquaza is the tallest Mega Evolution, glowing filaments trail from its jaw to control the weather, and it's strong enough to destroy a meteor over six miles across, as it does in Omega Ruby and Alpha Sapphire.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Rayquaza (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 384,
+        "form": "384"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 384,
+        "form": "384:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

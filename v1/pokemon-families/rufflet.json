@@ -1,0 +1,187 @@
+{
+  "id": "rufflet",
+  "species": [
+    {
+      "dex": 627,
+      "name": "Rufflet",
+      "generation": 5,
+      "category": "Eaglet Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "rufflet"
+      },
+      "names": {
+        "de": "Geronimatz",
+        "en": "Rufflet",
+        "es": "Rufflet",
+        "fr": "Furaiglon",
+        "it": "Rufflet",
+        "ja": "ワシボン",
+        "ko": "수리둥보",
+        "ja-Hrkt": "ワシボン",
+        "zh-Hans": "毛头小鹰",
+        "zh-Hant": "毛頭小鷹"
+      },
+      "description": {
+        "fun": "Rufflet is a natural-born brawler: soon after hatching, it challenges its own parent to a fight to earn its acceptance. It picks fights with opponents far bigger than itself, out of recklessness rather than courage, and grows stronger every time it faints or gets hurt, though it bawls when it loses. Its talons can crack a Shellder's shell. Based on a bald eagle chick, it wears the red, white and blue of the US flag.",
+        "guide": "Rufflet is a Normal- and Flying-type eaglet Pokémon that challenges strong opponents fearlessly and grows stronger with each fight. Rufflet are always male. It evolves into Braviary, or into Hisuian Braviary in Hisui.",
+        "tagline": "A hot-headed eaglet that picks fights it can't win.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Rufflet (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Rufflet_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "627",
+          "name": "Rufflet",
+          "generation": 5,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "32e55ddcb8df153d30ca11c16bb6e23f",
+            "home": "b2ef2c7f0912b026448b488e88001dc2"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 628,
+              "form": "628"
+            },
+            {
+              "$kind": "form",
+              "species": 628,
+              "form": "628:hisui"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 628,
+      "name": "Braviary",
+      "generation": 5,
+      "category": "Valiant Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "rufflet"
+      },
+      "names": {
+        "de": "Washakwil",
+        "en": "Braviary",
+        "es": "Braviary",
+        "fr": "Gueriaigle",
+        "it": "Braviary",
+        "ja": "ウォーグル",
+        "ko": "워글",
+        "ja-Hrkt": "ウォーグル",
+        "zh-Hans": "勇士雄鹰",
+        "zh-Hant": "勇士雄鷹"
+      },
+      "description": {
+        "fun": "Braviary is known as the hero of the skies: it fights for its friends with no thought for its own safety and never retreats, even when injured. Scars on its front win the flock's respect, but scars on its back earn mockery. It's strong enough to fly carrying a car, yet it lost the job of Galar's flying taxi to Corviknight for being too hot-headed. Based on the bald eagle, it has head feathers like a war bonnet.",
+        "guide": "Braviary is the evolved form of Rufflet, a Normal- and Flying-type eagle Pokémon known for its courage and pride. It fights for its friends even when injured. In Hisui it has a Psychic- and Flying-type regional form.",
+        "tagline": "A fearless eagle warrior whose scars are badges of honour.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Braviary (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "628",
+          "name": "Braviary",
+          "generation": 5,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "6968f4a81569f31da4f320f31cf51d2c",
+            "home": "74c8ee7784c81b1bd20060c32bcc9cad"
+          }
+        },
+        {
+          "id": "628:hisui",
+          "name": "Hisuian Braviary",
+          "category": "regional",
+          "region": "hisui",
+          "generation": 8,
+          "types": [
+            "psychic",
+            "flying"
+          ],
+          "names": {
+            "de": "Hisui Washakwil",
+            "en": "Hisuian Braviary",
+            "fr": "Gueriaigle de Hisui"
+          },
+          "pictures": {
+            "official": "31dd568ff89872a365f4253ef5b46826",
+            "home": "54036fd5f6595ba31a0822fda60183f4"
+          },
+          "description": {
+            "fun": "Bigger than Braviary elsewhere, it flies south to Hisui for the winter and prefers to live alone. It hunts with a bloodcurdling, psychic-charged battle cry that sends shock waves through lakes, then scoops up the stunned prey that float to the surface. Its Psychic type may nod to the Steller's sea eagle, which the Ainu people regard as a kamuy, a divine being.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Braviary (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "hisuian"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 627,
+        "form": "627"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 628,
+        "form": "628"
+      },
+      "change": "evolves",
+      "how": "Level 54"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 627,
+        "form": "627"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 628,
+        "form": "628:hisui"
+      },
+      "change": "evolves",
+      "how": "Level 54, in Hisui",
+      "note": {
+        "text": "A Rufflet that evolves in Hisui, in Pokémon Legends: Arceus, becomes Hisuian Braviary and gains the Psychic type, wherever it came from.",
+        "term": "regional_rule",
+        "sources": [
+          {
+            "title": "Bulbapedia: Rufflet (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Rufflet_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Braviary (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

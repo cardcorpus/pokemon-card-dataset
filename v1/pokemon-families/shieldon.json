@@ -1,0 +1,124 @@
+{
+  "id": "shieldon",
+  "species": [
+    {
+      "dex": 410,
+      "name": "Shieldon",
+      "generation": 4,
+      "category": "Shield Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shieldon"
+      },
+      "names": {
+        "de": "Schilterus",
+        "en": "Shieldon",
+        "es": "Shieldon",
+        "fr": "Dinoclier",
+        "it": "Shieldon",
+        "ja": "タテトプス",
+        "ko": "방패톱스",
+        "ja-Hrkt": "タテトプス",
+        "zh-Hans": "盾甲龙",
+        "zh-Hant": "盾甲龍"
+      },
+      "description": {
+        "fun": "Shieldon's face is a shield, so tough that almost none of its many fossils show damage there, and few enemies would have dared to face it head on. Its weak spot is behind. A mild-mannered plant eater with no need to fight, it spent its days polishing its face on tree trunks and digging up roots. It was revived from the Armor Fossil and resembles Protoceratops.",
+        "guide": "Shieldon is a Rock- and Steel-type Fossil Pokémon revived from the Armor Fossil, based on a hornless ceratopsian dinosaur such as Protoceratops. Its face is extremely hard, but it is vulnerable from behind. It evolves into Bastiodon.",
+        "tagline": "A gentle dinosaur with a face built like a shield.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shieldon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shieldon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "410",
+          "name": "Shieldon",
+          "generation": 4,
+          "types": [
+            "rock",
+            "steel"
+          ],
+          "pictures": {
+            "official": "b642b6294c439525f7c9fa01e0cd143f",
+            "home": "7beb16beb8b168a11b6b3fedd3f1bc2f"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 411,
+              "form": "411"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 411,
+      "name": "Bastiodon",
+      "generation": 4,
+      "category": "Shield Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shieldon"
+      },
+      "names": {
+        "de": "Bollterus",
+        "en": "Bastiodon",
+        "es": "Bastiodon",
+        "fr": "Bastiodon",
+        "it": "Bastiodon",
+        "ja": "トリデプス",
+        "ko": "바리톱스",
+        "ja-Hrkt": "トリデプス",
+        "zh-Hans": "护城龙",
+        "zh-Hant": "護城龍"
+      },
+      "description": {
+        "fun": "Bastiodon's head looks like a castle wall and works like one: lined up side by side, a herd forms a barrier no foe can break, shielding their young behind it. Its facial bones are so huge that researchers first mistook them for its spine. For all its fearsome looks it is docile and eats grass and berries, and it's helpless from behind. It's the immovable shield to Rampardos's spear.",
+        "guide": "Bastiodon is the evolved form of Shieldon, a Rock- and Steel-type Fossil Pokémon with a face shaped like a castle wall. It is gentle and eats plants; herds line up to form a wall that protects their young. It is defenceless from behind.",
+        "tagline": "A living fortress wall that guards its young.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bastiodon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bastiodon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "411",
+          "name": "Bastiodon",
+          "generation": 4,
+          "types": [
+            "rock",
+            "steel"
+          ],
+          "pictures": {
+            "official": "2f19987b0a6de46b021fbdb0e6eab087",
+            "home": "c68ae67261ce360e0faddcf009bd8b8f"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 410,
+        "form": "410"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 411,
+        "form": "411"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

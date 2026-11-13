@@ -1,0 +1,165 @@
+{
+  "id": "drilbur",
+  "species": [
+    {
+      "dex": 529,
+      "name": "Drilbur",
+      "generation": 5,
+      "category": "Mole Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drilbur"
+      },
+      "names": {
+        "de": "Rotomurf",
+        "en": "Drilbur",
+        "es": "Drilbur",
+        "fr": "Rototaupe",
+        "it": "Drilbur",
+        "ja": "モグリュー",
+        "ko": "두더류",
+        "ja-Hrkt": "モグリュー",
+        "zh-Hans": "螺钉地鼠",
+        "zh-Hant": "螺釘地鼠"
+      },
+      "description": {
+        "fun": "Drilbur puts its claws together and spins like a drill, digging through the ground at about 50 km/h, fast enough to race a car above it. It can be friendly with people, but many farmers have little love for it, since its digging wrecks their vegetable crops. Its name mixes 'drill' and 'burrow', and its Japanese name, Mogurew, joins mogura, 'mole', with 'screw'.",
+        "guide": "Drilbur is a Ground-type mole Pokémon that digs by putting its claws together and spinning its body like a drill. It can tunnel through the ground at high speed. It evolves into Excadrill.",
+        "tagline": "A spinning mole that can race a car underground.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Drilbur (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Drilbur_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "529",
+          "name": "Drilbur",
+          "generation": 5,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "43b08a58b642f2759183749d131cf4e9",
+            "home": "dff108384aa9292f281400802092c40d"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 530,
+              "form": "530"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 530,
+      "name": "Excadrill",
+      "generation": 5,
+      "category": "Subterrene Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drilbur"
+      },
+      "names": {
+        "de": "Stalobor",
+        "en": "Excadrill",
+        "es": "Excadrill",
+        "fr": "Minotaupe",
+        "it": "Excadrill",
+        "ja": "ドリュウズ",
+        "ko": "몰드류",
+        "ja-Hrkt": "ドリュウズ",
+        "zh-Hans": "龙头地鼠",
+        "zh-Hant": "龍頭地鼠"
+      },
+      "description": {
+        "fun": "Known as the Drill King, Excadrill joins its steel claws and head blade into a drill that can bore through iron plates and tunnel at over 150 km/h. It builds maze-like nests more than 100 metres underground. It's a great help in tunnel construction, but its digging can damage subway tunnels, and some tunnels that look natural are really its handiwork. Folded up, it resembles a roadheader, the machine that bores mining tunnels.",
+        "guide": "Excadrill is the evolved form of Drilbur, a Ground- and Steel-type Pokémon that forms a drill with its steel claws and head blade. It digs complex tunnels deep underground and helps with tunnel construction. It can Mega Evolve into Mega Excadrill, introduced in Pokémon Legends: Z-A.",
+        "tagline": "The Drill King, boring through steel at highway speeds.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Excadrill (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "530",
+          "name": "Excadrill",
+          "generation": 5,
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "pictures": {
+            "official": "3f87d7ccb566a47bd44ded1c9df855f8",
+            "home": "2d67654349dece1aaf71e99692ad28b2"
+          }
+        },
+        {
+          "id": "530:mega",
+          "name": "Mega Excadrill",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Excadrill",
+            "fr": "Méga-Minotaupe"
+          },
+          "pictures": {
+            "official": "9987a589eb367f66dca97312133400ac",
+            "home": "5800eee43af3647bf0465c48c15af4e5"
+          },
+          "description": {
+            "fun": "Its head and arm blades grow into huge drill bits with spiralling grooves. Bringing them together with the metal plates on its chest and shoulders, it forms one massive streamlined drill, blue flames jetting from its fins, that can destroy anything.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Excadrill (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 529,
+        "form": "529"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 530,
+        "form": "530"
+      },
+      "change": "evolves",
+      "how": "Level 31"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 530,
+        "form": "530"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 530,
+        "form": "530:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

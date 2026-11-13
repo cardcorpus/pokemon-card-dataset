@@ -1,0 +1,122 @@
+{
+  "id": "gulpin",
+  "species": [
+    {
+      "dex": 316,
+      "name": "Gulpin",
+      "generation": 3,
+      "category": "Stomach Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gulpin"
+      },
+      "names": {
+        "de": "Schluppuck",
+        "en": "Gulpin",
+        "es": "Gulpin",
+        "fr": "Gloupti",
+        "it": "Gulpin",
+        "ja": "ゴクリン",
+        "ko": "꼴깍몬",
+        "ja-Hrkt": "ゴクリン",
+        "zh-Hans": "溶食兽",
+        "zh-Hant": "溶食獸"
+      },
+      "description": {
+        "fun": "Gulpin is mostly stomach, with a tiny heart and brain, and it can swallow anything its own size whole. Its unusual stomach acid dissolves almost anything, and digestion comes with foul-smelling gas. You can tell how it's doing at a glance: a closed mouth means it's busy digesting, an open one means its stomach is empty.",
+        "guide": "A Poison-type Pokémon that is mostly stomach, able to swallow and digest almost anything. It lives in grasslands and savannas. It evolves into Swalot at level 26.",
+        "tagline": "A walking stomach that swallows anything its own size",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gulpin (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "316",
+          "name": "Gulpin",
+          "generation": 3,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "6b6e3bb3381b2e8cb0a93dcc6a9e906b",
+            "home": "c23823fee2b1269766779fba2cfb48d3"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 317,
+              "form": "317"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 317,
+      "name": "Swalot",
+      "generation": 3,
+      "category": "Poison Bag Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gulpin"
+      },
+      "names": {
+        "de": "Schlukwech",
+        "en": "Swalot",
+        "es": "Swalot",
+        "fr": "Avaltout",
+        "it": "Swalot",
+        "ja": "マルノーム",
+        "ko": "꿀꺽몬",
+        "ja-Hrkt": "マルノーム",
+        "zh-Hans": "吞食兽",
+        "zh-Hant": "吞食獸"
+      },
+      "description": {
+        "fun": "Swalot swallows everything whole (a car tyre fits in its mouth) and can digest anything except its own stomach lining. It especially likes eating poisonous things, and it douses its opponents in a toxic fluid that oozes from its pores. When it sleeps with its mouth wide open, it's thought to be dreaming of a huge meal.",
+        "guide": "A Poison-type Pokémon, a big purple blob that swallows prey whole and covers its foes in poison. Females have shorter whiskers than males. It evolves from Gulpin at level 26.",
+        "tagline": "A purple glutton that can digest anything but its own stomach",
+        "sources": [
+          {
+            "title": "Bulbapedia: Swalot (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "317",
+          "name": "Swalot",
+          "generation": 3,
+          "types": [
+            "poison"
+          ],
+          "pictures": {
+            "official": "6d602ae3b0de0b14f2670bdd10c5cce3",
+            "home": "648a9d58f0708da7bf94ecb97f39ad91"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 316,
+        "form": "316"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 317,
+        "form": "317"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    }
+  ]
+}

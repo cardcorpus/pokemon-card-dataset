@@ -1,0 +1,98 @@
+{
+  "id": "heracross",
+  "species": [
+    {
+      "dex": 214,
+      "name": "Heracross",
+      "generation": 2,
+      "category": "Single Horn Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "heracross"
+      },
+      "names": {
+        "de": "Skaraborn",
+        "en": "Heracross",
+        "es": "Heracross",
+        "fr": "Scarhino",
+        "it": "Heracross",
+        "ja": "ヘラクロス",
+        "ko": "헤라크로스",
+        "ja-Hrkt": "ヘラクロス",
+        "zh-Hans": "赫拉克罗斯",
+        "zh-Hant": "赫拉克羅斯"
+      },
+      "description": {
+        "fun": "Heracross can hurl objects a hundred times its own weight with its horn, yet it's a gentle soul that mostly wants tree sap, sniffing it out with its antennae and sometimes dozing off mid-lick after a long search. Its horn ends in a cross on males and a heart on females. Based on the Japanese rhinoceros beetle, it's the counterpart of Pinsir: 'her' in Heracross, 'sir' in Pinsir.",
+        "guide": "A Bug- and Fighting-type Pokémon based on the Japanese rhinoceros beetle, with a steel-hard shell and a long horn it uses to throw opponents. It loves tree sap. It does not evolve but can Mega Evolve into Mega Heracross.",
+        "tagline": "A sap-loving beetle that can throw a hundred times its weight",
+        "sources": [
+          {
+            "title": "Bulbapedia: Heracross (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "214",
+          "name": "Heracross",
+          "generation": 2,
+          "types": [
+            "bug",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "c178957b74a9ec822120da819519b85c",
+            "home": "e46410c1068f355c619a7dd67332a1ae"
+          }
+        },
+        {
+          "id": "214:mega",
+          "name": "Mega Heracross",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "bug",
+            "fighting"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Skaraborn",
+            "en": "Mega Heracross",
+            "fr": "Méga-Scarhino"
+          },
+          "pictures": {
+            "official": "be40be03667d74e1bdcaff1e113169c9",
+            "home": "58246477ec23e42fbd9138e62627b9c2"
+          },
+          "description": {
+            "fun": "Mega Heracross runs so hot that it opens the shells on its arms and body to let the heat out, and in a flurry of attacks it can fire things like Pin Missile and Rock Blast straight from its forearms. It can lift 500 times its own weight, a fighter plane included, but its muscles ache once it changes back.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Heracross (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 214,
+        "form": "214"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 214,
+        "form": "214:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

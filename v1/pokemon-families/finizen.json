@@ -1,0 +1,176 @@
+{
+  "id": "finizen",
+  "species": [
+    {
+      "dex": 963,
+      "name": "Finizen",
+      "generation": 9,
+      "category": "Dolphin Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "finizen"
+      },
+      "names": {
+        "de": "Normifin",
+        "en": "Finizen",
+        "es": "Finizen",
+        "fr": "Dofin",
+        "it": "Finizen",
+        "ja": "ナミイルカ",
+        "ko": "맨돌핀",
+        "ja-Hrkt": "ナミイルカ",
+        "zh-Hans": "波普海豚",
+        "zh-Hant": "波普海豚"
+      },
+      "description": {
+        "fun": "A playful dolphin that blows a ring of water from seawater mixed with a sticky fluid from its blowhole, then wears it on its tail and plays games with it with others of its kind. It senses the emotions of other creatures with ultrasonic waves. Finizen live in pods and compete with Barraskewda for food.",
+        "guide": "A Water-type dolphin Pokémon from Pokémon Scarlet and Violet. Finizen evolves into Palafin when levelled up from level 38 while connected with another player, the only Pokémon that evolves through the Union Circle.",
+        "tagline": "A playful dolphin with a water ring on its tail",
+        "sources": [
+          {
+            "title": "Bulbapedia: Finizen (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Finizen_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "963",
+          "name": "Finizen",
+          "generation": 9,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "42d2a27d620824c7fe04555c0d7cb24c",
+            "home": "4900a45c5e7aed3ccc57a8a32562df38"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 964,
+              "form": "964"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 964,
+      "name": "Palafin",
+      "generation": 9,
+      "category": "Dolphin Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "finizen"
+      },
+      "names": {
+        "de": "Delfinator",
+        "en": "Palafin",
+        "es": "Palafin",
+        "fr": "Superdofin",
+        "it": "Palafin",
+        "ja": "イルカマン",
+        "ko": "돌핀맨",
+        "ja-Hrkt": "イルカマン",
+        "zh-Hans": "海豚侠",
+        "zh-Hant": "海豚俠"
+      },
+      "description": {
+        "fun": "In its everyday Zero Form, Palafin is no stronger than a Finizen, with only a small heart on its chest to tell them apart. But when its allies call for help, its ancient genes awaken and it transforms into a hero, and like any good superhero it never lets anyone see the moment it changes. It may also draw on the Boto, a river dolphin of South American folklore that takes human form.",
+        "guide": "The evolution of Finizen, a Water-type dolphin Pokémon themed on superheroes. It switches from its Zero Form to its powerful Hero Form when it leaves a battle.",
+        "tagline": "A mild-mannered dolphin with a secret hero identity",
+        "sources": [
+          {
+            "title": "Bulbapedia: Palafin (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "964",
+          "name": "Palafin",
+          "generation": 9,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "9ecf4608a541217631a5099ff427d245",
+            "home": "1893859fa8f6de41656f8ec4b97ab553"
+          }
+        },
+        {
+          "id": "964:hero",
+          "name": "Hero Form Palafin",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Hero Form Palafin",
+            "fr": "Superdofin Forme Super"
+          },
+          "pictures": {
+            "official": "5654304db284a9e87225f5e6cae41b37",
+            "home": "9e46d82139f4cefe9bd0bfd1789ca0e8"
+          },
+          "description": {
+            "fun": "The Hero of the Ocean: caped, gloved and goggled, strong enough to lift a cruise ship with one fin and fast enough to swim at 50 knots to save drowning people. Its chest symbol glows, Ultraman-style, as people cheer it on.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Palafin (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 963,
+        "form": "963"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 964,
+        "form": "964"
+      },
+      "change": "evolves",
+      "how": "Level 38, with another player",
+      "note": {
+        "text": "Finizen evolves only from level 38 while connected with another player in the Union Circle, a 'pal' for Palafin. The level may nod to 1938, the year Superman first appeared.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Finizen (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Finizen_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Palafin (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 964,
+        "form": "964"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 964,
+        "form": "964:hero"
+      },
+      "change": "form_change"
+    }
+  ]
+}

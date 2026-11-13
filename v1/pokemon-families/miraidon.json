@@ -1,0 +1,207 @@
+{
+  "id": "miraidon",
+  "species": [
+    {
+      "dex": 1008,
+      "name": "Miraidon",
+      "generation": 9,
+      "category": "Paradox Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "miraidon"
+      },
+      "names": {
+        "de": "Miraidon",
+        "en": "Miraidon",
+        "es": "Miraidon",
+        "fr": "Miraidon",
+        "it": "Miraidon",
+        "ja": "ミライドン",
+        "ko": "미라이돈",
+        "ja-Hrkt": "ミライドン",
+        "zh-Hans": "密勒顿",
+        "zh-Hant": "密勒頓"
+      },
+      "description": {
+        "fun": "The violet robot lizard on the box of Pokémon Violet, and your ride across Paldea: it rolls on glowing wheel-like rings like a motorbike, floats on water and glides on an energy membrane. An old expedition journal calls it the Iron Serpent. Despite its machine look it eats sandwiches to get its strength back, and it sizes up a person's character before deciding to travel with them.",
+        "guide": "An Electric and Dragon-type Legendary Paradox Pokémon and the mascot of Pokémon Violet, said to be either a descendant of Cyclizar or a version of it from a parallel timeline. It changes shape to drive, swim and glide, and battles in its Ultimate Mode. Its ancient counterpart is Koraidon.",
+        "tagline": "A robot lizard from the future that rides like a superbike",
+        "sources": [
+          {
+            "title": "Bulbapedia: Miraidon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "1008",
+          "name": "Miraidon",
+          "generation": 9,
+          "types": [
+            "electric",
+            "dragon"
+          ],
+          "pictures": {
+            "official": "844854814b044a3460043652be323ce5",
+            "home": "f1ccdb43acf76f0bd873ad5c93182587"
+          }
+        },
+        {
+          "id": "1008:low-power-mode",
+          "name": "Low-Power Mode Miraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "electric",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Miraidon Mode Bridé"
+          },
+          "pictures": {},
+          "description": {
+            "fun": "Miraidon's low-power form: it stands on all fours, its glowing parts dimmed to silver. It takes this shape when weakened or out of battle.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Miraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1008:drive-mode",
+          "name": "Drive Mode Miraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "electric",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Miraidon Mode Terrestre"
+          },
+          "pictures": {
+            "official": "de910b65208b8ae10db15ae6a4d507ce"
+          },
+          "description": {
+            "fun": "Energy flows into Miraidon's tail and throat, forming wheel-like rings that turn it into something like a motorcycle, fast enough for high speeds and able to climb cliffs.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Miraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1008:aquatic-mode",
+          "name": "Aquatic Mode Miraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "electric",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Miraidon Mode Aquatique"
+          },
+          "description": {
+            "fun": "Miraidon's rings expand so it can float, and it moves through rivers, lakes and the sea by spinning them or firing its jet engines.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Miraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "1008:glide-mode",
+          "name": "Glide Mode Miraidon",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "electric",
+            "dragon"
+          ],
+          "names": {
+            "fr": "Miraidon Mode Aérien"
+          },
+          "pictures": {
+            "official": "b3d96ed7177ddb8249f1b3477289cedf"
+          },
+          "description": {
+            "fun": "Miraidon's antennae stretch out an energy membrane, letting it glide and even fly.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Miraidon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008:low-power-mode"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008:drive-mode"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008:aquatic-mode"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1008,
+        "form": "1008:glide-mode"
+      },
+      "change": "form_change"
+    }
+  ]
+}

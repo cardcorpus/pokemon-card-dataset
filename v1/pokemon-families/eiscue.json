@@ -1,0 +1,96 @@
+{
+  "id": "eiscue",
+  "species": [
+    {
+      "dex": 875,
+      "name": "Eiscue",
+      "generation": 8,
+      "category": "Penguin Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "eiscue"
+      },
+      "names": {
+        "de": "Kubuin",
+        "en": "Eiscue",
+        "es": "Eiscue",
+        "fr": "Bekaglaçon",
+        "it": "Eiscue",
+        "ja": "コオリッポ",
+        "ko": "빙큐보",
+        "ja-Hrkt": "コオリッポ",
+        "zh-Hans": "冰砌鹅",
+        "zh-Hant": "冰砌鵝"
+      },
+      "description": {
+        "fun": "A penguin that keeps its heat-sensitive head inside a block of ice. It's a poor swimmer, so it drifted here on ocean currents from a cold, faraway land, and that's why the ice tastes faintly salty if you lick it. It fishes by dangling its single hair in the sea, with an ice ball on the tip to lure in prey.",
+        "guide": "An Ice-type penguin Pokémon that keeps its face cool with a block of ice. When the ice breaks it switches from Ice Face to Noice Face. It may draw on the great auk, a flightless seabird that once lived around the British Isles.",
+        "tagline": "A penguin with an ice cube for a head",
+        "sources": [
+          {
+            "title": "Bulbapedia: Eiscue (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "875",
+          "name": "Eiscue",
+          "generation": 8,
+          "types": [
+            "ice"
+          ],
+          "pictures": {
+            "official": "a5978b225d679d6dbc3733a14ddf7fec",
+            "home": "16cd8817507f72cb7fc9f163335ba46d"
+          }
+        },
+        {
+          "id": "875:noice",
+          "name": "Noice Face Eiscue",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "ice"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Kubuin (Wohlfühlkopf)",
+            "en": "Noice Face Eiscue",
+            "fr": "Bekaglaçon Tête Dégel"
+          },
+          "pictures": {
+            "official": "76470f637fa00ac8a80a2b2146dae364",
+            "home": "93b4c7f444b951afbf0697c24c7f3d0a"
+          },
+          "description": {
+            "fun": "With its ice shattered, Eiscue reveals a slightly worried face that many people find adorable. Its head can't stand heat, so it blows cold air from the tip of its hair to protect it.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Eiscue (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 875,
+        "form": "875"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 875,
+        "form": "875:noice"
+      },
+      "change": "form_change"
+    }
+  ]
+}

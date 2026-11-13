@@ -1,0 +1,165 @@
+{
+  "id": "capsakid",
+  "species": [
+    {
+      "dex": 951,
+      "name": "Capsakid",
+      "generation": 9,
+      "category": "Spicy Pepper Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "capsakid"
+      },
+      "names": {
+        "de": "Chilingel",
+        "en": "Capsakid",
+        "es": "Capsakid",
+        "fr": "Pimito",
+        "it": "Capsakid",
+        "ja": "カプサイジ",
+        "ko": "캡싸이",
+        "ja-Hrkt": "カプサイジ",
+        "zh-Hans": "热辣娃",
+        "zh-Hant": "熱辣娃"
+      },
+      "description": {
+        "fun": "A young chilli pepper that makes spicy chemicals from sunlight, so the more it sunbathes, the spicier its moves get. Those chemicals may be behind its intense mood swings, and it bites anything it takes a dislike to. Its front teeth fall out naturally, and traditional Paldean dishes owe their fiery kick to them. Spain was the first European country to get the chilli pepper.",
+        "guide": "A Grass-type chilli pepper Pokémon from Pokémon Scarlet and Violet. Capsakid evolves into Scovillain with a Fire Stone, the only Grass type to do so.",
+        "tagline": "A moody chilli whose shed teeth spice up dinner",
+        "sources": [
+          {
+            "title": "Bulbapedia: Capsakid (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Capsakid_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "951",
+          "name": "Capsakid",
+          "generation": 9,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "22cb1f919d642ece8bedc36cda95eb3d",
+            "home": "afa6b1687f438144e9ba61ac9be5e26a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 952,
+              "form": "952"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 952,
+      "name": "Scovillain",
+      "generation": 9,
+      "category": "Spicy Pepper Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "capsakid"
+      },
+      "names": {
+        "de": "Halupenjo",
+        "en": "Scovillain",
+        "es": "Scovillain",
+        "fr": "Scovilain",
+        "it": "Scovillain",
+        "ja": "スコヴィラン",
+        "ko": "스코빌런",
+        "ja-Hrkt": "スコヴィラン",
+        "zh-Hans": "狠辣椒",
+        "zh-Hant": "狠辣椒"
+      },
+      "description": {
+        "fun": "A two-headed chilli plant whose heads have different tempers and fighting styles but still act in perfect harmony. Spicy chemicals have turned the green head vicious, while the red one converts them into fire and blasts everything around with super-spicy flames. Its stance recalls a Spaghetti Western villain, and its two faces may echo the Padrón peppers of Galicia: some are hot, some are not.",
+        "guide": "The evolution of Capsakid, a Grass and Fire-type chilli pepper Pokémon named after the Scoville scale of spiciness. It gained a Mega Evolution in the Mega Dimension expansion for Pokémon Legends: Z-A.",
+        "tagline": "A two-headed chilli villain, one hot and one not",
+        "sources": [
+          {
+            "title": "Bulbapedia: Scovillain (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Scovillain_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "952",
+          "name": "Scovillain",
+          "generation": 9,
+          "types": [
+            "grass",
+            "fire"
+          ],
+          "pictures": {
+            "official": "f8b427e313ffa257bccf7836142f5c03",
+            "home": "22ea7c37418f5944c09b5c8f4e01cf14"
+          }
+        },
+        {
+          "id": "952:mega",
+          "name": "Mega Scovillain",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "grass",
+            "fire"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Scovillain",
+            "fr": "Méga-Scovilain"
+          },
+          "pictures": {
+            "official": "30b987481c676769ae53f1278b3aba8d",
+            "home": "c1b5feaff462b70986eecffc121e616b"
+          },
+          "description": {
+            "fun": "Mega Evolution dials up its spiciness even further. Its heads grow spiky and dinosaur-like, its body turns black like a business suit with a popped collar, and it whacks foes with a glowing chilli-shaped 'necktie'.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Scovillain (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Scovillain_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 951,
+        "form": "951"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 952,
+        "form": "952"
+      },
+      "change": "evolves",
+      "how": "Fire Stone"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 952,
+        "form": "952"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 952,
+        "form": "952:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

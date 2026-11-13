@@ -1,0 +1,167 @@
+{
+  "id": "swablu",
+  "species": [
+    {
+      "dex": 333,
+      "name": "Swablu",
+      "generation": 3,
+      "category": "Cotton Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "swablu"
+      },
+      "names": {
+        "de": "Wablu",
+        "en": "Swablu",
+        "es": "Swablu",
+        "fr": "Tylton",
+        "it": "Swablu",
+        "ja": "チルット",
+        "ko": "파비코",
+        "ja-Hrkt": "チルット",
+        "zh-Hans": "青绵鸟",
+        "zh-Hant": "青綿鳥"
+      },
+      "description": {
+        "fun": "Swablu can't stand dirt, so it polishes everything with its cottony wings, then washes them in a stream or spring when they get grubby. It's so friendly and unafraid of people that it often perches on someone's head like a fluffy hat, and against the sky it can hide from foes just by blending into the clouds. Its Japanese name, Tyltto, may nod to the play The Blue Bird, about a search for the bluebird of happiness.",
+        "guide": "A Normal- and Flying-type Pokémon based on a bluebird with wings like cotton clouds, living in flocks in forests. It evolves into Altaria at level 35, the only Normal-type Pokémon that evolves into a Dragon.",
+        "tagline": "A cotton-winged bluebird that likes to sit on people's heads",
+        "sources": [
+          {
+            "title": "Bulbapedia: Swablu (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "333",
+          "name": "Swablu",
+          "generation": 3,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "08db19763d9996cb036785234126a837",
+            "home": "d54fe2bfad7bdb9608ee85deeb88ac7f"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 334,
+              "form": "334"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 334,
+      "name": "Altaria",
+      "generation": 3,
+      "category": "Humming Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "swablu"
+      },
+      "names": {
+        "de": "Altaria",
+        "en": "Altaria",
+        "es": "Altaria",
+        "fr": "Altaria",
+        "it": "Altaria",
+        "ja": "チルタリス",
+        "ko": "파비코리",
+        "ja-Hrkt": "チルタリス",
+        "zh-Hans": "七夕青鸟",
+        "zh-Hant": "七夕青鳥"
+      },
+      "description": {
+        "fun": "Altaria glides through the clouds humming in a soprano voice so lovely it puts listeners in a dreamy trance. It wraps the people it loves in its cotton-cloud wings, though if provoked it attacks with merciless shrieks. Its wings lose their fluff when they get too wet. Its name blends the musical terms alto and aria, and may also point to the star Altair.",
+        "guide": "A Dragon- and Flying-type Pokémon based on a bluebird with cloud-like wings, living in forests and mountains. It evolves from Swablu at level 35 and can Mega Evolve with the Altarianite.",
+        "tagline": "A cloud-winged dragon that hums soprano as it glides",
+        "sources": [
+          {
+            "title": "Bulbapedia: Altaria (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "334",
+          "name": "Altaria",
+          "generation": 3,
+          "types": [
+            "dragon",
+            "flying"
+          ],
+          "pictures": {
+            "official": "3d8e0fc9a0ba729ce708eb15500f5609",
+            "home": "c3ac3b6c0bdf335ac7ab7c9d894dad5b"
+          }
+        },
+        {
+          "id": "334:mega",
+          "name": "Mega Altaria",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "dragon",
+            "fairy"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Altaria",
+            "en": "Mega Altaria",
+            "fr": "Méga-Altaria"
+          },
+          "pictures": {
+            "official": "d56935057b31438b43fec99195fee68d",
+            "home": "6d41857dbb8c4e98ae19561d24dcc834"
+          },
+          "description": {
+            "fun": "Mega Altaria's fluffy plumage swells into a great iridescent cloud, and its singing becomes even more beautiful. Its down looks so soft it might melt at a touch, yet a few strands are strong enough to lift a dump truck. It becomes Dragon and Fairy type, a combination no other Pokémon has.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Altaria (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 333,
+        "form": "333"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 334,
+        "form": "334"
+      },
+      "change": "evolves",
+      "how": "Level 35"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 334,
+        "form": "334"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 334,
+        "form": "334:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

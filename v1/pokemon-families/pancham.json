@@ -1,0 +1,123 @@
+{
+  "id": "pancham",
+  "species": [
+    {
+      "dex": 674,
+      "name": "Pancham",
+      "generation": 6,
+      "category": "Playful Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pancham"
+      },
+      "names": {
+        "de": "Pam-Pam",
+        "en": "Pancham",
+        "es": "Pancham",
+        "fr": "Pandespiègle",
+        "it": "Pancham",
+        "ja": "ヤンチャム",
+        "ko": "판짱",
+        "ja-Hrkt": "ヤンチャム",
+        "zh-Hans": "顽皮熊猫",
+        "zh-Hant": "頑皮熊貓"
+      },
+      "description": {
+        "fun": "Pancham tries very hard to look tough, glaring at foes with a leaf clamped in its mouth purely to look cool, but its scowl isn't scary and it can't help grinning when patted on the head. It idolises Pangoro and copies it to learn how to fight. It only evolves with a Dark-type Pokémon in the team, like a kid led astray by a bad crowd.",
+        "guide": "Pancham is a Fighting-type panda cub Pokémon from Kalos, known for the leaf it carries in its mouth to look cool. It looks up to Pangoro and tries to act intimidating, without much success. It evolves into Pangoro only when a Dark-type Pokémon is in the party.",
+        "tagline": "A panda cub trying, and failing, to look tough",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pancham (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pancham_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "674",
+          "name": "Pancham",
+          "generation": 6,
+          "types": [
+            "fighting"
+          ],
+          "pictures": {
+            "official": "a2839962a696d12b2d9d496386e3f997",
+            "home": "58ee03e2ac6cc1781ed070b5fff0ab95"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 675,
+              "form": "675"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 675,
+      "name": "Pangoro",
+      "generation": 6,
+      "category": "Daunting Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "pancham"
+      },
+      "names": {
+        "de": "Pandagro",
+        "en": "Pangoro",
+        "es": "Pangoro",
+        "fr": "Pandarbare",
+        "it": "Pangoro",
+        "ja": "ゴロンダ",
+        "ko": "부란다",
+        "ja-Hrkt": "ゴロンダ",
+        "zh-Hans": "霸道熊猫",
+        "zh-Hant": "流氓熊貓"
+      },
+      "description": {
+        "fun": "Pangoro is a gruff panda gang boss in a long dark 'coat' of fur, modelled on Japan's banchō delinquent leaders. It can snap a telephone pole with its arms and wreck a dump truck with one punch, and it charges into battle heedless of damage. For all that, it stands up for the weak and is loyal to its friends, and the leaf it chews helps it sense movement around it.",
+        "guide": "Pangoro is a Fighting- and Dark-type panda Pokémon that evolves from Pancham. It is short-tempered and enormously strong but protects the weak and its friends. Its coat-like fur and the leaf in its mouth draw on the banchō, leaders of Japanese delinquent gangs.",
+        "tagline": "A delinquent panda boss with a heart of gold",
+        "sources": [
+          {
+            "title": "Bulbapedia: Pangoro (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Pangoro_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "675",
+          "name": "Pangoro",
+          "generation": 6,
+          "types": [
+            "fighting",
+            "dark"
+          ],
+          "pictures": {
+            "official": "2dcfd88303a66dde3bcf1b28a3f80977",
+            "home": "66596abe75ea6be9ad2f488be3ab7194"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 674,
+        "form": "674"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 675,
+        "form": "675"
+      },
+      "change": "evolves",
+      "how": "Level 32, with a Dark-type Pokémon in the party"
+    }
+  ]
+}

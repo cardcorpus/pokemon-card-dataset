@@ -1,0 +1,124 @@
+{
+  "id": "stunky",
+  "species": [
+    {
+      "dex": 434,
+      "name": "Stunky",
+      "generation": 4,
+      "category": "Skunk Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "stunky"
+      },
+      "names": {
+        "de": "Skunkapuh",
+        "en": "Stunky",
+        "es": "Stunky",
+        "fr": "Moufouette",
+        "it": "Stunky",
+        "ja": "スカンプー",
+        "ko": "스컹뿡",
+        "ja-Hrkt": "スカンプー",
+        "zh-Hans": "臭鼬噗",
+        "zh-Hant": "臭鼬噗"
+      },
+      "description": {
+        "fun": "If Stunky lifts its tail and points its rear at you, run. Its foul spray reaches about 5 metres, aims for the face, can be smelled up to 2 km away and lingers for 24 hours; one Pokédex entry claims a single whiff can cause memory loss. It and Glameow are a pair: each was exclusive to one of Diamond and Pearl, and their evolutions serve two Team Galactic Commanders.",
+        "guide": "Stunky is a Poison- and Dark-type skunk Pokémon. It defends itself by spraying a foul-smelling fluid from its rear, and the smell lasts for a day. It evolves into Skuntank.",
+        "tagline": "A skunk kitten with a 24-hour stink.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Stunky (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Stunky_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "434",
+          "name": "Stunky",
+          "generation": 4,
+          "types": [
+            "poison",
+            "dark"
+          ],
+          "pictures": {
+            "official": "bc1db203e2a4d7234e8d84e1d1adfe43",
+            "home": "4211c9ba34f8765c7b59fc2c72c0f289"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 435,
+              "form": "435"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 435,
+      "name": "Skuntank",
+      "generation": 4,
+      "category": "Skunk Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "stunky"
+      },
+      "names": {
+        "de": "Skuntank",
+        "en": "Skuntank",
+        "es": "Skuntank",
+        "fr": "Moufflair",
+        "it": "Skuntank",
+        "ja": "スカタンク",
+        "ko": "스컹탱크",
+        "ja-Hrkt": "スカタンク",
+        "zh-Hans": "坦克臭鼬",
+        "zh-Hant": "坦克臭鼬"
+      },
+      "description": {
+        "fun": "Skuntank is a skunk built like a tank: instead of spraying from its rear, it fires its stinky fluid from the tip of its tail, which arches over its head, and can hit targets over 50 metres away. The longer the fluid ferments in its belly, the worse it smells, and the stench changes with its diet. Sometimes it can't stand its own smell and leaves its prey uneaten.",
+        "guide": "Skuntank is the evolved form of Stunky, a Poison- and Dark-type skunk. It sprays a foul fluid from the tip of its tail over long distances, and the smell grows stronger the longer the fluid stays in its belly.",
+        "tagline": "A skunk tank with a tail-mounted stink cannon.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Skuntank (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Skuntank_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "435",
+          "name": "Skuntank",
+          "generation": 4,
+          "types": [
+            "poison",
+            "dark"
+          ],
+          "pictures": {
+            "official": "6fbdc3ad721361f3592b5446158a8af3",
+            "home": "93493d7a811a2e6ac21c494f608fe74a"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 434,
+        "form": "434"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 435,
+        "form": "435"
+      },
+      "change": "evolves",
+      "how": "Level 34"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "bidoof",
+  "species": [
+    {
+      "dex": 399,
+      "name": "Bidoof",
+      "generation": 4,
+      "category": "Plump Mouse Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "bidoof"
+      },
+      "names": {
+        "de": "Bidiza",
+        "en": "Bidoof",
+        "es": "Bidoof",
+        "fr": "Keunotor",
+        "it": "Bidoof",
+        "ja": "ビッパ",
+        "ko": "비버니",
+        "ja-Hrkt": "ビッパ",
+        "zh-Hans": "大牙狸",
+        "zh-Hant": "大牙狸"
+      },
+      "description": {
+        "fun": "Nothing ruffles Bidoof. With nerves of steel and a famously unbothered face, it has been known to saunter into villages and gnaw on the houses without a care. Its front teeth never stop growing, so it keeps them in check by chewing logs and rocks. The Pokémon Company even declared 1 July 2021 Bidoof Day, with its own parody music video.",
+        "guide": "Bidoof is a Normal-type beaver-like Pokémon from Sinnoh. Its incisors never stop growing, so it gnaws on wood and rock, and it nests in groups by the water. It evolves into Bibarel.",
+        "tagline": "An unflappable beaver that gnaws on anything, houses included.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bidoof (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bidoof_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "399",
+          "name": "Bidoof",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "ffb8fea6a625c9b8d83be06adcf94bd6",
+            "home": "aa4622237631b95bd8c0a22fd166cecb"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 400,
+              "form": "400"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 400,
+      "name": "Bibarel",
+      "generation": 4,
+      "category": "Beaver Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "bidoof"
+      },
+      "names": {
+        "de": "Bidifas",
+        "en": "Bibarel",
+        "es": "Bibarel",
+        "fr": "Castorno",
+        "it": "Bibarel",
+        "ja": "ビーダル",
+        "ko": "비버통",
+        "ja-Hrkt": "ビーダル",
+        "zh-Hans": "大尾狸",
+        "zh-Hant": "大尾狸"
+      },
+      "description": {
+        "fun": "Bibarel is nature's civil engineer: it dams streams with bark, branches and mud, and a river it has dammed never overflows its banks, to the delight of people living nearby. Slow and awkward on land, it is a swift swimmer, and its water-repellent fur holds heat well. Its name mixes beaver (Biber in German) with barrel.",
+        "guide": "Bibarel is the evolved form of Bidoof, a Normal- and Water-type beaver. It builds dams from branches, roots and mud, and it is a much better swimmer than walker.",
+        "tagline": "A hard-working beaver whose dams never let a river flood.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bibarel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "400",
+          "name": "Bibarel",
+          "generation": 4,
+          "types": [
+            "normal",
+            "water"
+          ],
+          "pictures": {
+            "official": "355d3119fc4b92970630d5fab798687c",
+            "home": "5dc14289f62bbf2811d17df78fe3eea6"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 399,
+        "form": "399"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 400,
+        "form": "400"
+      },
+      "change": "evolves",
+      "how": "Level 15"
+    }
+  ]
+}

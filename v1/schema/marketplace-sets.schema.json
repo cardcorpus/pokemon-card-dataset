@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus sets with marketplace ids",
+  "description": "The ids of the sets that have a file in marketplaces/, in order (docs/static-api.md, \"Marketplace ids\").",
+  "type": "object",
+  "required": [
+    "sets",
+    "hashes"
+  ],
+  "properties": {
+    "sets": {
+      "description": "The set ids, in sets.json's order.",
+      "type": "array",
+      "items": {
+        "description": "The set's id (sets.json).",
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "hashes": {
+      "description": "Each set's marketplace file's hash: the first 16 hex digits of its text's SHA-256, so a reader reloads only the files that changed.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "A hash.",
+        "type": "string",
+        "pattern": "^[0-9a-f]{16}$"
+      }
+    }
+  }
+}

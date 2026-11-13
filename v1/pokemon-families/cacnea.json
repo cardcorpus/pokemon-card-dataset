@@ -1,0 +1,123 @@
+{
+  "id": "cacnea",
+  "species": [
+    {
+      "dex": 331,
+      "name": "Cacnea",
+      "generation": 3,
+      "category": "Cactus Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cacnea"
+      },
+      "names": {
+        "de": "Tuska",
+        "en": "Cacnea",
+        "es": "Cacnea",
+        "fr": "Cacnea",
+        "it": "Cacnea",
+        "ja": "サボネア",
+        "ko": "선인왕",
+        "ja-Hrkt": "サボネア",
+        "zh-Hans": "刺球仙人掌",
+        "zh-Hant": "刺球仙人掌"
+      },
+      "description": {
+        "fun": "Cacnea can live in the desert for 30 days without water, storing moisture in its body. The harsher its surroundings, the lovelier and more fragrant the yellow flower on its head, and it uses that scent to lure prey before bringing it down with a volley of thorns. An unused cactus design from the first generation, revealed in 2018, may have inspired it.",
+        "guide": "A Grass-type Pokémon based on a barrel cactus, which attacks by swinging its spiky arms like hammers. It lives in deserts. It evolves into Cacturne at level 32.",
+        "tagline": "A cactus that lures prey with a flower, then fires thorns",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cacnea (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cacnea_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "331",
+          "name": "Cacnea",
+          "generation": 3,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "afa1af3dc206310520dc0bd87d954363",
+            "home": "662d576d28a60b6787506aa024f1fb87"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 332,
+              "form": "332"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 332,
+      "name": "Cacturne",
+      "generation": 3,
+      "category": "Scarecrow Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cacnea"
+      },
+      "names": {
+        "de": "Noktuska",
+        "en": "Cacturne",
+        "es": "Cacturne",
+        "fr": "Cacturne",
+        "it": "Cacturne",
+        "ja": "ノクタス",
+        "ko": "밤선인",
+        "ja-Hrkt": "ノクタス",
+        "zh-Hans": "梦歌仙人掌",
+        "zh-Hant": "夢歌仙人掌"
+      },
+      "description": {
+        "fun": "Cacturne barely moves through the heat of the day to hold onto its moisture, then comes out at night to hunt, sometimes following travellers until they collapse from exhaustion. It has lived in the desert so long that its blood has turned to sand. It looks like a scarecrow made of cactus, with a face like a jack-o'-lantern.",
+        "guide": "A Grass- and Dark-type Pokémon based on a cactus and a scarecrow, which rests by day and hunts at night. Males and females have different diamond patterns on their bodies. It evolves from Cacnea at level 32.",
+        "tagline": "A cactus scarecrow that stalks desert travellers at night",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cacturne (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cacturne_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "332",
+          "name": "Cacturne",
+          "generation": 3,
+          "types": [
+            "grass",
+            "dark"
+          ],
+          "pictures": {
+            "official": "f3c245ebff2026ef7c3ab8082dd1462b",
+            "home": "9c704f1103a7aee7b4916a55920fd81a"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 331,
+        "form": "331"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 332,
+        "form": "332"
+      },
+      "change": "evolves",
+      "how": "Level 32"
+    }
+  ]
+}

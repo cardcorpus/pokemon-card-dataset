@@ -1,0 +1,141 @@
+{
+  "id": "bonsly",
+  "species": [
+    {
+      "dex": 438,
+      "name": "Bonsly",
+      "generation": 4,
+      "category": "Bonsai Pokémon",
+      "status": "baby",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "bonsly"
+      },
+      "names": {
+        "de": "Mobai",
+        "en": "Bonsly",
+        "es": "Bonsly",
+        "fr": "Manzaï",
+        "it": "Bonsly",
+        "ja": "ウソハチ",
+        "ko": "꼬지지",
+        "ja-Hrkt": "ウソハチ",
+        "zh-Hans": "盆才怪",
+        "zh-Hant": "盆才怪"
+      },
+      "description": {
+        "fun": "Bonsly passes itself off as a bonsai tree in a pot, though its body is closer to stone. It cries a lot, not from sadness but to get rid of extra moisture, and the tears happen to make enemies drop their guard. Its Japanese name, Usohachi, puns on 'downright lie' and 'flowerpot'. Players could use one in Pokémon XD a generation before its debut.",
+        "guide": "A small Rock-type baby Pokémon that resembles a bonsai tree in a pot, introduced in Generation 4 as the first stage of Sudowoodo's family. It often cries to get rid of excess moisture in its body. It evolves into Sudowoodo once it learns Mimic.",
+        "tagline": "A crybaby bonsai that's really a rock",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bonsly (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "438",
+          "name": "Bonsly",
+          "generation": 4,
+          "types": [
+            "rock"
+          ],
+          "pictures": {
+            "official": "2728fa7352872131ec14d939c5e8b7ab",
+            "home": "c96294a5b0a9758d55d4446c3e459f3d"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 185,
+              "form": "185"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 185,
+      "name": "Sudowoodo",
+      "generation": 2,
+      "category": "Imitation Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "bonsly"
+      },
+      "names": {
+        "de": "Mogelbaum",
+        "en": "Sudowoodo",
+        "es": "Sudowoodo",
+        "fr": "Simularbre",
+        "it": "Sudowoodo",
+        "ja": "ウソッキー",
+        "ko": "꼬지모",
+        "ja-Hrkt": "ウソッキー",
+        "zh-Hans": "树才怪",
+        "zh-Hant": "樹才怪"
+      },
+      "description": {
+        "fun": "Sudowoodo pretends to be a tree, standing by paths so nobody bothers it, but the act falls apart in winter, when its 'leaves' stay green, and whenever it rains, because it hates water. Ken Sugimori designed it as an obstacle, and in Gold and Silver one blocks the road until you squirt it with water. Its name is 'pseudo' plus 'wood'.",
+        "guide": "A Rock-type Pokémon that disguises itself as a tree, though its body is closer to stone than wood. It hates water and drops its disguise when it rains. In several games a wild Sudowoodo blocks the road until it is sprayed with water.",
+        "tagline": "A rock pretending to be a tree, and fooling almost nobody",
+        "sources": [
+          {
+            "title": "Bulbapedia: Sudowoodo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "185",
+          "name": "Sudowoodo",
+          "generation": 2,
+          "types": [
+            "rock"
+          ],
+          "pictures": {
+            "official": "fd3c8503ec1e9f3884d104ceae47b6a2",
+            "home": "5004b693a99c0fbb21ce57cd6887e66c"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 438,
+        "form": "438"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 185,
+        "form": "185"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Mimic",
+      "note": {
+        "text": "Bonsly is a baby Pokémon added in Generation 4, two generations after Sudowoodo. It evolves by learning Mimic, the copycat move that was Sudowoodo's own signature move in Gold and Silver.",
+        "term": "baby",
+        "sources": [
+          {
+            "title": "Bulbapedia: Bonsly (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Sudowoodo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Baby Pokémon",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Baby_Pok%C3%A9mon"
+          }
+        ]
+      }
+    }
+  ]
+}

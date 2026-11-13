@@ -1,0 +1,158 @@
+{
+  "id": "frillish",
+  "species": [
+    {
+      "dex": 592,
+      "name": "Frillish",
+      "generation": 5,
+      "category": "Floating Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "frillish"
+      },
+      "names": {
+        "de": "Quabbel",
+        "en": "Frillish",
+        "es": "Frillish",
+        "fr": "Viskuse",
+        "it": "Frillish",
+        "ja": "プルリル",
+        "ko": "탱그릴",
+        "ja-Hrkt": "プルリル",
+        "zh-Hans": "轻飘飘",
+        "zh-Hant": "輕飄飄"
+      },
+      "description": {
+        "fun": "Frillish drifts like a little jellyfish royal, blue and frowning if male, pink and smiling if female. Its veil-like arms hide invisible poison spikes, and it wraps up prey and drags it to its lair five miles below the surface. Legend says Frillish were once the people of a sunken ancient city. The line started out as pure Water type, and its designer was disappointed when the Ghost type made it scary.",
+        "guide": "Frillish is a Water- and Ghost-type jellyfish Pokémon that paralyses prey with poison and drags it into the deep sea. Males are blue and females are pink. It evolves into Jellicent.",
+        "tagline": "A jellyfish prince or princess that drags prey into the deep.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Frillish (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Frillish_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "592",
+          "name": "Frillish",
+          "lookName": "Male Frillish",
+          "generation": 5,
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "pictures": {
+            "official": "3aed683464e2be78d740cb442633c721",
+            "home": "bca8a155fe964dde0864a4276097a906"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 593,
+              "form": "593"
+            }
+          ]
+        },
+        {
+          "id": "592:female",
+          "name": "Female Frillish",
+          "category": "cosmetic",
+          "generation": 5,
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "names": {
+            "en": "Female Frillish"
+          },
+          "pictures": {
+            "official": "697af9c056481f31bebad0545b571d4b"
+          }
+        }
+      ]
+    },
+    {
+      "dex": 593,
+      "name": "Jellicent",
+      "generation": 5,
+      "category": "Floating Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "frillish"
+      },
+      "names": {
+        "de": "Apoquallyp",
+        "en": "Jellicent",
+        "es": "Jellicent",
+        "fr": "Moyade",
+        "it": "Jellicent",
+        "ja": "ブルンゲル",
+        "ko": "탱탱겔",
+        "ja-Hrkt": "ブルンゲル",
+        "zh-Hans": "胖嘟嘟",
+        "zh-Hant": "胖嘟嘟"
+      },
+      "description": {
+        "fun": "Jellicent's body is mostly seawater, and ships and crews that wander into its waters are said to vanish without a trace; there's even said to be a castle of sunken ships on the seafloor that it uses as its lair. It feeds on life energy, and the crown on its head grows as it drains more. On full-moon nights, schools of Jellicent gather near the surface to wait for prey. Males look like kings, females like queens.",
+        "guide": "Jellicent is the evolved form of Frillish, a Water- and Ghost-type jellyfish Pokémon said to drag ships and their crews under. Males resemble kings and females queens.",
+        "tagline": "A jellyfish monarch said to sink ships and drain lives.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Jellicent (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Jellicent_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "593",
+          "name": "Jellicent",
+          "lookName": "Male Jellicent",
+          "generation": 5,
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "pictures": {
+            "official": "0a190b07dac4d2ad808960b6b733e44d",
+            "home": "aa75f39f93fc91d1c6f0676eee801009"
+          }
+        },
+        {
+          "id": "593:female",
+          "name": "Female Jellicent",
+          "category": "cosmetic",
+          "generation": 5,
+          "types": [
+            "water",
+            "ghost"
+          ],
+          "names": {
+            "en": "Female Jellicent"
+          },
+          "pictures": {
+            "official": "8230d882da041e97e0a1546a95adfa1e"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 592,
+        "form": "592"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 593,
+        "form": "593"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

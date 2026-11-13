@@ -1,0 +1,162 @@
+{
+  "id": "shellos",
+  "species": [
+    {
+      "dex": 422,
+      "name": "Shellos",
+      "generation": 4,
+      "category": "Sea Slug Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shellos"
+      },
+      "names": {
+        "de": "Schalellos",
+        "en": "Shellos",
+        "es": "Shellos",
+        "fr": "Sancoki",
+        "it": "Shellos",
+        "ja": "カラナクシ",
+        "ko": "깝질무",
+        "ja-Hrkt": "カラナクシ",
+        "zh-Hans": "无壳海兔",
+        "zh-Hant": "無殼海兔"
+      },
+      "description": {
+        "fun": "Shellos looks different depending on which side of Sinnoh's Mount Coronet it lives: pink in the West Sea, blue-green in the East Sea. Squeeze its squishy body and a sticky purple fluid oozes out, thought to be a kind of stress sweat, and it's a pain to wash off. Its ancestors had shells, hence the name, and Game Freak first meant it for Ruby and Sapphire.",
+        "guide": "Shellos is a Water-type sea slug found in two forms, West Sea (pink) and East Sea (blue), named for the sides of Sinnoh's mountain range where they live. It oozes a sticky purple fluid when threatened. It evolves into Gastrodon.",
+        "tagline": "A sea slug that changes colour with the coast it calls home.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shellos (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "422",
+          "name": "Shellos",
+          "lookName": "West Shellos",
+          "generation": 4,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "66feb4559ab9ff1a6e891ec56298440f",
+            "home": "fbea469ef220ed5b0a14067fb1c617fc"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 423,
+              "form": "423"
+            }
+          ]
+        },
+        {
+          "id": "422:east",
+          "name": "East Sea Shellos",
+          "category": "cosmetic",
+          "generation": 4,
+          "types": [
+            "water"
+          ],
+          "names": {
+            "de": "Östliches Schalellos",
+            "en": "East Sea Shellos",
+            "fr": "Sancoki Orient"
+          },
+          "pictures": {
+            "official": "a3e202e641756bdedf14f436481d3aab",
+            "home": "e26c547513c63ab526bd21668940bf5f"
+          }
+        }
+      ]
+    },
+    {
+      "dex": 423,
+      "name": "Gastrodon",
+      "generation": 4,
+      "category": "Sea Slug Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shellos"
+      },
+      "names": {
+        "de": "Gastrodon",
+        "en": "Gastrodon",
+        "es": "Gastrodon",
+        "fr": "Tritosor",
+        "it": "Gastrodon",
+        "ja": "トリトドン",
+        "ko": "트리토돈",
+        "ja-Hrkt": "トリトドン",
+        "zh-Hans": "海兔兽",
+        "zh-Hant": "海兔獸"
+      },
+      "description": {
+        "fun": "Gastrodon is squishy but tough: if a fish Pokémon bites a piece off, it grows back within a few hours. Like Shellos it comes in West and East Sea colours, and the two are known to clash. Its head tentacles look like cattle horns, perhaps a pun on umiushi, Japanese for sea slug, which means 'sea cow', and it starred in artwork for the 2021 Year of the Ox.",
+        "guide": "Gastrodon is the evolved form of Shellos, a Water- and Ground-type sea slug with West Sea and East Sea forms. It lives in tidal pools and on shorelines, can regrow lost body parts within hours, and once had a shell on its back.",
+        "tagline": "A regenerating sea slug in two rival colours.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gastrodon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "423",
+          "name": "Gastrodon",
+          "lookName": "West Gastrodon",
+          "generation": 4,
+          "types": [
+            "water",
+            "ground"
+          ],
+          "pictures": {
+            "official": "8cbc117b975a2924bc90ae4ca678c06c",
+            "home": "223381fb3f5621c56d94b8db851a0db2"
+          }
+        },
+        {
+          "id": "423:east",
+          "name": "East Sea Gastrodon",
+          "category": "cosmetic",
+          "generation": 4,
+          "types": [
+            "water",
+            "ground"
+          ],
+          "names": {
+            "de": "Östliches Gastrodon",
+            "en": "East Sea Gastrodon",
+            "fr": "Tritosor Orient"
+          },
+          "pictures": {
+            "official": "fd4314aa7cc6d4562e2bdac7e269d38b",
+            "home": "6616cf8e58308782048b0fde8cc4e50b"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 422,
+        "form": "422"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 423,
+        "form": "423"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

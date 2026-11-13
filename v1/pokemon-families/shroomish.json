@@ -1,0 +1,123 @@
+{
+  "id": "shroomish",
+  "species": [
+    {
+      "dex": 285,
+      "name": "Shroomish",
+      "generation": 3,
+      "category": "Mushroom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shroomish"
+      },
+      "names": {
+        "de": "Knilz",
+        "en": "Shroomish",
+        "es": "Shroomish",
+        "fr": "Balignon",
+        "it": "Shroomish",
+        "ja": "キノココ",
+        "ko": "버섯꼬",
+        "ja-Hrkt": "キノココ",
+        "zh-Hans": "蘑蘑菇",
+        "zh-Hant": "蘑蘑菇"
+      },
+      "description": {
+        "fun": "Shroomish looks harmless, but when it senses danger it shakes itself and scatters toxic spores from the top of its head, enough to wilt trees and weeds and cause aches all over. It hides under fallen leaves in the shade by day and eats the rich compost of the forest floor. Round and speckled, it may also be a nod to a dinosaur egg.",
+        "guide": "A small Grass-type mushroom Pokémon that scatters toxic spores when it senses danger. It hides under fallen leaves and feeds on forest compost. It evolves into Breloom at level 23.",
+        "tagline": "A speckled mushroom that puffs out toxic spores",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shroomish (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shroomish_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "285",
+          "name": "Shroomish",
+          "generation": 3,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "d6f0e06a2cc0c473cb5baea85da30f6c",
+            "home": "01adbed6f328a4eaa42e2c7ffa3e66b5"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 286,
+              "form": "286"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 286,
+      "name": "Breloom",
+      "generation": 3,
+      "category": "Mushroom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shroomish"
+      },
+      "names": {
+        "de": "Kapilz",
+        "en": "Breloom",
+        "es": "Breloom",
+        "fr": "Chapignon",
+        "it": "Breloom",
+        "ja": "キノガッサ",
+        "ko": "버섯모",
+        "ja-Hrkt": "キノガッサ",
+        "zh-Hans": "斗笠菇",
+        "zh-Hant": "斗笠菇"
+      },
+      "description": {
+        "fun": "Breloom boxes like a professional, darting in on light, springy feet and lashing out with short arms that stretch for lightning-fast punches, or knocking foes out first with spores from the holes in its cap. Part mushroom, part boxing kangaroo and part dinosaur, it has a domed head and a clubbed tail, tipped with toxic seeds that taste horrible.",
+        "guide": "A Grass- and Fighting-type mushroom Pokémon, the evolution of Shroomish, with a kangaroo-like build. It fights with fast, stretching punches and incapacitates foes with spores from its cap. It feeds on decaying trees and plants.",
+        "tagline": "A mushroom with a boxer's footwork and stretchy punches",
+        "sources": [
+          {
+            "title": "Bulbapedia: Breloom (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Breloom_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "286",
+          "name": "Breloom",
+          "generation": 3,
+          "types": [
+            "grass",
+            "fighting"
+          ],
+          "pictures": {
+            "official": "f5cb143d6f5bff91cc2e293cc707cf50",
+            "home": "d0f00ed27f96527a8aec4b3fb87ae167"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 285,
+        "form": "285"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 286,
+        "form": "286"
+      },
+      "change": "evolves",
+      "how": "Level 23"
+    }
+  ]
+}

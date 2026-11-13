@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus distributions",
+  "description": "Every distribution a copy or a set names: how copies were handed out (a product, an event, a program, a shop, a campaign, a magazine or book, a test run), with how many copies came out through it and how many sets name it, then every series, which groups distributions that recur (docs/static-api.md, \"Distributions\").",
+  "type": "object",
+  "required": [
+    "distributionCount",
+    "distributions",
+    "series"
+  ],
+  "properties": {
+    "distributionCount": {
+      "description": "How many distributions; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "distributions": {
+      "description": "Every distribution.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name",
+          "record": "distribution"
+        },
+        "required": [
+          "id",
+          "name",
+          "category",
+          "variantCount",
+          "setCount",
+          "catalogs"
+        ],
+        "properties": {
+          "id": {
+            "description": "The distribution's id (distributions/{distribution}.json).",
+            "type": "string"
+          },
+          "name": {
+            "description": "Its name.",
+            "type": "string"
+          },
+          "category": {
+            "description": "What kind of distribution it is: a product, an event, a program, a shop, a campaign, a publication, a test run or staff.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "distribution"
+            },
+            "$ref": "#/$defs/vocabulary.distribution"
+          },
+          "series": {
+            "description": "The series it belongs to, where it is in one.",
+            "type": "object",
+            "x-cc": {
+              "ref": "distribution-series"
+            },
+            "required": [
+              "$kind",
+              "series"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `distribution-series`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "distribution-series"
+              },
+              "series": {
+                "description": "The distribution series' id (distribution-series/{series}.json).",
+                "type": "string"
+              },
+              "name": {
+                "description": "A copy of the target's own `name`.",
+                "type": "string"
+              }
+            }
+          },
+          "variantCount": {
+            "description": "How many copies that came out through it: its sets' and the ones named one by one; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "setCount": {
+            "description": "How many sets that name it for every copy of them; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "catalogs": {
+            "description": "The catalogs its copies are in.",
+            "type": "array",
+            "items": {
+              "description": "A catalog.",
+              "type": "string",
+              "x-cc": {
+                "vocabulary": "catalog"
+              },
+              "$ref": "#/$defs/vocabulary.catalog"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "series": {
+      "description": "Every distribution series.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name",
+          "record": "distribution-series"
+        },
+        "required": [
+          "id",
+          "name",
+          "category",
+          "distributions",
+          "variantCount",
+          "catalogs"
+        ],
+        "properties": {
+          "id": {
+            "description": "The distribution series' id (distribution-series/{series}.json).",
+            "type": "string"
+          },
+          "name": {
+            "description": "Its name.",
+            "type": "string"
+          },
+          "category": {
+            "description": "What kind of distribution it is: a product, an event, a program, a shop, a campaign, a publication, a test run or staff.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "distribution"
+            },
+            "$ref": "#/$defs/vocabulary.distribution"
+          },
+          "distributions": {
+            "description": "Its distributions, in order (by the year and season each name gives).",
+            "type": "array",
+            "items": {
+              "description": "A distribution.",
+              "type": "object",
+              "x-cc": {
+                "ref": "distribution"
+              },
+              "required": [
+                "$kind",
+                "distribution"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `distribution`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "distribution"
+                },
+                "distribution": {
+                  "description": "The distribution's id (distributions/{distribution}.json).",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "variantCount": {
+            "description": "How many copies that came out through its distributions; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "catalogs": {
+            "description": "The catalogs its copies are in.",
+            "type": "array",
+            "items": {
+              "description": "A catalog.",
+              "type": "string",
+              "x-cc": {
+                "vocabulary": "catalog"
+              },
+              "$ref": "#/$defs/vocabulary.catalog"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "vocabulary.distribution": {
+      "description": "Every value of vocabulary.json's `distribution`.",
+      "enum": [
+        "product_promotion",
+        "event",
+        "program",
+        "prize",
+        "retailer_promotion",
+        "staff",
+        "campaign",
+        "publication_promotion",
+        "test"
+      ]
+    },
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    }
+  }
+}

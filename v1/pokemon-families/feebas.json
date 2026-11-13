@@ -1,0 +1,125 @@
+{
+  "id": "feebas",
+  "species": [
+    {
+      "dex": 349,
+      "name": "Feebas",
+      "generation": 3,
+      "category": "Fish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "feebas"
+      },
+      "names": {
+        "de": "Barschwa",
+        "en": "Feebas",
+        "es": "Feebas",
+        "fr": "Barpau",
+        "it": "Feebas",
+        "ja": "ヒンバス",
+        "ko": "빈티나",
+        "ja-Hrkt": "ヒンバス",
+        "zh-Hans": "丑丑鱼",
+        "zh-Hant": "醜醜魚"
+      },
+      "description": {
+        "fun": "Feebas is famously the shabbiest Pokémon of all, so dull-looking that predators, Trainers and researchers mostly ignore it. But it's tough, able to eat anything and live almost anywhere with a little water, and on Route 119 it can only be fished from six of the 436 water tiles. Like the ugly duckling, it grows into Milotic, said to be the most beautiful Pokémon.",
+        "guide": "A Water-type Pokémon based on a bass, considered the shabbiest of all Pokémon but able to live almost anywhere. It evolves into Milotic when levelled up with high Beauty or, from Generation 5, when traded holding a Prism Scale.",
+        "tagline": "The shabbiest Pokémon, an ugly duckling that becomes Milotic",
+        "sources": [
+          {
+            "title": "Bulbapedia: Feebas (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "349",
+          "name": "Feebas",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "c0b9178ff70a56a5d273da6c39d38652",
+            "home": "d6fc2770c35c4b153e360d1441eb71bb"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 350,
+              "form": "350"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 350,
+      "name": "Milotic",
+      "generation": 3,
+      "category": "Tender Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "feebas"
+      },
+      "names": {
+        "de": "Milotic",
+        "en": "Milotic",
+        "es": "Milotic",
+        "fr": "Milobellus",
+        "it": "Milotic",
+        "ja": "ミロカロス",
+        "ko": "밀로틱",
+        "ja-Hrkt": "ミロカロス",
+        "zh-Hans": "美纳斯",
+        "zh-Hant": "美納斯"
+      },
+      "description": {
+        "fun": "Milotic is said to be the most beautiful Pokémon of all and has inspired many artists. When it finds people fighting, it releases a wave of energy that calms angry feelings and ends the argument. Its name points to the Venus de Milo, and its rise from Feebas echoes the tale of the ugly duckling, though some Feebas fans are said to be disappointed when theirs evolves.",
+        "guide": "A Water-type Pokémon resembling a sea serpent with mermaid-like features, said to be the most beautiful Pokémon. It lives at the bottom of large lakes. It evolves from Feebas with high Beauty or by trade holding a Prism Scale.",
+        "tagline": "The most beautiful Pokémon, whose presence calms any quarrel",
+        "sources": [
+          {
+            "title": "Bulbapedia: Milotic (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Milotic_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "350",
+          "name": "Milotic",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "18d314c8268e363c636d948f84731a80",
+            "home": "58d9fc507bee46e8aea3437e72f17371"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 349,
+        "form": "349"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 350,
+        "form": "350"
+      },
+      "change": "evolves",
+      "how": "Level up, with high Beauty",
+      "otherWays": [
+        "Trade holding Prism Scale"
+      ]
+    }
+  ]
+}

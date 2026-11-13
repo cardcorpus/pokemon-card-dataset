@@ -1,0 +1,98 @@
+{
+  "id": "hoopa",
+  "species": [
+    {
+      "dex": 720,
+      "name": "Hoopa",
+      "generation": 6,
+      "category": "Mischief Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "hoopa"
+      },
+      "names": {
+        "de": "Hoopa",
+        "en": "Hoopa",
+        "es": "Hoopa",
+        "fr": "Hoopa",
+        "it": "Hoopa",
+        "ja": "フーパ",
+        "ko": "후파",
+        "ja-Hrkt": "フーパ",
+        "zh-Hans": "胡帕",
+        "zh-Hant": "胡帕"
+      },
+      "description": {
+        "fun": "Hoopa is a mischievous genie whose golden rings open Hyperspace Holes: it pulls anything it wants through them, from treasure to Legendary Pokémon. Its true power was sealed in the Prison Bottle long ago because of the destruction it caused, leaving it small and playful. It loves food with holes in it, especially doughnuts, and hides its stolen loot in a lair no one has ever found.",
+        "guide": "Hoopa is a Psychic- and Ghost-type Mythical Pokémon from Kalos, modelled on a djinn. Its rings open portals that can move people, objects and even Legendary Pokémon across space. Opening the Prison Bottle releases its true form, Hoopa Unbound, and it plays a major role in Legends: Z-A's Mega Dimension DLC.",
+        "tagline": "A ring-tossing genie who'll steal anything, and loves doughnuts",
+        "sources": [
+          {
+            "title": "Bulbapedia: Hoopa (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "720",
+          "name": "Hoopa",
+          "generation": 6,
+          "types": [
+            "psychic",
+            "ghost"
+          ],
+          "pictures": {
+            "official": "97d377f096640e04337799e130d091a7",
+            "home": "ac8e129a8dad00f2cc08ac473124ffac"
+          }
+        },
+        {
+          "id": "720:unbound",
+          "name": "Hoopa Unbound",
+          "category": "alternate",
+          "generation": 6,
+          "types": [
+            "psychic",
+            "dark"
+          ],
+          "names": {
+            "de": "Entfesseltes Hoopa",
+            "en": "Hoopa Unbound",
+            "fr": "Hoopa Déchaîné"
+          },
+          "pictures": {
+            "official": "c786a3d6f4359ce99d61ef58210863b9",
+            "home": "56865a7825631a3df4934885c7323a95"
+          },
+          "description": {
+            "fun": "Its true, towering six-armed form, released by opening the Prison Bottle, but only for three days. Its rings can grow miles across and carry whole islands through, and legend says it once teleported an entire castle from Kalos to steal the treasure inside.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Hoopa (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 720,
+        "form": "720"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 720,
+        "form": "720:unbound"
+      },
+      "change": "form_change"
+    }
+  ]
+}

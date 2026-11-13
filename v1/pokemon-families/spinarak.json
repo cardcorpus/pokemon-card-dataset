@@ -1,0 +1,124 @@
+{
+  "id": "spinarak",
+  "species": [
+    {
+      "dex": 167,
+      "name": "Spinarak",
+      "generation": 2,
+      "category": "String Spit Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spinarak"
+      },
+      "names": {
+        "de": "Webarak",
+        "en": "Spinarak",
+        "es": "Spinarak",
+        "fr": "Mimigal",
+        "it": "Spinarak",
+        "ja": "イトマル",
+        "ko": "페이검",
+        "ja-Hrkt": "イトマル",
+        "zh-Hans": "圆丝蛛",
+        "zh-Hant": "圓絲蛛"
+      },
+      "description": {
+        "fun": "Spinarak spins silk so strong that fishermen use its webs as nets, then waits for days, perfectly still, for something to get caught, telling what it is from the vibrations. The face-like pattern on its back can change expression. Its Japanese name, Itomaru, joins 'thread' with a suffix used in young boys' names.",
+        "guide": "A small spider Pokémon of the Bug and Poison types that spins very strong webs and waits patiently for prey. The face-like marking on its back can change expression. It evolves into Ariados.",
+        "tagline": "A patient spider with a face on its back that changes mood",
+        "sources": [
+          {
+            "title": "Bulbapedia: Spinarak (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "167",
+          "name": "Spinarak",
+          "generation": 2,
+          "types": [
+            "bug",
+            "poison"
+          ],
+          "pictures": {
+            "official": "0bb3b6cd0a820983f4b256e9966623a4",
+            "home": "58d6d08ddd785c71152640920aea0749"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 168,
+              "form": "168"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 168,
+      "name": "Ariados",
+      "generation": 2,
+      "category": "Long Leg Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "spinarak"
+      },
+      "names": {
+        "de": "Ariados",
+        "en": "Ariados",
+        "es": "Ariados",
+        "fr": "Migalos",
+        "it": "Ariados",
+        "ja": "アリアドス",
+        "ko": "아리아도스",
+        "ja-Hrkt": "アリアドス",
+        "zh-Hans": "阿利多斯",
+        "zh-Hant": "阿利多斯"
+      },
+      "description": {
+        "fun": "Ariados never hunts from one spot: it wanders far from its nest trailing a single thread behind it, and sometimes lets prey go with a thread attached so it can follow it back to its friends. Its name likely nods to Ariadne, who gave Theseus a ball of thread to find his way out of the Labyrinth.",
+        "guide": "A spider Pokémon of the Bug and Poison types and the evolved form of Spinarak. It hunts at night, trailing a thread back to its nest, and can spin silk from both its mouth and its rear. Its feet let it climb walls and ceilings.",
+        "tagline": "Trails a thread home, like Ariadne in the Labyrinth",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ariados (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ariados_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "168",
+          "name": "Ariados",
+          "generation": 2,
+          "types": [
+            "bug",
+            "poison"
+          ],
+          "pictures": {
+            "official": "64d69df53ed1d5ae0899c72f1e1ed415",
+            "home": "b0dfa41667bcf2a38e23d17a2ce3ec90"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 167,
+        "form": "167"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 168,
+        "form": "168"
+      },
+      "change": "evolves",
+      "how": "Level 22"
+    }
+  ]
+}

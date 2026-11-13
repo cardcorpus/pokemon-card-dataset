@@ -1,0 +1,122 @@
+{
+  "id": "glameow",
+  "species": [
+    {
+      "dex": 431,
+      "name": "Glameow",
+      "generation": 4,
+      "category": "Catty Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "glameow"
+      },
+      "names": {
+        "de": "Charmian",
+        "en": "Glameow",
+        "es": "Glameow",
+        "fr": "Chaglam",
+        "it": "Glameow",
+        "ja": "ニャルマー",
+        "ko": "나옹마",
+        "ja-Hrkt": "ニャルマー",
+        "zh-Hans": "魅力喵",
+        "zh-Hant": "魅力喵"
+      },
+      "description": {
+        "fun": "Glameow is as fickle as cats come: it purrs when happy and twirls its spring-shaped tail like a gymnast's ribbon, but if dinner is late it hooks its claws into its Trainer's nose. Some Trainers love it for exactly those mood swings. Its corkscrew tail seems to draw on an old Edo-period belief that cats with snake-like tails could bewitch people.",
+        "guide": "Glameow is a Normal-type cat with a spring-shaped tail and a hypnotic glare. It is fickle, purring when affectionate and clawing when displeased. It evolves into Purugly.",
+        "tagline": "A fickle cat that dances with its ribbon of a tail.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Glameow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Glameow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "431",
+          "name": "Glameow",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "128d3287067c8682a719970bbf817a47",
+            "home": "29af49630e2fd983937fdd2bd6e08938"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 432,
+              "form": "432"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 432,
+      "name": "Purugly",
+      "generation": 4,
+      "category": "Tiger Cat Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "glameow"
+      },
+      "names": {
+        "de": "Shnurgarst",
+        "en": "Purugly",
+        "es": "Purugly",
+        "fr": "Chaffreux",
+        "it": "Purugly",
+        "ja": "ブニャット",
+        "ko": "몬냥이",
+        "ja-Hrkt": "ブニャット",
+        "zh-Hans": "东施喵",
+        "zh-Hant": "東施喵"
+      },
+      "description": {
+        "fun": "Purugly cinches its waist with its forked tail, like a corset, to look bigger and beefier, then barges into other Pokémon's nests and glares until they leave. For all its rude, hard-to-tame ways it's surprisingly popular, thanks to fur finer than velveteen. Its name is purr plus ugly, which also reads as 'pure ugly'.",
+        "guide": "Purugly is the evolved form of Glameow, a large Normal-type cat. It binds its body with its split tail to look bigger and takes over other Pokémon's nests. Its fine fur makes it popular despite its rough temperament.",
+        "tagline": "A tubby cat that steals nests with a glare.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Purugly (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Purugly_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "432",
+          "name": "Purugly",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "39301adbf452f959ba8563f8e87191fe",
+            "home": "f39254c6dda734bbac9d01a6890b7c70"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 431,
+        "form": "431"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 432,
+        "form": "432"
+      },
+      "change": "evolves",
+      "how": "Level 38"
+    }
+  ]
+}

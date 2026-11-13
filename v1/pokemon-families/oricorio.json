@@ -1,0 +1,181 @@
+{
+  "id": "oricorio",
+  "species": [
+    {
+      "dex": 741,
+      "name": "Oricorio",
+      "generation": 7,
+      "category": "Dancing Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "oricorio"
+      },
+      "names": {
+        "de": "Choreogel",
+        "en": "Oricorio",
+        "es": "Oricorio",
+        "fr": "Plumeline",
+        "it": "Oricorio",
+        "ja": "オドリドリ",
+        "ko": "춤추새",
+        "ja-Hrkt": "オドリドリ",
+        "zh-Hans": "花舞鸟",
+        "zh-Hant": "花舞鳥"
+      },
+      "description": {
+        "fun": "Oricorio changes its whole look and type by sipping nectar: red nectar makes a fiery flamenco dancer, yellow a cheerleader with electric pom-poms, pink a psychic hula dancer, and purple a fan-waving Ghost type that borrows the power of spirits. Each style lives on a different Alolan island, and its colour matches the Hawaiian word behind that island's name. It's the only Pokémon that can learn Revelation Dance.",
+        "guide": "Oricorio is a bird Pokémon from Alola with four styles, each a different dance and type: Baile (Fire), Pom-Pom (Electric), Pa'u (Psychic) and Sensu (Ghost), all also Flying. It switches style by drinking a different coloured nectar. It doesn't evolve.",
+        "tagline": "A dancing bird that changes style with every sip of nectar",
+        "sources": [
+          {
+            "title": "Bulbapedia: Oricorio (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "741",
+          "name": "Oricorio",
+          "generation": 7,
+          "types": [
+            "fire",
+            "flying"
+          ],
+          "pictures": {
+            "official": "96f9c6d870ce4342b920b8bfe880e86c",
+            "home": "2e2124249d92169fe46ea1b9d6738c57"
+          }
+        },
+        {
+          "id": "741:pom-pom",
+          "name": "Pom-Pom Style Oricorio",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "names": {
+            "de": "Choreogel (Cheerleading)",
+            "en": "Pom-Pom Style Oricorio",
+            "fr": "Plumeline Style Pom-Pom"
+          },
+          "pictures": {
+            "official": "264476fa51663fc09ce943510a8f2da5",
+            "home": "7e92fd72c2346df5a969bcefcab72bfc"
+          },
+          "description": {
+            "fun": "Yellow nectar turns Oricorio into a cheerleader with pom-pom wings: its dancing charges its feathers with static, so it can cheer up glum people and shock unwary foes. It lives on Melemele Island.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Oricorio (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "741:pau",
+          "name": "Pa’u Style Oricorio",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "psychic",
+            "flying"
+          ],
+          "names": {
+            "de": "Choreogel (Hula)",
+            "en": "Pa’u Style Oricorio",
+            "fr": "Plumeline Style Hula"
+          },
+          "pictures": {
+            "official": "89e02adca88b5df1b96ee6d23f00b63e",
+            "home": "46358e99bb12c0d62d5c0f20f377abe6"
+          },
+          "description": {
+            "fun": "Pink nectar turns Oricorio into a laid-back hula dancer, named after the Hawaiian word for a skirt, that dances to focus its psychic power and to give thanks to its guardian deity. It gets so caught up dancing that it sometimes ignores its Trainer.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Oricorio (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "741:sensu",
+          "name": "Sensu Style Oricorio",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "ghost",
+            "flying"
+          ],
+          "names": {
+            "de": "Choreogel (Buyo)",
+            "en": "Sensu Style Oricorio",
+            "fr": "Plumeline Style Buyō"
+          },
+          "pictures": {
+            "official": "5e4bd4889dd712c69f01bd2d0349ed3f",
+            "home": "a98f6be9262b4a3f1b76630cd7891fa7"
+          },
+          "description": {
+            "fun": "Purple nectar turns Oricorio into a calm Ghost type with wings like the folding fans of Japanese dance: its dance draws in nearby spirits and borrows their power. Its dance reminds people who moved to Alola from Kanto of home.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Oricorio (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 741,
+        "form": "741"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 741,
+        "form": "741:pom-pom"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 741,
+        "form": "741"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 741,
+        "form": "741:pau"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 741,
+        "form": "741"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 741,
+        "form": "741:sensu"
+      },
+      "change": "form_change"
+    }
+  ]
+}

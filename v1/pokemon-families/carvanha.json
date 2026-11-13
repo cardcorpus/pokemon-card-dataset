@@ -1,0 +1,167 @@
+{
+  "id": "carvanha",
+  "species": [
+    {
+      "dex": 318,
+      "name": "Carvanha",
+      "generation": 3,
+      "category": "Savage Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "carvanha"
+      },
+      "names": {
+        "de": "Kanivanha",
+        "en": "Carvanha",
+        "es": "Carvanha",
+        "fr": "Carvanha",
+        "it": "Carvanha",
+        "ja": "キバニア",
+        "ko": "샤프니아",
+        "ja-Hrkt": "キバニア",
+        "zh-Hans": "利牙鱼",
+        "zh-Hant": "利牙魚"
+      },
+      "description": {
+        "fun": "A lone Carvanha is a coward, but in a group of five or more it turns vicious, swarming anything that enters its territory. Its teeth can chew through steel and rip wooden boats to pieces, so sailors steer well clear. It's based on a piranha, and in Ruby and Sapphire it was a favourite of Team Aqua's grunts.",
+        "guide": "A Water- and Dark-type Pokémon based on a piranha, with teeth strong enough to chew through steel. It lives in schools in jungle rivers, each school with its own territory. It evolves into Sharpedo at level 30.",
+        "tagline": "A cowardly piranha that turns vicious in a pack of five",
+        "sources": [
+          {
+            "title": "Bulbapedia: Carvanha (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Carvanha_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "318",
+          "name": "Carvanha",
+          "generation": 3,
+          "types": [
+            "water",
+            "dark"
+          ],
+          "pictures": {
+            "official": "a910f04feff11732861c1b539d93ee24",
+            "home": "06bce79f8845498f428e2f157b0ec7c8"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 319,
+              "form": "319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 319,
+      "name": "Sharpedo",
+      "generation": 3,
+      "category": "Brutal Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "carvanha"
+      },
+      "names": {
+        "de": "Tohaido",
+        "en": "Sharpedo",
+        "es": "Sharpedo",
+        "fr": "Sharpedo",
+        "it": "Sharpedo",
+        "ja": "サメハダー",
+        "ko": "샤크니아",
+        "ja-Hrkt": "サメハダー",
+        "zh-Hans": "巨牙鲨",
+        "zh-Hant": "巨牙鯊"
+      },
+      "description": {
+        "fun": "Sharpedo shoots seawater out of its rear like a jet engine to reach 75 to 80 miles per hour, though it can't keep it up over long distances. Its fangs can tear a supertanker apart and grow back the moment they fall out, and sailors keep its shed fangs as charms against accidents at sea. In Alola, people ride Sharpedo to speed across the water and smash rocks.",
+        "guide": "A Water- and Dark-type Pokémon based on a shark and shaped like a torpedo, feared as the 'Bully of the Sea'. It evolves from Carvanha at level 30 and can Mega Evolve with the Sharpedonite.",
+        "tagline": "The 'Bully of the Sea', a jet-propelled shark with regrowing fangs",
+        "sources": [
+          {
+            "title": "Bulbapedia: Sharpedo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "319",
+          "name": "Sharpedo",
+          "generation": 3,
+          "types": [
+            "water",
+            "dark"
+          ],
+          "pictures": {
+            "official": "730a1af66a9d23a816b9980d583a852e",
+            "home": "e95238d60ddfb15598bbc1a49bec9b7a"
+          }
+        },
+        {
+          "id": "319:mega",
+          "name": "Mega Sharpedo",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "water",
+            "dark"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Tohaido",
+            "en": "Mega Sharpedo",
+            "fr": "Méga-Sharpedo"
+          },
+          "pictures": {
+            "official": "f33f30fa2fcb4c78f63a202c3166fdeb",
+            "home": "8a2fb7cde4e0ad55cd8cf5fef7d555c8"
+          },
+          "description": {
+            "fun": "Mega Sharpedo's yellow markings are old battle scars that have resurfaced and cause it sharp pain, and the horns on its nose are retractable fangs that regrow endlessly. With explosive propulsion it can top 125 miles per hour in an instant. Its look may draw on a sawshark, and its body is shaped like a motorboat.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Sharpedo (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 318,
+        "form": "318"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 319,
+        "form": "319"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 319,
+        "form": "319"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 319,
+        "form": "319:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

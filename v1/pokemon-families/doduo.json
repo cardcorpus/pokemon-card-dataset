@@ -1,0 +1,124 @@
+{
+  "id": "doduo",
+  "species": [
+    {
+      "dex": 84,
+      "name": "Doduo",
+      "generation": 1,
+      "category": "Twin Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "doduo"
+      },
+      "names": {
+        "de": "Dodu",
+        "en": "Doduo",
+        "es": "Doduo",
+        "fr": "Doduo",
+        "it": "Doduo",
+        "ja": "ドードー",
+        "ko": "두두",
+        "ja-Hrkt": "ドードー",
+        "zh-Hans": "嘟嘟",
+        "zh-Hant": "嘟嘟"
+      },
+      "description": {
+        "fun": "Doduo can barely fly, but its legs more than make up for it: it sprints across the plains at 100 km/h, leaving footprints 10 cm deep, and bobs its two heads to keep its balance. The heads take turns keeping watch, swapping about every hour, and only sleep at the same time when they feel completely safe. Despite its name, it has more in common with an ostrich than a dodo.",
+        "guide": "A two-headed, bird-like Normal and Flying Pokémon with tiny wings that can barely fly but runs extremely fast. Its two heads share the same genes and take turns keeping watch. It evolves into Dodrio.",
+        "tagline": "Two heads, tiny wings and very fast legs",
+        "sources": [
+          {
+            "title": "Bulbapedia: Doduo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "84",
+          "name": "Doduo",
+          "generation": 1,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "894ebaf8231077e7b443fa01b106e856",
+            "home": "2be143564f0515c92eb98b3edd325aff"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 85,
+              "form": "85"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 85,
+      "name": "Dodrio",
+      "generation": 1,
+      "category": "Triple Bird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "doduo"
+      },
+      "names": {
+        "de": "Dodri",
+        "en": "Dodrio",
+        "es": "Dodrio",
+        "fr": "Dodrio",
+        "it": "Dodrio",
+        "ja": "ドードリオ",
+        "ko": "두트리오",
+        "ja-Hrkt": "ドードリオ",
+        "zh-Hans": "嘟嘟利",
+        "zh-Hant": "嘟嘟利"
+      },
+      "description": {
+        "fun": "Each of Dodrio's three heads has its own brain and mood, one joyful, one angry and one sad, and they bicker until at least one of them gets to eat. Together they can plan complex strategies, though sometimes Dodrio overthinks and freezes on the spot. Three hearts and three sets of lungs let it run vast distances without a rest.",
+        "guide": "The evolution of Doduo, a three-headed, flightless Normal and Flying Pokémon. Each head has its own brain and personality, and its three hearts and sets of lungs let it run long distances without rest.",
+        "tagline": "Joy, anger and sorrow, sharing one pair of legs",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dodrio (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "85",
+          "name": "Dodrio",
+          "generation": 1,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "e50023dda6eb70ac82de584f217e6852",
+            "home": "1041d3f8f677e828048675e31bd2b028"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 84,
+        "form": "84"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 85,
+        "form": "85"
+      },
+      "change": "evolves",
+      "how": "Level 31"
+    }
+  ]
+}

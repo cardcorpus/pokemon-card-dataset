@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus card list",
+  "description": "Every card in one slim list, so a card can be found by name or number without opening every set file: its pointer, with copies of its name, number, language and front picture, in sets.json's order and then its set's (docs/static-api.md, \"Card lists\").",
+  "type": "object",
+  "required": [
+    "cardCount",
+    "cards"
+  ],
+  "properties": {
+    "cardCount": {
+      "description": "How many cards; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "cards": {
+      "description": "Every card, in sets.json's order and then its set's.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "ref": "card",
+          "label": "name"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "card",
+          "name",
+          "language"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "const": "card"
+          },
+          "set": {
+            "description": "The set's id (sets.json).",
+            "type": "string"
+          },
+          "card": {
+            "description": "The card's id, unique in its set.",
+            "type": "string"
+          },
+          "name": {
+            "description": "A copy of the target's own `name`.",
+            "type": "string"
+          },
+          "number": {
+            "description": "A copy of the target's own `number`. Its number as printed (\"4/102\", \"SWSH001\"), and the part of it a sort reads.",
+            "type": "object",
+            "required": [
+              "numerator"
+            ],
+            "properties": {
+              "printed": {
+                "description": "The number as printed, where the card prints one.",
+                "type": "string"
+              },
+              "numerator": {
+                "description": "The part of the number a sort reads.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "language": {
+            "description": "A copy of the target's own `language`.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "$ref": "#/$defs/vocabulary.language"
+          },
+          "picture": {
+            "description": "A copy of the card's front picture id.",
+            "type": "object",
+            "required": [
+              "front"
+            ],
+            "properties": {
+              "front": {
+                "description": "The front.",
+                "type": "object",
+                "required": [
+                  "image"
+                ],
+                "properties": {
+                  "image": {
+                    "description": "The picture's id.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "vocabulary.language": {
+      "description": "Every value of vocabulary.json's `language`.",
+      "enum": [
+        "ja",
+        "en",
+        "zh-Hans",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ko",
+        "pt",
+        "pl",
+        "nl",
+        "zh-Hant"
+      ]
+    }
+  }
+}

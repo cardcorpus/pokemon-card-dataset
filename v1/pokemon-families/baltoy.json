@@ -1,0 +1,124 @@
+{
+  "id": "baltoy",
+  "species": [
+    {
+      "dex": 343,
+      "name": "Baltoy",
+      "generation": 3,
+      "category": "Clay Doll Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "baltoy"
+      },
+      "names": {
+        "de": "Puppance",
+        "en": "Baltoy",
+        "es": "Baltoy",
+        "fr": "Balbuto",
+        "it": "Baltoy",
+        "ja": "ヤジロン",
+        "ko": "오뚝군",
+        "ja-Hrkt": "ヤジロン",
+        "zh-Hans": "天秤偶",
+        "zh-Hant": "天秤偶"
+      },
+      "description": {
+        "fun": "Baltoy moves by spinning on its single pointed foot, and it even balances upright to sleep. It gathers with others of its kind in ruins and old graveyards to let out loud cries, and ancient cave paintings show it living alongside people. Its name comes from 'balancing toy', and its look from the dogū, clay figurines from Japan's prehistoric Jōmon period.",
+        "guide": "A Ground- and Psychic-type Pokémon resembling a clay balancing toy, found in ruins and old graveyards. It moves by spinning on one foot. It evolves into Claydol at level 36.",
+        "tagline": "A spinning clay figurine that sleeps balanced on one point",
+        "sources": [
+          {
+            "title": "Bulbapedia: Baltoy (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Baltoy_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "343",
+          "name": "Baltoy",
+          "generation": 3,
+          "types": [
+            "ground",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "092a0a9140bb96fa2bc9b6ac8795c41f",
+            "home": "5570e91462b2c27a8195db5ae26da907"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 344,
+              "form": "344"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 344,
+      "name": "Claydol",
+      "generation": 3,
+      "category": "Clay Doll Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "baltoy"
+      },
+      "names": {
+        "de": "Lepumentas",
+        "en": "Claydol",
+        "es": "Claydol",
+        "fr": "Kaorine",
+        "it": "Claydol",
+        "ja": "ネンドール",
+        "ko": "점토도리",
+        "ja-Hrkt": "ネンドール",
+        "zh-Hans": "念力土偶",
+        "zh-Hant": "念力土偶"
+      },
+      "description": {
+        "fun": "Claydol is said to have started out as a clay figure made by ancient people 20,000 years ago, apparently modelled on something that came down from the sky. It floats using psychic power and fires beams from the two orbs hovering at its sides. Its body melts when it gets wet, so it uses its powers to shield itself from the rain. The marks on its chest look like the Unown letter Q.",
+        "guide": "A Ground- and Psychic-type Pokémon resembling a clay figure from Japan's Jōmon period, said to have been made by ancient people. It floats and fires beams from orbs at its sides. It evolves from Baltoy at level 36.",
+        "tagline": "An ancient clay idol that shields itself from rain with psychic power",
+        "sources": [
+          {
+            "title": "Bulbapedia: Claydol (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Claydol_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "344",
+          "name": "Claydol",
+          "generation": 3,
+          "types": [
+            "ground",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "ccc6f8f90e238d6671ec4e16867f97a2",
+            "home": "122df156041bab442d42950367413ef7"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 343,
+        "form": "343"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 344,
+        "form": "344"
+      },
+      "change": "evolves",
+      "how": "Level 36"
+    }
+  ]
+}

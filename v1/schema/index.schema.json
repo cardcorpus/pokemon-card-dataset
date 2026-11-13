@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus static API manifest",
+  "description": "Where everything is: the files, how a pointer finds what it names, how a picture id becomes a url, and how many of each thing there are.",
+  "type": "object",
+  "required": [
+    "name",
+    "description",
+    "version",
+    "pictures",
+    "prices",
+    "marketplaces",
+    "catalogs",
+    "counts",
+    "files",
+    "pointers"
+  ],
+  "properties": {
+    "name": {
+      "description": "The dataset's name.",
+      "const": "CardCorpus"
+    },
+    "description": {
+      "description": "What the dataset is, in a sentence.",
+      "type": "string"
+    },
+    "version": {
+      "description": "The version of the shape these files follow (semver).",
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "pictures": {
+      "description": "How a picture id becomes a url: fill `{id}` (and `{width}`, one of `widths`) into `original` or `sized` (docs/static-api.md, \"Pictures\").",
+      "type": "object",
+      "required": [
+        "original",
+        "sized",
+        "widths"
+      ],
+      "properties": {
+        "original": {
+          "description": "The url of the picture as we have it, with `{id}`.",
+          "type": "string"
+        },
+        "sized": {
+          "description": "The url of a copy at one of `widths`, with `{id}` and `{width}`.",
+          "type": "string"
+        },
+        "widths": {
+          "description": "The widths a sized copy comes in, in pixels.",
+          "type": "array",
+          "items": {
+            "description": "A width.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "prices": {
+      "description": "Where prices are (docs/static-api.md, \"Prices\").",
+      "type": "object",
+      "required": [
+        "latest",
+        "sets",
+        "history",
+        "rates"
+      ],
+      "properties": {
+        "latest": {
+          "description": "A set's latest daily prices, with `{set}`.",
+          "type": "string"
+        },
+        "sets": {
+          "description": "Up to 64 sets' latest prices at once, with `{sets}`: their ids joined by commas.",
+          "type": "string"
+        },
+        "history": {
+          "description": "A card's price history, with `{set}` and `{card}`.",
+          "type": "string"
+        },
+        "rates": {
+          "description": "The day's exchange rates, to show prices in another currency.",
+          "type": "string"
+        }
+      }
+    },
+    "marketplaces": {
+      "description": "Where a card opens in a marketplace: fill a product id from marketplaces/ into `tcgplayer` or `cardmarket` (docs/static-api.md, \"Marketplace ids\").",
+      "type": "object",
+      "required": [
+        "tcgplayer",
+        "cardmarket"
+      ],
+      "properties": {
+        "tcgplayer": {
+          "description": "A TCGplayer product's url, with `{id}`.",
+          "type": "string"
+        },
+        "cardmarket": {
+          "description": "A Cardmarket product's url, with `{id}`.",
+          "type": "string"
+        }
+      }
+    },
+    "catalogs": {
+      "description": "The catalogs, in the order lists use.",
+      "type": "array",
+      "items": {
+        "description": "A catalog.",
+        "type": "string",
+        "x-cc": {
+          "vocabulary": "catalog"
+        },
+        "$ref": "#/$defs/vocabulary.catalog"
+      }
+    },
+    "counts": {
+      "description": "How many of each thing the files hold, each named for its unit.",
+      "type": "object",
+      "propertyNames": {
+        "pattern": "Count$"
+      },
+      "additionalProperties": {
+        "description": "How many there are of the thing the key names; always present, 0 included.",
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "files": {
+      "description": "Every file, as a pattern whose `{…}` a pointer's ids fill, with its JSON Schema.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "file",
+          "schema"
+        ],
+        "properties": {
+          "file": {
+            "description": "The file's path under /v1, with `{…}` for the ids that pick one.",
+            "type": "string"
+          },
+          "schema": {
+            "description": "Its JSON Schema's path under /v1.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "pointers": {
+      "description": "How to find what a pointer points at, by its `$kind` (docs/static-api.md, \"Pointers\"): fill `file` from the pointer's ids and open it, then walk `path` in order, at each step picking from `list` the item whose `match` field equals the pointer's `by` field.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "file",
+          "path"
+        ],
+        "properties": {
+          "file": {
+            "description": "The file to open, with `{…}` filled from the pointer's ids.",
+            "type": "string"
+          },
+          "path": {
+            "description": "The steps to walk, in order.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "list",
+                "match",
+                "by"
+              ],
+              "properties": {
+                "list": {
+                  "description": "The list to pick from.",
+                  "type": "string"
+                },
+                "match": {
+                  "description": "The field of each item to compare.",
+                  "type": "string"
+                },
+                "by": {
+                  "description": "The pointer's field to compare it with.",
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    }
+  }
+}

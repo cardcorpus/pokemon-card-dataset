@@ -1,0 +1,123 @@
+{
+  "id": "corphish",
+  "species": [
+    {
+      "dex": 341,
+      "name": "Corphish",
+      "generation": 3,
+      "category": "Ruffian Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "corphish"
+      },
+      "names": {
+        "de": "Krebscorps",
+        "en": "Corphish",
+        "es": "Corphish",
+        "fr": "Écrapince",
+        "it": "Corphish",
+        "ja": "ヘイガニ",
+        "ko": "가재군",
+        "ja-Hrkt": "ヘイガニ",
+        "zh-Hans": "龙虾小兵",
+        "zh-Hant": "龍蝦小兵"
+      },
+      "description": {
+        "fun": "Corphish is tough enough to live in polluted water and eat almost anything, and it's one of only two Pokémon, with Feebas, that can survive in stagnant ditches. Pokédex entries say it came to Hoenn from overseas, making it the first known foreign species in the Pokémon world, much like the red swamp crayfish it seems based on. Its Japanese name, Heigani, is why it says 'Hey, hey!' in some spin-off games.",
+        "guide": "A Water-type Pokémon based on a crayfish, so hardy it lives in polluted water and eats almost anything. Pokédex entries say it was brought to Hoenn from overseas. It evolves into Crawdaunt at level 30.",
+        "tagline": "A hardy crayfish from overseas that thrives in polluted water",
+        "sources": [
+          {
+            "title": "Bulbapedia: Corphish (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Corphish_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "341",
+          "name": "Corphish",
+          "generation": 3,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "e50db450b9ca33d15e4f16bb0bd963b4",
+            "home": "6e5c56790bbaf4eaa734fd4fbe4f078a"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 342,
+              "form": "342"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 342,
+      "name": "Crawdaunt",
+      "generation": 3,
+      "category": "Rogue Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "corphish"
+      },
+      "names": {
+        "de": "Krebutack",
+        "en": "Crawdaunt",
+        "es": "Crawdaunt",
+        "fr": "Colhomard",
+        "it": "Crawdaunt",
+        "ja": "シザリガー",
+        "ko": "가재장군",
+        "ja-Hrkt": "シザリガー",
+        "zh-Hans": "铁螯龙虾",
+        "zh-Hant": "鐵螯龍蝦"
+      },
+      "description": {
+        "fun": "Crawdaunt picks so many fights that no other Pokémon will live near its pond, and not even a swarm of Basculin can drive it away. Intruders get grabbed in its pincers and tossed out of the water. But when it loses its pincers it turns timid until they grow back, and after it moults it hides in its burrow until its new shell hardens. Its shell may mimic an open shark's mouth.",
+        "guide": "A Water- and Dark-type Pokémon based on a crayfish or lobster, fiercely territorial over the pond it lives in. It is known to be very hard to raise. It evolves from Corphish at level 30.",
+        "tagline": "A pond bully that turns timid when it loses its pincers",
+        "sources": [
+          {
+            "title": "Bulbapedia: Crawdaunt (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Crawdaunt_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "342",
+          "name": "Crawdaunt",
+          "generation": 3,
+          "types": [
+            "water",
+            "dark"
+          ],
+          "pictures": {
+            "official": "396cc0a05cf0077187cdc389270cfe65",
+            "home": "bd49b69f964a1cda65014a36475c31f8"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 341,
+        "form": "341"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 342,
+        "form": "342"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

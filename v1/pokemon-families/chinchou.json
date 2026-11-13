@@ -1,0 +1,124 @@
+{
+  "id": "chinchou",
+  "species": [
+    {
+      "dex": 170,
+      "name": "Chinchou",
+      "generation": 2,
+      "category": "Angler Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "chinchou"
+      },
+      "names": {
+        "de": "Lampi",
+        "en": "Chinchou",
+        "es": "Chinchou",
+        "fr": "Loupio",
+        "it": "Chinchou",
+        "ja": "チョンチー",
+        "ko": "초라기",
+        "ja-Hrkt": "チョンチー",
+        "zh-Hans": "灯笼鱼",
+        "zh-Hant": "燈籠魚"
+      },
+      "description": {
+        "fun": "Chinchou lives on the dark sea floor, where it lures prey with the glowing orbs on its two antennae, flashes them to talk to other Chinchou, and zaps attackers with positive and negative charges. It makes so much electricity that it tingles a little itself. Its name likely comes from chōchin, Japanese for 'lantern'.",
+        "guide": "A small, round fish Pokémon of the Water and Electric types that lives on the dark ocean floor. The glowing orbs on its antennae lure prey and signal other Chinchou, and they can discharge electricity in defence. It evolves into Lanturn.",
+        "tagline": "A deep-sea lantern fish that tingles from its own electricity",
+        "sources": [
+          {
+            "title": "Bulbapedia: Chinchou (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Chinchou_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "170",
+          "name": "Chinchou",
+          "generation": 2,
+          "types": [
+            "water",
+            "electric"
+          ],
+          "pictures": {
+            "official": "bae27fc8808cefd448eb48cb6aa3bd2f",
+            "home": "6996fe3eeaaf39fc7669e47cf5fa89af"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 171,
+              "form": "171"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 171,
+      "name": "Lanturn",
+      "generation": 2,
+      "category": "Light Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "chinchou"
+      },
+      "names": {
+        "de": "Lanturn",
+        "en": "Lanturn",
+        "es": "Lanturn",
+        "fr": "Lanturn",
+        "it": "Lanturn",
+        "ja": "ランターン",
+        "ko": "랜턴",
+        "ja-Hrkt": "ランターン",
+        "zh-Hans": "电灯怪",
+        "zh-Hant": "電燈怪"
+      },
+      "description": {
+        "fun": "Lanturn's lights shine thanks to bacteria inside its orbs, which glow by feeding on its body fluids. It lures prey close, blinds it with a sudden flash and swallows it whole. The flash can be seen at the surface from more than five kilometres down, which has earned it the nickname 'the Deep-Sea Star'.",
+        "guide": "An anglerfish-like Pokémon of the Water and Electric types and the evolved form of Chinchou. Light-producing bacteria in the orbs on its antenna let it lure and blind prey in the deep sea. Its flash is said to be visible from the surface at depths of over five kilometres.",
+        "tagline": "The Deep-Sea Star, whose flash shows from five kilometres down",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lanturn (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lanturn_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "171",
+          "name": "Lanturn",
+          "generation": 2,
+          "types": [
+            "water",
+            "electric"
+          ],
+          "pictures": {
+            "official": "17d689fd03e0315d58c4791549f24a77",
+            "home": "fdbf3bb2888159f2244e50078546e76c"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 170,
+        "form": "170"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 171,
+        "form": "171"
+      },
+      "change": "evolves",
+      "how": "Level 27"
+    }
+  ]
+}

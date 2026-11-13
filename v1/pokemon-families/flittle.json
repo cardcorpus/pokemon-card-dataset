@@ -1,0 +1,122 @@
+{
+  "id": "flittle",
+  "species": [
+    {
+      "dex": 955,
+      "name": "Flittle",
+      "generation": 9,
+      "category": "Frill Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "flittle"
+      },
+      "names": {
+        "de": "Flattutu",
+        "en": "Flittle",
+        "es": "Flittle",
+        "fr": "Flotillon",
+        "it": "Flittle",
+        "ja": "ヒラヒナ",
+        "ko": "하느라기",
+        "ja-Hrkt": "ヒラヒナ",
+        "zh-Hans": "飘飘雏",
+        "zh-Hant": "飄飄雛"
+      },
+      "description": {
+        "fun": "A frilly little chick whose belly frills give off so much psychic power that its toes float about a centimetre off the ground. It spends its days running around wastelands and mountains, and it's vengeful too: steal its beloved Berries and it will chase you down to get its revenge.",
+        "guide": "A Psychic-type chick Pokémon from Pokémon Scarlet and Violet, designed by Atsuko Nishida. Flittle hovers slightly above the ground on its psychic power. It evolves into Espathra.",
+        "tagline": "A hovering chick that never forgives a Berry thief",
+        "sources": [
+          {
+            "title": "Bulbapedia: Flittle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Flittle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "955",
+          "name": "Flittle",
+          "generation": 9,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "30bebfff003c9ffbe828ce2181bd1235",
+            "home": "06b4a38379eb27dec97c5743ba5d8180"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 956,
+              "form": "956"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 956,
+      "name": "Espathra",
+      "generation": 9,
+      "category": "Ostrich Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "flittle"
+      },
+      "names": {
+        "de": "Psiopatra",
+        "en": "Espathra",
+        "es": "Espathra",
+        "fr": "Cléopsytra",
+        "it": "Espathra",
+        "ja": "クエスパトラ",
+        "ko": "클레스퍼트라",
+        "ja-Hrkt": "クエスパトラ",
+        "zh-Hans": "超能艳鸵",
+        "zh-Hant": "超能艷鴕"
+      },
+      "description": {
+        "fun": "A frilled ostrich that freezes its foes in place with psychic power from its huge eyes, and despite its looks it has a vicious temper. Its long legs carry it at over 200 km/h, though it has to stop to turn. Its look and name draw on Cleopatra, and its psychic ostrich feathers may nod to Maat, the Egyptian goddess of truth whose symbol was an ostrich feather.",
+        "guide": "The evolution of Flittle, a Psychic-type ostrich Pokémon inspired by Cleopatra, designed by Hitoshi Ariga. It immobilizes foes with psychic power and runs at great speed.",
+        "tagline": "A psychic ostrich with Cleopatra's style",
+        "sources": [
+          {
+            "title": "Bulbapedia: Espathra (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Espathra_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "956",
+          "name": "Espathra",
+          "generation": 9,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "dfa2579d82ea3d1645a073d5912ee33d",
+            "home": "9a3e17c752f5be9154a268bc2d34ae49"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 955,
+        "form": "955"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 956,
+        "form": "956"
+      },
+      "change": "evolves",
+      "how": "Level 35"
+    }
+  ]
+}

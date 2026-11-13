@@ -1,0 +1,123 @@
+{
+  "id": "karrablast",
+  "species": [
+    {
+      "dex": 588,
+      "name": "Karrablast",
+      "generation": 5,
+      "category": "Clamping Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "karrablast"
+      },
+      "names": {
+        "de": "Laukaps",
+        "en": "Karrablast",
+        "es": "Karrablast",
+        "fr": "Carabing",
+        "it": "Karrablast",
+        "ja": "カブルモ",
+        "ko": "딱정곤",
+        "ja-Hrkt": "カブルモ",
+        "zh-Hans": "盖盖虫",
+        "zh-Hant": "蓋蓋蟲"
+      },
+      "description": {
+        "fun": "Karrablast has a strange bond with Shelmet: for some reason it evolves when it receives electrical energy while in the same place as one. It also hunts Shelmet, spitting a liquid that melts through their shells so it can eat what's inside. Atsuko Nishida first suggested it as a snail-eating beetle, and its horn looks a bit like an escargot fork. When threatened, it spits acid to drive attackers off.",
+        "guide": "Karrablast is a Bug-type beetle Pokémon that preys on Shelmet. It evolves into Escavalier when traded for a Shelmet, which evolves into Accelgor at the same time.",
+        "tagline": "A snail-eating beetle with a horn like an escargot fork.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Karrablast (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Karrablast_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "588",
+          "name": "Karrablast",
+          "generation": 5,
+          "types": [
+            "bug"
+          ],
+          "pictures": {
+            "official": "5faec1630349d12d0c4097b2d65a239d",
+            "home": "0db60c057953a28695e8ca0229f8a370"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 589,
+              "form": "589"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 589,
+      "name": "Escavalier",
+      "generation": 5,
+      "category": "Cavalry Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "karrablast"
+      },
+      "names": {
+        "de": "Cavalanzas",
+        "en": "Escavalier",
+        "es": "Escavalier",
+        "fr": "Lançargot",
+        "it": "Escavalier",
+        "ja": "シュバルゴ",
+        "ko": "슈바르고",
+        "ja-Hrkt": "シュバルゴ",
+        "zh-Hans": "骑士蜗牛",
+        "zh-Hant": "騎士蝸牛"
+      },
+      "description": {
+        "fun": "Escavalier wears the shell it took from a Shelmet as a suit of armour, and its arms end in lances, making it a little jousting knight. It flies at high speed and charges with lances ready, facing opponents bravely even when it's in trouble. It's popular in Galar, where a famous painting shows it duelling Sirfetch'd. Its name mixes 'escargot' with 'cavalier', and it may nod to medieval art of knights battling snails.",
+        "guide": "Escavalier is the evolved form of Karrablast, a Bug- and Steel-type Pokémon that wears a Shelmet's shell as armour and attacks with lance-like arms. It evolves when Karrablast is traded for a Shelmet.",
+        "tagline": "A jousting knight in armour taken from a snail.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Escavalier (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Escavalier_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "589",
+          "name": "Escavalier",
+          "generation": 5,
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "pictures": {
+            "official": "e5bdd9959fc920c35657592eac6f772f",
+            "home": "512d505b20e289a74a3e36f26e547582"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 588,
+        "form": "588"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 589,
+        "form": "589"
+      },
+      "change": "evolves",
+      "how": "Trade for Shelmet"
+    }
+  ]
+}

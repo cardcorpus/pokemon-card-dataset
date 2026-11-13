@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus paintings",
+  "description": "Every painting printed on more than one card, as a pointer with its `printCount`, by its set in sets.json's order, then as its file lists them (docs/static-api.md, \"Card lists\").",
+  "type": "object",
+  "required": [
+    "paintingCount",
+    "paintings"
+  ],
+  "properties": {
+    "paintingCount": {
+      "description": "How many paintings printed on more than one card; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "paintings": {
+      "description": "Every such painting.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "ref": "painting"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "painting",
+          "printCount"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "const": "painting"
+          },
+          "set": {
+            "description": "The set's id (sets.json).",
+            "type": "string"
+          },
+          "painting": {
+            "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+            "type": "string"
+          },
+          "printCount": {
+            "description": "How many cards print it.",
+            "type": "integer",
+            "minimum": 2
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

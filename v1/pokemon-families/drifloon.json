@@ -1,0 +1,124 @@
+{
+  "id": "drifloon",
+  "species": [
+    {
+      "dex": 425,
+      "name": "Drifloon",
+      "generation": 4,
+      "category": "Balloon Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drifloon"
+      },
+      "names": {
+        "de": "Driftlon",
+        "en": "Drifloon",
+        "es": "Drifloon",
+        "fr": "Baudrive",
+        "it": "Drifloon",
+        "ja": "フワンテ",
+        "ko": "흔들풍손",
+        "ja-Hrkt": "フワンテ",
+        "zh-Hans": "飘飘球",
+        "zh-Hant": "飄飄球"
+      },
+      "description": {
+        "fun": "It looks like a lost balloon, but Drifloon is formed from wandering souls, and an old folktale calls it the 'Signpost for Wandering Spirits'. It's said to grab children's hands and lead them away to the afterlife, though it's so light it usually gets dragged around instead. It runs off from children who play too rough, and it dislikes heavy ones.",
+        "guide": "Drifloon is a Ghost- and Flying-type Pokémon shaped like a balloon, said to be formed from the spirits of people and Pokémon. Stories say it tries to carry children away, though it is light and easily pulled around. It evolves into Drifblim.",
+        "tagline": "A balloon of lost souls that wants to hold your hand.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Drifloon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "425",
+          "name": "Drifloon",
+          "generation": 4,
+          "types": [
+            "ghost",
+            "flying"
+          ],
+          "pictures": {
+            "official": "e26fc0a2e888b6b4534f50b69a16ae27",
+            "home": "bfe0a8bc65edcd76f08009d9107934f0"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 426,
+              "form": "426"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 426,
+      "name": "Drifblim",
+      "generation": 4,
+      "category": "Blimp Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "drifloon"
+      },
+      "names": {
+        "de": "Drifzepeli",
+        "en": "Drifblim",
+        "es": "Drifblim",
+        "fr": "Grodrive",
+        "it": "Drifblim",
+        "ja": "フワライド",
+        "ko": "둥실라이드",
+        "ja-Hrkt": "フワライド",
+        "zh-Hans": "随风球",
+        "zh-Hant": "隨風球"
+      },
+      "description": {
+        "fun": "Drifblim is a hot-air balloon with no say in where it goes: it can lift people and Pokémon, but only drifts with the wind. At dusk, flocks rise silently into the sky and vanish when someone notices, and there's a rumour that catching one floating at dusk will carry you to the afterlife. Its fleeting, melancholy air has inspired songs and poems.",
+        "guide": "Drifblim is the evolved form of Drifloon, a Ghost- and Flying-type Pokémon resembling a hot-air balloon. It can carry people and Pokémon but cannot steer, drifting wherever the wind takes it, and groups fly off at dusk to unknown places.",
+        "tagline": "A drifting blimp of souls that vanishes at dusk.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Drifblim (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Drifblim_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "426",
+          "name": "Drifblim",
+          "generation": 4,
+          "types": [
+            "ghost",
+            "flying"
+          ],
+          "pictures": {
+            "official": "60178889d9fa6f25fe37fd5477c2765e",
+            "home": "729b4435c288520ad9b7b41237efee31"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 425,
+        "form": "425"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 426,
+        "form": "426"
+      },
+      "change": "evolves",
+      "how": "Level 28"
+    }
+  ]
+}

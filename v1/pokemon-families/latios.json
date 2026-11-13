@@ -1,0 +1,99 @@
+{
+  "id": "latios",
+  "species": [
+    {
+      "dex": 381,
+      "name": "Latios",
+      "generation": 3,
+      "category": "Eon Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "latios"
+      },
+      "names": {
+        "de": "Latios",
+        "en": "Latios",
+        "es": "Latios",
+        "fr": "Latios",
+        "it": "Latios",
+        "ja": "ラティオス",
+        "ko": "라티오스",
+        "ja-Hrkt": "ラティオス",
+        "zh-Hans": "拉帝欧斯",
+        "zh-Hant": "拉帝歐斯"
+      },
+      "description": {
+        "fun": "Latios can fly faster than a jet by tucking in its arms, and it uses telepathy to sense places and the feelings of others. It's gentle and avoids fighting, opening its heart only to compassionate Trainers, though the anime's Latios is grumpier and slow to trust people. When it sleeps it's often wrapped in a mysterious light, as if sharing its dreams with friends. Every Latios is male; Latias is its female counterpart.",
+        "guide": "A Dragon- and Psychic-type Legendary Pokémon shaped like a jet, always male, and one of the eon duo with Latias. It lives by the water's edge and is the only Pokémon that can learn Luster Purge. It can Mega Evolve with the Latiosite.",
+        "tagline": "A jet-fast eon dragon that reads hearts by telepathy",
+        "sources": [
+          {
+            "title": "Bulbapedia: Latios (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "381",
+          "name": "Latios",
+          "generation": 3,
+          "types": [
+            "dragon",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "f7c4ee21df903ff44801f99f87a51fe3",
+            "home": "bb9a3257b0e43d04006ab1bfdf4cf836"
+          }
+        },
+        {
+          "id": "381:mega",
+          "name": "Mega Latios",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "dragon",
+            "psychic"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Latios",
+            "en": "Mega Latios",
+            "fr": "Méga-Latios"
+          },
+          "pictures": {
+            "official": "a63f2f8095932b3294610f526f906810",
+            "home": "0379e9ed168d631776270b073328b919"
+          },
+          "description": {
+            "fun": "Mega Latios turns purple and moves its wings from its back to its arms, looking almost identical to Mega Latias but bigger and faster. It can reach Mach 4 and is regarded as one of the best Pokémon for fighting in the air.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Latios (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 381,
+        "form": "381"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 381,
+        "form": "381:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

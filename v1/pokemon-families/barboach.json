@@ -1,0 +1,124 @@
+{
+  "id": "barboach",
+  "species": [
+    {
+      "dex": 339,
+      "name": "Barboach",
+      "generation": 3,
+      "category": "Whiskers Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "barboach"
+      },
+      "names": {
+        "de": "Schmerbe",
+        "en": "Barboach",
+        "es": "Barboach",
+        "fr": "Barloche",
+        "it": "Barboach",
+        "ja": "ドジョッチ",
+        "ko": "미꾸리",
+        "ja-Hrkt": "ドジョッチ",
+        "zh-Hans": "泥泥鳅",
+        "zh-Hant": "泥泥鰍"
+      },
+      "description": {
+        "fun": "Barboach is coated in a slimy film that keeps out germs and lets it slip free when a predator grabs it. It hides in the mud with only its whiskers poking out, using them as radar in murky water and to taste and smell. One Pokédex entry repeats an old belief that Barboach is born from hardened mud. Its planned anime debut never aired, so it's the only Generation 3 Pokémon whose Pokédex entry the anime has never shown.",
+        "guide": "A Water- and Ground-type Pokémon based on a pond loach, covered in protective slime, which waits for prey buried in mud. It evolves into Whiscash at level 30.",
+        "tagline": "A slippery mud loach that tastes the water with its whiskers",
+        "sources": [
+          {
+            "title": "Bulbapedia: Barboach (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Barboach_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "339",
+          "name": "Barboach",
+          "generation": 3,
+          "types": [
+            "water",
+            "ground"
+          ],
+          "pictures": {
+            "official": "995e9db00986fb5a5f63f2ea58227454",
+            "home": "002544dab5c5a8e1c1e0b4e5124aed23"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 340,
+              "form": "340"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 340,
+      "name": "Whiscash",
+      "generation": 3,
+      "category": "Whiskers Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "barboach"
+      },
+      "names": {
+        "de": "Welsar",
+        "en": "Whiscash",
+        "es": "Whiscash",
+        "fr": "Barbicha",
+        "it": "Whiscash",
+        "ja": "ナマズン",
+        "ko": "메깅",
+        "ja-Hrkt": "ナマズン",
+        "zh-Hans": "鲶鱼王",
+        "zh-Hant": "鯰魚王"
+      },
+      "description": {
+        "fun": "Whiscash can sense earthquakes before they happen, and it can shake the ground itself: by thrashing its tail against the swamp bed, it sets off quakes reaching more than three miles to drive away intruders. It's a glutton that eats anything alive, and mud too. Its Japanese name, Namazun, comes from namazu, the catfish of Japanese myth said to cause earthquakes.",
+        "guide": "A Water- and Ground-type Pokémon based on a catfish and the earthquake-causing Namazu of Japanese myth. It nests at the bottom of ponds and swamps and guards its territory. It evolves from Barboach at level 30.",
+        "tagline": "A catfish that predicts earthquakes and starts a few of its own",
+        "sources": [
+          {
+            "title": "Bulbapedia: Whiscash (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Whiscash_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "340",
+          "name": "Whiscash",
+          "generation": 3,
+          "types": [
+            "water",
+            "ground"
+          ],
+          "pictures": {
+            "official": "d0f125f62d586451dc4f9d15f6f79799",
+            "home": "828050fb3eac0e4cbaec63df8c8c9db2"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 339,
+        "form": "339"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 340,
+        "form": "340"
+      },
+      "change": "evolves",
+      "how": "Level 30"
+    }
+  ]
+}

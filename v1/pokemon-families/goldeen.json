@@ -1,0 +1,122 @@
+{
+  "id": "goldeen",
+  "species": [
+    {
+      "dex": 118,
+      "name": "Goldeen",
+      "generation": 1,
+      "category": "Goldfish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "goldeen"
+      },
+      "names": {
+        "de": "Goldini",
+        "en": "Goldeen",
+        "es": "Goldeen",
+        "fr": "Poissirène",
+        "it": "Goldeen",
+        "ja": "トサキント",
+        "ko": "콘치",
+        "ja-Hrkt": "トサキント",
+        "zh-Hans": "角金鱼",
+        "zh-Hant": "角金魚"
+      },
+      "description": {
+        "fun": "Goldeen's flowing tail is admired for looking like a ballroom gown, earning it the nickname 'Water Dancer', but don't let the elegance fool you: kept in an aquarium, it will smash its way out with its horn. Goldeen compete to see whose horn is thickest and strongest, and in spring they swim upstream in big schools. It's based on the Tosakin, a curly fantail goldfish breed.",
+        "guide": "A white and orange goldfish-like Water Pokémon with a horn on its forehead and a flowing tail. It is common in rivers, ponds and lakes and swims upstream in schools in spring. It evolves into Seaking.",
+        "tagline": "An elegant goldfish with a horn and a wild streak",
+        "sources": [
+          {
+            "title": "Bulbapedia: Goldeen (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "118",
+          "name": "Goldeen",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "3e1e562b8e3043ca3c9b0d74df7182dc",
+            "home": "cc414fd66289d9e1f996046b632ef73f"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 119,
+              "form": "119"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 119,
+      "name": "Seaking",
+      "generation": 1,
+      "category": "Goldfish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "goldeen"
+      },
+      "names": {
+        "de": "Golking",
+        "en": "Seaking",
+        "es": "Seaking",
+        "fr": "Poissoroy",
+        "it": "Seaking",
+        "ja": "アズマオウ",
+        "ko": "왕콘치",
+        "ja-Hrkt": "アズマオウ",
+        "zh-Hans": "金鱼王",
+        "zh-Hant": "金魚王"
+      },
+      "description": {
+        "fun": "In the autumn spawning season, Seaking grow plump and bright, and the males perform elaborate courtship dances; the females pick the most graceful dancer. Seaking bore holes in riverbed boulders with their horns to shelter their eggs, and the pair take turns guarding the nest for about a month. Some Trainers are obsessed with Seaking's horns and others with its fins, and the two groups can't get along.",
+        "guide": "The evolution of Goldeen, a large, orange and white goldfish-like Water Pokémon with a powerful horn. It is a strong swimmer that can climb waterfalls, and it bores holes in boulders to protect its eggs.",
+        "tagline": "A dancing goldfish king that drills nests into rock",
+        "sources": [
+          {
+            "title": "Bulbapedia: Seaking (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "119",
+          "name": "Seaking",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "288b572cb3ceb337f26d18591e026384",
+            "home": "347e45aa14bb32ef453f3862b88707e4"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 118,
+        "form": "118"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 119,
+        "form": "119"
+      },
+      "change": "evolves",
+      "how": "Level 33"
+    }
+  ]
+}

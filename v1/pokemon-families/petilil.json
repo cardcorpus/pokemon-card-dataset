@@ -1,0 +1,185 @@
+{
+  "id": "petilil",
+  "species": [
+    {
+      "dex": 548,
+      "name": "Petilil",
+      "generation": 5,
+      "category": "Bulb Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "petilil"
+      },
+      "names": {
+        "de": "Lilminip",
+        "en": "Petilil",
+        "es": "Petilil",
+        "fr": "Chlorobule",
+        "it": "Petilil",
+        "ja": "チュリネ",
+        "ko": "치릴리",
+        "ja-Hrkt": "チュリネ",
+        "zh-Hans": "百合根娃娃",
+        "zh-Hant": "百合根娃娃"
+      },
+      "description": {
+        "fun": "The leaves on Petilil's head are bitter enough to make you dizzy, yet dried, boiled and drunk, they're remarkably good for fatigue, which makes Petilil popular with the elderly. The deeper their colour, the healthier it is, and regular pruning grows it into a fine plump shape. Petilil like clean water and rich soil, and if their home turns bad, the whole bunch packs up and moves. They're always female.",
+        "guide": "Petilil is a Grass-type Pokémon resembling a plant bulb, always female. The bitter leaves on its head are used to relieve fatigue, and it lives where the soil is moist and rich. It evolves into Lilligant with a Sun Stone, or into Hisuian Lilligant in Hisui.",
+        "tagline": "A little bulb whose bitter leaves make a restoring tea.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Petilil (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Petilil_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "548",
+          "name": "Petilil",
+          "generation": 5,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "a0031fc34784757115ecd8c6e024529c",
+            "home": "5386531e04d0c2ce2279eb39c7338a34"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 549,
+              "form": "549"
+            },
+            {
+              "$kind": "form",
+              "species": 549,
+              "form": "549:hisui"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 549,
+      "name": "Lilligant",
+      "generation": 5,
+      "category": "Flowering Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "petilil"
+      },
+      "names": {
+        "de": "Dressella",
+        "en": "Lilligant",
+        "es": "Lilligant",
+        "fr": "Fragilady",
+        "it": "Lilligant",
+        "ja": "ドレディア",
+        "ko": "드레디어",
+        "ja-Hrkt": "ドレディア",
+        "zh-Hans": "裙儿小姐",
+        "zh-Hant": "裙兒小姐"
+      },
+      "description": {
+        "fun": "Lilligant's flower crown is famously hard to coax into bloom, even for veteran Trainers and first-rate gardeners, and the most beautiful blooms are said to be those in the wild. Its fragrance calms the heart and differs with the soil it grew in, and oil from its flowers is staggeringly expensive. Designer Atsuko Nishida came up with it while looking at lilies at home, aiming for an 'extravagant princess'.",
+        "guide": "Lilligant is the evolved form of Petilil, a Grass-type Pokémon with a flower crown whose fragrance has a relaxing effect. Its flower is difficult to bring into bloom and needs constant care. In Hisui it has a Grass- and Fighting-type regional form, Hisuian Lilligant.",
+        "tagline": "An elegant lily princess whose flower is hard to bloom.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lilligant (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "549",
+          "name": "Lilligant",
+          "generation": 5,
+          "types": [
+            "grass"
+          ],
+          "pictures": {
+            "official": "b7b0da937dbcfef716ab3a6243d58a84",
+            "home": "033ea5ddfbc1451449c584836a58d5da"
+          }
+        },
+        {
+          "id": "549:hisui",
+          "name": "Hisuian Lilligant",
+          "category": "regional",
+          "region": "hisui",
+          "generation": 8,
+          "types": [
+            "grass",
+            "fighting"
+          ],
+          "names": {
+            "de": "Hisui Dressella",
+            "en": "Hisuian Lilligant",
+            "fr": "Fragilady de Hisui"
+          },
+          "pictures": {
+            "official": "bc9f27a56defe2138e6e824fdd76de20",
+            "home": "052c536e13780b490478bd5e8317fecd"
+          },
+          "description": {
+            "fun": "Life in Hisui's deep-snow mountains gave this Lilligant long, powerful legs, and it fights with leaping, ballet-like moves as if dancing. The scent of its flower crown heartens anyone nearby. It's the only Fighting-type Pokémon that is always female.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Lilligant (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "hisuian"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 548,
+        "form": "548"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 549,
+        "form": "549"
+      },
+      "change": "evolves",
+      "how": "Sun Stone"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 548,
+        "form": "548"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 549,
+        "form": "549:hisui"
+      },
+      "change": "evolves",
+      "how": "Sun Stone, in Hisui",
+      "note": {
+        "text": "A Petilil given a Sun Stone in Hisui, in Pokémon Legends: Arceus, becomes Hisuian Lilligant and gains the Fighting type.",
+        "term": "regional_rule",
+        "sources": [
+          {
+            "title": "Bulbapedia: Petilil (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Petilil_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Lilligant (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

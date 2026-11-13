@@ -1,0 +1,166 @@
+{
+  "id": "farfetchd",
+  "species": [
+    {
+      "dex": 83,
+      "name": "Farfetch’d",
+      "generation": 1,
+      "category": "Wild Duck Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "farfetchd"
+      },
+      "names": {
+        "de": "Porenta",
+        "en": "Farfetch’d",
+        "es": "Farfetch’d",
+        "fr": "Canarticho",
+        "it": "Farfetch’d",
+        "ja": "カモネギ",
+        "ko": "파오리",
+        "ja-Hrkt": "カモネギ",
+        "zh-Hans": "大葱鸭",
+        "zh-Hant": "大蔥鴨"
+      },
+      "description": {
+        "fun": "Farfetch'd is never without its leek: it wields it like a sword, builds its nest with it, eats it in an emergency and will defend it with its life, and it's picky about which stalks it uses. Its Japanese name, Kamonegi, comes from a saying about a duck turning up with its own spring onion, meaning an easy target. Sadly, it has grown rare, partly because a popular recipe cooked it with its leek.",
+        "guide": "A brown, duck-like Normal and Flying Pokémon that always carries a leek stalk, which it uses as a weapon, nesting material and emergency food. It is rarely seen and thought to be at risk of extinction. Farfetch'd from most regions does not evolve, but its Galarian form, a Fighting type, evolves into Sirfetch'd.",
+        "tagline": "A duck that never lets go of its leek",
+        "sources": [
+          {
+            "title": "Bulbapedia: Farfetch'd (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Farfetch'd_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "83",
+          "name": "Farfetch’d",
+          "generation": 1,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "f83c2fd60354c8cf14daeda089f9eaca",
+            "home": "37464140da2db5099368a0da6175a1f4"
+          }
+        },
+        {
+          "id": "83:galar",
+          "name": "Galarian Farfetch’d",
+          "category": "regional",
+          "region": "galar",
+          "generation": 8,
+          "types": [
+            "fighting"
+          ],
+          "names": {
+            "de": "Galar Porenta",
+            "en": "Galarian Farfetch’d",
+            "fr": "Canarticho de Galar"
+          },
+          "pictures": {
+            "official": "962c1a7c7c6f2c2d6b6f8d02e3a768b0",
+            "home": "6e31780ab663f5c74facce985a05148a"
+          },
+          "description": {
+            "fun": "Galar's Farfetch'd carries a much bigger leek and has built a sturdier body to carry it, which makes flying hard. Renowned for its courage, it wields the leek like a sword or a javelin and bets everything on one decisive blow.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Farfetch'd (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Farfetch'd_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "galarian",
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 865,
+              "form": "865"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 865,
+      "name": "Sirfetch’d",
+      "generation": 8,
+      "category": "Wild Duck Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "farfetchd"
+      },
+      "names": {
+        "de": "Lauchzelot",
+        "en": "Sirfetch’d",
+        "es": "Sirfetch’d",
+        "fr": "Palarticho",
+        "it": "Sirfetch’d",
+        "ja": "ネギガナイト",
+        "ko": "창파나이트",
+        "ja-Hrkt": "ネギガナイト",
+        "zh-Hans": "葱游兵",
+        "zh-Hant": "蔥遊兵"
+      },
+      "description": {
+        "fun": "Only Galarian Farfetch'd that have survived many battles become Sirfetch'd, a noble knight that fights fairly with a leek lance and a shield of hard leaves. It tends the same leek all its life, using it as food as well as a weapon, and when the leek finally withers, Sirfetch'd retires from battle for good. Despite the 'Sir', it's just as likely to be female.",
+        "guide": "A Fighting Pokémon introduced in Generation 8, the evolution of Galarian Farfetch'd. It carries a huge leek, using the stalk as a lance and the leaves as a shield, and is known for its calm, noble character. Galarian Farfetch'd evolves into it after landing three critical hits in one battle.",
+        "tagline": "A duck knight that retires when its leek wilts",
+        "sources": [
+          {
+            "title": "Bulbapedia: Sirfetch'd (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sirfetch'd_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "865",
+          "name": "Sirfetch’d",
+          "generation": 8,
+          "types": [
+            "fighting"
+          ],
+          "pictures": {
+            "official": "ea86558f906b8e6bbb84e64b8ba7c818",
+            "home": "5113ca183899a0d339fe7c3cd1a22218"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 83,
+        "form": "83:galar"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 865,
+        "form": "865"
+      },
+      "change": "evolves",
+      "how": "Land three critical hits in one battle",
+      "note": {
+        "text": "Only Galarian Farfetch'd can evolve: surviving many battles gave it the ability to become Sirfetch'd. Farfetch'd from other regions doesn't evolve at all.",
+        "term": "regional_evolution",
+        "sources": [
+          {
+            "title": "Bulbapedia: Farfetch'd (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Farfetch'd_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Sirfetch'd (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sirfetch'd_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

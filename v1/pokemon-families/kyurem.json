@@ -1,0 +1,142 @@
+{
+  "id": "kyurem",
+  "species": [
+    {
+      "dex": 646,
+      "name": "Kyurem",
+      "generation": 5,
+      "category": "Boundary Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "kyurem"
+      },
+      "names": {
+        "de": "Kyurem",
+        "en": "Kyurem",
+        "es": "Kyurem",
+        "fr": "Kyurem",
+        "it": "Kyurem",
+        "ja": "キュレム",
+        "ko": "큐레무",
+        "ja-Hrkt": "キュレム",
+        "zh-Hans": "酋雷姆",
+        "zh-Hant": "酋雷姆"
+      },
+      "description": {
+        "fun": "Kyurem generates a freezing energy inside itself, and when that energy leaked out, its own body froze; its latent power is greater than even Reshiram's and Zekrom's, held back only by the cold. One legend says it crashed to earth in an icy meteor, creating the Giant Chasm; another, that it's what was left when the original dragon split in two. It waits for a hero to fill in its missing parts with truth or ideals.",
+        "guide": "Kyurem is a Dragon- and Ice-type Legendary Pokémon from Unova's legends, with a body frozen by its own icy energy. Using the DNA Splicers, it can fuse with Reshiram to become White Kyurem or with Zekrom to become Black Kyurem.",
+        "tagline": "A frozen, incomplete dragon waiting for truth or ideals.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kyurem (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "646",
+          "name": "Kyurem",
+          "generation": 5,
+          "types": [
+            "dragon",
+            "ice"
+          ],
+          "pictures": {
+            "official": "70fb816aba8c43f4950dce503efa62d1",
+            "home": "d19ebe4bcf7f37e12a0fbc585db638a6"
+          }
+        },
+        {
+          "id": "646:white",
+          "name": "White Kyurem",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "dragon",
+            "ice"
+          ],
+          "names": {
+            "de": "Weißes Kyurem",
+            "en": "White Kyurem",
+            "fr": "Kyurem Blanc"
+          },
+          "pictures": {
+            "official": "585ef32663bb7204ec4dc09f4dad628a",
+            "home": "4441bd51276fb4872702d1e919e6e776"
+          },
+          "description": {
+            "fun": "Fusing with Reshiram, whose genes are close to its own, lets Kyurem wield both fire and ice. It stands upright like Reshiram, with Reshiram's turbine fitted into its tail, and having foreseen a world of truth for people and Pokémon, it strives to protect that future.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Kyurem (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "fusion"
+        },
+        {
+          "id": "646:black",
+          "name": "Black Kyurem",
+          "category": "alternate",
+          "generation": 5,
+          "types": [
+            "dragon",
+            "ice"
+          ],
+          "names": {
+            "de": "Schwarzes Kyurem",
+            "en": "Black Kyurem",
+            "fr": "Kyurem Noir"
+          },
+          "pictures": {
+            "official": "b3e7006b65b2697e46a4836f7e9aaa53",
+            "home": "df22094812e65a6fc456eeac7360be0f"
+          },
+          "description": {
+            "fun": "Fusing with Zekrom, whose genes are close to its own, lets Kyurem use both electricity and ice and bulks it up with Zekrom's black wings and muscle. Having foreseen an ideal world for people and Pokémon, it fights to protect that future. It's the cover star of Pokémon Black 2, with White Kyurem on White 2.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Kyurem (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "fusion"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 646,
+        "form": "646"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 646,
+        "form": "646:white"
+      },
+      "change": "fuses",
+      "with": "643"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 646,
+        "form": "646"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 646,
+        "form": "646:black"
+      },
+      "change": "fuses",
+      "with": "644"
+    }
+  ]
+}

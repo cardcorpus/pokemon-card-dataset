@@ -1,0 +1,124 @@
+{
+  "id": "taillow",
+  "species": [
+    {
+      "dex": 276,
+      "name": "Taillow",
+      "generation": 3,
+      "category": "Tiny Swallow Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "taillow"
+      },
+      "names": {
+        "de": "Schwalbini",
+        "en": "Taillow",
+        "es": "Taillow",
+        "fr": "Nirondelle",
+        "it": "Taillow",
+        "ja": "スバメ",
+        "ko": "테일로",
+        "ja-Hrkt": "スバメ",
+        "zh-Hans": "傲骨燕",
+        "zh-Hant": "傲骨燕"
+      },
+      "description": {
+        "fun": "Taillow is tiny but gutsy, standing up to powerful opponents without backing down, though it gets weak and cries loudly when it's hungry. In the cold season it flies more than 300 kilometres a day, and its favourite prey is Wurmple. Its name is simply 'tail' plus 'swallow', and its Japanese name, Subame, is a twist on tsubame, the word for swallow.",
+        "guide": "A small Normal- and Flying-type swallow Pokémon that stands up to stronger opponents and flies long distances in the cold season. It preys on Wurmple. It evolves into Swellow at level 22.",
+        "tagline": "A pint-sized swallow with more guts than size",
+        "sources": [
+          {
+            "title": "Bulbapedia: Taillow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "276",
+          "name": "Taillow",
+          "generation": 3,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "06703094a89dee1cf10cba30351b67d3",
+            "home": "65cea0ce19de2c96e845e0a70d5b0e54"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 277,
+              "form": "277"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 277,
+      "name": "Swellow",
+      "generation": 3,
+      "category": "Swallow Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "taillow"
+      },
+      "names": {
+        "de": "Schwalboss",
+        "en": "Swellow",
+        "es": "Swellow",
+        "fr": "Hélédelle",
+        "it": "Swellow",
+        "ja": "オオスバメ",
+        "ko": "스왈로",
+        "ja-Hrkt": "オオスバメ",
+        "zh-Hans": "大王燕",
+        "zh-Hant": "大王燕"
+      },
+      "description": {
+        "fun": "Swellow is a dive-bombing ace that swoops on its prey from the sky, and it takes great pride in its glossy plumage, even grooming the wings of other Swellow. When its two long tail feathers stand straight up, it's in good health. Those feathers look like a pair of katanas, fitting, since Aerial Ace's Japanese name, 'Swallow Return', comes from a famous sword technique.",
+        "guide": "A Normal- and Flying-type swallow Pokémon, the evolution of Taillow, known for fast diving attacks. It looks after its glossy feathers, and upright tail feathers are a sign of good health.",
+        "tagline": "A proud, glossy swallow that dive-bombs from the sky",
+        "sources": [
+          {
+            "title": "Bulbapedia: Swellow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "277",
+          "name": "Swellow",
+          "generation": 3,
+          "types": [
+            "normal",
+            "flying"
+          ],
+          "pictures": {
+            "official": "405c7522e2f07999691d281c76631069",
+            "home": "de218454f1672e60804d1ca1ae1dd1a5"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 276,
+        "form": "276"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 277,
+        "form": "277"
+      },
+      "change": "evolves",
+      "how": "Level 22"
+    }
+  ]
+}

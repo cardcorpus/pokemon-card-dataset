@@ -1,0 +1,124 @@
+{
+  "id": "ferroseed",
+  "species": [
+    {
+      "dex": 597,
+      "name": "Ferroseed",
+      "generation": 5,
+      "category": "Thorn Seed Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ferroseed"
+      },
+      "names": {
+        "de": "Kastadur",
+        "en": "Ferroseed",
+        "es": "Ferroseed",
+        "fr": "Grindur",
+        "it": "Ferroseed",
+        "ja": "テッシード",
+        "ko": "철시드",
+        "ja-Hrkt": "テッシード",
+        "zh-Hans": "种子铁球",
+        "zh-Hant": "種子鐵球"
+      },
+      "description": {
+        "fun": "Ferroseed is a spiky iron seed that lives in mossy caves, sticking its spikes into the walls to soak up minerals from the rock, while enzymes in the moss help those spikes grow big and strong. When threatened, it fires a barrage of spikes and rolls away, though its aim is poor at first and only improves with lots of practice. It may be based on burrs that stick to clothing, or on a durian.",
+        "guide": "Ferroseed is a Grass- and Steel-type seed Pokémon that clings to cave walls to absorb minerals from rock. It shoots spikes to defend itself. It evolves into Ferrothorn.",
+        "tagline": "A spiky iron seed that's still practising its aim.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ferroseed (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ferroseed_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "597",
+          "name": "Ferroseed",
+          "generation": 5,
+          "types": [
+            "grass",
+            "steel"
+          ],
+          "pictures": {
+            "official": "6223b796ffd656492b8cf43592dcb102",
+            "home": "bc87b2b408a4299402fcc0732675eb64"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 598,
+              "form": "598"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 598,
+      "name": "Ferrothorn",
+      "generation": 5,
+      "category": "Thorn Pod Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ferroseed"
+      },
+      "names": {
+        "de": "Tentantel",
+        "en": "Ferrothorn",
+        "es": "Ferrothorn",
+        "fr": "Noacier",
+        "it": "Ferrothorn",
+        "ja": "ナットレイ",
+        "ko": "너트령",
+        "ja-Hrkt": "ナットレイ",
+        "zh-Hans": "坚果哑铃",
+        "zh-Hant": "堅果啞鈴"
+      },
+      "description": {
+        "fun": "Ferrothorn hangs from cave ceilings and fires steel spikes at anything passing beneath. It swings its three feelers, tipped with spiked iron disks, like a medieval flail, and a hit can reduce a boulder to rubble. It also stabs them into rock to crawl along walls and draw nutrients from stone. It may draw on caltrops, the spiked metal traps once scattered to slow invading armies.",
+        "guide": "Ferrothorn is the evolved form of Ferroseed, a Grass- and Steel-type Pokémon covered in spikes harder than steel. It clings to cave ceilings and attacks with three spiked feelers.",
+        "tagline": "An iron burr that swings spiked feelers like a flail.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ferrothorn (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ferrothorn_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "598",
+          "name": "Ferrothorn",
+          "generation": 5,
+          "types": [
+            "grass",
+            "steel"
+          ],
+          "pictures": {
+            "official": "4f09c300fc37e86d3275f1f5582c58a6",
+            "home": "44c74ab3c98f8b169e4060ae75cdf2f2"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 597,
+        "form": "597"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 598,
+        "form": "598"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

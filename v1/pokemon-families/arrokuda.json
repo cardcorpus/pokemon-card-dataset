@@ -1,0 +1,122 @@
+{
+  "id": "arrokuda",
+  "species": [
+    {
+      "dex": 846,
+      "name": "Arrokuda",
+      "generation": 8,
+      "category": "Rush Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "arrokuda"
+      },
+      "names": {
+        "de": "Pikuda",
+        "en": "Arrokuda",
+        "es": "Arrokuda",
+        "fr": "Embrochet",
+        "it": "Arrokuda",
+        "ja": "サシカマス",
+        "ko": "찌로꼬치",
+        "ja-Hrkt": "サシカマス",
+        "zh-Hans": "刺梭鱼",
+        "zh-Hant": "刺梭魚"
+      },
+      "description": {
+        "fun": "A barracuda that can only swim fast in a straight line. It charges at anything that moves, leading with the pointed jaw it's so proud of, but its eyesight is so poor that it usually misses. After a big meal it turns sluggish, which is just when Cramorant or a flock of Wattrel swoop in to swallow it.",
+        "guide": "A small fish Pokémon based on the barracuda and pike, with a sharp jaw it uses to charge at prey. It swims fast only in straight lines and is a favourite food of Cramorant. It evolves into Barraskewda.",
+        "tagline": "A proud, pointy fish that charges at everything and misses",
+        "sources": [
+          {
+            "title": "Bulbapedia: Arrokuda (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Arrokuda_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "846",
+          "name": "Arrokuda",
+          "generation": 8,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "eda46363a2ceec2111d1b73afc7a878a",
+            "home": "c385ca0e0d9455275b42e16cd67938f5"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 847,
+              "form": "847"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 847,
+      "name": "Barraskewda",
+      "generation": 8,
+      "category": "Skewer Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "arrokuda"
+      },
+      "names": {
+        "de": "Barrakiefa",
+        "en": "Barraskewda",
+        "es": "Barraskewda",
+        "fr": "Hastacuda",
+        "it": "Barraskewda",
+        "ja": "カマスジョー",
+        "ko": "꼬치조",
+        "ja-Hrkt": "カマスジョー",
+        "zh-Hans": "戽斗尖梭",
+        "zh-Hant": "戽斗尖梭"
+      },
+      "description": {
+        "fun": "A living torpedo: Barraskewda spins its tail fins like a propeller to rocket through the water at over 100 knots (185 km/h), then spears its prey with a jaw as sharp as a spear and as strong as steel. It's said to be the fastest Pokémon in the water, and its flesh is apparently surprisingly tasty.",
+        "guide": "The evolution of Arrokuda, a long predatory fish Pokémon that propels itself at over 100 knots by spinning its tail and rams prey with its spear-like jaw. It leaps from the water to catch Wingull.",
+        "tagline": "A torpedo-fast barracuda with a spear for a jaw",
+        "sources": [
+          {
+            "title": "Bulbapedia: Barraskewda (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Barraskewda_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "847",
+          "name": "Barraskewda",
+          "generation": 8,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "7c7b1f53ae0fd4cb15e86dba88c41671",
+            "home": "2662372703bdcefa76592b046958e127"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 846,
+        "form": "846"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 847,
+        "form": "847"
+      },
+      "change": "evolves",
+      "how": "Level 26"
+    }
+  ]
+}

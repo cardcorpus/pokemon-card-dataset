@@ -1,0 +1,124 @@
+{
+  "id": "venonat",
+  "species": [
+    {
+      "dex": 48,
+      "name": "Venonat",
+      "generation": 1,
+      "category": "Insect Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "venonat"
+      },
+      "names": {
+        "de": "Bluzuk",
+        "en": "Venonat",
+        "es": "Venonat",
+        "fr": "Mimitoss",
+        "it": "Venonat",
+        "ja": "コンパン",
+        "ko": "콘팡",
+        "ja-Hrkt": "コンパン",
+        "zh-Hans": "毛球",
+        "zh-Hant": "毛球"
+      },
+      "description": {
+        "fun": "Venonat's big red compound eyes work like radar, and they can even fire powerful beams. It sleeps in hollow trees all day and comes out at night, because the small insects it eats only appear then; both Venonat and its prey are drawn to bright lights. Its fur flings toxic liquid when it shakes itself hard.",
+        "guide": "A small, round Bug and Poison Pokémon covered in purple fur that releases a toxic liquid, with large red compound eyes that act like radar. It is nocturnal, sleeping in trees by day and hunting small insects at night. It evolves into Venomoth.",
+        "tagline": "A fuzzy bug with radar for eyes",
+        "sources": [
+          {
+            "title": "Bulbapedia: Venonat (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Venonat_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "48",
+          "name": "Venonat",
+          "generation": 1,
+          "types": [
+            "bug",
+            "poison"
+          ],
+          "pictures": {
+            "official": "78be799fa5635d2d1c70e27fd7fd52ad",
+            "home": "256df2f1a1396df0a214a38f6ef6999c"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 49,
+              "form": "49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 49,
+      "name": "Venomoth",
+      "generation": 1,
+      "category": "Poison Moth Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "venonat"
+      },
+      "names": {
+        "de": "Omot",
+        "en": "Venomoth",
+        "es": "Venomoth",
+        "fr": "Aéromite",
+        "it": "Venomoth",
+        "ja": "モルフォン",
+        "ko": "도나리",
+        "ja-Hrkt": "モルフォン",
+        "zh-Hans": "摩鲁蛾",
+        "zh-Hant": "摩魯蛾"
+      },
+      "description": {
+        "fun": "Venomoth's wings shed dust-like scales whose colour tells you what they do: dark scales are poisonous, light ones cause paralysis. A nocturnal moth, it hunts insects that gather around lights, and is drawn to bright lights itself. Venomoth and Venonat went almost 22 years without a place in a new regional Pokédex, from Crystal until Scarlet and Violet.",
+        "guide": "The evolution of Venonat, a purple, moth-like Bug and Poison Pokémon. Its wings are covered in scales that are poisonous or paralysing depending on their colour. It is nocturnal and attracted to bright lights, where it hunts insects.",
+        "tagline": "A night moth whose wing dust paralyses or poisons",
+        "sources": [
+          {
+            "title": "Bulbapedia: Venomoth (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "49",
+          "name": "Venomoth",
+          "generation": 1,
+          "types": [
+            "bug",
+            "poison"
+          ],
+          "pictures": {
+            "official": "04bb48cd6fd6308c2dd4d1364f65070b",
+            "home": "acd1c37c9a7925d7b2db4e1aa8f63511"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 48,
+        "form": "48"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 49,
+        "form": "49"
+      },
+      "change": "evolves",
+      "how": "Level 31"
+    }
+  ]
+}

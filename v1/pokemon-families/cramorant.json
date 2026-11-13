@@ -1,0 +1,141 @@
+{
+  "id": "cramorant",
+  "species": [
+    {
+      "dex": 845,
+      "name": "Cramorant",
+      "generation": 8,
+      "category": "Gulp Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cramorant"
+      },
+      "names": {
+        "de": "Urgl",
+        "en": "Cramorant",
+        "es": "Cramorant",
+        "fr": "Nigosier",
+        "it": "Cramorant",
+        "ja": "ウッウ",
+        "ko": "윽우지",
+        "ja-Hrkt": "ウッウ",
+        "zh-Hans": "古月鸟",
+        "zh-Hant": "古月鳥"
+      },
+      "description": {
+        "fun": "A gluttonous, rather dim seabird that tries to swallow everything whole, ideally an Arrokuda. Sometimes it grabs a Pikachu by mistake and just carries on with it stuck in its throat. It can forget what it's battling mid-fight, but never forgets a Trainer it trusts. Its orange shiny colouring may come from British news stories about gulls dyed orange by falling into curry sauce.",
+        "guide": "A Flying and Water-type seabird Pokémon based on the cormorant. Cramorant tries to swallow prey whole, and changes into Gulping Form with an Arrokuda in its mouth or Gorging Form with a Pikachu stuck in its throat. It is strong but forgetful.",
+        "tagline": "A forgetful seabird that swallows prey whole, Pikachu included",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cramorant (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "845",
+          "name": "Cramorant",
+          "generation": 8,
+          "types": [
+            "flying",
+            "water"
+          ],
+          "pictures": {
+            "official": "751b5624f1085226cf260b86f2f2aae9",
+            "home": "2710214ff510dc65221d4294bb2c8637"
+          }
+        },
+        {
+          "id": "845:gulping",
+          "name": "Gulping Form Cramorant",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "flying",
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Urgl (Schlingend)",
+            "en": "Gulping Form Cramorant",
+            "fr": "Nigosier Forme Gobe-Tout"
+          },
+          "pictures": {
+            "official": "8fbc6366cab92c4f78b3adeadc565b28",
+            "home": "a21aee1d068fa2287e5c95ea211a4e02"
+          },
+          "description": {
+            "fun": "Cramorant with an Arrokuda stuck in its throat. Hit it and it spits the thrashing fish out at high speed, a trick that may borrow from traditional cormorant fishing.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Cramorant (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        },
+        {
+          "id": "845:gorging",
+          "name": "Gorging Form Cramorant",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "flying",
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Urgl (Stopfend)",
+            "en": "Gorging Form Cramorant",
+            "fr": "Nigosier Forme Gobe-Chu"
+          },
+          "pictures": {
+            "official": "9478a9e1a2c8a82281724f416873f7d2",
+            "home": "4db055df526f09777ba9f5b3277a85c4"
+          },
+          "description": {
+            "fun": "Cramorant with a whole Pikachu lodged in its gullet. It's choking a little but won't let go, and the Pikachu's prickling electricity gives attackers a shock.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Cramorant (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 845,
+        "form": "845"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 845,
+        "form": "845:gulping"
+      },
+      "change": "form_change"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 845,
+        "form": "845"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 845,
+        "form": "845:gorging"
+      },
+      "change": "form_change"
+    }
+  ]
+}

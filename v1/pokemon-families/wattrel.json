@@ -1,0 +1,124 @@
+{
+  "id": "wattrel",
+  "species": [
+    {
+      "dex": 940,
+      "name": "Wattrel",
+      "generation": 9,
+      "category": "Storm Petrel Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wattrel"
+      },
+      "names": {
+        "de": "Voltrel",
+        "en": "Wattrel",
+        "es": "Wattrel",
+        "fr": "Zapétrel",
+        "it": "Wattrel",
+        "ja": "カイデン",
+        "ko": "찌리비",
+        "ja-Hrkt": "カイデン",
+        "zh-Hans": "电海燕",
+        "zh-Hant": "電海燕"
+      },
+      "description": {
+        "fun": "A little seabird whose bones make electricity whenever its wings catch the wind. It dives into the sea and catches prey such as Arrokuda by electrocuting it. Wattrel build their nests on coastal cliffs, and the nests have a strange, crackling texture that makes them a popular delicacy, perhaps a nod to bird's nest soup.",
+        "guide": "An Electric and Flying-type storm petrel Pokémon from Pokémon Scarlet and Violet. Wattrel generates electricity in its bones when the wind catches its wings. It evolves into Kilowattrel.",
+        "tagline": "A storm petrel that makes electricity from the wind",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wattrel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wattrel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "940",
+          "name": "Wattrel",
+          "generation": 9,
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "pictures": {
+            "official": "230998f39e8fc19487fcba0cfda1f42c",
+            "home": "a48870106026439890d670d2bbec3c75"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 941,
+              "form": "941"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 941,
+      "name": "Kilowattrel",
+      "generation": 9,
+      "category": "Frigatebird Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wattrel"
+      },
+      "names": {
+        "de": "Voltrean",
+        "en": "Kilowattrel",
+        "es": "Kilowattrel",
+        "fr": "Fulgulairo",
+        "it": "Kilowattrel",
+        "ja": "タイカイデン",
+        "ko": "찌리비크",
+        "ja-Hrkt": "タイカイデン",
+        "zh-Hans": "大电海燕",
+        "zh-Hant": "大電海燕"
+      },
+      "description": {
+        "fun": "A frigatebird that stores the electricity its wings make in a throat sac, then inflates the sac to amplify it until it glows like a light bulb. Riding the wind, it can fly over 700 km in a day. There's hardly any oil in its feathers, though, so it's a poor swimmer, just like real frigatebirds.",
+        "guide": "The evolution of Wattrel, an Electric and Flying-type Pokémon based on the frigatebird. It stores and amplifies electricity in its throat sac and flies long distances on the wind.",
+        "tagline": "A frigatebird with a glowing throat full of electricity",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kilowattrel (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kilowattrel_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "941",
+          "name": "Kilowattrel",
+          "generation": 9,
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "pictures": {
+            "official": "05ea93b9bdbdb356c00484ceb5b7d3c2",
+            "home": "f34de8e9b026f7de143645952adbe247"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 940,
+        "form": "940"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 941,
+        "form": "941"
+      },
+      "change": "evolves",
+      "how": "Level 25"
+    }
+  ]
+}

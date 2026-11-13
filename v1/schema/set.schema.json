@@ -1,0 +1,3576 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus set",
+  "description": "One set: its releases, description, tell, print runs, versions and links, and every card with its copies, and its sealed products.",
+  "type": "object",
+  "x-cc": {
+    "label": "name"
+  },
+  "required": [
+    "id",
+    "catalog",
+    "name",
+    "type",
+    "language",
+    "cardCount",
+    "productCount",
+    "releases"
+  ],
+  "properties": {
+    "id": {
+      "description": "The set's id. Treat it as opaque: it never changes once published.",
+      "type": "string"
+    },
+    "catalog": {
+      "description": "The catalog the set belongs to.",
+      "type": "string",
+      "x-cc": {
+        "vocabulary": "catalog"
+      },
+      "$ref": "#/$defs/vocabulary.catalog"
+    },
+    "name": {
+      "description": "The set's name.",
+      "type": "string"
+    },
+    "era": {
+      "description": "Its era, by pointer, which stays when the era is renamed.",
+      "type": "object",
+      "x-cc": {
+        "ref": "era"
+      },
+      "required": [
+        "$kind",
+        "era",
+        "name"
+      ],
+      "properties": {
+        "$kind": {
+          "description": "What the pointer points at: `era`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+          "const": "era"
+        },
+        "era": {
+          "description": "The era's id (eras.json).",
+          "type": "string"
+        },
+        "name": {
+          "description": "A copy of the target's own `name`.",
+          "type": "string"
+        }
+      }
+    },
+    "type": {
+      "description": "What the set is, by how its cards reached people.",
+      "type": "string",
+      "x-cc": {
+        "vocabulary": "setType"
+      },
+      "$ref": "#/$defs/vocabulary.setType"
+    },
+    "language": {
+      "description": "The language its cards are printed in: its releases' (a French McDonald's set is international but French).",
+      "type": "string",
+      "x-cc": {
+        "vocabulary": "language"
+      },
+      "$ref": "#/$defs/vocabulary.language"
+    },
+    "position": {
+      "description": "Its place among its catalog's sets of one release date, where the data orders them.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "line": {
+      "description": "The line the set is one part of, where several of our sets came out as one product or range of products (docs/static-api.md, \"Lines\").",
+      "type": "object",
+      "x-cc": {
+        "ref": "line"
+      },
+      "required": [
+        "$kind",
+        "line",
+        "name",
+        "part"
+      ],
+      "properties": {
+        "$kind": {
+          "description": "What the pointer points at: `line`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+          "const": "line"
+        },
+        "line": {
+          "description": "The line's id (lines.json).",
+          "type": "string"
+        },
+        "name": {
+          "description": "A copy of the target's own `name`.",
+          "type": "string"
+        },
+        "part": {
+          "description": "The words that tell this set from the line's others.",
+          "type": "string"
+        }
+      }
+    },
+    "printedTotal": {
+      "description": "The total its card numbers print (the 102 of 4/102), where they print one.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "actualTotal": {
+      "description": "How many cards the set has by its own count, secret cards included, where known.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "cardCount": {
+      "description": "How many cards the set has in its `cards`; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "productCount": {
+      "description": "How many sealed products the set has in its `products`; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "released": {
+      "description": "When the set first (its earliest release) came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+      "type": "object",
+      "properties": {
+        "date": {
+          "description": "The date: 1999, 1999-06 or 1999-06-16.",
+          "type": "string",
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "code": {
+      "description": "The set code it prints: the first of its releases' that has one.",
+      "type": "string"
+    },
+    "logo": {
+      "description": "Its logo: the first of its releases' that has one.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{32}$",
+      "x-cc": {
+        "picture": true
+      }
+    },
+    "symbol": {
+      "description": "Its set symbol: the first of its releases' that has one.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{32}$",
+      "x-cc": {
+        "picture": true
+      }
+    },
+    "releases": {
+      "description": "Each release of the set: one per language it came out in.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "language",
+          "name"
+        ],
+        "properties": {
+          "language": {
+            "description": "The language this release is printed in.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "$ref": "#/$defs/vocabulary.language"
+          },
+          "name": {
+            "description": "The set's name in this release.",
+            "type": "string"
+          },
+          "code": {
+            "description": "The set code it prints.",
+            "type": "string"
+          },
+          "released": {
+            "description": "When this release came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "properties": {
+              "date": {
+                "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "logo": {
+            "description": "The release's logo.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$",
+            "x-cc": {
+              "picture": true
+            }
+          },
+          "symbol": {
+            "description": "The set symbol, the small mark its cards print (an icon a source gives for a set that prints none).",
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$",
+            "x-cc": {
+              "picture": true
+            }
+          }
+        }
+      }
+    },
+    "linkCount": {
+      "description": "How many links the set has to other sets; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "description": {
+      "description": "What we wrote about the set, for people to read, and the pages it draws on (docs/static-api.md, \"Descriptions\").",
+      "type": "object",
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "description": "The text; paragraphs are split by a blank line.",
+          "type": "string"
+        },
+        "sources": {
+          "description": "The pages this draws on, each with its title.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "description": "The page's title.",
+                "type": "string"
+              },
+              "url": {
+                "description": "The page's url.",
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    "tell": {
+      "description": "How to tell this set's print of a card from other sets' prints of the same painting, in a few words, naming only what every card of the set prints (its symbol, its numbering), with the pages that back it; a card's own `tell` stands in for it (docs/static-api.md, \"Set tells\").",
+      "type": "object",
+      "required": [
+        "text",
+        "sources"
+      ],
+      "properties": {
+        "text": {
+          "description": "The text; paragraphs are split by a blank line.",
+          "type": "string"
+        },
+        "sources": {
+          "description": "The pages this draws on, each with its title.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "description": "The page's title.",
+                "type": "string"
+              },
+              "url": {
+                "description": "The page's url.",
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    "printRuns": {
+      "description": "The set's print runs whose place is known, earliest first, by edition (`unlimited` also stands for copies with no edition), each with what we say of it (docs/static-api.md, \"Print runs\").",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "edition"
+        ],
+        "properties": {
+          "edition": {
+            "description": "The run's edition.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "edition"
+            },
+            "$ref": "#/$defs/vocabulary.edition"
+          },
+          "released": {
+            "description": "When the run first came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "properties": {
+              "date": {
+                "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "tell": {
+            "description": "How to spot it, in a few words.",
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "description": "The tell.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "standard": {
+            "description": "Present where the run's copies are the set's standard ones and that isn't Unlimited (a Japanese booster set's 1st Edition).",
+            "const": true
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "versions": {
+      "description": "The versions the set's product was sold in, earliest first, where the version decides some of the cards in it (pack designs of a set sold in waves, binders of two colours); a card found in only some names them in its own `onlyIn` (docs/static-api.md, \"Versions\").",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "description": "The set version's id, unique in its set's `versions`.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The version's name.",
+            "type": "string"
+          },
+          "released": {
+            "description": "When the version came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "properties": {
+              "date": {
+                "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "image": {
+            "description": "A picture of it.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{32}$",
+            "x-cc": {
+              "picture": true
+            }
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "distributions": {
+      "description": "How every copy of the set was handed out, where all came out one way (a Prize Pack series, a Burger King collection), named once here and not on each copy (docs/static-api.md, \"Distributions\").",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "ref": "distribution"
+        },
+        "required": [
+          "$kind",
+          "distribution",
+          "name",
+          "category"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `distribution`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "const": "distribution"
+          },
+          "distribution": {
+            "description": "The distribution's id (distributions/{distribution}.json).",
+            "type": "string"
+          },
+          "name": {
+            "description": "A copy of the target's own `name`.",
+            "type": "string"
+          },
+          "category": {
+            "description": "A copy of the target's own `category`.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "distribution"
+            },
+            "$ref": "#/$defs/vocabulary.distribution"
+          },
+          "as": {
+            "description": "How the copy came out of a distribution that also handed out others: as a `prize` or to `staff`.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "distribution"
+            },
+            "$ref": "#/$defs/vocabulary.distribution"
+          },
+          "region": {
+            "description": "Where it was handed out, where only in some places.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "backImage": {
+      "description": "The back every card of the set shares, where that is unlike the usual one (a World Championships Deck's).",
+      "type": "string",
+      "pattern": "^[0-9a-f]{32}$",
+      "x-cc": {
+        "picture": true
+      }
+    },
+    "links": {
+      "description": "The set's links to other sets.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "ref": "set"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "relation",
+          "direction",
+          "sameCardCount"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "const": "set"
+          },
+          "set": {
+            "description": "The set's id (sets.json).",
+            "type": "string"
+          },
+          "relation": {
+            "description": "What the other set is to this one.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "setLink"
+            },
+            "$ref": "#/$defs/vocabulary.setLink"
+          },
+          "direction": {
+            "description": "Which way the link reads: `outgoing` from this set to the other, or `incoming` from the other to this one.",
+            "enum": [
+              "incoming",
+              "outgoing"
+            ]
+          },
+          "sameCardCount": {
+            "description": "How many of the two sets' cards are linked as the same card; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "cards": {
+      "description": "Every card, in number order.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/cardArray"
+        },
+        {
+          "items": {
+            "required": [
+              "language"
+            ]
+          }
+        }
+      ]
+    },
+    "products": {
+      "description": "Every sealed product, in number order.",
+      "$ref": "#/$defs/cardArray"
+    }
+  },
+  "$defs": {
+    "cardArray": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "id",
+          "name",
+          "released",
+          "variants",
+          "defaultCopy",
+          "collectingVariations",
+          "defaultCollectingVariation"
+        ],
+        "properties": {
+          "id": {
+            "description": "The card's id, unique in its set. Treat it as opaque: it never changes once published.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The card's name, as printed.",
+            "type": "string"
+          },
+          "displayName": {
+            "description": "A numberless card's name with its versions, where another card of the set's versions shares its name: \"Pikachu (blue)\" (docs/static-api.md, \"Versions\").",
+            "type": "string"
+          },
+          "number": {
+            "description": "Its number as printed (\"4/102\", \"SWSH001\"), and the part of it a sort reads.",
+            "type": "object",
+            "required": [
+              "numerator"
+            ],
+            "properties": {
+              "printed": {
+                "description": "The number as printed, where the card prints one.",
+                "type": "string"
+              },
+              "numerator": {
+                "description": "The part of the number a sort reads.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "rarity": {
+            "description": "Its rarity, as its mark reads (docs/rarity.md).",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "rarity"
+            },
+            "$ref": "#/$defs/vocabulary.rarity"
+          },
+          "cardType": {
+            "description": "Pokémon, Trainer or Energy; a sealed product has none.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "cardType"
+            },
+            "$ref": "#/$defs/vocabulary.cardType"
+          },
+          "language": {
+            "description": "The language its text is printed in: its set's, or another where its product held a foreign print (docs/static-api.md, \"Foreign prints\"). Every card has one; a sealed product has none.",
+            "type": "string",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "$ref": "#/$defs/vocabulary.language"
+          },
+          "credit": {
+            "description": "The credit as printed (\"CR CG gangs & K. Hoshiba\").",
+            "type": "string"
+          },
+          "artists": {
+            "description": "The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "ref": "artist"
+              },
+              "required": [
+                "$kind",
+                "artist",
+                "name"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `artist`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "artist"
+                },
+                "artist": {
+                  "description": "The artist's id (artists.json).",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "The artist's name as this card prints it.",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "released": {
+            "description": "When the card first came out, in any of its copies: its own date, or, in a set whose cards came out together, the set's (docs/static-api.md, \"Release dates\").",
+            "type": "object",
+            "required": [
+              "sort"
+            ],
+            "properties": {
+              "date": {
+                "description": "The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              },
+              "sort": {
+                "description": "Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one.",
+                "type": "string"
+              },
+              "sources": {
+                "description": "The pages the card's own date comes from; absent when it has the set's.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url",
+                    "site"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "site": {
+                      "description": "The site, as the title names it before the page (\"Pokumon: Base Set\" is Pokumon).",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "description": {
+            "description": "What we wrote about the card, for people to read, and the pages it draws on (docs/static-api.md, \"Descriptions\").",
+            "type": "object",
+            "required": [
+              "text"
+            ],
+            "properties": {
+              "text": {
+                "description": "The text; paragraphs are split by a blank line.",
+                "type": "string"
+              },
+              "sources": {
+                "description": "The pages this draws on, each with its title.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "tell": {
+            "description": "How to tell this card's print where it differs from its set's `tell`.",
+            "type": "object",
+            "required": [
+              "text",
+              "sources"
+            ],
+            "properties": {
+              "text": {
+                "description": "The tell; null where the card doesn't carry the set's tell (a basic Energy with no set mark).",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sources": {
+                "description": "The pages this draws on, each with its title.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "properties": {
+                    "title": {
+                      "description": "The page's title.",
+                      "type": "string"
+                    },
+                    "url": {
+                      "description": "The page's url.",
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "eReaderLayout": {
+            "description": "Where it prints its e-Reader strip, as its pictures show: `e_card` (along the bottom, under the number, and down the left edge, as Expedition to Skyridge do) or `ex` (one strip along the bottom, under the weakness row, as the EX sets do). Absent where it prints none or nobody has looked (docs/static-api.md, \"e-Reader strip\").",
+            "enum": [
+              "e_card",
+              "ex"
+            ]
+          },
+          "species": {
+            "description": "The species it shows, each once, in the order the card shows them.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "ref": "species"
+              },
+              "required": [
+                "$kind",
+                "species",
+                "name"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `species`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "const": "species"
+                },
+                "species": {
+                  "description": "The species' National Pokédex number.",
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "name": {
+                  "description": "A copy of the target's own `name`.",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "subjects": {
+            "description": "Who is on the card: its owner, its Pokémon (a form of a species), then people, each a `subject` or `owner`.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "ref": [
+                  "form",
+                  "character"
+                ],
+                "label": "name"
+              },
+              "required": [
+                "$kind",
+                "name",
+                "role"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `form` or `character`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "enum": [
+                    "form",
+                    "character"
+                  ]
+                },
+                "species": {
+                  "description": "The form's species' National Pokédex number, on a `form`.",
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "form": {
+                  "description": "The form's id (\"52:galar\"), on a `form`.",
+                  "type": "string"
+                },
+                "character": {
+                  "description": "The character's id (characters.json). On a `character`.",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "A copy of the target's own `name`.",
+                  "type": "string"
+                },
+                "role": {
+                  "description": "What they are on the card: its `subject`, or the `owner` of its Pokémon.",
+                  "enum": [
+                    "subject",
+                    "owner"
+                  ]
+                }
+              },
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "$kind": {
+                        "const": "form"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "species",
+                      "form"
+                    ]
+                  }
+                },
+                {
+                  "if": {
+                    "properties": {
+                      "$kind": {
+                        "const": "character"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "character"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "inSet": {
+            "description": "What it is among its set's cards (docs/static-api.md, \"Telling copies apart\").",
+            "type": "object",
+            "properties": {
+              "differs": {
+                "description": "Its default copy's axes that not all the set's other prints of its painting share.",
+                "type": "object",
+                "minProperties": 1,
+                "properties": {
+                  "edition": {
+                    "description": "Its edition.",
+                    "type": "string",
+                    "x-cc": {
+                      "vocabulary": "edition"
+                    },
+                    "$ref": "#/$defs/vocabulary.edition"
+                  },
+                  "finish": {
+                    "description": "Its finish.",
+                    "type": "string",
+                    "x-cc": {
+                      "vocabulary": "finish"
+                    },
+                    "$ref": "#/$defs/vocabulary.finish"
+                  },
+                  "material": {
+                    "description": "What it is printed on, where that isn't ordinary card.",
+                    "type": "string",
+                    "x-cc": {
+                      "vocabulary": "material"
+                    },
+                    "$ref": "#/$defs/vocabulary.material"
+                  },
+                  "stamp": {
+                    "description": "The stamp it carries.",
+                    "type": "string",
+                    "x-cc": {
+                      "vocabulary": "stamp"
+                    },
+                    "$ref": "#/$defs/vocabulary.stamp"
+                  },
+                  "errorState": {
+                    "description": "The printing error it shows.",
+                    "type": "string",
+                    "x-cc": {
+                      "vocabulary": "errorState"
+                    },
+                    "$ref": "#/$defs/vocabulary.errorState"
+                  },
+                  "serialCode": {
+                    "description": "Its serial code.",
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "printVersion": {
+                "description": "Which of a name's numberless prints it is.",
+                "type": "integer",
+                "minimum": 0
+              },
+              "onlyIn": {
+                "description": "The set's versions it comes in, where it isn't in all of them.",
+                "type": "array",
+                "items": {
+                  "description": "A version.",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": "set-version"
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "version"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `set-version`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                      "const": "set-version"
+                    },
+                    "set": {
+                      "description": "The set's id (sets.json).",
+                      "type": "string"
+                    },
+                    "version": {
+                      "description": "The set version's id, unique in its set's `versions`.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "pieces": {
+                "description": "For one piece of a LEGEND or V-UNION, the whole card's pieces (docs/static-api.md, \"Pieces\").",
+                "type": "object",
+                "required": [
+                  "format",
+                  "position",
+                  "cards"
+                ],
+                "properties": {
+                  "format": {
+                    "description": "What kind of card in pieces it is.",
+                    "type": "string",
+                    "x-cc": {
+                      "vocabulary": "piece"
+                    },
+                    "$ref": "#/$defs/vocabulary.piece"
+                  },
+                  "position": {
+                    "description": "This piece's position, counted from 1 in vocabulary.json's `positions` for the format.",
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "cards": {
+                    "description": "Every piece, in reading order.",
+                    "type": "array",
+                    "items": {
+                      "description": "A piece.",
+                      "type": "object",
+                      "x-cc": {
+                        "ref": "card"
+                      },
+                      "required": [
+                        "$kind",
+                        "set",
+                        "card"
+                      ],
+                      "properties": {
+                        "$kind": {
+                          "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                          "const": "card"
+                        },
+                        "set": {
+                          "description": "The set's id (sets.json).",
+                          "type": "string"
+                        },
+                        "card": {
+                          "description": "The card's id, unique in its set.",
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "minItems": 2
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "picture": {
+            "description": "The picture to show for the card (docs/static-api.md, \"Pictures\"): `front.image`, and `front.of`, the copy it is a picture of (its default copy, another copy standing in, or, for a reprint with no picture of any copy, its original's); `back`, where its back is unlike the usual one; `oversized` where the card only came as a jumbo or its picture is a jumbo copy's.",
+            "type": "object",
+            "properties": {
+              "front": {
+                "description": "The front: a picture id, and whose picture it is.",
+                "type": "object",
+                "required": [
+                  "image"
+                ],
+                "properties": {
+                  "image": {
+                    "description": "The picture's id.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  },
+                  "of": {
+                    "description": "The copy it is a picture of, where that isn't the copy it is on (on a card, always).",
+                    "type": "object",
+                    "x-cc": {
+                      "ref": [
+                        "variant",
+                        "product-variant"
+                      ]
+                    },
+                    "required": [
+                      "$kind",
+                      "set",
+                      "variant"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "enum": [
+                          "variant",
+                          "product-variant"
+                        ]
+                      },
+                      "set": {
+                        "description": "The set's id (sets.json).",
+                        "type": "string"
+                      },
+                      "card": {
+                        "description": "The card's id, unique in its set. Present on a `variant`.",
+                        "type": "string"
+                      },
+                      "product": {
+                        "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                        "type": "string"
+                      },
+                      "variant": {
+                        "description": "The copy's id, unique among its card's (or product's) variants.",
+                        "type": "string"
+                      }
+                    },
+                    "allOf": [
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "variant"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "card"
+                          ]
+                        }
+                      },
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "product-variant"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "product"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "watermark": {
+                    "description": "Whose watermark the picture carries, where it carries one.",
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "back": {
+                "description": "Its back, where that is unlike the usual one.",
+                "type": "object",
+                "required": [
+                  "image"
+                ],
+                "properties": {
+                  "image": {
+                    "description": "The picture's id.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  }
+                },
+                "additionalProperties": false
+              },
+              "oversized": {
+                "description": "Present where the card only came as a jumbo or its picture is a jumbo copy's.",
+                "const": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "variants": {
+            "description": "Its copies, in role order; the standard one, or the first on a test-only card, supplies the card picture.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "label": "name"
+              },
+              "required": [
+                "id",
+                "name",
+                "role",
+                "collectingVariation"
+              ],
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "role": {
+                        "const": "serial_code"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "serialCode",
+                      "serialCodeVariantOf"
+                    ]
+                  }
+                }
+              ],
+              "properties": {
+                "id": {
+                  "description": "The copy's id, unique within its card: its physical axes as a slug, or \"plain\". Treat it as opaque: it never changes once published.",
+                  "type": "string"
+                },
+                "collectingVariation": {
+                  "description": "The id in this card's collectingVariations for this exact copy with its print run left unspecified. All its non-edition distinctions remain known.",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "What the card's copy strip calls it (docs/static-api.md, \"Telling copies apart\").",
+                  "type": "string"
+                },
+                "role": {
+                  "description": "What this copy is on its card; copies are listed in role order (docs/static-api.md, \"Version roles\").",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "role"
+                  },
+                  "$ref": "#/$defs/vocabulary.role"
+                },
+                "finish": {
+                  "description": "Its finish.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "finish"
+                  },
+                  "$ref": "#/$defs/vocabulary.finish"
+                },
+                "material": {
+                  "description": "What it is printed on, where that isn't ordinary card.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "material"
+                  },
+                  "$ref": "#/$defs/vocabulary.material"
+                },
+                "edition": {
+                  "description": "Its edition.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "edition"
+                  },
+                  "$ref": "#/$defs/vocabulary.edition"
+                },
+                "serialCode": {
+                  "description": "Its serial code.",
+                  "type": "string",
+                  "pattern": "^[A-Z0-9]+(?:-[A-Z0-9]+)*$"
+                },
+                "serialCodeVariantOf": {
+                  "description": "Another code of the same physical version, by its pointer.",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": [
+                      "variant",
+                      "product-variant"
+                    ]
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "variant"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                      "enum": [
+                        "variant",
+                        "product-variant"
+                      ]
+                    },
+                    "set": {
+                      "description": "The set's id (sets.json).",
+                      "type": "string"
+                    },
+                    "card": {
+                      "description": "The card's id, unique in its set. Present on a `variant`.",
+                      "type": "string"
+                    },
+                    "product": {
+                      "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                      "type": "string"
+                    },
+                    "variant": {
+                      "description": "The copy's id, unique among its card's (or product's) variants.",
+                      "type": "string"
+                    }
+                  },
+                  "allOf": [
+                    {
+                      "if": {
+                        "properties": {
+                          "$kind": {
+                            "const": "variant"
+                          }
+                        }
+                      },
+                      "then": {
+                        "required": [
+                          "card"
+                        ]
+                      }
+                    },
+                    {
+                      "if": {
+                        "properties": {
+                          "$kind": {
+                            "const": "product-variant"
+                          }
+                        }
+                      },
+                      "then": {
+                        "required": [
+                          "product"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "stamp": {
+                  "description": "The stamp it carries.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "stamp"
+                  },
+                  "$ref": "#/$defs/vocabulary.stamp"
+                },
+                "errorState": {
+                  "description": "The printing error it shows.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "errorState"
+                  },
+                  "$ref": "#/$defs/vocabulary.errorState"
+                },
+                "eReaderStrip": {
+                  "description": "What it prints where its card prints the e-Reader strip (the card's `eReaderLayout`), as its own picture shows: the dot code, holo bars in its place (a reverse holo, a holo rare), or nothing (`blank`: an EX card without a strip). Absent where nobody has looked (docs/static-api.md, \"e-Reader strip\").",
+                  "enum": [
+                    "dot_code",
+                    "holo_bars",
+                    "blank"
+                  ]
+                },
+                "editionMark": {
+                  "description": "The edition mark it prints: `first_edition`, the 1st Edition symbol. Its edition's mark (vocabulary `edition`, `mark`) unless the copy says otherwise, as Base Set Machamp's stamped ©1999-2000 4th print does. Absent where it prints none (docs/static-api.md, \"Edition mark\").",
+                  "enum": [
+                    "first_edition"
+                  ]
+                },
+                "printRun": {
+                  "description": "The edition of the set's print run (its `printRuns`) the copy came out in, where the set lists that run (docs/static-api.md, \"Telling copies apart\").",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "edition"
+                  },
+                  "$ref": "#/$defs/vocabulary.edition"
+                },
+                "differsFromStandard": {
+                  "description": "Its axes that the card's standard copy doesn't share (all of them on a card with no standard copy); none on the standard copy.",
+                  "type": "object",
+                  "minProperties": 1,
+                  "properties": {
+                    "edition": {
+                      "description": "Its edition.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "edition"
+                      },
+                      "$ref": "#/$defs/vocabulary.edition"
+                    },
+                    "finish": {
+                      "description": "Its finish.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "finish"
+                      },
+                      "$ref": "#/$defs/vocabulary.finish"
+                    },
+                    "material": {
+                      "description": "What it is printed on, where that isn't ordinary card.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "material"
+                      },
+                      "$ref": "#/$defs/vocabulary.material"
+                    },
+                    "stamp": {
+                      "description": "The stamp it carries.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "stamp"
+                      },
+                      "$ref": "#/$defs/vocabulary.stamp"
+                    },
+                    "errorState": {
+                      "description": "The printing error it shows.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "errorState"
+                      },
+                      "$ref": "#/$defs/vocabulary.errorState"
+                    },
+                    "serialCode": {
+                      "description": "Its serial code.",
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "tell": {
+                  "description": "How to spot it on the card, in a sentence or two.",
+                  "type": "object",
+                  "required": [
+                    "text"
+                  ],
+                  "properties": {
+                    "text": {
+                      "description": "The tell.",
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "picture": {
+                  "description": "The copy's picture (docs/static-api.md, \"Pictures\"): its own, or, with `front.of`, another copy's standing in for one it lacks (the standard copy's; on the standard copy, the first other copy's); and its back, where that is unlike the usual one.",
+                  "type": "object",
+                  "properties": {
+                    "front": {
+                      "description": "The front: a picture id, and whose picture it is.",
+                      "type": "object",
+                      "required": [
+                        "image"
+                      ],
+                      "properties": {
+                        "image": {
+                          "description": "The picture's id.",
+                          "type": "string",
+                          "pattern": "^[0-9a-f]{32}$",
+                          "x-cc": {
+                            "picture": true
+                          }
+                        },
+                        "of": {
+                          "description": "The copy it is a picture of, where that isn't the copy it is on (on a card, always).",
+                          "type": "object",
+                          "x-cc": {
+                            "ref": [
+                              "variant",
+                              "product-variant"
+                            ]
+                          },
+                          "required": [
+                            "$kind",
+                            "set",
+                            "variant"
+                          ],
+                          "properties": {
+                            "$kind": {
+                              "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                              "enum": [
+                                "variant",
+                                "product-variant"
+                              ]
+                            },
+                            "set": {
+                              "description": "The set's id (sets.json).",
+                              "type": "string"
+                            },
+                            "card": {
+                              "description": "The card's id, unique in its set. Present on a `variant`.",
+                              "type": "string"
+                            },
+                            "product": {
+                              "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                              "type": "string"
+                            },
+                            "variant": {
+                              "description": "The copy's id, unique among its card's (or product's) variants.",
+                              "type": "string"
+                            }
+                          },
+                          "allOf": [
+                            {
+                              "if": {
+                                "properties": {
+                                  "$kind": {
+                                    "const": "variant"
+                                  }
+                                }
+                              },
+                              "then": {
+                                "required": [
+                                  "card"
+                                ]
+                              }
+                            },
+                            {
+                              "if": {
+                                "properties": {
+                                  "$kind": {
+                                    "const": "product-variant"
+                                  }
+                                }
+                              },
+                              "then": {
+                                "required": [
+                                  "product"
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "watermark": {
+                          "description": "Whose watermark the picture carries, where it carries one.",
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "back": {
+                      "description": "Its back, where that is unlike the usual one.",
+                      "type": "object",
+                      "required": [
+                        "image"
+                      ],
+                      "properties": {
+                        "image": {
+                          "description": "The picture's id.",
+                          "type": "string",
+                          "pattern": "^[0-9a-f]{32}$",
+                          "x-cc": {
+                            "picture": true
+                          }
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "description": {
+                  "description": "What we wrote about the copy, for people to read, and the pages it draws on (docs/static-api.md, \"Descriptions\").",
+                  "type": "object",
+                  "required": [
+                    "text"
+                  ],
+                  "properties": {
+                    "text": {
+                      "description": "The text; paragraphs are split by a blank line.",
+                      "type": "string"
+                    },
+                    "sources": {
+                      "description": "The pages this draws on, each with its title.",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "title",
+                          "url"
+                        ],
+                        "properties": {
+                          "title": {
+                            "description": "The page's title.",
+                            "type": "string"
+                          },
+                          "url": {
+                            "description": "The page's url.",
+                            "type": "string",
+                            "format": "uri"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "distributions": {
+                  "description": "How the copy was handed out beyond its set's own `distributions`: each distribution by its pointer, with its name and category, and `as` and `region` where they apply.",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "x-cc": {
+                      "ref": "distribution"
+                    },
+                    "required": [
+                      "$kind",
+                      "distribution",
+                      "name",
+                      "category"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `distribution`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "const": "distribution"
+                      },
+                      "distribution": {
+                        "description": "The distribution's id (distributions/{distribution}.json).",
+                        "type": "string"
+                      },
+                      "name": {
+                        "description": "A copy of the target's own `name`.",
+                        "type": "string"
+                      },
+                      "category": {
+                        "description": "A copy of the target's own `category`.",
+                        "type": "string",
+                        "x-cc": {
+                          "vocabulary": "distribution"
+                        },
+                        "$ref": "#/$defs/vocabulary.distribution"
+                      },
+                      "as": {
+                        "description": "How the copy came out of a distribution that also handed out others: as a `prize` or to `staff`.",
+                        "type": "string",
+                        "x-cc": {
+                          "vocabulary": "distribution"
+                        },
+                        "$ref": "#/$defs/vocabulary.distribution"
+                      },
+                      "region": {
+                        "description": "Where it was handed out, where only in some places.",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "defaultCopy": {
+            "description": "The copy that stands for the card where one must (prices, a tile): by id in `variants`.",
+            "type": "string"
+          },
+          "collectingVariations": {
+            "description": "Its non-edition variations for personal selections whose print run is unspecified; exact SKU identities remain in variants.",
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "variants",
+                "defaultCopy"
+              ],
+              "properties": {
+                "id": {
+                  "description": "Opaque id unique within this card, based on its non-edition axes and distribution identities. Adding another edition does not change it.",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "The compiler-labelled variation, including its known finish; no edition is implied.",
+                  "type": "string"
+                },
+                "variants": {
+                  "description": "The exact variant ids in this card belonging to the variation, in their ordinary catalogue order.",
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "description": "An id in this card's variants.",
+                    "type": "string"
+                  }
+                },
+                "defaultCopy": {
+                  "description": "An exact member to use for a picture or clearly labelled reference price only; it is never an implied owned print run.",
+                  "type": "string"
+                },
+                "masterSet": {
+                  "description": "Present where the variation is in the master set: one of its copies is the card's standard copy or a parallel of it, not only another print run, a serial code, a special release, an error, a test print or an oversized copy.",
+                  "const": true
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "defaultCollectingVariation": {
+            "description": "The collectingVariations id of defaultCopy. Quick Collect saves it, with defaultCollectingCopy where that is present.",
+            "type": "string"
+          },
+          "defaultCollectingCopy": {
+            "description": "Present where defaultCollectingVariation has more than one print run: defaultCopy, which quick Collect saves with it, as the copy on show is the one meant (Base Set Charizard's Unlimited). Absent where the variation has one copy, since a selection of it never names the copy.",
+            "type": "string"
+          },
+          "printRuns": {
+            "description": "On a card printed in more than one run: its standard copy and print runs, in printing order (docs/static-api.md, \"Telling copies apart\").",
+            "type": "array",
+            "items": {
+              "description": "A copy.",
+              "type": "object",
+              "x-cc": {
+                "ref": [
+                  "variant",
+                  "product-variant"
+                ]
+              },
+              "required": [
+                "$kind",
+                "set",
+                "variant"
+              ],
+              "properties": {
+                "$kind": {
+                  "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "enum": [
+                    "variant",
+                    "product-variant"
+                  ]
+                },
+                "set": {
+                  "description": "The set's id (sets.json).",
+                  "type": "string"
+                },
+                "card": {
+                  "description": "The card's id, unique in its set. Present on a `variant`.",
+                  "type": "string"
+                },
+                "product": {
+                  "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                  "type": "string"
+                },
+                "variant": {
+                  "description": "The copy's id, unique among its card's (or product's) variants.",
+                  "type": "string"
+                }
+              },
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "$kind": {
+                        "const": "variant"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "card"
+                    ]
+                  }
+                },
+                {
+                  "if": {
+                    "properties": {
+                      "$kind": {
+                        "const": "product-variant"
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": [
+                      "product"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "links": {
+            "description": "The cards it is linked to.",
+            "type": "object",
+            "properties": {
+              "counterparts": {
+                "description": "Every card it is the same card as in another language, by catalog, the preferred one first (docs/static-api.md, \"Counterparts\").",
+                "type": "object",
+                "propertyNames": {
+                  "description": "A catalog.",
+                  "type": "string",
+                  "x-cc": {
+                    "vocabulary": "catalog"
+                  },
+                  "$ref": "#/$defs/vocabulary.catalog"
+                },
+                "additionalProperties": {
+                  "description": "The catalog's counterparts, the preferred one first, then oldest first.",
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "x-cc": {
+                      "ref": "card"
+                    },
+                    "required": [
+                      "$kind",
+                      "set",
+                      "card",
+                      "language",
+                      "printCount"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "const": "card"
+                      },
+                      "set": {
+                        "description": "The set's id (sets.json).",
+                        "type": "string"
+                      },
+                      "card": {
+                        "description": "The card's id, unique in its set.",
+                        "type": "string"
+                      },
+                      "language": {
+                        "description": "A copy of the target's own `language`.",
+                        "type": "string",
+                        "x-cc": {
+                          "vocabulary": "language"
+                        },
+                        "$ref": "#/$defs/vocabulary.language"
+                      },
+                      "printCount": {
+                        "description": "The card's prints in its language: the card it reprints (or itself), their parallels, and every reprint of those and theirs.",
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "preferred": {
+                        "description": "Our researched pick in its catalog, one a catalog, listed first.",
+                        "const": true
+                      },
+                      "via": {
+                        "description": "Where the link is borrowed: `original`, from the card this one reprints; `reprint`, from its first print in its set.",
+                        "enum": [
+                          "original",
+                          "reprint"
+                        ]
+                      },
+                      "through": {
+                        "description": "Where the link is borrowed, the print whose link it rests on.",
+                        "type": "object",
+                        "x-cc": {
+                          "ref": "card"
+                        },
+                        "required": [
+                          "$kind",
+                          "set",
+                          "card"
+                        ],
+                        "properties": {
+                          "$kind": {
+                            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                            "const": "card"
+                          },
+                          "set": {
+                            "description": "The set's id (sets.json).",
+                            "type": "string"
+                          },
+                          "card": {
+                            "description": "The card's id, unique in its set.",
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "dependentRequired": {
+                      "via": [
+                        "through"
+                      ],
+                      "through": [
+                        "via"
+                      ]
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "painting": {
+                "description": "The painting it prints (docs/static-api.md, \"Painting and languages\").",
+                "type": "object",
+                "x-cc": {
+                  "ref": "painting"
+                },
+                "required": [
+                  "$kind",
+                  "set",
+                  "painting"
+                ],
+                "properties": {
+                  "$kind": {
+                    "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                    "const": "painting"
+                  },
+                  "set": {
+                    "description": "The set's id (sets.json).",
+                    "type": "string"
+                  },
+                  "painting": {
+                    "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                    "type": "string"
+                  }
+                }
+              },
+              "reprintOf": {
+                "description": "The card it reprints: the first print in its language (docs/static-api.md, \"Reprints\").",
+                "type": "object",
+                "x-cc": {
+                  "ref": "card"
+                },
+                "required": [
+                  "$kind",
+                  "set",
+                  "card",
+                  "differs"
+                ],
+                "properties": {
+                  "$kind": {
+                    "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                    "const": "card"
+                  },
+                  "set": {
+                    "description": "The set's id (sets.json).",
+                    "type": "string"
+                  },
+                  "card": {
+                    "description": "The card's id, unique in its set.",
+                    "type": "string"
+                  },
+                  "copiesVariant": {
+                    "description": "The original's copy the reprint copies, where it names one.",
+                    "type": "object",
+                    "x-cc": {
+                      "ref": [
+                        "variant",
+                        "product-variant"
+                      ]
+                    },
+                    "required": [
+                      "$kind",
+                      "set",
+                      "variant"
+                    ],
+                    "properties": {
+                      "$kind": {
+                        "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "enum": [
+                          "variant",
+                          "product-variant"
+                        ]
+                      },
+                      "set": {
+                        "description": "The set's id (sets.json).",
+                        "type": "string"
+                      },
+                      "card": {
+                        "description": "The card's id, unique in its set. Present on a `variant`.",
+                        "type": "string"
+                      },
+                      "product": {
+                        "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                        "type": "string"
+                      },
+                      "variant": {
+                        "description": "The copy's id, unique among its card's (or product's) variants.",
+                        "type": "string"
+                      }
+                    },
+                    "allOf": [
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "variant"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "card"
+                          ]
+                        }
+                      },
+                      {
+                        "if": {
+                          "properties": {
+                            "$kind": {
+                              "const": "product-variant"
+                            }
+                          }
+                        },
+                        "then": {
+                          "required": [
+                            "product"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "differs": {
+                    "description": "What sets the reprint apart from the original; empty when nothing we compare differs, which is itself a fact.",
+                    "type": "array",
+                    "items": {
+                      "description": "One difference.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "differs"
+                      },
+                      "$ref": "#/$defs/vocabulary.differs"
+                    }
+                  }
+                }
+              },
+              "reprints": {
+                "description": "The later prints of it in other sets of its language, oldest first.",
+                "type": "array",
+                "items": {
+                  "description": "A reprint.",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": "card"
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "card",
+                    "differs"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                      "const": "card"
+                    },
+                    "set": {
+                      "description": "The set's id (sets.json).",
+                      "type": "string"
+                    },
+                    "card": {
+                      "description": "The card's id, unique in its set.",
+                      "type": "string"
+                    },
+                    "copiesVariant": {
+                      "description": "The original's copy the reprint copies, where it names one.",
+                      "type": "object",
+                      "x-cc": {
+                        "ref": [
+                          "variant",
+                          "product-variant"
+                        ]
+                      },
+                      "required": [
+                        "$kind",
+                        "set",
+                        "variant"
+                      ],
+                      "properties": {
+                        "$kind": {
+                          "description": "What the pointer points at: `variant` or `product-variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                          "enum": [
+                            "variant",
+                            "product-variant"
+                          ]
+                        },
+                        "set": {
+                          "description": "The set's id (sets.json).",
+                          "type": "string"
+                        },
+                        "card": {
+                          "description": "The card's id, unique in its set. Present on a `variant`.",
+                          "type": "string"
+                        },
+                        "product": {
+                          "description": "The sealed product's id, unique in its set. Present on a `product-variant`.",
+                          "type": "string"
+                        },
+                        "variant": {
+                          "description": "The copy's id, unique among its card's (or product's) variants.",
+                          "type": "string"
+                        }
+                      },
+                      "allOf": [
+                        {
+                          "if": {
+                            "properties": {
+                              "$kind": {
+                                "const": "variant"
+                              }
+                            }
+                          },
+                          "then": {
+                            "required": [
+                              "card"
+                            ]
+                          }
+                        },
+                        {
+                          "if": {
+                            "properties": {
+                              "$kind": {
+                                "const": "product-variant"
+                              }
+                            }
+                          },
+                          "then": {
+                            "required": [
+                              "product"
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "differs": {
+                      "description": "What sets the reprint apart from the original; empty when nothing we compare differs, which is itself a fact.",
+                      "type": "array",
+                      "items": {
+                        "description": "One difference.",
+                        "type": "string",
+                        "x-cc": {
+                          "vocabulary": "differs"
+                        },
+                        "$ref": "#/$defs/vocabulary.differs"
+                      }
+                    }
+                  }
+                }
+              },
+              "stampedReprints": {
+                "description": "Its reprints that are it with a stamp added (a reprint whose `differs` is `stamp`, alone or with `finish`), each stamped copy as one more version of it (docs/static-api.md, \"Stamped reprints\").",
+                "type": "array",
+                "items": {
+                  "description": "A stamped copy of a stamped reprint.",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": "variant"
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "card",
+                    "variant",
+                    "stamp",
+                    "label"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                      "const": "variant"
+                    },
+                    "set": {
+                      "description": "The set's id (sets.json).",
+                      "type": "string"
+                    },
+                    "card": {
+                      "description": "The card's id, unique in its set.",
+                      "type": "string"
+                    },
+                    "variant": {
+                      "description": "The copy's id, unique among its card's (or product's) variants.",
+                      "type": "string"
+                    },
+                    "stamp": {
+                      "description": "The copy's stamp, a copy of its own.",
+                      "type": "string",
+                      "x-cc": {
+                        "vocabulary": "stamp"
+                      },
+                      "$ref": "#/$defs/vocabulary.stamp"
+                    },
+                    "label": {
+                      "description": "What to show it by: the stamp's vocabulary label.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "parallels": {
+                "description": "Its other prints in its own set, in number order (docs/static-api.md, \"Parallels\").",
+                "type": "array",
+                "items": {
+                  "description": "A parallel.",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": "card"
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "card"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                      "const": "card"
+                    },
+                    "set": {
+                      "description": "The set's id (sets.json).",
+                      "type": "string"
+                    },
+                    "card": {
+                      "description": "The card's id, unique in its set.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "samePainting": {
+                "description": "The other cards that print its painting, one entry each, named by its first print in this card's catalog (else its first print); paintings/ has the painting's full list.",
+                "type": "array",
+                "items": {
+                  "description": "A card.",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": "card"
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "card"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                      "const": "card"
+                    },
+                    "set": {
+                      "description": "The set's id (sets.json).",
+                      "type": "string"
+                    },
+                    "card": {
+                      "description": "The card's id, unique in its set.",
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "vocabulary.catalog": {
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "enum": [
+        "international",
+        "japanese",
+        "zh-hans"
+      ]
+    },
+    "vocabulary.setType": {
+      "description": "Every value of vocabulary.json's `setType`.",
+      "enum": [
+        "deck",
+        "expansion",
+        "box",
+        "special_expansion",
+        "promo",
+        "tie_in",
+        "prize",
+        "energy"
+      ]
+    },
+    "vocabulary.language": {
+      "description": "Every value of vocabulary.json's `language`.",
+      "enum": [
+        "ja",
+        "en",
+        "zh-Hans",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "ko",
+        "pt",
+        "pl",
+        "nl",
+        "zh-Hant"
+      ]
+    },
+    "vocabulary.edition": {
+      "description": "Every value of vocabulary.json's `edition`.",
+      "enum": [
+        "first_edition",
+        "unlimited",
+        "no_rarity",
+        "shadowless",
+        "4th_print",
+        "no_e_reader",
+        "fossil_1999_2000_print",
+        "first_edition_no_rarity",
+        "white_border_test_print",
+        "for_position_only_test_print",
+        "hole_punched_glossy_back_test_print",
+        "hole_punched_matte_back_test_print",
+        "japanese_back_test_print",
+        "late_usa_print",
+        "no_text_test_print",
+        "black_border_test_print",
+        "commissioned_presentation",
+        "first_edition_shadowed",
+        "gold_border_test_print",
+        "manji_print",
+        "tane_text_print"
+      ]
+    },
+    "vocabulary.distribution": {
+      "description": "Every value of vocabulary.json's `distribution`.",
+      "enum": [
+        "product_promotion",
+        "event",
+        "program",
+        "prize",
+        "retailer_promotion",
+        "staff",
+        "campaign",
+        "publication_promotion",
+        "test"
+      ]
+    },
+    "vocabulary.setLink": {
+      "description": "Every value of vocabulary.json's `setLink`.",
+      "enum": [
+        "merged_into",
+        "equivalent",
+        "subset_of",
+        "companion"
+      ]
+    },
+    "vocabulary.rarity": {
+      "description": "Every value of vocabulary.json's `rarity`.",
+      "enum": [
+        "Uncommon",
+        "Common",
+        "Common (C)",
+        "Promo",
+        "Uncommon (U)",
+        "Rare",
+        "Holo Rare",
+        "Ultra Rare",
+        "Super Rare (SR)",
+        "Rare (R)",
+        "Double Rare (RR)",
+        "Art Rare (AR)",
+        "Double Rare",
+        "Ultra Rare (UR)",
+        "Illustration Rare",
+        "Hyper Rare (HR)",
+        "Special Art Rare (SAR)",
+        "Shiny Rare (S)",
+        "Shiny Rare",
+        "Rainbow Rare",
+        "Secret Rare",
+        "Triple Rare (RRR)",
+        "Special Illustration Rare",
+        "Triple Rare",
+        "Shiny Super Rare (SSR)",
+        "Classic Collection",
+        "Pikachu Rare",
+        "Character Rare (CHR)",
+        "Hyper Rare",
+        "Prism Rare (PR)",
+        "ACE SPEC Rare",
+        "Character Super Rare (CSR)",
+        "ACE SPEC Rare (ACE)",
+        "Gold Star",
+        "LEGEND",
+        "Trainer Rare (TR)",
+        "Prism Rare",
+        "Radiant Rare (K)",
+        "Radiant Rare",
+        "Shining Rare",
+        "Amazing Rare (A)",
+        "Shiny Ultra Rare",
+        "Mega Attack Rare (MA)",
+        "Amazing Rare",
+        "Mega Hyper Rare",
+        "RGB Rare",
+        "Mega Ultra Rare (MUR)",
+        "Mega Attack Rare",
+        "Black White Rare",
+        "Black White Rare (BWR)",
+        "Futuristic Rare (FUR)",
+        "Futuristic Rare"
+      ]
+    },
+    "vocabulary.cardType": {
+      "description": "Every value of vocabulary.json's `cardType`.",
+      "enum": [
+        "pokemon",
+        "trainer",
+        "energy",
+        "product"
+      ]
+    },
+    "vocabulary.finish": {
+      "description": "Every value of vocabulary.json's `finish`.",
+      "enum": [
+        "non_holo",
+        "holo",
+        "reverse_holo",
+        "poke_ball",
+        "master_ball",
+        "cosmos_holo",
+        "energy_symbol",
+        "mirror_holo",
+        "pixel_cosmos_holo",
+        "crosshatch_holo",
+        "glossy",
+        "cracked_ice_holo",
+        "stars",
+        "rotary",
+        "vertical_line_holo",
+        "sheen_holo",
+        "reverse_cosmos_holo",
+        "confetti_holo",
+        "confetti_reverse_holo",
+        "dusk_ball",
+        "love_ball",
+        "friend_ball",
+        "quick_ball",
+        "tinsel_holo",
+        "mirage_holo",
+        "water_web_holo",
+        "team_rocket_logo_mirror_holo",
+        "sequin_holo",
+        "disco_holo",
+        "lenticular",
+        "speckle_holo",
+        "glitter_holo",
+        "vertical_line_reverse_holo",
+        "reverse_tinsel_holo",
+        "starlight_holo",
+        "magic_foil"
+      ]
+    },
+    "vocabulary.material": {
+      "description": "Every value of vocabulary.json's `material`.",
+      "enum": [
+        "jumbo",
+        "metal",
+        "japanese_cardstock",
+        "magic_cardstock",
+        "peelable_bidoof",
+        "peelable_numel",
+        "peelable_spinarak",
+        "white_back"
+      ]
+    },
+    "vocabulary.stamp": {
+      "description": "Every value of vocabulary.json's `stamp`.",
+      "enum": [
+        "play_pokemon_stamp",
+        "30th_anniversary_stamp",
+        "25th_anniversary_stamp",
+        "prerelease",
+        "gym_stamp",
+        "staff_prerelease",
+        "gem_pack_stamp",
+        "league",
+        "pikachu_silhouette_stamp",
+        "world_championships_stamp",
+        "greninja_silhouette_stamp",
+        "lucario_silhouette_stamp",
+        "pikachu_jack_o_lantern_stamp",
+        "professor_program_stamp",
+        "oshawott_silhouette_stamp",
+        "volkswagen_id3_stamp",
+        "regional_championships_stamp",
+        "snowflake_stamp",
+        "staff_regional_championships_stamp",
+        "cinderace_silhouette_stamp",
+        "maushold_silhouette_stamp",
+        "tyranitar_silhouette_stamp",
+        "sprigatito_silhouette_stamp",
+        "altaria_silhouette_stamp",
+        "latios_silhouette_stamp",
+        "miraidon_silhouette_stamp",
+        "melmetal_silhouette_stamp",
+        "turtwig_silhouette_stamp",
+        "zamazenta_silhouette_stamp",
+        "gimmighoul_silhouette_stamp",
+        "mabosstiff_silhouette_stamp",
+        "clefairy_silhouette_stamp",
+        "koraidon_silhouette_stamp",
+        "decidueye_silhouette_stamp",
+        "infernape_silhouette_stamp",
+        "mewtwo_silhouette_stamp",
+        "winner_stamp",
+        "pokemon_center_stamp",
+        "1st_place_league_challenge_stamp",
+        "2nd_place_league_challenge_stamp",
+        "3rd_place_league_challenge_stamp",
+        "4th_place_league_challenge_stamp",
+        "gamestop_stamp",
+        "charizard_silhouette_stamp",
+        "raichu_silhouette_stamp",
+        "ebgames_stamp",
+        "darkrai_silhouette_stamp",
+        "froakie_silhouette_stamp",
+        "eevee_silhouette_stamp",
+        "finalist_world_championships_stamp",
+        "quarter_finalist_world_championships_stamp",
+        "semi_finalist_world_championships_stamp",
+        "staff_world_championships_stamp",
+        "top_sixteen_world_championships_stamp",
+        "top_thirty_two_world_championships_stamp",
+        "emboar_silhouette_stamp",
+        "prismatic_evolutions_stamp",
+        "snivy_silhouette_stamp",
+        "tepig_silhouette_stamp",
+        "thundurus_silhouette_stamp",
+        "togekiss_silhouette_stamp",
+        "tornadus_silhouette_stamp",
+        "toys_r_us_stamp",
+        "build_a_bear_workshop_stamp",
+        "league_cup_stamp",
+        "staff_league_cup_stamp",
+        "city_championships_stamp",
+        "national_championships_stamp",
+        "state_championships_stamp",
+        "trainer_deck_b_stamp",
+        "diamond_pearl_stamp",
+        "platinum_stamp",
+        "staff_national_championships_stamp",
+        "stellar_crown_stamp",
+        "trainer_deck_a_stamp",
+        "guangzhou_master_tournament_stamp",
+        "shenzhen_master_tournament_stamp",
+        "beijing_master_tournament_stamp",
+        "bulbasaur_silhouette_stamp",
+        "charmander_silhouette_stamp",
+        "hangzhou_master_tournament_stamp",
+        "journey_together_stamp",
+        "pokemon_card_game_design_contest_grand_prize_stamp",
+        "squirtle_silhouette_stamp",
+        "staff_state_championships_stamp",
+        "champion_world_championships_stamp",
+        "cobalion_silhouette_stamp",
+        "keldeo_silhouette_stamp",
+        "meloetta_silhouette_stamp",
+        "pikachu_10_silhouette_stamp",
+        "pikachu_11_silhouette_stamp",
+        "pikachu_12_silhouette_stamp",
+        "pikachu_13_silhouette_stamp",
+        "pikachu_14_silhouette_stamp",
+        "pikachu_15_silhouette_stamp",
+        "pikachu_16_silhouette_stamp",
+        "pikachu_17_silhouette_stamp",
+        "pikachu_18_silhouette_stamp",
+        "pikachu_19_silhouette_stamp",
+        "pikachu_1_silhouette_stamp",
+        "pikachu_2_silhouette_stamp",
+        "pikachu_3_silhouette_stamp",
+        "pikachu_4_silhouette_stamp",
+        "pikachu_5_silhouette_stamp",
+        "pikachu_6_silhouette_stamp",
+        "pikachu_7_silhouette_stamp",
+        "pikachu_8_silhouette_stamp",
+        "pikachu_9_silhouette_stamp",
+        "pikachu_tail_stamp",
+        "pokemon_the_first_movie_stamp",
+        "staff_city_championships_stamp",
+        "terrakion_silhouette_stamp",
+        "victini_silhouette_stamp",
+        "virizion_silhouette_stamp",
+        "zoroark_silhouette_stamp",
+        "20th_anniversary_stamp",
+        "champion_championships_north_america_stamp",
+        "championships_north_america_stamp",
+        "gold_signature_stamp",
+        "great_ball_league_stamp",
+        "staff_championships_north_america_stamp",
+        "top_8_championships_north_america_stamp",
+        "ultra_ball_league_stamp",
+        "asia_promo_stamp",
+        "champion_championships_europe_stamp",
+        "championships_europe_stamp",
+        "staff_championships_europe_stamp",
+        "surging_sparks_stamp",
+        "top_8_championships_europe_stamp",
+        "w_stamp",
+        "whats_your_favorite_stamp",
+        "legendary_pokemon_stamp",
+        "pokemon_art_academy_stamp",
+        "temporal_forces_stamp",
+        "twilight_masquerade_stamp",
+        "champion_championships_latin_america_stamp",
+        "champion_championships_oceania_stamp",
+        "champion_professor_program_stamp",
+        "championships_latin_america_stamp",
+        "championships_oceania_stamp",
+        "destined_rivals_stamp",
+        "detective_pikachu_stamp",
+        "dragon_vault_stamp",
+        "pikachu_20_silhouette_stamp",
+        "pikachu_21_silhouette_stamp",
+        "pikachu_22_silhouette_stamp",
+        "pikachu_23_silhouette_stamp",
+        "san_diego_comic_con_stamp",
+        "scarlet_violet_stamp",
+        "snivy_9_silhouette_stamp",
+        "staff_championships_latin_america_stamp",
+        "staff_championships_oceania_stamp",
+        "staff_professor_program_stamp",
+        "tepig_18_silhouette_stamp",
+        "thank_you_pokemon_league_stamp",
+        "top_8_championships_latin_america_stamp",
+        "top_8_championships_oceania_stamp",
+        "top_8_professor_program_stamp",
+        "world_hobby_fair_stamp",
+        "20th_anniversary_festa_stamp",
+        "2nd_place_guangzhou_master_tournament_stamp",
+        "battle_festa_2013_stamp",
+        "battle_festa_2015_corocoro_challenge_stamp",
+        "champion_guangzhou_master_tournament_stamp",
+        "event_organizer_logo",
+        "lizardon_mega_battle_stamp",
+        "master_ball_league_stamp",
+        "paradox_rift_stamp",
+        "pokemon_horizons_stamp",
+        "premier_ball_league_stamp",
+        "snivy_1_silhouette_stamp",
+        "snivy_30_silhouette_stamp",
+        "sword_shield_stamp",
+        "tepig_10_silhouette_stamp",
+        "tepig_30_silhouette_stamp",
+        "asia_championship_series_2023_2024_stamp",
+        "battle_carnival_2013_spring_stamp",
+        "battle_festa_2014_stamp",
+        "battle_festa_2015_victory_battle_stamp",
+        "battle_road_autumn_2011_stamp",
+        "battle_road_autumn_2012_stamp",
+        "battle_road_spring_2012_stamp",
+        "battle_road_spring_2013_stamp",
+        "beginners_session_stamp",
+        "champion_road_stamp",
+        "championships_hong_kong_stamp",
+        "championships_malaysia_stamp",
+        "championships_philippines_stamp",
+        "championships_singapore_stamp",
+        "cinderace_10_silhouette_stamp",
+        "cinderace_11_silhouette_stamp",
+        "cinderace_12_silhouette_stamp",
+        "cinderace_13_silhouette_stamp",
+        "cinderace_14_silhouette_stamp",
+        "cinderace_15_silhouette_stamp",
+        "cinderace_16_silhouette_stamp",
+        "cinderace_17_silhouette_stamp",
+        "cinderace_1_silhouette_stamp",
+        "cinderace_2_silhouette_stamp",
+        "cinderace_3_silhouette_stamp",
+        "cinderace_4_silhouette_stamp",
+        "cinderace_5_silhouette_stamp",
+        "cinderace_6_silhouette_stamp",
+        "cinderace_7_silhouette_stamp",
+        "cinderace_8_silhouette_stamp",
+        "cinderace_9_silhouette_stamp",
+        "distributor_meeting_stamp",
+        "ebgames_canada_stamp",
+        "gym_challenge_stamp",
+        "kamex_mega_battle_stamp",
+        "mega_evolution_stamp",
+        "obsidian_flames_stamp",
+        "paldea_evolved_stamp",
+        "paldean_fates_stamp",
+        "pikachu_24_silhouette_stamp",
+        "pikachu_25_silhouette_stamp",
+        "pikachu_26_silhouette_stamp",
+        "pikachu_27_silhouette_stamp",
+        "pikachu_28_silhouette_stamp",
+        "pikachu_29_silhouette_stamp",
+        "pikachu_30_silhouette_stamp",
+        "pikachu_31_silhouette_stamp",
+        "pikachu_32_silhouette_stamp",
+        "pikachu_33_silhouette_stamp",
+        "pikachu_34_silhouette_stamp",
+        "pikachu_35_silhouette_stamp",
+        "pikachu_36_silhouette_stamp",
+        "pikachu_37_silhouette_stamp",
+        "pikachu_38_silhouette_stamp",
+        "pikachu_39_silhouette_stamp",
+        "pikachu_40_silhouette_stamp",
+        "pikachu_41_silhouette_stamp",
+        "pikachu_42_silhouette_stamp",
+        "pikachu_43_silhouette_stamp",
+        "pikachu_44_silhouette_stamp",
+        "pikachu_45_silhouette_stamp",
+        "pikachu_46_silhouette_stamp",
+        "pikachu_47_silhouette_stamp",
+        "pikachu_48_silhouette_stamp",
+        "pikachu_49_silhouette_stamp",
+        "pikachu_50_silhouette_stamp",
+        "pikachu_51_silhouette_stamp",
+        "pikachu_52_silhouette_stamp",
+        "pikachu_53_silhouette_stamp",
+        "pikachu_54_silhouette_stamp",
+        "pikachu_55_silhouette_stamp",
+        "pikachu_56_silhouette_stamp",
+        "pikachu_57_silhouette_stamp",
+        "pikachu_58_silhouette_stamp",
+        "pikachu_59_silhouette_stamp",
+        "pikachu_60_silhouette_stamp",
+        "pokemon_smile_school_stamp",
+        "pokeween_2026_stamp",
+        "rayquaza_mega_battle_stamp",
+        "snivy_10_silhouette_stamp",
+        "snivy_11_silhouette_stamp",
+        "snivy_12_silhouette_stamp",
+        "snivy_13_silhouette_stamp",
+        "snivy_14_silhouette_stamp",
+        "snivy_15_silhouette_stamp",
+        "snivy_16_silhouette_stamp",
+        "snivy_17_silhouette_stamp",
+        "snivy_18_silhouette_stamp",
+        "snivy_19_silhouette_stamp",
+        "snivy_20_silhouette_stamp",
+        "snivy_21_silhouette_stamp",
+        "snivy_22_silhouette_stamp",
+        "snivy_23_silhouette_stamp",
+        "snivy_24_silhouette_stamp",
+        "snivy_25_silhouette_stamp",
+        "snivy_26_silhouette_stamp",
+        "snivy_27_silhouette_stamp",
+        "snivy_28_silhouette_stamp",
+        "snivy_29_silhouette_stamp",
+        "snivy_2_silhouette_stamp",
+        "snivy_3_silhouette_stamp",
+        "snivy_4_silhouette_stamp",
+        "snivy_5_silhouette_stamp",
+        "snivy_6_silhouette_stamp",
+        "snivy_7_silhouette_stamp",
+        "snivy_8_silhouette_stamp",
+        "tepig_11_silhouette_stamp",
+        "tepig_12_silhouette_stamp",
+        "tepig_13_silhouette_stamp",
+        "tepig_14_silhouette_stamp",
+        "tepig_15_silhouette_stamp",
+        "tepig_16_silhouette_stamp",
+        "tepig_17_silhouette_stamp",
+        "tepig_19_silhouette_stamp",
+        "tepig_1_silhouette_stamp",
+        "tepig_20_silhouette_stamp",
+        "tepig_21_silhouette_stamp",
+        "tepig_22_silhouette_stamp",
+        "tepig_23_silhouette_stamp",
+        "tepig_24_silhouette_stamp",
+        "tepig_25_silhouette_stamp",
+        "tepig_26_silhouette_stamp",
+        "tepig_27_silhouette_stamp",
+        "tepig_28_silhouette_stamp",
+        "tepig_29_silhouette_stamp",
+        "tepig_2_silhouette_stamp",
+        "tepig_3_silhouette_stamp",
+        "tepig_4_silhouette_stamp",
+        "tepig_5_silhouette_stamp",
+        "tepig_6_silhouette_stamp",
+        "tepig_7_silhouette_stamp",
+        "tepig_8_silhouette_stamp",
+        "tepig_9_silhouette_stamp",
+        "10th_anniversary_stamp",
+        "15th_anniversary_stamp",
+        "2nd_place_beijing_master_tournament_stamp",
+        "2nd_place_great_tournament_stamp",
+        "2nd_place_hangzhou_master_tournament_stamp",
+        "2nd_place_shenzhen_master_tournament_stamp",
+        "3rd_place_beijing_master_tournament_stamp",
+        "3rd_place_guangzhou_master_tournament_stamp",
+        "3rd_place_hangzhou_master_tournament_stamp",
+        "3rd_place_shenzhen_master_tournament_stamp",
+        "astral_radiance_stamp",
+        "battle_carnival_2011_stamp",
+        "battle_carnival_2012_spring_stamp",
+        "black_bolt_stamp",
+        "brilliant_stars_stamp",
+        "champion_beijing_master_tournament_stamp",
+        "champion_great_tournament_stamp",
+        "champion_hangzhou_master_tournament_stamp",
+        "champion_shenzhen_master_tournament_stamp",
+        "chaos_rising_stamp",
+        "chespin_15_silhouette_stamp",
+        "chespin_20_silhouette_stamp",
+        "chespin_27_silhouette_stamp",
+        "clefairy_10_silhouette_stamp",
+        "clefairy_11_silhouette_stamp",
+        "clefairy_12_silhouette_stamp",
+        "clefairy_13_silhouette_stamp",
+        "clefairy_14_silhouette_stamp",
+        "clefairy_15_silhouette_stamp",
+        "clefairy_16_silhouette_stamp",
+        "clefairy_17_silhouette_stamp",
+        "clefairy_18_silhouette_stamp",
+        "clefairy_1_silhouette_stamp",
+        "clefairy_2_silhouette_stamp",
+        "clefairy_3_silhouette_stamp",
+        "clefairy_4_silhouette_stamp",
+        "clefairy_5_silhouette_stamp",
+        "clefairy_6_silhouette_stamp",
+        "clefairy_7_silhouette_stamp",
+        "clefairy_8_silhouette_stamp",
+        "clefairy_9_silhouette_stamp",
+        "darkness_ablaze_stamp",
+        "decidueye_10_silhouette_stamp",
+        "decidueye_11_silhouette_stamp",
+        "decidueye_12_silhouette_stamp",
+        "decidueye_13_silhouette_stamp",
+        "decidueye_14_silhouette_stamp",
+        "decidueye_15_silhouette_stamp",
+        "decidueye_16_silhouette_stamp",
+        "decidueye_1_silhouette_stamp",
+        "decidueye_2_silhouette_stamp",
+        "decidueye_3_silhouette_stamp",
+        "decidueye_4_silhouette_stamp",
+        "decidueye_5_silhouette_stamp",
+        "decidueye_6_silhouette_stamp",
+        "decidueye_7_silhouette_stamp",
+        "decidueye_8_silhouette_stamp",
+        "decidueye_9_silhouette_stamp",
+        "donald_duck_magazine_stamp",
+        "fennekin_1_silhouette_stamp",
+        "fennekin_21_silhouette_stamp",
+        "fennekin_26_silhouette_stamp",
+        "game_on_stamp",
+        "gen_con_stamp",
+        "greninja_10_silhouette_stamp",
+        "greninja_11_silhouette_stamp",
+        "greninja_12_silhouette_stamp",
+        "greninja_13_silhouette_stamp",
+        "greninja_14_silhouette_stamp",
+        "greninja_15_silhouette_stamp",
+        "greninja_16_silhouette_stamp",
+        "greninja_17_silhouette_stamp",
+        "greninja_18_silhouette_stamp",
+        "greninja_1_silhouette_stamp",
+        "greninja_2_silhouette_stamp",
+        "greninja_3_silhouette_stamp",
+        "greninja_4_silhouette_stamp",
+        "greninja_5_silhouette_stamp",
+        "greninja_6_silhouette_stamp",
+        "greninja_7_silhouette_stamp",
+        "greninja_8_silhouette_stamp",
+        "greninja_9_silhouette_stamp",
+        "infernape_10_silhouette_stamp",
+        "infernape_11_silhouette_stamp",
+        "infernape_12_silhouette_stamp",
+        "infernape_13_silhouette_stamp",
+        "infernape_14_silhouette_stamp",
+        "infernape_15_silhouette_stamp",
+        "infernape_16_silhouette_stamp",
+        "infernape_1_silhouette_stamp",
+        "infernape_2_silhouette_stamp",
+        "infernape_3_silhouette_stamp",
+        "infernape_4_silhouette_stamp",
+        "infernape_5_silhouette_stamp",
+        "infernape_6_silhouette_stamp",
+        "infernape_7_silhouette_stamp",
+        "infernape_8_silhouette_stamp",
+        "infernape_9_silhouette_stamp",
+        "judge_master_ball_league_stamp",
+        "judge_premier_ball_league_stamp",
+        "koraidon_10_silhouette_stamp",
+        "koraidon_11_silhouette_stamp",
+        "koraidon_12_silhouette_stamp",
+        "koraidon_13_silhouette_stamp",
+        "koraidon_14_silhouette_stamp",
+        "koraidon_15_silhouette_stamp",
+        "koraidon_16_silhouette_stamp",
+        "koraidon_17_silhouette_stamp",
+        "koraidon_18_silhouette_stamp",
+        "koraidon_1_silhouette_stamp",
+        "koraidon_2_silhouette_stamp",
+        "koraidon_3_silhouette_stamp",
+        "koraidon_4_silhouette_stamp",
+        "koraidon_5_silhouette_stamp",
+        "koraidon_6_silhouette_stamp",
+        "koraidon_7_silhouette_stamp",
+        "koraidon_8_silhouette_stamp",
+        "koraidon_9_silhouette_stamp",
+        "latios_10_silhouette_stamp",
+        "latios_11_silhouette_stamp",
+        "latios_12_silhouette_stamp",
+        "latios_13_silhouette_stamp",
+        "latios_14_silhouette_stamp",
+        "latios_15_silhouette_stamp",
+        "latios_16_silhouette_stamp",
+        "latios_17_silhouette_stamp",
+        "latios_18_silhouette_stamp",
+        "latios_1_silhouette_stamp",
+        "latios_2_silhouette_stamp",
+        "latios_3_silhouette_stamp",
+        "latios_4_silhouette_stamp",
+        "latios_5_silhouette_stamp",
+        "latios_6_silhouette_stamp",
+        "latios_7_silhouette_stamp",
+        "latios_8_silhouette_stamp",
+        "latios_9_silhouette_stamp",
+        "lost_origin_stamp",
+        "lucario_10_silhouette_stamp",
+        "lucario_11_silhouette_stamp",
+        "lucario_12_silhouette_stamp",
+        "lucario_13_silhouette_stamp",
+        "lucario_14_silhouette_stamp",
+        "lucario_15_silhouette_stamp",
+        "lucario_16_silhouette_stamp",
+        "lucario_17_silhouette_stamp",
+        "lucario_18_silhouette_stamp",
+        "lucario_1_silhouette_stamp",
+        "lucario_2_silhouette_stamp",
+        "lucario_3_silhouette_stamp",
+        "lucario_4_silhouette_stamp",
+        "lucario_5_silhouette_stamp",
+        "lucario_6_silhouette_stamp",
+        "lucario_7_silhouette_stamp",
+        "lucario_8_silhouette_stamp",
+        "lucario_9_silhouette_stamp",
+        "origins_stamp",
+        "palace_battle_winner_stamp",
+        "perfect_order_stamp",
+        "phantasmal_flames_stamp",
+        "pokemon_center_ny_stamp",
+        "pokemon_day_2025_stamp",
+        "pokemon_day_2026_stamp",
+        "pokemon_day_stamp",
+        "pokemon_game_show_stamp",
+        "pokemon_together_stamp",
+        "rebel_clash_stamp",
+        "regional_league_hong_kong_stamp",
+        "regional_league_malaysia_stamp",
+        "regional_league_philippines_stamp",
+        "regional_league_singapore_stamp",
+        "silver_tempest_stamp",
+        "sprigatito_10_silhouette_stamp",
+        "sprigatito_11_silhouette_stamp",
+        "sprigatito_12_silhouette_stamp",
+        "sprigatito_13_silhouette_stamp",
+        "sprigatito_15_silhouette_stamp",
+        "sprigatito_16_silhouette_stamp",
+        "sprigatito_17_silhouette_stamp",
+        "sprigatito_1_silhouette_stamp",
+        "sprigatito_2_silhouette_stamp",
+        "sprigatito_3_silhouette_stamp",
+        "sprigatito_4_silhouette_stamp",
+        "sprigatito_5_silhouette_stamp",
+        "sprigatito_6_silhouette_stamp",
+        "sprigatito_7_silhouette_stamp",
+        "sprigatito_8_silhouette_stamp",
+        "sprigatito_9_silhouette_stamp",
+        "staff_san_diego_comic_con_stamp",
+        "stamp",
+        "top_4_guangzhou_master_tournament_stamp",
+        "top_4_professor_program_stamp",
+        "top_64_great_tournament_stamp",
+        "top_64_guangzhou_master_tournament_stamp",
+        "top_8_great_tournament_stamp",
+        "top_8_guangzhou_master_tournament_stamp",
+        "vivid_voltage_stamp",
+        "white_flare_stamp",
+        "world_championships_2024_stamp",
+        "world_championships_2025_stamp",
+        "2nd_place_battle_carnival_2011_stamp",
+        "2nd_place_battle_carnival_2012_autumn_stamp",
+        "2nd_place_battle_carnival_2012_spring_stamp",
+        "2nd_place_battle_carnival_2013_spring_stamp",
+        "2nd_place_champions_league_2017_aichi_stamp",
+        "2nd_place_champions_league_2017_chiba_stamp",
+        "2nd_place_champions_league_2017_okayama_stamp",
+        "2nd_place_champions_league_2017_osaka_stamp",
+        "2nd_place_champions_league_2017_sendai_stamp",
+        "2nd_place_champions_league_2018_1st_certified_tournament_stamp",
+        "2nd_place_champions_league_2018_nagoya_stamp",
+        "2nd_place_champions_league_2018_yokohama_stamp",
+        "2nd_place_champions_league_2020_aichi_stamp",
+        "2nd_place_champions_league_2023_aichi_stamp",
+        "2nd_place_champions_league_2023_kyoto_stamp",
+        "2nd_place_champions_league_2023_miyagi_stamp",
+        "2nd_place_champions_league_2023_niigata_stamp",
+        "2nd_place_champions_league_2023_yokohama_stamp",
+        "2nd_place_champions_league_2024_aichi_stamp",
+        "2nd_place_champions_league_2024_fukuoka_stamp",
+        "2nd_place_champions_league_2024_kyoto_stamp",
+        "2nd_place_champions_league_2024_sapporo_stamp",
+        "2nd_place_champions_league_2024_yokohama_stamp",
+        "2nd_place_champions_league_2025_aichi_stamp",
+        "2nd_place_champions_league_2025_fukuoka_stamp",
+        "2nd_place_champions_league_2025_miyagi_stamp",
+        "2nd_place_champions_league_2025_osaka_stamp",
+        "2nd_place_champions_league_2025_tokyo_stamp",
+        "2nd_place_champions_league_2026_aichi_dec_stamp",
+        "2nd_place_champions_league_2026_aichi_may_stamp",
+        "2nd_place_champions_league_2026_fukuoka_stamp",
+        "2nd_place_champions_league_2026_osaka_stamp",
+        "2nd_place_champions_league_2026_yokohama_stamp",
+        "2nd_place_champions_league_2027_aichi_stamp",
+        "2nd_place_champions_league_2027_chiba_stamp",
+        "2nd_place_champions_league_2027_miyagi_stamp",
+        "2nd_place_champions_league_2027_osaka_stamp",
+        "2nd_place_champions_league_2027_yokohama_stamp",
+        "2nd_place_city_tournament_stamp",
+        "2nd_place_city_tournament_team_stamp",
+        "2nd_place_pulverizing_pancake_battle_stamp",
+        "3rd_place_battle_carnival_2011_stamp",
+        "3rd_place_battle_carnival_2012_autumn_stamp",
+        "3rd_place_battle_carnival_2012_spring_stamp",
+        "3rd_place_battle_carnival_2013_spring_stamp",
+        "3rd_place_champions_league_2017_aichi_stamp",
+        "3rd_place_champions_league_2017_chiba_stamp",
+        "3rd_place_champions_league_2017_okayama_stamp",
+        "3rd_place_champions_league_2017_osaka_stamp",
+        "3rd_place_champions_league_2017_sendai_stamp",
+        "3rd_place_champions_league_2018_1st_certified_tournament_stamp",
+        "3rd_place_champions_league_2018_nagoya_stamp",
+        "3rd_place_champions_league_2018_yokohama_stamp",
+        "3rd_place_champions_league_2020_aichi_stamp",
+        "3rd_place_champions_league_2023_aichi_stamp",
+        "3rd_place_champions_league_2023_kyoto_stamp",
+        "3rd_place_champions_league_2023_miyagi_stamp",
+        "3rd_place_champions_league_2023_niigata_stamp",
+        "3rd_place_champions_league_2023_yokohama_stamp",
+        "3rd_place_champions_league_2024_aichi_stamp",
+        "3rd_place_champions_league_2024_fukuoka_stamp",
+        "3rd_place_champions_league_2024_kyoto_stamp",
+        "3rd_place_champions_league_2024_sapporo_stamp",
+        "3rd_place_champions_league_2024_yokohama_stamp",
+        "3rd_place_champions_league_2025_aichi_stamp",
+        "3rd_place_champions_league_2025_fukuoka_stamp",
+        "3rd_place_champions_league_2025_miyagi_stamp",
+        "3rd_place_champions_league_2025_osaka_stamp",
+        "3rd_place_champions_league_2025_tokyo_stamp",
+        "3rd_place_champions_league_2026_aichi_dec_stamp",
+        "3rd_place_champions_league_2026_aichi_may_stamp",
+        "3rd_place_champions_league_2026_fukuoka_stamp",
+        "3rd_place_champions_league_2026_osaka_stamp",
+        "3rd_place_champions_league_2026_yokohama_stamp",
+        "3rd_place_champions_league_2027_aichi_stamp",
+        "3rd_place_champions_league_2027_chiba_stamp",
+        "3rd_place_champions_league_2027_miyagi_stamp",
+        "3rd_place_champions_league_2027_osaka_stamp",
+        "3rd_place_champions_league_2027_yokohama_stamp",
+        "3rd_place_pulverizing_pancake_battle_stamp",
+        "ace_trainer_stamp",
+        "alolan_ninetales_10_circle_stamp",
+        "alolan_ninetales_11_circle_stamp",
+        "alolan_ninetales_12_circle_stamp",
+        "alolan_ninetales_13_circle_stamp",
+        "alolan_ninetales_14_circle_stamp",
+        "alolan_ninetales_15_circle_stamp",
+        "alolan_ninetales_16_circle_stamp",
+        "alolan_ninetales_17_circle_stamp",
+        "alolan_ninetales_18_circle_stamp",
+        "alolan_ninetales_19_circle_stamp",
+        "alolan_ninetales_1_circle_stamp",
+        "alolan_ninetales_20_circle_stamp",
+        "alolan_ninetales_21_circle_stamp",
+        "alolan_ninetales_22_circle_stamp",
+        "alolan_ninetales_23_circle_stamp",
+        "alolan_ninetales_24_circle_stamp",
+        "alolan_ninetales_25_circle_stamp",
+        "alolan_ninetales_26_circle_stamp",
+        "alolan_ninetales_27_circle_stamp",
+        "alolan_ninetales_28_circle_stamp",
+        "alolan_ninetales_29_circle_stamp",
+        "alolan_ninetales_2_circle_stamp",
+        "alolan_ninetales_30_circle_stamp",
+        "alolan_ninetales_3_circle_stamp",
+        "alolan_ninetales_4_circle_stamp",
+        "alolan_ninetales_5_circle_stamp",
+        "alolan_ninetales_6_circle_stamp",
+        "alolan_ninetales_7_circle_stamp",
+        "alolan_ninetales_8_circle_stamp",
+        "alolan_ninetales_9_circle_stamp",
+        "alolan_sandslash_10_circle_stamp",
+        "alolan_sandslash_11_circle_stamp",
+        "alolan_sandslash_12_circle_stamp",
+        "alolan_sandslash_13_circle_stamp",
+        "alolan_sandslash_14_circle_stamp",
+        "alolan_sandslash_15_circle_stamp",
+        "alolan_sandslash_16_circle_stamp",
+        "alolan_sandslash_17_circle_stamp",
+        "alolan_sandslash_18_circle_stamp",
+        "alolan_sandslash_19_circle_stamp",
+        "alolan_sandslash_1_circle_stamp",
+        "alolan_sandslash_20_circle_stamp",
+        "alolan_sandslash_21_circle_stamp",
+        "alolan_sandslash_22_circle_stamp",
+        "alolan_sandslash_23_circle_stamp",
+        "alolan_sandslash_24_circle_stamp",
+        "alolan_sandslash_25_circle_stamp",
+        "alolan_sandslash_26_circle_stamp",
+        "alolan_sandslash_27_circle_stamp",
+        "alolan_sandslash_28_circle_stamp",
+        "alolan_sandslash_29_circle_stamp",
+        "alolan_sandslash_2_circle_stamp",
+        "alolan_sandslash_30_circle_stamp",
+        "alolan_sandslash_3_circle_stamp",
+        "alolan_sandslash_4_circle_stamp",
+        "alolan_sandslash_5_circle_stamp",
+        "alolan_sandslash_6_circle_stamp",
+        "alolan_sandslash_7_circle_stamp",
+        "alolan_sandslash_8_circle_stamp",
+        "alolan_sandslash_9_circle_stamp",
+        "arena_cup_stamp",
+        "armarouge_10_silhouette_stamp",
+        "armarouge_11_silhouette_stamp",
+        "armarouge_12_silhouette_stamp",
+        "armarouge_13_silhouette_stamp",
+        "armarouge_14_silhouette_stamp",
+        "armarouge_15_silhouette_stamp",
+        "armarouge_16_silhouette_stamp",
+        "armarouge_17_silhouette_stamp",
+        "armarouge_18_silhouette_stamp",
+        "armarouge_19_silhouette_stamp",
+        "armarouge_1_silhouette_stamp",
+        "armarouge_20_silhouette_stamp",
+        "armarouge_21_silhouette_stamp",
+        "armarouge_22_silhouette_stamp",
+        "armarouge_23_silhouette_stamp",
+        "armarouge_24_silhouette_stamp",
+        "armarouge_25_silhouette_stamp",
+        "armarouge_26_silhouette_stamp",
+        "armarouge_27_silhouette_stamp",
+        "armarouge_28_silhouette_stamp",
+        "armarouge_29_silhouette_stamp",
+        "armarouge_2_silhouette_stamp",
+        "armarouge_30_silhouette_stamp",
+        "armarouge_31_silhouette_stamp",
+        "armarouge_32_silhouette_stamp",
+        "armarouge_33_silhouette_stamp",
+        "armarouge_34_silhouette_stamp",
+        "armarouge_35_silhouette_stamp",
+        "armarouge_36_silhouette_stamp",
+        "armarouge_37_silhouette_stamp",
+        "armarouge_38_silhouette_stamp",
+        "armarouge_39_silhouette_stamp",
+        "armarouge_3_silhouette_stamp",
+        "armarouge_40_silhouette_stamp",
+        "armarouge_41_silhouette_stamp",
+        "armarouge_42_silhouette_stamp",
+        "armarouge_43_silhouette_stamp",
+        "armarouge_44_silhouette_stamp",
+        "armarouge_45_silhouette_stamp",
+        "armarouge_46_silhouette_stamp",
+        "armarouge_47_silhouette_stamp",
+        "armarouge_48_silhouette_stamp",
+        "armarouge_49_silhouette_stamp",
+        "armarouge_4_silhouette_stamp",
+        "armarouge_50_silhouette_stamp",
+        "armarouge_51_silhouette_stamp",
+        "armarouge_52_silhouette_stamp",
+        "armarouge_53_silhouette_stamp",
+        "armarouge_54_silhouette_stamp",
+        "armarouge_55_silhouette_stamp",
+        "armarouge_56_silhouette_stamp",
+        "armarouge_57_silhouette_stamp",
+        "armarouge_58_silhouette_stamp",
+        "armarouge_59_silhouette_stamp",
+        "armarouge_5_silhouette_stamp",
+        "armarouge_60_silhouette_stamp",
+        "armarouge_6_silhouette_stamp",
+        "armarouge_7_silhouette_stamp",
+        "armarouge_8_silhouette_stamp",
+        "armarouge_9_silhouette_stamp",
+        "asia_championship_series_2024_2025_stamp",
+        "battle_carnival_2012_autumn_stamp",
+        "battle_road_autumn_2003_stamp",
+        "battle_road_autumn_2005_stamp",
+        "battle_road_summer_2006_stamp",
+        "bulbasaur_silhouette_first_pokemon_stamp",
+        "bulbasaur_silhouette_starting_energy_stamp",
+        "celestial_storm_stamp",
+        "champion_battle_carnival_2011_stamp",
+        "champion_battle_carnival_2012_autumn_stamp",
+        "champion_battle_carnival_2012_spring_stamp",
+        "champion_battle_carnival_2013_spring_stamp",
+        "champion_champions_league_2017_aichi_stamp",
+        "champion_champions_league_2017_chiba_stamp",
+        "champion_champions_league_2017_okayama_stamp",
+        "champion_champions_league_2017_osaka_stamp",
+        "champion_champions_league_2017_sendai_stamp",
+        "champion_champions_league_2018_1st_certified_tournament_stamp",
+        "champion_champions_league_2018_nagoya_stamp",
+        "champion_champions_league_2018_yokohama_stamp",
+        "champion_champions_league_2020_aichi_stamp",
+        "champion_champions_league_2023_aichi_stamp",
+        "champion_champions_league_2023_kyoto_stamp",
+        "champion_champions_league_2023_miyagi_stamp",
+        "champion_champions_league_2023_niigata_stamp",
+        "champion_champions_league_2023_yokohama_stamp",
+        "champion_champions_league_2024_aichi_stamp",
+        "champion_champions_league_2024_fukuoka_stamp",
+        "champion_champions_league_2024_kyoto_stamp",
+        "champion_champions_league_2024_sapporo_stamp",
+        "champion_champions_league_2024_yokohama_stamp",
+        "champion_champions_league_2025_aichi_stamp",
+        "champion_champions_league_2025_fukuoka_stamp",
+        "champion_champions_league_2025_miyagi_stamp",
+        "champion_champions_league_2025_osaka_stamp",
+        "champion_champions_league_2025_tokyo_stamp",
+        "champion_champions_league_2026_aichi_dec_stamp",
+        "champion_champions_league_2026_aichi_may_stamp",
+        "champion_champions_league_2026_fukuoka_stamp",
+        "champion_champions_league_2026_osaka_stamp",
+        "champion_champions_league_2026_yokohama_stamp",
+        "champion_champions_league_2027_aichi_stamp",
+        "champion_champions_league_2027_chiba_stamp",
+        "champion_champions_league_2027_miyagi_stamp",
+        "champion_champions_league_2027_osaka_stamp",
+        "champion_champions_league_2027_yokohama_stamp",
+        "champion_championships_hong_kong_stamp",
+        "champion_championships_malaysia_stamp",
+        "champion_championships_philippines_stamp",
+        "champion_championships_singapore_stamp",
+        "champion_city_tournament_stamp",
+        "champion_city_tournament_team_stamp",
+        "champion_pulverizing_pancake_battle_stamp",
+        "champion_world_championships_2023_stamp",
+        "champion_world_championships_2024_stamp",
+        "charizard_10_silhouette_stamp",
+        "charizard_11_silhouette_stamp",
+        "charizard_12_silhouette_stamp",
+        "charizard_13_silhouette_stamp",
+        "charizard_14_silhouette_stamp",
+        "charizard_15_silhouette_stamp",
+        "charizard_16_silhouette_stamp",
+        "charizard_17_silhouette_stamp",
+        "charizard_18_silhouette_stamp",
+        "charizard_19_silhouette_stamp",
+        "charizard_1_silhouette_stamp",
+        "charizard_20_silhouette_stamp",
+        "charizard_21_silhouette_stamp",
+        "charizard_22_silhouette_stamp",
+        "charizard_23_silhouette_stamp",
+        "charizard_24_silhouette_stamp",
+        "charizard_25_silhouette_stamp",
+        "charizard_26_silhouette_stamp",
+        "charizard_27_silhouette_stamp",
+        "charizard_28_silhouette_stamp",
+        "charizard_29_silhouette_stamp",
+        "charizard_2_silhouette_stamp",
+        "charizard_30_silhouette_stamp",
+        "charizard_31_silhouette_stamp",
+        "charizard_32_silhouette_stamp",
+        "charizard_33_silhouette_stamp",
+        "charizard_34_silhouette_stamp",
+        "charizard_35_silhouette_stamp",
+        "charizard_36_silhouette_stamp",
+        "charizard_37_silhouette_stamp",
+        "charizard_38_silhouette_stamp",
+        "charizard_39_silhouette_stamp",
+        "charizard_3_silhouette_stamp",
+        "charizard_40_silhouette_stamp",
+        "charizard_41_silhouette_stamp",
+        "charizard_42_silhouette_stamp",
+        "charizard_43_silhouette_stamp",
+        "charizard_44_silhouette_stamp",
+        "charizard_45_silhouette_stamp",
+        "charizard_46_silhouette_stamp",
+        "charizard_47_silhouette_stamp",
+        "charizard_48_silhouette_stamp",
+        "charizard_49_silhouette_stamp",
+        "charizard_4_silhouette_stamp",
+        "charizard_50_silhouette_stamp",
+        "charizard_51_silhouette_stamp",
+        "charizard_52_silhouette_stamp",
+        "charizard_53_silhouette_stamp",
+        "charizard_54_silhouette_stamp",
+        "charizard_55_silhouette_stamp",
+        "charizard_56_silhouette_stamp",
+        "charizard_57_silhouette_stamp",
+        "charizard_58_silhouette_stamp",
+        "charizard_59_silhouette_stamp",
+        "charizard_5_silhouette_stamp",
+        "charizard_60_silhouette_stamp",
+        "charizard_6_silhouette_stamp",
+        "charizard_7_silhouette_stamp",
+        "charizard_8_silhouette_stamp",
+        "charizard_9_silhouette_stamp",
+        "charmander_silhouette_first_pokemon_stamp",
+        "charmander_silhouette_starting_energy_stamp",
+        "chespin_10_silhouette_stamp",
+        "chespin_11_silhouette_stamp",
+        "chespin_12_silhouette_stamp",
+        "chespin_13_silhouette_stamp",
+        "chespin_14_silhouette_stamp",
+        "chespin_16_silhouette_stamp",
+        "chespin_17_silhouette_stamp",
+        "chespin_18_silhouette_stamp",
+        "chespin_19_silhouette_stamp",
+        "chespin_1_silhouette_stamp",
+        "chespin_21_silhouette_stamp",
+        "chespin_22_silhouette_stamp",
+        "chespin_23_silhouette_stamp",
+        "chespin_24_silhouette_stamp",
+        "chespin_25_silhouette_stamp",
+        "chespin_26_silhouette_stamp",
+        "chespin_28_silhouette_stamp",
+        "chespin_29_silhouette_stamp",
+        "chespin_2_silhouette_stamp",
+        "chespin_30_silhouette_stamp",
+        "chespin_3_silhouette_stamp",
+        "chespin_4_silhouette_stamp",
+        "chespin_5_silhouette_stamp",
+        "chespin_6_silhouette_stamp",
+        "chespin_7_silhouette_stamp",
+        "chespin_8_silhouette_stamp",
+        "chespin_9_silhouette_stamp",
+        "cinderace_18_silhouette_stamp",
+        "cinderace_19_silhouette_stamp",
+        "cinderace_20_silhouette_stamp",
+        "cinderace_21_silhouette_stamp",
+        "cinderace_22_silhouette_stamp",
+        "cinderace_23_silhouette_stamp",
+        "cinderace_24_silhouette_stamp",
+        "cinderace_25_silhouette_stamp",
+        "cinderace_26_silhouette_stamp",
+        "cinderace_27_silhouette_stamp",
+        "cinderace_28_silhouette_stamp",
+        "cinderace_29_silhouette_stamp",
+        "cinderace_30_silhouette_stamp",
+        "cinderace_31_silhouette_stamp",
+        "cinderace_32_silhouette_stamp",
+        "cinderace_33_silhouette_stamp",
+        "cinderace_34_silhouette_stamp",
+        "cinderace_35_silhouette_stamp",
+        "cinderace_36_silhouette_stamp",
+        "cinderace_37_silhouette_stamp",
+        "cinderace_38_silhouette_stamp",
+        "cinderace_39_silhouette_stamp",
+        "cinderace_40_silhouette_stamp",
+        "cinderace_41_silhouette_stamp",
+        "cinderace_42_silhouette_stamp",
+        "cinderace_43_silhouette_stamp",
+        "cinderace_44_silhouette_stamp",
+        "cinderace_45_silhouette_stamp",
+        "cinderace_46_silhouette_stamp",
+        "cinderace_47_silhouette_stamp",
+        "cinderace_48_silhouette_stamp",
+        "cinderace_49_silhouette_stamp",
+        "cinderace_50_silhouette_stamp",
+        "cinderace_51_silhouette_stamp",
+        "cinderace_52_silhouette_stamp",
+        "cinderace_53_silhouette_stamp",
+        "cinderace_54_silhouette_stamp",
+        "cinderace_55_silhouette_stamp",
+        "cinderace_56_silhouette_stamp",
+        "cinderace_57_silhouette_stamp",
+        "cinderace_58_silhouette_stamp",
+        "cinderace_59_silhouette_stamp",
+        "cinderace_60_silhouette_stamp",
+        "cosmic_eclipse_stamp",
+        "destiny_deoxys_stamp",
+        "dragon_majesty_stamp",
+        "e3_stamp",
+        "excavator_pikachu_stamp",
+        "fennekin_10_silhouette_stamp",
+        "fennekin_11_silhouette_stamp",
+        "fennekin_12_silhouette_stamp",
+        "fennekin_13_silhouette_stamp",
+        "fennekin_14_silhouette_stamp",
+        "fennekin_15_silhouette_stamp",
+        "fennekin_16_silhouette_stamp",
+        "fennekin_17_silhouette_stamp",
+        "fennekin_18_silhouette_stamp",
+        "fennekin_19_silhouette_stamp",
+        "fennekin_20_silhouette_stamp",
+        "fennekin_22_silhouette_stamp",
+        "fennekin_23_silhouette_stamp",
+        "fennekin_24_silhouette_stamp",
+        "fennekin_25_silhouette_stamp",
+        "fennekin_27_silhouette_stamp",
+        "fennekin_28_silhouette_stamp",
+        "fennekin_29_silhouette_stamp",
+        "fennekin_2_silhouette_stamp",
+        "fennekin_30_silhouette_stamp",
+        "fennekin_3_silhouette_stamp",
+        "fennekin_4_silhouette_stamp",
+        "fennekin_5_silhouette_stamp",
+        "fennekin_6_silhouette_stamp",
+        "fennekin_7_silhouette_stamp",
+        "fennekin_8_silhouette_stamp",
+        "fennekin_9_silhouette_stamp",
+        "finalist_professor_program_stamp",
+        "finalist_world_championships_2023_stamp",
+        "finalist_world_championships_2024_stamp",
+        "finalist_world_championships_2025_stamp",
+        "finalist_world_championships_2026_stamp",
+        "forbidden_light_stamp",
+        "games_expo_stamp",
+        "great_detective_pikachu_stamp",
+        "inquest_stamp",
+        "international_challenge_stamp",
+        "iono_zone_stamp",
+        "kamex_mega_battle_logo",
+        "kraze_club_stamp",
+        "lost_thunder_stamp",
+        "lppcollecting_stamp",
+        "mega_salamence_gym_battle_stamp",
+        "mewtwo_15_silhouette_stamp",
+        "mewtwo_16_silhouette_stamp",
+        "mewtwo_1_silhouette_stamp",
+        "nintendo_world_stamp",
+        "pikachu_silhouette_first_pokemon_stamp",
+        "pikachu_silhouette_starting_energy_stamp",
+        "pocket_monsters_xy_z_stamp",
+        "pokekyun_collection_stamp",
+        "pokemon_card_gym_logo",
+        "pokemon_day_2009_stamp",
+        "pokemon_day_2024_stamp",
+        "pokemon_rocks_america_stamp",
+        "poketour_1999_stamp",
+        "pokeween_2025_stamp",
+        "pxp_stamp",
+        "quarter_finalist_world_championships_2023_stamp",
+        "quarter_finalist_world_championships_2024_stamp",
+        "raichu_15_silhouette_stamp",
+        "raichu_16_silhouette_stamp",
+        "raichu_17_silhouette_stamp",
+        "raichu_1_silhouette_stamp",
+        "rain_city_showcase_stamp",
+        "red_cheeks_e3_stamp",
+        "scarlet_violet_151_stamp",
+        "scrye_stamp",
+        "semi_finalist_world_championships_2023_stamp",
+        "semi_finalist_world_championships_2024_stamp",
+        "semi_finalist_world_championships_2025_stamp",
+        "semi_finalist_world_championships_2026_stamp",
+        "seven_eleven_stamp",
+        "shrouded_fable_stamp",
+        "silver_w_stamp",
+        "squirtle_silhouette_first_pokemon_stamp",
+        "squirtle_silhouette_starting_energy_stamp",
+        "stadium_challenge_stamp",
+        "staff_arena_cup_stamp",
+        "staff_championships_hong_kong_stamp",
+        "staff_championships_malaysia_stamp",
+        "staff_championships_philippines_stamp",
+        "staff_championships_singapore_stamp",
+        "staff_international_challenge_stamp",
+        "staff_origins_stamp",
+        "team_up_stamp",
+        "thank_you_stamp",
+        "top_64_beijing_master_tournament_stamp",
+        "top_64_hangzhou_master_tournament_stamp",
+        "top_64_shenzhen_master_tournament_stamp",
+        "top_8_beijing_master_tournament_stamp",
+        "top_8_championships_hong_kong_stamp",
+        "top_8_championships_malaysia_stamp",
+        "top_8_championships_philippines_stamp",
+        "top_8_championships_singapore_stamp",
+        "top_8_city_tournament_stamp",
+        "top_8_city_tournament_team_stamp",
+        "top_8_hangzhou_master_tournament_stamp",
+        "top_8_shenzhen_master_tournament_stamp",
+        "top_eight_world_championships_2025_stamp",
+        "top_eight_world_championships_2026_stamp",
+        "top_sixteen_world_championships_2023_stamp",
+        "top_sixteen_world_championships_2024_stamp",
+        "top_sixteen_world_championships_2025_stamp",
+        "top_sixteen_world_championships_2026_stamp",
+        "top_thirty_two_world_championships_2023_stamp",
+        "top_thirty_two_world_championships_2024_stamp",
+        "top_thirty_two_world_championships_2025_stamp",
+        "top_thirty_two_world_championships_2026_stamp",
+        "ultra_prism_stamp",
+        "unbroken_bonds_stamp",
+        "unified_minds_stamp",
+        "wizard_world_chicago_stamp",
+        "wizard_world_philadelphia_stamp",
+        "world_championships_2023_staff_stamp",
+        "world_championships_2023_stamp",
+        "world_championships_2024_staff_stamp",
+        "world_championships_2025_staff_stamp",
+        "world_championships_2025_winner_stamp",
+        "world_championships_2026_staff_stamp",
+        "world_championships_2026_stamp"
+      ]
+    },
+    "vocabulary.errorState": {
+      "description": "Every value of vocabulary.json's `errorState`.",
+      "enum": [
+        "incorrect_height",
+        "no_set_symbol",
+        "texture_error",
+        "dp25_card_number_error",
+        "energy_symbol_error",
+        "inverted_stamp",
+        "missing_stamp_error",
+        "redacted_print",
+        "aoki_illustrator_credit_error",
+        "double_holo_error",
+        "uncommon_rarity_error",
+        "upside_down_back_error",
+        "artwork_error",
+        "blue_ink_dot_error",
+        "cigar_stain_error",
+        "damage_counters_text_error",
+        "evolution_box_error",
+        "highlighter_error",
+        "missing_attack_damage",
+        "no_hp_error",
+        "non_holo_error",
+        "phanphy_text_error",
+        "pokedex_entry_error",
+        "pokedex_no_error",
+        "red_cheeks",
+        "red_ink_dot_error",
+        "undaunted_expansion_symbol_error",
+        "2012_copyright_error",
+        "6_61_card_number_error",
+        "black_flame",
+        "black_ink_dot_error",
+        "blue_flame_error",
+        "blue_ink_smear_error",
+        "corrected_resistance",
+        "d_edition_error",
+        "d_efending_error",
+        "d_ink_dot_error",
+        "don_t_error",
+        "first_edition_error",
+        "ghost_stamp_error",
+        "gray_background_error",
+        "heart_stamp_error",
+        "incomplete_expansion_symbol_error",
+        "incorrect_card_attacks",
+        "ken_sugimori_illustrator_error",
+        "misaligned_energy_text",
+        "missing_star_pattern",
+        "nintedo_error",
+        "poke_body_error",
+        "psychic_resistance_error",
+        "rotated_energy_symbol_error",
+        "scratch_error",
+        "shifted_energy_cost_error",
+        "stage_error",
+        "t_ink_dot_error",
+        "white_circle_error"
+      ]
+    },
+    "vocabulary.piece": {
+      "description": "Every value of vocabulary.json's `piece`.",
+      "enum": [
+        "v_union",
+        "legend"
+      ]
+    },
+    "vocabulary.role": {
+      "description": "Every value of vocabulary.json's `role`.",
+      "enum": [
+        "standard",
+        "print_run",
+        "parallel",
+        "serial_code",
+        "special",
+        "error",
+        "test",
+        "oversized"
+      ]
+    },
+    "vocabulary.differs": {
+      "description": "Every value of vocabulary.json's `differs`.",
+      "enum": [
+        "stamp",
+        "finish",
+        "rarity_mark",
+        "no_e_reader_strip",
+        "no_number",
+        "number",
+        "border",
+        "signature",
+        "back",
+        "text",
+        "size",
+        "material",
+        "language"
+      ]
+    }
+  }
+}

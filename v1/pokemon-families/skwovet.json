@@ -1,0 +1,122 @@
+{
+  "id": "skwovet",
+  "species": [
+    {
+      "dex": 819,
+      "name": "Skwovet",
+      "generation": 8,
+      "category": "Cheeky Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skwovet"
+      },
+      "names": {
+        "de": "Raffel",
+        "en": "Skwovet",
+        "es": "Skwovet",
+        "fr": "Rongourmand",
+        "it": "Skwovet",
+        "ja": "ホシガリス",
+        "ko": "탐리스",
+        "ja-Hrkt": "ホシガリス",
+        "zh-Hans": "贪心栗鼠",
+        "zh-Hant": "貪心栗鼠"
+      },
+      "description": {
+        "fun": "Skwovet gets anxious whenever its cheeks are empty, so it crams them full of Berries, and when there are no Berries around it stuffs them with pebbles instead. The seeds it spits out grow into new Berry trees. It's based on the grey squirrel, an introduced species in Britain, while its shiny colouring may nod to the endangered red squirrel.",
+        "guide": "A common Galar squirrel Pokémon that stores Berries in its stretchy cheeks and tail and grows uneasy when they're empty. Skwovet is based on the grey squirrel and evolves into Greedent.",
+        "tagline": "Panics whenever its cheeks aren't stuffed with Berries",
+        "sources": [
+          {
+            "title": "Bulbapedia: Skwovet (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Skwovet_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "819",
+          "name": "Skwovet",
+          "generation": 8,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "6031dba90a0e28180b33775d048de2bc",
+            "home": "d41e670b84971314947499541477c3ac"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 820,
+              "form": "820"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 820,
+      "name": "Greedent",
+      "generation": 8,
+      "category": "Greedy Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skwovet"
+      },
+      "names": {
+        "de": "Schlaraffel",
+        "en": "Greedent",
+        "es": "Greedent",
+        "fr": "Rongrigou",
+        "it": "Greedent",
+        "ja": "ヨクバリス",
+        "ko": "요씽리스",
+        "ja-Hrkt": "ヨクバリス",
+        "zh-Hans": "藏饱栗鼠",
+        "zh-Hant": "藏飽栗鼠"
+      },
+      "description": {
+        "fun": "A gluttonous squirrel that will dash off mid-battle if it spots a Berry tree. It stuffs its tail, twice as long as its body, with so many Berries that they keep falling out, and it's too slow-witted to notice. Real squirrels forget where they buried their stores; Greedent loses its own without ever realising.",
+        "guide": "The evolution of Skwovet, a plump, greedy squirrel Pokémon common across Galar. Greedent hoards Berries in its huge tail and has teeth strong enough to crack the hardest Berry shells. It may be based on the red squirrel.",
+        "tagline": "The squirrel that drops Berries everywhere and never notices",
+        "sources": [
+          {
+            "title": "Bulbapedia: Greedent (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Greedent_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "820",
+          "name": "Greedent",
+          "generation": 8,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "8fe484129dd3a95bb16c757c3f8dd073",
+            "home": "d5e7d9f8f1a8b703d2663b966d746cdd"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 819,
+        "form": "819"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 820,
+        "form": "820"
+      },
+      "change": "evolves",
+      "how": "Level 24"
+    }
+  ]
+}

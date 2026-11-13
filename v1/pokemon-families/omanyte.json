@@ -1,0 +1,124 @@
+{
+  "id": "omanyte",
+  "species": [
+    {
+      "dex": 138,
+      "name": "Omanyte",
+      "generation": 1,
+      "category": "Spiral Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "omanyte"
+      },
+      "names": {
+        "de": "Amonitas",
+        "en": "Omanyte",
+        "es": "Omanyte",
+        "fr": "Amonita",
+        "it": "Omanyte",
+        "ja": "オムナイト",
+        "ko": "암나이트",
+        "ja-Hrkt": "オムナイト",
+        "zh-Hans": "菊石兽",
+        "zh-Hant": "菊石獸"
+      },
+      "description": {
+        "fun": "Omanyte is an ancient sea creature brought back to life from a Helix Fossil. It floated by storing and releasing air in its spiral shell and steered by twisting its ten tentacles, feeding on plankton. Some revived Omanyte have escaped or been released into the wild, where they've become a problem. Its Pokédex number, 138, may nod to the golden angle of about 138 degrees, the maths behind spirals like its shell.",
+        "guide": "A small, blue Rock and Water Fossil Pokémon with a spiral shell and tentacles, based on ammonites. It is extinct but can be revived from a Helix Fossil. It evolves into Omastar.",
+        "tagline": "An ammonite brought back from a Helix Fossil",
+        "sources": [
+          {
+            "title": "Bulbapedia: Omanyte (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "138",
+          "name": "Omanyte",
+          "generation": 1,
+          "types": [
+            "rock",
+            "water"
+          ],
+          "pictures": {
+            "official": "596f90db2a86b1e9a930507c619166ee",
+            "home": "b1e690fca20303b42d8898c814d953be"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 139,
+              "form": "139"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 139,
+      "name": "Omastar",
+      "generation": 1,
+      "category": "Spiral Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "omanyte"
+      },
+      "names": {
+        "de": "Amoroso",
+        "en": "Omastar",
+        "es": "Omastar",
+        "fr": "Amonistar",
+        "it": "Omastar",
+        "ja": "オムスター",
+        "ko": "암스타",
+        "ja-Hrkt": "オムスター",
+        "zh-Hans": "多刺菊石兽",
+        "zh-Hant": "多刺菊石獸"
+      },
+      "description": {
+        "fun": "Omastar snared prey in its tentacles and cracked their shells with a beak strong enough to crush rock, and Shellder were on the menu. But it was slow, and its shell grew so heavy that it couldn't hunt well, which is believed to be why it died out. It's thought to be a distant ancestor of Octillery.",
+        "guide": "The evolution of Omanyte, a Rock and Water Fossil Pokémon with a spiked spiral shell and a powerful beak. It hunted in prehistoric seas and is believed to have gone extinct because its shell grew too heavy. It is based on ammonites.",
+        "tagline": "Its own heavy shell may have wiped it out",
+        "sources": [
+          {
+            "title": "Bulbapedia: Omastar (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "139",
+          "name": "Omastar",
+          "generation": 1,
+          "types": [
+            "rock",
+            "water"
+          ],
+          "pictures": {
+            "official": "b9d8bf0a4695a9d3d3b3b6bb5825bd39",
+            "home": "f2ed643b6ae3f61e36b3f39ea2f0248d"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 138,
+        "form": "138"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 139,
+        "form": "139"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

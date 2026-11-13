@@ -1,0 +1,98 @@
+{
+  "id": "sableye",
+  "species": [
+    {
+      "dex": 302,
+      "name": "Sableye",
+      "generation": 3,
+      "category": "Darkness Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "sableye"
+      },
+      "names": {
+        "de": "Zobiris",
+        "en": "Sableye",
+        "es": "Sableye",
+        "fr": "Ténéfix",
+        "it": "Sableye",
+        "ja": "ヤミラミ",
+        "ko": "깜까미",
+        "ja-Hrkt": "ヤミラミ",
+        "zh-Hans": "勾魂眼",
+        "zh-Hant": "勾魂眼"
+      },
+      "description": {
+        "fun": "Sableye lurks in dark caves, digging up gems with its claws and eating them, and the gems it swallows show up on its body, which is why its eyes sparkle like jewels. People fear it because looking into those eyes is said to steal your soul. It may be based on the 'Hopkinsville Goblin' of an alleged alien encounter in Kentucky, and in 3D games it copies the creature's swaying hips.",
+        "guide": "A Dark- and Ghost-type Pokémon that lives in dark caves and eats raw gems, which form the jewels on its body. Until the Fairy type arrived in Generation 6, it had no weaknesses. It does not evolve, but can Mega Evolve with the Sablenite.",
+        "tagline": "A gem-eating cave goblin whose jewel eyes are said to steal souls",
+        "sources": [
+          {
+            "title": "Bulbapedia: Sableye (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "302",
+          "name": "Sableye",
+          "generation": 3,
+          "types": [
+            "dark",
+            "ghost"
+          ],
+          "pictures": {
+            "official": "8ba79abd4af104cdd3db8e5791aba4c7",
+            "home": "0aaef842e8790f127be193b537a8b2cc"
+          }
+        },
+        {
+          "id": "302:mega",
+          "name": "Mega Sableye",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "dark",
+            "ghost"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Zobiris",
+            "en": "Mega Sableye",
+            "fr": "Méga-Ténéfix"
+          },
+          "pictures": {
+            "official": "c7fdc55c9de08ad03c01f8cb71482c1c",
+            "home": "0cc89321d5afe91694eed8b30dbf1dc8"
+          },
+          "description": {
+            "fun": "Mega Evolution makes the red gem on Sableye's chest burst out and swell into a huge shield so hard that no attack can scratch it, and Mega Sableye hides behind it in battle. Holding it up leaves Sableye slow to turn, so it's open to attacks from behind. In the anime, the gem wears down as it blocks, and Sableye eats what's left before changing back.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Sableye (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 302,
+        "form": "302"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 302,
+        "form": "302:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

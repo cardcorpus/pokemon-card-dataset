@@ -1,0 +1,124 @@
+{
+  "id": "vullaby",
+  "species": [
+    {
+      "dex": 629,
+      "name": "Vullaby",
+      "generation": 5,
+      "category": "Diapered Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "vullaby"
+      },
+      "names": {
+        "de": "Skallyk",
+        "en": "Vullaby",
+        "es": "Vullaby",
+        "fr": "Vostourno",
+        "it": "Vullaby",
+        "ja": "バルチャイ",
+        "ko": "벌차이",
+        "ja-Hrkt": "バルチャイ",
+        "zh-Hans": "秃鹰丫头",
+        "zh-Hant": "禿鷹丫頭"
+      },
+      "description": {
+        "fun": "Vullaby wears a cracked skull like a nappy to protect its plump rear, either one it found itself or one gathered for it by Mandibuzz. It eats so much that it keeps outgrowing its bones, and too-small ones get handed down to younger Vullaby in the nest. It often squabbles with others over the comfiest bones. Its wings are still too small to fly, so it hops around, dreaming of open skies.",
+        "guide": "Vullaby is a Dark- and Flying-type vulture chick Pokémon that protects its rear with a bone it wears like a nappy. It can't fly yet. Vullaby are always female, and they evolve into Mandibuzz.",
+        "tagline": "A vulture chick wearing a skull as a nappy.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Vullaby (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Vullaby_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "629",
+          "name": "Vullaby",
+          "generation": 5,
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "pictures": {
+            "official": "308d96f58b522b91d1035de3be4cdd1d",
+            "home": "64c4dae76911d9d363bfac1242c9e0ca"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 630,
+              "form": "630"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 630,
+      "name": "Mandibuzz",
+      "generation": 5,
+      "category": "Bone Vulture Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "vullaby"
+      },
+      "names": {
+        "de": "Grypheldis",
+        "en": "Mandibuzz",
+        "es": "Mandibuzz",
+        "fr": "Vaututrice",
+        "it": "Mandibuzz",
+        "ja": "バルジーナ",
+        "ko": "버랜지나",
+        "ja-Hrkt": "バルジーナ",
+        "zh-Hans": "秃鹰娜",
+        "zh-Hant": "禿鷹娜"
+      },
+      "description": {
+        "fun": "Mandibuzz circles high in the sky watching for weakened Pokémon, then swoops to carry them back to its nest of bones. It dresses itself in bones, supposedly to attract males, though no male Mandibuzz has ever been found, and the bones even go in and out of fashion. A bit of a ruffian, it still takes lost Vullaby under its wing, and when it sits on one in the nest, their bones fit together into a single toothy skull.",
+        "guide": "Mandibuzz is the evolved form of Vullaby, a Dark- and Flying-type vulture Pokémon that decorates itself with bones and builds nests from them. It is always female.",
+        "tagline": "A bone-wearing vulture with a taste for fashion.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Mandibuzz (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Mandibuzz_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "630",
+          "name": "Mandibuzz",
+          "generation": 5,
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "pictures": {
+            "official": "9dabb67395cef1c8d53e9a5c370b751d",
+            "home": "0317b79004aedab8cf7ddb31421ff07b"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 629,
+        "form": "629"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 630,
+        "form": "630"
+      },
+      "change": "evolves",
+      "how": "Level 54"
+    }
+  ]
+}

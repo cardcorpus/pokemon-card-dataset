@@ -1,0 +1,122 @@
+{
+  "id": "skitty",
+  "species": [
+    {
+      "dex": 300,
+      "name": "Skitty",
+      "generation": 3,
+      "category": "Kitten Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skitty"
+      },
+      "names": {
+        "de": "Eneco",
+        "en": "Skitty",
+        "es": "Skitty",
+        "fr": "Skitty",
+        "it": "Skitty",
+        "ja": "エネコ",
+        "ko": "에나비",
+        "ja-Hrkt": "エネコ",
+        "zh-Hans": "向尾喵",
+        "zh-Hant": "向尾喵"
+      },
+      "description": {
+        "fun": "Skitty can't resist anything that moves, and it often chases its own tail until it gets dizzy. That tail, with its three bobbles, looks like a cat toy, and its Japanese name, Eneco, mixes neko (cat) with enokorogusa, the foxtail grass the tail resembles. The Fluffy Tail item is modelled on it; in Japanese it's simply called Eneco's Tail.",
+        "guide": "A Normal-type Pokémon based on a kitten, with a tail that looks like a cat toy. It evolves into Delcatty with a Moon Stone, the only Generation 3 Pokémon that does.",
+        "tagline": "A pink kitten that chases its own tail until it's dizzy",
+        "sources": [
+          {
+            "title": "Bulbapedia: Skitty (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Skitty_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "300",
+          "name": "Skitty",
+          "generation": 3,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "56909e35ce0b8a9414ba502a21b1d471",
+            "home": "a2d95b2ba5835cbc06e403ce9cb5e019"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 301,
+              "form": "301"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 301,
+      "name": "Delcatty",
+      "generation": 3,
+      "category": "Prim Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "skitty"
+      },
+      "names": {
+        "de": "Enekoro",
+        "en": "Delcatty",
+        "es": "Delcatty",
+        "fr": "Delcatty",
+        "it": "Delcatty",
+        "ja": "エネコロロ",
+        "ko": "델케티",
+        "ja-Hrkt": "エネコロロ",
+        "zh-Hans": "优雅猫",
+        "zh-Hant": "優雅貓"
+      },
+      "description": {
+        "fun": "Delcatty does whatever it likes at its own pace, napping wherever it finds a comfy spot instead of keeping a nest. It dislikes conflict so much that it simply wanders off when disturbed rather than fight. Trainers prize its elegant fur in competitions, though it has the lowest base stat total of any Pokémon that evolves by stone.",
+        "guide": "A Normal-type Pokémon based on a domestic cat, with lynx-like ear tufts and a ruff around its neck. It is most active at dusk. It evolves from Skitty with a Moon Stone.",
+        "tagline": "A carefree cat that walks away from fights and naps anywhere",
+        "sources": [
+          {
+            "title": "Bulbapedia: Delcatty (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Delcatty_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "301",
+          "name": "Delcatty",
+          "generation": 3,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "c0c2ba9d55da90b60408d769f9495dde",
+            "home": "4370247ab0640bc60d0428d2a89aa25f"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 300,
+        "form": "300"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 301,
+        "form": "301"
+      },
+      "change": "evolves",
+      "how": "Moon Stone"
+    }
+  ]
+}

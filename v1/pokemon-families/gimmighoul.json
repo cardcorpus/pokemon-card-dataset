@@ -1,0 +1,162 @@
+{
+  "id": "gimmighoul",
+  "species": [
+    {
+      "dex": 999,
+      "name": "Gimmighoul",
+      "generation": 9,
+      "category": "Coin Chest Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gimmighoul"
+      },
+      "names": {
+        "de": "Gierspenst",
+        "en": "Gimmighoul",
+        "es": "Gimmighoul",
+        "fr": "Mordudor",
+        "it": "Gimmighoul",
+        "ja": "コレクレー",
+        "ko": "모으령",
+        "ja-Hrkt": "コレクレー",
+        "zh-Hans": "索财灵",
+        "zh-Hant": "索財靈"
+      },
+      "description": {
+        "fun": "A tiny ghost obsessed with coins. Chest Form hides in the treasure chest it was born in 1,500 years ago, often mistaken for an antique, and uses ghost energy to make passers-by collect coins for it; anyone who tries to steal them gets their life force drained. It evolves once its Trainer has gathered 999 Gimmighoul Coins, and its name sounds like 'give me gold'.",
+        "guide": "A Ghost-type Pokémon from Pokémon Scarlet and Violet that comes in two forms: Chest Form, which hides in a treasure chest, and Roaming Form, which wanders carrying a single coin. It evolves into Gholdengo when levelled up while the player has 999 Gimmighoul Coins.",
+        "tagline": "A coin-hoarding ghost that hides in an old treasure chest",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gimmighoul (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "999",
+          "name": "Gimmighoul",
+          "generation": 9,
+          "types": [
+            "ghost"
+          ],
+          "pictures": {
+            "official": "18c2401fb0f3e9487923b8a21b6323c9",
+            "home": "46e71551ce42fc1d88df1e7fe3ceb416"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 1000,
+              "form": "1000"
+            }
+          ]
+        },
+        {
+          "id": "999:roaming",
+          "name": "Roaming Form Gimmighoul",
+          "category": "alternate",
+          "generation": 9,
+          "types": [
+            "ghost"
+          ],
+          "names": {
+            "en": "Roaming Form Gimmighoul",
+            "fr": "Mordudor Forme Marche"
+          },
+          "pictures": {
+            "official": "0de246fa3e999599df21c5f7df816e20",
+            "home": "656efad3b06a6d5e7bae0f69387eee2b"
+          },
+          "description": {
+            "fun": "Roaming Form, born from passion that seeped into a coin, carries an old coin on its back and wanders in search of the chest it once lived in. At 10 cm it ties with Flabébé as the smallest Pokémon, and it turns invisible when anyone comes near, leaving only its coin behind.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Gimmighoul (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "dex": 1000,
+      "name": "Gholdengo",
+      "generation": 9,
+      "category": "Coin Entity Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "gimmighoul"
+      },
+      "names": {
+        "de": "Monetigo",
+        "en": "Gholdengo",
+        "es": "Gholdengo",
+        "fr": "Gromago",
+        "it": "Gholdengo",
+        "ja": "サーフゴー",
+        "ko": "타부자고",
+        "ja-Hrkt": "サーフゴー",
+        "zh-Hans": "赛富豪",
+        "zh-Hant": "賽富豪"
+      },
+      "description": {
+        "fun": "A cheerful surfer dude made of 1,000 Gimmighoul Coins, fittingly the 1,000th Pokémon in the National Pokédex. It's sociable, loves lively places like cities, and rides a golden surfboard made of coins. In battle it fires coin after coin at its foe, and when it's hit it lets a few coins loose to soak up the blow. Its belt buckle shows a stylised 1,000.",
+        "guide": "A Steel and Ghost-type Pokémon whose body is made of 1,000 coins, and the 1,000th Pokémon in the National Pokédex. Gholdengo evolves from Gimmighoul and rides a surfboard made of coins.",
+        "tagline": "A friendly surfer made of exactly 1,000 coins",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gholdengo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gholdengo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "1000",
+          "name": "Gholdengo",
+          "generation": 9,
+          "types": [
+            "steel",
+            "ghost"
+          ],
+          "pictures": {
+            "official": "74e58f83a0ed4a0c27c4a30f635166bf",
+            "home": "5faacb6d6b4863c515dad5682ee947fd"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 999,
+        "form": "999"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 1000,
+        "form": "1000"
+      },
+      "change": "evolves",
+      "how": "Collect 999 Gimmighoul Coins",
+      "note": {
+        "text": "Gimmighoul evolves when it levels up while the player holds 999 Gimmighoul Coins, and the evolution uses them up. Chest Form and Roaming Form both become the same Gholdengo.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Gimmighoul (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Gholdengo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Gholdengo_(Pok%C3%A9mon)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "minccino",
+  "species": [
+    {
+      "dex": 572,
+      "name": "Minccino",
+      "generation": 5,
+      "category": "Chinchilla Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "minccino"
+      },
+      "names": {
+        "de": "Picochilla",
+        "en": "Minccino",
+        "es": "Minccino",
+        "fr": "Chinchidou",
+        "it": "Minccino",
+        "ja": "チラーミィ",
+        "ko": "치라미",
+        "ja-Hrkt": "チラーミィ",
+        "zh-Hans": "泡沫栗鼠",
+        "zh-Hant": "泡沫栗鼠"
+      },
+      "description": {
+        "fun": "Minccino is a clean freak that sweeps and dusts its home with its tail, and when the tail gets dirty, it spends a whole day washing it in clean spring water. Minccino greet each other by brushing one another with their tails, and the one with the fluffier tail is a bit more boastful. Atsuko Nishida designed it and Cinccino as Unova's answer to Clefairy and Clefable, Pokémon everyone would find cute.",
+        "guide": "Minccino is a Normal-type chinchilla Pokémon that uses its fluffy tail like a broom to keep its home spotless. It greets others by brushing them with its tail. It evolves into Cinccino with a Shiny Stone.",
+        "tagline": "A tidy chinchilla that cleans house with its tail.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Minccino (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Minccino_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "572",
+          "name": "Minccino",
+          "generation": 5,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "ce05a7be7677d77806a2a1edf8f901b6",
+            "home": "3c9b2dfba8966f980614bc943bbe8b90"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 573,
+              "form": "573"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 573,
+      "name": "Cinccino",
+      "generation": 5,
+      "category": "Scarf Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "minccino"
+      },
+      "names": {
+        "de": "Chillabell",
+        "en": "Cinccino",
+        "es": "Cinccino",
+        "fr": "Pashmilla",
+        "it": "Cinccino",
+        "ja": "チラチーノ",
+        "ko": "치라치노",
+        "ja-Hrkt": "チラチーノ",
+        "zh-Hans": "奇诺栗鼠",
+        "zh-Hant": "奇諾栗鼠"
+      },
+      "description": {
+        "fun": "Cinccino's white fur is coated in a special oil that lets punches slide right off, and it spreads the same oil over its nest to keep out every speck of dust. The oil is said to soothe bad skin and fetches a high price at market. Its fur feels amazing to touch, repels dust and never builds up static, and the long white locks draped around its neck look like an elegant scarf.",
+        "guide": "Cinccino is the evolved form of Minccino, a Normal-type chinchilla Pokémon with long white fur coated in a special oil. The oil helps it deflect attacks and keeps its nest free of dust.",
+        "tagline": "A silky chinchilla whose oil makes attacks slide off.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cinccino (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cinccino_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "573",
+          "name": "Cinccino",
+          "generation": 5,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "2608f1941e8f342e9518ab2d6c8690a4",
+            "home": "e8f3b39c4f8b7d8b8dabb2bf44c25ca5"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 572,
+        "form": "572"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 573,
+        "form": "573"
+      },
+      "change": "evolves",
+      "how": "Shiny Stone"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "slugma",
+  "species": [
+    {
+      "dex": 218,
+      "name": "Slugma",
+      "generation": 2,
+      "category": "Lava Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "slugma"
+      },
+      "names": {
+        "de": "Schneckmag",
+        "en": "Slugma",
+        "es": "Slugma",
+        "fr": "Limagma",
+        "it": "Slugma",
+        "ja": "マグマッグ",
+        "ko": "마그마그",
+        "ja-Hrkt": "マグマッグ",
+        "zh-Hans": "熔岩虫",
+        "zh-Hant": "熔岩蟲"
+      },
+      "description": {
+        "fun": "Slugma's blood is magma, carrying nutrients and oxygen around its body, so it never sleeps or stops moving: if it cooled down, it would harden, turn brittle and crumble apart. It gathers with others of its kind in volcanoes and heals itself with a dip in magma. Slugma are believed to have been more common in ancient times, when volcanoes were more active.",
+        "guide": "A Fire-type Pokémon, a slug whose body and blood are made of magma. It must keep moving to stay hot, and lives around volcanoes. Its name blends 'slug' and 'magma', and it evolves into Magcargo at level 38.",
+        "tagline": "A magma slug that can never stop moving, or it will set",
+        "sources": [
+          {
+            "title": "Bulbapedia: Slugma (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "218",
+          "name": "Slugma",
+          "generation": 2,
+          "types": [
+            "fire"
+          ],
+          "pictures": {
+            "official": "815412dfcf27c75b29971cc6b54607c3",
+            "home": "d2dd80801af6fc83579b09ec7a2bfea6"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 219,
+              "form": "219"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 219,
+      "name": "Magcargo",
+      "generation": 2,
+      "category": "Lava Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "slugma"
+      },
+      "names": {
+        "de": "Magcargo",
+        "en": "Magcargo",
+        "es": "Magcargo",
+        "fr": "Volcaropod",
+        "it": "Magcargo",
+        "ja": "マグカルゴ",
+        "ko": "마그카르고",
+        "ja-Hrkt": "マグカルゴ",
+        "zh-Hans": "熔岩蜗牛",
+        "zh-Hant": "熔岩蝸牛"
+      },
+      "description": {
+        "fun": "Magcargo's body runs hotter than 10,000°C, enough to boil away any water it touches, and flames spurt out through cracks in its shell of hardened magma. That shell is so brittle it can crumble at a touch, but Magcargo simply rebuilds it by dipping into magma. Folklore says a sudden rise in wild Magcargo means a volcano is about to erupt.",
+        "guide": "A Fire- and Rock-type Pokémon, the evolution of Slugma: a snail of magma with a brittle shell of cooled rock. Its body is extremely hot and it lives in volcano craters. Its name blends 'magma', 'escargot' and 'cargo'.",
+        "tagline": "A lava snail that rebuilds its crumbly shell with magma",
+        "sources": [
+          {
+            "title": "Bulbapedia: Magcargo (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "219",
+          "name": "Magcargo",
+          "generation": 2,
+          "types": [
+            "fire",
+            "rock"
+          ],
+          "pictures": {
+            "official": "217e1590d8d0cde38dadc4f0d58227a7",
+            "home": "cab3946f676d47095e158e61eb7b4bb6"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 218,
+        "form": "218"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 219,
+        "form": "219"
+      },
+      "change": "evolves",
+      "how": "Level 38"
+    }
+  ]
+}

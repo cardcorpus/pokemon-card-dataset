@@ -1,0 +1,150 @@
+{
+  "id": "calyrex",
+  "species": [
+    {
+      "dex": 898,
+      "name": "Calyrex",
+      "generation": 8,
+      "category": "King Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "calyrex"
+      },
+      "names": {
+        "de": "Coronospa",
+        "en": "Calyrex",
+        "es": "Calyrex",
+        "fr": "Sylveroy",
+        "it": "Calyrex",
+        "ja": "バドレックス",
+        "ko": "버드렉스",
+        "ja-Hrkt": "バドレックス",
+        "zh-Hans": "蕾冠王",
+        "zh-Hant": "蕾冠王"
+      },
+      "description": {
+        "fun": "In legend it's the King of Bountiful Harvests, a merciful ruler of ancient Galar who could mend hearts and make plants spring forth. Its power comes from people's faith, so as they forgot it, it weakened, until now it can only talk to people by borrowing a human's body. Riding its old steed restores it. Its silhouette echoes the thistle, the emblem of Scotland, which the Crown Tundra is based on.",
+        "guide": "A Psychic and Grass-type Legendary Pokémon and the mascot of The Crown Tundra. Using the Reins of Unity, Calyrex fuses with Glastrier or Spectrier to become Ice Rider or Shadow Rider Calyrex.",
+        "tagline": "A forgotten king of harvests who rides to regain its power",
+        "sources": [
+          {
+            "title": "Bulbapedia: Calyrex (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "898",
+          "name": "Calyrex",
+          "generation": 8,
+          "types": [
+            "psychic",
+            "grass"
+          ],
+          "pictures": {
+            "official": "7651a20130849472ecf09752c12919bc",
+            "home": "0963fd97d00d76b63da7d9584a3eaf7b"
+          }
+        },
+        {
+          "id": "898:ice",
+          "name": "Ice Rider Calyrex",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "psychic",
+            "ice"
+          ],
+          "names": {
+            "de": "Coronospa (Schimmelreiter)",
+            "en": "Ice Rider Calyrex",
+            "fr": "Calyrex Cavalier du Froid"
+          },
+          "pictures": {
+            "official": "5a2b054eacae96e5d1d9ad735fc858ad",
+            "home": "8ac6379c7a469e5368651d6663d10552"
+          },
+          "description": {
+            "fun": "Riding Glastrier, Calyrex regains its full power and can plunge the air to −300 °C, colder than absolute zero and impossible in the real world. It turns Glastrier's cold into giant icicles fired like lances, strong enough to blow holes through rocky mountains.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Calyrex (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+              },
+              {
+                "title": "Bulbapedia: Glastrier (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Glastrier_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "fusion"
+        },
+        {
+          "id": "898:shadow",
+          "name": "Shadow Rider Calyrex",
+          "category": "alternate",
+          "generation": 8,
+          "types": [
+            "psychic",
+            "ghost"
+          ],
+          "names": {
+            "de": "Coronospa (Rappenreiter)",
+            "en": "Shadow Rider Calyrex",
+            "fr": "Calyrex Cavalier d’Effroi"
+          },
+          "pictures": {
+            "official": "7ab2bffac01ab0d3d81ea7ea699b3fbc",
+            "home": "6eaac8a1ee6dc5b6232a903d07734480"
+          },
+          "description": {
+            "fun": "Riding Spectrier, Calyrex can run a thousand miles in a single day. Legend says the pair ran all across Galar bringing green to the wastelands, and that Calyrex once used its power to see past and future to save a forest's creatures from a meteorite.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Calyrex (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+              },
+              {
+                "title": "Bulbapedia: Spectrier (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Spectrier_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "fusion"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 898,
+        "form": "898"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 898,
+        "form": "898:ice"
+      },
+      "change": "fuses",
+      "with": "896"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 898,
+        "form": "898"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 898,
+        "form": "898:shadow"
+      },
+      "change": "fuses",
+      "with": "897"
+    }
+  ]
+}

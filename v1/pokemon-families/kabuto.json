@@ -1,0 +1,124 @@
+{
+  "id": "kabuto",
+  "species": [
+    {
+      "dex": 140,
+      "name": "Kabuto",
+      "generation": 1,
+      "category": "Shellfish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "kabuto"
+      },
+      "names": {
+        "de": "Kabuto",
+        "en": "Kabuto",
+        "es": "Kabuto",
+        "fr": "Kabuto",
+        "it": "Kabuto",
+        "ja": "カブト",
+        "ko": "투구",
+        "ja-Hrkt": "カブト",
+        "zh-Hans": "化石盔",
+        "zh-Hant": "化石盔"
+      },
+      "description": {
+        "fun": "Kabuto is revived from a Dome Fossil, but it may not be entirely extinct: isolated groups are said to have stayed unchanged for 300 million years. It has two eyes on top of its shell for watching from the seabed, and a second pair of glowing red eyes underneath. Its name is Japanese for 'helmet', and its design mixes a horseshoe crab with a trilobite.",
+        "guide": "A small, brown Rock and Water Fossil Pokémon with a dome-shaped shell, based on horseshoe crabs and trilobites. It can be revived from a Dome Fossil. It evolves into Kabutops.",
+        "tagline": "A helmet-shaped living fossil",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kabuto (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "140",
+          "name": "Kabuto",
+          "generation": 1,
+          "types": [
+            "rock",
+            "water"
+          ],
+          "pictures": {
+            "official": "bc7c8015eeecaf0a9138b1b595a5f655",
+            "home": "b98c3acc2d8ba3c1c9bbee914bb4858b"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 141,
+              "form": "141"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 141,
+      "name": "Kabutops",
+      "generation": 1,
+      "category": "Shellfish Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "kabuto"
+      },
+      "names": {
+        "de": "Kabutops",
+        "en": "Kabutops",
+        "es": "Kabutops",
+        "fr": "Kabutops",
+        "it": "Kabutops",
+        "ja": "カブトプス",
+        "ko": "투구푸스",
+        "ja-Hrkt": "カブトプス",
+        "zh-Hans": "镰刀盔",
+        "zh-Hant": "鐮刀盔"
+      },
+      "description": {
+        "fun": "Kabutops was in the middle of moving onto land when it went extinct, its gills and legs changing as its prey left the sea. It swam fast by tucking in its limbs, slicing prey with its scythe-like arms and drinking their body fluids, and nobody knows what wiped it out. It's one of only two Pokémon with a stated scientific name: Kabutops maximus.",
+        "guide": "The evolution of Kabuto, a Rock and Water Fossil Pokémon with large scythes for forearms. It was a fast-swimming predator that was beginning to adapt to life on land when it went extinct. It is based on horseshoe crabs and extinct sea scorpions.",
+        "tagline": "A scythe-armed hunter that was heading for land",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kabutops (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "141",
+          "name": "Kabutops",
+          "generation": 1,
+          "types": [
+            "rock",
+            "water"
+          ],
+          "pictures": {
+            "official": "75697cb52dd8ecc52b3ba637c8bb1dc2",
+            "home": "84c534f49156ff1cede0582764eba153"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 140,
+        "form": "140"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 141,
+        "form": "141"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "cetoddle",
+  "species": [
+    {
+      "dex": 974,
+      "name": "Cetoddle",
+      "generation": 9,
+      "category": "Terra Whale Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cetoddle"
+      },
+      "names": {
+        "de": "Flaniwal",
+        "en": "Cetoddle",
+        "es": "Cetoddle",
+        "fr": "Piétacé",
+        "it": "Cetoddle",
+        "ja": "アルクジラ",
+        "ko": "터벅고래",
+        "ja-Hrkt": "アルクジラ",
+        "zh-Hans": "走鲸",
+        "zh-Hant": "走鯨"
+      },
+      "description": {
+        "fun": "A whale that took the opposite path to real whales: its ancestors left the ocean long ago to live on land. Cetoddle toddles around cold regions in pods of about five, munching the minerals in snow and ice, and seems to be a close relative of Wailmer. In its sleep it sometimes pounds the ground, or panics as if dreaming of being left behind.",
+        "guide": "An Ice-type whale Pokémon from Pokémon Scarlet and Violet, designed by Yusuke Kozaki, whose ancestors moved from the sea to land. It evolves into Cetitan with an Ice Stone.",
+        "tagline": "A land whale toddling through the snow",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cetoddle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cetoddle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "974",
+          "name": "Cetoddle",
+          "generation": 9,
+          "types": [
+            "ice"
+          ],
+          "pictures": {
+            "official": "540b45bc71eb3d6e95cb8b54452f978e",
+            "home": "c930888d883765069b5b16a923028583"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 975,
+              "form": "975"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 975,
+      "name": "Cetitan",
+      "generation": 9,
+      "category": "Terra Whale Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "cetoddle"
+      },
+      "names": {
+        "de": "Kolowal",
+        "en": "Cetitan",
+        "es": "Cetitan",
+        "fr": "Balbalèze",
+        "it": "Cetitan",
+        "ja": "ハルクジラ",
+        "ko": "우락고래",
+        "ja-Hrkt": "ハルクジラ",
+        "zh-Hans": "浩大鲸",
+        "zh-Hant": "浩大鯨"
+      },
+      "description": {
+        "fun": "The tallest Ice-type Pokémon, a land whale built on powerful muscle and a thick layer of fat that lets it roam snowy mountains. Ice energy builds up in the horn on its upper jaw until it reaches cryogenic temperatures and freezes everything around it. It has the longest cry of any Pokémon, at just over four seconds.",
+        "guide": "The evolution of Cetoddle, a large Ice-type whale Pokémon that lives on land in snowy regions. It may draw on the right whale, hunted near to extinction by Basque whalers.",
+        "tagline": "A towering land whale with a freezing horn",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cetitan (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cetitan_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "975",
+          "name": "Cetitan",
+          "generation": 9,
+          "types": [
+            "ice"
+          ],
+          "pictures": {
+            "official": "0d6bd91a31d79d21ac27aa8a5e610302",
+            "home": "96e457598d2a821881050d151d9da2c9"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 974,
+        "form": "974"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 975,
+        "form": "975"
+      },
+      "change": "evolves",
+      "how": "Ice Stone"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "wishiwashi",
+  "species": [
+    {
+      "dex": 746,
+      "name": "Wishiwashi",
+      "generation": 7,
+      "category": "Small Fry Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wishiwashi"
+      },
+      "names": {
+        "de": "Lusardin",
+        "en": "Wishiwashi",
+        "es": "Wishiwashi",
+        "fr": "Froussardine",
+        "it": "Wishiwashi",
+        "ja": "ヨワシ",
+        "ko": "약어리",
+        "ja-Hrkt": "ヨワシ",
+        "zh-Hans": "弱丁鱼",
+        "zh-Hant": "弱丁魚"
+      },
+      "description": {
+        "fun": "On its own, Wishiwashi is a tiny, tasty fish with the lowest base stat total of any Pokémon, and plenty of things eat it, humans included. When it's in trouble its eyes well up, then shine an SOS that others can see from 40 km away. Its friends school together into a giant fish so fearsome that Alolans call it the 'demon of the sea', and even Gyarados flee.",
+        "guide": "Wishiwashi is a Water-type fish Pokémon from Alola, based on sardines. From level 20, its Schooling Ability turns its weak Solo Form into a huge School Form while its HP stays above a quarter. It doesn't evolve.",
+        "tagline": "A weepy little fish that becomes a sea monster with friends",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wishiwashi (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "746",
+          "name": "Wishiwashi",
+          "generation": 7,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "3406f11b699500ccc5868899826b834f",
+            "home": "8e761fee7debc2b3e8bd8fbf4dcc7a4a"
+          }
+        },
+        {
+          "id": "746:school",
+          "name": "School Form Wishiwashi",
+          "category": "alternate",
+          "generation": 7,
+          "types": [
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Lusardin (Schwarm)",
+            "en": "School Form Wishiwashi",
+            "fr": "Froussardine Forme Banc"
+          },
+          "pictures": {
+            "official": "1a46029ce741f20358771546549a735b",
+            "home": "adfdb0968b186eeb39e218efb927d2d5"
+          },
+          "description": {
+            "fun": "School Form weighs 262 times as much as a lone Wishiwashi, a hint at how many fish make up the giant, and its Water Gun is said to beat Hydro Pump. If it gets badly hurt, it breaks apart into a regular school and flees.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Wishiwashi (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "form_change"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 746,
+        "form": "746"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 746,
+        "form": "746:school"
+      },
+      "change": "form_change"
+    }
+  ]
+}

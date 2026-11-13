@@ -1,0 +1,96 @@
+{
+  "id": "zeraora",
+  "species": [
+    {
+      "dex": 807,
+      "name": "Zeraora",
+      "generation": 7,
+      "category": "Thunderclap Pokémon",
+      "status": "mythical",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "zeraora"
+      },
+      "names": {
+        "de": "Zeraora",
+        "en": "Zeraora",
+        "es": "Zeraora",
+        "fr": "Zeraora",
+        "it": "Zeraora",
+        "ja": "ゼラオラ",
+        "ko": "제라오라",
+        "ja-Hrkt": "ゼラオラ",
+        "zh-Hans": "捷拉奥拉",
+        "zh-Hant": "捷拉奧拉"
+      },
+      "description": {
+        "fun": "Zeraora is a lightning-fast cat said to have been born when lightning struck an erupting volcano. It has no organ of its own for making electricity, so it gathers it from outside and fires it from its paw pads to make a magnetic field that lets it float and race along; thunder echoes as it runs. It sometimes turns up in towns, looking for a fight or serving as someone's bodyguard.",
+        "guide": "Zeraora is an Electric-type Mythical Pokémon introduced in Ultra Sun and Ultra Moon, a cat-like Pokémon that stores electricity gathered from outside. It moves at incredible speed and attacks with electrified claws, including its signature move Plasma Fists. Designed by Takao Unno, it gained a Mega Evolution in the Mega Dimension DLC for Legends: Z-A.",
+        "tagline": "A thunder cat that runs as fast as a lightning strike",
+        "sources": [
+          {
+            "title": "Bulbapedia: Zeraora (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Zeraora_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "807",
+          "name": "Zeraora",
+          "generation": 7,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "fea1c1a7b36b206a573da435e571b309",
+            "home": "ef380d0f5944f11e584e6e946c8b0117"
+          }
+        },
+        {
+          "id": "807:mega",
+          "name": "Mega Zeraora",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "electric"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Zeraora",
+            "fr": "Méga-Zeraora"
+          },
+          "pictures": {
+            "official": "552c8fa6278de073aa0ce239514bfadf",
+            "home": "c70121d58519ea58455f15fa3e95a779"
+          },
+          "description": {
+            "fun": "Introduced in Legends: Z-A's Mega Dimension DLC, Mega Evolution removes a limiter inside Zeraora so it can store as much electricity as ten bolts of lightning, and its fur turns mostly black. It has the highest Attack and base stat total of any Electric-type Pokémon, and the highest Speed of any Mega.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Zeraora (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Zeraora_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 807,
+        "form": "807"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 807,
+        "form": "807:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

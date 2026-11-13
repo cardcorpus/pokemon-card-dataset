@@ -1,0 +1,124 @@
+{
+  "id": "dwebble",
+  "species": [
+    {
+      "dex": 557,
+      "name": "Dwebble",
+      "generation": 5,
+      "category": "Rock Inn Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "dwebble"
+      },
+      "names": {
+        "de": "Lithomith",
+        "en": "Dwebble",
+        "es": "Dwebble",
+        "fr": "Crabicoque",
+        "it": "Dwebble",
+        "ja": "イシズマイ",
+        "ko": "돌살이",
+        "ja-Hrkt": "イシズマイ",
+        "zh-Hans": "石居蟹",
+        "zh-Hant": "石居蟹"
+      },
+      "description": {
+        "fun": "Dwebble is a hermit crab that lives in a rock instead of a shell: it melts a hole in a suitable stone with a liquid from its mouth and moves in. If the rock breaks, it stays agitated until it finds another, which makes it a natural enemy of Roggenrola. With no rock around, it moves into a Hippowdon's ports, clearing out stuck stones in return. It has even been seen hugging a perfect rock in its sleep.",
+        "guide": "Dwebble is a Bug- and Rock-type hermit crab Pokémon that lives inside a rock, carving out a hole with a liquid from its mouth. It searches anxiously for a new rock if its home breaks. It evolves into Crustle.",
+        "tagline": "A hermit crab that melts its own stone home.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Dwebble (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Dwebble_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "557",
+          "name": "Dwebble",
+          "generation": 5,
+          "types": [
+            "bug",
+            "rock"
+          ],
+          "pictures": {
+            "official": "74a7ded320493ef25ea5d9033165a7bd",
+            "home": "e791ee8c5eaa060f05433c095e45d18e"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 558,
+              "form": "558"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 558,
+      "name": "Crustle",
+      "generation": 5,
+      "category": "Stone Home Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "dwebble"
+      },
+      "names": {
+        "de": "Castellith",
+        "en": "Crustle",
+        "es": "Crustle",
+        "fr": "Crabaraque",
+        "it": "Crustle",
+        "ja": "イワパレス",
+        "ko": "암팰리스",
+        "ja-Hrkt": "イワパレス",
+        "zh-Hans": "岩殿居蟹",
+        "zh-Hant": "岩殿居蟹"
+      },
+      "description": {
+        "fun": "Crustle carries a whole slab of layered rock on its back, and its legs are strong enough to haul it for days across dry land. Crustle are fiercely territorial: they fight over boulders, and the one whose boulder breaks loses and grows unsure of itself. It won't come out on rainy days. Its claws can crack even Rhyperior's armour, and its name mixes 'crust', 'crustacean' and 'castle'.",
+        "guide": "Crustle is the evolved form of Dwebble, a Bug- and Rock-type crab Pokémon that carries a heavy slab of rock as its shell. It is highly territorial and fights others over boulders. It prefers dry climates.",
+        "tagline": "A rock-castle crab that loses heart if its boulder breaks.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Crustle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Crustle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "558",
+          "name": "Crustle",
+          "generation": 5,
+          "types": [
+            "bug",
+            "rock"
+          ],
+          "pictures": {
+            "official": "b1472d8d9a148001e1fb8ca4918d2b5c",
+            "home": "dbe3a4b2ecfce963cd7be9afdd62e5dc"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 557,
+        "form": "557"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 558,
+        "form": "558"
+      },
+      "change": "evolves",
+      "how": "Level 34"
+    }
+  ]
+}

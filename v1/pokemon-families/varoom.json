@@ -1,0 +1,124 @@
+{
+  "id": "varoom",
+  "species": [
+    {
+      "dex": 965,
+      "name": "Varoom",
+      "generation": 9,
+      "category": "Single-Cyl Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "varoom"
+      },
+      "names": {
+        "de": "Knattox",
+        "en": "Varoom",
+        "es": "Varoom",
+        "fr": "Vrombi",
+        "it": "Varoom",
+        "ja": "ブロロン",
+        "ko": "부르롱",
+        "ja-Hrkt": "ブロロン",
+        "zh-Hans": "噗隆隆",
+        "zh-Hant": "噗隆隆"
+      },
+      "description": {
+        "fun": "Said to have been born when an unknown Poison Pokémon possessed an old engine left at a scrap-processing plant. The steel engine is its actual body: it clings to wheel-shaped rocks, eats the minerals in them and turns them into energy, and floats around rather than driving. Team Star use Varoom as the rear wheels of their Starmobiles.",
+        "guide": "A Steel and Poison-type Pokémon from Pokémon Scarlet and Violet, designed by Yusuke Kozaki, that looks like a single-cylinder engine. It evolves into Revavroom.",
+        "tagline": "An abandoned engine possessed by a poison Pokémon",
+        "sources": [
+          {
+            "title": "Bulbapedia: Varoom (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Varoom_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "965",
+          "name": "Varoom",
+          "generation": 9,
+          "types": [
+            "steel",
+            "poison"
+          ],
+          "pictures": {
+            "official": "e68e5f67c6247b131bc6d6406582ccf1",
+            "home": "8b0e953c69563827c6e5a80e00de0a83"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 966,
+              "form": "966"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 966,
+      "name": "Revavroom",
+      "generation": 9,
+      "category": "Multi-Cyl Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "varoom"
+      },
+      "names": {
+        "de": "Knattatox",
+        "en": "Revavroom",
+        "es": "Revavroom",
+        "fr": "Vrombotor",
+        "it": "Revavroom",
+        "ja": "ブロロローム",
+        "ko": "부르르룸",
+        "ja-Hrkt": "ブロロローム",
+        "zh-Hans": "普隆隆姆",
+        "zh-Hant": "普隆隆姆"
+      },
+      "description": {
+        "fun": "A living engine with eight cylinders. Revavroom mixes its poison with minerals from rocks into a gas, then detonates it in its cylinders for energy. It threatens others with the roar of its exhaust and sticks its tongue out of its cylinder mouth to spray toxic fluids. Team Star's leaders ride giant Revavroom in the Starmobiles, decked out like Japanese dekotora trucks.",
+        "guide": "The evolution of Varoom, a Steel and Poison-type Pokémon resembling a car engine attached to wheel-like rocks. Special Revavroom power the Starmobiles of Team Star's bosses in Pokémon Scarlet and Violet.",
+        "tagline": "A road-raging eight-cylinder engine",
+        "sources": [
+          {
+            "title": "Bulbapedia: Revavroom (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Revavroom_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "966",
+          "name": "Revavroom",
+          "generation": 9,
+          "types": [
+            "steel",
+            "poison"
+          ],
+          "pictures": {
+            "official": "7b83b5cf404707f304c6383172dd7cb9",
+            "home": "4ae5cef780eac00cd4dd649315e1cd45"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 965,
+        "form": "965"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 966,
+        "form": "966"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    }
+  ]
+}

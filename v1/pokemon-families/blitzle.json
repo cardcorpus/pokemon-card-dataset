@@ -1,0 +1,122 @@
+{
+  "id": "blitzle",
+  "species": [
+    {
+      "dex": 522,
+      "name": "Blitzle",
+      "generation": 5,
+      "category": "Electrified Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "blitzle"
+      },
+      "names": {
+        "de": "Elezeba",
+        "en": "Blitzle",
+        "es": "Blitzle",
+        "fr": "Zébibron",
+        "it": "Blitzle",
+        "ja": "シママ",
+        "ko": "줄뮤마",
+        "ja-Hrkt": "シママ",
+        "zh-Hans": "斑斑马",
+        "zh-Hant": "斑斑馬"
+      },
+      "description": {
+        "fun": "Blitzle's mane catches lightning and stores it, so it comes out when thunderclouds cover the sky. A herd talks by flashing their manes in different rhythms and frequencies. Its heartbeat makes electricity too: when it's startled and its heart races, the voltage climbs. It may draw on Bronte and Sterope, 'thunder' and 'lightning', two of the horses that pulled the Greek sun god Helios's chariot.",
+        "guide": "Blitzle is an Electric-type zebra Pokémon whose mane captures lightning and stores electricity. Members of a herd communicate by flashing their manes. It evolves into Zebstrika.",
+        "tagline": "A lightning-catching zebra foal that talks in flashes.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Blitzle (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Blitzle_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "522",
+          "name": "Blitzle",
+          "generation": 5,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "ca11cb5522545cf15ad42a01d9779361",
+            "home": "6adcde8c4e73ae68f12a01533c36f8c8"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 523,
+              "form": "523"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 523,
+      "name": "Zebstrika",
+      "generation": 5,
+      "category": "Thunderbolt Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "blitzle"
+      },
+      "names": {
+        "de": "Zebritz",
+        "en": "Zebstrika",
+        "es": "Zebstrika",
+        "fr": "Zéblitz",
+        "it": "Zebstrika",
+        "ja": "ゼブライカ",
+        "ko": "제브라이카",
+        "ja-Hrkt": "ゼブライカ",
+        "zh-Hans": "雷电斑马",
+        "zh-Hant": "雷電斑馬"
+      },
+      "description": {
+        "fun": "Zebstrika moves like lightning, and when it gallops at full speed, thunder rumbles. This ill-tempered Pokémon is dangerous when angry: its mane glows yellow and fires bolts in all directions. When a herd hears thunder, it chases the storm clouds so its Blitzle can charge up on the lightning. Its Japanese category calls it the 'Thunder and Lightning Pokémon'.",
+        "guide": "Zebstrika is the evolved form of Blitzle, an Electric-type zebra Pokémon that moves as fast as lightning. It is short-tempered and shoots lightning from its mane when angry, and it leads herds into thunderstorms to recharge.",
+        "tagline": "A thunderous zebra that chases storms with its herd.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Zebstrika (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Zebstrika_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "523",
+          "name": "Zebstrika",
+          "generation": 5,
+          "types": [
+            "electric"
+          ],
+          "pictures": {
+            "official": "11a50694d16a82bcb1ab765cb296ba12",
+            "home": "a4cc5955ca539b8fd5427814d0b251fa"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 522,
+        "form": "522"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 523,
+        "form": "523"
+      },
+      "change": "evolves",
+      "how": "Level 27"
+    }
+  ]
+}

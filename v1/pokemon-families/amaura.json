@@ -1,0 +1,124 @@
+{
+  "id": "amaura",
+  "species": [
+    {
+      "dex": 698,
+      "name": "Amaura",
+      "generation": 6,
+      "category": "Tundra Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "amaura"
+      },
+      "names": {
+        "de": "Amarino",
+        "en": "Amaura",
+        "es": "Amaura",
+        "fr": "Amagara",
+        "it": "Amaura",
+        "ja": "アマルス",
+        "ko": "아마루스",
+        "ja-Hrkt": "アマルス",
+        "zh-Hans": "冰雪龙",
+        "zh-Hant": "冰雪龍"
+      },
+      "description": {
+        "fun": "Amaura was revived from a Sail Fossil frozen in ice for over 100 million years, and though the revival worked, it isn't expected to live long in today's warmth. It lived calmly in cold lands where no predators like Tyrantrum roamed. The iridescent sails over its eyes shimmer like the aurora, and change colour with its mood.",
+        "guide": "Amaura is a Rock- and Ice-type Fossil Pokémon revived from the Sail Fossil, based on the sauropod Amargasaurus. It comes from cold lands of the distant past and struggles in today's warmer climate. Its colourful sails are modelled on auroras, and it evolves into Aurorus at night.",
+        "tagline": "A baby dinosaur thawed from the ice age, made for the cold",
+        "sources": [
+          {
+            "title": "Bulbapedia: Amaura (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Amaura_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "698",
+          "name": "Amaura",
+          "generation": 6,
+          "types": [
+            "rock",
+            "ice"
+          ],
+          "pictures": {
+            "official": "c59dfbba4c7b430cbe3b27c869a2c781",
+            "home": "3ab553b111cee316f12cea3c04369db7"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 699,
+              "form": "699"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 699,
+      "name": "Aurorus",
+      "generation": 6,
+      "category": "Tundra Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "amaura"
+      },
+      "names": {
+        "de": "Amagarga",
+        "en": "Aurorus",
+        "es": "Aurorus",
+        "fr": "Dragmara",
+        "it": "Aurorus",
+        "ja": "アマルルガ",
+        "ko": "아마루르가",
+        "ja-Hrkt": "アマルルガ",
+        "zh-Hans": "冰雪巨龙",
+        "zh-Hant": "冰雪巨龍"
+      },
+      "description": {
+        "fun": "Aurorus is quiet and gentle, but when angered it raises walls of ice, and the crystals along its sides give off air at −150 °C. When it howls, auroras are said to fill the sky. Hitoshi Ariga gave its neck a flowing sail rather than spikes just because he liked it better, and in 2022 a scientific paper backed the idea that Amargasaurus really did have one.",
+        "guide": "Aurorus is a Rock- and Ice-type Fossil Pokémon that evolves from Amaura, based on the sauropod Amargasaurus. It is usually calm but can freeze foes with crystals that give off extremely cold air. The sails on its head and neck are said to call up auroras when it howls.",
+        "tagline": "A gentle aurora-crowned dinosaur queen",
+        "sources": [
+          {
+            "title": "Bulbapedia: Aurorus (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Aurorus_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "699",
+          "name": "Aurorus",
+          "generation": 6,
+          "types": [
+            "rock",
+            "ice"
+          ],
+          "pictures": {
+            "official": "4cd7d58a8362183ba8510f343b387036",
+            "home": "11aa696fb435741507cc221a419525a2"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 698,
+        "form": "698"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 699,
+        "form": "699"
+      },
+      "change": "evolves",
+      "how": "Level 39, at night"
+    }
+  ]
+}

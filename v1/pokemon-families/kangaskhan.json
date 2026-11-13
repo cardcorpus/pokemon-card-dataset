@@ -1,0 +1,96 @@
+{
+  "id": "kangaskhan",
+  "species": [
+    {
+      "dex": 115,
+      "name": "Kangaskhan",
+      "generation": 1,
+      "category": "Parent Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "kangaskhan"
+      },
+      "names": {
+        "de": "Kangama",
+        "en": "Kangaskhan",
+        "es": "Kangaskhan",
+        "fr": "Kangourex",
+        "it": "Kangaskhan",
+        "ja": "ガルーラ",
+        "ko": "캥카",
+        "ja-Hrkt": "ガルーラ",
+        "zh-Hans": "袋兽",
+        "zh-Hant": "袋獸"
+      },
+      "description": {
+        "fun": "Kangaskhan carries its baby in its belly pouch, and the little one rarely leaves until it's about three years old. To avoid squashing it, the mother sleeps standing up, and she'll fight on, however hurt, until her baby is safe. Kangaskhan have raised other species' young as their own, and there are even records of one raising a lost human child.",
+        "guide": "A large, kangaroo-like Normal Pokémon that carries its baby in a pouch on its belly and protects it fiercely. It is female-only and does not evolve, but it can Mega Evolve into Mega Kangaskhan, in which the baby grows and fights alongside its mother.",
+        "tagline": "A devoted mother with a baby in her pouch",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kangaskhan (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "115",
+          "name": "Kangaskhan",
+          "generation": 1,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "904f7c4f995a5295935d0a26178dde66",
+            "home": "61161cc5654a5e2039f34597ffaded4e"
+          }
+        },
+        {
+          "id": "115:mega",
+          "name": "Mega Kangaskhan",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "normal"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Kangama",
+            "en": "Mega Kangaskhan",
+            "fr": "Méga-Kangourex"
+          },
+          "pictures": {
+            "official": "edb0d2f177760c416eb85ca2531398d1",
+            "home": "c3262a3d239b2b8551d257f184d3dfff"
+          },
+          "description": {
+            "fun": "The mother stays the same, but Mega Evolution energy makes the baby grow for a while, and it boldly fights alongside her. She is overjoyed to see it grow, though a little sad to be reminded that one day it will leave.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Kangaskhan (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 115,
+        "form": "115"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 115,
+        "form": "115:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

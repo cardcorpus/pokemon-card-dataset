@@ -1,0 +1,123 @@
+{
+  "id": "shellder",
+  "species": [
+    {
+      "dex": 90,
+      "name": "Shellder",
+      "generation": 1,
+      "category": "Bivalve Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shellder"
+      },
+      "names": {
+        "de": "Muschas",
+        "en": "Shellder",
+        "es": "Shellder",
+        "fr": "Kokiyas",
+        "it": "Shellder",
+        "ja": "シェルダー",
+        "ko": "셀러",
+        "ja-Hrkt": "シェルダー",
+        "zh-Hans": "大舌贝",
+        "zh-Hant": "大舌貝"
+      },
+      "description": {
+        "fun": "Shellder's shell is said to be harder than diamond, yet its long tongue always pokes out, and tugging it pops the shell open. It swims backwards by snapping its shell open and shut, makes pearls from sand only to throw them away, and has a big appetite for Slowpoke tails: biting one turns the pair into a Slowbro.",
+        "guide": "A small, bivalve Water Pokémon with a very hard, spiky shell and a long tongue that sticks out even when the shell is shut. It swims by opening and closing its shell and is known for latching onto Slowpoke, turning them into Slowbro or Slowking. It evolves into Cloyster with a Water Stone.",
+        "tagline": "A diamond-hard clam whose tongue always gives it away",
+        "sources": [
+          {
+            "title": "Bulbapedia: Shellder (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "90",
+          "name": "Shellder",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "4f3c94ccdff3d889169dbf7a18780d51",
+            "home": "0cc31aae2bfc6ec5d23023983de21ac0"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 91,
+              "form": "91"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 91,
+      "name": "Cloyster",
+      "generation": 1,
+      "category": "Bivalve Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "shellder"
+      },
+      "names": {
+        "de": "Austos",
+        "en": "Cloyster",
+        "es": "Cloyster",
+        "fr": "Crustabri",
+        "it": "Cloyster",
+        "ja": "パルシェン",
+        "ko": "파르셀",
+        "ja-Hrkt": "パルシェン",
+        "zh-Hans": "刺甲贝",
+        "zh-Hant": "刺甲貝"
+      },
+      "description": {
+        "fun": "Once Cloyster shuts its shell, nothing can open it from outside: it can shrug off a bomb blast or even a missile, and nobody has ever seen what's inside apart from its pearl-like face. It doesn't need to open up to fight back, either, firing its spikes at foes, and it swims by jetting seawater out behind it. It will even come ashore to hunt Slowpoke tails.",
+        "guide": "The evolution of Shellder with a Water Stone, a Water and Ice Pokémon with a dark, pearl-like body inside a spiked double shell harder than diamond. It fires its spikes at enemies and swims by jet propulsion, expelling seawater.",
+        "tagline": "A shell that can survive a missile, with spikes to spare",
+        "sources": [
+          {
+            "title": "Bulbapedia: Cloyster (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Cloyster_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "91",
+          "name": "Cloyster",
+          "generation": 1,
+          "types": [
+            "water",
+            "ice"
+          ],
+          "pictures": {
+            "official": "85d163b4b8ed7b572d193913b3b22473",
+            "home": "a1faa1a6125f937dfff7be1255ab3784"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 90,
+        "form": "90"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 91,
+        "form": "91"
+      },
+      "change": "evolves",
+      "how": "Water Stone"
+    }
+  ]
+}

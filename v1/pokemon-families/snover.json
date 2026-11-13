@@ -1,0 +1,167 @@
+{
+  "id": "snover",
+  "species": [
+    {
+      "dex": 459,
+      "name": "Snover",
+      "generation": 4,
+      "category": "Frost Tree Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "snover"
+      },
+      "names": {
+        "de": "Shnebedeck",
+        "en": "Snover",
+        "es": "Snover",
+        "fr": "Blizzi",
+        "it": "Snover",
+        "ja": "ユキカブリ",
+        "ko": "눈쓰개",
+        "ja-Hrkt": "ユキカブリ",
+        "zh-Hans": "雪笠怪",
+        "zh-Hant": "雪笠怪"
+      },
+      "description": {
+        "fun": "Snover looks like a snowy fir tree that grew feet. Boldly curious about people, it gathers around footprints in the snow, and there are stories of Snover visiting villages and bonding with the children there. Its belly grows berries like ice pops, which Galarian Darumaka absolutely love, and other Pokémon sneak up to eat them while it sleeps.",
+        "guide": "Snover is a Grass- and Ice-type Pokémon resembling a snow-covered tree. It lives on snowy mountains, moving lower in winter, and grows icy berries around its belly in spring. It evolves into Abomasnow.",
+        "tagline": "A curious snowy fir tree that grows ice-pop berries.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Snover (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Snover_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "459",
+          "name": "Snover",
+          "generation": 4,
+          "types": [
+            "grass",
+            "ice"
+          ],
+          "pictures": {
+            "official": "b2f7d85a43708079f7256cbda46956dd",
+            "home": "55d2d49c72ee46b160ae2c8442dd65f7"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 460,
+              "form": "460"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 460,
+      "name": "Abomasnow",
+      "generation": 4,
+      "category": "Frost Tree Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "snover"
+      },
+      "names": {
+        "de": "Rexblisar",
+        "en": "Abomasnow",
+        "es": "Abomasnow",
+        "fr": "Blizzaroi",
+        "it": "Abomasnow",
+        "ja": "ユキノオー",
+        "ko": "눈설왕",
+        "ja-Hrkt": "ユキノオー",
+        "zh-Hans": "暴雪王",
+        "zh-Hant": "暴雪王"
+      },
+      "description": {
+        "fun": "Abomasnow is the abominable snowman of the Pokémon world: it shakes its body to whip up a whiteout and hides in the blizzard. It appears when the snow flowers bloom and retreats to places unknown when their petals fall. It even flails its arms in its sleep, stirring up blizzards, and researchers still can't agree why. Its Japanese name, Yukinooh, means 'snow king'.",
+        "guide": "Abomasnow is the evolved form of Snover, a Grass- and Ice-type Pokémon resembling a yeti crossed with a snow-covered evergreen. It creates blizzards to hide itself and lives alone on snowy mountains. It can Mega Evolve into Mega Abomasnow.",
+        "tagline": "The abominable snowman, kicking up blizzards in its sleep.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Abomasnow (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "460",
+          "name": "Abomasnow",
+          "generation": 4,
+          "types": [
+            "grass",
+            "ice"
+          ],
+          "pictures": {
+            "official": "e88bf7e74e2b8372095fd92d486674fb",
+            "home": "a7c60fd231d3d2c911dca08d47215eb7"
+          }
+        },
+        {
+          "id": "460:mega",
+          "name": "Mega Abomasnow",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "grass",
+            "ice"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Rexblisar",
+            "en": "Mega Abomasnow",
+            "fr": "Méga-Blizzaroi"
+          },
+          "pictures": {
+            "official": "d13543a5b969e7a48a37d85ec9168d5c",
+            "home": "68c872794cca9103336e3a1970b3ab3f"
+          },
+          "description": {
+            "fun": "The buds on its back shoot up into great shafts of ice and its fur grows long and shaggy, and with those ice shafts it can conjure blizzards of −30 °C.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Abomasnow (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 459,
+        "form": "459"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 460,
+        "form": "460"
+      },
+      "change": "evolves",
+      "how": "Level 40"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 460,
+        "form": "460"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 460,
+        "form": "460:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

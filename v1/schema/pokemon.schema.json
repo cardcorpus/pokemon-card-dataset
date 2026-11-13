@@ -1,0 +1,305 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus Pokémon",
+  "description": "Every species with its forms, in National Pokédex order, and the glossary of terms a page explains in a tooltip; each family in full is pokemon-families/{family}.json (docs/static-api.md, \"Pokémon\").",
+  "type": "object",
+  "required": [
+    "speciesCount",
+    "formCount",
+    "familyCount",
+    "transitionCount",
+    "generations",
+    "regions",
+    "species",
+    "glossary"
+  ],
+  "properties": {
+    "speciesCount": {
+      "description": "How many species; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "formCount": {
+      "description": "How many forms; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "familyCount": {
+      "description": "How many evolution families; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "transitionCount": {
+      "description": "How many transitions between forms; always present, 0 included.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "generations": {
+      "description": "The region each generation's games are set in.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "generation",
+          "region"
+        ],
+        "properties": {
+          "generation": {
+            "description": "The generation.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "region": {
+            "description": "Its region's name.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "regions": {
+      "description": "The regions regional forms come from, by a form's `region`.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label"
+        ],
+        "properties": {
+          "label": {
+            "description": "The region's name.",
+            "type": "string"
+          },
+          "term": {
+            "description": "The term for its forms (\"Alolan\").",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "species": {
+      "description": "Every species, in National Pokédex order.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "x-cc": {
+          "label": "name"
+        },
+        "required": [
+          "dex",
+          "name",
+          "generation",
+          "family",
+          "types",
+          "forms",
+          "cardCount",
+          "totalCardCount"
+        ],
+        "properties": {
+          "dex": {
+            "description": "Its National Pokédex number.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "description": "Its name.",
+            "type": "string"
+          },
+          "generation": {
+            "description": "The generation the species first appeared in.",
+            "type": "integer",
+            "minimum": 1
+          },
+          "category": {
+            "description": "Its Pokédex category (\"Mouse Pokémon\").",
+            "type": "string"
+          },
+          "status": {
+            "description": "Where it is one: a baby, legendary or mythical Pokémon.",
+            "enum": [
+              "baby",
+              "legendary",
+              "mythical"
+            ]
+          },
+          "family": {
+            "description": "Its evolution family, by pointer.",
+            "type": "object",
+            "x-cc": {
+              "ref": "pokemon-family"
+            },
+            "required": [
+              "$kind",
+              "family"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `pokemon-family`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "const": "pokemon-family"
+              },
+              "family": {
+                "description": "The evolution family's id (pokemon-families/{family}.json).",
+                "type": "string"
+              }
+            }
+          },
+          "names": {
+            "description": "Its name in other languages, by language code.",
+            "type": "object",
+            "additionalProperties": {
+              "description": "The name.",
+              "type": "string"
+            }
+          },
+          "types": {
+            "description": "Its default form's types.",
+            "type": "array",
+            "items": {
+              "description": "A type.",
+              "type": "string"
+            }
+          },
+          "tagline": {
+            "description": "Its one-line description.",
+            "type": "string"
+          },
+          "forms": {
+            "description": "Every form but the first, the default, with how many cards show it.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "x-cc": {
+                "label": "name"
+              },
+              "required": [
+                "id",
+                "name",
+                "generation"
+              ],
+              "properties": {
+                "id": {
+                  "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
+                  "type": "string"
+                },
+                "name": {
+                  "description": "The form's name.",
+                  "type": "string"
+                },
+                "category": {
+                  "description": "What kind of form it is, where it isn't the default.",
+                  "enum": [
+                    "regional",
+                    "mega",
+                    "primal",
+                    "gigantamax",
+                    "costume",
+                    "cosmetic",
+                    "alternate"
+                  ]
+                },
+                "generation": {
+                  "description": "The generation the form first appeared in.",
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "cardCount": {
+                  "description": "How many cards that show the form; always present, 0 included.",
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          "cardCount": {
+            "description": "How many cards that show it in any form but a regional one; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "totalCardCount": {
+            "description": "How many cards that show it in any form, regional ones included, each card once; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "pictures": {
+            "description": "Its pictures by style, each a picture id: `official` artwork and `home` renders.",
+            "type": "object",
+            "properties": {
+              "official": {
+                "description": "Its official artwork.",
+                "type": "string",
+                "pattern": "^[0-9a-f]{32}$",
+                "x-cc": {
+                  "picture": true
+                }
+              },
+              "home": {
+                "description": "Its HOME render.",
+                "type": "string",
+                "pattern": "^[0-9a-f]{32}$",
+                "x-cc": {
+                  "picture": true
+                }
+              }
+            },
+            "additionalProperties": {
+              "description": "A picture in another style.",
+              "type": "string",
+              "pattern": "^[0-9a-f]{32}$",
+              "x-cc": {
+                "picture": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "glossary": {
+      "description": "Terms a page explains in a tooltip, by key.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "x-cc": {
+          "label": "label"
+        },
+        "required": [
+          "label",
+          "text"
+        ],
+        "properties": {
+          "label": {
+            "description": "The term as shown.",
+            "type": "string"
+          },
+          "text": {
+            "description": "What it means.",
+            "type": "string"
+          },
+          "sources": {
+            "description": "The pages this draws on, each with its title.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "title",
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "description": "The page's title.",
+                  "type": "string"
+                },
+                "url": {
+                  "description": "The page's url.",
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ledyba",
+  "species": [
+    {
+      "dex": 165,
+      "name": "Ledyba",
+      "generation": 2,
+      "category": "Five Star Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ledyba"
+      },
+      "names": {
+        "de": "Ledyba",
+        "en": "Ledyba",
+        "es": "Ledyba",
+        "fr": "Coxy",
+        "it": "Ledyba",
+        "ja": "レディバ",
+        "ko": "레디바",
+        "ja-Hrkt": "レディバ",
+        "zh-Hans": "芭瓢虫",
+        "zh-Hant": "芭瓢蟲"
+      },
+      "description": {
+        "fun": "Ledyba hates the cold and hates being alone, so it huddles in big clusters and grows too timid to move when left by itself. It talks with a scented fluid from its leg joints, which smells sour when it's angry. Its English category, Five Star Pokémon, is a slip in translation: in Japanese, a ladybird's spots are called 'stars'.",
+        "guide": "A ladybird Pokémon of the Bug and Flying types that lives in large groups and becomes timid on its own. It is sensitive to cold and communicates with a scented fluid from its legs. It evolves into Ledian.",
+        "tagline": "A sociable ladybird that's lost without its swarm",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ledyba (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "165",
+          "name": "Ledyba",
+          "generation": 2,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "38adfe1252e9a0c726cb08c1016c516d",
+            "home": "9d7cdb74c50ad9801b6357676a33b004"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 166,
+              "form": "166"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 166,
+      "name": "Ledian",
+      "generation": 2,
+      "category": "Five Star Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "ledyba"
+      },
+      "names": {
+        "de": "Ledian",
+        "en": "Ledian",
+        "es": "Ledian",
+        "fr": "Coxyclaque",
+        "it": "Ledian",
+        "ja": "レディアン",
+        "ko": "레디안",
+        "ja-Hrkt": "レディアン",
+        "zh-Hans": "安瓢虫",
+        "zh-Hant": "安瓢蟲"
+      },
+      "description": {
+        "fun": "Ledian is thought to run on starlight, and the spots on its back grow or shrink with the number of stars in the sky. At night it flutters about scattering a glowing powder said to bring good luck. A weak fighter, it makes up for it with a flurry of punches from four gloved fists, and it looks a lot like Pulseman, hero of an earlier Game Freak game.",
+        "guide": "A ladybird Pokémon of the Bug and Flying types and the evolved form of Ledyba. It is believed to use starlight as energy and scatters glowing powder at night. It fights with rapid punches from its four arms.",
+        "tagline": "A starlight-powered ladybird that punches with four fists",
+        "sources": [
+          {
+            "title": "Bulbapedia: Ledian (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Ledian_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "166",
+          "name": "Ledian",
+          "generation": 2,
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "pictures": {
+            "official": "91d1223bc590c46dbd99916bf6c29b84",
+            "home": "e6ef1b6e2065cf913381bb4d92237556"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 165,
+        "form": "165"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 166,
+        "form": "166"
+      },
+      "change": "evolves",
+      "how": "Level 18"
+    }
+  ]
+}

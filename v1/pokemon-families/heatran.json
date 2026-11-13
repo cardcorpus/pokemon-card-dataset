@@ -1,0 +1,98 @@
+{
+  "id": "heatran",
+  "species": [
+    {
+      "dex": 485,
+      "name": "Heatran",
+      "generation": 4,
+      "category": "Lava Dome Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "heatran"
+      },
+      "names": {
+        "de": "Heatran",
+        "en": "Heatran",
+        "es": "Heatran",
+        "fr": "Heatran",
+        "it": "Heatran",
+        "ja": "ヒードラン",
+        "ko": "히드런",
+        "ja-Hrkt": "ヒードラン",
+        "zh-Hans": "席多蓝恩",
+        "zh-Hant": "席多藍恩"
+      },
+      "description": {
+        "fun": "Heatran was born from volcano magma and has blood that boils like it. Its steel body is partly melted from its own heat, and it scuttles across volcanic cave walls and ceilings on cross-shaped claws. Its Mega Evolution, revealed in the Mega Dimension expansion of Pokémon Legends: Z-A, is the hottest Pokémon on record: going all out, it tops a million degrees, as hot as the Sun's corona.",
+        "guide": "Heatran is a Fire- and Steel-type Legendary Pokémon. It lives in volcanic caves, has boiling magma-like blood, and climbs walls and ceilings with its cross-shaped feet. It can Mega Evolve into Mega Heatran, introduced in the Mega Dimension expansion of Pokémon Legends: Z-A.",
+        "tagline": "A molten-steel legend that crawls across volcano ceilings.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Heatran (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "485",
+          "name": "Heatran",
+          "generation": 4,
+          "types": [
+            "fire",
+            "steel"
+          ],
+          "pictures": {
+            "official": "aed4a2fea76a0a2db1ba00fe3b6b58d4",
+            "home": "044be1e2839ba3117093560196e165e2"
+          }
+        },
+        {
+          "id": "485:mega",
+          "name": "Mega Heatran",
+          "category": "mega",
+          "generation": 9,
+          "types": [
+            "fire",
+            "steel"
+          ],
+          "battleOnly": true,
+          "names": {
+            "en": "Mega Heatran",
+            "fr": "Méga-Heatran"
+          },
+          "pictures": {
+            "official": "5aa5301fad6cd6749c6927392eafcdf2",
+            "home": "8dc038dc1e14700d5cb0f0f637a3ddfa"
+          },
+          "description": {
+            "fun": "Mega Evolution makes Heatran bigger and so hot that its hind legs melt into liquid metal and its jaw hangs open, glowing. Going all out, it can top a million degrees Celsius.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Heatran (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 485,
+        "form": "485"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 485,
+        "form": "485:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "wynaut",
+  "species": [
+    {
+      "dex": 360,
+      "name": "Wynaut",
+      "generation": 3,
+      "category": "Bright Pokémon",
+      "status": "baby",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wynaut"
+      },
+      "names": {
+        "de": "Isso",
+        "en": "Wynaut",
+        "es": "Wynaut",
+        "fr": "Okéoké",
+        "it": "Wynaut",
+        "ja": "ソーナノ",
+        "ko": "마자",
+        "ja-Hrkt": "ソーナノ",
+        "zh-Hans": "小果然",
+        "zh-Hant": "小果然"
+      },
+      "description": {
+        "fun": "Wynaut never stops smiling, not even in its sleep. It roams in herds, and at night the herd squeezes up together to toughen its spirit and learn the powerful counterattacks it'll need as Wobbuffet. Its name plays on 'Why not?', while its Japanese name, Sohnano, sounds like 'Really?' and Wobbuffet's, Sonans, like 'That's the way it is', so the pair can keep a conversation going forever.",
+        "guide": "A Psychic-type baby Pokémon introduced in Generation 3, the pre-evolution of Wobbuffet. It lives in herds, loves sweet fruit and slaps the ground with its tail when angry. It evolves into Wobbuffet at level 15.",
+        "tagline": "A grinning blue baby that toughens up by squeezing its herd",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wynaut (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "360",
+          "name": "Wynaut",
+          "generation": 3,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "78c887222e79c7be1aa89b666badac38",
+            "home": "4e72831de6dfb0495ebf2e21b3039918"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 202,
+              "form": "202"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 202,
+      "name": "Wobbuffet",
+      "generation": 2,
+      "category": "Patient Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "wynaut"
+      },
+      "names": {
+        "de": "Woingenau",
+        "en": "Wobbuffet",
+        "es": "Wobbuffet",
+        "fr": "Qulbutoké",
+        "it": "Wobbuffet",
+        "ja": "ソーナンス",
+        "ko": "마자용",
+        "ja-Hrkt": "ソーナンス",
+        "zh-Hans": "果然翁",
+        "zh-Hant": "果然翁"
+      },
+      "description": {
+        "fun": "Wobbuffet never attacks first. Hit it, though, and it puffs up and strikes back, like a punching bag or a roly-poly doll that always bounces upright. When two meet, neither can start a fight, so they hold an endurance contest instead, sometimes over who can go longest without eating. It guards its black, eye-spotted tail fiercely, and the tail is said to hide some secret.",
+        "guide": "A Psychic-type Pokémon introduced in Generation 2, known for only ever counterattacking and for its black tail with eye-like spots, which it guards closely. Females have a red, lipstick-like mark on the mouth. It evolves from Wynaut, a baby Pokémon added in Generation 3.",
+        "tagline": "Patient, puffed-up and never the first to throw a punch",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wobbuffet (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "202",
+          "name": "Wobbuffet",
+          "generation": 2,
+          "types": [
+            "psychic"
+          ],
+          "pictures": {
+            "official": "d31118fe1bb75375e5539ffb543bc541",
+            "home": "32e82cf1c07412f456a542b362656edc"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 360,
+        "form": "360"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 202,
+        "form": "202"
+      },
+      "change": "evolves",
+      "how": "Level 15",
+      "note": {
+        "text": "Wynaut is a baby Pokémon added in Generation 3, a generation after Wobbuffet, and in Ruby and Sapphire it became the first baby Pokémon that could be caught in the wild. From Generation 3 to 8, a Wobbuffet had to hold a Lax Incense for its Egg to hatch into Wynaut.",
+        "term": "baby",
+        "sources": [
+          {
+            "title": "Bulbapedia: Wynaut (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon)"
+          },
+          {
+            "title": "Bulbapedia: Baby Pokémon",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Baby_Pok%C3%A9mon"
+          }
+        ]
+      }
+    }
+  ]
+}

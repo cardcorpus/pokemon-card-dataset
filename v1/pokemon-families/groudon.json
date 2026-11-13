@@ -1,0 +1,98 @@
+{
+  "id": "groudon",
+  "species": [
+    {
+      "dex": 383,
+      "name": "Groudon",
+      "generation": 3,
+      "category": "Continent Pokémon",
+      "status": "legendary",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "groudon"
+      },
+      "names": {
+        "de": "Groudon",
+        "en": "Groudon",
+        "es": "Groudon",
+        "fr": "Groudon",
+        "it": "Groudon",
+        "ja": "グラードン",
+        "ko": "그란돈",
+        "ja-Hrkt": "グラードン",
+        "zh-Hans": "固拉多",
+        "zh-Hant": "固拉多"
+      },
+      "description": {
+        "fun": "Groudon is said to be the personification of the land, the 'maker of lands' that raised continents with magma, and it was once hailed as a saviour for ending terrible floods with its blazing sunshine. It can even walk on water by laying a path of magma beneath its feet. After Rayquaza ended its ancient battle with Kyogre, it slept beneath the magma. It's the mascot of Pokémon Ruby, and Team Magma's plans revolve around it.",
+        "guide": "A Ground-type Legendary Pokémon resembling a huge dinosaur, one of the super-ancient Pokémon with Kyogre and Rayquaza, and the mascot of Ruby and Omega Ruby. It can undergo Primal Reversion with the Red Orb. It does not evolve.",
+        "tagline": "The 'maker of lands', mascot of Pokémon Ruby",
+        "sources": [
+          {
+            "title": "Bulbapedia: Groudon (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "383",
+          "name": "Groudon",
+          "generation": 3,
+          "types": [
+            "ground"
+          ],
+          "pictures": {
+            "official": "f35af3128df61f03e6f91d13b7858b9f",
+            "home": "e6d583ba24648833df7b3520962d5e5e"
+          }
+        },
+        {
+          "id": "383:primal",
+          "name": "Primal Groudon",
+          "category": "primal",
+          "generation": 6,
+          "types": [
+            "ground",
+            "fire"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Proto-Groudon",
+            "en": "Primal Groudon",
+            "fr": "Primo-Groudon"
+          },
+          "pictures": {
+            "official": "f64972e793b11b4ccd0d48c7be32afd8",
+            "home": "1120a73f88c4269554aee790878ec393"
+          },
+          "description": {
+            "fun": "Primal Groudon burns so hot that its body always shimmers in a heat haze, and the energy inside it pours out as magma. It's said to be Groudon's true, original form, and in the primal age it once fought Primal Kyogre for 20 days straight before Rayquaza stopped them. Its Desolate Land Ability makes Water-type moves fail completely, and the omega symbols on its arms may signify the end of life.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Groudon (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "primal"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 383,
+        "form": "383"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 383,
+        "form": "383:primal"
+      },
+      "change": "primal"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "foongus",
+  "species": [
+    {
+      "dex": 590,
+      "name": "Foongus",
+      "generation": 5,
+      "category": "Mushroom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "foongus"
+      },
+      "names": {
+        "de": "Tarnpignon",
+        "en": "Foongus",
+        "es": "Foongus",
+        "fr": "Trompignon",
+        "it": "Foongus",
+        "ja": "タマゲタケ",
+        "ko": "깜놀버슬",
+        "ja-Hrkt": "タマゲタケ",
+        "zh-Hans": "哎呀球菇",
+        "zh-Hant": "哎呀球菇"
+      },
+      "description": {
+        "fun": "Foongus has a Poké Ball pattern on its cap, and nobody knows why. It uses it to lure people and Pokémon close before puffing out poison spores, which, once thoroughly dried, can be used as stomach medicine. One theory even says the developer of the modern Poké Ball loved Foongus and copied it, though that's never been confirmed. Put its name together with Amoonguss's and you get 'fungus among us'.",
+        "guide": "Foongus is a Grass- and Poison-type mushroom Pokémon whose cap looks like a Poké Ball. It lures others close with the pattern and releases poison spores. It evolves into Amoonguss.",
+        "tagline": "A mushroom that disguises itself as a Poké Ball.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Foongus (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "590",
+          "name": "Foongus",
+          "generation": 5,
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "pictures": {
+            "official": "42a6c19ae93ff3d94b5b60bd4ddae1e8",
+            "home": "c0e94ebbcd81ded212c7a4e2eb11336e"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 591,
+              "form": "591"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 591,
+      "name": "Amoonguss",
+      "generation": 5,
+      "category": "Mushroom Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "foongus"
+      },
+      "names": {
+        "de": "Hutsassa",
+        "en": "Amoonguss",
+        "es": "Amoonguss",
+        "fr": "Gaulet",
+        "it": "Amoonguss",
+        "ja": "モロバレル",
+        "ko": "뽀록나",
+        "ja-Hrkt": "モロバレル",
+        "zh-Hans": "败露球菇",
+        "zh-Hant": "敗露球菇"
+      },
+      "description": {
+        "fun": "Amoonguss waves the Poké Ball caps on its arms in a swaying dance to lure prey, but very few Pokémon are fooled, and it even dances in its sleep, with even less success. It likes to stand still near Poké Balls dropped on the ground. Beware its spores: wherever they land, mushrooms like its caps will grow unless they're washed off quickly. Its Japanese name jokes that its disguise has been completely exposed.",
+        "guide": "Amoonguss is the evolved form of Foongus, a Grass- and Poison-type mushroom Pokémon with Poké Ball-like caps on its head and arms. It dances to lure prey and puffs poisonous spores.",
+        "tagline": "A mushroom whose Poké Ball disguise fools almost nobody.",
+        "sources": [
+          {
+            "title": "Bulbapedia: Amoonguss (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Amoonguss_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "591",
+          "name": "Amoonguss",
+          "generation": 5,
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "pictures": {
+            "official": "16e89c7601e6970a4bf15d33531f6c4c",
+            "home": "cf691c711c13e0c54aa4328ccb948683"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 590,
+        "form": "590"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 591,
+        "form": "591"
+      },
+      "change": "evolves",
+      "how": "Level 39"
+    }
+  ]
+}

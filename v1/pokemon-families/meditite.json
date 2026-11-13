@@ -1,0 +1,167 @@
+{
+  "id": "meditite",
+  "species": [
+    {
+      "dex": 307,
+      "name": "Meditite",
+      "generation": 3,
+      "category": "Meditate Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "meditite"
+      },
+      "names": {
+        "de": "Meditie",
+        "en": "Meditite",
+        "es": "Meditite",
+        "fr": "Méditikka",
+        "it": "Meditite",
+        "ja": "アサナン",
+        "ko": "요가랑",
+        "ja-Hrkt": "アサナン",
+        "zh-Hans": "玛沙那",
+        "zh-Hant": "瑪沙那"
+      },
+      "description": {
+        "fun": "Meditite never skips its daily yoga, building up spiritual power through meditation until it can float in the air. Its training never ends, though, because it keeps losing focus mid-meditation. It eats just one berry a day as part of its discipline. In Generation 3, before gender differences existed, every Meditite looked female.",
+        "guide": "A Fighting- and Psychic-type Pokémon based on a yoga practitioner, usually shown sitting in the lotus position. It trains for hours a day and can levitate through meditation. It evolves into Medicham at level 37.",
+        "tagline": "A yoga student that meditates until it floats",
+        "sources": [
+          {
+            "title": "Bulbapedia: Meditite (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Meditite_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "307",
+          "name": "Meditite",
+          "generation": 3,
+          "types": [
+            "fighting",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "5218465b43b97327844f13b78e6095aa",
+            "home": "5e5e96a9fbbcca9c832a664e16e440e8"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 308,
+              "form": "308"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 308,
+      "name": "Medicham",
+      "generation": 3,
+      "category": "Meditate Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "meditite"
+      },
+      "names": {
+        "de": "Meditalis",
+        "en": "Medicham",
+        "es": "Medicham",
+        "fr": "Charmina",
+        "it": "Medicham",
+        "ja": "チャーレム",
+        "ko": "요가램",
+        "ja-Hrkt": "チャーレム",
+        "zh-Hans": "恰雷姆",
+        "zh-Hant": "恰雷姆"
+      },
+      "description": {
+        "fun": "Medicham has honed a sixth sense through meditation and fasting, eating only once a month, and its psychic power lets it blend into its surroundings to hide. It fights with elegant, dance-like moves, dodging attacks before landing a crushing blow. Its puffy trousers and headpiece may draw on belly dancers' costumes as well as yoga.",
+        "guide": "A Fighting- and Psychic-type Pokémon based on a yoga practitioner, which has developed a sixth sense through meditation. It evolves from Meditite at level 37 and can Mega Evolve with the Medichamite.",
+        "tagline": "A yoga master that eats monthly and fights like a dancer",
+        "sources": [
+          {
+            "title": "Bulbapedia: Medicham (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Medicham_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "308",
+          "name": "Medicham",
+          "generation": 3,
+          "types": [
+            "fighting",
+            "psychic"
+          ],
+          "pictures": {
+            "official": "88e1f6ab90a5b3bd24ed0728355862d7",
+            "home": "ab8040f6226559f3203f469ecf9ed86b"
+          }
+        },
+        {
+          "id": "308:mega",
+          "name": "Mega Medicham",
+          "category": "mega",
+          "generation": 6,
+          "types": [
+            "fighting",
+            "psychic"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Mega-Meditalis",
+            "en": "Mega Medicham",
+            "fr": "Méga-Charmina"
+          },
+          "pictures": {
+            "official": "dbb362f878ddc00a3c116b2673db196b",
+            "home": "9f846dd24d240b949c1dfe9c8e02735d"
+          },
+          "description": {
+            "fun": "Mega Evolution gives Medicham limitless mental power, which it uses to form four ghostly extra arms around itself; the more trained its spirit, the more real and dexterous those arms become. Its headpiece turns into a white turban set with a yellow stone, and gold bands appear around its wrists and waist.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Medicham (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Medicham_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "mega"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 307,
+        "form": "307"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 308,
+        "form": "308"
+      },
+      "change": "evolves",
+      "how": "Level 37"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 308,
+        "form": "308"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 308,
+        "form": "308:mega"
+      },
+      "change": "mega"
+    }
+  ]
+}

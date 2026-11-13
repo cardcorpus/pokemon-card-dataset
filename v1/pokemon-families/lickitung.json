@@ -1,0 +1,122 @@
+{
+  "id": "lickitung",
+  "species": [
+    {
+      "dex": 108,
+      "name": "Lickitung",
+      "generation": 1,
+      "category": "Licking Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "lickitung"
+      },
+      "names": {
+        "de": "Schlurp",
+        "en": "Lickitung",
+        "es": "Lickitung",
+        "fr": "Excelangue",
+        "it": "Lickitung",
+        "ja": "ベロリンガ",
+        "ko": "내루미",
+        "ja-Hrkt": "ベロリンガ",
+        "zh-Hans": "大舌头",
+        "zh-Hant": "大舌頭"
+      },
+      "description": {
+        "fun": "Lickitung's tongue is over 2 metres long, twice the length of its body, and it uses it for everything: catching bugs, picking Berries, exploring, fighting and cleaning, though the cleaning isn't much use since its smelly saliva leaves a tingle and sometimes a rash. It remembers things by how they taste and feel, and isn't a fan of sour things. Pull its tongue and its tail twitches.",
+        "guide": "A pink, bipedal Normal Pokémon with a tongue over 2 metres long that it uses to catch prey, explore and fight. Its saliva is sticky and causes tingling. It evolves into Lickilicky when levelled up knowing Rollout.",
+        "tagline": "A tongue twice as long as its body, used for everything",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lickitung (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lickitung_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "108",
+          "name": "Lickitung",
+          "generation": 1,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "6439248b796e2ef0ab281bdc7fdd3093",
+            "home": "1639b82564bb06d5db002830c83f0adb"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 463,
+              "form": "463"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 463,
+      "name": "Lickilicky",
+      "generation": 4,
+      "category": "Licking Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "lickitung"
+      },
+      "names": {
+        "de": "Schlurplek",
+        "en": "Lickilicky",
+        "es": "Lickilicky",
+        "fr": "Coudlangue",
+        "it": "Lickilicky",
+        "ja": "ベロベルト",
+        "ko": "내룸벨트",
+        "ja-Hrkt": "ベロベルト",
+        "zh-Hans": "大舌舔",
+        "zh-Hant": "大舌舔"
+      },
+      "description": {
+        "fun": "Lickilicky's tongue can stretch more than 25 metres, and it's more skilful with it than with its own clumsy fingers. It has a huge appetite and will lick anything or anyone nearby for leftover crumbs. When it's done, it rolls up its tongue and stores it in its throat, along with its supply of numbing, sticky saliva.",
+        "guide": "The evolution of Lickitung, introduced in Generation 4, a round, pink Normal Pokémon with an extremely long, dexterous tongue. It has a big appetite and coats things in sticky, numbing saliva. Lickitung evolves into it when levelled up knowing Rollout.",
+        "tagline": "A round glutton with a 25-metre tongue",
+        "sources": [
+          {
+            "title": "Bulbapedia: Lickilicky (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Lickilicky_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "463",
+          "name": "Lickilicky",
+          "generation": 4,
+          "types": [
+            "normal"
+          ],
+          "pictures": {
+            "official": "dc5d6023c3ff9615b2c5d1c6b2b2b24c",
+            "home": "a13e3d73f23db45b5209e02d2f09865f"
+          }
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 108,
+        "form": "108"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 463,
+        "form": "463"
+      },
+      "change": "evolves",
+      "how": "Level up, knowing Rollout"
+    }
+  ]
+}

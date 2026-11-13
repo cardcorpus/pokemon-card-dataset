@@ -1,0 +1,164 @@
+{
+  "id": "krabby",
+  "species": [
+    {
+      "dex": 98,
+      "name": "Krabby",
+      "generation": 1,
+      "category": "River Crab Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "krabby"
+      },
+      "names": {
+        "de": "Krabby",
+        "en": "Krabby",
+        "es": "Krabby",
+        "fr": "Krabby",
+        "it": "Krabby",
+        "ja": "クラブ",
+        "ko": "크랩",
+        "ja-Hrkt": "クラブ",
+        "zh-Hans": "大钳蟹",
+        "zh-Hant": "大鉗蟹"
+      },
+      "description": {
+        "fun": "Krabby's big pincers are its weapons and help it keep its balance, and if it loses one in a fight, a new one grows back in no time. It burrows into the sand on beaches, and when food is scarce it even eats sand. To scare off attackers, it blows foam around itself to look bigger than it is. Its name plays on 'crabby', meaning grumpy.",
+        "guide": "A small, red and tan crab-like Water Pokémon with two large pincers that regrow if lost. It lives on beaches, burrowing in the sand, and blows foam to make itself look bigger. It evolves into Kingler.",
+        "tagline": "A small, grumpy crab that grows back its claws",
+        "sources": [
+          {
+            "title": "Bulbapedia: Krabby (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Krabby_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "98",
+          "name": "Krabby",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "8b343e33ce28587b53102382e5923908",
+            "home": "468e27cc2c2a7315d3b15ec26612eb51"
+          },
+          "evolvesInto": [
+            {
+              "$kind": "form",
+              "species": 99,
+              "form": "99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dex": 99,
+      "name": "Kingler",
+      "generation": 1,
+      "category": "Pincer Pokémon",
+      "family": {
+        "$kind": "pokemon-family",
+        "family": "krabby"
+      },
+      "names": {
+        "de": "Kingler",
+        "en": "Kingler",
+        "es": "Kingler",
+        "fr": "Krabboss",
+        "it": "Kingler",
+        "ja": "キングラー",
+        "ko": "킹크랩",
+        "ja-Hrkt": "キングラー",
+        "zh-Hans": "巨钳蟹",
+        "zh-Hant": "巨鉗蟹"
+      },
+      "description": {
+        "fun": "Kingler's huge left claw is as hard as steel and is said to pack 10,000 horsepower, enough to pry open Shellder and Cloyster, though horsepower actually measures power, not crushing force. The catch: the claw is so heavy Kingler can barely lift it, and it throws off its balance and soon wears it out. Kingler talk to each other by waving their pincers.",
+        "guide": "The evolution of Krabby, a large, crab-like Water Pokémon with a crown of spikes and an enormous left claw as hard as steel. The claw is powerful but so heavy that Kingler tires quickly. It has a Gigantamax form.",
+        "tagline": "One giant claw, almost too heavy to lift",
+        "sources": [
+          {
+            "title": "Bulbapedia: Kingler (Pokémon)",
+            "url": "https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)"
+          }
+        ]
+      },
+      "forms": [
+        {
+          "id": "99",
+          "name": "Kingler",
+          "generation": 1,
+          "types": [
+            "water"
+          ],
+          "pictures": {
+            "official": "0be562dbe1aabd03a019005abe5c05c2",
+            "home": "999381a0038fde52c600751923c564c5"
+          }
+        },
+        {
+          "id": "99:gmax",
+          "name": "Gigantamax Kingler",
+          "category": "gigantamax",
+          "generation": 8,
+          "types": [
+            "water"
+          ],
+          "battleOnly": true,
+          "names": {
+            "de": "Gigadynamax-Kingler",
+            "en": "Gigantamax Kingler",
+            "fr": "Krabboss Gigamax"
+          },
+          "pictures": {
+            "official": "72f3f3453516992b464633bc402c7231",
+            "home": "89494b0980a9df7615ea8609e7c9bd0f"
+          },
+          "description": {
+            "fun": "Its left pincer grows big enough to destroy anything it hits, and it foams a beard of strongly alkaline bubbles that melt away any foe they touch.",
+            "sources": [
+              {
+                "title": "Bulbapedia: Kingler (Pokémon)",
+                "url": "https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)"
+              }
+            ]
+          },
+          "term": "gigantamax"
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": {
+        "$kind": "form",
+        "species": 98,
+        "form": "98"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 99,
+        "form": "99"
+      },
+      "change": "evolves",
+      "how": "Level 28"
+    },
+    {
+      "from": {
+        "$kind": "form",
+        "species": 99,
+        "form": "99"
+      },
+      "to": {
+        "$kind": "form",
+        "species": 99,
+        "form": "99:gmax"
+      },
+      "change": "gigantamax"
+    }
+  ]
+}
