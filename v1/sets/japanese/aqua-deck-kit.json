@@ -2,68 +2,33 @@
   "id": "japanese/aqua-deck-kit",
   "catalog": "japanese",
   "name": "Aqua Deck Kit",
+  "englishName": "Aqua Deck Kit",
   "era": {
     "$kind": "era",
-    "era": "japanese/advanced-generation",
+    "id": "japanese/advanced-generation",
     "name": "Advanced Generation"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/deck-kit-2003",
+    "id": "japanese/deck-kit-2003",
     "name": "Deck Kit",
     "part": "Aqua"
   },
   "printedTotal": 33,
   "actualTotal": 34,
   "cardCount": 34,
-  "productCount": 0,
   "released": {
     "date": "2003-10-24"
   },
   "logo": "f3e6a04cfe6e65bc4cd45e7a606f872a",
   "symbol": "9e3c78ada1458c101aad248627ab1881",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Aqua Deck Kit",
-      "released": {
-        "date": "2003-10-24"
-      },
-      "logo": "f3e6a04cfe6e65bc4cd45e7a606f872a",
-      "symbol": "9e3c78ada1458c101aad248627ab1881"
-    }
-  ],
   "description": {
-    "text": "Team Aqua Half Deck W, released on 24 October 2003: two ready-built 30-card half decks of Team Aqua's Pokémon from Pokémon Ruby and Sapphire, to play against each other or to combine into one 60-card deck, with a coin and a rule book. Team Aqua's Kyogre is among them. It came out the same day as the expansion Magma vs Aqua Two Ambitions, whose cards were made to strengthen this kit and its Team Magma counterpart.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みデッキ「アクア団　ハーフデッキW」",
-        "url": "https://web.archive.org/web/20090310000557/http://www.pokemon-card.com/products/adv/adv_11.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 強化拡張パックex1「マグマVSアクア　ふたつの野望」",
-        "url": "https://web.archive.org/web/20090227020354/http://www.pokemon-card.com/products/adv/adv_12.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Team Aqua Half Deck W, released on 24 October 2003: two ready-built 30-card half decks of Team Aqua's Pokémon from Pokémon Ruby and Sapphire, to play against each other or to combine into one 60-card deck, with a coin and a rule book. Team Aqua's Kyogre is among them. It came out the same day as the expansion Magma vs Aqua Two Ambitions, whose cards were made to strengthen this kit and its Team Magma counterpart."
   },
   "tell": {
-    "text": "A lowercase \"a\" symbol at the bottom right, and a number out of 033",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みデッキ「アクア団　ハーフデッキW」",
-        "url": "https://web.archive.org/web/20090310000557/http://www.pokemon-card.com/products/adv/adv_11.html"
-      }
-    ]
+    "text": "A lowercase \"a\" symbol at the bottom right, and a number out of 033"
   },
   "printRuns": [
     {
@@ -76,19 +41,43 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-team-magma-vs-team-aqua",
+      "id": "french/ex-team-magma-vs-team-aqua",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 29
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-team-magma-vs-team-aqua",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-team-magma-vs-team-aqua",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-team-magma-vs-team-aqua",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 25
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "001",
-      "name": "Team Aqua's Carvanha",
+      "name": "アクア団のキバニア",
+      "englishName": "Team Aqua's Carvanha",
       "number": {
         "printed": "001/033",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -96,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yosuke-da-silva",
+          "id": "yosuke-da-silva",
           "name": "Yosuke Da Silva"
         }
       ],
@@ -107,23 +96,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 318,
+          "id": 318,
           "name": "Carvanha"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 318,
-          "form": "318",
-          "name": "Carvanha",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -133,7 +115,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -151,8 +133,7 @@
             "front": {
               "image": "bd3b834cc2df0815bacbea43b3e7b234"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -172,65 +153,35 @@
             "front": {
               "image": "ec180ad59571d6b724a745e8c2260d05"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "47",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-carvanha-6pqq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "002",
-      "name": "Team Aqua's Carvanha",
+      "name": "アクア団のキバニア",
+      "englishName": "Team Aqua's Carvanha",
       "number": {
         "printed": "002/033",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -238,7 +189,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -249,23 +200,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 318,
+          "id": 318,
           "name": "Carvanha"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 318,
-          "form": "318",
-          "name": "Carvanha",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -275,7 +219,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -293,8 +237,7 @@
             "front": {
               "image": "f65f5349b638c41f2076a9c25475c24c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -314,65 +257,35 @@
             "front": {
               "image": "acdf526059794b2e1b2b5f05391dce48"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "48",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-carvanha-hmr8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "003",
-      "name": "Team Aqua's Sharpedo",
+      "name": "アクア団のサメハダー",
+      "englishName": "Team Aqua's Sharpedo",
       "number": {
         "printed": "003/033",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -380,7 +293,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "katsura-tabata",
+          "id": "katsura-tabata",
           "name": "Katsura Tabata"
         }
       ],
@@ -391,23 +304,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 319,
+          "id": 319,
           "name": "Sharpedo"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 319,
-          "form": "319",
-          "name": "Sharpedo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -417,7 +323,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -435,8 +341,7 @@
             "front": {
               "image": "e1f5eb67eeda794401c2492102cfabba"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -456,65 +361,35 @@
             "front": {
               "image": "a3126d7b2a149878b085f14d67bf3711"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-sharpedo-fozb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "004",
-      "name": "Team Aqua's Corphish",
+      "name": "アクア団のヘイガニ",
+      "englishName": "Team Aqua's Corphish",
       "number": {
         "printed": "004/033",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -522,7 +397,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "jungo-suzuki",
+          "id": "jungo-suzuki",
           "name": "Jungo Suzuki"
         }
       ],
@@ -533,23 +408,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 341,
+          "id": 341,
           "name": "Corphish"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 341,
-          "form": "341",
-          "name": "Corphish",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -559,7 +427,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -577,8 +445,7 @@
             "front": {
               "image": "3982660f3810e0c1e514e69e7a508d2b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -598,65 +465,35 @@
             "front": {
               "image": "a054c59f691538e899b38b3830deb35c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "50",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-corphish-cpgf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "005",
-      "name": "Team Aqua's Corphish",
+      "name": "アクア団のヘイガニ",
+      "englishName": "Team Aqua's Corphish",
       "number": {
         "printed": "005/033",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -664,7 +501,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "jungo-suzuki",
+          "id": "jungo-suzuki",
           "name": "Jungo Suzuki"
         }
       ],
@@ -675,23 +512,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 341,
+          "id": 341,
           "name": "Corphish"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 341,
-          "form": "341",
-          "name": "Corphish",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -701,7 +531,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -719,8 +549,7 @@
             "front": {
               "image": "735835c06fe4945dd855b0fac2d3ba65"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -740,65 +569,35 @@
             "front": {
               "image": "4d5748e15e0e7a5b2e9484c3aa988fdf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "51",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-corphish-5sec" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "006",
-      "name": "Team Aqua's Crawdaunt",
+      "name": "アクア団のシザリガー",
+      "englishName": "Team Aqua's Crawdaunt",
       "number": {
         "printed": "006/033",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -806,7 +605,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nakaoka",
+          "id": "nakaoka",
           "name": "Nakaoka"
         }
       ],
@@ -817,23 +616,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 342,
+          "id": 342,
           "name": "Crawdaunt"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 342,
-          "form": "342",
-          "name": "Crawdaunt",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -843,7 +635,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -861,8 +653,7 @@
             "front": {
               "image": "118f97f7bed904d7de386856e8bb2882"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -882,65 +673,35 @@
             "front": {
               "image": "6a05e803401ab0aa42dd91ef2c1588c4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "006",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-crawdaunt-pgiq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "007",
-      "name": "Team Aqua's Spheal",
+      "name": "アクア団のタマザラシ",
+      "englishName": "Team Aqua's Spheal",
       "number": {
         "printed": "007/033",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -948,7 +709,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nakaoka",
+          "id": "nakaoka",
           "name": "Nakaoka"
         }
       ],
@@ -959,23 +720,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 363,
+          "id": 363,
           "name": "Spheal"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 363,
-          "form": "363",
-          "name": "Spheal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -985,7 +739,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1003,8 +757,7 @@
             "front": {
               "image": "ab4c38717c6515fc1557a5400ccd530e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1024,65 +777,35 @@
             "front": {
               "image": "ae4abda2b7d6e2f34f5693596cdd3090"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "56",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-spheal-gnah" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "008",
-      "name": "Team Aqua's Spheal",
+      "name": "アクア団のタマザラシ",
+      "englishName": "Team Aqua's Spheal",
       "number": {
         "printed": "008/033",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1090,7 +813,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nakaoka",
+          "id": "nakaoka",
           "name": "Nakaoka"
         }
       ],
@@ -1101,23 +824,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 363,
+          "id": 363,
           "name": "Spheal"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 363,
-          "form": "363",
-          "name": "Spheal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1127,7 +843,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1145,8 +861,7 @@
             "front": {
               "image": "2fea4a56619b9a6bb5e495dfa4836416"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1166,65 +881,35 @@
             "front": {
               "image": "8eeda9f00852f499c22a8a8e8bf36165"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "57",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-spheal-mjfu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "009",
-      "name": "Team Aqua's Sealeo",
+      "name": "アクア団のトドグラー",
+      "englishName": "Team Aqua's Sealeo",
       "number": {
         "printed": "009/033",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1232,7 +917,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "t-honda",
+          "id": "t-honda",
           "name": "T. Honda"
         }
       ],
@@ -1243,23 +928,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 364,
+          "id": 364,
           "name": "Sealeo"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 364,
-          "form": "364",
-          "name": "Sealeo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1269,7 +947,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1287,8 +965,7 @@
             "front": {
               "image": "34385f80423dc5cbe98c75d125724063"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1308,65 +985,35 @@
             "front": {
               "image": "ae08a13466fdba27bcaf37fffbbe0944"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "009"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-sealeo-k0mo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "010",
-      "name": "Team Aqua's Sealeo",
+      "name": "アクア団のトドグラー",
+      "englishName": "Team Aqua's Sealeo",
       "number": {
         "printed": "010/033",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1374,7 +1021,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "t-honda",
+          "id": "t-honda",
           "name": "T. Honda"
         }
       ],
@@ -1385,23 +1032,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 364,
+          "id": 364,
           "name": "Sealeo"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 364,
-          "form": "364",
-          "name": "Sealeo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1411,7 +1051,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1429,8 +1069,7 @@
             "front": {
               "image": "d62bd00cc574f8ff8557c08cc95f3fbe"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1450,65 +1089,35 @@
             "front": {
               "image": "c40153eca6817fb669440c0fabb332e7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "31",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "010"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-sealeo-eu1s" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "011",
-      "name": "Team Aqua's Walrein",
+      "name": "アクア団のトドゼルガ",
+      "englishName": "Team Aqua's Walrein",
       "number": {
         "printed": "011/033",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1516,7 +1125,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-ikuji",
+          "id": "ken-ikuji",
           "name": "Ken Ikuji"
         }
       ],
@@ -1527,29 +1136,20 @@
       "species": [
         {
           "$kind": "species",
-          "species": 365,
+          "id": 365,
           "name": "Walrein"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 365,
-          "form": "365",
-          "name": "Walrein",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "differs": {
-          "finish": "non_holo"
-        }
+      "differsInSet": {
+        "finish": "non_holo"
       },
       "picture": {
         "front": {
@@ -1558,7 +1158,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1576,8 +1176,7 @@
             "front": {
               "image": "575bc8fbe62c764add5bbb6e062f7127"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1597,72 +1196,35 @@
             "front": {
               "image": "80227b805c08010ec5b120dac029cbe1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "6",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "011"
-        },
-        "parallels": [
-          {
-            "$kind": "card",
-            "set": "japanese/aqua-deck-kit",
-            "card": "012"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-walrein-c9af" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "012",
-      "name": "Team Aqua's Walrein",
+      "name": "アクア団のトドゼルガ",
+      "englishName": "Team Aqua's Walrein",
       "number": {
         "printed": "012/033",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1670,7 +1232,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-ikuji",
+          "id": "ken-ikuji",
           "name": "Ken Ikuji"
         }
       ],
@@ -1681,29 +1243,20 @@
       "species": [
         {
           "$kind": "species",
-          "species": 365,
+          "id": 365,
           "name": "Walrein"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 365,
-          "form": "365",
-          "name": "Walrein",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "differs": {
-          "finish": "holo"
-        }
+      "differsInSet": {
+        "finish": "holo"
       },
       "picture": {
         "front": {
@@ -1712,7 +1265,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1730,8 +1283,7 @@
             "front": {
               "image": "86721ad0cccfb250762c0e5496036491"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -1751,86 +1303,43 @@
             "front": {
               "image": "fe573b8ee91aa1a2bf1704ac3e6fec45"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "012",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "012",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "6",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "reprint",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/aqua-deck-kit",
-                "card": "011"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "011"
-        },
-        "parallels": [
-          {
-            "$kind": "card",
-            "set": "japanese/aqua-deck-kit",
-            "card": "011"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-walrein-c9af" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "013",
-      "name": "Team Aqua's Kyogre",
+      "name": "アクア団のカイオーガ",
+      "englishName": "Team Aqua's Kyogre",
       "number": {
         "printed": "013/033",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
-      "credit": "K. Hoshiba",
+      "credit": "K Hoshiba",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "k-hoshiba",
+          "id": "k-hoshiba",
           "name": "K. Hoshiba"
         }
       ],
@@ -1841,23 +1350,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 382,
+          "id": 382,
           "name": "Kyogre"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 382,
-          "form": "382",
-          "name": "Kyogre",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1867,7 +1369,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1885,8 +1387,7 @@
             "front": {
               "image": "3dfe3fac02462958b97792dfe767997d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -1906,65 +1407,35 @@
             "front": {
               "image": "87919ad8b3b33d9e8695b5d616f8169a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "013",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "013",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "3",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "013"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-kyogre-8nja" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "014",
-      "name": "Raikou ex",
+      "name": "ライコウex",
+      "englishName": "Raikou ex",
       "number": {
         "printed": "014/033",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1972,7 +1443,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1983,17 +1454,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 243,
+          "id": 243,
           "name": "Raikou"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 243,
-          "form": "243",
-          "name": "Raikou",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2003,7 +1465,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2021,8 +1483,7 @@
             "front": {
               "image": "b23271d63c5316b96ad5dd90ab076d7a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2042,65 +1503,35 @@
             "front": {
               "image": "b7f023ea6ed1908960bd9a8fd794767b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "92",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "014"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "raikou-ex-m5d1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "015",
-      "name": "Team Aqua's Chinchou",
+      "name": "アクア団のチョンチー",
+      "englishName": "Team Aqua's Chinchou",
       "number": {
         "printed": "015/033",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2108,7 +1539,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kazuo-yazawa",
+          "id": "kazuo-yazawa",
           "name": "Kazuo Yazawa"
         }
       ],
@@ -2119,23 +1550,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 170,
+          "id": 170,
           "name": "Chinchou"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 170,
-          "form": "170",
-          "name": "Chinchou",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2145,7 +1569,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2163,8 +1587,7 @@
             "front": {
               "image": "a62dc67f3f4aba82047eec9ebfcd15f8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2184,65 +1607,35 @@
             "front": {
               "image": "0a3a2b11ccbf06a144069596f516049f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "49",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "015"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-chinchou-snh9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "016",
-      "name": "Team Aqua's Lanturn",
+      "name": "アクア団のランターン",
+      "englishName": "Team Aqua's Lanturn",
       "number": {
         "printed": "016/033",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2250,7 +1643,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "jungo-suzuki",
+          "id": "jungo-suzuki",
           "name": "Jungo Suzuki"
         }
       ],
@@ -2261,23 +1654,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 171,
+          "id": 171,
           "name": "Lanturn"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 171,
-          "form": "171",
-          "name": "Lanturn",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2287,7 +1673,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2305,8 +1691,7 @@
             "front": {
               "image": "461a3467ffde0dba49dd4a78b6496506"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2326,65 +1711,35 @@
             "front": {
               "image": "b78c54b4c60d3daa2a52406b3197e90d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "016",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "28",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "016"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-lanturn-hv5d" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "017",
-      "name": "Team Aqua's Electrike",
+      "name": "アクア団のラクライ",
+      "englishName": "Team Aqua's Electrike",
       "number": {
         "printed": "017/033",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2392,7 +1747,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "m-akiyama",
+          "id": "m-akiyama",
           "name": "M. Akiyama"
         }
       ],
@@ -2403,23 +1758,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 309,
+          "id": 309,
           "name": "Electrike"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 309,
-          "form": "309",
-          "name": "Electrike",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2429,7 +1777,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2447,8 +1795,7 @@
             "front": {
               "image": "26d3ed243962e9260cf08e78c918e314"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2468,65 +1815,35 @@
             "front": {
               "image": "ee679240063722303831bf2da9931810"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "017",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "017",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "53",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "017"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-electrike-ntqr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "018",
-      "name": "Team Aqua's Electrike",
+      "name": "アクア団のラクライ",
+      "englishName": "Team Aqua's Electrike",
       "number": {
         "printed": "018/033",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2534,7 +1851,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "m-akiyama",
+          "id": "m-akiyama",
           "name": "M. Akiyama"
         }
       ],
@@ -2545,23 +1862,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 309,
+          "id": 309,
           "name": "Electrike"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 309,
-          "form": "309",
-          "name": "Electrike",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2571,7 +1881,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2589,8 +1899,7 @@
             "front": {
               "image": "45f5d98782dcac807d389b47553515b3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2610,65 +1919,35 @@
             "front": {
               "image": "3243c5c3897bcd248d72481b6d2f3429"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "018",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "018"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-electrike-61rt" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "019",
-      "name": "Team Aqua's Manectric",
+      "name": "アクア団のライボルト",
+      "englishName": "Team Aqua's Manectric",
       "number": {
         "printed": "019/033",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2676,7 +1955,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "k-utsunomiya",
+          "id": "k-utsunomiya",
           "name": "K. Utsunomiya"
         }
       ],
@@ -2687,23 +1966,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 310,
+          "id": 310,
           "name": "Manectric"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 310,
-          "form": "310",
-          "name": "Manectric",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2713,7 +1985,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "019",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2731,8 +2003,7 @@
             "front": {
               "image": "d591e89df261a89e23b69e48dd4bde20"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2752,65 +2023,35 @@
             "front": {
               "image": "5d1603e4dafb01c5974ef8e2bbb0c2ca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "019",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "019"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-manectric-tlda" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "020",
-      "name": "Team Aqua's Poochyena",
+      "name": "アクア団のポチエナ",
+      "englishName": "Team Aqua's Poochyena",
       "number": {
         "printed": "020/033",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2818,7 +2059,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -2829,23 +2070,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 261,
+          "id": 261,
           "name": "Poochyena"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 261,
-          "form": "261",
-          "name": "Poochyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2855,7 +2089,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "020",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2873,8 +2107,7 @@
             "front": {
               "image": "090f50380b760b99779ea0090ddbb046"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2894,65 +2127,35 @@
             "front": {
               "image": "b9e095a4a18b2858dfccacf680bd5f7f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "020",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "020",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "54",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "020"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-poochyena-4y2a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "021",
-      "name": "Team Aqua's Poochyena",
+      "name": "アクア団のポチエナ",
+      "englishName": "Team Aqua's Poochyena",
       "number": {
         "printed": "021/033",
-        "numerator": "021"
+        "short": "021"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2960,7 +2163,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -2971,23 +2174,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 261,
+          "id": 261,
           "name": "Poochyena"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 261,
-          "form": "261",
-          "name": "Poochyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2997,7 +2193,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "021",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3015,8 +2211,7 @@
             "front": {
               "image": "e3394e228842122c658f5cf46ed5f3b1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3036,65 +2231,35 @@
             "front": {
               "image": "580238d6c7c40219e7eb7290f23ea736"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "021",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "021",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "55",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "021"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-poochyena-ispi" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "022",
-      "name": "Team Aqua's Mightyena",
+      "name": "アクア団のグラエナ",
+      "englishName": "Team Aqua's Mightyena",
       "number": {
         "printed": "022/033",
-        "numerator": "022"
+        "short": "022"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3102,7 +2267,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -3113,23 +2278,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 262,
+          "id": 262,
           "name": "Mightyena"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 262,
-          "form": "262",
-          "name": "Mightyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3139,7 +2297,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "022",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3157,8 +2315,7 @@
             "front": {
               "image": "a9a00940a8af9d39319987880edba444"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3178,65 +2335,35 @@
             "front": {
               "image": "943db80d76fc72689965c51563b754a3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "022",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "022",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "022"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-mightyena-dvt1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "023",
-      "name": "Team Aqua's Mightyena",
+      "name": "アクア団のグラエナ",
+      "englishName": "Team Aqua's Mightyena",
       "number": {
         "printed": "023/033",
-        "numerator": "023"
+        "short": "023"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3244,7 +2371,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -3255,23 +2382,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 262,
+          "id": 262,
           "name": "Mightyena"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 262,
-          "form": "262",
-          "name": "Mightyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3281,7 +2401,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "023",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3299,8 +2419,7 @@
             "front": {
               "image": "4b36d079efe5a4ae2126425d6f91bc2e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3320,65 +2439,35 @@
             "front": {
               "image": "5291d0f506a36b4a7efd5193d5186970"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "023",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "023",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "023"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-s-mightyena-ve07" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "024",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "024/033",
-        "numerator": "024"
+        "short": "024"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3386,7 +2475,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -3401,7 +2490,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "024",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3419,8 +2508,7 @@
             "front": {
               "image": "d75bf2342ed86282308fa21edcff0138"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3440,80 +2528,35 @@
             "front": {
               "image": "662ef4b6359576235aa18a09068f6357"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "024",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "024",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/expedition-base-set",
-              "card": "156",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-e-starter-deck",
-                "card": "025"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "025"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "025",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-8utl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "025",
-      "name": "Double Full Heal",
+      "name": "なんでもなおしW",
+      "englishName": "Double Full Heal",
       "number": {
         "printed": "025/033",
-        "numerator": "025"
+        "short": "025"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3521,7 +2564,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -3536,7 +2579,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "025",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3554,8 +2597,7 @@
             "front": {
               "image": "6916ae54a41aa7a8d1d82c898b42b56f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3575,80 +2617,35 @@
             "front": {
               "image": "45583d6e35433019023efd50385e4368"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "025",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "025",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "86",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miracle-of-the-desert",
-                "card": "049"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miracle-of-the-desert",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "double-full-heal-14y2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "026",
-      "name": "Team Aqua Ball",
+      "name": "アクア団のモンスターボール",
+      "englishName": "Team Aqua Ball",
       "number": {
         "printed": "026/033",
-        "numerator": "026"
+        "short": "026"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3656,7 +2653,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -3664,10 +2661,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00025"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "subject"
         }
@@ -3679,7 +2676,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "026",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3697,8 +2694,7 @@
             "front": {
               "image": "11515cc13b58ec2dd700c20bff1c330d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3718,65 +2714,35 @@
             "front": {
               "image": "f5882315263302578f1d5bb952923900"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "026",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "026",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "75",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "026"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-ball-3abc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "027",
-      "name": "Team Aqua Schemer",
+      "name": "アクア団の男",
+      "englishName": "Team Aqua Schemer",
       "number": {
         "printed": "027/033",
-        "numerator": "027"
+        "short": "027"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3784,7 +2750,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -3792,10 +2758,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00026"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "subject"
         }
@@ -3807,7 +2773,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "027",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3825,8 +2791,7 @@
             "front": {
               "image": "2fe9cd3ad826f4291cac15f12b72229d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3846,74 +2811,35 @@
             "front": {
               "image": "dad04edfa94d6f309cb39e9157b44d3d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "027",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "027",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "69",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "painting": "073"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "card": "073",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-schemer-006n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "028",
-      "name": "Team Aqua Conspirator",
+      "name": "アクア団の女",
+      "englishName": "Team Aqua Conspirator",
       "number": {
         "printed": "028/033",
-        "numerator": "028"
+        "short": "028"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3921,7 +2847,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -3929,10 +2855,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00027"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "subject"
         }
@@ -3944,7 +2870,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "028",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3962,8 +2888,7 @@
             "front": {
               "image": "fb267642c07db5f165c06fc842fc3224"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3983,65 +2908,35 @@
             "front": {
               "image": "2fdbd02d17bfebaba509e5321f61366c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "028",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "028",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "77",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "028"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-conspirator-12s0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "029",
-      "name": "Archie",
+      "name": "アオギリ",
+      "englishName": "Archie",
       "number": {
         "printed": "029/033",
-        "numerator": "029"
+        "short": "029"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4049,7 +2944,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -4057,10 +2952,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00028"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "archie",
+          "id": "archie",
           "name": "Archie",
           "role": "subject"
         }
@@ -4072,7 +2967,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "029",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4090,8 +2985,7 @@
             "front": {
               "image": "d9584b47f003f1e60fbee8643f9581e7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4111,74 +3005,35 @@
             "front": {
               "image": "42958448713dd9bc9056f4cc59367f2b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "029",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "029",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "71",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "painting": "075"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "card": "075",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "archie-qzlo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "030",
-      "name": "Team Aqua Belt",
+      "name": "アクア団のパルサー",
+      "englishName": "Team Aqua Belt",
       "number": {
         "printed": "030/033",
-        "numerator": "030"
+        "short": "030"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4186,7 +3041,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -4194,10 +3049,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00029"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "subject"
         }
@@ -4209,7 +3064,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "030",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4227,8 +3082,7 @@
             "front": {
               "image": "2b5e150db0804a6a351c453cdc0ed487"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4248,74 +3102,35 @@
             "front": {
               "image": "08d0d57923fca01a38e4075801f4459a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "030",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "030",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "76",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "painting": "071"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "card": "071",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-belt-cvx9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "031",
-      "name": "Team Aqua Technical Machine 01",
+      "name": "アクア団のワザマシン01",
+      "englishName": "Team Aqua Technical Machine 01",
       "number": {
         "printed": "031/033",
-        "numerator": "031"
+        "short": "031"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4323,7 +3138,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -4331,10 +3146,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00030"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "subject"
         }
@@ -4346,7 +3161,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "031",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4364,8 +3179,7 @@
             "front": {
               "image": "b804c9210b37d893f7f625cdcd6cf284"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4385,74 +3199,35 @@
             "front": {
               "image": "164c343a9e681cdbb7aeaf6eeb92c1f4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "031",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "031",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "79",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "painting": "077"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magma-vs-aqua-two-ambitions",
-          "card": "077",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-technical-machine-01-qa06" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "032",
-      "name": "Team Aqua Hideout",
+      "name": "アクア団のアジト",
+      "englishName": "Team Aqua Hideout",
       "number": {
         "printed": "032/033",
-        "numerator": "032"
+        "short": "032"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4460,7 +3235,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -4468,10 +3243,10 @@
         "date": "2003-10-24",
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00031"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-aqua",
+          "id": "team-aqua",
           "name": "Team Aqua",
           "role": "subject"
         }
@@ -4483,7 +3258,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "032",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4501,8 +3276,7 @@
             "front": {
               "image": "957aa3a66a9dc1d367310cdd19aaec48"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4522,65 +3296,35 @@
             "front": {
               "image": "81c71c7541772227266431bee2854d7b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "032",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "032",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-magma-vs-team-aqua",
-              "card": "78",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/aqua-deck-kit",
-          "painting": "032"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "team-aqua-hideout-u5nn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "033",
-      "name": "Aqua Energy",
+      "name": "アクアエネルギー",
+      "englishName": "Aqua Energy",
       "number": {
         "printed": "033/033",
-        "numerator": "033"
+        "short": "033"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4588,7 +3332,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -4603,7 +3347,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "033",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4621,8 +3365,7 @@
             "front": {
               "image": "6b810ecc37f43505b6a72676f9d6543f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4642,50 +3385,38 @@
             "front": {
               "image": "7c25006f5c80f40c310a96655f038173"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "033",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/aqua-deck-kit",
           "card": "033",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/aqua-deck-kit",
       "id": "darkness-energy",
-      "name": "Darkness Energy",
+      "name": "悪エネルギー",
+      "englishName": "Darkness Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Milky Isobe",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -4694,13 +3425,7 @@
         "sort": "2003-10-24.00 japanese/aqua-deck-kit 00033"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -4709,7 +3434,7 @@
             "$kind": "variant",
             "set": "japanese/aqua-deck-kit",
             "card": "darkness-energy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -4723,54 +3448,12 @@
             "front": {
               "image": "23bbdb81b46152d7a7cf9868b4c2e544"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "darkness-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/ex-ruby-sapphire",
-          "painting": "93"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "darkness-energy",
-          "differs": []
-        }
-      }
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "darkness-energy-3gij" }
     }
-  ]
+  ],
+  "printedCode": null
 }

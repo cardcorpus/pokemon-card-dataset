@@ -10,7 +10,7 @@
   ],
   "properties": {
     "id": {
-      "description": "The evolution family's id (pokemon-families/{family}.json).",
+      "description": "The evolution family's id (pokemon-families/{id}.json).",
       "type": "string"
     },
     "species": {
@@ -63,15 +63,15 @@
             },
             "required": [
               "$kind",
-              "family"
+              "id"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `pokemon-family`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `pokemon-family`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "const": "pokemon-family"
               },
-              "family": {
-                "description": "The evolution family's id (pokemon-families/{family}.json).",
+              "id": {
+                "description": "The evolution family's id (pokemon-families/{id}.json).",
                 "type": "string"
               }
             }
@@ -85,7 +85,7 @@
             }
           },
           "description": {
-            "description": "What we wrote about the species, in three voices, and the pages it draws on.",
+            "description": "What we wrote about the species, in three voices.",
             "type": "object",
             "required": [
               "fun"
@@ -102,28 +102,6 @@
               "tagline": {
                 "description": "One line, for lists and tooltips.",
                 "type": "string"
-              },
-              "sources": {
-                "description": "The pages this draws on, each with its title.",
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "required": [
-                    "title",
-                    "url"
-                  ],
-                  "properties": {
-                    "title": {
-                      "description": "The page's title.",
-                      "type": "string"
-                    },
-                    "url": {
-                      "description": "The page's url.",
-                      "type": "string",
-                      "format": "uri"
-                    }
-                  }
-                }
               }
             }
           },
@@ -137,28 +115,6 @@
               "text": {
                 "description": "The note.",
                 "type": "string"
-              },
-              "sources": {
-                "description": "The pages this draws on, each with its title.",
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "required": [
-                    "title",
-                    "url"
-                  ],
-                  "properties": {
-                    "title": {
-                      "description": "The page's title.",
-                      "type": "string"
-                    },
-                    "url": {
-                      "description": "The page's url.",
-                      "type": "string",
-                      "format": "uri"
-                    }
-                  }
-                }
               }
             }
           },
@@ -232,19 +188,11 @@
                   }
                 },
                 "pictures": {
-                  "description": "Its pictures by style, each a picture id: `official` artwork and `home` renders.",
+                  "description": "Its picture, a picture id: the official `artwork`.",
                   "type": "object",
                   "properties": {
-                    "official": {
+                    "artwork": {
                       "description": "Its official artwork.",
-                      "type": "string",
-                      "pattern": "^[0-9a-f]{32}$",
-                      "x-cc": {
-                        "picture": true
-                      }
-                    },
-                    "home": {
-                      "description": "Its HOME render.",
                       "type": "string",
                       "pattern": "^[0-9a-f]{32}$",
                       "x-cc": {
@@ -252,17 +200,10 @@
                       }
                     }
                   },
-                  "additionalProperties": {
-                    "description": "A picture in another style.",
-                    "type": "string",
-                    "pattern": "^[0-9a-f]{32}$",
-                    "x-cc": {
-                      "picture": true
-                    }
-                  }
+                  "additionalProperties": false
                 },
                 "description": {
-                  "description": "What we wrote about the form, in three voices, and the pages it draws on.",
+                  "description": "What we wrote about the form, in three voices.",
                   "type": "object",
                   "required": [
                     "fun"
@@ -279,34 +220,8 @@
                     "tagline": {
                       "description": "One line, for lists and tooltips.",
                       "type": "string"
-                    },
-                    "sources": {
-                      "description": "The pages this draws on, each with its title.",
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "required": [
-                          "title",
-                          "url"
-                        ],
-                        "properties": {
-                          "title": {
-                            "description": "The page's title.",
-                            "type": "string"
-                          },
-                          "url": {
-                            "description": "The page's url.",
-                            "type": "string",
-                            "format": "uri"
-                          }
-                        }
-                      }
                     }
                   }
-                },
-                "term": {
-                  "description": "The term in pokemon.json's glossary that explains a form other than the default, where one does (family files only).",
-                  "type": "string"
                 },
                 "evolvesInto": {
                   "description": "Every form it evolves into, at any remove (family files only).",
@@ -320,11 +235,11 @@
                     "required": [
                       "$kind",
                       "species",
-                      "form"
+                      "id"
                     ],
                     "properties": {
                       "$kind": {
-                        "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                         "const": "form"
                       },
                       "species": {
@@ -332,7 +247,7 @@
                         "type": "integer",
                         "minimum": 1
                       },
-                      "form": {
+                      "id": {
                         "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
                         "type": "string"
                       }
@@ -365,11 +280,11 @@
             "required": [
               "$kind",
               "species",
-              "form"
+              "id"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "const": "form"
               },
               "species": {
@@ -377,7 +292,7 @@
                 "type": "integer",
                 "minimum": 1
               },
-              "form": {
+              "id": {
                 "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
                 "type": "string"
               }
@@ -392,11 +307,11 @@
             "required": [
               "$kind",
               "species",
-              "form"
+              "id"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `form`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "const": "form"
               },
               "species": {
@@ -404,7 +319,7 @@
                 "type": "integer",
                 "minimum": 1
               },
-              "form": {
+              "id": {
                 "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\").",
                 "type": "string"
               }
@@ -449,30 +364,8 @@
                 "type": "string"
               },
               "term": {
-                "description": "The glossary term it leans on.",
+                "description": "What the note is about: `baby`, `regional_rule` or `regional_evolution`.",
                 "type": "string"
-              },
-              "sources": {
-                "description": "The pages this draws on, each with its title.",
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "required": [
-                    "title",
-                    "url"
-                  ],
-                  "properties": {
-                    "title": {
-                      "description": "The page's title.",
-                      "type": "string"
-                    },
-                    "url": {
-                      "description": "The page's url.",
-                      "type": "string",
-                      "format": "uri"
-                    }
-                  }
-                }
               }
             }
           }

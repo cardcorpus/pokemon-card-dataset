@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus prices of a set",
+  "description": "One set's prices on each marketplace's newest day, by card id and then copy id, the ids of the set's file in sets/. Served by index.json's `prices.latest`, not in this tree; 404 for a set no marketplace sells (https://pokemon.cardcorpus.com/v1/docs/guide.md#prices).",
+  "type": "object",
+  "required": [
+    "set",
+    "day",
+    "tcgplayer",
+    "cardmarket",
+    "cards",
+    "summary"
+  ],
+  "properties": {
+    "set": {
+      "description": "The set's id (sets/{catalog}.json).",
+      "type": "string"
+    },
+    "day": {
+      "description": "The newest day priced: TCGplayer's, else Cardmarket's.",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "tcgplayer": {
+      "description": "TCGplayer's newest day here, or null before it has one.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "day",
+        "updated",
+        "currency"
+      ],
+      "properties": {
+        "day": {
+          "description": "The day its prices are for.",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updated": {
+          "description": "When TCGplayer says it made them.",
+          "type": "string"
+        },
+        "currency": {
+          "description": "The currency of its prices.",
+          "const": "USD"
+        }
+      }
+    },
+    "cardmarket": {
+      "description": "Cardmarket's newest day here, or null before it has one.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "day",
+        "createdAt",
+        "currency"
+      ],
+      "properties": {
+        "day": {
+          "description": "The day its prices are for.",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "createdAt": {
+          "description": "When Cardmarket says it made them.",
+          "type": "string"
+        },
+        "currency": {
+          "description": "The currency of its prices.",
+          "const": "EUR"
+        }
+      }
+    },
+    "cards": {
+      "description": "Each card that has a price that day, by its id.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "The card's copies that have a price that day, by copy id (the card's `variants`). A copy no marketplace prices that day is left out.",
+        "type": "object",
+        "additionalProperties": {
+          "description": "A copy's prices on each marketplace that has it.",
+          "type": "object",
+          "properties": {
+            "tcgplayer": {
+              "description": "TCGplayer's prices, in US dollars.",
+              "type": "object",
+              "properties": {
+                "price": {
+                  "description": "The number to show: the market price. Left out when the product has no recent sales, and then `low`, `mid` and `high` are only what sellers ask.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "market": {
+                  "description": "The market price: what copies recently sold for. Left out with no recent sales.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "low": {
+                  "description": "The lowest listing.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "mid": {
+                  "description": "The middle listing.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "high": {
+                  "description": "The highest listing, which can be anything a seller asks.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "directLow": {
+                  "description": "The lowest TCGplayer Direct listing, when there is one.",
+                  "type": "number",
+                  "minimum": 0
+                }
+              }
+            },
+            "cardmarket": {
+              "description": "Cardmarket's prices, in euros.",
+              "type": "object",
+              "properties": {
+                "price": {
+                  "description": "The number to show: the trend, else the 30-, 7- or 1-day average, else the average of what is listed.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "trend": {
+                  "description": "The trend price.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "avg": {
+                  "description": "The average of the articles listed.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "low": {
+                  "description": "The lowest listing.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "avg1": {
+                  "description": "The average sale over 1 day.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "avg7": {
+                  "description": "The average sale over 7 days.",
+                  "type": "number",
+                  "minimum": 0
+                },
+                "avg30": {
+                  "description": "The average sale over 30 days.",
+                  "type": "number",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "summary": {
+      "description": "Each card, by its id, with what a page shows without asking for the history.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "The card's copies, by copy id.",
+        "type": "object",
+        "additionalProperties": {
+          "description": "A copy's last price and how it moved.",
+          "type": "object",
+          "properties": {
+            "last": {
+              "description": "The last `price` the copy had on each marketplace, for a copy with none today.",
+              "type": "object",
+              "properties": {
+                "tcgplayer": {
+                  "description": "The last price TCGplayer had for the copy.",
+                  "type": "object",
+                  "required": [
+                    "price",
+                    "day"
+                  ],
+                  "properties": {
+                    "price": {
+                      "description": "The price, in US dollars.",
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "day": {
+                      "description": "The day it was seen.",
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  }
+                },
+                "cardmarket": {
+                  "description": "The last price Cardmarket had for the copy.",
+                  "type": "object",
+                  "required": [
+                    "price",
+                    "day"
+                  ],
+                  "properties": {
+                    "price": {
+                      "description": "The price, in euros.",
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "day": {
+                      "description": "The day it was seen.",
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  }
+                }
+              }
+            },
+            "change30d": {
+              "description": "How the copy's price moved over 30 days on each marketplace, as a fraction: 0.045 is up 4.5%, 0 is less than 2% either way. A marketplace is left out when there is too little to compare.",
+              "type": "object",
+              "properties": {
+                "tcgplayer": {
+                  "description": "The change on TCGplayer.",
+                  "type": "number"
+                },
+                "cardmarket": {
+                  "description": "The change on Cardmarket.",
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

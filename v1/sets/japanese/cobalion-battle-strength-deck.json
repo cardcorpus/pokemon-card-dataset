@@ -1,80 +1,99 @@
 {
   "id": "japanese/cobalion-battle-strength-deck",
   "catalog": "japanese",
-  "name": "Cobalion Battle Strength Deck",
+  "name": "バトル強化デッキ コバルオン",
+  "englishName": "Cobalion Battle Strength Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/battle-strength-deck-2011-03",
+    "id": "japanese/battle-strength-deck-2011-03",
     "name": "Battle Strength Deck",
     "part": "Cobalion"
   },
   "printedTotal": 14,
   "actualTotal": 16,
   "cardCount": 16,
-  "productCount": 0,
   "released": {
     "date": "2011-03-18"
   },
   "code": "BK",
+  "printedCode": "BK",
   "logo": "d472dee9965247507d74b978d9c17d7d",
   "symbol": "33a2d461916a51800bb0451f6a107b7a",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Cobalion Battle Strength Deck",
-      "code": "BK",
-      "released": {
-        "date": "2011-03-18"
-      },
-      "logo": "d472dee9965247507d74b978d9c17d7d",
-      "symbol": "33a2d461916a51800bb0451f6a107b7a"
-    }
-  ],
   "description": {
-    "text": "The Cobalion deck of the Battle Strength Decks, three Japanese half decks released together on 18 March 2011 (Virizion, Terrakion and Cobalion) for players who had learned the game and wanted to battle better. Each held a 30-card half deck and three Battle Strength holo cards to swap in and strengthen it, among them the Legendary Pokémon Cobalion and Bianca, the childhood friend from Pokémon Black and White, with a strengthening guide and a quick guide. Zoroark and Klang back it up, on Metal and Darkness Energy.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームBW　バトル強化デッキ ビリジオン・テラキオン・コバルオン",
-        "url": "https://web.archive.org/web/20110213062459/http://www.pokemon-card.com/products/bw/bk.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Cobalion deck of the Battle Strength Decks, three Japanese half decks released together on 18 March 2011 (Virizion, Terrakion and Cobalion) for players who had learned the game and wanted to battle better. Each held a 30-card half deck and three Battle Strength holo cards to swap in and strengthen it, among them the Legendary Pokémon Cobalion and Bianca, the childhood friend from Pokémon Black and White, with a strengthening guide and a quick guide. Zoroark and Klang back it up, on Metal and Darkness Energy."
   },
   "tell": {
-    "text": "A \"BK\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"BK\" mark at the bottom right"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/emerging-powers",
+      "id": "korean/cobalion-battle-strength-deck",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "french/emerging-powers",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 11
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "german/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "english/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "italian/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "001",
-      "name": "Zorua",
+      "name": "ゾロア",
+      "englishName": "Zorua",
       "number": {
         "printed": "001/014",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -82,7 +101,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -93,17 +112,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 570,
+          "id": 570,
           "name": "Zorua"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 570,
-          "form": "570",
-          "name": "Zorua",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -113,7 +123,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -127,56 +137,21 @@
             "front": {
               "image": "9428ebdfa655746a48f93e5aa8196073"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "international/mcdonald-s-collection-2013",
-              "card": "11",
-              "language": "fr",
-              "printCount": 1
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "zorua-518j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "002",
-      "name": "Zoroark",
+      "name": "ゾロアーク",
+      "englishName": "Zoroark",
       "number": {
         "printed": "002/014",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -184,7 +159,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -195,17 +170,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 571,
+          "id": 571,
           "name": "Zoroark"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 571,
-          "form": "571",
-          "name": "Zoroark",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -215,7 +181,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -229,49 +195,21 @@
             "front": {
               "image": "3d857fab5af4cebd45bf30a1c02ecc2c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "67",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "zoroark-erf2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "003",
-      "name": "Ferroseed",
+      "name": "テッシード",
+      "englishName": "Ferroseed",
       "number": {
         "printed": "003/014",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -279,7 +217,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -290,17 +228,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 597,
+          "id": 597,
           "name": "Ferroseed"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 597,
-          "form": "597",
-          "name": "Ferroseed",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -310,7 +239,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -324,49 +253,21 @@
             "front": {
               "image": "391f61c27e59d2675372d2bb788cb59a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "71",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ferroseed-el7g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "004",
-      "name": "Klink",
+      "name": "ギアル",
+      "englishName": "Klink",
       "number": {
         "printed": "004/014",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -374,7 +275,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -385,17 +286,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 599,
+          "id": 599,
           "name": "Klink"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 599,
-          "form": "599",
-          "name": "Klink",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -405,7 +297,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -419,49 +311,21 @@
             "front": {
               "image": "714165bb85c211c954bb69bf3002eec7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "74",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "klink-sb2n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "005",
-      "name": "Klang",
+      "name": "ギギアル",
+      "englishName": "Klang",
       "number": {
         "printed": "005/014",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -469,7 +333,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -480,17 +344,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 600,
+          "id": 600,
           "name": "Klang"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 600,
-          "form": "600",
-          "name": "Klang",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -500,7 +355,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -514,49 +369,21 @@
             "front": {
               "image": "aaafb26574b700b097c571bbc2b13d87"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "75",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "klang-a6ph" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "006",
-      "name": "Lillipup",
+      "name": "ヨーテリー",
+      "englishName": "Lillipup",
       "number": {
         "printed": "006/014",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -564,7 +391,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -575,17 +402,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 506,
+          "id": 506,
           "name": "Lillipup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 506,
-          "form": "506",
-          "name": "Lillipup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -595,7 +413,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -609,49 +427,21 @@
             "front": {
               "image": "1627179348efd89e555889c6d44f2dbb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/bw-black-star-promos",
-              "card": "bw52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "lillipup-p1sn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "007",
-      "name": "Rufflet",
+      "name": "ワシボン",
+      "englishName": "Rufflet",
       "number": {
         "printed": "007/014",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -659,7 +449,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -670,17 +460,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 627,
+          "id": 627,
           "name": "Rufflet"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 627,
-          "form": "627",
-          "name": "Rufflet",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -690,7 +471,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -704,49 +485,21 @@
             "front": {
               "image": "29f4a622c14b990bf6fb768ffd636de6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "87",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "rufflet-yx06" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "008",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "008/014",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -754,7 +507,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -769,7 +522,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -783,80 +536,21 @@
             "front": {
               "image": "118e89216701262496ae72b5c0aee924"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "93",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "008"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/terrakion-battle-strength-deck",
-            "card": "008",
-            "differs": []
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/virizion-battle-strength-deck",
-            "card": "008",
-            "differs": []
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-gift-set-thundurus-vs-tornadus",
-            "card": "015",
-            "differs": [
-              "stamp",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/keldeo-battle-strength-deck",
-            "card": "009",
-            "differs": [
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-search-04vl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "009",
-      "name": "Great Ball",
+      "name": "スーパーボール",
+      "englishName": "Great Ball",
       "number": {
         "printed": "009/014",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -864,7 +558,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -879,7 +573,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -893,58 +587,21 @@
             "front": {
               "image": "86f7edc813e7ba84a55f8c309bef3aed"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "great-ball-7wrs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "010",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "010/014",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -952,7 +609,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -967,7 +624,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -981,63 +638,21 @@
             "front": {
               "image": "6a1bf0aa5208fa41d6fc264dc11939b4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "104",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "35"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "35"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "35",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-9h3j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "011",
-      "name": "Pokémon Catcher",
+      "name": "ポケモンキャッチャー",
+      "englishName": "Pokémon Catcher",
       "number": {
         "printed": "011/014",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1045,7 +660,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1060,7 +675,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1074,58 +689,21 @@
             "front": {
               "image": "712277ae061d44ea6994bab81e48e664"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "95",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-rd8f" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "012",
-      "name": "Cheren",
+      "name": "チェレン",
+      "englishName": "Cheren",
       "number": {
         "printed": "012/014",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1133,7 +711,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1141,10 +719,10 @@
         "date": "2011-03-18",
         "sort": "2011-03-18.00 japanese/cobalion-battle-strength-deck 00011"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cheren",
+          "id": "cheren",
           "name": "Cheren",
           "role": "subject"
         }
@@ -1156,7 +734,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1170,58 +748,21 @@
             "front": {
               "image": "fcade856877e42c0a3aed2caad4775a2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cheren-2as2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "013",
-      "name": "Cobalion",
+      "name": "コバルオン",
+      "englishName": "Cobalion",
       "number": {
         "printed": "013/014",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1229,7 +770,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1240,17 +781,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 638,
+          "id": 638,
           "name": "Cobalion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 638,
-          "form": "638",
-          "name": "Cobalion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1260,7 +792,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1274,49 +806,21 @@
             "front": {
               "image": "22e1cbaebffca7860009dcfbb431c30d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "77",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "cobalion-82fl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "014",
-      "name": "Bianca",
+      "name": "ベル",
+      "englishName": "Bianca",
       "number": {
         "printed": "014/014",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1324,7 +828,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1332,10 +836,10 @@
         "date": "2011-03-18",
         "sort": "2011-03-18.00 japanese/cobalion-battle-strength-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bianca",
+          "id": "bianca",
           "name": "Bianca",
           "role": "subject"
         }
@@ -1347,7 +851,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "014",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1361,115 +865,18 @@
             "front": {
               "image": "a7ffedfd3d9470a5dc7a51bf0fe4bb56"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "90",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "014"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/terrakion-battle-strength-deck",
-            "card": "014",
-            "differs": []
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/virizion-battle-strength-deck",
-            "card": "014",
-            "differs": []
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-theme-deck-victini",
-            "card": "021",
-            "differs": [
-              "finish",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-gift-set-thundurus-vs-tornadus",
-            "card": "020",
-            "differs": [
-              "stamp",
-              "finish",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/keldeo-battle-strength-deck",
-            "card": "015",
-            "differs": [
-              "finish",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/master-deck-build-box-ex",
-            "card": "043",
-            "differs": [
-              "finish",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-            "card": "015",
-            "differs": [
-              "finish",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/mewtwo-vs-genesect-deck-kit-mewtwo",
-            "card": "015",
-            "differs": [
-              "finish",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "bianca-vexp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "darkness-energy",
-      "name": "Darkness Energy",
+      "name": "基本【悪】エネルギー",
+      "englishName": "Darkness Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1483,7 +890,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "darkness-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1497,27 +904,17 @@
             "front": {
               "image": "cdc81d64a70e13f492f9d87e6835388f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/cobalion-battle-strength-deck",
       "id": "metal-energy",
-      "name": "Metal Energy",
+      "name": "基本【鋼】エネルギー",
+      "englishName": "Metal Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1531,7 +928,7 @@
             "$kind": "variant",
             "set": "japanese/cobalion-battle-strength-deck",
             "card": "metal-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1545,23 +942,10 @@
             "front": {
               "image": "b9084e44866bb881d7a659010b86d4e0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
   ]
 }

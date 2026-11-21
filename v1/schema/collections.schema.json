@@ -1,14 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus curated collections",
-  "description": "Our curated collections: lists of copies that belong together, each in sections.",
+  "description": "Our curated collections: hand-picked lists of card variants that belong together across sets and languages, which no single set file gives you. \"All 25th Stamped Cards\" gathers every card with a 25th-anniversary stamp, from Celebrations to Happy Meals; \"Banned Cards\" the cards banned from play. Each collection is split into titled sections, and each section lists its variants.",
   "type": "object",
   "required": [
     "collections"
   ],
   "properties": {
     "collections": {
-      "description": "Every collection.",
+      "description": "Every collection, each complete in this file.",
       "type": "array",
       "items": {
         "type": "object",
@@ -29,7 +29,7 @@
             "type": "string"
           },
           "title": {
-            "description": "Its title.",
+            "description": "Its title: \"All 30th Stamped Cards\".",
             "type": "string"
           },
           "updated": {
@@ -38,11 +38,11 @@
             "format": "date"
           },
           "description": {
-            "description": "What it collects.",
+            "description": "What it collects, in a sentence or two for people to read.",
             "type": "string"
           },
           "coverage": {
-            "description": "How complete it is, in a sentence.",
+            "description": "How complete it is and what it leaves out, in a sentence (which languages it covers, for one).",
             "type": "string"
           },
           "sections": {
@@ -57,7 +57,7 @@
                 "id",
                 "title",
                 "description",
-                "copies"
+                "variants"
               ],
               "properties": {
                 "id": {
@@ -69,7 +69,7 @@
                   "type": "string"
                 },
                 "description": {
-                  "description": "What we wrote about the section, for people to read, and the pages it draws on (docs/static-api.md, \"Descriptions\").",
+                  "description": "What we wrote about the section, for people to read (https://pokemon.cardcorpus.com/v1/docs/guide.md#descriptions).",
                   "type": "object",
                   "required": [
                     "text"
@@ -78,33 +78,11 @@
                     "text": {
                       "description": "The text; paragraphs are split by a blank line.",
                       "type": "string"
-                    },
-                    "sources": {
-                      "description": "The pages this draws on, each with its title.",
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "required": [
-                          "title",
-                          "url"
-                        ],
-                        "properties": {
-                          "title": {
-                            "description": "The page's title.",
-                            "type": "string"
-                          },
-                          "url": {
-                            "description": "The page's url.",
-                            "type": "string",
-                            "format": "uri"
-                          }
-                        }
-                      }
                     }
                   }
                 },
                 "see": {
-                  "description": "Our set and distribution pages its cards come from, which link out to their own sources.",
+                  "description": "Our set and distribution pages its cards come from.",
                   "type": "array",
                   "items": {
                     "type": "object",
@@ -117,23 +95,20 @@
                     },
                     "required": [
                       "$kind",
+                      "id",
                       "name",
                       "languages"
                     ],
                     "properties": {
                       "$kind": {
-                        "description": "What the pointer points at: `set` or `distribution`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "description": "What the pointer points at: `set` or `distribution`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                         "enum": [
                           "set",
                           "distribution"
                         ]
                       },
-                      "set": {
-                        "description": "The set's id (sets.json). Present on a `set`.",
-                        "type": "string"
-                      },
-                      "distribution": {
-                        "description": "The distribution's id (distributions/{distribution}.json). Present on a `distribution`.",
+                      "id": {
+                        "description": "The set's id (sets/{catalog}.json) or the distribution's (distributions/{id}.json).",
                         "type": "string"
                       },
                       "name": {
@@ -142,60 +117,35 @@
                       },
                       "category": {
                         "description": "A copy of the target's own `category`. Present on a `distribution`.",
-                        "type": "string",
                         "x-cc": {
                           "vocabulary": "distribution"
                         },
-                        "$ref": "#/$defs/vocabulary.distribution"
+                        "allOf": [
+                          {
+                            "$ref": "#/$defs/vocabulary.distribution"
+                          }
+                        ]
                       },
                       "languages": {
                         "description": "The languages of its cards: a set's, or those of the sets holding a distribution's cards, English first, then Japanese, then Chinese. A section lists its pages in that order too.",
                         "type": "array",
                         "items": {
                           "description": "A language.",
-                          "type": "string",
                           "x-cc": {
                             "vocabulary": "language"
                           },
-                          "$ref": "#/$defs/vocabulary.language"
-                        }
-                      }
-                    },
-                    "allOf": [
-                      {
-                        "if": {
-                          "properties": {
-                            "$kind": {
-                              "const": "set"
+                          "allOf": [
+                            {
+                              "$ref": "#/$defs/vocabulary.language"
                             }
-                          }
-                        },
-                        "then": {
-                          "required": [
-                            "set"
-                          ]
-                        }
-                      },
-                      {
-                        "if": {
-                          "properties": {
-                            "$kind": {
-                              "const": "distribution"
-                            }
-                          }
-                        },
-                        "then": {
-                          "required": [
-                            "distribution",
-                            "category"
                           ]
                         }
                       }
-                    ]
+                    }
                   }
                 },
                 "groups": {
-                  "description": "Small groups of its copies that came the same way (one box, one deck), in order; each copy names its `group`.",
+                  "description": "Small groups of its variants that came the same way (one box, one deck), in order; each variant names its `group`.",
                   "type": "array",
                   "items": {
                     "type": "object",
@@ -218,8 +168,8 @@
                     }
                   }
                 },
-                "copies": {
-                  "description": "Each copy by its pointer (the card's, where the collection names no copy).",
+                "variants": {
+                  "description": "Each variant by its pointer (the card's, where the collection names no variant).",
                   "type": "array",
                   "items": {
                     "type": "object",
@@ -232,36 +182,39 @@
                     "required": [
                       "$kind",
                       "set",
-                      "card",
+                      "id",
                       "language"
                     ],
                     "properties": {
                       "$kind": {
-                        "description": "What the pointer points at: `card` or `variant`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                        "description": "What the pointer points at: `card` or `variant`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                         "enum": [
                           "card",
                           "variant"
                         ]
                       },
                       "set": {
-                        "description": "The set's id (sets.json).",
+                        "description": "The set's id (sets/{catalog}.json).",
                         "type": "string"
                       },
                       "card": {
-                        "description": "The card's id, unique in its set.",
+                        "description": "The card's id, unique in its set. On a `variant`: the card it is of.",
                         "type": "string"
                       },
-                      "variant": {
-                        "description": "The copy's id, unique among its card's (or product's) variants. On a `variant`.",
+                      "id": {
+                        "description": "Its own id: the card's in its set, or the variant's among its card's variants.",
                         "type": "string"
                       },
                       "language": {
                         "description": "A copy of the target's own `language`.",
-                        "type": "string",
                         "x-cc": {
                           "vocabulary": "language"
                         },
-                        "$ref": "#/$defs/vocabulary.language"
+                        "allOf": [
+                          {
+                            "$ref": "#/$defs/vocabulary.language"
+                          }
+                        ]
                       },
                       "note": {
                         "description": "Our note on why it is here.",
@@ -272,7 +225,7 @@
                         "type": "string"
                       },
                       "via": {
-                        "description": "Set when the copy is here because it is a piece of a V-UNION or LEGEND card whose other piece qualifies, not on its own stamp.",
+                        "description": "Set when the variant is here because it is a piece of a V-UNION or LEGEND card whose other piece qualifies, not on its own stamp.",
                         "enum": [
                           "v_union",
                           "legend"
@@ -290,34 +243,42 @@
   },
   "$defs": {
     "vocabulary.distribution": {
+      "title": "Distribution",
       "description": "Every value of vocabulary.json's `distribution`.",
+      "type": "string",
       "enum": [
         "product_promotion",
         "event",
         "program",
-        "prize",
         "retailer_promotion",
-        "staff",
+        "prize",
         "campaign",
+        "staff",
         "publication_promotion",
         "test"
       ]
     },
     "vocabulary.language": {
+      "title": "Language",
       "description": "Every value of vocabulary.json's `language`.",
+      "type": "string",
       "enum": [
         "ja",
         "en",
-        "zh-Hans",
-        "fr",
-        "de",
-        "es",
-        "it",
         "ko",
+        "de",
+        "it",
+        "fr",
+        "es",
+        "zh-Hant",
         "pt",
+        "id",
+        "zh-Hans",
+        "th",
+        "es-419",
+        "ru",
         "pl",
-        "nl",
-        "zh-Hant"
+        "nl"
       ]
     }
   }

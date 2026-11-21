@@ -2,64 +2,33 @@
   "id": "japanese/psychic-quick-construction-pack",
   "catalog": "japanese",
   "name": "Psychic Quick Construction Pack",
+  "englishName": "Psychic Quick Construction Pack",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/quick-construction-pack",
+    "id": "japanese/quick-construction-pack",
     "name": "Quick Construction Pack",
     "part": "Psychic"
   },
   "printedTotal": 15,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2005-01-16"
   },
   "logo": "ab737c1c940aae22db64c8b47d3ec9fe",
   "symbol": "5a9e14cdd754c9bf1f1010bdb028729d",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Psychic Quick Construction Pack",
-      "released": {
-        "date": "2005-01-16"
-      },
-      "logo": "ab737c1c940aae22db64c8b47d3ec9fe",
-      "symbol": "5a9e14cdd754c9bf1f1010bdb028729d"
-    }
-  ],
   "description": {
-    "text": "A Quick Construction Pack, Type Unit: Psychic, released on 16 January 2005: a fixed pack of 15 cards built around Psychic Pokémon, led by Dusclops ex, with a coin and a rules sheet. Two packs make a half deck and four make a 60-card deck; the six packs, one for each type, came out together.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: クイック・コンストラクション・パック「タイプユニット:超」",
-        "url": "https://web.archive.org/web/20081120212419/http://www.pokemon-card.com/products/pcg/pcg_17.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "A Quick Construction Pack, Type Unit: Psychic, released on 16 January 2005: a fixed pack of 15 cards built around Psychic Pokémon, led by Dusclops ex, with a coin and a rules sheet. Two packs make a half deck and four make a 60-card deck; the six packs, one for each type, came out together."
   },
   "tell": {
-    "text": "A four-square black symbol at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: クイック・コンストラクション・パック「タイプユニット:超」",
-        "url": "https://web.archive.org/web/20081120212419/http://www.pokemon-card.com/products/pcg/pcg_17.html"
-      }
-    ]
+    "text": "A four-square black symbol at the bottom right, and a number out of 015"
   },
   "printRuns": [
     {
@@ -72,19 +41,43 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-emerald",
+      "id": "french/ex-emerald",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 8
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "001",
-      "name": "Ralts",
+      "name": "ラルトス",
+      "englishName": "Ralts",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -103,17 +96,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 280,
+          "id": 280,
           "name": "Ralts"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 280,
-          "form": "280",
-          "name": "Ralts",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +107,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +125,7 @@
             "front": {
               "image": "a9ee2cbaa978fd8f77199f5a3ca28d40"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +145,35 @@
             "front": {
               "image": "4465f450bb8d72a67e2c5923c6480215"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "61",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "ralts-ry9e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "002",
-      "name": "Kirlia",
+      "name": "キルリア",
+      "englishName": "Kirlia",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +181,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -239,17 +192,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 281,
+          "id": 281,
           "name": "Kirlia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 281,
-          "form": "281",
-          "name": "Kirlia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +203,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -277,8 +221,7 @@
             "front": {
               "image": "f1fdea4ff64e4cdf6d1475b966c3cda5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -298,65 +241,35 @@
             "front": {
               "image": "18f565f61880774b2e3f34b8c323273f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "33",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "kirlia-kv6z" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "003",
-      "name": "Spoink",
+      "name": "バネブー",
+      "englishName": "Spoink",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +277,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -375,17 +288,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 325,
+          "id": 325,
           "name": "Spoink"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 325,
-          "form": "325",
-          "name": "Spoink",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +299,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,8 +317,7 @@
             "front": {
               "image": "ddaac56bf83d64e3c3277f146b614bef"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -434,65 +337,35 @@
             "front": {
               "image": "ae9593942c43f8f65ed80ad7dea21128"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "65",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "spoink-zicj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "004",
-      "name": "Grumpig",
+      "name": "ブーピッグ",
+      "englishName": "Grumpig",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -500,7 +373,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -511,17 +384,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 326,
+          "id": 326,
           "name": "Grumpig"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 326,
-          "form": "326",
-          "name": "Grumpig",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +395,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -549,8 +413,7 @@
             "front": {
               "image": "6a1d8e9a2498fd8a5bdbf8d5b42543c2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -570,65 +433,35 @@
             "front": {
               "image": "96e717705c9e63d60a1b0c1c4ff09c7c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "grumpig-w4vl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "005",
-      "name": "Duskull",
+      "name": "ヨマワル",
+      "englishName": "Duskull",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -636,7 +469,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -647,17 +480,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 355,
+          "id": 355,
           "name": "Duskull"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 355,
-          "form": "355",
-          "name": "Duskull",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -667,7 +491,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -685,8 +509,7 @@
             "front": {
               "image": "b1d5a81fde25c20bf71460812d0fb92c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -706,65 +529,35 @@
             "front": {
               "image": "0510670795441c3cec8757224dccf228"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "46",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "duskull-1xbp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "006",
-      "name": "Dusclops ex",
+      "name": "サマヨールex",
+      "englishName": "Dusclops ex",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -772,7 +565,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -783,17 +576,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 356,
+          "id": 356,
           "name": "Dusclops"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 356,
-          "form": "356",
-          "name": "Dusclops",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -803,7 +587,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -821,8 +605,7 @@
             "front": {
               "image": "0eed8728f8ad9bcd1d21fd58d654bbe0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -842,65 +625,35 @@
             "front": {
               "image": "6c10e0ea2a8b3cdf60f34a98747af166"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "006",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "006",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dusclops-ex-ujgg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "007",
-      "name": "Chimecho",
+      "name": "チリーン",
+      "englishName": "Chimecho",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -908,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -919,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 358,
+          "id": 358,
           "name": "Chimecho"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 358,
-          "form": "358",
-          "name": "Chimecho",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -939,7 +683,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -957,8 +701,7 @@
             "front": {
               "image": "7db2d1b8f7ade7fbf62f3ea9550355da"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -978,65 +721,35 @@
             "front": {
               "image": "df4a3989aa89430bb0576672e936f6b2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "12",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psychic-quick-construction-pack",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "chimecho-cioq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "008",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1044,7 +757,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -1059,7 +772,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "008",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1080,11 +793,10 @@
                 "$kind": "variant",
                 "set": "japanese/psychic-quick-construction-pack",
                 "card": "008",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1104,46 +816,34 @@
             "front": {
               "image": "95de386d50edf24074cd727cd7d3cac7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "009",
-      "name": "Mr. Stone's Project",
+      "name": "ツワブキのプロジェクト",
+      "englishName": "Mr. Stone's Project",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1151,7 +851,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1159,10 +859,10 @@
         "date": "2005-01-16",
         "sort": "2005-01-16.00 japanese/psychic-quick-construction-pack 00008"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mr-stone",
+          "id": "mr-stone",
           "name": "Mr. Stone",
           "role": "subject"
         }
@@ -1174,7 +874,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1192,8 +892,7 @@
             "front": {
               "image": "93b240584ed860d9d6d1f22904d4ad0a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1213,73 +912,35 @@
             "front": {
               "image": "172770c93a01349b838bcb9d1b36bf15"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "79",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fighting-quick-construction-pack",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fighting-quick-construction-pack",
-          "card": "010",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mr-stone-s-project-i1dw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "010",
-      "name": "Bill's Maintenance",
+      "name": "マサキのメンテナンス",
+      "englishName": "Bill's Maintenance",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1287,7 +948,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1295,10 +956,10 @@
         "date": "2005-01-16",
         "sort": "2005-01-16.00 japanese/psychic-quick-construction-pack 00009"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bill",
+          "id": "bill",
           "name": "Bill",
           "role": "subject"
         }
@@ -1310,7 +971,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1328,8 +989,7 @@
             "front": {
               "image": "774caadb0072bebbde3a14ab6746eec4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1349,81 +1009,35 @@
             "front": {
               "image": "10811d659e910db905be0b6e1b969c18"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/expedition-base-set",
-              "card": "137",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expedition-expansion",
-                "card": "060"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expedition-expansion",
-          "painting": "060"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expedition-expansion",
-          "card": "060",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "bill-s-maintenance-ntbc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "011",
-      "name": "Psychic Energy",
+      "name": "基本【超】エネルギー",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1438,7 +1052,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1456,8 +1070,7 @@
             "front": {
               "image": "a548e6f1c821aa6bb8ccd4ae8e3bac33"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1477,46 +1090,34 @@
             "front": {
               "image": "95aae7b3faabbf7bc1128927c4b43622"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "012",
       "name": "Psychic Energy",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1531,7 +1132,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1549,8 +1150,7 @@
             "front": {
               "image": "291e16d3c6d267978ef65fe908ac2126"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1570,46 +1170,34 @@
             "front": {
               "image": "51f1ccb282570b34163cdaf752c2c8a0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "013",
       "name": "Psychic Energy",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1624,7 +1212,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1642,8 +1230,7 @@
             "front": {
               "image": "70595145bea6af803af2a840f254dbb6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1663,46 +1250,34 @@
             "front": {
               "image": "d32aa47bf67bae8a9a9912ba89040e7f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "014",
       "name": "Psychic Energy",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1717,7 +1292,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1735,8 +1310,7 @@
             "front": {
               "image": "d29f6e948f97de98d0b4d8f11973cb80"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1756,46 +1330,34 @@
             "front": {
               "image": "0d550ba21e86337255e8b6b1f694b306"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/psychic-quick-construction-pack",
       "id": "015",
       "name": "Psychic Energy",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1810,7 +1372,7 @@
             "$kind": "variant",
             "set": "japanese/psychic-quick-construction-pack",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1828,8 +1390,7 @@
             "front": {
               "image": "8dad3c79104bd226e2c55fde8592d64c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1849,39 +1410,25 @@
             "front": {
               "image": "e900f4a053b6f0754895b1f9af1b5416"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/psychic-quick-construction-pack",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     }
-  ]
+  ],
+  "printedCode": null
 }

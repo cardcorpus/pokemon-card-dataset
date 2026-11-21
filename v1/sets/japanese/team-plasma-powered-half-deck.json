@@ -1,74 +1,100 @@
 {
   "id": "japanese/team-plasma-powered-half-deck",
   "catalog": "japanese",
-  "name": "Team Plasma Powered Half Deck",
+  "name": "プラズマ団パワードデッキ30",
+  "englishName": "Team Plasma Powered Half Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "printedTotal": 17,
   "actualTotal": 19,
   "cardCount": 19,
-  "productCount": 0,
   "released": {
     "date": "2012-09-14"
   },
   "code": "PPD",
+  "printedCode": "PPD",
   "logo": "8a8e38730a978917dbf17160283de469",
   "symbol": "892dccc8721771d65b4ac97f8370f865",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Team Plasma Powered Half Deck",
-      "code": "PPD",
-      "released": {
-        "date": "2012-09-14"
-      },
-      "logo": "8a8e38730a978917dbf17160283de469",
-      "symbol": "892dccc8721771d65b4ac97f8370f865"
-    }
-  ],
   "description": {
-    "text": "Team Plasma Powered Deck 30, a half deck released on 14 September 2012 with the Plasma Gale expansion, which brought cards themed on Team Plasma of Pokémon Black 2 and White 2. It gathers Plasma Gale's Team Plasma cards, Pokémon, Trainers and Energy that work together, into one ready-built deck, with a Team Plasma power-up guide and a quick guide.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック「プラズマゲイル」「プラズマ団パワードデッキ30」",
-        "url": "https://web.archive.org/web/20120813220741/http://www.pokemon-card.com/products/bw/bw7.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Team Plasma Powered Deck 30, a half deck released on 14 September 2012 with the Plasma Gale expansion, which brought cards themed on Team Plasma of Pokémon Black 2 and White 2. It gathers Plasma Gale's Team Plasma cards, Pokémon, Trainers and Energy that work together, into one ready-built deck, with a Team Plasma power-up guide and a quick guide."
   },
   "tell": {
-    "text": "A \"PPD\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"PPD\" mark at the bottom right"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/plasma-storm",
+      "id": "korean/team-plasma-power-deck",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 17
+    },
+    {
+      "$kind": "set",
+      "id": "french/plasma-storm",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 15
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "german/plasma-storm",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "english/plasma-storm",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "italian/plasma-storm",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "korean/plasma-gale",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/plasma-storm",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/plasma-storm",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 11
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "001",
-      "name": "Zubat",
+      "name": "ズバット",
+      "englishName": "Zubat",
       "number": {
         "printed": "001/017",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -76,7 +102,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -87,17 +113,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 41,
+          "id": 41,
           "name": "Zubat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 41,
-          "form": "41",
-          "name": "Zubat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -107,7 +124,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -121,49 +138,21 @@
             "front": {
               "image": "f04a8319fa7a16a072ed113fc7c37e55"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "zubat-o1o0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "002",
-      "name": "Koffing",
+      "name": "ドガース",
+      "englishName": "Koffing",
       "number": {
         "printed": "002/017",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -171,7 +160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -182,17 +171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 109,
+          "id": 109,
           "name": "Koffing"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 109,
-          "form": "109",
-          "name": "Koffing",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -202,7 +182,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -216,49 +196,21 @@
             "front": {
               "image": "381b9bb9e882e513486d2b54df1457fd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "56",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "koffing-n74p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "003",
-      "name": "Trubbish",
+      "name": "ヤブクロン",
+      "englishName": "Trubbish",
       "number": {
         "printed": "003/017",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -266,7 +218,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -277,17 +229,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 568,
+          "id": 568,
           "name": "Trubbish"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 568,
-          "form": "568",
-          "name": "Trubbish",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -297,7 +240,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -311,49 +254,21 @@
             "front": {
               "image": "08038fa5053cac66e472d886e7bac69d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "trubbish-jddj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "004",
-      "name": "Garbodor",
+      "name": "ダストダス",
+      "englishName": "Garbodor",
       "number": {
         "printed": "004/017",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -361,7 +276,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -372,17 +287,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 569,
+          "id": 569,
           "name": "Garbodor"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 569,
-          "form": "569",
-          "name": "Garbodor",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -392,7 +298,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -406,49 +312,21 @@
             "front": {
               "image": "7e3d82254572b6aea08dbcd329fee307"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "garbodor-n3vl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "005",
-      "name": "Elgyem",
+      "name": "リグレー",
+      "englishName": "Elgyem",
       "number": {
         "printed": "005/017",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -456,7 +334,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -467,17 +345,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 605,
+          "id": 605,
           "name": "Elgyem"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 605,
-          "form": "605",
-          "name": "Elgyem",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -487,7 +356,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -501,49 +370,21 @@
             "front": {
               "image": "b3c9ddc8e76e4b277e1e8f2701ff123f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "68",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "elgyem-pxxg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "006",
-      "name": "Klink",
+      "name": "ギアル",
+      "englishName": "Klink",
       "number": {
         "printed": "006/017",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -551,7 +392,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -562,17 +403,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 599,
+          "id": 599,
           "name": "Klink"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 599,
-          "form": "599",
-          "name": "Klink",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -582,7 +414,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -596,49 +428,21 @@
             "front": {
               "image": "0b86203d2a91df6e77bc950d08dd106e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "88",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "klink-nnpq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "007",
-      "name": "Klang",
+      "name": "ギギアル",
+      "englishName": "Klang",
       "number": {
         "printed": "007/017",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -646,7 +450,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -657,17 +461,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 600,
+          "id": 600,
           "name": "Klang"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 600,
-          "form": "600",
-          "name": "Klang",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -677,7 +472,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -691,49 +486,21 @@
             "front": {
               "image": "9d1916305d8f2761b846df504edf7065"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "89",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "klang-p9ww" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "008",
-      "name": "Klinklang",
+      "name": "ギギギアル",
+      "englishName": "Klinklang",
       "number": {
         "printed": "008/017",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -741,7 +508,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -752,17 +519,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 601,
+          "id": 601,
           "name": "Klinklang"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 601,
-          "form": "601",
-          "name": "Klinklang",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -772,7 +530,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "008",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -786,49 +544,21 @@
             "front": {
               "image": "b325b9d8b20e66b3dc7c7038d3f7c716"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "90",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "klinklang-edcs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "009",
-      "name": "Durant",
+      "name": "アイアント",
+      "englishName": "Durant",
       "number": {
         "printed": "009/017",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -836,7 +566,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -847,17 +577,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 632,
+          "id": 632,
           "name": "Durant"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 632,
-          "form": "632",
-          "name": "Durant",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -867,7 +588,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -881,49 +602,21 @@
             "front": {
               "image": "6307dedb90dfbb684cc802779d84aafc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "durant-txe8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "010",
-      "name": "Patrat",
+      "name": "ミネズミ",
+      "englishName": "Patrat",
       "number": {
         "printed": "010/017",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -931,7 +624,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -942,17 +635,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 504,
+          "id": 504,
           "name": "Patrat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 504,
-          "form": "504",
-          "name": "Patrat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -962,7 +646,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -976,49 +660,21 @@
             "front": {
               "image": "8d3ba9c226fee9a56ee0e5838a2d2271"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "110",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "010"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "patrat-ngz2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "011",
-      "name": "Watchog",
+      "name": "ミルホッグ",
+      "englishName": "Watchog",
       "number": {
         "printed": "011/017",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1026,7 +682,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1037,17 +693,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 505,
+          "id": 505,
           "name": "Watchog"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 505,
-          "form": "505",
-          "name": "Watchog",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1057,7 +704,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1071,49 +718,21 @@
             "front": {
               "image": "7c85b73db343f468f511fcf9857d2255"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "112",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-powered-half-deck",
-          "painting": "011"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "watchog-b5c8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "012",
-      "name": "Colress Machine",
+      "name": "アクロママシーン",
+      "englishName": "Colress Machine",
       "number": {
         "printed": "012/017",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1121,7 +740,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1136,7 +755,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1150,58 +769,21 @@
             "front": {
               "image": "d464d9d5dcf415f0758f5267338a3f4e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "119",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "062"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "062",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "colress-machine-no4u" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "013",
-      "name": "Hypnotoxic Laser",
+      "name": "どくさいみん光線",
+      "englishName": "Hypnotoxic Laser",
       "number": {
         "printed": "013/017",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1209,7 +791,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1224,7 +806,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1238,58 +820,21 @@
             "front": {
               "image": "a503d079e634c8f06e03e1178131f621"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "123",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "063"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "063",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "hypnotoxic-laser-4hvv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "014",
-      "name": "Colress",
+      "name": "アクロマ",
+      "englishName": "Colress",
       "number": {
         "printed": "014/017",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1297,7 +842,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1305,10 +850,10 @@
         "date": "2012-09-14",
         "sort": "2012-09-14.00 japanese/team-plasma-powered-half-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "colress",
+          "id": "colress",
           "name": "Colress",
           "role": "subject"
         }
@@ -1320,7 +865,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "014",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1334,65 +879,21 @@
             "front": {
               "image": "f17111e09e430e031f6d4cf49ce3c4f0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "118",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/plasma-gale",
-                "card": "064"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "064"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "064",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "colress-o1qd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "015",
-      "name": "Team Plasma Grunt",
+      "name": "プラズマ団のしたっぱ",
+      "englishName": "Team Plasma Grunt",
       "number": {
         "printed": "015/017",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1400,7 +901,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1408,10 +909,10 @@
         "date": "2012-09-14",
         "sort": "2012-09-14.00 japanese/team-plasma-powered-half-deck 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-plasma-grunt",
+          "id": "team-plasma-grunt",
           "name": "Team Plasma Grunt",
           "role": "subject"
         }
@@ -1423,7 +924,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1437,58 +938,21 @@
             "front": {
               "image": "0cf8e5cabcc6234e8d067d06e5dfd471"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "125",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "065"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "065",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "team-plasma-grunt-mfse" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "016",
-      "name": "Plasma Frigate",
+      "name": "プラズマフリゲート",
+      "englishName": "Plasma Frigate",
       "number": {
         "printed": "016/017",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1496,7 +960,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1511,7 +975,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1525,58 +989,21 @@
             "front": {
               "image": "e5b92b2dbfd2329015146014bc73acb3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "124",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "066"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "066",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "plasma-frigate-9mnm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "017",
-      "name": "Plasma Energy",
+      "name": "プラズマエネルギー",
+      "englishName": "Plasma Energy",
       "number": {
         "printed": "017/017",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1584,7 +1011,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1599,7 +1026,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1613,61 +1040,18 @@
             "front": {
               "image": "f537c25e8fcd531d100d1badbd3d78be"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "127",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/plasma-gale",
-                "card": "067"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "067"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "067",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "plasma-energy-fq7d" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "metal-energy",
-      "name": "Metal Energy",
+      "name": "基本鋼エネルギー",
+      "englishName": "Metal Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1681,7 +1065,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "metal-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1695,27 +1079,17 @@
             "front": {
               "image": "7ed3faadd6c7db0d2edd27a3ed033d3c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/team-plasma-powered-half-deck",
       "id": "psychic-energy",
-      "name": "Psychic Energy",
+      "name": "基本超エネルギー",
+      "englishName": "Psychic Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1729,7 +1103,7 @@
             "$kind": "variant",
             "set": "japanese/team-plasma-powered-half-deck",
             "card": "psychic-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1743,23 +1117,10 @@
             "front": {
               "image": "fece2391ca61235270fb320d150f5737"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
   ]
 }

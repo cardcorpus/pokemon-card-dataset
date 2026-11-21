@@ -2,64 +2,33 @@
   "id": "japanese/torchic-constructed-starter-deck",
   "catalog": "japanese",
   "name": "Torchic Constructed Starter Deck",
+  "englishName": "Torchic Constructed Starter Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/advanced-generation",
+    "id": "japanese/advanced-generation",
     "name": "Advanced Generation"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/constructed-starter-deck-2003-01",
+    "id": "japanese/constructed-starter-deck-2003-01",
     "name": "Constructed Starter Deck",
     "part": "Torchic"
   },
   "printedTotal": 19,
   "actualTotal": 20,
   "cardCount": 20,
-  "productCount": 0,
   "released": {
     "date": "2003-01-31"
   },
   "logo": "0f6bb22320a4a650a30a7207cb5be156",
   "symbol": "6366ef7863c0946d362f301c530419a2",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Torchic Constructed Starter Deck",
-      "released": {
-        "date": "2003-01-31"
-      },
-      "logo": "0f6bb22320a4a650a30a7207cb5be156",
-      "symbol": "6366ef7863c0946d362f301c530419a2"
-    }
-  ],
   "description": {
-    "text": "One of the three starter decks that launched the Pokémon Card Game ADV series on 31 January 2003, the same day as its first expansion, each built around one of the Hoenn starters of Pokémon Ruby and Sapphire. This one runs Torchic up to its Stage 2 evolution, Blaziken, with Magmar ex among its other Pokémon. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 第1弾 構築済みスターター 「アチャモデッキ」",
-        "url": "https://web.archive.org/web/20090227020339/http://www.pokemon-card.com/products/adv/adv_02.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 第1弾拡張パック",
-        "url": "https://web.archive.org/web/20090227015922/http://www.pokemon-card.com/products/adv/adv_04.html"
-      }
-    ]
+    "text": "One of the three starter decks that launched the Pokémon Card Game ADV series on 31 January 2003, the same day as its first expansion, each built around one of the Hoenn starters of Pokémon Ruby and Sapphire. This one runs Torchic up to its Stage 2 evolution, Blaziken, with Magmar ex among its other Pokémon. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away."
   },
   "tell": {
-    "text": "A black Torchic-shaped symbol at the bottom right, and a number out of 019",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 第1弾 構築済みスターター 「アチャモデッキ」",
-        "url": "https://web.archive.org/web/20090227020339/http://www.pokemon-card.com/products/adv/adv_02.html"
-      }
-    ]
+    "text": "A black Torchic-shaped symbol at the bottom right, and a number out of 019"
   },
   "printRuns": [
     {
@@ -72,19 +41,57 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-ruby-sapphire",
+      "id": "korean/torchic-constructed-starter-deck",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 13
+    },
+    {
+      "$kind": "set",
+      "id": "french/ex-ruby-sapphire",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 19
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-ruby-sapphire",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-ruby-sapphire",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-ruby-sapphire",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/ex-ruby-sapphire",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "001",
-      "name": "Magmar ex",
+      "name": "ブーバーex",
+      "englishName": "Magmar ex",
       "number": {
         "printed": "001/019",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +99,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -103,17 +110,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 126,
+          "id": 126,
           "name": "Magmar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 126,
-          "form": "126",
-          "name": "Magmar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +121,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +139,7 @@
             "front": {
               "image": "f5a242834c301d7691807cc534dce888"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +159,35 @@
             "front": {
               "image": "7d44f1e01218fa47765b20044d445e3c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "100",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "magmar-ex-dyum" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "002",
-      "name": "Torchic",
+      "name": "アチャモ",
+      "englishName": "Torchic",
       "number": {
         "printed": "002/019",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +195,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -239,17 +206,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 255,
+          "id": 255,
           "name": "Torchic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 255,
-          "form": "255",
-          "name": "Torchic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +217,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -277,8 +235,7 @@
             "front": {
               "image": "006a1a26e370900656f0f0e56210d2b2"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -298,65 +255,35 @@
             "front": {
               "image": "6c5bdaa15f55a02075280bb70c6cf5f8"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "002",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "002",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "73",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "torchic-t7yh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "003",
-      "name": "Torchic",
+      "name": "アチャモ",
+      "englishName": "Torchic",
       "number": {
         "printed": "003/019",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +291,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -375,17 +302,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 255,
+          "id": 255,
           "name": "Torchic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 255,
-          "form": "255",
-          "name": "Torchic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +313,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,8 +331,7 @@
             "front": {
               "image": "05c7403a7627cf04d354161efbcc548e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -434,72 +351,35 @@
             "front": {
               "image": "5771bd4813602444de67775b99862108"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "74",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "003"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "011"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "torchic-jpr2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "004",
-      "name": "Combusken",
+      "name": "ワカシャモ",
+      "englishName": "Combusken",
       "number": {
         "printed": "004/019",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -507,7 +387,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -518,17 +398,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 256,
+          "id": 256,
           "name": "Combusken"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 256,
-          "form": "256",
-          "name": "Combusken",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -538,7 +409,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -556,8 +427,7 @@
             "front": {
               "image": "592e1ccd14fb2d90adb24a50c05d1b7e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -577,65 +447,35 @@
             "front": {
               "image": "58a020b0da8c60607966359510461f5b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "27",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "combusken-aeg4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "005",
-      "name": "Combusken",
+      "name": "ワカシャモ",
+      "englishName": "Combusken",
       "number": {
         "printed": "005/019",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -643,7 +483,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -654,17 +494,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 256,
+          "id": 256,
           "name": "Combusken"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 256,
-          "form": "256",
-          "name": "Combusken",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -674,7 +505,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -692,8 +523,7 @@
             "front": {
               "image": "9502148537a095b1a4e0085412147189"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -713,72 +543,35 @@
             "front": {
               "image": "1568f78c380b43c075a05d8f375cd8d7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "28",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "005"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "012"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "combusken-gj1c" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "006",
-      "name": "Blaziken",
+      "name": "バシャーモ",
+      "englishName": "Blaziken",
       "number": {
         "printed": "006/019",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -786,7 +579,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -797,17 +590,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 257,
+          "id": 257,
           "name": "Blaziken"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 257,
-          "form": "257",
-          "name": "Blaziken",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -817,7 +601,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -835,8 +619,7 @@
             "front": {
               "image": "f4320ab74f1fcfae4b1a0be0fe54a314"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -856,65 +639,35 @@
             "front": {
               "image": "eee812b54858216d335557bbf356083c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "006",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "blaziken-csth" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "007",
-      "name": "Electrike",
+      "name": "ラクライ",
+      "englishName": "Electrike",
       "number": {
         "printed": "007/019",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -922,7 +675,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -933,17 +686,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 309,
+          "id": 309,
           "name": "Electrike"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 309,
-          "form": "309",
-          "name": "Electrike",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -953,7 +697,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -971,8 +715,7 @@
             "front": {
               "image": "49461e5df75980918bfb96ea896631b4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -992,65 +735,35 @@
             "front": {
               "image": "d79dc10da7802124b657a286d160a4d8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "52",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "electrike-hl91" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "008",
-      "name": "Electrike",
+      "name": "ラクライ",
+      "englishName": "Electrike",
       "number": {
         "printed": "008/019",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1058,7 +771,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -1069,17 +782,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 309,
+          "id": 309,
           "name": "Electrike"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 309,
-          "form": "309",
-          "name": "Electrike",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1089,7 +793,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1107,8 +811,7 @@
             "front": {
               "image": "7b6bd9a30003be0f07e8e046e0fdf930"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1128,65 +831,35 @@
             "front": {
               "image": "6608a65746a4c7d22d049d20feb19c8d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "electrike-quws" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "009",
-      "name": "Manectric",
+      "name": "ライボルト",
+      "englishName": "Manectric",
       "number": {
         "printed": "009/019",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1194,7 +867,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1205,17 +878,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 310,
+          "id": 310,
           "name": "Manectric"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 310,
-          "form": "310",
-          "name": "Manectric",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1225,7 +889,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1243,8 +907,7 @@
             "front": {
               "image": "12a1c21077d11de4cce9b51a26dd5f5d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1264,65 +927,35 @@
             "front": {
               "image": "a3ee94556ce69633ee6764857576856e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "009"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "manectric-r4mw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "010",
-      "name": "Poochyena",
+      "name": "ポチエナ",
+      "englishName": "Poochyena",
       "number": {
         "printed": "010/019",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1330,7 +963,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1341,17 +974,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 261,
+          "id": 261,
           "name": "Poochyena"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 261,
-          "form": "261",
-          "name": "Poochyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1361,7 +985,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1379,8 +1003,7 @@
             "front": {
               "image": "27757b0e476f6a374343b47760e653ab"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1400,65 +1023,35 @@
             "front": {
               "image": "838b9a16f1f323beb3be39fefb25b020"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "63",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "010"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poochyena-ddxw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "011",
-      "name": "Poochyena",
+      "name": "ポチエナ",
+      "englishName": "Poochyena",
       "number": {
         "printed": "011/019",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1466,7 +1059,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -1477,17 +1070,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 261,
+          "id": 261,
           "name": "Poochyena"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 261,
-          "form": "261",
-          "name": "Poochyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1497,7 +1081,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1515,8 +1099,7 @@
             "front": {
               "image": "dd163df97ca76f8eeeeb1a8cfb3152ea"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1536,65 +1119,35 @@
             "front": {
               "image": "327d01063f54c04d9c2bf5dd7b3df32e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "011"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poochyena-hswf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "012",
-      "name": "Mightyena",
+      "name": "グラエナ",
+      "englishName": "Mightyena",
       "number": {
         "printed": "012/019",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1602,7 +1155,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1613,17 +1166,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 262,
+          "id": 262,
           "name": "Mightyena"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 262,
-          "form": "262",
-          "name": "Mightyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1633,7 +1177,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1651,8 +1195,7 @@
             "front": {
               "image": "0e378bdc8aa59f99f2165e52b63e1f43"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1672,65 +1215,35 @@
             "front": {
               "image": "48e9e28841f0357351251fbd34f685df"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "42",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "012"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mightyena-hpfk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "013",
-      "name": "Energy Restore",
+      "name": "エネルギー再生",
+      "englishName": "Energy Restore",
       "number": {
         "printed": "013/019",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1738,7 +1251,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hideyuki-nakajima",
+          "id": "hideyuki-nakajima",
           "name": "Hideyuki Nakajima"
         }
       ],
@@ -1753,7 +1266,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1771,8 +1284,7 @@
             "front": {
               "image": "4d8c60a0817298f8c9f4a2665600c662"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1792,75 +1304,35 @@
             "front": {
               "image": "698c9b0c378cf80daa4d2e75516b7d38"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "81",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-vs",
-          "painting": "140"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-vs",
-          "card": "140",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-restore-t6cn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "014",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "014/019",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1868,7 +1340,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1883,7 +1355,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1901,8 +1373,7 @@
             "front": {
               "image": "31a42cea3c911dcd69077c0423174952"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1922,74 +1393,35 @@
             "front": {
               "image": "79404bd4796fb500768b22ccdcc84948"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "91",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "025"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "025",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-8utl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "015",
-      "name": "PokéNav",
+      "name": "ポケナビ",
+      "englishName": "PokéNav",
       "number": {
         "printed": "015/019",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1997,7 +1429,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "katsura-tabata",
+          "id": "katsura-tabata",
           "name": "Katsura Tabata"
         }
       ],
@@ -2012,7 +1444,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2030,8 +1462,7 @@
             "front": {
               "image": "594b24027b31e6b9d837a8ee29e5bd40"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2051,84 +1482,35 @@
             "front": {
               "image": "063c7dc78496e23c6ea4c68c93321d81"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "88",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-abundant",
-              "card": "127",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pokenav-hqmg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "016",
-      "name": "Pokémon Reversal",
+      "name": "ポケモンリバース",
+      "englishName": "Pokémon Reversal",
       "number": {
         "printed": "016/019",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2136,7 +1518,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -2151,7 +1533,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2169,8 +1551,7 @@
             "front": {
               "image": "25c55100d9427133386cd03c33ef014c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2190,107 +1571,43 @@
             "front": {
               "image": "5a19b6e0851521eb7a9115cbd1c74ed3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "016",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "87",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/movie-commemoration-vs-pack",
-            "card": "017",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/venusaur-charizard-blastoise-random-constructed-starter-decks",
-            "card": "049",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/meganium-constructed-starter-deck",
-            "card": "011",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/movie-commemoration-vs-pack-aura-s-lucario",
-            "card": "017",
-            "differs": [
-              "number"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "pokemon-reversal-q3i8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "017",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "017/019",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "trainer",
       "language": "ja",
-      "credit": "K. Hoshiba",
+      "credit": "K Hoshiba",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "k-hoshiba",
+          "id": "k-hoshiba",
           "name": "K. Hoshiba"
         }
       ],
@@ -2305,7 +1622,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2323,8 +1640,7 @@
             "front": {
               "image": "99fa1c58faa4b5a90d6c9d4dc27e0dc2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2344,71 +1660,35 @@
             "front": {
               "image": "16dd57744c491edb37cafbf7944780ec"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "017",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "017",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "86",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "017"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "017",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-op4i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "018",
-      "name": "Professor Birch",
+      "name": "オダマキはかせ",
+      "englishName": "Professor Birch",
       "number": {
         "printed": "018/019",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2416,7 +1696,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2424,10 +1704,10 @@
         "date": "2003-01-31",
         "sort": "2003-01-31.00 japanese/torchic-constructed-starter-deck 00017"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-birch",
+          "id": "professor-birch",
           "name": "Professor Birch",
           "role": "subject"
         }
@@ -2439,7 +1719,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2457,8 +1737,7 @@
             "front": {
               "image": "30d5db625ccb2f40b38680fa20d29872"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2478,74 +1757,35 @@
             "front": {
               "image": "4a9680e5092ebbebebf8cd480d517e54"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "018",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "89",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "054"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "054",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "professor-birch-jd72" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "019",
-      "name": "Lum Berry",
+      "name": "ラムのみ",
+      "englishName": "Lum Berry",
       "number": {
         "printed": "019/019",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2553,7 +1793,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kazuo-yazawa",
+          "id": "kazuo-yazawa",
           "name": "Kazuo Yazawa"
         }
       ],
@@ -2568,7 +1808,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "019",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2586,8 +1826,7 @@
             "front": {
               "image": "17ce18a388adbc427b5c71db55017e1b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2607,75 +1846,39 @@
             "front": {
               "image": "9817436ef97c844bcf0f6dc408421fdc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/torchic-constructed-starter-deck",
           "card": "019",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "84",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "019"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "019",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lum-berry-bwnz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/torchic-constructed-starter-deck",
       "id": "darkness-energy",
-      "name": "Darkness Energy",
+      "name": "悪エネルギー",
+      "englishName": "Darkness Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Milky Isobe",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -2684,13 +1887,7 @@
         "sort": "2003-01-31.00 japanese/torchic-constructed-starter-deck 00019"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -2699,7 +1896,7 @@
             "$kind": "variant",
             "set": "japanese/torchic-constructed-starter-deck",
             "card": "darkness-energy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -2713,54 +1910,12 @@
             "front": {
               "image": "69323aaa73d0591fe566d09d4ebf9440"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "darkness-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/ex-ruby-sapphire",
-          "painting": "93"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "darkness-energy",
-          "differs": []
-        }
-      }
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "darkness-energy-3gij" }
     }
-  ]
+  ],
+  "printedCode": null
 }

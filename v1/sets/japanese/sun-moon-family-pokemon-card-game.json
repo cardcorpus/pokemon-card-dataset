@@ -1,74 +1,107 @@
 {
   "id": "japanese/sun-moon-family-pokemon-card-game",
   "catalog": "japanese",
-  "name": "Sun & Moon Family Pokémon Card Game",
+  "name": "ファミリーポケモンカードゲーム",
+  "englishName": "Sun & Moon Family Pokémon Card Game",
   "era": {
     "$kind": "era",
-    "era": "japanese/sun-moon",
-    "name": "Sun & Moon"
+    "id": "japanese/sun-moon",
+    "name": "サン&ムーン",
+    "englishName": "Sun & Moon"
   },
   "type": "deck",
   "language": "ja",
   "printedTotal": 51,
   "actualTotal": 57,
   "cardCount": 57,
-  "productCount": 0,
   "released": {
     "date": "2019-03-15"
   },
   "code": "SML",
+  "printedCode": "SML",
   "logo": "3eb2400f124b21fcd5729e3025991ca1",
   "symbol": "164fb66b18b816d5b569b2834c954465",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Sun & Moon Family Pokémon Card Game",
-      "code": "SML",
-      "released": {
-        "date": "2019-03-15"
-      },
-      "logo": "3eb2400f124b21fcd5729e3025991ca1",
-      "symbol": "164fb66b18b816d5b569b2834c954465"
-    }
-  ],
   "description": {
-    "text": "Family Pokémon Card Game, a set released on 15 March 2019 for families: three 60-card decks, led by Raichu-GX, Charizard-GX and Mewtwo-GX, so a whole family could play, with a playmat, a coin, damage counters, Poison and Burn markers, two GX markers, three deck bands to keep the decks apart, two battle guides, a beginner's guide and a card box.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-        "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Family Pokémon Card Game, a set released on 15 March 2019 for families: three 60-card decks, led by Raichu-GX, Charizard-GX and Mewtwo-GX, so a whole family could play, with a playmat, a coin, damage counters, Poison and Burn markers, two GX markers, three deck bands to keep the decks apart, two battle guides, a beginner's guide and a card box."
   },
   "tell": {
-    "text": "An \"SML\" mark at the bottom left",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"SML\" mark at the bottom left"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/hidden-fates",
+      "id": "korean/sun-moon-family-pokemon-card-game",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 57
+    },
+    {
+      "$kind": "set",
+      "id": "french/hidden-fates",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 32
+      "sameCardCount": 31
+    },
+    {
+      "$kind": "set",
+      "id": "german/hidden-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 31
+    },
+    {
+      "$kind": "set",
+      "id": "english/hidden-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 31
+    },
+    {
+      "$kind": "set",
+      "id": "italian/hidden-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 31
+    },
+    {
+      "$kind": "set",
+      "id": "korean/random-half-deck",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 2
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/hidden-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 31
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/hidden-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 31
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hans/shining-synergy-gx-starter-deck",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "001",
-      "name": "Caterpie",
+      "name": "キャタピー",
+      "englishName": "Caterpie",
       "number": {
         "printed": "001/051",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -76,7 +109,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tetsuya-koizumi",
+          "id": "tetsuya-koizumi",
           "name": "tetsuya koizumi"
         }
       ],
@@ -87,17 +120,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 10,
+          "id": 10,
           "name": "Caterpie"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 10,
-          "form": "10",
-          "name": "Caterpie",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -107,7 +131,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "001",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -125,49 +149,21 @@
             "front": {
               "image": "97b8a8b467681c0a5c4d73f99a22414f"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "caterpie-il6o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "002",
-      "name": "Metapod",
+      "name": "トランセル",
+      "englishName": "Metapod",
       "number": {
         "printed": "002/051",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -175,7 +171,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shibuzoh",
+          "id": "shibuzoh",
           "name": "Shibuzoh."
         }
       ],
@@ -186,17 +182,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 11,
+          "id": 11,
           "name": "Metapod"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 11,
-          "form": "11",
-          "name": "Metapod",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -206,7 +193,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "002",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -224,49 +211,21 @@
             "front": {
               "image": "629a7105e87655c58cf153b67fce6baf"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "2",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "metapod-vo4r" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "003",
-      "name": "Butterfree",
+      "name": "バタフリー",
+      "englishName": "Butterfree",
       "number": {
         "printed": "003/051",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -274,7 +233,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -285,17 +244,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 12,
+          "id": 12,
           "name": "Butterfree"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 12,
-          "form": "12",
-          "name": "Butterfree",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -305,7 +255,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "003",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -323,49 +273,21 @@
             "front": {
               "image": "b66b049fde61a4b688092147e084c0c2"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "3",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "butterfree-a1nf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "004",
-      "name": "Scyther",
+      "name": "ストライク",
+      "englishName": "Scyther",
       "number": {
         "printed": "004/051",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -373,7 +295,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hasuno",
+          "id": "hasuno",
           "name": "Hasuno"
         }
       ],
@@ -384,17 +306,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 123,
+          "id": 123,
           "name": "Scyther"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 123,
-          "form": "123",
-          "name": "Scyther",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -404,7 +317,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "004",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -422,49 +335,21 @@
             "front": {
               "image": "abe3afd25ed69fa5176df9b96caea975"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "scyther-r6g1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "005",
-      "name": "Pinsir-GX",
+      "name": "カイロスGX",
+      "englishName": "Pinsir-GX",
       "number": {
         "printed": "005/051",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -472,7 +357,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -483,17 +368,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 127,
+          "id": 127,
           "name": "Pinsir"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 127,
-          "form": "127",
-          "name": "Pinsir",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -503,7 +379,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "005",
-            "variant": "holo-charizard-silhouette-stamp"
+            "id": "holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -521,59 +397,21 @@
             "front": {
               "image": "7d9f3e2202f5faff51af706de6b7295b"
             }
-          },
-          "collectingVariation": "v-dae39c5b88cde5a8743099175049f0f3ef9d5c1e"
+          }
         }
       ],
-      "defaultCopy": "holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-dae39c5b88cde5a8743099175049f0f3ef9d5c1e",
-          "name": "Holo · Charizard silhouette",
-          "variants": [
-            "holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-dae39c5b88cde5a8743099175049f0f3ef9d5c1e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "6",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/battle-party-set-grass-deck",
-              "card": "006",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pinsir-gx-8c6w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "006",
-      "name": "Dhelmise",
+      "name": "ダダリン",
+      "englishName": "Dhelmise",
       "number": {
         "printed": "006/051",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -581,7 +419,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tokiya",
+          "id": "tokiya",
           "name": "TOKIYA"
         }
       ],
@@ -592,17 +430,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 781,
+          "id": 781,
           "name": "Dhelmise"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 781,
-          "form": "781",
-          "name": "Dhelmise",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -612,7 +441,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "006",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -630,49 +459,21 @@
             "front": {
               "image": "0c56151e0e38de3eb9a1b249e380367b"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "dhelmise-vuqn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "007",
-      "name": "Charmander",
+      "name": "ヒトカゲ",
+      "englishName": "Charmander",
       "number": {
         "printed": "007/051",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -680,7 +481,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -691,17 +492,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 4,
+          "id": 4,
           "name": "Charmander"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 4,
-          "form": "4",
-          "name": "Charmander",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -711,7 +503,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "007",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -729,49 +521,21 @@
             "front": {
               "image": "63c24c270241c6caf58e98424ad031e6"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "7",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "charmander-1fjo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "008",
-      "name": "Charmeleon",
+      "name": "リザード",
+      "englishName": "Charmeleon",
       "number": {
         "printed": "008/051",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -779,7 +543,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -790,17 +554,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 5,
+          "id": 5,
           "name": "Charmeleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 5,
-          "form": "5",
-          "name": "Charmeleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -810,7 +565,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "008",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -828,59 +583,21 @@
             "front": {
               "image": "9fd222c13b7243df5f3853cdfa18d9c8"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "8",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/battle-party-set-fire-deck",
-              "card": "003",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "charmeleon-rhke" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "009",
-      "name": "Charizard-GX",
+      "name": "リザードンGX",
+      "englishName": "Charizard-GX",
       "number": {
         "printed": "009/051",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -888,7 +605,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aky-cg-works",
+          "id": "aky-cg-works",
           "name": "aky CG Works"
         }
       ],
@@ -899,17 +616,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 6,
+          "id": 6,
           "name": "Charizard"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 6,
-          "form": "6",
-          "name": "Charizard",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -919,7 +627,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "009",
-            "variant": "holo-charizard-silhouette-stamp"
+            "id": "holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -937,59 +645,21 @@
             "front": {
               "image": "d0de4f20721d1c538fc6c39e233c9f26"
             }
-          },
-          "collectingVariation": "v-dae39c5b88cde5a8743099175049f0f3ef9d5c1e"
+          }
         }
       ],
-      "defaultCopy": "holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-dae39c5b88cde5a8743099175049f0f3ef9d5c1e",
-          "name": "Holo · Charizard silhouette",
-          "variants": [
-            "holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-dae39c5b88cde5a8743099175049f0f3ef9d5c1e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "9",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-summon",
-              "card": "005",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "charizard-gx-vh74" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "010",
-      "name": "Magmar",
+      "name": "ブーバー",
+      "englishName": "Magmar",
       "number": {
         "printed": "010/051",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -997,7 +667,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "satoshi-shirai",
+          "id": "satoshi-shirai",
           "name": "Satoshi Shirai"
         }
       ],
@@ -1008,17 +678,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 126,
+          "id": 126,
           "name": "Magmar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 126,
-          "form": "126",
-          "name": "Magmar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1028,7 +689,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "010",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -1046,59 +707,21 @@
             "front": {
               "image": "1c4b9b0d46f5f45f897bb8be0a241436"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "10",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "034",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "010"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "magmar-3pji" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "011",
-      "name": "Salandit",
+      "name": "ヤトウモリ",
+      "englishName": "Salandit",
       "number": {
         "printed": "011/051",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1106,7 +729,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-umemoto",
+          "id": "kyoko-umemoto",
           "name": "Kyoko Umemoto"
         }
       ],
@@ -1117,17 +740,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 757,
+          "id": 757,
           "name": "Salandit"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 757,
-          "form": "757",
-          "name": "Salandit",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1137,7 +751,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "011",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -1155,49 +769,21 @@
             "front": {
               "image": "78792237198764d477efb47619380603"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "33",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "011"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "salandit-e93v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "012",
-      "name": "Salazzle",
+      "name": "エンニュート",
+      "englishName": "Salazzle",
       "number": {
         "printed": "012/051",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1205,7 +791,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -1216,17 +802,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 758,
+          "id": 758,
           "name": "Salazzle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 758,
-          "form": "758",
-          "name": "Salazzle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1236,7 +813,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "012",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -1254,49 +831,21 @@
             "front": {
               "image": "54f3afd120519297c6c509a9a493bc15"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "34",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "012"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "salazzle-ldbr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "013",
-      "name": "Psyduck",
+      "name": "コダック",
+      "englishName": "Psyduck",
       "number": {
         "printed": "013/051",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1304,7 +853,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nagimiso",
+          "id": "nagimiso",
           "name": "nagimiso"
         }
       ],
@@ -1315,17 +864,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 54,
+          "id": 54,
           "name": "Psyduck"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 54,
-          "form": "54",
-          "name": "Psyduck",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1335,7 +875,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "013",
-            "variant": "non-holo-mewtwo-16-silhouette-stamp"
+            "id": "non-holo-mewtwo-16-silhouette-stamp"
           }
         }
       },
@@ -1350,49 +890,21 @@
             "front": {
               "image": "21ede39fc593220c559d6ddf7c61e99e"
             }
-          },
-          "collectingVariation": "v-308ddac45380bd11a7df57e3baf4a85593e43a4a"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-16-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-308ddac45380bd11a7df57e3baf4a85593e43a4a",
-          "name": "Non-holo · Mewtwo 16 silhouette stamp",
-          "variants": [
-            "non-holo-mewtwo-16-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-16-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-308ddac45380bd11a7df57e3baf4a85593e43a4a",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "11",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-16-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "psyduck-18p8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "014",
-      "name": "Magikarp",
+      "name": "コイキング",
+      "englishName": "Magikarp",
       "number": {
         "printed": "014/051",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1400,7 +912,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shigenori-negishi",
+          "id": "shigenori-negishi",
           "name": "Shigenori Negishi"
         }
       ],
@@ -1411,17 +923,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 129,
+          "id": 129,
           "name": "Magikarp"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 129,
-          "form": "129",
-          "name": "Magikarp",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1431,7 +934,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "014",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -1449,59 +952,21 @@
             "front": {
               "image": "ab0084cfc0a9d8290343bca0e7804c51"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "058",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "magikarp-wub5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "015",
-      "name": "Gyarados-GX",
+      "name": "ギャラドスGX",
+      "englishName": "Gyarados-GX",
       "number": {
         "printed": "015/051",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1509,7 +974,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1520,17 +985,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 130,
+          "id": 130,
           "name": "Gyarados"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 130,
-          "form": "130",
-          "name": "Gyarados",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1540,7 +996,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "015",
-            "variant": "holo-mewtwo-silhouette-stamp"
+            "id": "holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -1558,59 +1014,21 @@
             "front": {
               "image": "6e64282971b4fbcbb49cdd06c78fd497"
             }
-          },
-          "collectingVariation": "v-dbbc0878d4e339dea5f42d1bc5fc73b894fc146e"
+          }
         }
       ],
-      "defaultCopy": "holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-dbbc0878d4e339dea5f42d1bc5fc73b894fc146e",
-          "name": "Holo · Mewtwo silhouette",
-          "variants": [
-            "holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-dbbc0878d4e339dea5f42d1bc5fc73b894fc146e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/battle-party-set-water-deck",
-              "card": "004",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "015"
-        }
-      }
+      "defaultVariant": "holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "gyarados-gx-2i0r" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "016",
-      "name": "Lapras",
+      "name": "ラプラス",
+      "englishName": "Lapras",
       "number": {
         "printed": "016/051",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1618,7 +1036,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kodama",
+          "id": "kodama",
           "name": "kodama"
         }
       ],
@@ -1629,17 +1047,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 131,
+          "id": 131,
           "name": "Lapras"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 131,
-          "form": "131",
-          "name": "Lapras",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1649,7 +1058,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "016",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -1667,49 +1076,21 @@
             "front": {
               "image": "1f5ea36ff04299392e33f39de752e9ce"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "016"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "lapras-6vxu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "017",
-      "name": "Pyukumuku",
+      "name": "ナマコブシ",
+      "englishName": "Pyukumuku",
       "number": {
         "printed": "017/051",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1717,7 +1098,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ooyama",
+          "id": "ooyama",
           "name": "OOYAMA"
         }
       ],
@@ -1728,17 +1109,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 771,
+          "id": 771,
           "name": "Pyukumuku"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 771,
-          "form": "771",
-          "name": "Pyukumuku",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1748,7 +1120,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "017",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -1766,49 +1138,21 @@
             "front": {
               "image": "b6508cac2b6e88f8905baa8fca777051"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "017"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pyukumuku-9mz6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "018",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "018/051",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1816,7 +1160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -1827,17 +1171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1847,7 +1182,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "018",
-            "variant": "non-holo-raichu-15-silhouette-stamp"
+            "id": "non-holo-raichu-15-silhouette-stamp"
           }
         }
       },
@@ -1865,8 +1200,7 @@
             "front": {
               "image": "60a647ebf3ea2142dec52a9682cd3b77"
             }
-          },
-          "collectingVariation": "v-0e4b92cb375f9586f86353bbeb4f99703d564f8f"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -1887,70 +1221,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "018",
-                "variant": "non-holo-raichu-15-silhouette-stamp"
+                "id": "non-holo-raichu-15-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-15-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-0e4b92cb375f9586f86353bbeb4f99703d564f8f",
-          "name": "Non-holo · Raichu 15 silhouette stamp",
-          "variants": [
-            "non-holo-raichu-15-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-15-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-0e4b92cb375f9586f86353bbeb4f99703d564f8f",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "19",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "079",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "018"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-15-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pikachu-am8q" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "019",
-      "name": "Raichu-GX",
+      "name": "ライチュウGX",
+      "englishName": "Raichu-GX",
       "number": {
         "printed": "019/051",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1958,7 +1246,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1969,17 +1257,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 26,
+          "id": 26,
           "name": "Raichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 26,
-          "form": "26",
-          "name": "Raichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1989,7 +1268,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "019",
-            "variant": "holo-raichu-silhouette-stamp"
+            "id": "holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -2007,59 +1286,21 @@
             "front": {
               "image": "5bfeb967b3b7781431329de3c9bd3d51"
             }
-          },
-          "collectingVariation": "v-b2f3a4ce789bbd73e834d707dea7867b463f05cf"
+          }
         }
       ],
-      "defaultCopy": "holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-b2f3a4ce789bbd73e834d707dea7867b463f05cf",
-          "name": "Holo · Raichu silhouette",
-          "variants": [
-            "holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-b2f3a4ce789bbd73e834d707dea7867b463f05cf",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "20",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/swsh-chinese-promos",
-              "card": "029",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "019"
-        }
-      }
+      "defaultVariant": "holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "raichu-gx-de9y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "020",
-      "name": "Voltorb",
+      "name": "ビリリダマ",
+      "englishName": "Voltorb",
       "number": {
         "printed": "020/051",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2067,7 +1308,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "satoshi-nakai",
+          "id": "satoshi-nakai",
           "name": "SATOSHI NAKAI"
         }
       ],
@@ -2078,17 +1319,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 100,
+          "id": 100,
           "name": "Voltorb"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 100,
-          "form": "100",
-          "name": "Voltorb",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2098,7 +1330,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "020",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -2116,59 +1348,21 @@
             "front": {
               "image": "c25f4b33281e725cf2a74eec1d5703b3"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "086",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "020"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "voltorb-yoi2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "021",
-      "name": "Electrode",
+      "name": "マルマイン",
+      "englishName": "Electrode",
       "number": {
         "printed": "021/051",
-        "numerator": "021"
+        "short": "021"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2176,7 +1370,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "anesaki-dynamic",
+          "id": "anesaki-dynamic",
           "name": "Anesaki Dynamic"
         }
       ],
@@ -2187,17 +1381,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 101,
+          "id": 101,
           "name": "Electrode"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 101,
-          "form": "101",
-          "name": "Electrode",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2207,7 +1392,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "021",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -2225,59 +1410,21 @@
             "front": {
               "image": "ac0528142ccfcfe73b4cc7612871e2fb"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "087",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "021"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "electrode-ka9v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "022",
-      "name": "Togedemaru",
+      "name": "トゲデマル",
+      "englishName": "Togedemaru",
       "number": {
         "printed": "022/051",
-        "numerator": "022"
+        "short": "022"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2285,7 +1432,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "misa-tsutsui",
+          "id": "misa-tsutsui",
           "name": "Misa Tsutsui"
         }
       ],
@@ -2296,17 +1443,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 777,
+          "id": 777,
           "name": "Togedemaru"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 777,
-          "form": "777",
-          "name": "Togedemaru",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2316,7 +1454,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "022",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -2334,59 +1472,21 @@
             "front": {
               "image": "5c75af25bf39730bb2708c452532dc58"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/cosmic-eclipse",
-              "card": "74",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/swsh-chinese-promos",
-              "card": "074",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "022"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "togedemaru-g2k6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "023",
-      "name": "Ekans",
+      "name": "アーボ",
+      "englishName": "Ekans",
       "number": {
         "printed": "023/051",
-        "numerator": "023"
+        "short": "023"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2394,7 +1494,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -2405,17 +1505,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 23,
+          "id": 23,
           "name": "Ekans"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 23,
-          "form": "23",
-          "name": "Ekans",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2425,7 +1516,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "023",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -2443,59 +1534,21 @@
             "front": {
               "image": "079a91cc157d5e9b6dba72736a533b48"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "109",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "023"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "ekans-dmwz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "024",
-      "name": "Jynx",
+      "name": "ルージュラ",
+      "englishName": "Jynx",
       "number": {
         "printed": "024/051",
-        "numerator": "024"
+        "short": "024"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2503,7 +1556,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -2514,17 +1567,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 124,
+          "id": 124,
           "name": "Jynx"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 124,
-          "form": "124",
-          "name": "Jynx",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2534,7 +1578,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "024",
-            "variant": "non-holo-mewtwo-1-silhouette-stamp"
+            "id": "non-holo-mewtwo-1-silhouette-stamp"
           }
         }
       },
@@ -2552,8 +1596,7 @@
             "front": {
               "image": "989261852c1f79e73a995480a46df2a5"
             }
-          },
-          "collectingVariation": "v-bf165faa1e80de3184faae5661d7b494691761d0"
+          }
         },
         {
           "id": "non-holo-mewtwo-silhouette-stamp",
@@ -2574,60 +1617,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "024",
-                "variant": "non-holo-mewtwo-1-silhouette-stamp"
+                "id": "non-holo-mewtwo-1-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-1-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bf165faa1e80de3184faae5661d7b494691761d0",
-          "name": "Non-holo · Mewtwo 1 silhouette stamp",
-          "variants": [
-            "non-holo-mewtwo-1-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-1-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-bf165faa1e80de3184faae5661d7b494691761d0",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "024"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-1-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "jynx-7z0u" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "025",
-      "name": "Mewtwo-GX",
+      "name": "ミュウツーGX",
+      "englishName": "Mewtwo-GX",
       "number": {
         "printed": "025/051",
-        "numerator": "025"
+        "short": "025"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2635,7 +1642,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aky-cg-works",
+          "id": "aky-cg-works",
           "name": "aky CG Works"
         }
       ],
@@ -2646,17 +1653,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 150,
+          "id": 150,
           "name": "Mewtwo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 150,
-          "form": "150",
-          "name": "Mewtwo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2666,7 +1664,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "025",
-            "variant": "holo-mewtwo-silhouette-stamp"
+            "id": "holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -2684,59 +1682,21 @@
             "front": {
               "image": "7491328ea02ca7170d7f68439decd087"
             }
-          },
-          "collectingVariation": "v-dbbc0878d4e339dea5f42d1bc5fc73b894fc146e"
+          }
         }
       ],
-      "defaultCopy": "holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-dbbc0878d4e339dea5f42d1bc5fc73b894fc146e",
-          "name": "Holo · Mewtwo silhouette",
-          "variants": [
-            "holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-dbbc0878d4e339dea5f42d1bc5fc73b894fc146e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "31",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/sm-chinese-promos",
-              "card": "024",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "025"
-        }
-      }
+      "defaultVariant": "holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "mewtwo-gx-yxsa" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "026",
-      "name": "Mew",
+      "name": "ミュウ",
+      "englishName": "Mew",
       "number": {
         "printed": "026/051",
-        "numerator": "026"
+        "short": "026"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2744,7 +1704,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -2755,17 +1715,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2775,7 +1726,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "026",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -2793,49 +1744,21 @@
             "front": {
               "image": "1491b845a2d49c7dca7b40b9407718d3"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "32",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "026"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "mew-e7om" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "027",
-      "name": "Mareanie",
+      "name": "ヒドイデ",
+      "englishName": "Mareanie",
       "number": {
         "printed": "027/051",
-        "numerator": "027"
+        "short": "027"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2843,7 +1766,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "saya-tsuruta",
+          "id": "saya-tsuruta",
           "name": "Saya Tsuruta"
         }
       ],
@@ -2854,17 +1777,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 747,
+          "id": 747,
           "name": "Mareanie"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 747,
-          "form": "747",
-          "name": "Mareanie",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2874,7 +1788,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "027",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -2892,49 +1806,21 @@
             "front": {
               "image": "be3d5575800fa2ef2e7ffeacc6104b65"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "96",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "027"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "mareanie-we0e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "028",
-      "name": "Toxapex",
+      "name": "ドヒドイデ",
+      "englishName": "Toxapex",
       "number": {
         "printed": "028/051",
-        "numerator": "028"
+        "short": "028"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2942,7 +1828,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "chibi",
+          "id": "chibi",
           "name": "chibi"
         }
       ],
@@ -2953,17 +1839,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 748,
+          "id": 748,
           "name": "Toxapex"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 748,
-          "form": "748",
-          "name": "Toxapex",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2973,7 +1850,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "028",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -2991,49 +1868,21 @@
             "front": {
               "image": "a8044220d2cddc512eb4ecfb1fbe1a62"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "97",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "028"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "toxapex-85c2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "029",
-      "name": "Clefairy",
+      "name": "ピッピ",
+      "englishName": "Clefairy",
       "number": {
         "printed": "029/051",
-        "numerator": "029"
+        "short": "029"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3041,7 +1890,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -3052,17 +1901,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 35,
+          "id": 35,
           "name": "Clefairy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 35,
-          "form": "35",
-          "name": "Clefairy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3072,7 +1912,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "029",
-            "variant": "non-holo-raichu-1-silhouette-stamp"
+            "id": "non-holo-raichu-1-silhouette-stamp"
           }
         }
       },
@@ -3090,8 +1930,7 @@
             "front": {
               "image": "724724f8e19a619936bae7a45d9dcfd4"
             }
-          },
-          "collectingVariation": "v-adc56b900a9f2d6ef97802c601c7b18be9caf116"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -3112,60 +1951,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "029",
-                "variant": "non-holo-raichu-1-silhouette-stamp"
+                "id": "non-holo-raichu-1-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-1-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-adc56b900a9f2d6ef97802c601c7b18be9caf116",
-          "name": "Non-holo · Raichu 1 silhouette stamp",
-          "variants": [
-            "non-holo-raichu-1-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-1-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-adc56b900a9f2d6ef97802c601c7b18be9caf116",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "029"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-1-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "clefairy-dchd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "030",
-      "name": "Clefable",
+      "name": "ピクシー",
+      "englishName": "Clefable",
       "number": {
         "printed": "030/051",
-        "numerator": "030"
+        "short": "030"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3173,7 +1976,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sui",
+          "id": "sui",
           "name": "sui"
         }
       ],
@@ -3184,17 +1987,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 36,
+          "id": 36,
           "name": "Clefable"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 36,
-          "form": "36",
-          "name": "Clefable",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3204,7 +1998,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "030",
-            "variant": "non-holo-raichu-17-silhouette-stamp"
+            "id": "non-holo-raichu-17-silhouette-stamp"
           }
         }
       },
@@ -3222,8 +2016,7 @@
             "front": {
               "image": "2fb639c1a3c5d0427635059dc506483a"
             }
-          },
-          "collectingVariation": "v-6d2c10f7058a9b552051614b85e55e42b319213c"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -3244,60 +2037,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "030",
-                "variant": "non-holo-raichu-17-silhouette-stamp"
+                "id": "non-holo-raichu-17-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-17-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-6d2c10f7058a9b552051614b85e55e42b319213c",
-          "name": "Non-holo · Raichu 17 silhouette stamp",
-          "variants": [
-            "non-holo-raichu-17-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-17-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-6d2c10f7058a9b552051614b85e55e42b319213c",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "030"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-17-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "clefable-gmf6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "031",
-      "name": "Jigglypuff",
+      "name": "プリン",
+      "englishName": "Jigglypuff",
       "number": {
         "printed": "031/051",
-        "numerator": "031"
+        "short": "031"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3305,7 +2062,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -3316,17 +2073,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 39,
+          "id": 39,
           "name": "Jigglypuff"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 39,
-          "form": "39",
-          "name": "Jigglypuff",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3336,7 +2084,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "031",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -3354,59 +2102,21 @@
             "front": {
               "image": "ba68fc8376937fcae051c22925424c2a"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "41",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-summon",
-              "card": "077",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "031"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "jigglypuff-e36n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "032",
-      "name": "Wigglytuff-GX",
+      "name": "プクリンGX",
+      "englishName": "Wigglytuff-GX",
       "number": {
         "printed": "032/051",
-        "numerator": "032"
+        "short": "032"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3414,7 +2124,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3425,17 +2135,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 40,
+          "id": 40,
           "name": "Wigglytuff"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 40,
-          "form": "40",
-          "name": "Wigglytuff",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3445,7 +2146,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "032",
-            "variant": "holo-raichu-silhouette-stamp"
+            "id": "holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -3463,49 +2164,21 @@
             "front": {
               "image": "d9daaba5a7440132dcc6e093e7c01789"
             }
-          },
-          "collectingVariation": "v-b2f3a4ce789bbd73e834d707dea7867b463f05cf"
+          }
         }
       ],
-      "defaultCopy": "holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-b2f3a4ce789bbd73e834d707dea7867b463f05cf",
-          "name": "Holo · Raichu silhouette",
-          "variants": [
-            "holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-b2f3a4ce789bbd73e834d707dea7867b463f05cf",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "42",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "032"
-        }
-      }
+      "defaultVariant": "holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "wigglytuff-gx-pvsc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "033",
-      "name": "Mr. Mime",
+      "name": "バリヤード",
+      "englishName": "Mr. Mime",
       "number": {
         "printed": "033/051",
-        "numerator": "033"
+        "short": "033"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3513,7 +2186,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hideki-ishikawa",
+          "id": "hideki-ishikawa",
           "name": "Hideki Ishikawa"
         }
       ],
@@ -3524,17 +2197,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 122,
+          "id": 122,
           "name": "Mr. Mime"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 122,
-          "form": "122",
-          "name": "Mr. Mime",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3544,7 +2208,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "033",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -3562,49 +2226,21 @@
             "front": {
               "image": "e6ebb29738f26d516ebf9677c9ab66b1"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "033"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "mr-mime-21s3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "034",
-      "name": "Farfetch'd",
+      "name": "カモネギ",
+      "englishName": "Farfetch'd",
       "number": {
         "printed": "034/051",
-        "numerator": "034"
+        "short": "034"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3612,7 +2248,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eri-yamaki",
+          "id": "eri-yamaki",
           "name": "Eri Yamaki"
         }
       ],
@@ -3623,17 +2259,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 83,
+          "id": 83,
           "name": "Farfetch’d"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 83,
-          "form": "83",
-          "name": "Farfetch’d",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3643,7 +2270,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "034",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -3661,49 +2288,21 @@
             "front": {
               "image": "6ca92b5b66253f0d805df252ccc684d6"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "45",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "034"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "farfetch-d-w4q5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "035",
-      "name": "Chansey",
+      "name": "ラッキー",
+      "englishName": "Chansey",
       "number": {
         "printed": "035/051",
-        "numerator": "035"
+        "short": "035"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3711,7 +2310,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sowsow",
+          "id": "sowsow",
           "name": "sowsow"
         }
       ],
@@ -3722,17 +2321,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 113,
+          "id": 113,
           "name": "Chansey"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 113,
-          "form": "113",
-          "name": "Chansey",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3742,7 +2332,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "035",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -3760,49 +2350,21 @@
             "front": {
               "image": "31f5076bd9a43d4bc23a2ae3d5ae459f"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "46",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "035"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "chansey-25mt" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "036",
-      "name": "Kangaskhan",
+      "name": "ガルーラ",
+      "englishName": "Kangaskhan",
       "number": {
         "printed": "036/051",
-        "numerator": "036"
+        "short": "036"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3810,7 +2372,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "you-iribi",
+          "id": "you-iribi",
           "name": "You Iribi"
         }
       ],
@@ -3821,17 +2383,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 115,
+          "id": 115,
           "name": "Kangaskhan"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 115,
-          "form": "115",
-          "name": "Kangaskhan",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3841,7 +2394,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "036",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -3859,59 +2412,21 @@
             "front": {
               "image": "8018e17fc3bf275290f714b28ed6fb18"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "47",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "210",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "036"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "kangaskhan-2tc1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "037",
-      "name": "Eevee",
+      "name": "イーブイ",
+      "englishName": "Eevee",
       "number": {
         "printed": "037/051",
-        "numerator": "037"
+        "short": "037"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3919,7 +2434,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -3930,17 +2445,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 133,
+          "id": 133,
           "name": "Eevee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 133,
-          "form": "133",
-          "name": "Eevee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3950,7 +2456,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "037",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -3968,49 +2474,21 @@
             "front": {
               "image": "d2557bb3e7cb673e82870cb833320ecb"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "49",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "037"
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "eevee-xi2i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "038",
-      "name": "Snorlax",
+      "name": "カビゴン",
+      "englishName": "Snorlax",
       "number": {
         "printed": "038/051",
-        "numerator": "038"
+        "short": "038"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -4018,7 +2496,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -4029,17 +2507,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 143,
+          "id": 143,
           "name": "Snorlax"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 143,
-          "form": "143",
-          "name": "Snorlax",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4049,7 +2518,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "038",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -4067,49 +2536,21 @@
             "front": {
               "image": "d06c3b9421ab65a8e3916b1c3ebf885e"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "50",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "038"
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "snorlax-abu2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "039",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "039/051",
-        "numerator": "039"
+        "short": "039"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4117,7 +2558,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -4132,7 +2573,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "039",
-            "variant": "non-holo-raichu-16-silhouette-stamp"
+            "id": "non-holo-raichu-16-silhouette-stamp"
           }
         }
       },
@@ -4150,8 +2591,7 @@
             "front": {
               "image": "7bcf0739b1e6bcaa9dffcc11d4329485"
             }
-          },
-          "collectingVariation": "v-2ac94e2b505896b489c298e46e9fe3fc1c01de40"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -4172,91 +2612,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "039",
-                "variant": "non-holo-raichu-16-silhouette-stamp"
+                "id": "non-holo-raichu-16-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-16-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-2ac94e2b505896b489c298e46e9fe3fc1c01de40",
-          "name": "Non-holo · Raichu 16 silhouette stamp",
-          "variants": [
-            "non-holo-raichu-16-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-16-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-2ac94e2b505896b489c298e46e9fe3fc1c01de40",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "127",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "039"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "237",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "039"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "painting": "039"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "card": "039",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-raichu-16-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "potion-b463" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "040",
-      "name": "Crushing Hammer",
+      "name": "クラッシュハンマー",
+      "englishName": "Crushing Hammer",
       "number": {
         "printed": "040/051",
-        "numerator": "040"
+        "short": "040"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4264,7 +2637,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yoshinobu-saito",
+          "id": "yoshinobu-saito",
           "name": "Yoshinobu Saito"
         }
       ],
@@ -4279,7 +2652,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "040",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -4297,81 +2670,21 @@
             "front": {
               "image": "09780f98898affc87083833cc2b6016b"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "115",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "053"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "239",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "053"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-sun",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-sun",
-          "card": "053",
-          "differs": [
-            "stamp",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "crushing-hammer-ogc6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "041",
-      "name": "Great Ball",
+      "name": "スーパーボール",
+      "englishName": "Great Ball",
       "number": {
         "printed": "041/051",
-        "numerator": "041"
+        "short": "041"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4379,7 +2692,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4394,7 +2707,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "041",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -4412,8 +2725,7 @@
             "front": {
               "image": "9544899c93d171290bfe44ed42d7c706"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-mewtwo-silhouette-stamp",
@@ -4434,11 +2746,10 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "041",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -4459,125 +2770,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "041",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp"
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "119",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "041"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "60",
-              "language": "en",
-              "printCount": 9,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "041"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "240",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "041"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "250",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "041"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "painting": "041"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "card": "041",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "great-ball-yafp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "042",
-      "name": "Rare Candy",
+      "name": "ふしぎなアメ",
+      "englishName": "Rare Candy",
       "number": {
         "printed": "042/051",
-        "numerator": "042"
+        "short": "042"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4585,7 +2795,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -4600,7 +2810,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "042",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -4618,93 +2828,21 @@
             "front": {
               "image": "9f0a414f5c694b39ee7fcfb160682bbb"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "129",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "045"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-verdant",
-              "card": "123",
-              "language": "zh-Hans",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "045"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "253",
-              "language": "zh-Hans",
-              "printCount": 7,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "045"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "painting": "045"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "card": "045",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "rare-candy-ehu3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "043",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "043/051",
-        "numerator": "043"
+        "short": "043"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4712,7 +2850,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4727,7 +2865,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "043",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -4745,8 +2883,7 @@
             "front": {
               "image": "bb5866ed7141c7ee57d7761eaa50a70c"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-mewtwo-silhouette-stamp",
@@ -4767,11 +2904,10 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "043",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -4792,126 +2928,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "043",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp"
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "132",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-moon",
-                "card": "056"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "67",
-              "language": "en",
-              "printCount": 3,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-moon",
-                "card": "056"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "257",
-              "language": "zh-Hans",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-moon",
-                "card": "056"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "263",
-              "language": "zh-Hans",
-              "printCount": 9,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-moon",
-                "card": "056"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-moon",
-          "painting": "056"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-moon",
-          "card": "056",
-          "differs": [
-            "stamp",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "switch-ium5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "044",
-      "name": "Pokémon Catcher",
+      "name": "ポケモンキャッチャー",
+      "englishName": "Pokémon Catcher",
       "number": {
         "printed": "044/051",
-        "numerator": "044"
+        "short": "044"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4919,7 +2953,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -4934,7 +2968,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "044",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -4952,8 +2986,7 @@
             "front": {
               "image": "dc3676b2d2363962e7910d0904a131e2"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-mewtwo-silhouette-stamp",
@@ -4974,11 +3007,10 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "044",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -4999,125 +3031,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "044",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp"
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "126",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "047"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "64",
-              "language": "en",
-              "printCount": 3,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "047"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "258",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "047"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "264",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "047"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "painting": "047"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "card": "047",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-vryg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "045",
-      "name": "Ilima",
+      "name": "イリマ",
+      "englishName": "Ilima",
       "number": {
         "printed": "045/051",
-        "numerator": "045"
+        "short": "045"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5125,7 +3056,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5133,10 +3064,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00044"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "ilima",
+          "id": "ilima",
           "name": "Ilima",
           "role": "subject"
         }
@@ -5148,7 +3079,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "045",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -5166,8 +3097,7 @@
             "front": {
               "image": "48113302a6d038d53515a8b2ec59cec3"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -5188,92 +3118,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "045",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "121",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "058"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "274",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "058"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-sun",
-          "painting": "058"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-sun",
-          "card": "058",
-          "differs": [
-            "stamp",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "ilima-rhc2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "046",
-      "name": "Professor Kukui",
+      "name": "ククイ博士",
+      "englishName": "Professor Kukui",
       "number": {
         "printed": "046/051",
-        "numerator": "046"
+        "short": "046"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5281,7 +3143,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5289,10 +3151,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00045"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-kukui",
+          "id": "professor-kukui",
           "name": "Professor Kukui",
           "role": "subject"
         }
@@ -5304,7 +3166,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "046",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -5322,94 +3184,21 @@
             "front": {
               "image": "92c734a79466fcb84b2ed58c6d856a70"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "128",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "059"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-abundant",
-              "card": "139",
-              "language": "zh-Hans",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "059"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "280",
-              "language": "zh-Hans",
-              "printCount": 4,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-sun",
-                "card": "059"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-sun",
-          "painting": "059"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-sun",
-          "card": "059",
-          "differs": [
-            "stamp",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "professor-kukui-hdl9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "047",
-      "name": "Judge",
+      "name": "ジャッジマン",
+      "englishName": "Judge",
       "number": {
         "printed": "047/051",
-        "numerator": "047"
+        "short": "047"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5417,7 +3206,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -5425,10 +3214,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00046"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "judge",
+          "id": "judge",
           "name": "Judge",
           "role": "subject"
         }
@@ -5440,7 +3229,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "047",
-            "variant": "non-holo-mewtwo-silhouette-stamp"
+            "id": "non-holo-mewtwo-silhouette-stamp"
           }
         }
       },
@@ -5458,81 +3247,21 @@
             "front": {
               "image": "42bbf908026bbe099a756f39f158d5b5"
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         }
       ],
-      "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/forbidden-light",
-              "card": "108",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/forbidden-light",
-                "card": "087"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "284",
-              "language": "zh-Hans",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/forbidden-light",
-                "card": "087"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/forbidden-light",
-          "painting": "087"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/forbidden-light",
-          "card": "087",
-          "differs": [
-            "stamp",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-mewtwo-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "judge-w91a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "048",
-      "name": "Cynthia",
+      "name": "シロナ",
+      "englishName": "Cynthia",
       "number": {
         "printed": "048/051",
-        "numerator": "048"
+        "short": "048"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5540,7 +3269,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5548,10 +3277,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00047"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cynthia",
+          "id": "cynthia",
           "name": "Cynthia",
           "role": "subject"
         }
@@ -5563,7 +3292,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "048",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -5581,8 +3310,7 @@
             "front": {
               "image": "06f6bf6a78b4384fa88832f71b7089ab"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-mewtwo-silhouette-stamp",
@@ -5603,11 +3331,10 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "048",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -5628,112 +3355,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "048",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp"
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ultra-prism",
-              "card": "119",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/solgaleo-gx-lunala-gx-legendary-starter-set",
-                "card": "017"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-abundant",
-              "card": "141",
-              "language": "zh-Hans",
-              "printCount": 11,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/solgaleo-gx-lunala-gx-legendary-starter-set",
-                "card": "017"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "285",
-              "language": "zh-Hans",
-              "printCount": 11,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/solgaleo-gx-lunala-gx-legendary-starter-set",
-                "card": "017"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/solgaleo-gx-lunala-gx-legendary-starter-set",
-          "painting": "017"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/solgaleo-gx-lunala-gx-legendary-starter-set",
-          "card": "017",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "cynthia-tr75" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "049",
-      "name": "Hau",
+      "name": "ハウ",
+      "englishName": "Hau",
       "number": {
         "printed": "049/051",
-        "numerator": "049"
+        "short": "049"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5741,7 +3380,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5749,10 +3388,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00048"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "hau",
+          "id": "hau",
           "name": "Hau",
           "role": "subject"
         }
@@ -5764,7 +3403,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "049",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -5782,8 +3421,7 @@
             "front": {
               "image": "66885f5c8e1be9bcad8fd38b4dbc8817"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-mewtwo-15-silhouette-stamp",
@@ -5804,11 +3442,10 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "049",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-5ee69d7b8fc7dc7e88cabf69eb9ada1e11f1c960"
+          }
         },
         {
           "id": "non-holo-mewtwo-silhouette-stamp",
@@ -5829,11 +3466,10 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "049",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-d4105f82b582955381c4e4172a73d0d41f58dc51"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -5854,120 +3490,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "049",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-5ee69d7b8fc7dc7e88cabf69eb9ada1e11f1c960",
-          "name": "Non-holo · Mewtwo 15 silhouette stamp",
-          "variants": [
-            "non-holo-mewtwo-15-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-15-silhouette-stamp"
-        },
-        {
-          "id": "v-d4105f82b582955381c4e4172a73d0d41f58dc51",
-          "name": "Non-holo · Mewtwo silhouette",
-          "variants": [
-            "non-holo-mewtwo-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-mewtwo-silhouette-stamp"
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "120",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "056"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "61",
-              "language": "en",
-              "printCount": 9,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "056"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "295",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-                "card": "056"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "painting": "056"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "card": "056",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "hau-4rj0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "050",
-      "name": "Pokémon Center Lady",
+      "name": "ポケモンセンターのお姉さん",
+      "englishName": "Pokémon Center Lady",
       "number": {
         "printed": "050/051",
-        "numerator": "050"
+        "short": "050"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5975,7 +3515,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tokiya",
+          "id": "tokiya",
           "name": "TOKIYA"
         }
       ],
@@ -5983,10 +3523,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00049"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "pokemon-center-lady",
+          "id": "pokemon-center-lady",
           "name": "Pokémon Center Lady",
           "role": "subject"
         }
@@ -5998,7 +3538,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "050",
-            "variant": "non-holo-raichu-silhouette-stamp"
+            "id": "non-holo-raichu-silhouette-stamp"
           }
         }
       },
@@ -6016,68 +3556,21 @@
             "front": {
               "image": "02b49f6085b65097c27b90705b7d944d"
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-raichu-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/hidden-fates",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "316",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/trainer-battle-decks",
-          "painting": "027"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/trainer-battle-decks",
-          "card": "027",
-          "differs": [
-            "stamp",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-raichu-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pokemon-center-lady-i6z7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "051",
-      "name": "Bug Catcher",
+      "name": "むしとりしょうねん",
+      "englishName": "Bug Catcher",
       "number": {
         "printed": "051/051",
-        "numerator": "051"
+        "short": "051"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -6085,7 +3578,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -6093,10 +3586,10 @@
         "date": "2019-03-15",
         "sort": "2019-03-15.00 japanese/sun-moon-family-pokemon-card-game 00050"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bug-catcher",
+          "id": "bug-catcher",
           "name": "Bug Catcher",
           "role": "subject"
         }
@@ -6108,7 +3601,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "051",
-            "variant": "non-holo-charizard-silhouette-stamp"
+            "id": "non-holo-charizard-silhouette-stamp"
           }
         }
       },
@@ -6126,8 +3619,7 @@
             "front": {
               "image": "5091a70ca7ff611dbbb391bf1a3124da"
             }
-          },
-          "collectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003"
+          }
         },
         {
           "id": "non-holo-raichu-silhouette-stamp",
@@ -6148,70 +3640,24 @@
                 "$kind": "variant",
                 "set": "japanese/sun-moon-family-pokemon-card-game",
                 "card": "051",
-                "variant": "non-holo-charizard-silhouette-stamp"
+                "id": "non-holo-charizard-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-bab42fefb174282750e92c68bfbaab7e6708226e"
+          }
         }
       ],
-      "defaultCopy": "non-holo-charizard-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-          "name": "Non-holo · Charizard silhouette",
-          "variants": [
-            "non-holo-charizard-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-charizard-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-bab42fefb174282750e92c68bfbaab7e6708226e",
-          "name": "Non-holo · Raichu silhouette",
-          "variants": [
-            "non-holo-raichu-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-raichu-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-4cd88b3ec168261ade13359a75f3405ab6810003",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unified-minds",
-              "card": "189",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-gx-starter-deck",
-              "card": "326",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sun-moon-family-pokemon-card-game",
-          "painting": "051"
-        }
-      }
+      "defaultVariant": "non-holo-charizard-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "bug-catcher-9sfy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "fai",
-      "name": "Basic Fairy Energy",
+      "name": "基本【妖】エネルギー",
+      "englishName": "Basic Fairy Energy",
       "number": {
         "printed": "FAI",
-        "numerator": "FAI"
+        "short": "FAI"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6226,7 +3672,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "fai",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6239,30 +3685,21 @@
             "front": {
               "image": "ec36fa36ffc00b6cbdbf3b8e147544c0"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "basic-fairy-energy-evvk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "fir",
-      "name": "Basic Fire Energy",
+      "name": "基本炎エネルギー",
+      "englishName": "Basic Fire Energy",
       "number": {
         "printed": "FIR",
-        "numerator": "FIR"
+        "short": "FIR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6277,7 +3714,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "fir",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6290,30 +3727,21 @@
             "front": {
               "image": "2aac36888501c9affdcd55c087ed368a"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "basic-fire-energy-cr98" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "gra",
-      "name": "Basic Grass Energy",
+      "name": "基本草エネルギー",
+      "englishName": "Basic Grass Energy",
       "number": {
         "printed": "GRA",
-        "numerator": "GRA"
+        "short": "GRA"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6328,7 +3756,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "gra",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6341,30 +3769,21 @@
             "front": {
               "image": "d8085a81c1e23d657c85b4e204195937"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "basic-grass-energy-cs6e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "lig",
-      "name": "Basic Lightning Energy",
+      "name": "基本雷エネルギー",
+      "englishName": "Basic Lightning Energy",
       "number": {
         "printed": "LIG",
-        "numerator": "LIG"
+        "short": "LIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6379,7 +3798,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "lig",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6392,30 +3811,21 @@
             "front": {
               "image": "f91bcade361d29452a2ed4ff301858e5"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "basic-lightning-energy-08rl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "psy",
-      "name": "Basic Psychic Energy",
+      "name": "基本超エネルギー",
+      "englishName": "Basic Psychic Energy",
       "number": {
         "printed": "PSY",
-        "numerator": "PSY"
+        "short": "PSY"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6430,7 +3840,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "psy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6443,30 +3853,21 @@
             "front": {
               "image": "70c1d30c9b2504e56f4475730b3e9e28"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "basic-psychic-energy-zlka" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/sun-moon-family-pokemon-card-game",
       "id": "wat",
-      "name": "Basic Water Energy",
+      "name": "基本水エネルギー",
+      "englishName": "Basic Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6481,7 +3882,7 @@
             "$kind": "variant",
             "set": "japanese/sun-moon-family-pokemon-card-game",
             "card": "wat",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6494,23 +3895,11 @@
             "front": {
               "image": "ae6b10919b4fa9f0c1b887580bbdce82"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "basic-water-energy-l0i4" }
     }
   ]
 }

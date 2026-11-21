@@ -1,66 +1,50 @@
 {
   "id": "zh-hans/shining-pokemon-poke-ball-gift-box",
   "catalog": "zh-hans",
-  "name": "Shining Pokémon Poké Ball Gift Box",
+  "name": "精灵球礼盒 闪耀宝可梦",
+  "englishName": "Shining Pokémon Poké Ball Gift Box",
   "era": {
     "$kind": "era",
-    "era": "zh-hans/sun-moon",
-    "name": "Sun & Moon"
+    "id": "zh-hans/sun-moon",
+    "name": "太阳&月亮",
+    "englishName": "Sun & Moon"
   },
   "type": "box",
   "language": "zh-Hans",
   "printedTotal": 10,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2023-03-17"
   },
   "code": "CSMJC",
+  "printedCode": "CSMJC",
   "logo": "8d8eb3f8fb9db3249d264aeb32d9f3ed",
   "symbol": "f91190ca61cc76aaf82112e83013004d",
-  "releases": [
-    {
-      "language": "zh-Hans",
-      "name": "Shining Pokémon Poké Ball Gift Box",
-      "code": "CSMJC",
-      "released": {
-        "date": "2023-03-17"
-      },
-      "logo": "8d8eb3f8fb9db3249d264aeb32d9f3ed",
-      "symbol": "f91190ca61cc76aaf82112e83013004d"
-    }
-  ],
   "description": {
-    "text": "The Shining Pokémon Poké Ball Gift Box (精灵球礼盒：闪耀宝可梦) is a tin Poké Ball holding one random Shining Pokémon card, one Poké Ball holo card and a 25-card Shining Synergy booster pack, Shower, Supreme or Summon at random. It brought Shining Pokémon cards to the Simplified Chinese game for the first time: Celebi, Genesect, Ho-Oh, Volcanion, Mew, Jirachi, Rayquaza, Lugia and Arceus.\n\nWith luck, a random Pokémon-GX holo took the Poké Ball card's place. These are rainbow Palkia-GX, Mewtwo-GX, Yveltal-GX, Dialga-GX and Xerneas-GX, numbered 011 to 015, past the set's 10. The box was due on 17 February 2023 but was delayed while its packaging was changed, and came out on 17 March.",
-    "sources": [
-      {
-        "title": "Pokémon China: The Shining Pokémon Poké Ball Gift Box is coming (3 March 2023)",
-        "url": "https://www.pokemon.cn/tcg/product/16330.html"
-      },
-      {
-        "title": "Pokémon China: Shining Pokémon Poké Ball Gift Box delayed (13 February 2023)",
-        "url": "https://www.pokemon.cn/tcg/other/17195.html"
-      }
-    ]
+    "text": "The Shining Pokémon Poké Ball Gift Box (精灵球礼盒：闪耀宝可梦) is a tin Poké Ball holding one random Shining Pokémon card, one Poké Ball holo card and a 25-card Shining Synergy booster pack, Shower, Supreme or Summon at random. It brought Shining Pokémon cards to the Simplified Chinese game for the first time: Celebi, Genesect, Ho-Oh, Volcanion, Mew, Jirachi, Rayquaza, Lugia and Arceus.\n\nWith luck, a random Pokémon-GX holo took the Poké Ball card's place. These are rainbow Palkia-GX, Mewtwo-GX, Yveltal-GX, Dialga-GX and Xerneas-GX, numbered 011 to 015, past the set's 10. The box was due on 17 February 2023 but was delayed while its packaging was changed, and came out on 17 March."
   },
   "tell": {
-    "text": "A \"CSMJC\" mark at the bottom left, and a number out of 010",
-    "sources": [
-      {
-        "title": "Pokémon China: The Shining Pokémon Poké Ball Gift Box is coming (3 March 2023)",
-        "url": "https://www.pokemon.cn/tcg/product/16330.html"
-      },
-      {
-        "title": "Pokémon China: Shining Pokémon Poké Ball Gift Box delayed (13 February 2023)",
-        "url": "https://www.pokemon.cn/tcg/other/17195.html"
-      }
-    ]
+    "text": "A \"CSMJC\" mark at the bottom left, and a number out of 010"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "japanese/shining-legends",
+      "id": "korean/shining-legends",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "english/shining-legends",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/shining-legends",
       "relation": "subset_of",
       "direction": "outgoing",
       "sameCardCount": 9
@@ -68,11 +52,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "001",
       "name": "Shining Celebi",
+      "englishName": "Shining Celebi",
       "number": {
         "printed": "001/010",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -80,7 +67,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -91,17 +78,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 251,
+          "id": 251,
           "name": "Celebi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 251,
-          "form": "251",
-          "name": "Celebi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -111,7 +89,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -125,59 +103,21 @@
             "front": {
               "image": "01a169cd9e95934cafee8bfc686dbcd7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm79",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "004",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-celebi-v4go" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "002",
       "name": "Shining Genesect",
+      "englishName": "Shining Genesect",
       "number": {
         "printed": "002/010",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -185,7 +125,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -196,17 +136,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 649,
+          "id": 649,
           "name": "Genesect"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 649,
-          "form": "649",
-          "name": "Genesect",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -216,7 +147,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -230,59 +161,21 @@
             "front": {
               "image": "0ab2602b9f2b2645219e261a67f395b6"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "9",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "010",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "010"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-genesect-67kv" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "003",
       "name": "Shining Ho-Oh",
+      "englishName": "Shining Ho-Oh",
       "number": {
         "printed": "003/010",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -290,7 +183,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -301,17 +194,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 250,
+          "id": 250,
           "name": "Ho-Oh"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 250,
-          "form": "250",
-          "name": "Ho-Oh",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -321,7 +205,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -335,59 +219,21 @@
             "front": {
               "image": "5d2063c8ca5d5a4c8294ec9509d71b7f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm70",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/sun-moon-promos",
-              "card": "083",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/sm-black-star-promos",
-          "painting": "sm70"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-ho-oh-em3a" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "004",
       "name": "Shining Volcanion",
+      "englishName": "Shining Volcanion",
       "number": {
         "printed": "004/010",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -395,7 +241,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -406,17 +252,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 721,
+          "id": 721,
           "name": "Volcanion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 721,
-          "form": "721",
-          "name": "Volcanion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -426,7 +263,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -440,59 +277,21 @@
             "front": {
               "image": "d487fcdbee4f75af4b1ac7892fec5279"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "27",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "028",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "028"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-volcanion-sxhm" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "005",
       "name": "Shining Mew",
+      "englishName": "Shining Mew",
       "number": {
         "printed": "005/010",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -500,7 +299,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -511,17 +310,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +321,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -545,59 +335,21 @@
             "front": {
               "image": "5063363413d17c9d91de573614db6e3d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "041",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "041"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-mew-j2ye" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "006",
       "name": "Shining Jirachi",
+      "englishName": "Shining Jirachi",
       "number": {
         "printed": "006/010",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -605,7 +357,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shigenori-negishi",
+          "id": "shigenori-negishi",
           "name": "Shigenori Negishi"
         }
       ],
@@ -616,17 +368,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 385,
+          "id": 385,
           "name": "Jirachi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 385,
-          "form": "385",
-          "name": "Jirachi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -636,7 +379,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -650,59 +393,21 @@
             "front": {
               "image": "ab11ff17dfb2f91fe5d973d2db79ec0b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "42",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "043",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "043"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-jirachi-7dnc" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "007",
       "name": "Shining Rayquaza",
+      "englishName": "Shining Rayquaza",
       "number": {
         "printed": "007/010",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -710,7 +415,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -721,17 +426,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 384,
+          "id": 384,
           "name": "Rayquaza"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 384,
-          "form": "384",
-          "name": "Rayquaza",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -741,7 +437,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "007",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -755,59 +451,21 @@
             "front": {
               "image": "64f5c8a4b5b598c9f02ca52b872f247d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "56",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "057",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "057"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-rayquaza-raah" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "008",
       "name": "Shining Lugia",
+      "englishName": "Shining Lugia",
       "number": {
         "printed": "008/010",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -815,7 +473,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -826,17 +484,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 249,
+          "id": 249,
           "name": "Lugia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 249,
-          "form": "249",
-          "name": "Lugia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -846,7 +495,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "008",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -860,59 +509,21 @@
             "front": {
               "image": "688bd5563eeb5fa71a320bbd3136eb1c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm82",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "058",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "058"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-lugia-qi1m" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "009",
       "name": "Shining Arceus",
+      "englishName": "Shining Arceus",
       "number": {
         "printed": "009/010",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -920,7 +531,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -931,17 +542,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 493,
+          "id": 493,
           "name": "Arceus"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 493,
-          "form": "493",
-          "name": "Arceus",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -951,7 +553,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "009",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -965,59 +567,21 @@
             "front": {
               "image": "7e477a4f45621a4b0085b86dfab7e9fe"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "57",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "059",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "059"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shining-arceus-ov58" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "010",
       "name": "Poké Ball",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "010/010",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -1025,7 +589,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1040,7 +604,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "010",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1054,80 +618,21 @@
             "front": {
               "image": "7c35cb7a08659fdeef3843356db4d1b7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sun-moon",
-              "card": "125",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "zh-hans/storming-emergence-gx-starter-deck",
-                "card": "261"
-              }
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-              "card": "049",
-              "language": "ja",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "zh-hans/storming-emergence-gx-starter-deck",
-                "card": "261"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/decidueye-gx-incineroar-gx-primarina-gx-starter-sets",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "zh-hans/storming-emergence-gx-starter-deck",
-          "card": "261",
-          "differs": [
-            "finish",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "poke-ball-ncrk" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "011",
       "name": "Palkia-GX",
+      "englishName": "Palkia-GX",
       "number": {
         "printed": "011/010",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1135,7 +640,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1146,17 +651,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 484,
+          "id": 484,
           "name": "Palkia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 484,
-          "form": "484",
-          "name": "Palkia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1166,7 +662,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "011",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1180,30 +676,20 @@
             "front": {
               "image": "fd327ba672c1c2b5160965699c98f57e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "012",
       "name": "Mewtwo-GX",
+      "englishName": "Mewtwo-GX",
       "number": {
         "printed": "012/010",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1211,7 +697,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1222,17 +708,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 150,
+          "id": 150,
           "name": "Mewtwo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 150,
-          "form": "150",
-          "name": "Mewtwo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1242,7 +719,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1256,59 +733,21 @@
             "front": {
               "image": "a4c54e8fbce712cf66b3d110999408e3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-legends",
-              "card": "76",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shining-legends",
-              "card": "080",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shining-legends",
-          "painting": "080"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mewtwo-gx-6smq" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "013",
       "name": "Yveltal-GX",
+      "englishName": "Yveltal-GX",
       "number": {
         "printed": "013/010",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1316,7 +755,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1327,17 +766,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 717,
+          "id": 717,
           "name": "Yveltal"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 717,
-          "form": "717",
-          "name": "Yveltal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1347,7 +777,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1361,59 +791,21 @@
             "front": {
               "image": "c610ab677922f5b7d06e86d7589d01b5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/forbidden-light",
-              "card": "137",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/forbidden-light",
-              "card": "105",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/forbidden-light",
-          "painting": "105"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "yveltal-gx-tk7n" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "014",
       "name": "Dialga-GX",
+      "englishName": "Dialga-GX",
       "number": {
         "printed": "014/010",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1421,7 +813,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1432,17 +824,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 483,
+          "id": 483,
           "name": "Dialga"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 483,
-          "form": "483",
-          "name": "Dialga",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1452,7 +835,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "014",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1466,30 +849,20 @@
             "front": {
               "image": "d6794d34dc34e37048d88a46afc49031"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
       "id": "015",
       "name": "Xerneas-GX",
+      "englishName": "Xerneas-GX",
       "number": {
         "printed": "015/010",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1497,7 +870,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1508,17 +881,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 716,
+          "id": 716,
           "name": "Xerneas"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 716,
-          "form": "716",
-          "name": "Xerneas",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1528,7 +892,7 @@
             "$kind": "variant",
             "set": "zh-hans/shining-pokemon-poke-ball-gift-box",
             "card": "015",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1542,23 +906,10 @@
             "front": {
               "image": "db5fb0d378474fbb904ac35392ec4f27"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     }
   ]
 }

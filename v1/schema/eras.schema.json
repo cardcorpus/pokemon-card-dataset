@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus eras",
-  "description": "Every era, by catalog, each with its sets in order.",
+  "description": "Every era, each with its sets in order. An era is a run of sets that share a game generation and a card design, the way collectors group them: \"Sword & Shield\" holds the sets from Sword & Shield (2020) until Scarlet & Violet began, \"Neo Series\" the sets from Neo Genesis to Neo Destiny. Each catalog has its own eras, since the Japanese sets group differently: the English \"Original Series\" and the Japanese \"Original Era\" are two eras. A set names its era in its `era`.",
   "type": "object",
   "required": [
     "eraCount",
@@ -14,7 +14,7 @@
       "minimum": 0
     },
     "eras": {
-      "description": "Every era, by catalog, then in order.",
+      "description": "Every era: the English ones oldest first, then the Japanese, the Simplified Chinese and the French.",
       "type": "array",
       "items": {
         "type": "object",
@@ -30,28 +30,35 @@
         ],
         "properties": {
           "catalog": {
-            "description": "Its catalog.",
-            "type": "string",
+            "description": "The catalog whose sets it groups.",
             "x-cc": {
               "vocabulary": "catalog"
             },
-            "$ref": "#/$defs/vocabulary.catalog"
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.catalog"
+              }
+            ]
           },
           "id": {
-            "description": "Its id: its catalog, then a slug kept when the era is renamed (\"international/original-series\").",
+            "description": "Its id: its catalog, then a slug kept when the era is renamed (\"english/original-series\").",
             "type": "string"
           },
           "name": {
-            "description": "Its name.",
+            "description": "Its name, as collectors say it, in its catalog's language where its sets name it so: \"Sword & Shield\", \"e-Card Series\", \"Épée et Bouclier\" (https://pokemon.cardcorpus.com/v1/docs/guide.md#names).",
+            "type": "string"
+          },
+          "englishName": {
+            "description": "Its name in English, where `name` is another language's: \"Sword & Shield\" beside \"Épée et Bouclier\".",
             "type": "string"
           },
           "position": {
-            "description": "Its place among its catalog's eras.",
+            "description": "Its place among its catalog's eras, oldest lowest. Sort by it; the numbers leave gaps (300, 400, 500).",
             "type": "integer",
             "minimum": 0
           },
           "sets": {
-            "description": "Its sets, in order.",
+            "description": "Every set of the era, in its catalog's order (sets/{catalog}.json).",
             "type": "array",
             "items": {
               "description": "A set.",
@@ -61,15 +68,15 @@
               },
               "required": [
                 "$kind",
-                "set"
+                "id"
               ],
               "properties": {
                 "$kind": {
-                  "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                   "const": "set"
                 },
-                "set": {
-                  "description": "The set's id (sets.json).",
+                "id": {
+                  "description": "The set's id (sets/{catalog}.json).",
                   "type": "string"
                 }
               }
@@ -82,11 +89,26 @@
   },
   "$defs": {
     "vocabulary.catalog": {
+      "title": "Catalog",
       "description": "Every value of vocabulary.json's `catalog`.",
+      "type": "string",
       "enum": [
-        "international",
+        "english",
         "japanese",
-        "zh-hans"
+        "zh-hans",
+        "korean",
+        "zh-hant",
+        "thai",
+        "indonesian",
+        "french",
+        "german",
+        "italian",
+        "spanish",
+        "portuguese",
+        "latin-american-spanish",
+        "dutch",
+        "russian",
+        "polish"
       ]
     }
   }

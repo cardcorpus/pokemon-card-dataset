@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus paintings",
-  "description": "Every painting printed on more than one card, as a pointer with its `printCount`, by its set in sets.json's order, then as its file lists them (docs/static-api.md, \"Card lists\").",
+  "description": "Every painting printed on more than one card. A painting is one piece of artwork: Base Set Charizard and its reprints in every language print the same one. Each entry is a pointer to the painting with its `printCount`, how many cards print it; follow it to paintings/{id}.json for the cards. They come by the set of their first print in the sets' order (sets/{catalog}.json, catalog by catalog), then in the order of those cards in their set's file (https://pokemon.cardcorpus.com/v1/docs/guide.md#card-lists).",
   "type": "object",
   "required": [
     "paintingCount",
@@ -23,21 +23,16 @@
         },
         "required": [
           "$kind",
-          "set",
-          "painting",
+          "id",
           "printCount"
         ],
         "properties": {
           "$kind": {
-            "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
             "const": "painting"
           },
-          "set": {
-            "description": "The set's id (sets.json).",
-            "type": "string"
-          },
-          "painting": {
-            "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+          "id": {
+            "description": "The painting's own id, which never changes: its first print's English name and a short code, such as `charizard-k3f9`. Where it was first printed is `firstPrint`'s to say, corrected there when research finds an earlier print.",
             "type": "string"
           },
           "printCount": {

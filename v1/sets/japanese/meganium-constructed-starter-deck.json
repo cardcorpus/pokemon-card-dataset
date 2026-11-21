@@ -2,64 +2,33 @@
   "id": "japanese/meganium-constructed-starter-deck",
   "catalog": "japanese",
   "name": "Meganium Constructed Starter Deck",
+  "englishName": "Meganium Constructed Starter Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/constructed-starter-deck-2005",
+    "id": "japanese/constructed-starter-deck-2005",
     "name": "Constructed Starter Deck",
     "part": "Meganium"
   },
   "printedTotal": 16,
   "actualTotal": 16,
   "cardCount": 16,
-  "productCount": 0,
   "released": {
     "date": "2005-03-05"
   },
   "logo": "06222c81e09670d5e37e973acd837743",
   "symbol": "feb161a7b34347712cfc2a07e51a3190",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Meganium Constructed Starter Deck",
-      "released": {
-        "date": "2005-03-05"
-      },
-      "logo": "06222c81e09670d5e37e973acd837743",
-      "symbol": "feb161a7b34347712cfc2a07e51a3190"
-    }
-  ],
   "description": {
-    "text": "A starter deck built around Meganium ex, released on 5 March 2005 together with Typhlosion ex and Feraligatr ex decks for the other two Johto starters. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「メガニウムex★草」",
-        "url": "https://web.archive.org/web/20080808133856/http://www.pokemon-card.com/products/pcg/pcg_19.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「オーダイルex★水」",
-        "url": "https://web.archive.org/web/20081011062625/http://www.pokemon-card.com/products/pcg/pcg_20.html"
-      }
-    ]
+    "text": "A starter deck built around Meganium ex, released on 5 March 2005 together with Typhlosion ex and Feraligatr ex decks for the other two Johto starters. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away."
   },
   "tell": {
-    "text": "A black three-leaf symbol at the bottom right, and a number out of 016",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「メガニウムex★草」",
-        "url": "https://web.archive.org/web/20080808133856/http://www.pokemon-card.com/products/pcg/pcg_19.html"
-      }
-    ]
+    "text": "A black three-leaf symbol at the bottom right, and a number out of 016"
   },
   "printRuns": [
     {
@@ -72,19 +41,50 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-unseen-forces",
+      "id": "french/ex-unseen-forces",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 14
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-unseen-forces",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-unseen-forces",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-unseen-forces",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/ex-unseen-forces",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "001",
-      "name": "Chikorita",
+      "name": "チコリータ",
+      "englishName": "Chikorita",
       "number": {
         "printed": "001/016",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +92,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -103,17 +103,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 152,
+          "id": 152,
           "name": "Chikorita"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 152,
-          "form": "152",
-          "name": "Chikorita",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +114,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +132,7 @@
             "front": {
               "image": "6920fa594bd573b99f89c19f1e2b19c5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +152,35 @@
             "front": {
               "image": "c1faf9feabcb184b96d4a6ec4655fe1f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "51",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "chikorita-0gxc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "002",
-      "name": "Bayleef",
+      "name": "ベイリーフ",
+      "englishName": "Bayleef",
       "number": {
         "printed": "002/016",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +188,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -239,17 +199,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 153,
+          "id": 153,
           "name": "Bayleef"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 153,
-          "form": "153",
-          "name": "Bayleef",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +210,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -277,8 +228,7 @@
             "front": {
               "image": "6f520ed72c5abe30ae08c74e3c9ef4c7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -298,65 +248,35 @@
             "front": {
               "image": "c7ff1bd33f1c56d112d7fa76fa0fa47f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "35",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "bayleef-vjol" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "003",
-      "name": "Meganium ex",
+      "name": "メガニウムex",
+      "englishName": "Meganium ex",
       "number": {
         "printed": "003/016",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +284,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -375,17 +295,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 154,
+          "id": 154,
           "name": "Meganium"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 154,
-          "form": "154",
-          "name": "Meganium",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +306,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -413,8 +324,7 @@
             "front": {
               "image": "8de0e64c7aaf05be7ba1e4af7e3068b5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -434,65 +344,35 @@
             "front": {
               "image": "7ebf91e4bea050dd4ebad01b3f9424ad"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "003",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "003",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "106",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "meganium-ex-4xgz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "004",
-      "name": "Natu",
+      "name": "ネイティ",
+      "englishName": "Natu",
       "number": {
         "printed": "004/016",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -500,7 +380,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -511,17 +391,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 177,
+          "id": 177,
           "name": "Natu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 177,
-          "form": "177",
-          "name": "Natu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +402,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -549,8 +420,7 @@
             "front": {
               "image": "c37ab41049cc6762ddadf175390e8d5f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -570,65 +440,35 @@
             "front": {
               "image": "bd1562fe0257f62943cdf987188b79a0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "63",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "natu-nbxh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "005",
-      "name": "Xatu",
+      "name": "ネイティオ",
+      "englishName": "Xatu",
       "number": {
         "printed": "005/016",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -636,7 +476,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -647,17 +487,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 178,
+          "id": 178,
           "name": "Xatu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 178,
-          "form": "178",
-          "name": "Xatu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -667,7 +498,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -685,8 +516,7 @@
             "front": {
               "image": "f540289d947e5619c63c187be6461c70"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -706,65 +536,35 @@
             "front": {
               "image": "74f502a66b332b38137833f7b7e05bd9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "49",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "xatu-6z61" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "006",
-      "name": "Unown",
+      "name": "アンノーン",
+      "englishName": "Unown",
       "number": {
         "printed": "006/016",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -772,7 +572,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-koizumi",
+          "id": "kyoko-koizumi",
           "name": "Kyoko Koizumi"
         }
       ],
@@ -783,17 +583,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 201,
+          "id": 201,
           "name": "Unown"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 201,
-          "form": "201",
-          "name": "Unown",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -803,7 +594,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -821,8 +612,7 @@
             "front": {
               "image": "245738a25d0d65fdee16abcaf1288940"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -842,65 +632,35 @@
             "front": {
               "image": "514905fcdc1e682cd0ab7798ba00d9f3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "006",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "x",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "unown-xcul" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "007",
-      "name": "Hoothoot",
+      "name": "ホーホー",
+      "englishName": "Hoothoot",
       "number": {
         "printed": "007/016",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -908,7 +668,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -919,17 +679,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 163,
+          "id": 163,
           "name": "Hoothoot"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 163,
-          "form": "163",
-          "name": "Hoothoot",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -939,7 +690,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -957,8 +708,7 @@
             "front": {
               "image": "12012a0b3e05693563bbed86cf3faad1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -978,65 +728,35 @@
             "front": {
               "image": "7a96f963ef9f0d9e1e4eedacc898561c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "59",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "hoothoot-d79o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "008",
-      "name": "Noctowl",
+      "name": "ヨルノズク",
+      "englishName": "Noctowl",
       "number": {
         "printed": "008/016",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1044,7 +764,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -1055,17 +775,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 164,
+          "id": 164,
           "name": "Noctowl"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 164,
-          "form": "164",
-          "name": "Noctowl",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1075,7 +786,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1093,8 +804,7 @@
             "front": {
               "image": "5fe691c584b9688ea6773a9b4a6b7717"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1114,65 +824,35 @@
             "front": {
               "image": "f672feece0a21529aab57fe1f1bff600"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/meganium-constructed-starter-deck",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "noctowl-7m9w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "009",
-      "name": "Energy Recycle System",
+      "name": "エネルギー循環装置",
+      "englishName": "Energy Recycle System",
       "number": {
         "printed": "009/016",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1180,7 +860,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "zu-ka",
+          "id": "zu-ka",
           "name": "Zu-Ka"
         }
       ],
@@ -1195,7 +875,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1213,8 +893,7 @@
             "front": {
               "image": "d8f6a82c1527537a16d9b8a475ab8949"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1234,74 +913,35 @@
             "front": {
               "image": "e1ade6eb378523925de487eb7743c46b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "81",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rulers-of-the-heavens",
-          "painting": "050"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rulers-of-the-heavens",
-          "card": "050",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-recycle-system-zvcy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "010",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "010/016",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1309,7 +949,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -1324,7 +964,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1342,8 +982,7 @@
             "front": {
               "image": "e84a40372922e09f56d2fa0a264a4808"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1363,71 +1002,35 @@
             "front": {
               "image": "62a5e181082f267996d0ae6ef8360d56"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "95",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "010",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-d5e3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "011",
-      "name": "Pokémon Reversal",
+      "name": "ポケモンリバース",
+      "englishName": "Pokémon Reversal",
       "number": {
         "printed": "011/016",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1435,7 +1038,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -1450,7 +1053,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1468,8 +1071,7 @@
             "front": {
               "image": "91bb9f9894d947c4d91cd36f1e7bc93b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1489,73 +1091,35 @@
             "front": {
               "image": "ddeb67e93bf78ab759ee99501ecabc3d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "88",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/torchic-constructed-starter-deck",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pokemon-reversal-q3i8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "012",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "012/016",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1563,7 +1127,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -1578,7 +1142,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1596,8 +1160,7 @@
             "front": {
               "image": "93bf3fb648b9ed892982ca5809b62a87"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1617,73 +1180,35 @@
             "front": {
               "image": "83f3db41b6107b7681ffe4d19f6133fb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "87",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "011"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "011",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-1csg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "013",
-      "name": "Professor Elm's Training Method",
+      "name": "ウツギはかせの育てかた",
+      "englishName": "Professor Elm's Training Method",
       "number": {
         "printed": "013/016",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1691,7 +1216,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1699,10 +1224,10 @@
         "date": "2005-03-05",
         "sort": "2005-03-05.00 japanese/meganium-constructed-starter-deck 00012"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-elm",
+          "id": "professor-elm",
           "name": "Professor Elm",
           "role": "subject"
         }
@@ -1714,7 +1239,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "013",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1735,11 +1260,10 @@
                 "$kind": "variant",
                 "set": "japanese/meganium-constructed-starter-deck",
                 "card": "013",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1759,46 +1283,34 @@
             "front": {
               "image": "0c3957b20c6a0d5df38c29c404cdfb4e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "014",
-      "name": "Mary's Request",
+      "name": "クルミのリクエスト",
+      "englishName": "Mary's Request",
       "number": {
         "printed": "014/016",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1806,7 +1318,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1814,10 +1326,10 @@
         "date": "2005-03-05",
         "sort": "2005-03-05.00 japanese/meganium-constructed-starter-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mary",
+          "id": "mary",
           "name": "Mary",
           "role": "subject"
         }
@@ -1829,7 +1341,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1847,8 +1359,7 @@
             "front": {
               "image": "92b3e5520af890bfbbe6f4170554ac8d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1868,71 +1379,35 @@
             "front": {
               "image": "c960e108cd5dda534f3c984845b49b17"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "86",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "014"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "014",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mary-s-request-zck7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "015",
-      "name": "Fluffy Berry",
+      "name": "ふわふわのみ",
+      "englishName": "Fluffy Berry",
       "number": {
         "printed": "015/016",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1940,7 +1415,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1955,7 +1430,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1973,8 +1448,7 @@
             "front": {
               "image": "ef71afcaadbed9c2679e8dd9cdb8a371"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1994,71 +1468,35 @@
             "front": {
               "image": "dacf2b7d2ad82367e272234ab165d3bf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "85",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "015"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "015",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "fluffy-berry-kc2g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/meganium-constructed-starter-deck",
       "id": "016",
-      "name": "Warp Energy",
+      "name": "ワープエネルギー",
+      "englishName": "Warp Energy",
       "number": {
         "printed": "016/016",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "energy",
       "language": "ja",
@@ -2066,7 +1504,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -2081,7 +1519,7 @@
             "$kind": "variant",
             "set": "japanese/meganium-constructed-starter-deck",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2099,8 +1537,7 @@
             "front": {
               "image": "02f05f46ff4f98852d12d3244adb6966"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2120,39 +1557,25 @@
             "front": {
               "image": "bcc437738d90d4ffb20bcd840a77d263"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/meganium-constructed-starter-deck",
           "card": "016",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     }
-  ]
+  ],
+  "printedCode": null
 }

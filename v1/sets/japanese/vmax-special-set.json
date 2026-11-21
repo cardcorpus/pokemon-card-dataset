@@ -1,74 +1,78 @@
 {
   "id": "japanese/vmax-special-set",
   "catalog": "japanese",
-  "name": "VMAX Special Set",
+  "name": "VMAXスペシャルセット",
+  "englishName": "VMAX Special Set",
   "era": {
     "$kind": "era",
-    "era": "japanese/sword-shield",
-    "name": "Sword & Shield"
+    "id": "japanese/sword-shield",
+    "name": "ソード&シールド",
+    "englishName": "Sword & Shield"
   },
   "type": "box",
   "language": "ja",
   "printedTotal": 4,
   "actualTotal": 8,
   "cardCount": 8,
-  "productCount": 0,
   "released": {
     "date": "2020-10-23"
   },
   "code": "SP2",
+  "printedCode": "SP2",
   "logo": "32a57dcfaa6180509c0d862292add87d",
   "symbol": "1c085d911104e7225b7c0fe801e78f13",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "VMAX Special Set",
-      "code": "SP2",
-      "released": {
-        "date": "2020-10-23"
-      },
-      "logo": "32a57dcfaa6180509c0d862292add87d",
-      "symbol": "1c085d911104e7225b7c0fe801e78f13"
-    }
-  ],
   "description": {
-    "text": "VMAX Special Set, released on 23 October 2020: one pack of every Sword & Shield expansion released so far, eight in all, and a VMAX promo pack holding one of four Pokémon VMAX with three holo basic Energy of its type. Dhelmise VMAX and Cramorant VMAX were new cards; Cinderace VMAX and Morpeko VMAX came with new artwork. This set holds the promo packs' cards.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム ソード＆シールド VMAXスペシャルセット",
-        "url": "https://web.archive.org/web/20201010164630/https://www.pokemon-card.com/products/s/sp2.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-        "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "VMAX Special Set, released on 23 October 2020: one pack of every Sword & Shield expansion released so far, eight in all, and a VMAX promo pack holding one of four Pokémon VMAX with three holo basic Energy of its type. Dhelmise VMAX and Cramorant VMAX were new cards; Cinderace VMAX and Morpeko VMAX came with new artwork. This set holds the promo packs' cards."
   },
   "tell": {
-    "text": "An \"SP2\" mark at the bottom left, and a number out of 004",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム ソード＆シールド VMAXスペシャルセット",
-        "url": "https://web.archive.org/web/20201010164630/https://www.pokemon-card.com/products/s/sp2.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-        "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-      }
-    ]
+    "text": "An \"SP2\" mark at the bottom left, and a number out of 004"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/shining-fates",
+      "id": "korean/vmax-special-set",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "french/shining-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "german/shining-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "english/shining-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "italian/shining-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/shining-fates",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/shining-fates",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 4
@@ -76,11 +80,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "001",
-      "name": "Dhelmise VMAX",
+      "name": "ダダリンVMAX",
+      "englishName": "Dhelmise VMAX",
       "number": {
         "printed": "001/004",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -88,7 +95,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-mochizuki",
+          "id": "planeta-mochizuki",
           "name": "PLANETA Mochizuki"
         }
       ],
@@ -99,17 +106,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 781,
+          "id": 781,
           "name": "Dhelmise"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 781,
-          "form": "781",
-          "name": "Dhelmise",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -119,7 +117,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -133,59 +131,21 @@
             "front": {
               "image": "33ff272507150bd290c3a834cb46ee7f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-fates",
-              "card": "010",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-tactics",
-              "card": "002",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-special-set",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "dhelmise-vmax-6w8s" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "002",
-      "name": "Cinderace VMAX",
+      "name": "エースバーンVMAX",
+      "englishName": "Cinderace VMAX",
       "number": {
         "printed": "002/004",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -193,7 +153,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-mochizuki",
+          "id": "planeta-mochizuki",
           "name": "PLANETA Mochizuki"
         }
       ],
@@ -204,17 +164,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 815,
+          "id": 815,
           "name": "Cinderace"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 815,
-          "form": "815",
-          "name": "Cinderace",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -224,7 +175,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -238,49 +189,21 @@
             "front": {
               "image": "74cb09c84f59e66d99ba46ce410c4a4b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-fates",
-              "card": "019",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-special-set",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "cinderace-vmax-ou0o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "003",
-      "name": "Morpeko VMAX",
+      "name": "モルペコVMAX",
+      "englishName": "Morpeko VMAX",
       "number": {
         "printed": "003/004",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -288,7 +211,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-mochizuki",
+          "id": "planeta-mochizuki",
           "name": "PLANETA Mochizuki"
         }
       ],
@@ -299,17 +222,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 877,
+          "id": 877,
           "name": "Morpeko"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 877,
-          "form": "877",
-          "name": "Morpeko",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -319,7 +233,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -333,49 +247,21 @@
             "front": {
               "image": "c1dafd521bb016f0a534d1196f154994"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-fates",
-              "card": "038",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-special-set",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "morpeko-vmax-g0q1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "004",
-      "name": "Cramorant VMAX",
+      "name": "ウッウVMAX",
+      "englishName": "Cramorant VMAX",
       "number": {
         "printed": "004/004",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -383,7 +269,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-tsuji",
+          "id": "planeta-tsuji",
           "name": "PLANETA Tsuji"
         }
       ],
@@ -394,17 +280,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 845,
+          "id": 845,
           "name": "Cramorant"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 845,
-          "form": "845",
-          "name": "Cramorant",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -414,7 +291,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -428,59 +305,21 @@
             "front": {
               "image": "8cce9d9533dee482b58b088ff8f7d74f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-fates",
-              "card": "055",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-tactics",
-              "card": "041",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-special-set",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "cramorant-vmax-lk0h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "fir",
       "name": "Fire Energy",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "FIR",
-        "numerator": "FIR"
+        "short": "FIR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -489,21 +328,7 @@
         "sort": "2020-10-23.00 japanese/vmax-special-set 00004"
       },
       "tell": {
-        "text": "An \"SP2\" mark at the bottom left",
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム ソード＆シールド VMAXスペシャルセット",
-            "url": "https://web.archive.org/web/20201010164630/https://www.pokemon-card.com/products/s/sp2.html"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-            "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": "An \"SP2\" mark at the bottom left"
       },
       "picture": {
         "front": {
@@ -512,7 +337,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "fir",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -526,30 +351,20 @@
             "front": {
               "image": "bfbffa6ccfe65a1dd13dbfe4a9f9b55f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "gra",
       "name": "Grass Energy",
+      "englishName": "Grass Energy",
       "number": {
         "printed": "GRA",
-        "numerator": "GRA"
+        "short": "GRA"
       },
       "cardType": "energy",
       "language": "ja",
@@ -558,21 +373,7 @@
         "sort": "2020-10-23.00 japanese/vmax-special-set 00005"
       },
       "tell": {
-        "text": "An \"SP2\" mark at the bottom left",
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム ソード＆シールド VMAXスペシャルセット",
-            "url": "https://web.archive.org/web/20201010164630/https://www.pokemon-card.com/products/s/sp2.html"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-            "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": "An \"SP2\" mark at the bottom left"
       },
       "picture": {
         "front": {
@@ -581,7 +382,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "gra",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -595,30 +396,20 @@
             "front": {
               "image": "f85887d1d2766ff60e40354fd1d4fadc"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "lig",
       "name": "Lightning Energy",
+      "englishName": "Lightning Energy",
       "number": {
         "printed": "LIG",
-        "numerator": "LIG"
+        "short": "LIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -627,21 +418,7 @@
         "sort": "2020-10-23.00 japanese/vmax-special-set 00006"
       },
       "tell": {
-        "text": "An \"SP2\" mark at the bottom left",
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム ソード＆シールド VMAXスペシャルセット",
-            "url": "https://web.archive.org/web/20201010164630/https://www.pokemon-card.com/products/s/sp2.html"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-            "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": "An \"SP2\" mark at the bottom left"
       },
       "picture": {
         "front": {
@@ -650,7 +427,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "lig",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -664,30 +441,20 @@
             "front": {
               "image": "7a9af020d9a4ce300f4a039bbc714809"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/vmax-special-set",
       "id": "wat",
       "name": "Water Energy",
+      "englishName": "Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "ja",
@@ -696,21 +463,7 @@
         "sort": "2020-10-23.00 japanese/vmax-special-set 00007"
       },
       "tell": {
-        "text": "An \"SP2\" mark at the bottom left",
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム ソード＆シールド VMAXスペシャルセット",
-            "url": "https://web.archive.org/web/20201010164630/https://www.pokemon-card.com/products/s/sp2.html"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-            "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": "An \"SP2\" mark at the bottom left"
       },
       "picture": {
         "front": {
@@ -719,7 +472,7 @@
             "$kind": "variant",
             "set": "japanese/vmax-special-set",
             "card": "wat",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -733,23 +486,10 @@
             "front": {
               "image": "bce355287f3b89386b54621f9541c524"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     }
   ]
 }

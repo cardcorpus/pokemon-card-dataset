@@ -2,44 +2,33 @@
   "id": "zh-hans/scarlet-violet-energies",
   "catalog": "zh-hans",
   "name": "Scarlet & Violet Energies",
+  "englishName": "Scarlet & Violet Energies",
   "era": {
     "$kind": "era",
-    "era": "zh-hans/scarlet-violet",
-    "name": "Scarlet & Violet"
+    "id": "zh-hans/scarlet-violet",
+    "name": "朱&紫",
+    "englishName": "Scarlet & Violet"
   },
   "type": "energy",
   "language": "zh-Hans",
   "actualTotal": 8,
   "cardCount": 8,
-  "productCount": 0,
   "released": {
     "date": "2025-05-16"
   },
-  "releases": [
-    {
-      "language": "zh-Hans",
-      "name": "Scarlet & Violet Energies",
-      "released": {
-        "date": "2025-05-16"
-      }
-    }
-  ],
   "description": {
-    "text": "Scarlet & Violet Energies lists eight basic Energy cards in the Scarlet & Violet design, one for each type, that print their type code (GRA, FIR, WAT, LIG, PSY, FIG, DAR or MET) where a card number would go. Holo versions in a new cracked-ice finish were among the second cards of the Journey Theme Pack, which came in gift boxes from 13 June 2025. The cards also come non-holo and in mirror holo.",
-    "sources": [
-      {
-        "title": "Pokémon China: Gift boxes with the Journey Theme Pack (18 May 2025)",
-        "url": "https://www.pokemon.cn/tcg/product/15499.html"
-      }
-    ]
+    "text": "Scarlet & Violet Energies lists eight basic Energy cards in the Scarlet & Violet design, one for each type, that print their type code (GRA, FIR, WAT, LIG, PSY, FIG, DAR or MET) where a card number would go. Holo versions in a new cracked-ice finish were among the second cards of the Journey Theme Pack, which came in gift boxes from 13 June 2025. The cards also come non-holo and in mirror holo."
   },
   "cards": [
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "gra",
       "name": "Basic Grass Energy",
+      "englishName": "Basic Grass Energy",
       "number": {
         "printed": "GRA",
-        "numerator": "GRA"
+        "short": "GRA"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -54,7 +43,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "gra",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -71,8 +60,7 @@
             "front": {
               "image": "5ff49d4aa2dcef9891bd6c13eb7d23ea"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -92,11 +80,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "gra",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -116,97 +103,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "gra",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "001",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "001"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/my-first-battle",
-            "card": "basic-grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-pikachu-clefairy-turtwig-gimmighoul",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-decidueye-melmetal-koraidon-miraidon",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-dragonite-mewtwo-camerupt-sinistcha",
-            "card": "gra"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-grass-energy-gbt0" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "fir",
       "name": "Basic Fire Energy",
+      "englishName": "Basic Fire Energy",
       "number": {
         "printed": "FIR",
-        "numerator": "FIR"
+        "short": "FIR"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -221,7 +135,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "fir",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -238,8 +152,7 @@
             "front": {
               "image": "87b6b92e0e02fed7a386d0b43d034e83"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -259,11 +172,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "fir",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -283,102 +195,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "fir",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "002",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "002"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/my-first-battle",
-            "card": "basic-fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-altaria-latios-infernape-maushold",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-decidueye-melmetal-koraidon-miraidon",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-dragonite-mewtwo-camerupt-sinistcha",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-trainer-s-pokemon",
-            "card": "fir"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-fire-energy-1idc" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "wat",
       "name": "Basic Water Energy",
+      "englishName": "Basic Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -393,7 +227,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "wat",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -410,8 +244,7 @@
             "front": {
               "image": "9c90565a27a99071aad17e27f0f2e80e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -431,11 +264,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "wat",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -455,97 +287,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "wat",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "003",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "003"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/my-first-battle",
-            "card": "basic-water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-lucario-greninja-zamazenta-mabosstiff",
-            "card": "wat"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-altaria-latios-infernape-maushold",
-            "card": "wat"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-trainer-s-pokemon",
-            "card": "wat"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-water-energy-qcxh" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "lig",
       "name": "Basic Lightning Energy",
+      "englishName": "Basic Lightning Energy",
       "number": {
         "printed": "LIG",
-        "numerator": "LIG"
+        "short": "LIG"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -560,7 +319,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "lig",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -577,8 +336,7 @@
             "front": {
               "image": "0a188c0fdf3cf4810b745ec306b5f989"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -598,11 +356,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "lig",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -622,92 +379,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "lig",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "004",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "004"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/my-first-battle",
-            "card": "basic-lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-pikachu-clefairy-turtwig-gimmighoul",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-decidueye-melmetal-koraidon-miraidon",
-            "card": "lig"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-lightning-energy-7zz6" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "psy",
       "name": "Basic Psychic Energy",
+      "englishName": "Basic Psychic Energy",
       "number": {
         "printed": "PSY",
-        "numerator": "PSY"
+        "short": "PSY"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -722,7 +411,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "psy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -739,8 +428,7 @@
             "front": {
               "image": "38f24c3454d8ecd027c5887219364b80"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -760,11 +448,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "psy",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -784,70 +471,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "psy",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "005",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-psychic-energy-akjm" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "fig",
       "name": "Basic Fighting Energy",
+      "englishName": "Basic Fighting Energy",
       "number": {
         "printed": "FIG",
-        "numerator": "FIG"
+        "short": "FIG"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -862,7 +503,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "fig",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -879,8 +520,7 @@
             "front": {
               "image": "692e4574cf56d5850e70ce4bbcd2b33e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -900,11 +540,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "fig",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -924,92 +563,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "fig",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "006",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "006"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-lucario-greninja-zamazenta-mabosstiff",
-            "card": "fig"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-fighting-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-decidueye-melmetal-koraidon-miraidon",
-            "card": "fig"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-trainer-s-pokemon",
-            "card": "fig"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-fighting-energy-3a8h" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "dar",
       "name": "Basic Darkness Energy",
+      "englishName": "Basic Darkness Energy",
       "number": {
         "printed": "DAR",
-        "numerator": "DAR"
+        "short": "DAR"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -1024,7 +595,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "dar",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1041,8 +612,7 @@
             "front": {
               "image": "fb44de1707bfac6d186978bb30f8880a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -1062,11 +632,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "dar",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -1086,82 +655,24 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "dar",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "007",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "007"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "zh-hans/happy-set-lucario-greninja-zamazenta-mabosstiff",
-            "card": "dar"
-          },
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-darkness-energy"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-darkness-energy-u1lf" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/scarlet-violet-energies",
       "id": "met",
       "name": "Basic Metal Energy",
+      "englishName": "Basic Metal Energy",
       "number": {
         "printed": "MET",
-        "numerator": "MET"
+        "short": "MET"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -1176,7 +687,7 @@
             "$kind": "variant",
             "set": "zh-hans/scarlet-violet-energies",
             "card": "met",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1193,8 +704,7 @@
             "front": {
               "image": "6cd720ba6dd10d3fa8aa9cdf5d90ffd2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "cracked-ice-holo",
@@ -1214,11 +724,10 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "met",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e"
+          }
         },
         {
           "id": "mirror-holo",
@@ -1238,70 +747,14 @@
                 "$kind": "variant",
                 "set": "zh-hans/scarlet-violet-energies",
                 "card": "met",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-b9db016370becc9029844eb29553f54c97633682"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-008ad583c8aa58e148379ce4bad1b5aea07a406e",
-          "name": "Cracked ice holo",
-          "variants": [
-            "cracked-ice-holo"
-          ],
-          "defaultCopy": "cracked-ice-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-b9db016370becc9029844eb29553f54c97633682",
-          "name": "Mirror holo",
-          "variants": [
-            "mirror-holo"
-          ],
-          "defaultCopy": "mirror-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet-energies",
-              "card": "008",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/scarlet-violet-energies",
-          "painting": "008"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "zh-hans/battle-academy",
-            "card": "basic-metal-energy"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-metal-energy-k9c7" }
     }
   ]
 }

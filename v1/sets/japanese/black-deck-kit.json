@@ -2,64 +2,33 @@
   "id": "japanese/black-deck-kit",
   "catalog": "japanese",
   "name": "Black Deck Kit",
+  "englishName": "Black Deck Kit",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/deck-kit-2004",
+    "id": "japanese/deck-kit-2004",
     "name": "Deck Kit",
     "part": "Black"
   },
   "printedTotal": 20,
   "actualTotal": 21,
   "cardCount": 21,
-  "productCount": 0,
   "released": {
     "date": "2004-10-15"
   },
   "logo": "0a31c884589628a7663f46f1f48493c7",
   "symbol": "c11ddf3506c35fa08fb1ed47acde15ea",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Black Deck Kit",
-      "released": {
-        "date": "2004-10-15"
-      },
-      "logo": "0a31c884589628a7663f46f1f48493c7",
-      "symbol": "c11ddf3506c35fa08fb1ed47acde15ea"
-    }
-  ],
   "description": {
-    "text": "Rocket Gang Half Deck W -black-, released on 15 October 2004 alongside the Rocket Gang Strikes Back expansion: two ready-built 30-card half decks of Team Rocket's Pokémon and Dark Pokémon, among them Dark Tyranitar and Rocket's Moltres ex, with Pokémon of the Sevii Islands, where much of Pokémon FireRed and LeafGreen is set. The two decks can be played against each other or combined into one 60-card deck; a coin and a rule book came with them.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みデッキ「ロケット団ハーフデッキW -black-」",
-        "url": "https://web.archive.org/web/20081006175049/http://www.pokemon-card.com/products/pcg/pcg_09.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック｢ロケット団の逆襲｣",
-        "url": "https://web.archive.org/web/20081202032410/http://www.pokemon-card.com/products/pcg/pcg_11.html"
-      }
-    ]
+    "text": "Rocket Gang Half Deck W -black-, released on 15 October 2004 alongside the Rocket Gang Strikes Back expansion: two ready-built 30-card half decks of Team Rocket's Pokémon and Dark Pokémon, among them Dark Tyranitar and Rocket's Moltres ex, with Pokémon of the Sevii Islands, where much of Pokémon FireRed and LeafGreen is set. The two decks can be played against each other or combined into one 60-card deck; a coin and a rule book came with them."
   },
   "tell": {
-    "text": "A black \"R\" shield symbol at the bottom right, and a number out of 020",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みデッキ「ロケット団ハーフデッキW -black-」",
-        "url": "https://web.archive.org/web/20081006175049/http://www.pokemon-card.com/products/pcg/pcg_09.html"
-      }
-    ]
+    "text": "A black \"R\" shield symbol at the bottom right, and a number out of 020"
   },
   "printRuns": [
     {
@@ -72,19 +41,22 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-team-rocket-returns",
+      "id": "english/ex-team-rocket-returns",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 16
+      "sameCardCount": 14
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "001",
-      "name": "Spinarak",
+      "name": "イトマル",
+      "englishName": "Spinarak",
       "number": {
         "printed": "001/020",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +64,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yuka-morii",
+          "id": "yuka-morii",
           "name": "Yuka Morii"
         }
       ],
@@ -103,17 +75,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 167,
+          "id": 167,
           "name": "Spinarak"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 167,
-          "form": "167",
-          "name": "Spinarak",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +86,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +104,7 @@
             "front": {
               "image": "e5bfa19ab9ca2485a5c9b84eacacbc38"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +124,35 @@
             "front": {
               "image": "938bef5acff62f0bd75683aa002c8acd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "78",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "spinarak-grqf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "002",
-      "name": "Dark Ariados",
+      "name": "わるいアリアドス",
+      "englishName": "Dark Ariados",
       "number": {
         "printed": "002/020",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-koizumi",
+          "id": "kyoko-koizumi",
           "name": "Kyoko Koizumi"
         }
       ],
@@ -239,17 +171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 168,
+          "id": 168,
           "name": "Ariados"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 168,
-          "form": "168",
-          "name": "Ariados",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +182,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -277,8 +200,7 @@
             "front": {
               "image": "24eab974400d4b0bfd8776876d6899a8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -298,65 +220,35 @@
             "front": {
               "image": "652792bf440382dea0475edc456dfdb2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dark-ariados-tbjz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "003",
-      "name": "Slugma",
+      "name": "マグマッグ",
+      "englishName": "Slugma",
       "number": {
         "printed": "003/020",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +256,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -375,17 +267,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 218,
+          "id": 218,
           "name": "Slugma"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 218,
-          "form": "218",
-          "name": "Slugma",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +278,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,8 +296,7 @@
             "front": {
               "image": "996fa80103dd681e86ee93a4c6696ad6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -434,65 +316,35 @@
             "front": {
               "image": "c1ef07bf95828ede7db9f7623d4573b8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "77",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "slugma-ejwv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "004",
-      "name": "Houndour",
+      "name": "デルビル",
+      "englishName": "Houndour",
       "number": {
         "printed": "004/020",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -500,7 +352,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -511,17 +363,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 228,
+          "id": 228,
           "name": "Houndour"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 228,
-          "form": "228",
-          "name": "Houndour",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +374,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -549,8 +392,7 @@
             "front": {
               "image": "e4cdebf1861c856888968a6a84d9169a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -570,65 +412,35 @@
             "front": {
               "image": "c355a28e5fee983e8d229e20298f5647"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "59",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "houndour-t6ag" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "005",
-      "name": "Dark Magcargo",
+      "name": "わるいマグカルゴ",
+      "englishName": "Dark Magcargo",
       "number": {
         "printed": "005/020",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -636,7 +448,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nakaoka",
+          "id": "nakaoka",
           "name": "Nakaoka"
         }
       ],
@@ -647,17 +459,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 219,
+          "id": 219,
           "name": "Magcargo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 219,
-          "form": "219",
-          "name": "Magcargo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -667,7 +470,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -685,8 +488,7 @@
             "front": {
               "image": "437863b9126dd016807de7cc9c1ee9b3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -706,65 +508,35 @@
             "front": {
               "image": "ceb370e99e1fbad68f9562b7569fe692"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "38",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dark-magcargo-r8rh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "006",
-      "name": "Dark Houndoom",
+      "name": "わるいヘルガー",
+      "englishName": "Dark Houndoom",
       "number": {
         "printed": "006/020",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -772,7 +544,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nakaoka",
+          "id": "nakaoka",
           "name": "Nakaoka"
         }
       ],
@@ -783,17 +555,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 229,
+          "id": 229,
           "name": "Houndoom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 229,
-          "form": "229",
-          "name": "Houndoom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -803,7 +566,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -821,8 +584,7 @@
             "front": {
               "image": "84b82baf7789046d00074bfa3f5917d8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -842,65 +604,35 @@
             "front": {
               "image": "1457b55f75e76d42591f1d69a6f23f5d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "006",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "37",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dark-houndoom-9a3h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "007",
-      "name": "Larvitar",
+      "name": "ヨーギラス",
+      "englishName": "Larvitar",
       "number": {
         "printed": "007/020",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -908,7 +640,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -919,17 +651,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 246,
+          "id": 246,
           "name": "Larvitar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 246,
-          "form": "246",
-          "name": "Larvitar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -939,7 +662,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -957,8 +680,7 @@
             "front": {
               "image": "2595503009954997a39a60faa9b962de"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -978,65 +700,35 @@
             "front": {
               "image": "96bc1d25e783b6d6db2c9288a32f275f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "62",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "larvitar-xys4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "008",
-      "name": "Larvitar",
+      "name": "ヨーギラス",
+      "englishName": "Larvitar",
       "number": {
         "printed": "008/020",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1044,7 +736,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -1055,17 +747,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 246,
+          "id": 246,
           "name": "Larvitar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 246,
-          "form": "246",
-          "name": "Larvitar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1075,7 +758,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1093,8 +776,7 @@
             "front": {
               "image": "7d70d673b3a45a9133b4f6ee4ff4ef10"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1114,65 +796,35 @@
             "front": {
               "image": "11788ebf62386ffd6b18096272aac41d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "63",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "larvitar-77k3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "009",
-      "name": "Dark Pupitar",
+      "name": "わるいサナギラス",
+      "englishName": "Dark Pupitar",
       "number": {
         "printed": "009/020",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1180,7 +832,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomoaki-imakuni",
+          "id": "tomoaki-imakuni",
           "name": "Tomoaki Imakuni"
         }
       ],
@@ -1191,17 +843,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 247,
+          "id": 247,
           "name": "Pupitar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 247,
-          "form": "247",
-          "name": "Pupitar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1211,7 +854,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1229,8 +872,7 @@
             "front": {
               "image": "cd2da8b928b34b07cac0465d04f4362e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1250,65 +892,35 @@
             "front": {
               "image": "35ab5614b1499cee85c93ff0a68e29c1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "009"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dark-pupitar-hp4p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "010",
-      "name": "Dark Pupitar",
+      "name": "わるいサナギラス",
+      "englishName": "Dark Pupitar",
       "number": {
         "printed": "010/020",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1316,7 +928,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "emi-miwa",
+          "id": "emi-miwa",
           "name": "Emi Miwa"
         }
       ],
@@ -1327,17 +939,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 247,
+          "id": 247,
           "name": "Pupitar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 247,
-          "form": "247",
-          "name": "Pupitar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1347,7 +950,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1365,8 +968,7 @@
             "front": {
               "image": "484a65e0eda403cab97535a016705159"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1386,65 +988,35 @@
             "front": {
               "image": "e335cdea36a6b8bdca8d625083727e57"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "41",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "010"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dark-pupitar-2rjq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "011",
-      "name": "Dark Tyranitar",
+      "name": "わるいバンギラス",
+      "englishName": "Dark Tyranitar",
       "number": {
         "printed": "011/020",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1452,7 +1024,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-koizumi",
+          "id": "kyoko-koizumi",
           "name": "Kyoko Koizumi"
         }
       ],
@@ -1463,23 +1035,12 @@
       "species": [
         {
           "$kind": "species",
-          "species": 248,
+          "id": 248,
           "name": "Tyranitar"
         }
       ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 248,
-          "form": "248",
-          "name": "Tyranitar",
-          "role": "subject"
-        }
-      ],
-      "inSet": {
-        "differs": {
-          "finish": "non_holo"
-        }
+      "differsInSet": {
+        "finish": "non_holo"
       },
       "picture": {
         "front": {
@@ -1488,7 +1049,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1506,8 +1067,7 @@
             "front": {
               "image": "47e306a23c1bbd22ef859815b795d59c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1527,72 +1087,35 @@
             "front": {
               "image": "1aec6135deacb1228a9cd73a113e9327"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "20",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "011"
-        },
-        "parallels": [
-          {
-            "$kind": "card",
-            "set": "japanese/black-deck-kit",
-            "card": "012"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "dark-tyranitar-e58p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "012",
-      "name": "Dark Tyranitar",
+      "name": "わるいバンギラス",
+      "englishName": "Dark Tyranitar",
       "number": {
         "printed": "012/020",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1600,7 +1123,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-koizumi",
+          "id": "kyoko-koizumi",
           "name": "Kyoko Koizumi"
         }
       ],
@@ -1611,23 +1134,12 @@
       "species": [
         {
           "$kind": "species",
-          "species": 248,
+          "id": 248,
           "name": "Tyranitar"
         }
       ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 248,
-          "form": "248",
-          "name": "Tyranitar",
-          "role": "subject"
-        }
-      ],
-      "inSet": {
-        "differs": {
-          "finish": "holo"
-        }
+      "differsInSet": {
+        "finish": "holo"
       },
       "picture": {
         "front": {
@@ -1636,7 +1148,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1654,8 +1166,7 @@
             "front": {
               "image": "7abdf5aab9e30456b746423ebfbc9a0a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -1675,78 +1186,35 @@
             "front": {
               "image": "1ee18e79742d7124b7ebe996b6196ff1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "012",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "012",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "20",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "reprint",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/black-deck-kit",
-                "card": "011"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "011"
-        },
-        "parallels": [
-          {
-            "$kind": "card",
-            "set": "japanese/black-deck-kit",
-            "card": "011"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "dark-tyranitar-e58p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "013",
-      "name": "Rattata",
+      "name": "コラッタ",
+      "englishName": "Rattata",
       "number": {
         "printed": "013/020",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1754,7 +1222,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -1765,17 +1233,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 19,
+          "id": 19,
           "name": "Rattata"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 19,
-          "form": "19",
-          "name": "Rattata",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1785,7 +1244,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1803,8 +1262,7 @@
             "front": {
               "image": "1e4bc91260d1ad68643b0bde8e3a5a7c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1824,75 +1282,35 @@
             "front": {
               "image": "f72d916fe25c06d2fc7e074eb2a548ee"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "72",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "013"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/silver-deck-kit",
-            "card": "007",
-            "differs": [
-              "number"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "rattata-7bhe" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "014",
-      "name": "Rocket's Moltres ex",
+      "name": "R団のファイヤーex",
+      "englishName": "Rocket's Moltres ex",
       "number": {
         "printed": "014/020",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1900,7 +1318,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1911,23 +1329,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 146,
+          "id": 146,
           "name": "Moltres"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "rocket",
+          "id": "rocket",
           "name": "Rocket",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 146,
-          "form": "146",
-          "name": "Moltres",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1937,7 +1348,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "014",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1955,8 +1366,7 @@
             "front": {
               "image": "bceed1254ce9019942c49679bf8e9270"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -1976,65 +1386,35 @@
             "front": {
               "image": "b1e9bcae1b15701cdff41688ff6d0d84"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "014",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "014",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "100",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "014"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "rocket-s-moltres-ex-gdes" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "015",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "015/020",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2042,7 +1422,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kai-ishikawa",
+          "id": "kai-ishikawa",
           "name": "Kai Ishikawa"
         }
       ],
@@ -2057,7 +1437,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2075,8 +1455,7 @@
             "front": {
               "image": "eca22f1a4722a43625b18f6559141a34"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2096,80 +1475,35 @@
             "front": {
               "image": "8a9dac434e721c31855fa6e91edd3b2e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/expedition-base-set",
-              "card": "153",
-              "language": "en",
-              "printCount": 12,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-e-starter-deck",
-                "card": "028"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "028"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "028",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-search-6yjv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "016",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "016/020",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2177,7 +1511,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2192,7 +1526,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2210,8 +1544,7 @@
             "front": {
               "image": "fbae353889dc3d0cef44ccb19e2e8117"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2231,80 +1564,35 @@
             "front": {
               "image": "f1559715a803f2d4e269bc91bf72ac4e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "016",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/expedition-base-set",
-              "card": "156",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-e-starter-deck",
-                "card": "025"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "025"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "025",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-8utl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "017",
-      "name": "Rocket's Poké Ball",
+      "name": "ロケット団のモンスターボール",
+      "englishName": "Rocket's Poké Ball",
       "number": {
         "printed": "017/020",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2312,7 +1600,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -2320,10 +1608,10 @@
         "date": "2004-10-15",
         "sort": "2004-10-15.00 japanese/black-deck-kit 00016"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-rocket",
+          "id": "team-rocket",
           "name": "Team Rocket",
           "role": "subject"
         }
@@ -2335,7 +1623,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2353,8 +1641,7 @@
             "front": {
               "image": "471f43f13301e4227fecedd283b3bebe"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2374,73 +1661,35 @@
             "front": {
               "image": "cdc9385fcaebe3252e52203a31f71a53"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "017",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "017",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "89",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-deck-kit",
-          "painting": "017"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/silver-deck-kit",
-            "card": "017",
-            "differs": []
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "rocket-s-poke-ball-annh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "018",
-      "name": "Rocket's Admin.",
+      "name": "ロケット団の幹部",
+      "englishName": "Rocket's Admin.",
       "number": {
         "printed": "018/020",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2448,7 +1697,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2456,10 +1705,10 @@
         "date": "2004-10-15",
         "sort": "2004-10-15.00 japanese/black-deck-kit 00017"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-rocket",
+          "id": "team-rocket",
           "name": "Team Rocket",
           "role": "subject"
         }
@@ -2471,7 +1720,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2489,8 +1738,7 @@
             "front": {
               "image": "433f22116ff8aad876c76f270c285fe1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2510,74 +1758,35 @@
             "front": {
               "image": "0466901ed02b6e65d5f6048be07eede1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "018",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "86",
-              "language": "en",
-              "printCount": 13,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang-strikes-back",
-          "painting": "079"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang-strikes-back",
-          "card": "079",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "rocket-s-admin-nkf0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "019",
-      "name": "Rocket's Mission",
+      "name": "ロケット団のミッション",
+      "englishName": "Rocket's Mission",
       "number": {
         "printed": "019/020",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2585,7 +1794,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2593,10 +1802,10 @@
         "date": "2004-10-15",
         "sort": "2004-10-15.00 japanese/black-deck-kit 00018"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-rocket",
+          "id": "team-rocket",
           "name": "Team Rocket",
           "role": "subject"
         }
@@ -2608,7 +1817,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "019",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2626,8 +1835,7 @@
             "front": {
               "image": "b4e8e404b1c616174061a36209ba0a71"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2647,74 +1855,35 @@
             "front": {
               "image": "f87ecb3d0b05ea96b23a747a539bd6dc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "019",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-team-rocket-returns",
-              "card": "88",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang-strikes-back",
-          "painting": "080"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang-strikes-back",
-          "card": "080",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "rocket-s-mission-8r5g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "020",
-      "name": "R Energy",
+      "name": "R-エネルギー",
+      "englishName": "R Energy",
       "number": {
         "printed": "020/020",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "energy",
       "language": "ja",
@@ -2722,7 +1891,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -2737,7 +1906,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "020",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2755,8 +1924,7 @@
             "front": {
               "image": "2437cc4bebe63bad21bd69f334ae2199"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2776,50 +1944,38 @@
             "front": {
               "image": "c878e022037cccdf295aa88dbc599c62"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "020",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/black-deck-kit",
           "card": "020",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/black-deck-kit",
       "id": "darkness-energy",
-      "name": "Darkness Energy",
+      "name": "悪エネルギー",
+      "englishName": "Darkness Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Milky Isobe",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -2828,13 +1984,7 @@
         "sort": "2004-10-15.00 japanese/black-deck-kit 00020"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -2843,7 +1993,7 @@
             "$kind": "variant",
             "set": "japanese/black-deck-kit",
             "card": "darkness-energy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -2857,54 +2007,12 @@
             "front": {
               "image": "f3a7d8bbed0f98fb5038133671267d7a"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "darkness-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/ex-ruby-sapphire",
-          "painting": "93"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "darkness-energy",
-          "differs": []
-        }
-      }
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "darkness-energy-3gij" }
     }
-  ]
+  ],
+  "printedCode": null
 }

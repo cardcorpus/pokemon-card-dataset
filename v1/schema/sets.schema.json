@@ -1,20 +1,32 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "CardCorpus set index",
-  "description": "Every set, by catalog, era and release date (docs/static-api.md, \"Sets\").",
+  "title": "CardCorpus sets of a catalog",
+  "description": "Every set of one catalog (`sets/english.json`, `sets/japanese.json` and so on, one a catalog), with what a list of sets needs: its name, era, type, language, release date, card count, set code, logo and symbol. A set is one product's card list, such as Base Set, a promo series or a deck. They come era by era and then by release date. There is no list of every catalog's sets: index.json's `catalogs` names the catalogs, in the order lists use. Each set's cards are in sets/{id}.json (https://pokemon.cardcorpus.com/v1/docs/guide.md#sets).",
   "type": "object",
   "required": [
+    "catalog",
     "setCount",
     "sets"
   ],
   "properties": {
+    "catalog": {
+      "description": "The catalog these sets are in.",
+      "x-cc": {
+        "vocabulary": "catalog"
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/vocabulary.catalog"
+        }
+      ]
+    },
     "setCount": {
       "description": "How many sets; always present, 0 included.",
       "type": "integer",
       "minimum": 0
     },
     "sets": {
-      "description": "Every set, in catalog order.",
+      "description": "Every set of the catalog, era by era and then by release date.",
       "type": "array",
       "items": {
         "type": "object",
@@ -26,11 +38,10 @@
           "id",
           "catalog",
           "name",
+          "englishName",
           "type",
           "language",
           "cardCount",
-          "productCount",
-          "releases",
           "linkCount"
         ],
         "properties": {
@@ -40,14 +51,21 @@
           },
           "catalog": {
             "description": "The catalog the set belongs to.",
-            "type": "string",
             "x-cc": {
               "vocabulary": "catalog"
             },
-            "$ref": "#/$defs/vocabulary.catalog"
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.catalog"
+              }
+            ]
           },
           "name": {
-            "description": "The set's name.",
+            "description": "The set's name as it prints it, in its language. Where no source gives the printed name yet, its English name (https://pokemon.cardcorpus.com/v1/docs/guide.md#names).",
+            "type": "string"
+          },
+          "englishName": {
+            "description": "The set's name in English, on every set: \"Expansion Pack (Base Set)\" (https://pokemon.cardcorpus.com/v1/docs/guide.md#names).",
             "type": "string"
           },
           "era": {
@@ -58,39 +76,49 @@
             },
             "required": [
               "$kind",
-              "era",
+              "id",
               "name"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `era`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `era`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "const": "era"
               },
-              "era": {
+              "id": {
                 "description": "The era's id (eras.json).",
                 "type": "string"
               },
               "name": {
                 "description": "A copy of the target's own `name`.",
                 "type": "string"
+              },
+              "englishName": {
+                "description": "A copy of the target's own `englishName`.",
+                "type": "string"
               }
             }
           },
           "type": {
             "description": "What the set is, by how its cards reached people.",
-            "type": "string",
             "x-cc": {
               "vocabulary": "setType"
             },
-            "$ref": "#/$defs/vocabulary.setType"
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.setType"
+              }
+            ]
           },
           "language": {
-            "description": "The language its cards are printed in: its releases' (a French McDonald's set is international but French).",
-            "type": "string",
+            "description": "The language its cards are printed in: its catalog's, apart from a box like the Pikachu World Collection, which holds cards in several (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints).",
             "x-cc": {
               "vocabulary": "language"
             },
-            "$ref": "#/$defs/vocabulary.language"
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.language"
+              }
+            ]
           },
           "position": {
             "description": "Its place among its catalog's sets of one release date, where the data orders them.",
@@ -98,23 +126,23 @@
             "minimum": 1
           },
           "line": {
-            "description": "The line the set is one part of, where several of our sets came out as one product or range of products (docs/static-api.md, \"Lines\").",
+            "description": "The line the set is one part of, where several of our sets came out as one product or range of products (https://pokemon.cardcorpus.com/v1/docs/guide.md#lines).",
             "type": "object",
             "x-cc": {
               "ref": "line"
             },
             "required": [
               "$kind",
-              "line",
+              "id",
               "name",
               "part"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `line`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `line`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "const": "line"
               },
-              "line": {
+              "id": {
                 "description": "The line's id (lines.json).",
                 "type": "string"
               },
@@ -123,7 +151,7 @@
                 "type": "string"
               },
               "part": {
-                "description": "The words that tell this set from the line's others.",
+                "description": "The words that tell this set from the line's others: \"Blaziken Tech\" for \"2004 World Championships Deck: Blaziken Tech\", \"Latias\" for \"EX Trainer Kit Latias\".",
                 "type": "string"
               }
             }
@@ -143,13 +171,8 @@
             "type": "integer",
             "minimum": 0
           },
-          "productCount": {
-            "description": "How many sealed products the set has in its `products`; always present, 0 included.",
-            "type": "integer",
-            "minimum": 0
-          },
           "released": {
-            "description": "When the set first (its earliest release) came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
+            "description": "When the set came out came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates).",
             "type": "object",
             "properties": {
               "date": {
@@ -161,11 +184,18 @@
             "additionalProperties": false
           },
           "code": {
-            "description": "The set code it prints: the first of its releases' that has one.",
+            "description": "The set code it prints.",
             "type": "string"
           },
+          "printedCode": {
+            "description": "The set code and language mark its cards print where they name their set, as printed (in the set code's letter case): \"PBL FR\", \"M6a F\", \"CSV3C\", \"SV9a\". Null where the cards print no code of their own (Base Set); absent where nobody has checked yet (https://pokemon.cardcorpus.com/v1/docs/guide.md#printed-codes).",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "logo": {
-            "description": "Its logo: the first of its releases' that has one.",
+            "description": "Its logo.",
             "type": "string",
             "pattern": "^[0-9a-f]{32}$",
             "x-cc": {
@@ -173,71 +203,11 @@
             }
           },
           "symbol": {
-            "description": "Its set symbol: the first of its releases' that has one.",
+            "description": "The set symbol, the small mark its cards print (an icon a source gives for a set that prints none).",
             "type": "string",
             "pattern": "^[0-9a-f]{32}$",
             "x-cc": {
               "picture": true
-            }
-          },
-          "releases": {
-            "description": "Each release of the set: one per language it came out in.",
-            "type": "array",
-            "items": {
-              "type": "object",
-              "x-cc": {
-                "label": "name"
-              },
-              "required": [
-                "language",
-                "name"
-              ],
-              "properties": {
-                "language": {
-                  "description": "The language this release is printed in.",
-                  "type": "string",
-                  "x-cc": {
-                    "vocabulary": "language"
-                  },
-                  "$ref": "#/$defs/vocabulary.language"
-                },
-                "name": {
-                  "description": "The set's name in this release.",
-                  "type": "string"
-                },
-                "code": {
-                  "description": "The set code it prints.",
-                  "type": "string"
-                },
-                "released": {
-                  "description": "When this release came out, as precisely as is known (docs/static-api.md, \"Release dates\").",
-                  "type": "object",
-                  "properties": {
-                    "date": {
-                      "description": "The date: 1999, 1999-06 or 1999-06-16.",
-                      "type": "string",
-                      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
-                    }
-                  },
-                  "additionalProperties": false
-                },
-                "logo": {
-                  "description": "The release's logo.",
-                  "type": "string",
-                  "pattern": "^[0-9a-f]{32}$",
-                  "x-cc": {
-                    "picture": true
-                  }
-                },
-                "symbol": {
-                  "description": "The set symbol, the small mark its cards print (an icon a source gives for a set that prints none).",
-                  "type": "string",
-                  "pattern": "^[0-9a-f]{32}$",
-                  "x-cc": {
-                    "picture": true
-                  }
-                }
-              }
             }
           },
           "linkCount": {
@@ -249,22 +219,40 @@
       }
     }
   },
+  "additionalProperties": false,
   "$defs": {
     "vocabulary.catalog": {
+      "title": "Catalog",
       "description": "Every value of vocabulary.json's `catalog`.",
+      "type": "string",
       "enum": [
-        "international",
+        "english",
         "japanese",
-        "zh-hans"
+        "zh-hans",
+        "korean",
+        "zh-hant",
+        "thai",
+        "indonesian",
+        "french",
+        "german",
+        "italian",
+        "spanish",
+        "portuguese",
+        "latin-american-spanish",
+        "dutch",
+        "russian",
+        "polish"
       ]
     },
     "vocabulary.setType": {
+      "title": "SetType",
       "description": "Every value of vocabulary.json's `setType`.",
+      "type": "string",
       "enum": [
-        "deck",
         "expansion",
-        "box",
+        "deck",
         "special_expansion",
+        "box",
         "promo",
         "tie_in",
         "prize",
@@ -272,20 +260,26 @@
       ]
     },
     "vocabulary.language": {
+      "title": "Language",
       "description": "Every value of vocabulary.json's `language`.",
+      "type": "string",
       "enum": [
         "ja",
         "en",
-        "zh-Hans",
-        "fr",
-        "de",
-        "es",
-        "it",
         "ko",
+        "de",
+        "it",
+        "fr",
+        "es",
+        "zh-Hant",
         "pt",
+        "id",
+        "zh-Hans",
+        "th",
+        "es-419",
+        "ru",
         "pl",
-        "nl",
-        "zh-Hant"
+        "nl"
       ]
     }
   }

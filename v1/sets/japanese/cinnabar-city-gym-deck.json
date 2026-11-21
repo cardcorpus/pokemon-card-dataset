@@ -1,10 +1,11 @@
 {
   "id": "japanese/cinnabar-city-gym-deck",
   "catalog": "japanese",
-  "name": "Gym Deck: Cinnabar City Gym (Blaine)",
+  "name": "ポケモンジム第3弾「グレンタウンジム カツラ」",
+  "englishName": "Gym Deck: Cinnabar City Gym (Blaine)",
   "era": {
     "$kind": "era",
-    "era": "japanese/original-era",
+    "id": "japanese/original-era",
     "name": "Original Era"
   },
   "type": "deck",
@@ -12,70 +13,34 @@
   "position": 2,
   "line": {
     "$kind": "line",
-    "line": "japanese/gym-decks",
+    "id": "japanese/gym-decks",
     "name": "Gym Decks",
     "part": "Cinnabar City Gym (Blaine)"
   },
   "actualTotal": 25,
   "cardCount": 25,
-  "productCount": 0,
   "released": {
     "date": "1999-02-26"
   },
   "logo": "a9c5854d706f6f74ae9b5cfb40385bf3",
   "symbol": "941013d0a1422222c9d2b5edde4054b7",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Gym Deck: Cinnabar City Gym (Blaine)",
-      "released": {
-        "date": "1999-02-26"
-      },
-      "logo": "a9c5854d706f6f74ae9b5cfb40385bf3",
-      "symbol": "941013d0a1422222c9d2b5edde4054b7"
-    }
-  ],
   "description": {
-    "text": "The Japanese Gym deck of Blaine, Cinnabar Island's Gym Leader, sold as ポケモンジム第3弾「グレンタウンジム カツラ」 (Pokémon Gym 3: Guren Town Gym, Katsura) on 26 February 1999 with Sabrina's deck, the last pair of six. Its 64 cards are 25 different ones: Blaine's own Pokémon, Blaine as a holo Trainer, a holo Blaine's Arcanine, the Cinnabar City Gym stadium, new Trainers, and reworded copies of older Trainers that the decks share. The cards carry the Gym series' symbol, as Leader's Stadium's and Challenge from the Darkness's do, but no card number or rarity mark. Challenge from the Darkness reprinted many of them with a rarity mark, and English players got them in Gym Challenge; the deck was the model for the English Blaine theme deck. This pair was pitched at more experienced players than the first four decks. It has Blaine's Quiz #1 and #2, Trainers that quiz the opponent about a Pokémon in your hand. It came with a rule book and a red Arcanine coin.",
-    "sources": [
-      {
-        "title": "Bulbapedia: Guren Town Gym (TCG)",
-        "url": "https://bulbapedia.bulbagarden.net/wiki/Guren_Town_Gym_(TCG)"
-      },
-      {
-        "title": "artofpkm: the Cinnabar City Gym deck's card list",
-        "url": "https://www.artofpkm.com/sets/22"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Japanese Gym deck of Blaine, Cinnabar Island's Gym Leader, sold as ポケモンジム第3弾「グレンタウンジム カツラ」 (Pokémon Gym 3: Guren Town Gym, Katsura) on 26 February 1999 with Sabrina's deck, the last pair of six. Its 64 cards are 25 different ones: Blaine's own Pokémon, Blaine as a holo Trainer, a holo Blaine's Arcanine, the Cinnabar City Gym stadium, new Trainers, and reworded copies of older Trainers that the decks share. The cards carry the Gym series' symbol, as Leader's Stadium's and Challenge from the Darkness's do, but no card number or rarity mark. Challenge from the Darkness reprinted many of them with a rarity mark, and English players got them in Gym Challenge; the deck was the model for the English Blaine theme deck. This pair was pitched at more experienced players than the first four decks. It has Blaine's Quiz #1 and #2, Trainers that quiz the opponent about a Pokémon in your hand. It came with a rule book and a red Arcanine coin."
   },
   "tell": {
-    "text": "A \"GYM\" symbol, and no rarity mark",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Bulbapedia: Guren Town Gym (TCG)",
-        "url": "https://bulbapedia.bulbagarden.net/wiki/Guren_Town_Gym_(TCG)"
-      }
-    ]
+    "text": "A \"GYM\" symbol, and no rarity mark"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/gym-challenge",
+      "id": "english/gym-challenge",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 13
     },
     {
       "$kind": "set",
-      "set": "international/gym-heroes",
+      "id": "english/gym-heroes",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 6
@@ -83,11 +48,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-004",
-      "name": "Blaine's Charmander",
+      "name": "カツラのヒトカゲ",
+      "englishName": "Blaine's Charmander",
       "number": {
         "printed": "No. 004",
-        "numerator": "No. 004"
+        "short": "No. 004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -95,7 +63,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -106,23 +74,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 4,
+          "id": 4,
           "name": "Charmander"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 4,
-          "form": "4",
-          "name": "Charmander",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -132,7 +93,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -150,49 +111,21 @@
             "front": {
               "image": "e731421535a2ce34c7cc172f809883a9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "60",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-charmander-rj4g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-037-blaine-s-vulpix-v1",
-      "name": "Blaine's Vulpix",
+      "name": "カツラのロコン",
+      "englishName": "Blaine's Vulpix",
       "number": {
         "printed": "No. 037",
-        "numerator": "No. 037"
+        "short": "No. 037"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -200,7 +133,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -211,28 +144,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 37,
+          "id": 37,
           "name": "Vulpix"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 37,
-          "form": "37",
-          "name": "Vulpix",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "9bededbe409be76528453b75ec5b07ec",
@@ -240,7 +164,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-037-blaine-s-vulpix-v1",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -258,49 +182,21 @@
             "front": {
               "image": "9bededbe409be76528453b75ec5b07ec"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-037-blaine-s-vulpix-v1"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-vulpix-a1y9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-037-blaine-s-vulpix-v2",
       "name": "Blaine's Vulpix",
+      "englishName": "Blaine's Vulpix",
       "number": {
         "printed": "No. 037",
-        "numerator": "No. 037"
+        "short": "No. 037"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -308,7 +204,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -319,28 +215,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 37,
+          "id": 37,
           "name": "Vulpix"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 37,
-          "form": "37",
-          "name": "Vulpix",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "9ebbb6ad35eb8b4dc6bb312a6eb871e6",
@@ -348,7 +235,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-037-blaine-s-vulpix-v2",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -366,59 +253,21 @@
             "front": {
               "image": "9ebbb6ad35eb8b4dc6bb312a6eb871e6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "65",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-037-blaine-s-vulpix-v2"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-037",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-vulpix-wz1h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-038",
-      "name": "Blaine's Ninetales",
+      "name": "カツラのキュウコン",
+      "englishName": "Blaine's Ninetales",
       "number": {
         "printed": "No. 038",
-        "numerator": "No. 038"
+        "short": "No. 038"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -426,7 +275,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -437,23 +286,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 38,
+          "id": 38,
           "name": "Ninetales"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 38,
-          "form": "38",
-          "name": "Ninetales",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -463,7 +305,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-038",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -481,59 +323,21 @@
             "front": {
               "image": "364d693e35c4f7cc3881555db6f82817"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-038"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-038",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-ninetales-bttg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-058-blaine-s-growlithe-v1",
-      "name": "Blaine's Growlithe",
+      "name": "カツラのガーディ",
+      "englishName": "Blaine's Growlithe",
       "number": {
         "printed": "No. 058",
-        "numerator": "No. 058"
+        "short": "No. 058"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -541,7 +345,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -552,28 +356,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 58,
+          "id": 58,
           "name": "Growlithe"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 58,
-          "form": "58",
-          "name": "Growlithe",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "5d28ce13eef2a29638c534b84426399c",
@@ -581,7 +376,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-058-blaine-s-growlithe-v1",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -599,49 +394,21 @@
             "front": {
               "image": "5d28ce13eef2a29638c534b84426399c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "35",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-058-blaine-s-growlithe-v1"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-growlithe-ds64" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-058-blaine-s-growlithe-v2",
       "name": "Blaine's Growlithe",
+      "englishName": "Blaine's Growlithe",
       "number": {
         "printed": "No. 058",
-        "numerator": "No. 058"
+        "short": "No. 058"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -649,7 +416,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -660,28 +427,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 58,
+          "id": 58,
           "name": "Growlithe"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 58,
-          "form": "58",
-          "name": "Growlithe",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "73241eaf1d1267cac94a62b5089b2ce7",
@@ -689,7 +447,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-058-blaine-s-growlithe-v2",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -707,49 +465,21 @@
             "front": {
               "image": "73241eaf1d1267cac94a62b5089b2ce7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "62",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-058-blaine-s-growlithe-v2"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-growlithe-w31o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-077-blaine-s-ponyta-v1",
-      "name": "Blaine's Ponyta",
+      "name": "カツラのポニータ",
+      "englishName": "Blaine's Ponyta",
       "number": {
         "printed": "No. 077",
-        "numerator": "No. 077"
+        "short": "No. 077"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -757,7 +487,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -768,28 +498,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 77,
+          "id": 77,
           "name": "Ponyta"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 77,
-          "form": "77",
-          "name": "Ponyta",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "1a55d23b4ccdff83413a6717f803577d",
@@ -797,7 +518,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-077-blaine-s-ponyta-v1",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -815,49 +536,21 @@
             "front": {
               "image": "1a55d23b4ccdff83413a6717f803577d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "63",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-077-blaine-s-ponyta-v1"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-ponyta-1aro" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-077-blaine-s-ponyta-v2",
       "name": "Blaine's Ponyta",
+      "englishName": "Blaine's Ponyta",
       "number": {
         "printed": "No. 077",
-        "numerator": "No. 077"
+        "short": "No. 077"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -865,7 +558,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -876,28 +569,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 77,
+          "id": 77,
           "name": "Ponyta"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 77,
-          "form": "77",
-          "name": "Ponyta",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "b49e26499d77d149141aa8f3bcca8909",
@@ -905,7 +589,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-077-blaine-s-ponyta-v2",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -923,59 +607,21 @@
             "front": {
               "image": "b49e26499d77d149141aa8f3bcca8909"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-077-blaine-s-ponyta-v2"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-077",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-ponyta-9t4g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-078",
-      "name": "Blaine's Rapidash",
+      "name": "カツラのギャロップ",
+      "englishName": "Blaine's Rapidash",
       "number": {
         "printed": "No. 078",
-        "numerator": "No. 078"
+        "short": "No. 078"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -983,7 +629,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -994,23 +640,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 78,
+          "id": 78,
           "name": "Rapidash"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 78,
-          "form": "78",
-          "name": "Rapidash",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1020,7 +659,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-078",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1038,59 +677,21 @@
             "front": {
               "image": "c3dd884479ca9e813300f4293e401c50"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "33",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-078"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-078",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-rapidash-xnjl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-084",
-      "name": "Blaine's Doduo",
+      "name": "カツラのドードー",
+      "englishName": "Blaine's Doduo",
       "number": {
         "printed": "No. 084",
-        "numerator": "No. 084"
+        "short": "No. 084"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1098,7 +699,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1109,23 +710,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 84,
+          "id": 84,
           "name": "Doduo"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 84,
-          "form": "84",
-          "name": "Doduo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1135,7 +729,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-084",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1153,59 +747,21 @@
             "front": {
               "image": "9c4305567e79372e0d32805219f8dbdd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "61",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-084"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-084-blaine-s-doduo",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-doduo-k45j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-085",
-      "name": "Blaine's Dodrio",
+      "name": "カツラのドードリオ",
+      "englishName": "Blaine's Dodrio",
       "number": {
         "printed": "No. 085",
-        "numerator": "No. 085"
+        "short": "No. 085"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1213,7 +769,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1224,23 +780,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 85,
+          "id": 85,
           "name": "Dodrio"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 85,
-          "form": "85",
-          "name": "Dodrio",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1250,7 +799,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-085",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1268,49 +817,21 @@
             "front": {
               "image": "5b405a999a040b37fb96c1339c6fba67"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "32",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-085"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-dodrio-1uye" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "no-126",
-      "name": "Blaine's Magmar",
+      "name": "カツラのブーバー",
+      "englishName": "Blaine's Magmar",
       "number": {
         "printed": "No. 126",
-        "numerator": "No. 126"
+        "short": "No. 126"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1318,7 +839,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1329,23 +850,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 126,
+          "id": 126,
           "name": "Magmar"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 126,
-          "form": "126",
-          "name": "Magmar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1355,7 +869,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "no-126",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1373,63 +887,25 @@
             "front": {
               "image": "56208d3a1d557d0f11ebefc7138d681e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "37",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "no-126"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-126",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-magmar-p3wz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "blaine",
-      "name": "Blaine",
+      "name": "カツラ",
+      "englishName": "Blaine",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1437,10 +913,10 @@
         "date": "1999-02-26",
         "sort": "1999-02-26.00 japanese/cinnabar-city-gym-deck 00012"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "subject"
         }
@@ -1452,7 +928,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "blaine",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1470,63 +946,25 @@
             "front": {
               "image": "04d3984034f1f004d01d89b2451ea200"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "17",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "blaine"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "blaine",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "blaine-vgji" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "blaine-s-arcanine",
       "name": "Blaine's Arcanine",
+      "englishName": "Blaine's Arcanine",
       "cardType": "pokemon",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1537,23 +975,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 59,
+          "id": 59,
           "name": "Arcanine"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 59,
-          "form": "59",
-          "name": "Arcanine",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1563,7 +994,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "blaine-s-arcanine",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1581,63 +1012,25 @@
             "front": {
               "image": "b762ac822afcae7465f82aa18e85bf09"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "blaine-s-arcanine"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "no-058-blaine-s-arcanine",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-arcanine-waav" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "blaine-s-gamble",
       "name": "Blaine's Gamble",
+      "englishName": "Blaine's Gamble",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1645,10 +1038,10 @@
         "date": "1999-02-26",
         "sort": "1999-02-26.00 japanese/cinnabar-city-gym-deck 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "subject"
         }
@@ -1660,7 +1053,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "blaine-s-gamble",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1678,63 +1071,25 @@
             "front": {
               "image": "d5f11ce4736615c66915b6116398e068"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "121",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "blaine-s-gamble"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "blaine-s-gamble",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-gamble-jlur" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "blaine-s-quiz-1",
-      "name": "Blaine's Quiz #1",
+      "name": "カツラのクイズ　その1",
+      "englishName": "Blaine's Quiz #1",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1742,10 +1097,10 @@
         "date": "1999-02-26",
         "sort": "1999-02-26.00 japanese/cinnabar-city-gym-deck 00015"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "subject"
         }
@@ -1757,7 +1112,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "blaine-s-quiz-1",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1775,53 +1130,25 @@
             "front": {
               "image": "b0cd69f5dbb0920ec705c8279e6886f3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "97",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "blaine-s-quiz-1"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-quiz-1-edj5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "blaine-s-quiz-2",
-      "name": "Blaine's Quiz #2",
+      "name": "カツラのクイズ　その2",
+      "englishName": "Blaine's Quiz #2",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1829,10 +1156,10 @@
         "date": "1999-02-26",
         "sort": "1999-02-26.00 japanese/cinnabar-city-gym-deck 00016"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blaine",
+          "id": "blaine",
           "name": "Blaine",
           "role": "subject"
         }
@@ -1844,7 +1171,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "blaine-s-quiz-2",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1862,53 +1189,25 @@
             "front": {
               "image": "ed8bc6c620a6cb2575e7ae839e35f1aa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "111",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "blaine-s-quiz-2"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blaine-s-quiz-2-2qz7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "cinnabar-city-gym",
-      "name": "Cinnabar City Gym",
+      "name": "グレンタウンジム",
+      "englishName": "Cinnabar City Gym",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1923,7 +1222,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "cinnabar-city-gym",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1941,63 +1240,25 @@
             "front": {
               "image": "ae250c5320f17f974196adf162478fd5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "113",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "cinnabar-city-gym"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/challenge-from-the-darkness-gym-challenge",
-            "card": "cinnabar-city-gym",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cinnabar-city-gym-mk36" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "double-colorless-energy",
-      "name": "Double Colorless Energy",
+      "name": "無色2個エネルギー",
+      "englishName": "Double Colorless Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2012,7 +1273,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "double-colorless-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2030,68 +1291,25 @@
             "front": {
               "image": "833abaaa0c2cc58a0dcfcddf2630d190"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "96",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "double-colorless-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "double-colorless-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "double-colorless-energy",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "double-colorless-energy-g2rk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "fervor",
-      "name": "Fervor",
+      "name": "熱血！",
+      "englishName": "Fervor",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2106,7 +1324,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "fervor",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2124,53 +1342,25 @@
             "front": {
               "image": "9ac7a31b9025ae9a6cea952fee8695c8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "124",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cinnabar-city-gym-deck",
-          "painting": "fervor"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "fervor-ino5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "full-heal",
-      "name": "Full Heal",
+      "name": "なんでもなおし",
+      "englishName": "Full Heal",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2185,7 +1375,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "full-heal",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2203,68 +1393,25 @@
             "front": {
               "image": "4281332a2ebea2919d587d7401d048c1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "82",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "full-heal"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "full-heal"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "full-heal",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "full-heal-w1hg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "max-revive",
-      "name": "Max Revive",
+      "name": "元気のかたまり",
+      "englishName": "Max Revive",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Hikaru Koike",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -2279,7 +1426,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "max-revive",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2297,67 +1444,25 @@
             "front": {
               "image": "3c05fcb333b79e85258b7b8708c21e99"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "117",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/vending-sheet-2",
-                "card": "max-revive"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-2",
-          "painting": "max-revive"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-2",
-          "card": "max-revive",
-          "differs": [
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "max-revive-ak6t" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "pokedex",
-      "name": "Pokédex",
+      "name": "ポケモン図鑑",
+      "englishName": "Pokédex",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2372,7 +1477,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "pokedex",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2390,68 +1495,25 @@
             "front": {
               "image": "7cb8ea56dd104b74844930572f1b885d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "87",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "pokedex"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "pokedex"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "pokedex",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokedex-0hfd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "potion",
       "name": "Potion",
+      "englishName": "Potion",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2466,7 +1528,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "potion",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2484,68 +1546,25 @@
             "front": {
               "image": "67a868fcd18a445166d4833e832d6668"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "94",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "potion"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "potion"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "potion",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "potion-gyu4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/cinnabar-city-gym-deck",
       "id": "switch",
       "name": "Switch",
+      "englishName": "Switch",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2560,7 +1579,7 @@
             "$kind": "variant",
             "set": "japanese/cinnabar-city-gym-deck",
             "card": "switch",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2578,57 +1597,12 @@
             "front": {
               "image": "7cad87338c8a11981ca37ebd3fda23a4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "95",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "switch",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-jqev" }
     }
-  ]
+  ],
+  "printedCode": null
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus marketplace ids of a set",
-  "description": "The TCGplayer and Cardmarket products that sell one set's cards: each card by its id with every product its records name, and each of its copies by its id with the one product that prices it, TCGplayer's product and subtype, Cardmarket's product and, with reverseHolo, the price guide's -holo fields (docs/static-api.md, \"Marketplace ids\").",
+  "description": "The TCGplayer and Cardmarket products that sell one set's cards: each card by its id with every product its records name, and each of its variants by its id with the one product that prices it, TCGplayer's product and subtype, Cardmarket's product and, with reverseHolo, the price guide's -holo fields (https://pokemon.cardcorpus.com/v1/docs/guide.md#marketplace-ids).",
   "type": "object",
   "required": [
     "set",
@@ -9,7 +9,7 @@
   ],
   "properties": {
     "set": {
-      "description": "The set's id (sets.json).",
+      "description": "The set's id (sets/{catalog}.json).",
       "type": "string"
     },
     "cards": {
@@ -37,7 +37,7 @@
             }
           },
           "variants": {
-            "description": "Each of its copies, by its id, with the one product that prices it.",
+            "description": "Each of its variants, by its id, with the one product that prices it.",
             "type": "object",
             "additionalProperties": {
               "type": "object",
@@ -74,7 +74,7 @@
                       "minimum": 0
                     },
                     "reverseHolo": {
-                      "description": "Present where the copy is priced by the price guide's -holo fields.",
+                      "description": "Present where the variant is priced by the price guide's -holo fields.",
                       "const": true
                     }
                   }

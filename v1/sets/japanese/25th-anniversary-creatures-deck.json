@@ -2,71 +2,41 @@
   "id": "japanese/25th-anniversary-creatures-deck",
   "catalog": "japanese",
   "name": "25th Anniversary Creatures Deck",
+  "englishName": "25th Anniversary Creatures Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/sword-shield",
-    "name": "Sword & Shield"
+    "id": "japanese/sword-shield",
+    "name": "ソード&シールド",
+    "englishName": "Sword & Shield"
   },
   "type": "deck",
   "language": "ja",
   "actualTotal": 30,
   "cardCount": 30,
-  "productCount": 0,
   "released": {
     "date": "2021-12-26"
   },
   "logo": "ac9c6227a3e0f34d5b58eb9e29a59af4",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "25th Anniversary Creatures Deck",
-      "released": {
-        "date": "2021-12-26"
-      },
-      "logo": "ac9c6227a3e0f34d5b58eb9e29a59af4"
-    }
-  ],
   "description": {
-    "text": "The History Gate Deck, a 30-card deck Creatures Inc., the company that develops the Pokémon Card Game, made to mark the game's 25th anniversary, and sent out at the end of 2021 as a holiday gift to its staff and the game's illustrators, and not sold. Most of its cards stand for one year from 1995 to 2021, reprinting a card of that year from Base Set Charizard to Rapid Strike Urshifu V, and the back of each tells Creatures' history in that year; three more carry an interview with the company's chairman and president. The fronts have a star holofoil and a gold 25th anniversary logo. The 1995 card is a handmade test Chansey from before the game came out, and the Stadium History Gate, made for the deck, doubles the damage and HP of cards from 1996 to 2000. A special rule lets a player win on their turn when they hold five or more cards and the years on the backs of all of them run in sequence.",
-    "sources": [
-      {
-        "title": "Creatures Inc.: HISTORY GATE DECK",
-        "url": "https://www.creatures.co.jp/history_special_interview/history_gate_deck.html"
-      },
-      {
-        "title": "Creatures Inc.: SPECIAL TALK of Creatures",
-        "url": "https://www.creatures.co.jp/history_special_interview/"
-      },
-      {
-        "title": "Pokumon: Pokemon Card Game 25th Anniversary Creatures Corporate History Deck",
-        "url": "https://pokumon.com/pokemon-card-game-25th-anniversary-creatures-corporate-history-deck/"
-      }
-    ]
+    "text": "The History Gate Deck, a 30-card deck Creatures Inc., the company that develops the Pokémon Card Game, made to mark the game's 25th anniversary, and sent out at the end of 2021 as a holiday gift to its staff and the game's illustrators, and not sold. Most of its cards stand for one year from 1995 to 2021, reprinting a card of that year from Base Set Charizard to Rapid Strike Urshifu V, and the back of each tells Creatures' history in that year; three more carry an interview with the company's chairman and president. The fronts have a star holofoil and a gold 25th anniversary logo. The 1995 card is a handmade test Chansey from before the game came out, and the Stadium History Gate, made for the deck, doubles the damage and HP of cards from 1996 to 2000. A special rule lets a player win on their turn when they hold five or more cards and the years on the backs of all of them run in sequence."
   },
   "tell": {
-    "text": "A gold 25th anniversary stamp",
-    "sources": [
-      {
-        "title": "Creatures Inc.: HISTORY GATE DECK",
-        "url": "https://www.creatures.co.jp/history_special_interview/history_gate_deck.html"
-      },
-      {
-        "title": "Creatures Inc.: SPECIAL TALK of Creatures",
-        "url": "https://www.creatures.co.jp/history_special_interview/"
-      }
-    ]
+    "text": "A gold 25th anniversary stamp"
   },
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "chansey",
       "name": "Chansey",
+      "englishName": "Chansey",
       "cardType": "pokemon",
       "language": "ja",
       "credit": "Kouichi Ooyama",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ooyama",
+          "id": "ooyama",
           "name": "OOYAMA"
         }
       ],
@@ -77,17 +47,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 113,
+          "id": 113,
           "name": "Chansey"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 113,
-          "form": "113",
-          "name": "Chansey",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -97,7 +58,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "chansey",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -115,30 +76,20 @@
             "front": {
               "image": "98b4b884f5130b1b54ab6aaa3244ab06"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+      "defaultVariant": "holo-25th-anniversary-stamp"
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "no-006",
       "name": "Charizard",
+      "englishName": "Charizard",
       "number": {
         "printed": "No. 006",
-        "numerator": "No. 006"
+        "short": "No. 006"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -147,7 +98,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -158,17 +109,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 6,
+          "id": 6,
           "name": "Charizard"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 6,
-          "form": "6",
-          "name": "Charizard",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -178,7 +120,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "no-006",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -196,74 +138,18 @@
             "front": {
               "image": "335de8d70cf196cbf8bb63039d6a2f5e"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "4",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "no-006"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-006"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "no-006",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/expansion-pack-base-set",
-            "card": "no-006",
-            "variant": "unlimited-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "011"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "charizard-2dke" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "rainbow-energy",
       "name": "Rainbow Energy",
+      "englishName": "Rainbow Energy",
       "rarity": "Holo Rare",
       "cardType": "energy",
       "language": "ja",
@@ -271,7 +157,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -286,7 +172,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "rainbow-energy",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -304,75 +190,25 @@
             "front": {
               "image": "f4139a902f5d4446c277cde66497b930"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "17",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "rainbow-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/ex-ruby-sapphire",
-          "painting": "95"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "rainbow-energy",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/energize-your-game",
-            "card": "rainbow-energy"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "rainbow-energy-qu5e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "erika",
       "name": "Erika",
+      "englishName": "Erika",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -380,10 +216,10 @@
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00003"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "erika",
+          "id": "erika",
           "name": "Erika",
           "role": "subject"
         }
@@ -395,7 +231,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "erika",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -413,64 +249,21 @@
             "front": {
               "image": "7de61f30a384a41b3e4b36e968250956"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/celadon-city-gym-deck",
-                "card": "erika"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/celadon-city-gym-deck",
-          "painting": "erika"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/celadon-city-gym-deck",
-          "card": "erika",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "erika-xuvm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "no-145",
       "name": "Rocket's Zapdos",
+      "englishName": "Rocket's Zapdos",
       "number": {
         "printed": "No. 145",
-        "numerator": "No. 145"
+        "short": "No. 145"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -479,7 +272,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshida",
+          "id": "shin-ichi-yoshida",
           "name": "Shin-ichi Yoshida"
         }
       ],
@@ -490,23 +283,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 145,
+          "id": 145,
           "name": "Zapdos"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "rocket",
+          "id": "rocket",
           "name": "Rocket",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 145,
-          "form": "145",
-          "name": "Zapdos",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -516,7 +302,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "no-145",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -534,64 +320,21 @@
             "front": {
               "image": "3d63582470d265f939345eab65d3c153"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "15",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/challenge-from-the-darkness-gym-challenge",
-                "card": "no-145"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/challenge-from-the-darkness-gym-challenge",
-          "painting": "no-145"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/challenge-from-the-darkness-gym-challenge",
-          "card": "no-145",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "rocket-s-zapdos-hlwx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "no-215",
       "name": "Sneasel",
+      "englishName": "Sneasel",
       "number": {
         "printed": "No. 215",
-        "numerator": "No. 215"
+        "short": "No. 215"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -600,7 +343,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -611,17 +354,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 215,
+          "id": 215,
           "name": "Sneasel"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 215,
-          "form": "215",
-          "name": "Sneasel",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -631,7 +365,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "no-215",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -649,75 +383,25 @@
             "front": {
               "image": "a6ce8cba514a37f262ecc4302e8d2d15"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-genesis",
-              "card": "25",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-                "card": "no-215"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-          "painting": "no-215"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-          "card": "no-215",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "037"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "sneasel-diw1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "lightning-energy-v1",
       "name": "Lightning Energy",
+      "englishName": "Lightning Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -725,9 +409,7 @@
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00006"
       },
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "3a80ab541163060e2bf044f5eb26dd9b",
@@ -735,7 +417,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "lightning-energy-v1",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -753,71 +435,21 @@
             "front": {
               "image": "3a80ab541163060e2bf044f5eb26dd9b"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "100",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "lightning-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "lightning-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "lightning-energy",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/energize-your-game",
-            "card": "lightning-energy"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "lightning-energy-egv9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "085",
       "name": "Crystal Energy",
+      "englishName": "Crystal Energy",
       "number": {
         "printed": "085/087",
-        "numerator": "085"
+        "short": "085"
       },
       "rarity": "Uncommon",
       "cardType": "energy",
@@ -826,7 +458,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -841,7 +473,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "085",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -859,76 +491,25 @@
             "front": {
               "image": "9df675485283715fb9d7d7ae31bfa4de"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/aquapolis",
-              "card": "146",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/wind-from-the-sea",
-                "card": "085"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/wind-from-the-sea",
-          "painting": "085"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/wind-from-the-sea",
-          "card": "085",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/wind-from-the-sea",
-            "card": "085",
-            "variant": "unlimited-non-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "crystal-energy-2g6g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "fighting-energy-v1",
       "name": "Fighting Energy",
+      "englishName": "Fighting Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00008"
       },
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "2b96132adc098325220affd5414b6a27",
@@ -936,7 +517,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "fighting-energy-v1",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -954,30 +535,20 @@
             "front": {
               "image": "2b96132adc098325220affd5414b6a27"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+      "defaultVariant": "holo-25th-anniversary-stamp"
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "011-charmeleon",
       "name": "Charmeleon",
+      "englishName": "Charmeleon",
       "number": {
         "printed": "011/052",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -985,7 +556,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -996,17 +567,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 5,
+          "id": 5,
           "name": "Charmeleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 5,
-          "form": "5",
-          "name": "Charmeleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1016,7 +578,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "011-charmeleon",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1036,70 +598,21 @@
             "front": {
               "image": "0a9caa2da23dfd31ef77fd6ce9014d23"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-firered-leafgreen",
-              "card": "31",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/venusaur-charizard-blastoise-random-constructed-starter-decks",
-                "card": "011"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/venusaur-charizard-blastoise-random-constructed-starter-decks",
-          "painting": "011"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/venusaur-charizard-blastoise-random-constructed-starter-decks",
-          "card": "011",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/venusaur-charizard-blastoise-random-constructed-starter-decks",
-            "card": "011",
-            "variant": "first-edition-non-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "charmeleon-5z1m" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "041",
       "name": "Mew ex",
+      "englishName": "Mew ex",
       "number": {
         "printed": "041/086",
-        "numerator": "041"
+        "short": "041"
       },
       "rarity": "Ultra Rare",
       "cardType": "pokemon",
@@ -1108,7 +621,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1119,17 +632,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1139,7 +643,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "041",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1159,76 +663,25 @@
             "front": {
               "image": "8ad015373ab771ea45ad4c2a51d2f18b"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-legend-maker",
-              "card": "88",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mirage-forest",
-                "card": "041"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mirage-forest",
-          "painting": "041"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mirage-forest",
-          "card": "041",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/mirage-forest",
-            "card": "041",
-            "variant": "first-edition-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mew-ex-iexk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "fighting-energy-v2",
       "name": "Fighting Energy",
+      "englishName": "Fighting Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00011"
       },
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "a490fa5b9410252efa641487bcc3e04f",
@@ -1236,7 +689,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "fighting-energy-v2",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1254,30 +707,20 @@
             "front": {
               "image": "a490fa5b9410252efa641487bcc3e04f"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+      "defaultVariant": "holo-25th-anniversary-stamp"
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "006",
       "name": "Charmander",
+      "englishName": "Charmander",
       "number": {
         "printed": "006/108",
-        "numerator": "006"
+        "short": "006"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1286,7 +729,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sachiko-adachi",
+          "id": "sachiko-adachi",
           "name": "Sachiko Adachi"
         }
       ],
@@ -1297,17 +740,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 4,
+          "id": 4,
           "name": "Charmander"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 4,
-          "form": "4",
-          "name": "Charmander",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1317,7 +751,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "006",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1337,67 +771,18 @@
             "front": {
               "image": "a756798cc331c17932f87be95bbbb602"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-power-keepers",
-              "card": "48",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/world-champions-pack",
-                "card": "006"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/ex-power-keepers",
-          "painting": "48"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/world-champions-pack",
-          "card": "006",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/world-champions-pack",
-            "card": "006",
-            "variant": "first-edition-non-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "charmander-1j1v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "uxie",
       "name": "Uxie",
+      "englishName": "Uxie",
       "rarity": "Rare",
       "cardType": "pokemon",
       "language": "ja",
@@ -1405,7 +790,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1416,17 +801,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 480,
+          "id": 480,
           "name": "Uxie"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 480,
-          "form": "480",
-          "name": "Uxie",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1436,7 +812,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "uxie",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1456,76 +832,25 @@
             "front": {
               "image": "2562ec2f1aa74959f645944c2ef44046"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legends-awakened",
-              "card": "43",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cry-from-the-mysterious",
-                "card": "uxie"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cry-from-the-mysterious",
-          "painting": "uxie"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cry-from-the-mysterious",
-          "card": "uxie",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/cry-from-the-mysterious",
-            "card": "uxie",
-            "variant": "first-edition-non-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "uxie-x1bs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "lightning-energy-v2",
       "name": "Lightning Energy",
+      "englishName": "Lightning Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00014"
       },
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "57174bc2ffa24892877f526a985fe77d",
@@ -1533,7 +858,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "lightning-energy-v2",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1551,68 +876,18 @@
             "front": {
               "image": "57174bc2ffa24892877f526a985fe77d"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/heartgold-soulsilver",
-              "card": "118",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/2009-energies",
-                "card": "lightning-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/2009-energies",
-          "painting": "lightning-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/2009-energies",
-          "card": "lightning-energy",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/legend-promos",
-            "card": "014"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "lightning-energy-e8gl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "basic-fighting-energy",
       "name": "Basic Fighting Energy",
+      "englishName": "Basic Fighting Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1626,7 +901,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "basic-fighting-energy",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1644,64 +919,21 @@
             "front": {
               "image": "3f93c045414b041cd7d84ee39beac93e"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "basic-fighting-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "basic-fighting-energy",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-fighting-energy",
-            "variant": "non-holo-snivy-5-silhouette-stamp"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white-2",
-            "card": "36"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "36"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "basic-fighting-energy-ogqm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "028-mewtwo-ex",
       "name": "Mewtwo-EX",
+      "englishName": "Mewtwo-EX",
       "number": {
         "printed": "028/052",
-        "numerator": "028"
+        "short": "028"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -1710,7 +942,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shizurow",
+          "id": "shizurow",
           "name": "Shizurow"
         }
       ],
@@ -1721,17 +953,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 150,
+          "id": 150,
           "name": "Mewtwo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 150,
-          "form": "150",
-          "name": "Mewtwo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1741,7 +964,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "028-mewtwo-ex",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1761,70 +984,21 @@
             "front": {
               "image": "57f2d255b63cd39419a3dc64689d85bd"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/next-destinies",
-              "card": "54",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/psycho-drive",
-                "card": "028"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psycho-drive",
-          "painting": "028"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/psycho-drive",
-          "card": "028",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/psycho-drive",
-            "card": "028",
-            "variant": "first-edition-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mewtwo-ex-3abn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "050-blend-energy-grpd",
       "name": "Blend Energy GRPD",
+      "englishName": "Blend Energy GRPD",
       "number": {
         "printed": "050/050",
-        "numerator": "050"
+        "short": "050"
       },
       "rarity": "Uncommon",
       "cardType": "energy",
@@ -1833,7 +1007,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1848,7 +1022,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "050-blend-energy-grpd",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1868,70 +1042,21 @@
             "front": {
               "image": "01fd391411a614eeb169a7be984a6cb8"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragons-exalted",
-              "card": "117",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dragon-blast",
-                "card": "050"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-blast",
-          "painting": "050"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dragon-blast",
-          "card": "050",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/dragon-blast",
-            "card": "050",
-            "variant": "first-edition-non-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "blend-energy-grpd-caxn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "060-double-colorless-energy",
       "name": "Double Colorless Energy",
+      "englishName": "Double Colorless Energy",
       "number": {
         "printed": "060/060",
-        "numerator": "060"
+        "short": "060"
       },
       "rarity": "Uncommon",
       "cardType": "energy",
@@ -1940,7 +1065,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1955,7 +1080,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "060-double-colorless-energy",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -1975,70 +1100,21 @@
             "front": {
               "image": "75b5fa65359a26a8cf4f1d3eb87c2883"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "130",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-y",
-                "card": "060"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-y",
-          "painting": "060"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-y",
-          "card": "060",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/collection-y",
-            "card": "060",
-            "variant": "first-edition-non-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "double-colorless-energy-rcjg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "xy-p",
       "name": "Lightning Energy",
+      "englishName": "Lightning Energy",
       "number": {
         "printed": "XY-P",
-        "numerator": "XY-P"
+        "short": "XY-P"
       },
       "rarity": "Promo",
       "cardType": "energy",
@@ -2054,7 +1130,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "xy-p",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2072,178 +1148,21 @@
             "front": {
               "image": "970f09890fda3ac3ce8a43ec23635bd5"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
-        }
-      ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "lightning-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/xy-promos",
-          "card": "no-315",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/hs-trainer-kit-raichu",
-            "card": "11"
-          },
-          {
-            "$kind": "card",
-            "set": "international/hs-trainer-kit-raichu",
-            "card": "15"
-          },
-          {
-            "$kind": "card",
-            "set": "international/hs-trainer-kit-raichu",
-            "card": "23"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-theme-deck-victini",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-gift-set-thundurus-vs-tornadus",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/garchomp-half-deck",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/master-deck-build-box-ex",
-            "card": "basic-lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "135"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/m-rayquaza-ex-mega-battle-deck",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/emboar-ex-vs-togekiss-ex-battle-starter-set",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "10"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "17"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "18"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "2"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "29"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "3"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "6"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "8"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "9"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/extra-regulation-box",
-            "card": "lig"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "lightning-energy-txvy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "028-m-mewtwo-ex",
       "name": "M Mewtwo-EX",
+      "englishName": "M Mewtwo-EX",
       "number": {
         "printed": "028/059",
-        "numerator": "028"
+        "short": "028"
       },
       "rarity": "Double Rare (RR)",
       "cardType": "pokemon",
@@ -2252,7 +1171,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2263,17 +1182,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 150,
-          "name": "Mewtwo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 150,
-          "form": "150:mega-y",
-          "name": "Mega Mewtwo Y",
-          "role": "subject"
+          "id": 150,
+          "name": "Mewtwo",
+          "forms": [
+            {
+              "id": "150:mega-y",
+              "name": "Mega Mewtwo Y"
+            }
+          ]
         }
       ],
       "picture": {
@@ -2283,7 +1199,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "028-m-mewtwo-ex",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2303,70 +1219,21 @@
             "front": {
               "image": "1f0656e46fcc68a4ffddaf61cf2b6217"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/breakthrough",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/red-flash",
-                "card": "028"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/red-flash",
-          "painting": "028"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/red-flash",
-          "card": "028",
-          "copiesVariant": {
-            "$kind": "variant",
-            "set": "japanese/red-flash",
-            "card": "028",
-            "variant": "first-edition-holo"
-          },
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "m-mewtwo-ex-sbj9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "084",
       "name": "Professor Oak's Hint",
+      "englishName": "Professor Oak's Hint",
       "number": {
         "printed": "084/087",
-        "numerator": "084"
+        "short": "084"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -2375,7 +1242,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2383,10 +1250,10 @@
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00021"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-oak",
+          "id": "professor-oak",
           "name": "Professor Oak",
           "role": "subject"
         }
@@ -2398,7 +1265,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "084",
-            "variant": "first-edition-holo-25th-anniversary-stamp"
+            "id": "first-edition-holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2418,64 +1285,21 @@
             "front": {
               "image": "1e90695008f3b62b3307d135c91cb7e2"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "first-edition-holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "first-edition-holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/evolutions",
-              "card": "84",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-20th-anniversary",
-                "card": "084"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-20th-anniversary",
-          "painting": "084"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-20th-anniversary",
-          "card": "084",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "professor-oak-s-hint-zibk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "022",
       "name": "Tapu Lele-GX",
+      "englishName": "Tapu Lele-GX",
       "number": {
         "printed": "022/050",
-        "numerator": "022"
+        "short": "022"
       },
       "rarity": "Double Rare (RR)",
       "cardType": "pokemon",
@@ -2484,7 +1308,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2495,17 +1319,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 786,
+          "id": 786,
           "name": "Tapu Lele"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 786,
-          "form": "786",
-          "name": "Tapu Lele",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2515,7 +1330,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "022",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2533,93 +1348,21 @@
             "front": {
               "image": "f299d61079ce5726c36b9d7664d4ec8d"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/guardians-rising",
-              "card": "60",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/alolan-moonlight",
-                "card": "022"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-radiant",
-              "card": "054",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/alolan-moonlight",
-                "card": "022"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-gx-starter-deck",
-              "card": "121",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/alolan-moonlight",
-                "card": "022"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/alolan-moonlight",
-          "painting": "022"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/alolan-moonlight",
-          "card": "022",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "tapu-lele-gx-pxft" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "031",
       "name": "Pikachu & Zekrom-GX",
+      "englishName": "Pikachu & Zekrom-GX",
       "number": {
         "printed": "031/095",
-        "numerator": "031"
+        "short": "031"
       },
       "rarity": "Double Rare (RR)",
       "cardType": "pokemon",
@@ -2628,7 +1371,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -2639,29 +1382,13 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
         },
         {
           "$kind": "species",
-          "species": 644,
+          "id": 644,
           "name": "Zekrom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
-        },
-        {
-          "$kind": "form",
-          "species": 644,
-          "form": "644",
-          "name": "Zekrom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2671,7 +1398,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "031",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2689,80 +1416,21 @@
             "front": {
               "image": "d26b64ceae180c5b8fb84c983b3bb40f"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-up",
-              "card": "33",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/tag-bolt",
-                "card": "031"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/shining-synergy-shower",
-              "card": "054",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/tag-bolt",
-                "card": "031"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/tag-bolt",
-          "painting": "031"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/tag-bolt",
-          "card": "031",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "pikachu-zekrom-gx-iunf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "060-aurora-energy",
       "name": "Aurora Energy",
+      "englishName": "Aurora Energy",
       "number": {
         "printed": "060/060",
-        "numerator": "060"
+        "short": "060"
       },
       "rarity": "Uncommon",
       "cardType": "energy",
@@ -2778,7 +1446,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "060-aurora-energy",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2796,106 +1464,21 @@
             "front": {
               "image": "dc5a480c0156e7b8c34e203d6c699bb7"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sword-shield",
-              "card": "186",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/shield",
-                "card": "060"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-clash-thunder",
-              "card": "135",
-              "language": "zh-Hans",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/shield",
-                "card": "060"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-clash-deck-building-gift-box",
-              "card": "024",
-              "language": "zh-Hans",
-              "printCount": 4,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/shield",
-                "card": "060"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-clash-v-starter-deck",
-              "card": "207",
-              "language": "zh-Hans",
-              "printCount": 4,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/shield",
-                "card": "060"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shield",
-          "painting": "060"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/shield",
-          "card": "060",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "aurora-energy-clnu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "198",
       "name": "Marnie",
+      "englishName": "Marnie",
       "number": {
         "printed": "198/190",
-        "numerator": "198"
+        "short": "198"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "trainer",
@@ -2904,7 +1487,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -2912,10 +1495,10 @@
         "date": "2021-12-26",
         "sort": "2021-12-26.00 japanese/25th-anniversary-creatures-deck 00025"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "marnie",
+          "id": "marnie",
           "name": "Marnie",
           "role": "subject"
         }
@@ -2927,7 +1510,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "198",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -2945,80 +1528,21 @@
             "front": {
               "image": "14267c9499f4167e2fbdbe982cd6722b"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/swsh-black-star-promos",
-              "card": "swsh121",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/shiny-star-v",
-                "card": "198"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/swsh-chinese-promos",
-              "card": "078",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/shiny-star-v",
-                "card": "198"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-star-v",
-          "painting": "198"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/shiny-star-v",
-          "card": "198",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "marnie-n7v5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "050-rapid-strike-urshifu-v",
       "name": "Rapid Strike Urshifu V",
+      "englishName": "Rapid Strike Urshifu V",
       "number": {
         "printed": "050/070",
-        "numerator": "050"
+        "short": "050"
       },
       "rarity": "Double Rare (RR)",
       "cardType": "pokemon",
@@ -3027,7 +1551,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-mochizuki",
+          "id": "planeta-mochizuki",
           "name": "PLANETA Mochizuki"
         }
       ],
@@ -3038,17 +1562,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 892,
-          "name": "Urshifu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 892,
-          "form": "892:rapid-strike",
-          "name": "Rapid Strike Urshifu",
-          "role": "subject"
+          "id": 892,
+          "name": "Urshifu",
+          "forms": [
+            {
+              "id": "892:rapid-strike",
+              "name": "Rapid Strike Urshifu"
+            }
+          ]
         }
       ],
       "picture": {
@@ -3058,7 +1579,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "050-rapid-strike-urshifu-v",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -3076,93 +1597,21 @@
             "front": {
               "image": "497e56444aeaec4ddeb10bf029c7d46b"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/battle-styles",
-              "card": "087",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rapid-strike-master",
-                "card": "050"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/primordial-arts-torrent",
-              "card": "085",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rapid-strike-master",
-                "card": "050"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/start-deck-100",
-              "card": "248",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rapid-strike-master",
-                "card": "050"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rapid-strike-master",
-          "painting": "050"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rapid-strike-master",
-          "card": "050",
-          "differs": [
-            "stamp",
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "rapid-strike-urshifu-v-8m2a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "011-poke-ball",
       "name": "Poké Ball",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "011/008",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3170,7 +1619,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "studio-bora-inc",
+          "id": "studio-bora-inc",
           "name": "Studio Bora Inc."
         }
       ],
@@ -3185,7 +1634,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "011-poke-ball",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -3203,94 +1652,21 @@
             "front": {
               "image": "bb5108cfca6247f21d15f71dd88a88bf"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/rebel-clash",
-              "card": "164",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/sword-shield-promos",
-                "card": "019"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "international/champion-s-path",
-              "card": "059",
-              "language": "en",
-              "printCount": 3,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/sword-shield-promos",
-                "card": "019"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-clash-v-starter-deck",
-              "card": "183",
-              "language": "zh-Hans",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/sword-shield-promos",
-                "card": "019"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sword-shield-promos",
-          "painting": "019"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/sword-shield-promos",
-          "card": "019",
-          "differs": [
-            "stamp",
-            "number",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "poke-ball-h8pl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "011-switch",
       "name": "Switch",
+      "englishName": "Switch",
       "number": {
         "printed": "011/008",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3298,7 +1674,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "studio-bora-inc",
+          "id": "studio-bora-inc",
           "name": "Studio Bora Inc."
         }
       ],
@@ -3313,7 +1689,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "011-switch",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -3331,81 +1707,21 @@
             "front": {
               "image": "7ec2cc72cf43a25c9a74c42ccf26fff8"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sword-shield",
-              "card": "183",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fighting-starter-set-v",
-                "card": "017"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-clash-v-starter-deck",
-              "card": "179",
-              "language": "zh-Hans",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fighting-starter-set-v",
-                "card": "017"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fighting-starter-set-v",
-          "painting": "017"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fighting-starter-set-v",
-          "card": "017",
-          "differs": [
-            "stamp",
-            "finish",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo-25th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "switch-xdxd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/25th-anniversary-creatures-deck",
       "id": "011-history-gate",
       "name": "History Gate",
+      "englishName": "History Gate",
       "number": {
         "printed": "011/008",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3413,7 +1729,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -3428,7 +1744,7 @@
             "$kind": "variant",
             "set": "japanese/25th-anniversary-creatures-deck",
             "card": "011-history-gate",
-            "variant": "holo-25th-anniversary-stamp"
+            "id": "holo-25th-anniversary-stamp"
           }
         }
       },
@@ -3446,23 +1762,10 @@
             "front": {
               "image": "7b8a3da8c61c26ccc02da0d4b4e37a4d"
             }
-          },
-          "collectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+          }
         }
       ],
-      "defaultCopy": "holo-25th-anniversary-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3",
-          "name": "Holo · 25th anniversary stamp",
-          "variants": [
-            "holo-25th-anniversary-stamp"
-          ],
-          "defaultCopy": "holo-25th-anniversary-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4725042f2ca6a97bac2a189c1128bff3a93d9df3"
+      "defaultVariant": "holo-25th-anniversary-stamp"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus artists",
-  "description": "Every artist a card's credit names.",
+  "description": "Every artist a card's illustrator credit names, such as Mitsuhiro Arita or Ken Sugimori, each once however cards spell them, with how many cards credit them. Each has a file of their cards per catalog, artists/{catalog}/{id}.json.",
   "type": "object",
   "required": [
     "artistCount",
@@ -14,7 +14,7 @@
       "minimum": 0
     },
     "artists": {
-      "description": "Every artist.",
+      "description": "Every artist, in id order.",
       "type": "array",
       "items": {
         "type": "object",
@@ -41,8 +41,23 @@
             "type": "integer",
             "minimum": 0
           },
+          "catalogs": {
+            "description": "The catalogs they have cards in, each with a file of them (artists/{catalog}/{id}.json); none where they have no cards.",
+            "type": "array",
+            "items": {
+              "description": "A catalog.",
+              "x-cc": {
+                "vocabulary": "catalog"
+              },
+              "allOf": [
+                {
+                  "$ref": "#/$defs/vocabulary.catalog"
+                }
+              ]
+            }
+          },
           "credits": {
-            "description": "The other ways cards credit them.",
+            "description": "The other spellings cards credit them under, where there are any: \"Kei Hoshiba\" for K. Hoshiba.",
             "type": "array",
             "items": {
               "description": "A credit.",
@@ -52,6 +67,31 @@
         },
         "additionalProperties": false
       }
+    }
+  },
+  "$defs": {
+    "vocabulary.catalog": {
+      "title": "Catalog",
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "type": "string",
+      "enum": [
+        "english",
+        "japanese",
+        "zh-hans",
+        "korean",
+        "zh-hant",
+        "thai",
+        "indonesian",
+        "french",
+        "german",
+        "italian",
+        "spanish",
+        "portuguese",
+        "latin-american-spanish",
+        "dutch",
+        "russian",
+        "polish"
+      ]
     }
   }
 }

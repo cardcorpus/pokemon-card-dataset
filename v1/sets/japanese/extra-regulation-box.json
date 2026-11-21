@@ -1,65 +1,39 @@
 {
   "id": "japanese/extra-regulation-box",
   "catalog": "japanese",
-  "name": "Extra Regulation Box",
+  "name": "エクストラレギュレーションBOX",
+  "englishName": "Extra Regulation Box",
   "era": {
     "$kind": "era",
-    "era": "japanese/sun-moon",
-    "name": "Sun & Moon"
+    "id": "japanese/sun-moon",
+    "name": "サン&ムーン",
+    "englishName": "Sun & Moon"
   },
   "type": "box",
   "language": "ja",
   "printedTotal": 48,
   "actualTotal": 57,
   "cardCount": 57,
-  "productCount": 0,
   "released": {
     "date": "2019-10-04"
   },
   "logo": "24fd7d7eb718975dc418897b7193c564",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Extra Regulation Box",
-      "released": {
-        "date": "2019-10-04"
-      },
-      "logo": "24fd7d7eb718975dc418897b7193c564"
-    }
-  ],
   "description": {
-    "text": "Extra Regulation Box (BW/XY), sold at Pokémon Card Gym stores from 4 October 2019 for players who had started with recent series but wanted to play the Extra format, ahead of the first Extra Battle Day. Its 201 cards of 57 kinds are all non-holo: 93 cards of 48 kinds from the Black & White and XY series, already out of the Standard format, such as Shaymin-EX, M Rayquaza-EX and Computer Search, and 108 basic Energy in the Black & White design. Sleeves and a card box came with it.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-        "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Extra Regulation Box (BW/XY), sold at Pokémon Card Gym stores from 4 October 2019 for players who had started with recent series but wanted to play the Extra format, ahead of the first Extra Battle Day. Its 201 cards of 57 kinds are all non-holo: 93 cards of 48 kinds from the Black & White and XY series, already out of the Standard format, such as Shaymin-EX, M Rayquaza-EX and Computer Search, and 108 basic Energy in the Black & White design. Sleeves and a card box came with it."
   },
   "tell": {
-    "text": "A number out of 048, beside the card's own mark",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-        "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-      }
-    ]
+    "text": "A number out of 048, beside the card's own mark"
   },
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "001",
-      "name": "Exeggcute",
+      "name": "タマタマ",
+      "englishName": "Exeggcute",
       "number": {
         "printed": "001/048",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -67,7 +41,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shigenori-negishi",
+          "id": "shigenori-negishi",
           "name": "Shigenori Negishi"
         }
       ],
@@ -78,17 +52,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 102,
+          "id": 102,
           "name": "Exeggcute"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 102,
-          "form": "102",
-          "name": "Exeggcute",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -98,7 +63,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -112,64 +77,21 @@
             "front": {
               "image": "60e781812b22c65129e9e74bc4685121"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "4",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/spiral-force",
-                "card": "001"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "001"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/spiral-force",
-          "card": "001",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "exeggcute-806w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "002",
-      "name": "Ho-Oh-EX",
+      "name": "ホウオウEX",
+      "englishName": "Ho-Oh-EX",
       "number": {
         "printed": "002/048",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -177,7 +99,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -188,17 +110,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 250,
+          "id": 250,
           "name": "Ho-Oh"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 250,
-          "form": "250",
-          "name": "Ho-Oh",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -208,7 +121,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -222,65 +135,21 @@
             "front": {
               "image": "15a4741046fd91dfe2b751dbedab5ab0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragons-exalted",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dragon-blade",
-                "card": "009"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-blade",
-          "painting": "009"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dragon-blade",
-          "card": "009",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ho-oh-ex-0q3q" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "003",
-      "name": "Volcanion-EX",
+      "name": "ボルケニオンEX",
+      "englishName": "Volcanion-EX",
       "number": {
         "printed": "003/048",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -288,7 +157,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -299,17 +168,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 721,
+          "id": 721,
           "name": "Volcanion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 721,
-          "form": "721",
-          "name": "Volcanion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -319,7 +179,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -333,65 +193,21 @@
             "front": {
               "image": "4ddddf8de7f47350f1e0caccc94e7e12"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/steam-siege",
-              "card": "26",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fever-burst-fighter",
-                "card": "012"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fever-burst-fighter",
-          "painting": "012"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fever-burst-fighter",
-          "card": "012",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "volcanion-ex-2aud" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "004",
-      "name": "Staryu",
+      "name": "ヒトデマン",
+      "englishName": "Staryu",
       "number": {
         "printed": "004/048",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -399,7 +215,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiroki-asanuma",
+          "id": "hiroki-asanuma",
           "name": "Hiroki Asanuma"
         }
       ],
@@ -410,17 +226,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 120,
+          "id": 120,
           "name": "Staryu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 120,
-          "form": "120",
-          "name": "Staryu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -430,7 +237,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -444,63 +251,21 @@
             "front": {
               "image": "1444589822ec6d5294560768e35ec32b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/breakpoint",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/golduck-break-palkia-ex-combo-deck",
-                "card": "005"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/golduck-break-palkia-ex-combo-deck",
-          "painting": "005"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/golduck-break-palkia-ex-combo-deck",
-          "card": "005",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "staryu-gsus" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "005",
-      "name": "Starmie",
+      "name": "スターミー",
+      "englishName": "Starmie",
       "number": {
         "printed": "005/048",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -508,7 +273,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -519,17 +284,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 121,
+          "id": 121,
           "name": "Starmie"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 121,
-          "form": "121",
-          "name": "Starmie",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -539,7 +295,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -553,71 +309,21 @@
             "front": {
               "image": "bd1fd95a8057bf6a05f62c7488cdec6e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/evolutions",
-              "card": "31",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-20th-anniversary",
-                "card": "029"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-121"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-20th-anniversary",
-          "card": "029",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-base-set",
-            "card": "no-121"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "starmie-3qic" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "006",
-      "name": "Articuno",
+      "name": "フリーザー",
+      "englishName": "Articuno",
       "number": {
         "printed": "006/048",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -625,7 +331,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -636,17 +342,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 144,
+          "id": 144,
           "name": "Articuno"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 144,
-          "form": "144",
-          "name": "Articuno",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -656,7 +353,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -670,64 +367,21 @@
             "front": {
               "image": "26b7c97af6b609bfded18d087666369a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "17",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "016",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "articuno-cl4y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "007",
-      "name": "Feebas",
+      "name": "ヒンバス",
+      "englishName": "Feebas",
       "number": {
         "printed": "007/048",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -735,7 +389,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shigenori-negishi",
+          "id": "shigenori-negishi",
           "name": "Shigenori Negishi"
         }
       ],
@@ -746,17 +400,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 349,
+          "id": 349,
           "name": "Feebas"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 349,
-          "form": "349",
-          "name": "Feebas",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -766,7 +411,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -780,64 +425,21 @@
             "front": {
               "image": "da87e22e1a1954d10a17dc0d3c53b977"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/flashfire",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/wild-blaze",
-                "card": "017"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/wild-blaze",
-          "painting": "017"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/wild-blaze",
-          "card": "017",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "feebas-0ozr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "008",
-      "name": "Milotic",
+      "name": "ミロカロス",
+      "englishName": "Milotic",
       "number": {
         "printed": "008/048",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -845,7 +447,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -856,17 +458,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 350,
+          "id": 350,
           "name": "Milotic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 350,
-          "form": "350",
-          "name": "Milotic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -876,7 +469,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -890,65 +483,21 @@
             "front": {
               "image": "b35f9a08ee1345fc3968f06724ccc6d0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/flashfire",
-              "card": "23",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/wild-blaze",
-                "card": "018"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/wild-blaze",
-          "painting": "018"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/wild-blaze",
-          "card": "018",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "milotic-6vaa" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "009",
-      "name": "Mew",
+      "name": "ミュウ",
+      "englishName": "Mew",
       "number": {
         "printed": "009/048",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -956,7 +505,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -967,17 +516,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -987,7 +527,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1001,65 +541,21 @@
             "front": {
               "image": "2d7edab8f77ea9db4a806c7ea4b6813d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/fates-collide",
-              "card": "29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/awakening-psychic-king",
-                "card": "027"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/awakening-psychic-king",
-          "painting": "027"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/awakening-psychic-king",
-          "card": "027",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "mew-xvrz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "010",
-      "name": "Hoopa-EX",
+      "name": "フーパEX",
+      "englishName": "Hoopa-EX",
       "number": {
         "printed": "010/048",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1067,7 +563,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryota-murayama",
+          "id": "ryota-murayama",
           "name": "Ryota Murayama"
         }
       ],
@@ -1078,17 +574,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 720,
-          "name": "Hoopa"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 720,
-          "form": "720:unbound",
-          "name": "Hoopa Unbound",
-          "role": "subject"
+          "id": 720,
+          "name": "Hoopa",
+          "forms": [
+            {
+              "id": "720:unbound",
+              "name": "Hoopa Unbound"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1098,7 +591,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1112,65 +605,21 @@
             "front": {
               "image": "ede412c96739fed9a7a1a80c1f3d2b4c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ancient-origins",
-              "card": "36",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/bandit-ring",
-                "card": "036"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/bandit-ring",
-          "painting": "036"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/bandit-ring",
-          "card": "036",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "hoopa-ex-misf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "011",
-      "name": "Regirock-EX",
+      "name": "レジロックEX",
+      "englishName": "Regirock-EX",
       "number": {
         "printed": "011/048",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1178,7 +627,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta",
+          "id": "planeta",
           "name": "PLANETA"
         }
       ],
@@ -1189,17 +638,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 377,
+          "id": 377,
           "name": "Regirock"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 377,
-          "form": "377",
-          "name": "Regirock",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1209,7 +649,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1223,64 +663,21 @@
             "front": {
               "image": "6945bee437aaca7b59f9f71cd6c1a678"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/fates-collide",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/zygarde-ex-perfect-battle-deck",
-                "card": "003"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/zygarde-ex-perfect-battle-deck",
-          "painting": "003"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/zygarde-ex-perfect-battle-deck",
-          "card": "003",
-          "differs": [
-            "finish",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "regirock-ex-tou6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "012",
-      "name": "Darkrai-EX",
+      "name": "ダークライEX",
+      "englishName": "Darkrai-EX",
       "number": {
         "printed": "012/048",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1288,7 +685,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shizurow",
+          "id": "shizurow",
           "name": "Shizurow"
         }
       ],
@@ -1299,17 +696,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 491,
+          "id": 491,
           "name": "Darkrai"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 491,
-          "form": "491",
-          "name": "Darkrai",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1319,7 +707,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1333,65 +721,21 @@
             "front": {
               "image": "839d1d186cde932d8bd325b4d98aaa84"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dark-explorers",
-              "card": "63",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dark-rush",
-                "card": "044"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-rush",
-          "painting": "044"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dark-rush",
-          "card": "044",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "darkrai-ex-bjof" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "013",
-      "name": "Zorua",
+      "name": "ゾロア",
+      "englishName": "Zorua",
       "number": {
         "printed": "013/048",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1399,7 +743,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -1410,17 +754,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 570,
+          "id": 570,
           "name": "Zorua"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 570,
-          "form": "570",
-          "name": "Zorua",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1430,7 +765,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1444,64 +779,21 @@
             "front": {
               "image": "7f4220a0c9e92fda8f17f09bf8b98a83"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dark-explorers",
-              "card": "69",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dark-rush",
-                "card": "048"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-rush",
-          "painting": "048"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dark-rush",
-          "card": "048",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "zorua-yu9s" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "014",
-      "name": "Zoroark",
+      "name": "ゾロアーク",
+      "englishName": "Zoroark",
       "number": {
         "printed": "014/048",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1509,7 +801,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -1520,17 +812,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 571,
+          "id": 571,
           "name": "Zoroark"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 571,
-          "form": "571",
-          "name": "Zoroark",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1540,7 +823,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1554,65 +837,21 @@
             "front": {
               "image": "e35ee2837c6982c0ee1cf006a0c3ccfa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "71",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "037"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "037"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "037",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "zoroark-pklf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "015",
-      "name": "Gardevoir-EX",
+      "name": "サーナイトEX",
+      "englishName": "Gardevoir-EX",
       "number": {
         "printed": "015/048",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1620,7 +859,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -1631,17 +870,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 282,
+          "id": 282,
           "name": "Gardevoir"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 282,
-          "form": "282",
-          "name": "Gardevoir",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1651,7 +881,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1665,65 +895,21 @@
             "front": {
               "image": "0a040c3a6729d7e7aec04bd499c46ee3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/steam-siege",
-              "card": "78",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cruel-traitor",
-                "card": "038"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cruel-traitor",
-          "painting": "038"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cruel-traitor",
-          "card": "038",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "gardevoir-ex-95ag" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "016",
-      "name": "M Gardevoir-EX",
+      "name": "MサーナイトEX",
+      "englishName": "M Gardevoir-EX",
       "number": {
         "printed": "016/048",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1731,7 +917,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1742,17 +928,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 282,
-          "name": "Gardevoir"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 282,
-          "form": "282:mega",
-          "name": "Mega Gardevoir",
-          "role": "subject"
+          "id": 282,
+          "name": "Gardevoir",
+          "forms": [
+            {
+              "id": "282:mega",
+              "name": "Mega Gardevoir"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1762,7 +945,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1776,65 +959,21 @@
             "front": {
               "image": "43a8ee16f9393b688185a112dac08ee0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/steam-siege",
-              "card": "79",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cruel-traitor",
-                "card": "039"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cruel-traitor",
-          "painting": "039"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cruel-traitor",
-          "card": "039",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "m-gardevoir-ex-a89t" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "017",
-      "name": "Spritzee",
+      "name": "シュシュプ",
+      "englishName": "Spritzee",
       "number": {
         "printed": "017/048",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1842,7 +981,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1853,17 +992,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 682,
+          "id": 682,
           "name": "Spritzee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 682,
-          "form": "682",
-          "name": "Spritzee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1873,7 +1003,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1887,64 +1017,21 @@
             "front": {
               "image": "a20c3cc25fc87d5e4ed96a06b6add597"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "92",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-y",
-                "card": "044"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-y",
-          "painting": "044"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-y",
-          "card": "044",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "spritzee-6cn8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "018",
-      "name": "Aromatisse",
+      "name": "フレフワン",
+      "englishName": "Aromatisse",
       "number": {
         "printed": "018/048",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1952,7 +1039,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1963,17 +1050,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 683,
+          "id": 683,
           "name": "Aromatisse"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 683,
-          "form": "683",
-          "name": "Aromatisse",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1983,7 +1061,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1997,65 +1075,21 @@
             "front": {
               "image": "3499c928509ce7a50722438570333f23"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-y",
-                "card": "045"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-y",
-          "painting": "045"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-y",
-          "card": "045",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "aromatisse-4sxr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "019",
-      "name": "Rayquaza-EX",
+      "name": "レックウザEX",
+      "englishName": "Rayquaza-EX",
       "number": {
         "printed": "019/048",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2063,7 +1097,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryota-murayama",
+          "id": "ryota-murayama",
           "name": "Ryota Murayama"
         }
       ],
@@ -2074,17 +1108,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 384,
+          "id": 384,
           "name": "Rayquaza"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 384,
-          "form": "384",
-          "name": "Rayquaza",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2094,7 +1119,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "019",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2108,65 +1133,21 @@
             "front": {
               "image": "99bbd166ac26887e91d259b24a72d0e4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "75",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "061"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "061"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "061",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "rayquaza-ex-3l5f" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "020",
-      "name": "M Rayquaza-EX",
+      "name": "MレックウザEX",
+      "englishName": "M Rayquaza-EX",
       "number": {
         "printed": "020/048",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2174,7 +1155,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2185,17 +1166,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 384,
-          "name": "Rayquaza"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 384,
-          "form": "384:mega",
-          "name": "Mega Rayquaza",
-          "role": "subject"
+          "id": 384,
+          "name": "Rayquaza",
+          "forms": [
+            {
+              "id": "384:mega",
+              "name": "Mega Rayquaza"
+            }
+          ]
         }
       ],
       "picture": {
@@ -2205,7 +1183,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "020",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2219,65 +1197,21 @@
             "front": {
               "image": "852817b26ec9097c8f6573da52b1dfaf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "76",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "062"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "062"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "062",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "m-rayquaza-ex-qc2s" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "021",
-      "name": "Shaymin-EX",
+      "name": "シェイミEX",
+      "englishName": "Shaymin-EX",
       "number": {
         "printed": "021/048",
-        "numerator": "021"
+        "short": "021"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2285,7 +1219,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -2296,17 +1230,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 492,
-          "name": "Shaymin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 492,
-          "form": "492:sky",
-          "name": "Sky Forme Shaymin",
-          "role": "subject"
+          "id": 492,
+          "name": "Shaymin",
+          "forms": [
+            {
+              "id": "492:sky",
+              "name": "Sky Forme Shaymin"
+            }
+          ]
         }
       ],
       "picture": {
@@ -2316,7 +1247,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "021",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2330,65 +1261,21 @@
             "front": {
               "image": "8c701616e3f195ddda89dadbf67133ca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "77",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "063"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "063"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "063",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "shaymin-ex-a44o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "022",
-      "name": "Special Charge",
+      "name": "スペシャルチャージ",
+      "englishName": "Special Charge",
       "number": {
         "printed": "022/048",
-        "numerator": "022"
+        "short": "022"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2396,7 +1283,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -2411,7 +1298,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "022",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2425,64 +1312,21 @@
             "front": {
               "image": "5adef62c9ddcb3c2832ab6cf4149445b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/steam-siege",
-              "card": "105",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cruel-traitor",
-                "card": "050"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cruel-traitor",
-          "painting": "050"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cruel-traitor",
-          "card": "050",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "special-charge-riv2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "023",
-      "name": "Dark Patch",
+      "name": "ダークパッチ",
+      "englishName": "Dark Patch",
       "number": {
         "printed": "023/048",
-        "numerator": "023"
+        "short": "023"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2490,7 +1334,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2505,7 +1349,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "023",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2519,64 +1363,21 @@
             "front": {
               "image": "ef58fd3463343649616d944067df8b0e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dark-explorers",
-              "card": "93",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dark-rush",
-                "card": "064"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-rush",
-          "painting": "064"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dark-rush",
-          "card": "064",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "dark-patch-2my5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "024",
-      "name": "Puzzle of Time",
+      "name": "時のパズル",
+      "englishName": "Puzzle of Time",
       "number": {
         "printed": "024/048",
-        "numerator": "024"
+        "short": "024"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2584,7 +1385,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -2599,7 +1400,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "024",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2613,64 +1414,21 @@
             "front": {
               "image": "645ccba5ded76cf0a744515f7a27a0ef"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/breakpoint",
-              "card": "109",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rage-of-the-broken-heavens",
-                "card": "071"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "painting": "071"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "card": "071",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "puzzle-of-time-q6z2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "025",
-      "name": "Battle Compressor",
+      "name": "バトルコンプレッサー",
+      "englishName": "Battle Compressor",
       "number": {
         "printed": "025/048",
-        "numerator": "025"
+        "short": "025"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2678,7 +1436,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -2693,7 +1451,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "025",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2707,64 +1465,21 @@
             "front": {
               "image": "fb4a96719e49fe588b3c1fe4468fd991"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/phantom-forces",
-              "card": "92",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/phantom-gate",
-                "card": "079"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/phantom-gate",
-          "painting": "079"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/phantom-gate",
-          "card": "079",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "battle-compressor-f3d1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "026",
-      "name": "VS Seeker",
+      "name": "バトルサーチャー",
+      "englishName": "VS Seeker",
       "number": {
         "printed": "026/048",
-        "numerator": "026"
+        "short": "026"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2772,7 +1487,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2787,7 +1502,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "026",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2801,63 +1516,21 @@
             "front": {
               "image": "6e05a5777b4b30255520d8df02f21459"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/phantom-forces",
-              "card": "109",
-              "language": "en",
-              "printCount": 16,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dialga-ex-aegislash-ex-hyper-metal-chain-deck",
-                "card": "009"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dialga-ex-aegislash-ex-hyper-metal-chain-deck",
-          "painting": "009"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dialga-ex-aegislash-ex-hyper-metal-chain-deck",
-          "card": "009",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "vs-seeker-msh4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "027",
-      "name": "Max Elixir",
+      "name": "ピーピーマックス",
+      "englishName": "Max Elixir",
       "number": {
         "printed": "027/048",
-        "numerator": "027"
+        "short": "027"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2865,7 +1538,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -2880,7 +1553,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "027",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2894,64 +1567,21 @@
             "front": {
               "image": "211ddceb6060bc7b6f5f68febb4937f9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/breakpoint",
-              "card": "102",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rage-of-the-broken-heavens",
-                "card": "072"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "painting": "072"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "card": "072",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "max-elixir-f8pm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "028",
-      "name": "PlusPower",
+      "name": "プラスパワー",
+      "englishName": "PlusPower",
       "number": {
         "printed": "028/048",
-        "numerator": "028"
+        "short": "028"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2959,7 +1589,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2974,7 +1604,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "028",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2988,64 +1618,21 @@
             "front": {
               "image": "fd506095b8ca7eacb5628900568825d4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "96",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "051"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "051"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "051",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pluspower-wgvu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "029",
-      "name": "Level Ball",
+      "name": "レベルボール",
+      "englishName": "Level Ball",
       "number": {
         "printed": "029/048",
-        "numerator": "029"
+        "short": "029"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3053,7 +1640,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -3068,7 +1655,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "029",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3082,64 +1669,21 @@
             "front": {
               "image": "08e2b9e2a321201d1f2837961b063ae5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ancient-origins",
-              "card": "76",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/bandit-ring",
-                "card": "071"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/bandit-ring",
-          "painting": "071"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/bandit-ring",
-          "card": "071",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "level-ball-o0hq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "030",
-      "name": "Float Stone",
+      "name": "かるいし",
+      "englishName": "Float Stone",
       "number": {
         "printed": "030/048",
-        "numerator": "030"
+        "short": "030"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3147,7 +1691,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3162,7 +1706,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "030",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3176,64 +1720,21 @@
             "front": {
               "image": "d4f74929a076ca5be52ea89cdeb758d2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "99",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/thunder-knuckle",
-                "card": "048"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/thunder-knuckle",
-          "painting": "048"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/thunder-knuckle",
-          "card": "048",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "float-stone-vh5m" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "031",
-      "name": "Muscle Band",
+      "name": "ちからのハチマキ",
+      "englishName": "Muscle Band",
       "number": {
         "printed": "031/048",
-        "numerator": "031"
+        "short": "031"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3241,7 +1742,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3256,7 +1757,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "031",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3270,64 +1771,21 @@
             "front": {
               "image": "838aea37362d68ca011a8062e4eed301"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "121",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-x",
-                "card": "057"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-x",
-          "painting": "057"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-x",
-          "card": "057",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "muscle-band-kder" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "032",
-      "name": "Fighting Fury Belt",
+      "name": "闘魂のまわし",
+      "englishName": "Fighting Fury Belt",
       "number": {
         "printed": "032/048",
-        "numerator": "032"
+        "short": "032"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3335,7 +1793,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -3350,7 +1808,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "032",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3364,64 +1822,21 @@
             "front": {
               "image": "edd09fcd53001329db5159ed9b9a48f5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/breakpoint",
-              "card": "99",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rage-of-the-broken-heavens",
-                "card": "074"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "painting": "074"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "card": "074",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "fighting-fury-belt-v2f6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "033",
-      "name": "Gardevoir Spirit Link",
+      "name": "サーナイトソウルリンク",
+      "englishName": "Gardevoir Spirit Link",
       "number": {
         "printed": "033/048",
-        "numerator": "033"
+        "short": "033"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3429,7 +1844,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3444,7 +1859,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "033",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3458,64 +1873,21 @@
             "front": {
               "image": "e354cbea101e7dc2ab6000a2d3868fd2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/primal-clash",
-              "card": "130",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/tidal-storm",
-                "card": "065"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/tidal-storm",
-          "painting": "065"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/tidal-storm",
-          "card": "065",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "gardevoir-spirit-link-wq03" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "034",
-      "name": "Rayquaza Spirit Link",
+      "name": "レックウザソウルリンク",
+      "englishName": "Rayquaza Spirit Link",
       "number": {
         "printed": "034/048",
-        "numerator": "034"
+        "short": "034"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3523,7 +1895,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3538,7 +1910,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "034",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3552,64 +1924,21 @@
             "front": {
               "image": "b6b40a3f369c6a159d8d8b6b7938faf9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "87",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/xy-promos",
-                "card": "126"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/xy-promos",
-          "painting": "126"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/xy-promos",
-          "card": "126",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "rayquaza-spirit-link-1bpd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "035",
-      "name": "Colress",
+      "name": "アクロマ",
+      "englishName": "Colress",
       "number": {
         "printed": "035/048",
-        "numerator": "035"
+        "short": "035"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3617,7 +1946,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -3625,10 +1954,10 @@
         "date": "2019-10-04",
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00034"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "colress",
+          "id": "colress",
           "name": "Colress",
           "role": "subject"
         }
@@ -3640,7 +1969,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "035",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3654,64 +1983,21 @@
             "front": {
               "image": "c965e8c4aa0a6cb3642ec56345be11f5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-storm",
-              "card": "118",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/plasma-gale",
-                "card": "064"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "064"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "064",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "colress-o1qd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "036",
       "name": "N",
+      "englishName": "N",
       "number": {
         "printed": "036/048",
-        "numerator": "036"
+        "short": "036"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3719,7 +2005,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -3727,10 +2013,10 @@
         "date": "2019-10-04",
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00035"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "n",
+          "id": "n",
           "name": "N",
           "role": "subject"
         }
@@ -3742,7 +2028,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "036",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3756,64 +2042,21 @@
             "front": {
               "image": "f7021b5fc8eca032b902f7af2389a1a8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/fates-collide",
-              "card": "105",
-              "language": "en",
-              "printCount": 12,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/awakening-psychic-king",
-                "card": "076"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/awakening-psychic-king",
-          "painting": "076"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/awakening-psychic-king",
-          "card": "076",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "n-myd5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "037",
-      "name": "Blacksmith",
+      "name": "鍛冶屋",
+      "englishName": "Blacksmith",
       "number": {
         "printed": "037/048",
-        "numerator": "037"
+        "short": "037"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3821,7 +2064,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -3829,10 +2072,10 @@
         "date": "2019-10-04",
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00036"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "blacksmith",
+          "id": "blacksmith",
           "name": "Blacksmith",
           "role": "subject"
         }
@@ -3844,7 +2087,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "037",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3858,63 +2101,21 @@
             "front": {
               "image": "7348b96144bc0e3f7648c992defe7378"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/flashfire",
-              "card": "88",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/m-charizard-ex-mega-battle-deck",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/m-charizard-ex-mega-battle-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/m-charizard-ex-mega-battle-deck",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blacksmith-vxmc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "038",
-      "name": "Korrina",
+      "name": "コルニ",
+      "englishName": "Korrina",
       "number": {
         "printed": "038/048",
-        "numerator": "038"
+        "short": "038"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3922,7 +2123,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -3930,10 +2131,10 @@
         "date": "2019-10-04",
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00037"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "korrina",
+          "id": "korrina",
           "name": "Korrina",
           "role": "subject"
         }
@@ -3945,7 +2146,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "038",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3959,64 +2160,21 @@
             "front": {
               "image": "8408a9beeb37796d7c53e4cd741971aa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/furious-fists",
-              "card": "95",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rising-fist",
-                "card": "090"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rising-fist",
-          "painting": "090"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rising-fist",
-          "card": "090",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "korrina-v1z5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "039",
-      "name": "Winona",
+      "name": "ナギ",
+      "englishName": "Winona",
       "number": {
         "printed": "039/048",
-        "numerator": "039"
+        "short": "039"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4024,7 +2182,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -4032,10 +2190,10 @@
         "date": "2019-10-04",
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00038"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "winona",
+          "id": "winona",
           "name": "Winona",
           "role": "subject"
         }
@@ -4047,7 +2205,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "039",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4061,64 +2219,21 @@
             "front": {
               "image": "e35f269525050bfa4168d494fa667624"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "96",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "075"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "075"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "075",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "winona-53b9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "040",
-      "name": "Ninja Boy",
+      "name": "ニンジャごっこ",
+      "englishName": "Ninja Boy",
       "number": {
         "printed": "040/048",
-        "numerator": "040"
+        "short": "040"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4126,7 +2241,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -4134,10 +2249,10 @@
         "date": "2019-10-04",
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00039"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "ninja-boy",
+          "id": "ninja-boy",
           "name": "Ninja Boy",
           "role": "subject"
         }
@@ -4149,7 +2264,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "040",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4163,64 +2278,21 @@
             "front": {
               "image": "936426bf074d262bca2e37b0dff4f11e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/steam-siege",
-              "card": "103",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cruel-traitor",
-                "card": "053"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cruel-traitor",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cruel-traitor",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ninja-boy-ds8g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "041",
-      "name": "Dimension Valley",
+      "name": "次元の谷",
+      "englishName": "Dimension Valley",
       "number": {
         "printed": "041/048",
-        "numerator": "041"
+        "short": "041"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4228,7 +2300,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4243,7 +2315,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "041",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4257,64 +2329,21 @@
             "front": {
               "image": "8433481e25c66d01f937970ee278e48c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/phantom-forces",
-              "card": "93",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/phantom-gate",
-                "card": "087"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/phantom-gate",
-          "painting": "087"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/phantom-gate",
-          "card": "087",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "dimension-valley-gzeh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "042",
-      "name": "Sky Field",
+      "name": "スカイフィールド",
+      "englishName": "Sky Field",
       "number": {
         "printed": "042/048",
-        "numerator": "042"
+        "short": "042"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4322,7 +2351,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -4337,7 +2366,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "042",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4351,64 +2380,21 @@
             "front": {
               "image": "85d2a41daa69b469afaf149e8ff74d3e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "89",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "077"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "077"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "077",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "sky-field-3zvq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "043",
-      "name": "Fairy Garden",
+      "name": "フェアリーガーデン",
+      "englishName": "Fairy Garden",
       "number": {
         "printed": "043/048",
-        "numerator": "043"
+        "short": "043"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4416,7 +2402,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4431,7 +2417,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "043",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4445,63 +2431,21 @@
             "front": {
               "image": "ab9fb011243c0d166ef2db28b5276394"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "117",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/xerneas-half-deck",
-                "card": "014"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/xerneas-half-deck",
-          "painting": "014"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/xerneas-half-deck",
-          "card": "014",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "fairy-garden-hnri" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "044",
-      "name": "Strong Energy",
+      "name": "ストロングエネルギー",
+      "englishName": "Strong Energy",
       "number": {
         "printed": "044/048",
-        "numerator": "044"
+        "short": "044"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4509,7 +2453,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4524,7 +2468,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "044",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4538,64 +2482,21 @@
             "front": {
               "image": "9a0ee2cd31dfeb674de4eb03f556d738"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/furious-fists",
-              "card": "104",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rising-fist",
-                "card": "096"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rising-fist",
-          "painting": "096"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rising-fist",
-          "card": "096",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "strong-energy-y8ey" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "045",
-      "name": "Double Dragon Energy",
+      "name": "ダブルドラゴンエネルギー",
+      "englishName": "Double Dragon Energy",
       "number": {
         "printed": "045/048",
-        "numerator": "045"
+        "short": "045"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4603,7 +2504,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4618,7 +2519,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "045",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4632,64 +2533,21 @@
             "front": {
               "image": "14bafd6e63dbc87af22a16e67289e52d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/roaring-skies",
-              "card": "97",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/emerald-break",
-                "card": "078"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/emerald-break",
-          "painting": "078"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/emerald-break",
-          "card": "078",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "double-dragon-energy-knjn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "046",
-      "name": "Computer Search",
+      "name": "パソコン通信",
+      "englishName": "Computer Search",
       "number": {
         "printed": "046/048",
-        "numerator": "046"
+        "short": "046"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4697,7 +2555,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4712,7 +2570,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "046",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4726,65 +2584,21 @@
             "front": {
               "image": "e3385c15c1987dc09729f2cc8d5568fb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "137",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cold-flare",
-                "card": "058"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cold-flare",
-          "painting": "058"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cold-flare",
-          "card": "058",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "computer-search-6k1z" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "047",
-      "name": "Scoop Up Cyclone",
+      "name": "ポケモン回収サイクロン",
+      "englishName": "Scoop Up Cyclone",
       "number": {
         "printed": "047/048",
-        "numerator": "047"
+        "short": "047"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4792,7 +2606,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4807,7 +2621,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "047",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4821,65 +2635,21 @@
             "front": {
               "image": "f8f38467fd139ad8302e9b66144005a2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "95",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/megalo-cannon",
-                "card": "073"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/megalo-cannon",
-          "painting": "073"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/megalo-cannon",
-          "card": "073",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "scoop-up-cyclone-qsnn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "048",
-      "name": "Life Dew",
+      "name": "いのちのしずく",
+      "englishName": "Life Dew",
       "number": {
         "printed": "048/048",
-        "numerator": "048"
+        "short": "048"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4887,7 +2657,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4902,7 +2672,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "048",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -4916,65 +2686,21 @@
             "front": {
               "image": "04a7185185a4a084f8ac5920702af18b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "107",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/thunder-knuckle",
-                "card": "050"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/thunder-knuckle",
-          "painting": "050"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/thunder-knuckle",
-          "card": "050",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "life-dew-1nfr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "dar",
-      "name": "Basic Darkness Energy",
+      "name": "基本【悪】エネルギー",
+      "englishName": "Basic Darkness Energy",
       "number": {
         "printed": "DAR",
-        "numerator": "DAR"
+        "short": "DAR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4983,17 +2709,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00048"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5002,7 +2718,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "dar",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5015,30 +2731,20 @@
             "front": {
               "image": "7a9ec62a22c7f224cff2402dfe6d13d1"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain"
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "fai",
-      "name": "Basic Fairy Energy",
+      "name": "基本【妖】エネルギー",
+      "englishName": "Basic Fairy Energy",
       "number": {
         "printed": "FAI",
-        "numerator": "FAI"
+        "short": "FAI"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5047,17 +2753,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00049"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5066,7 +2762,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "fai",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5079,30 +2775,20 @@
             "front": {
               "image": "ed823691f77f248f55db0b654931456e"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain"
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "fig",
-      "name": "Basic Fighting Energy",
+      "name": "基本【闘】エネルギー",
+      "englishName": "Basic Fighting Energy",
       "number": {
         "printed": "FIG",
-        "numerator": "FIG"
+        "short": "FIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5111,17 +2797,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00050"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5130,7 +2806,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "fig",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5143,30 +2819,20 @@
             "front": {
               "image": "6e1d80b6e5fb336b91fbe67bdad4d90b"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+      "defaultVariant": "plain"
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "fir",
-      "name": "Basic Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Basic Fire Energy",
       "number": {
         "printed": "FIR",
-        "numerator": "FIR"
+        "short": "FIR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5175,17 +2841,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00051"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5194,7 +2850,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "fir",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5207,104 +2863,21 @@
             "front": {
               "image": "91c8109da4390b301c56267bc49aa679"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
-        }
-      ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "fire-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-theme-deck-victini",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-gift-set-thundurus-vs-tornadus",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/master-deck-build-box-ex",
-            "card": "basic-fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/xy-beginning-set",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "133"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/m-charizard-ex-mega-battle-deck",
-            "card": "fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/m-rayquaza-ex-mega-battle-deck",
-            "card": "fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/emboar-ex-vs-togekiss-ex-battle-starter-set",
-            "card": "fir"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "fir"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "fire-energy-qxdt" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "gra",
-      "name": "Basic Grass Energy",
+      "name": "基本【草】エネルギー",
+      "englishName": "Basic Grass Energy",
       "number": {
         "printed": "GRA",
-        "numerator": "GRA"
+        "short": "GRA"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5313,17 +2886,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00052"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5332,7 +2895,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "gra",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5345,124 +2908,21 @@
             "front": {
               "image": "2191353eb06c527d8c65f43c807b0ac1"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
-        }
-      ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "grass-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white-2",
-            "card": "35"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "35"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/hydreigon-half-deck",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/national-beginning-set",
-            "card": "35"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/xy-beginning-set",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "132"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "1"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "19"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "2"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "3"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "gra"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "grass-energy-5az6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "lig",
-      "name": "Basic Lightning Energy",
+      "name": "基本【雷】エネルギー",
+      "englishName": "Basic Lightning Energy",
       "number": {
         "printed": "LIG",
-        "numerator": "LIG"
+        "short": "LIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5471,17 +2931,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00053"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5490,7 +2940,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "lig",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5503,169 +2953,21 @@
             "front": {
               "image": "402dbc38454ae97683d50d3983163675"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
-        }
-      ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "lightning-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/hs-trainer-kit-raichu",
-            "card": "11"
-          },
-          {
-            "$kind": "card",
-            "set": "international/hs-trainer-kit-raichu",
-            "card": "15"
-          },
-          {
-            "$kind": "card",
-            "set": "international/hs-trainer-kit-raichu",
-            "card": "23"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-theme-deck-victini",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-gift-set-thundurus-vs-tornadus",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/garchomp-half-deck",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/master-deck-build-box-ex",
-            "card": "basic-lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "135"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/xy-promos",
-            "card": "no-315"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/m-rayquaza-ex-mega-battle-deck",
-            "card": "lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/emboar-ex-vs-togekiss-ex-battle-starter-set",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "lig"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "10"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "17"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "18"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "2"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "29"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "3"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "6"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "8"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-pikachu-libre",
-            "card": "9"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "lightning-energy-txvy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "met",
-      "name": "Basic Metal Energy",
+      "name": "基本【鋼】エネルギー",
+      "englishName": "Basic Metal Energy",
       "number": {
         "printed": "MET",
-        "numerator": "MET"
+        "short": "MET"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5674,17 +2976,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00054"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5693,7 +2985,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "met",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5706,119 +2998,21 @@
             "front": {
               "image": "b9828c43e264ea2c0b5c8a3ebb7785e3"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
-        }
-      ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "metal-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "metal-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "metal-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "metal-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "139"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/dialga-ex-aegislash-ex-hyper-metal-chain-deck",
-            "card": "metal-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "10"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "18"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "2"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "22"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "24"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "3"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "6"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "7"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "8"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-bisharp",
-            "card": "9"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "metal-energy-ujs9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "psy",
-      "name": "Basic Psychic Energy",
+      "name": "基本【超】エネルギー",
+      "englishName": "Basic Psychic Energy",
       "number": {
         "printed": "PSY",
-        "numerator": "PSY"
+        "short": "PSY"
       },
       "cardType": "energy",
       "language": "ja",
@@ -5827,17 +3021,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00055"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -5846,7 +3030,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "psy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -5859,179 +3043,21 @@
             "front": {
               "image": "ff71811657930c9e18ac2cf5c1baa649"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
-        }
-      ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "psychic-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "psychic-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "psychic-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-theme-deck-victini",
-            "card": "psy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/hydreigon-half-deck",
-            "card": "psychic-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/national-beginning-set",
-            "card": "36"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/master-deck-build-box-ex",
-            "card": "basic-psychic-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "psy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "psychic-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "136"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "10"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "17"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "25"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "6"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "7"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "8"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-noivern",
-            "card": "9"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "10"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "17"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "22"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "28"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "8"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "9"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latios",
-            "card": "16"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latios",
-            "card": "18"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latios",
-            "card": "29"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/emboar-ex-vs-togekiss-ex-battle-starter-set",
-            "card": "psy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "psy"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "psychic-energy-7gz6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/extra-regulation-box",
       "id": "wat",
-      "name": "Basic Water Energy",
+      "name": "基本【水】エネルギー",
+      "englishName": "Basic Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "ja",
@@ -6040,17 +3066,7 @@
         "sort": "2019-10-04.00 japanese/extra-regulation-box 00056"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          },
-          {
-            "title": "Pokémon Card Game official site, archived: 商品情報 (product list, October 2019)",
-            "url": "https://web.archive.org/web/20191020220844/https://www.pokemon-card.com/products/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -6059,7 +3075,7 @@
             "$kind": "variant",
             "set": "japanese/extra-regulation-box",
             "card": "wat",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -6072,137 +3088,12 @@
             "front": {
               "image": "cef378ab68b62284e1e760b6fa606833"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
-        }
-      ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "water-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/battle-gift-set-thundurus-vs-tornadus",
-            "card": "wat"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/garchomp-half-deck",
-            "card": "water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/master-deck-build-box-ex",
-            "card": "basic-water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "wat"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/xy-beginning-set",
-            "card": "wat"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "134"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "wat"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "1"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "10"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "17"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "19"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "2"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "22"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "28"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "3"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "8"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-suicune",
-            "card": "9"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "water-energy-wlvf" }
     }
-  ]
+  ],
+  "printedCode": null
 }

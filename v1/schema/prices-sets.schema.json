@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus prices of many sets",
+  "description": "The newest `price` and 30-day change of every copy in 1 to 64 sets, for sorting a list or valuing a collection in few requests. Served by index.json's `prices.sets`, not in this tree; 400 for no set or more than 64 (https://pokemon.cardcorpus.com/v1/docs/guide.md#prices).",
+  "type": "object",
+  "required": [
+    "tcgplayer",
+    "cardmarket",
+    "sets"
+  ],
+  "properties": {
+    "tcgplayer": {
+      "description": "TCGplayer's newest day here, or null before it has one.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "day",
+        "updated",
+        "currency"
+      ],
+      "properties": {
+        "day": {
+          "description": "The day its prices are for.",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updated": {
+          "description": "When TCGplayer says it made them.",
+          "type": "string"
+        },
+        "currency": {
+          "description": "The currency of its prices.",
+          "const": "USD"
+        }
+      }
+    },
+    "cardmarket": {
+      "description": "Cardmarket's newest day here, or null before it has one.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "day",
+        "createdAt",
+        "currency"
+      ],
+      "properties": {
+        "day": {
+          "description": "The day its prices are for.",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "createdAt": {
+          "description": "When Cardmarket says it made them.",
+          "type": "string"
+        },
+        "currency": {
+          "description": "The currency of its prices.",
+          "const": "EUR"
+        }
+      }
+    },
+    "sets": {
+      "description": "Every set asked for, by its id; empty when nothing in it is priced.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "The set's cards that have a price, by card id.",
+        "type": "object",
+        "additionalProperties": {
+          "description": "The card's copies that have a price, by copy id.",
+          "type": "object",
+          "additionalProperties": {
+            "description": "A copy's price on each marketplace and how it moved.",
+            "type": "object",
+            "properties": {
+              "tcgplayer": {
+                "description": "TCGplayer's price.",
+                "type": "object",
+                "required": [
+                  "price"
+                ],
+                "properties": {
+                  "price": {
+                    "description": "The market price, in US dollars.",
+                    "type": "number",
+                    "minimum": 0
+                  }
+                }
+              },
+              "cardmarket": {
+                "description": "Cardmarket's price.",
+                "type": "object",
+                "required": [
+                  "price"
+                ],
+                "properties": {
+                  "price": {
+                    "description": "The trend or an average, in euros.",
+                    "type": "number",
+                    "minimum": 0
+                  }
+                }
+              },
+              "change30d": {
+                "description": "How the copy's price moved over 30 days on each marketplace, as a fraction: 0.045 is up 4.5%, 0 is less than 2% either way. A marketplace is left out when there is too little to compare.",
+                "type": "object",
+                "properties": {
+                  "tcgplayer": {
+                    "description": "The change on TCGplayer.",
+                    "type": "number"
+                  },
+                  "cardmarket": {
+                    "description": "The change on Cardmarket.",
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

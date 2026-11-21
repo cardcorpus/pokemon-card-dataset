@@ -1,62 +1,78 @@
 {
   "id": "japanese/keldeo-battle-strength-deck",
   "catalog": "japanese",
-  "name": "Keldeo Battle Strength Deck",
+  "name": "バトル強化デッキ30「ケルディオ」",
+  "englishName": "Keldeo Battle Strength Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "printedTotal": 15,
   "actualTotal": 18,
   "cardCount": 18,
-  "productCount": 0,
   "released": {
     "date": "2012-04-20"
   },
   "code": "KLD",
+  "printedCode": "KLD",
   "logo": "ce90c0f7f403870220a872747fc31d58",
   "symbol": "2a0328d0eea205ba47f3b482e1f327cc",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Keldeo Battle Strength Deck",
-      "code": "KLD",
-      "released": {
-        "date": "2012-04-20"
-      },
-      "logo": "ce90c0f7f403870220a872747fc31d58",
-      "symbol": "2a0328d0eea205ba47f3b482e1f327cc"
-    }
-  ],
   "description": {
-    "text": "Battle Strength Deck 30: Keldeo, a 30-card half deck released on 20 April 2012 for the film Kyurem VS. the Sword of Justice, easy to play and meant for players new to battling. It is led by the Mythical Pokémon Keldeo as a holo card with strong attacks and high HP, and its other two Battle Strength holo cards are the Trainers Rocky Helmet and Eviolite. A strengthening guide and a quick guide came with it.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームBW バトル強化デッキ30「ケルディオ」",
-        "url": "https://web.archive.org/web/20120326193523/http://www.pokemon-card.com/products/bw/kld/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Battle Strength Deck 30: Keldeo, a 30-card half deck released on 20 April 2012 for the film Kyurem VS. the Sword of Justice, easy to play and meant for players new to battling. It is led by the Mythical Pokémon Keldeo as a holo card with strong attacks and high HP, and its other two Battle Strength holo cards are the Trainers Rocky Helmet and Eviolite. A strengthening guide and a quick guide came with it."
   },
   "tell": {
-    "text": "A \"KLD\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"KLD\" mark at the bottom right"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/boundaries-crossed",
+      "id": "french/boundaries-crossed",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "german/boundaries-crossed",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "english/boundaries-crossed",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "italian/boundaries-crossed",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "korean/keldeo-trainer-set",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/boundaries-crossed",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/boundaries-crossed",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 12
@@ -64,11 +80,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "001",
-      "name": "Psyduck",
+      "name": "コダック",
+      "englishName": "Psyduck",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -76,7 +95,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -87,17 +106,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 54,
+          "id": 54,
           "name": "Psyduck"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 54,
-          "form": "54",
-          "name": "Psyduck",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -107,7 +117,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -121,49 +131,21 @@
             "front": {
               "image": "6c8358ac9a88d727806b47b701116b1d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "32",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "psyduck-vo9z" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "002",
-      "name": "Golduck",
+      "name": "ゴルダック",
+      "englishName": "Golduck",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -171,7 +153,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -182,17 +164,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 55,
+          "id": 55,
           "name": "Golduck"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 55,
-          "form": "55",
-          "name": "Golduck",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -202,7 +175,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -216,49 +189,21 @@
             "front": {
               "image": "400efcc9e39d3a9156ab0c206cbca32b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "34",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "golduck-2v14" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "003",
-      "name": "Cryogonal",
+      "name": "フリージオ",
+      "englishName": "Cryogonal",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -266,7 +211,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -277,17 +222,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 615,
+          "id": 615,
           "name": "Cryogonal"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 615,
-          "form": "615",
-          "name": "Cryogonal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -297,7 +233,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -311,49 +247,21 @@
             "front": {
               "image": "4f8116124db464c9cee162355cb72f8e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "46",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cryogonal-uv9w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "004",
-      "name": "Keldeo",
+      "name": "ケルディオ",
+      "englishName": "Keldeo",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -361,7 +269,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -372,17 +280,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 647,
+          "id": 647,
           "name": "Keldeo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 647,
-          "form": "647",
-          "name": "Keldeo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -392,7 +291,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -406,49 +305,21 @@
             "front": {
               "image": "4031c567f494f32560a9816abb054fdf"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "47",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "keldeo-9m3q" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "005",
-      "name": "Vullaby",
+      "name": "バルチャイ",
+      "englishName": "Vullaby",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -456,7 +327,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -467,17 +338,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 629,
+          "id": 629,
           "name": "Vullaby"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 629,
-          "form": "629",
-          "name": "Vullaby",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -487,7 +349,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -501,49 +363,21 @@
             "front": {
               "image": "8bc912e13c25fa6b91d7c6549f03adb1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "92",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "vullaby-gs8b" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "006",
-      "name": "Mandibuzz",
+      "name": "バルジーナ",
+      "englishName": "Mandibuzz",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -551,7 +385,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -562,17 +396,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 630,
+          "id": 630,
           "name": "Mandibuzz"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 630,
-          "form": "630",
-          "name": "Mandibuzz",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -582,7 +407,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -596,49 +421,21 @@
             "front": {
               "image": "f39364499a21fbed37ef283ed4ff5cc1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "93",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "mandibuzz-2qe9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "007",
-      "name": "Skarmory",
+      "name": "エアームド",
+      "englishName": "Skarmory",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -646,7 +443,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -657,17 +454,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 227,
+          "id": 227,
           "name": "Skarmory"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 227,
-          "form": "227",
-          "name": "Skarmory",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -677,7 +465,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -691,49 +479,21 @@
             "front": {
               "image": "4209e91771c14ac95853a6117d770a6c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "95",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "skarmory-ecvf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "008",
-      "name": "Klink",
+      "name": "ギアル",
+      "englishName": "Klink",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -741,7 +501,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -752,17 +512,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 599,
+          "id": 599,
           "name": "Klink"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 599,
-          "form": "599",
-          "name": "Klink",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -772,7 +523,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -786,49 +537,21 @@
             "front": {
               "image": "fc2434543575785e3819121db2df0342"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "97",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/keldeo-battle-strength-deck",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "klink-7hif" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "009",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -836,7 +559,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -851,7 +574,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -865,57 +588,21 @@
             "front": {
               "image": "3e7876e8ff356a211dd6f590300d3b43"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "128",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "008"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "card": "008",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-search-04vl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "010",
-      "name": "Great Ball",
+      "name": "スーパーボール",
+      "englishName": "Great Ball",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -923,7 +610,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -938,7 +625,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -952,58 +639,21 @@
             "front": {
               "image": "51ff72a35919fdd6bd590b7e2cf65cf2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "129",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "great-ball-7wrs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "011",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1011,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -1026,7 +676,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1040,57 +690,21 @@
             "front": {
               "image": "e366f7f2cab728c123398366c03b2caf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "135",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "35"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "35",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-9h3j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "012",
-      "name": "Rocky Helmet",
+      "name": "ゴツゴツメット",
+      "englishName": "Rocky Helmet",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1098,7 +712,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1113,7 +727,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1127,59 +741,21 @@
             "front": {
               "image": "8af1594f126183e7d7dda5ab5d2f908c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "133",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/red-collection",
-          "painting": "064"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/red-collection",
-          "card": "064",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "rocky-helmet-3ao8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "013",
-      "name": "Eviolite",
+      "name": "しんかのきせき",
+      "englishName": "Eviolite",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1187,7 +763,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1202,7 +778,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1216,65 +792,21 @@
             "front": {
               "image": "4fc98189042b03240fdb96a6389d1c48"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/noble-victories",
-              "card": "91",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/red-collection",
-                "card": "065"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/red-collection",
-          "painting": "065"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/red-collection",
-          "card": "065",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "eviolite-3pv6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "014",
-      "name": "Cheren",
+      "name": "チェレン",
+      "englishName": "Cheren",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1282,7 +814,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1290,10 +822,10 @@
         "date": "2012-04-20",
         "sort": "2012-04-20.00 japanese/keldeo-battle-strength-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cheren",
+          "id": "cheren",
           "name": "Cheren",
           "role": "subject"
         }
@@ -1305,7 +837,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1319,64 +851,21 @@
             "front": {
               "image": "ada3dc9eb8d4304d88b7f9186a4a5089"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "053"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cheren-2as2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "015",
-      "name": "Bianca",
+      "name": "ベル",
+      "englishName": "Bianca",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1384,7 +873,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1392,10 +881,10 @@
         "date": "2012-04-20",
         "sort": "2012-04-20.00 japanese/keldeo-battle-strength-deck 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bianca",
+          "id": "bianca",
           "name": "Bianca",
           "role": "subject"
         }
@@ -1407,7 +896,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1421,61 +910,18 @@
             "front": {
               "image": "2bca491a6869ef5ab48466b0bd040590"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "90",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cobalion-battle-strength-deck",
-                "card": "014"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "014"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "card": "014",
-          "differs": [
-            "finish",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "bianca-vexp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "darkness-energy",
-      "name": "Darkness Energy",
+      "name": "基本悪エネルギー",
+      "englishName": "Darkness Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1489,7 +935,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "darkness-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1503,27 +949,17 @@
             "front": {
               "image": "5b7d6929b0df1f94982b9e9675ca64c6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "metal-energy",
-      "name": "Metal Energy",
+      "name": "基本鋼エネルギー",
+      "englishName": "Metal Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1537,7 +973,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "metal-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1551,27 +987,17 @@
             "front": {
               "image": "3f2adf7f5f3b3c69030f9f6411ad8c0b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/keldeo-battle-strength-deck",
       "id": "water-energy",
-      "name": "Water Energy",
+      "name": "基本水エネルギー",
+      "englishName": "Water Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1585,7 +1011,7 @@
             "$kind": "variant",
             "set": "japanese/keldeo-battle-strength-deck",
             "card": "water-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1599,23 +1025,10 @@
             "front": {
               "image": "954c3e7b17bcca6ae651611fce744a51"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
   ]
 }

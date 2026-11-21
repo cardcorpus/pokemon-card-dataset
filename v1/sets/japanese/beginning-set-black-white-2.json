@@ -1,65 +1,58 @@
 {
   "id": "japanese/beginning-set-black-white-2",
   "catalog": "japanese",
-  "name": "Beginning Set +",
+  "name": "はじめてセット ピカチュウver.",
+  "englishName": "Beginning Set +",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "printedTotal": 34,
   "actualTotal": 40,
   "cardCount": 40,
-  "productCount": 0,
   "released": {
     "date": "2011-08-05"
   },
   "code": "HS+",
+  "printedCode": "HS+",
   "logo": "1bff725592e911620cfcf5c490a78141",
   "symbol": "b6623e63f333af42ed0bff0c7bdbd9fb",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Beginning Set +",
-      "code": "HS+",
-      "released": {
-        "date": "2011-08-05"
-      },
-      "logo": "1bff725592e911620cfcf5c490a78141",
-      "symbol": "b6623e63f333af42ed0bff0c7bdbd9fb"
-    }
-  ],
   "description": {
-    "text": "Beginning Set+, released on 5 August 2011: a new version of the Black & White Beginning Set with the same cards, three ready-built 30-card half decks with a playmat, a coin and damage counters and markers, that came with the Nintendo DS software Pokémon Card Game Asobikata DS (how to play DS) instead of a DVD. The software taught the rules through a story with practice battles on the touch screen, battles against the computer with the set's decks, quizzes and a rule dictionary, and could be sent to a friend's DS by Download Play. Its cards carry this set's own code, HS+, rather than the Beginning Set's HS.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームBW　はじめてセット＋（プラス）",
-        "url": "https://web.archive.org/web/20110704231544/http://www.pokemon-card.com/products/bw/entry_plus.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Beginning Set+, released on 5 August 2011: a new version of the Black & White Beginning Set with the same cards, three ready-built 30-card half decks with a playmat, a coin and damage counters and markers, that came with the Nintendo DS software Pokémon Card Game Asobikata DS (how to play DS) instead of a DVD. The software taught the rules through a story with practice battles on the touch screen, battles against the computer with the set's decks, quizzes and a rule dictionary, and could be sent to a friend's DS by Download Play. Its cards carry this set's own code, HS+, rather than the Beginning Set's HS."
   },
   "tell": {
-    "text": "An \"HS+\" mark at the bottom right, and a number out of 34",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"HS+\" mark at the bottom right, and a number out of 34"
   },
+  "links": [
+    {
+      "$kind": "set",
+      "id": "korean/evolution-of-fire-first-set",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 2
+    },
+    {
+      "$kind": "set",
+      "id": "korean/evolution-of-water-first-set",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 3
+    }
+  ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "1",
-      "name": "Snivy",
+      "name": "ツタージャ",
+      "englishName": "Snivy",
       "number": {
         "printed": "1/34",
-        "numerator": "1"
+        "short": "1"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -67,7 +60,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -78,17 +71,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 495,
+          "id": 495,
           "name": "Snivy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 495,
-          "form": "495",
-          "name": "Snivy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -98,7 +82,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "1",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -116,63 +100,21 @@
             "front": {
               "image": "ccb15634c872520de65c7e9d786db148"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "1"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "1"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "1",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "snivy-cenb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "2",
-      "name": "Servine",
+      "name": "ジャノビー",
+      "englishName": "Servine",
       "number": {
         "printed": "2/34",
-        "numerator": "2"
+        "short": "2"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -180,7 +122,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -191,17 +133,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 496,
+          "id": 496,
           "name": "Servine"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 496,
-          "form": "496",
-          "name": "Servine",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -211,7 +144,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "2",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -229,63 +162,21 @@
             "front": {
               "image": "d5533214766068e3e51769ea4a8eab0b"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "3",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "2"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "2"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "2",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "servine-bk00" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "3",
-      "name": "Serperior",
+      "name": "ジャローダ",
+      "englishName": "Serperior",
       "number": {
         "printed": "3/34",
-        "numerator": "3"
+        "short": "3"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -293,7 +184,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -304,17 +195,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 497,
+          "id": 497,
           "name": "Serperior"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 497,
-          "form": "497",
-          "name": "Serperior",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -324,7 +206,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "3",
-            "variant": "holo-snivy-silhouette-stamp"
+            "id": "holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -342,63 +224,21 @@
             "front": {
               "image": "2b1aa841e88c261605a1f15850674202"
             }
-          },
-          "collectingVariation": "v-c2acdcfef85ec72203e17b357f4609ebb8fcf393"
+          }
         }
       ],
-      "defaultCopy": "holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-c2acdcfef85ec72203e17b357f4609ebb8fcf393",
-          "name": "Holo · Snivy silhouette",
-          "variants": [
-            "holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-c2acdcfef85ec72203e17b357f4609ebb8fcf393",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "3"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "3"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "3",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "serperior-wima" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "4",
       "name": "Pansage",
+      "englishName": "Pansage",
       "number": {
         "printed": "4/34",
-        "numerator": "4"
+        "short": "4"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -406,7 +246,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -417,17 +257,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 511,
+          "id": 511,
           "name": "Pansage"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 511,
-          "form": "511",
-          "name": "Pansage",
-          "role": "subject"
         }
       ],
       "variants": [
@@ -439,45 +270,21 @@
           "stamp": "tepig_silhouette_stamp",
           "tell": {
             "text": "A small coloured Tepig silhouette at the bottom right of the card: the mark of the Tepig deck in a box of ready-made decks."
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "4"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "4",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pansage-5x50" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "5",
-      "name": "Maractus",
+      "name": "マラカッチ",
+      "englishName": "Maractus",
       "number": {
         "printed": "5/34",
-        "numerator": "5"
+        "short": "5"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -485,7 +292,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -496,17 +303,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 556,
+          "id": 556,
           "name": "Maractus"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 556,
-          "form": "556",
-          "name": "Maractus",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -516,7 +314,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "5",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -534,63 +332,21 @@
             "front": {
               "image": "efe0bbacd3ebd6ffe47a0b14f8232263"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "11",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "5"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "5"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "5",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "maractus-9hj1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "6",
       "name": "Tepig",
+      "englishName": "Tepig",
       "number": {
         "printed": "6/34",
-        "numerator": "6"
+        "short": "6"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -598,7 +354,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -609,17 +365,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 498,
+          "id": 498,
           "name": "Tepig"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 498,
-          "form": "498",
-          "name": "Tepig",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -629,7 +376,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "6",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -647,63 +394,21 @@
             "front": {
               "image": "9cf16e09483a59868c31db06fc1772a5"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "15",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "6"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "6"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "6",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "tepig-j3m2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "7",
       "name": "Pignite",
+      "englishName": "Pignite",
       "number": {
         "printed": "7/34",
-        "numerator": "7"
+        "short": "7"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -711,7 +416,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -722,17 +427,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 499,
+          "id": 499,
           "name": "Pignite"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 499,
-          "form": "499",
-          "name": "Pignite",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -742,7 +438,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "7",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -760,63 +456,21 @@
             "front": {
               "image": "748f395b9185a387db847da16ae8bf08"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "17",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "7"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "7"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "7",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pignite-cllf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "8",
       "name": "Emboar",
+      "englishName": "Emboar",
       "number": {
         "printed": "8/34",
-        "numerator": "8"
+        "short": "8"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -824,7 +478,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -835,17 +489,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 500,
+          "id": 500,
           "name": "Emboar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 500,
-          "form": "500",
-          "name": "Emboar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -855,7 +500,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "8",
-            "variant": "holo-tepig-silhouette-stamp"
+            "id": "holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -873,63 +518,21 @@
             "front": {
               "image": "f517f78d81b82e267a11e5bdd72316e3"
             }
-          },
-          "collectingVariation": "v-49ce2730b5206527b3ed7167804c9c586fc756fe"
+          }
         }
       ],
-      "defaultCopy": "holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-49ce2730b5206527b3ed7167804c9c586fc756fe",
-          "name": "Holo · Tepig silhouette",
-          "variants": [
-            "holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-49ce2730b5206527b3ed7167804c9c586fc756fe",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "19",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "8"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "8"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "8",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "emboar-wkxq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "9",
       "name": "Pansear",
+      "englishName": "Pansear",
       "number": {
         "printed": "9/34",
-        "numerator": "9"
+        "short": "9"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -937,7 +540,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -948,17 +551,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 513,
+          "id": 513,
           "name": "Pansear"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 513,
-          "form": "513",
-          "name": "Pansear",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -968,7 +562,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "9",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -986,63 +580,21 @@
             "front": {
               "image": "59cb07208999f29fa7af96d1f281d99c"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "9"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "9"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "9",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pansear-pdzw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "10",
       "name": "Darumaka",
+      "englishName": "Darumaka",
       "number": {
         "printed": "10/34",
-        "numerator": "10"
+        "short": "10"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1050,7 +602,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1061,17 +613,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 554,
+          "id": 554,
           "name": "Darumaka"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 554,
-          "form": "554",
-          "name": "Darumaka",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1081,7 +624,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "10",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -1099,63 +642,21 @@
             "front": {
               "image": "ea7518d9d4b86aae7c73b418e570ad22"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "23",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "10"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "10"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "10",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "darumaka-l677" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "11",
       "name": "Oshawott",
+      "englishName": "Oshawott",
       "number": {
         "printed": "11/34",
-        "numerator": "11"
+        "short": "11"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1163,7 +664,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -1174,17 +675,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 501,
+          "id": 501,
           "name": "Oshawott"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 501,
-          "form": "501",
-          "name": "Oshawott",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1194,7 +686,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "11",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -1212,63 +704,21 @@
             "front": {
               "image": "415ed78dbe65d41c6cad11fe5d9dfb58"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "27",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "11"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "11"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "11",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "oshawott-yzg0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "12",
       "name": "Dewott",
+      "englishName": "Dewott",
       "number": {
         "printed": "12/34",
-        "numerator": "12"
+        "short": "12"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1276,7 +726,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -1287,17 +737,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 502,
+          "id": 502,
           "name": "Dewott"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 502,
-          "form": "502",
-          "name": "Dewott",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1307,7 +748,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "12",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -1325,63 +766,21 @@
             "front": {
               "image": "c75c54d4956f922583f3e10a54aba75d"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "29",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "12"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "12"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "12",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "dewott-kzo4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "13",
       "name": "Samurott",
+      "englishName": "Samurott",
       "number": {
         "printed": "13/34",
-        "numerator": "13"
+        "short": "13"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1389,7 +788,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -1400,17 +799,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 503,
+          "id": 503,
           "name": "Samurott"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 503,
-          "form": "503",
-          "name": "Samurott",
-          "role": "subject"
         }
       ],
       "variants": [
@@ -1422,45 +812,21 @@
           "stamp": "oshawott_silhouette_stamp",
           "tell": {
             "text": "A small coloured Oshawott silhouette at the bottom right of the card: the mark of the Oshawott deck in a box of ready-made decks."
-          },
-          "collectingVariation": "v-11bed7bc0f78c75ba678849593190e2d0ec610a2"
+          }
         }
       ],
-      "defaultCopy": "holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-11bed7bc0f78c75ba678849593190e2d0ec610a2",
-          "name": "Holo · Oshawott silhouette",
-          "variants": [
-            "holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-11bed7bc0f78c75ba678849593190e2d0ec610a2",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "13"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "13",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "samurott-dz5r" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "14",
-      "name": "Panpour",
+      "name": "ヒヤップ",
+      "englishName": "Panpour",
       "number": {
         "printed": "14/34",
-        "numerator": "14"
+        "short": "14"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1468,7 +834,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -1479,17 +845,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 515,
+          "id": 515,
           "name": "Panpour"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 515,
-          "form": "515",
-          "name": "Panpour",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1499,7 +856,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "14",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -1517,63 +874,21 @@
             "front": {
               "image": "69005c647098b78ca18bb422392fc075"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "14"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "14"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "14",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "panpour-11vq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "15",
       "name": "Basculin",
+      "englishName": "Basculin",
       "number": {
         "printed": "15/34",
-        "numerator": "15"
+        "short": "15"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1581,7 +896,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -1592,17 +907,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 550,
+          "id": 550,
           "name": "Basculin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 550,
-          "form": "550",
-          "name": "Basculin",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1612,7 +918,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "15",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -1630,63 +936,21 @@
             "front": {
               "image": "95250de803febbaa0a6926d890d464b9"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "35",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "15"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "15"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "15",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "basculin-agcf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "16",
       "name": "Blitzle",
+      "englishName": "Blitzle",
       "number": {
         "printed": "16/34",
-        "numerator": "16"
+        "short": "16"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1694,7 +958,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1705,17 +969,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 522,
+          "id": 522,
           "name": "Blitzle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 522,
-          "form": "522",
-          "name": "Blitzle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1725,7 +980,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "16",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -1743,63 +998,21 @@
             "front": {
               "image": "e359d23ae852fc694c8a7237648a436f"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "17"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "17"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "17",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "blitzle-b8tx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "17",
       "name": "Zebstrika",
+      "englishName": "Zebstrika",
       "number": {
         "printed": "17/34",
-        "numerator": "17"
+        "short": "17"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1807,7 +1020,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1818,17 +1031,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 523,
+          "id": 523,
           "name": "Zebstrika"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 523,
-          "form": "523",
-          "name": "Zebstrika",
-          "role": "subject"
         }
       ],
       "variants": [
@@ -1840,45 +1044,21 @@
           "stamp": "tepig_silhouette_stamp",
           "tell": {
             "text": "A small coloured Tepig silhouette at the bottom right of the card: the mark of the Tepig deck in a box of ready-made decks."
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "18"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "18",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "zebstrika-aenj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "18",
       "name": "Joltik",
+      "englishName": "Joltik",
       "number": {
         "printed": "18/34",
-        "numerator": "18"
+        "short": "18"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1886,7 +1066,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1897,17 +1077,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 595,
+          "id": 595,
           "name": "Joltik"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 595,
-          "form": "595",
-          "name": "Joltik",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1917,7 +1088,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "18",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -1935,63 +1106,21 @@
             "front": {
               "image": "18f38af27662a50ccc25949d2d413eae"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "44",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "19"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "19"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "19",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "joltik-zp53" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "19",
       "name": "Woobat",
+      "englishName": "Woobat",
       "number": {
         "printed": "19/34",
-        "numerator": "19"
+        "short": "19"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1999,7 +1128,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -2010,17 +1139,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 527,
+          "id": 527,
           "name": "Woobat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 527,
-          "form": "527",
-          "name": "Woobat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2030,7 +1150,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "19",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -2048,63 +1168,21 @@
             "front": {
               "image": "c113c64ad9886ca96f2bfe79d2d255ab"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "36",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "20"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "20"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "20",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "woobat-zsu6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "20",
       "name": "Venipede",
+      "englishName": "Venipede",
       "number": {
         "printed": "20/34",
-        "numerator": "20"
+        "short": "20"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2112,7 +1190,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -2123,17 +1201,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 543,
+          "id": 543,
           "name": "Venipede"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 543,
-          "form": "543",
-          "name": "Venipede",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2143,7 +1212,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "20",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -2161,63 +1230,21 @@
             "front": {
               "image": "fe71bf9dc807eff3409e219c36ee1f7f"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "21"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "21"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "21",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "venipede-vooc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "21",
       "name": "Whirlipede",
+      "englishName": "Whirlipede",
       "number": {
         "printed": "21/34",
-        "numerator": "21"
+        "short": "21"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2225,7 +1252,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -2236,17 +1263,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 544,
+          "id": 544,
           "name": "Whirlipede"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 544,
-          "form": "544",
-          "name": "Whirlipede",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2256,7 +1274,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "21",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -2274,63 +1292,21 @@
             "front": {
               "image": "6d958fbc0f820f31f442f33763752db6"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "22"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "22"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "22",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "whirlipede-ltfc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "22",
-      "name": "Timburr",
+      "name": "ドッコラー",
+      "englishName": "Timburr",
       "number": {
         "printed": "22/34",
-        "numerator": "22"
+        "short": "22"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2338,7 +1314,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -2349,17 +1325,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 532,
+          "id": 532,
           "name": "Timburr"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 532,
-          "form": "532",
-          "name": "Timburr",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2369,7 +1336,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "22",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -2387,63 +1354,21 @@
             "front": {
               "image": "d7b08d115f33c7822b5fc8d750e33427"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "58",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "23"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "23"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "23",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "timburr-ujhn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "23",
-      "name": "Sandile",
+      "name": "メグロコ",
+      "englishName": "Sandile",
       "number": {
         "printed": "23/34",
-        "numerator": "23"
+        "short": "23"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2451,7 +1376,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2462,17 +1387,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 551,
+          "id": 551,
           "name": "Sandile"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 551,
-          "form": "551",
-          "name": "Sandile",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2482,7 +1398,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "23",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -2500,45 +1416,21 @@
             "front": {
               "image": "a1ef5068b70c2757e660b6357bd959a6"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "24"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "24",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "sandile-ljol" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "24",
-      "name": "Krokorok",
+      "name": "ワルビル",
+      "englishName": "Krokorok",
       "number": {
         "printed": "24/34",
-        "numerator": "24"
+        "short": "24"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2546,7 +1438,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2557,17 +1449,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 552,
+          "id": 552,
           "name": "Krokorok"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 552,
-          "form": "552",
-          "name": "Krokorok",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2577,7 +1460,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "24",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -2595,45 +1478,21 @@
             "front": {
               "image": "71b370f01e495976aa139d7e2c13d22e"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "25"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "25",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "krokorok-a0i1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "25",
-      "name": "Patrat",
+      "name": "ミネズミ",
+      "englishName": "Patrat",
       "number": {
         "printed": "25/34",
-        "numerator": "25"
+        "short": "25"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2641,7 +1500,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2652,17 +1511,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 504,
+          "id": 504,
           "name": "Patrat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 504,
-          "form": "504",
-          "name": "Patrat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2672,7 +1522,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "25",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -2690,63 +1540,21 @@
             "front": {
               "image": "30cd07c9185697274b343f87c45ba0b9"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "77",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "26"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "26"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "26",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "patrat-veam" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "26",
       "name": "Lillipup",
+      "englishName": "Lillipup",
       "number": {
         "printed": "26/34",
-        "numerator": "26"
+        "short": "26"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2754,7 +1562,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -2765,17 +1573,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 506,
+          "id": 506,
           "name": "Lillipup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 506,
-          "form": "506",
-          "name": "Lillipup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2785,7 +1584,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "26",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -2803,63 +1602,21 @@
             "front": {
               "image": "ca3d957ee518a7175cbfcb608c33559c"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "80",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "27"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "27"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "27",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "lillipup-ronf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "27",
       "name": "Bouffalant",
+      "englishName": "Bouffalant",
       "number": {
         "printed": "27/34",
-        "numerator": "27"
+        "short": "27"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2867,7 +1624,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -2878,17 +1635,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 626,
+          "id": 626,
           "name": "Bouffalant"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 626,
-          "form": "626",
-          "name": "Bouffalant",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2898,7 +1646,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "27",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -2916,63 +1664,21 @@
             "front": {
               "image": "637f07ff76cd8ef6f8b49189b70fae05"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "90",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "30"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "30"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "30",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "bouffalant-m50a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "28",
       "name": "Energy Retrieval",
+      "englishName": "Energy Retrieval",
       "number": {
         "printed": "28/34",
-        "numerator": "28"
+        "short": "28"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2980,7 +1686,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -2995,7 +1701,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "28",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -3013,63 +1719,21 @@
             "front": {
               "image": "c2e979a6bc5ec78655597bc92375cf0b"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "92",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "31"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "31"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "31",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "energy-retrieval-zjdb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "29",
       "name": "Energy Switch",
+      "englishName": "Energy Switch",
       "number": {
         "printed": "29/34",
-        "numerator": "29"
+        "short": "29"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3077,7 +1741,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -3092,7 +1756,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "29",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -3110,63 +1774,21 @@
             "front": {
               "image": "90c02f18100ea9ef20881dfda88aacbe"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "94",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "32"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "32"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "32",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "energy-switch-kaj7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "30",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "30/34",
-        "numerator": "30"
+        "short": "30"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3174,7 +1796,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -3189,7 +1811,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "30",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -3207,8 +1829,7 @@
             "front": {
               "image": "ed105b00f62c12f587ff563cc411cd09"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         },
         {
           "id": "non-holo-snivy-silhouette-stamp",
@@ -3229,11 +1850,10 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "30",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         },
         {
           "id": "non-holo-tepig-silhouette-stamp",
@@ -3254,64 +1874,24 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "30",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp"
-        },
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "33"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "33",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "potion-tend" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "31",
-      "name": "Super Scoop Up",
+      "name": "スーパーポケモン回収",
+      "englishName": "Super Scoop Up",
       "number": {
         "printed": "31/34",
-        "numerator": "31"
+        "short": "31"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3319,7 +1899,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-iwamoto",
+          "id": "daisuke-iwamoto",
           "name": "Daisuke Iwamoto"
         }
       ],
@@ -3334,7 +1914,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "31",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -3352,63 +1932,21 @@
             "front": {
               "image": "bb0aea5f2106b0f3bc148ae9c264ac17"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         }
       ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "103",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "34"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "34"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "34",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "super-scoop-up-3htv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "32",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "32/34",
-        "numerator": "32"
+        "short": "32"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3416,7 +1954,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -3431,7 +1969,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "32",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -3449,8 +1987,7 @@
             "front": {
               "image": "986d2398c5aaa26b8d501337b5c15ff6"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         },
         {
           "id": "non-holo-snivy-silhouette-stamp",
@@ -3471,11 +2008,10 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "32",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         },
         {
           "id": "non-holo-tepig-silhouette-stamp",
@@ -3496,82 +2032,24 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "32",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp"
-        },
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "104",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "35"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "35"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "35",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "switch-9h3j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "33",
-      "name": "Pokédex",
+      "name": "ポケモン図鑑",
+      "englishName": "Pokédex",
       "number": {
         "printed": "33/34",
-        "numerator": "33"
+        "short": "33"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3579,7 +2057,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "noriko-hotta",
+          "id": "noriko-hotta",
           "name": "Noriko Hotta"
         }
       ],
@@ -3594,7 +2072,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "33",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -3612,8 +2090,7 @@
             "front": {
               "image": "7c0857b4eac668040cdecee6bc804d68"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         },
         {
           "id": "non-holo-snivy-silhouette-stamp",
@@ -3634,11 +2111,10 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "33",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         },
         {
           "id": "non-holo-tepig-silhouette-stamp",
@@ -3659,82 +2135,24 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "33",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp"
-        },
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "98",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "36"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "36"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "36",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "pokedex-ada4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "34",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "34/34",
-        "numerator": "34"
+        "short": "34"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -3742,7 +2160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yuri-umemura",
+          "id": "yuri-umemura",
           "name": "Yuri Umemura"
         }
       ],
@@ -3757,7 +2175,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "34",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -3775,8 +2193,7 @@
             "front": {
               "image": "394c8375f555e22b7c703abb6f326643"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
+          }
         },
         {
           "id": "non-holo-snivy-silhouette-stamp",
@@ -3797,11 +2214,10 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "34",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
+          }
         },
         {
           "id": "non-holo-tepig-silhouette-stamp",
@@ -3822,82 +2238,24 @@
                 "$kind": "variant",
                 "set": "japanese/beginning-set-black-white-2",
                 "card": "34",
-                "variant": "non-holo-oshawott-silhouette-stamp"
+                "id": "non-holo-oshawott-silhouette-stamp"
               }
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
+          }
         }
       ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        },
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp"
-        },
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp"
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "97",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "37"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "37"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "37",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "poke-ball-a1zm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "35",
-      "name": "Basic Grass Energy",
+      "name": "基本【草】エネルギー",
+      "englishName": "Basic Grass Energy",
       "number": {
         "printed": "35/34",
-        "numerator": "35"
+        "short": "35"
       },
       "cardType": "energy",
       "language": "ja",
@@ -3912,7 +2270,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "35",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -3930,124 +2288,21 @@
             "front": {
               "image": "989c22337717b22b468a044c01036c48"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
-        }
-      ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/2010-energies",
-          "painting": "grass-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/2010-energies",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2011-energies",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "35"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/hydreigon-half-deck",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/national-beginning-set",
-            "card": "35"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/everyone-s-exciting-battle",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "international/2013-energies",
-            "card": "grass-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/xy-beginning-set",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-base-set",
-            "card": "132"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "1"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "19"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "2"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "3"
-          },
-          {
-            "$kind": "card",
-            "set": "international/xy-trainer-kit-latias",
-            "card": "5"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/20th-anniversary-starter-pack",
-            "card": "gra"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/extra-regulation-box",
-            "card": "gra"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "grass-energy-5az6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "36",
-      "name": "Basic Fighting Energy",
+      "name": "基本【闘】エネルギー",
+      "englishName": "Basic Fighting Energy",
       "number": {
         "printed": "36/34",
-        "numerator": "36"
+        "short": "36"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4062,7 +2317,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "36",
-            "variant": "non-holo-snivy-silhouette-stamp"
+            "id": "non-holo-snivy-silhouette-stamp"
           }
         }
       },
@@ -4080,49 +2335,21 @@
             "front": {
               "image": "6ef478f3239144a0b9f84ae8b37207b4"
             }
-          },
-          "collectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34"
-        }
-      ],
-      "defaultCopy": "non-holo-snivy-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-          "name": "Non-holo · Snivy silhouette",
-          "variants": [
-            "non-holo-snivy-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-snivy-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4a98aa93d9a2a7bf872d20dab866d22fef735c34",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "basic-fighting-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-fighting-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "36"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo-snivy-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "basic-fighting-energy-ogqm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "37",
       "name": "Basic Fire Energy",
+      "englishName": "Basic Fire Energy",
       "number": {
         "printed": "37/34",
-        "numerator": "37"
+        "short": "37"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4137,7 +2364,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "37",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -4155,49 +2382,21 @@
             "front": {
               "image": "1f50aebf3778f54a04a466f87982ba31"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
-        }
-      ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "basic-fire-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-fire-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "37"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "basic-fire-energy-66r9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "38",
       "name": "Basic Lightning Energy",
+      "englishName": "Basic Lightning Energy",
       "number": {
         "printed": "38/34",
-        "numerator": "38"
+        "short": "38"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4212,7 +2411,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "38",
-            "variant": "non-holo-tepig-silhouette-stamp"
+            "id": "non-holo-tepig-silhouette-stamp"
           }
         }
       },
@@ -4230,49 +2429,21 @@
             "front": {
               "image": "025c688ccdc82b7b89b46516c290bd55"
             }
-          },
-          "collectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554"
-        }
-      ],
-      "defaultCopy": "non-holo-tepig-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-          "name": "Non-holo · Tepig silhouette",
-          "variants": [
-            "non-holo-tepig-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-tepig-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-46fd8ddc48af28e029c219eac0bb22ddfe13d554",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "basic-lightning-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-lightning-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "38"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo-tepig-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "basic-lightning-energy-1jq9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "39",
       "name": "Basic Psychic Energy",
+      "englishName": "Basic Psychic Energy",
       "number": {
         "printed": "39/34",
-        "numerator": "39"
+        "short": "39"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4287,7 +2458,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "39",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -4305,49 +2476,21 @@
             "front": {
               "image": "72e39c589e37301a792688e94cbb8771"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
-        }
-      ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "basic-psychic-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-psychic-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "39"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "basic-psychic-energy-bcti" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/beginning-set-black-white-2",
       "id": "40",
       "name": "Basic Water Energy",
+      "englishName": "Basic Water Energy",
       "number": {
         "printed": "40/34",
-        "numerator": "40"
+        "short": "40"
       },
       "cardType": "energy",
       "language": "ja",
@@ -4362,7 +2505,7 @@
             "$kind": "variant",
             "set": "japanese/beginning-set-black-white-2",
             "card": "40",
-            "variant": "non-holo-oshawott-silhouette-stamp"
+            "id": "non-holo-oshawott-silhouette-stamp"
           }
         }
       },
@@ -4380,42 +2523,11 @@
             "front": {
               "image": "f0241be051a6dc096bc7d26b61d51501"
             }
-          },
-          "collectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675"
-        }
-      ],
-      "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-      "collectingVariations": [
-        {
-          "id": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-          "name": "Non-holo · Oshawott silhouette",
-          "variants": [
-            "non-holo-oshawott-silhouette-stamp"
-          ],
-          "defaultCopy": "non-holo-oshawott-silhouette-stamp",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-78f8d6eeff2c3748157799f9c64e0a1432176675",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "basic-water-energy"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-black-white",
-            "card": "basic-water-energy"
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/beginning-set-pikachu",
-            "card": "40"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo-oshawott-silhouette-stamp",
+      "painting": { "$kind": "painting", "id": "basic-water-energy-zz5y" }
     }
   ]
 }

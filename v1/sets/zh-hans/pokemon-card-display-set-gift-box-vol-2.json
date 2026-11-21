@@ -1,58 +1,64 @@
 {
   "id": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
   "catalog": "zh-hans",
-  "name": "Pokémon Card Display Set Gift Box Vol. 2",
+  "name": "宝可梦卡牌展示套礼盒",
+  "englishName": "Pokémon Card Display Set Gift Box Vol. 2",
   "era": {
     "$kind": "era",
-    "era": "zh-hans/sword-shield",
-    "name": "Sword & Shield"
+    "id": "zh-hans/sword-shield",
+    "name": "剑&盾",
+    "englishName": "Sword & Shield"
   },
   "type": "box",
   "language": "zh-Hans",
   "printedTotal": 12,
   "actualTotal": 13,
   "cardCount": 13,
-  "productCount": 0,
   "released": {
     "date": "2024-06-18"
   },
   "code": "CSMC",
+  "printedCode": "CSMC",
   "logo": "8e91fdc5d6dfaf2e1d9af599581506ae",
   "symbol": "8bf1682509354f278c586f25b0754432",
-  "releases": [
-    {
-      "language": "zh-Hans",
-      "name": "Pokémon Card Display Set Gift Box Vol. 2",
-      "code": "CSMC",
-      "released": {
-        "date": "2024-06-18"
-      },
-      "logo": "8e91fdc5d6dfaf2e1d9af599581506ae",
-      "symbol": "8bf1682509354f278c586f25b0754432"
-    }
-  ],
   "description": {
-    "text": "The second Pokémon Card Display Set Gift Box (宝可梦卡牌展示套礼盒) came out on 18 June 2024 with Brave Stars. Each box held one random special-art holo card, one of 13, with a silicone display case for that card's Pokémon and a random 25-card Brave Stars pack. Twelve cards, numbered out of 12, each show a Pokémon with a trainer: Charizard, Flaaffy, Zekrom, Dedenne, Alcremie, Wyrdeer, Kleavor, Ariados, Spiritomb, Galarian Obstagoon, Druddigon and Hoothoot. With luck a box held the hidden thirteenth card, a Pikachu numbered 013, and a Pikachu display case.",
-    "sources": [
-      {
-        "title": "Pokémon China: New products with Brave Stars: the Irida & Adaman boxes, display set gift box vol. 2 and more (24 May 2024)",
-        "url": "https://www.pokemon.cn/tcg/product/15824.html"
-      }
-    ]
+    "text": "The second Pokémon Card Display Set Gift Box (宝可梦卡牌展示套礼盒) came out on 18 June 2024 with Brave Stars. Each box held one random special-art holo card, one of 13, with a silicone display case for that card's Pokémon and a random 25-card Brave Stars pack. Twelve cards, numbered out of 12, each show a Pokémon with a trainer: Charizard, Flaaffy, Zekrom, Dedenne, Alcremie, Wyrdeer, Kleavor, Ariados, Spiritomb, Galarian Obstagoon, Druddigon and Hoothoot. With luck a box held the hidden thirteenth card, a Pikachu numbered 013, and a Pikachu display case."
   },
   "tell": {
-    "text": "A \"CSMC\" mark at the bottom left, and a number out of 012",
-    "sources": [
-      {
-        "title": "Pokémon China: New products with Brave Stars: the Irida & Adaman boxes, display set gift box vol. 2 and more (24 May 2024)",
-        "url": "https://www.pokemon.cn/tcg/product/15824.html"
-      }
-    ]
+    "text": "A \"CSMC\" mark at the bottom left, and a number out of 012"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "japanese/vmax-climax",
+      "id": "indonesian/vmax-climax",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/vmax-climax",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "korean/vmax-climax",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "thai/vmax-climax",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/vmax-climax",
       "relation": "merged_into",
       "direction": "incoming",
       "sameCardCount": 8
@@ -60,11 +66,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "001",
       "name": "Charizard",
+      "englishName": "Charizard",
       "number": {
         "printed": "001/012",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -72,7 +81,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "gidora",
+          "id": "gidora",
           "name": "GIDORA"
         }
       ],
@@ -83,17 +92,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 6,
+          "id": 6,
           "name": "Charizard"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 6,
-          "form": "6",
-          "name": "Charizard",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -103,7 +103,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -117,59 +117,21 @@
             "front": {
               "image": "76276a9f99f75ce559a8f57e9f7e2f85"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/lost-origin",
-              "card": "tg03",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "187",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "187"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "charizard-pi5l" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "002",
       "name": "Flaaffy",
+      "englishName": "Flaaffy",
       "number": {
         "printed": "002/012",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -177,7 +139,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "saino-misaki",
+          "id": "saino-misaki",
           "name": "saino misaki"
         }
       ],
@@ -188,17 +150,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 180,
+          "id": 180,
           "name": "Flaaffy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 180,
-          "form": "180",
-          "name": "Flaaffy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -208,7 +161,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -222,59 +175,21 @@
             "front": {
               "image": "caf1b94bbaa7b22ff7f771bc017cb47b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/silver-tempest",
-              "card": "tg03",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "194",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "194"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "flaaffy-gurs" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "003",
       "name": "Zekrom",
+      "englishName": "Zekrom",
       "number": {
         "printed": "003/012",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -282,7 +197,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-egawa",
+          "id": "akira-egawa",
           "name": "AKIRA EGAWA"
         }
       ],
@@ -293,17 +208,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 644,
+          "id": 644,
           "name": "Zekrom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 644,
-          "form": "644",
-          "name": "Zekrom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -313,7 +219,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -327,59 +233,21 @@
             "front": {
               "image": "ad2ba84821ea8be98b9c64bf2424552d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg05",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "195",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "195"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "zekrom-lqsw" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "004",
       "name": "Dedenne",
+      "englishName": "Dedenne",
       "number": {
         "printed": "004/012",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -387,7 +255,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kurumitsu",
+          "id": "kurumitsu",
           "name": "kurumitsu"
         }
       ],
@@ -398,17 +266,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 702,
+          "id": 702,
           "name": "Dedenne"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 702,
-          "form": "702",
-          "name": "Dedenne",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -418,7 +277,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -432,59 +291,21 @@
             "front": {
               "image": "e1eb25dfb522ee4b540dc74714eed09e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg07",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "200",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "200"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "dedenne-66md" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "005",
       "name": "Alcremie",
+      "englishName": "Alcremie",
       "number": {
         "printed": "005/012",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -492,7 +313,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "okacheke",
+          "id": "okacheke",
           "name": "OKACHEKE"
         }
       ],
@@ -503,17 +324,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 869,
+          "id": 869,
           "name": "Alcremie"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 869,
-          "form": "869",
-          "name": "Alcremie",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -523,7 +335,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -537,59 +349,21 @@
             "front": {
               "image": "4b169266c2251cab3a3a0654b2132de4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg08",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "201",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "201"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "alcremie-q5zm" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "006",
       "name": "Wyrdeer",
+      "englishName": "Wyrdeer",
       "number": {
         "printed": "006/012",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -597,7 +371,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -608,17 +382,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 899,
+          "id": 899,
           "name": "Wyrdeer"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 899,
-          "form": "899",
-          "name": "Wyrdeer",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -628,7 +393,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -642,59 +407,21 @@
             "front": {
               "image": "fc42daa0b65962c6a3e47d42cc054237"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/astral-radiance",
-              "card": "tg06",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/battle-region",
-              "card": "070",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/battle-region",
-          "painting": "070"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "wyrdeer-1y6a" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "007",
       "name": "Kleavor",
+      "englishName": "Kleavor",
       "number": {
         "printed": "007/012",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -702,7 +429,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "souichirou-gunjima",
+          "id": "souichirou-gunjima",
           "name": "Souichirou Gunjima"
         }
       ],
@@ -713,17 +440,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 900,
+          "id": 900,
           "name": "Kleavor"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 900,
-          "form": "900",
-          "name": "Kleavor",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -733,7 +451,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "007",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -747,59 +465,21 @@
             "front": {
               "image": "1d1c5f1514dc68dc5980203e28243453"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/astral-radiance",
-              "card": "tg08",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/battle-region",
-              "card": "071",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/battle-region",
-          "painting": "071"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "kleavor-a4h7" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "008",
       "name": "Ariados",
+      "englishName": "Ariados",
       "number": {
         "printed": "008/012",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -807,7 +487,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shiburingaru",
+          "id": "shiburingaru",
           "name": "Shiburingaru"
         }
       ],
@@ -818,17 +498,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 168,
+          "id": 168,
           "name": "Ariados"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 168,
-          "form": "168",
-          "name": "Ariados",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -838,7 +509,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "008",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -852,59 +523,21 @@
             "front": {
               "image": "5207ecacd244b1bcd6bfb70779171714"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg09",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "205",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "205"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "ariados-4lne" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "009",
       "name": "Spiritomb",
+      "englishName": "Spiritomb",
       "number": {
         "printed": "009/012",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -912,7 +545,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -923,17 +556,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 442,
+          "id": 442,
           "name": "Spiritomb"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 442,
-          "form": "442",
-          "name": "Spiritomb",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -943,7 +567,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "009",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -957,59 +581,21 @@
             "front": {
               "image": "d4473fd520cd393c640c0b454f5f9f5e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/lost-origin",
-              "card": "tg09",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/dark-phantasma",
-              "card": "076",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-phantasma",
-          "painting": "076"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "spiritomb-p9l5" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "010",
       "name": "Galarian Obstagoon",
+      "englishName": "Galarian Obstagoon",
       "number": {
         "printed": "010/012",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1017,7 +603,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "gossan",
+          "id": "gossan",
           "name": "GOSSAN"
         }
       ],
@@ -1028,17 +614,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 862,
+          "id": 862,
           "name": "Obstagoon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 862,
-          "form": "862",
-          "name": "Obstagoon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1048,7 +625,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "010",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1062,59 +639,21 @@
             "front": {
               "image": "e1299878de81b3ed74fff026890fb5a5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/astral-radiance",
-              "card": "tg10",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "207",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "207"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "galarian-obstagoon-cd17" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "011",
       "name": "Druddigon",
+      "englishName": "Druddigon",
       "number": {
         "printed": "011/012",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1122,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "teeziro",
+          "id": "teeziro",
           "name": "Teeziro"
         }
       ],
@@ -1133,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 621,
+          "id": 621,
           "name": "Druddigon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 621,
-          "form": "621",
-          "name": "Druddigon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1153,7 +683,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "011",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1167,59 +697,21 @@
             "front": {
               "image": "6b23ec681d0373976fe8acad23f8435b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/silver-tempest",
-              "card": "tg09",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "209",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "209"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "druddigon-jgzf" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "012",
       "name": "Hoothoot",
+      "englishName": "Hoothoot",
       "number": {
         "printed": "012/012",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1227,7 +719,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hyogonosuke",
+          "id": "hyogonosuke",
           "name": "HYOGONOSUKE"
         }
       ],
@@ -1238,17 +730,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 163,
+          "id": 163,
           "name": "Hoothoot"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 163,
-          "form": "163",
-          "name": "Hoothoot",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1258,7 +741,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1272,59 +755,21 @@
             "front": {
               "image": "d845eadc2b701f7402fd5918c60e3419"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/astral-radiance",
-              "card": "tg12",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/battle-region",
-              "card": "073",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/battle-region",
-          "painting": "073"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "hoothoot-z20t" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
       "id": "013",
       "name": "Pikachu",
+      "englishName": "Pikachu",
       "number": {
         "printed": "013/012",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1332,7 +777,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsushi-furusawa",
+          "id": "atsushi-furusawa",
           "name": "Atsushi Furusawa"
         }
       ],
@@ -1343,17 +788,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1363,7 +799,7 @@
             "$kind": "variant",
             "set": "zh-hans/pokemon-card-display-set-gift-box-vol-2",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1377,52 +813,11 @@
             "front": {
               "image": "4cfcf1ef539fa571065dadd3765a9b4d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/lost-origin",
-              "card": "tg05",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/dark-phantasma",
-              "card": "073",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-phantasma",
-          "painting": "073"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "pikachu-hc9x" }
     }
   ]
 }

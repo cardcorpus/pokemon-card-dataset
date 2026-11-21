@@ -1,66 +1,71 @@
 {
   "id": "japanese/blastoise-kyurem-ex-combo-deck",
   "catalog": "japanese",
-  "name": "Blastoise + Kyurem-EX Combo Deck",
+  "name": "最強爆流コンボデッキ60 カメックス＋キュレムEX",
+  "englishName": "Blastoise + Kyurem-EX Combo Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "printedTotal": 18,
   "actualTotal": 19,
   "cardCount": 19,
-  "productCount": 0,
   "released": {
     "date": "2013-03-15"
   },
   "code": "K+K",
+  "printedCode": "K+K",
   "logo": "fe58c5bbabc6c2277db296f99f98f023",
   "symbol": "d86ba06788151043c3f2e6064f5ec703",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Blastoise + Kyurem-EX Combo Deck",
-      "code": "K+K",
-      "released": {
-        "date": "2013-03-15"
-      },
-      "logo": "fe58c5bbabc6c2277db296f99f98f023",
-      "symbol": "d86ba06788151043c3f2e6064f5ec703"
-    }
-  ],
   "description": {
-    "text": "Blastoise + Kyurem-EX Combo Deck 60, a ready-built 60-card deck released on 15 March 2013 with the Megalo Cannon expansion. It is named for its combo: Blastoise, reprinted from Cold Flare, uses its Ability Deluge to attach Water Energy from the hand as often as you like, powering a new Kyurem-EX. It was the first ready-built deck with an ACE SPEC card, and came with a playmat, a coin, damage counters and markers and an expert guide.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック「メガロキャノン」、「最強爆流コンボデッキ60 カメックス＋キュレムEX」",
-        "url": "https://web.archive.org/web/20130218010741/http://www.pokemon-card.com/products/bw/bw9.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      },
-      {
-        "title": "Limitless: Blastoise, the English print's card text",
-        "url": "https://limitlesstcg.com/cards/BCR/31"
-      }
-    ]
+    "text": "Blastoise + Kyurem-EX Combo Deck 60, a ready-built 60-card deck released on 15 March 2013 with the Megalo Cannon expansion. It is named for its combo: Blastoise, reprinted from Cold Flare, uses its Ability Deluge to attach Water Energy from the hand as often as you like, powering a new Kyurem-EX. It was the first ready-built deck with an ACE SPEC card, and came with a playmat, a coin, damage counters and markers and an expert guide."
   },
   "tell": {
-    "text": "A \"K+K\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"K+K\" mark at the bottom right"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/plasma-blast",
+      "id": "korean/blastoise-kyurem-ex-ultimate-torrent-deck",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 18
+    },
+    {
+      "$kind": "set",
+      "id": "french/plasma-blast",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 13
+    },
+    {
+      "$kind": "set",
+      "id": "german/plasma-blast",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 13
+    },
+    {
+      "$kind": "set",
+      "id": "english/plasma-blast",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 13
+    },
+    {
+      "$kind": "set",
+      "id": "italian/plasma-blast",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 13
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/plasma-blast",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 13
@@ -68,11 +73,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "001",
-      "name": "Squirtle",
+      "name": "ゼニガメ",
+      "englishName": "Squirtle",
       "number": {
         "printed": "001/018",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -80,7 +88,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -91,17 +99,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 7,
+          "id": 7,
           "name": "Squirtle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 7,
-          "form": "7",
-          "name": "Squirtle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -111,7 +110,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -125,49 +124,21 @@
             "front": {
               "image": "26f6577bebef6ad01df5e9f316755b02"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "squirtle-nfbd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "002",
-      "name": "Wartortle",
+      "name": "カメール",
+      "englishName": "Wartortle",
       "number": {
         "printed": "002/018",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -175,7 +146,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -186,17 +157,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 8,
+          "id": 8,
           "name": "Wartortle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 8,
-          "form": "8",
-          "name": "Wartortle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -206,7 +168,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -220,49 +182,21 @@
             "front": {
               "image": "fc95850b22b7a7a157ccb738e88dec0e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "wartortle-zd6q" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "003",
-      "name": "Blastoise",
+      "name": "カメックス",
+      "englishName": "Blastoise",
       "number": {
         "printed": "003/018",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -270,7 +204,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "satoshi-shirai",
+          "id": "satoshi-shirai",
           "name": "Satoshi Shirai"
         }
       ],
@@ -281,17 +215,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 9,
+          "id": 9,
           "name": "Blastoise"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 9,
-          "form": "9",
-          "name": "Blastoise",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -301,7 +226,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -318,8 +243,7 @@
             "front": {
               "image": "0668a97f76db4d4fc5284de8d1154326"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "holo",
@@ -339,61 +263,24 @@
                 "$kind": "variant",
                 "set": "japanese/blastoise-kyurem-ex-combo-deck",
                 "card": "003",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "16",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "blastoise-gkpg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "004",
-      "name": "Suicune",
+      "name": "スイクン",
+      "englishName": "Suicune",
       "number": {
         "printed": "004/018",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -401,7 +288,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kawayoo",
+          "id": "kawayoo",
           "name": "kawayoo"
         }
       ],
@@ -412,17 +299,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 245,
+          "id": 245,
           "name": "Suicune"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 245,
-          "form": "245",
-          "name": "Suicune",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -432,7 +310,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -446,49 +324,21 @@
             "front": {
               "image": "d8d6762956f61565bdca2b74f31e007e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "20",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "suicune-mj2e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "005",
-      "name": "Ducklett",
+      "name": "コアルヒー",
+      "englishName": "Ducklett",
       "number": {
         "printed": "005/018",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -496,7 +346,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -507,17 +357,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 580,
+          "id": 580,
           "name": "Ducklett"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 580,
-          "form": "580",
-          "name": "Ducklett",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -527,7 +368,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -541,49 +382,21 @@
             "front": {
               "image": "c5c737e210d0061bb5fb37f5c898bb33"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ducklett-65sb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "006",
-      "name": "Kyurem-EX",
+      "name": "キュレムEX",
+      "englishName": "Kyurem-EX",
       "number": {
         "printed": "006/018",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -591,7 +404,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -602,17 +415,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 646,
+          "id": 646,
           "name": "Kyurem"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 646,
-          "form": "646",
-          "name": "Kyurem",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -622,7 +426,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -639,8 +443,7 @@
             "front": {
               "image": "07133168a870ebf1967b2c41960e0f81"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "holo",
@@ -660,61 +463,24 @@
                 "$kind": "variant",
                 "set": "japanese/blastoise-kyurem-ex-combo-deck",
                 "card": "006",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "kyurem-ex-1ma1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "007",
-      "name": "Kangaskhan",
+      "name": "ガルーラ",
+      "englishName": "Kangaskhan",
       "number": {
         "printed": "007/018",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -722,7 +488,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -733,17 +499,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 115,
+          "id": 115,
           "name": "Kangaskhan"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 115,
-          "form": "115",
-          "name": "Kangaskhan",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -753,7 +510,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -767,61 +524,21 @@
             "front": {
               "image": "f8b8f24beccff926f33bacfa00519efd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "71",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "007"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/pokemon-tcg-classic-blastoise",
-            "card": "017",
-            "differs": [
-              "finish",
-              "number",
-              "text"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "kangaskhan-9hke" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "008",
-      "name": "Energy Retrieval",
+      "name": "エネルギー回収",
+      "englishName": "Energy Retrieval",
       "number": {
         "printed": "008/018",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -829,7 +546,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -844,7 +561,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -858,57 +575,21 @@
             "front": {
               "image": "ad3cf991a1083b5ce50e93d8661742fd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "80",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "31"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "31",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-retrieval-zjdb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "009",
-      "name": "Ultra Ball",
+      "name": "ハイパーボール",
+      "englishName": "Ultra Ball",
       "number": {
         "printed": "009/018",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -916,7 +597,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -931,7 +612,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -945,57 +626,21 @@
             "front": {
               "image": "58f41ffd605fde42f21838f902119bca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "90",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/reshiram-ex-battle-strength-deck",
-          "painting": "011"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/reshiram-ex-battle-strength-deck",
-          "card": "011",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ultra-ball-uqae" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "010",
-      "name": "Rare Candy",
+      "name": "ふしぎなアメ",
+      "englishName": "Rare Candy",
       "number": {
         "printed": "010/018",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1003,7 +648,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1018,7 +663,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1032,58 +677,21 @@
             "front": {
               "image": "a22e95734d1db053118d9cbfbb9f21e3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "85",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-rush",
-          "painting": "065"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dark-rush",
-          "card": "065",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "rare-candy-0nm6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "011",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "011/018",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1091,7 +699,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -1106,7 +714,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1120,63 +728,21 @@
             "front": {
               "image": "affcf03ce979b0ca31f77908581de388"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "104",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "35"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "35"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "35",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-9h3j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "012",
-      "name": "Pokémon Catcher",
+      "name": "ポケモンキャッチャー",
+      "englishName": "Pokémon Catcher",
       "number": {
         "printed": "012/018",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1184,7 +750,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1199,7 +765,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1213,58 +779,21 @@
             "front": {
               "image": "b466f22682a755c772af990a4c946f2f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "83",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-rd8f" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "013",
-      "name": "Random Receiver",
+      "name": "ランダムレシーバー",
+      "englishName": "Random Receiver",
       "number": {
         "printed": "013/018",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1272,7 +801,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1287,7 +816,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1301,63 +830,21 @@
             "front": {
               "image": "5becc8ff719c8e044d91241535d82bba"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dark-explorers",
-              "card": "99",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/reshiram-ex-battle-strength-deck",
-                "card": "014"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/reshiram-ex-battle-strength-deck",
-          "painting": "014"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/reshiram-ex-battle-strength-deck",
-          "card": "014",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "random-receiver-sl9v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "014",
-      "name": "Professor Juniper",
+      "name": "アララギ博士",
+      "englishName": "Professor Juniper",
       "number": {
         "printed": "014/018",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1365,7 +852,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1373,10 +860,10 @@
         "date": "2013-03-15",
         "sort": "2013-03-15.00 japanese/blastoise-kyurem-ex-combo-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-juniper",
+          "id": "professor-juniper",
           "name": "Professor Juniper",
           "role": "subject"
         }
@@ -1388,7 +875,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1402,58 +889,21 @@
             "front": {
               "image": "803f37a471e8e9ede7735a2a67af7047"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "84",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/black-collection",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/black-collection",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "professor-juniper-8qx0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "015",
-      "name": "Cheren",
+      "name": "チェレン",
+      "englishName": "Cheren",
       "number": {
         "printed": "015/018",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1461,7 +911,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1469,10 +919,10 @@
         "date": "2013-03-15",
         "sort": "2013-03-15.00 japanese/blastoise-kyurem-ex-combo-deck 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cheren",
+          "id": "cheren",
           "name": "Cheren",
           "role": "subject"
         }
@@ -1484,7 +934,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1498,64 +948,21 @@
             "front": {
               "image": "7381b08236064fc6c33d3d1c91214e05"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "053"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cheren-2as2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "016",
-      "name": "Skyla",
+      "name": "フウロ",
+      "englishName": "Skyla",
       "number": {
         "printed": "016/018",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1563,7 +970,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1571,10 +978,10 @@
         "date": "2013-03-15",
         "sort": "2013-03-15.00 japanese/blastoise-kyurem-ex-combo-deck 00015"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "skyla",
+          "id": "skyla",
           "name": "Skyla",
           "role": "subject"
         }
@@ -1586,7 +993,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1600,64 +1007,21 @@
             "front": {
               "image": "2f6c7f4648c08dba0b046d20615128f8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/boundaries-crossed",
-              "card": "134",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cold-flare",
-                "card": "056"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cold-flare",
-          "painting": "056"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cold-flare",
-          "card": "056",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "skyla-l9vb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "017",
-      "name": "Master Ball",
+      "name": "マスターボール",
+      "englishName": "Master Ball",
       "number": {
         "printed": "017/018",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1665,7 +1029,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1680,7 +1044,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "017",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1694,49 +1058,21 @@
             "front": {
               "image": "412801690d59da2766888497bbd819e9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-blast",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/blastoise-kyurem-ex-combo-deck",
-          "painting": "017"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "master-ball-vzgh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "018",
-      "name": "Double Colorless Energy",
+      "name": "ダブル無色エネルギー",
+      "englishName": "Double Colorless Energy",
       "number": {
         "printed": "018/018",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1744,7 +1080,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1759,7 +1095,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1773,64 +1109,21 @@
             "front": {
               "image": "5bbac2759b671d604242073d8a036356"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/next-destinies",
-              "card": "92",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/hail-blizzard",
-                "card": "052"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/hail-blizzard",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/hail-blizzard",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "double-colorless-energy-9xrx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/blastoise-kyurem-ex-combo-deck",
       "id": "wat",
-      "name": "Water Energy",
+      "name": "基本【水】エネルギー",
+      "englishName": "Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1845,7 +1138,7 @@
             "$kind": "variant",
             "set": "japanese/blastoise-kyurem-ex-combo-deck",
             "card": "wat",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1859,23 +1152,10 @@
             "front": {
               "image": "2b67b21d034cde5d11205f2f79696813"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
   ]
 }

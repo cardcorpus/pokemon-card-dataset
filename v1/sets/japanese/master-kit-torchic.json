@@ -2,69 +2,59 @@
   "id": "japanese/master-kit-torchic",
   "catalog": "japanese",
   "name": "Master Kit (Torchic)",
+  "englishName": "Master Kit (Torchic)",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/master-kit",
+    "id": "japanese/master-kit",
     "name": "Master Kit",
     "part": "Torchic"
   },
   "printedTotal": 15,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2005-07-15"
   },
   "logo": "5fa25ee70727ea89c61f87fc3e3b38f2",
   "symbol": "b91dfd19a1f6df6933cbded16551dd7f",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Master Kit (Torchic)",
-      "released": {
-        "date": "2005-07-15"
-      },
-      "logo": "5fa25ee70727ea89c61f87fc3e3b38f2",
-      "symbol": "b91dfd19a1f6df6933cbded16551dd7f"
-    }
-  ],
   "description": {
-    "text": "The deck with Torchic from the Master Kit, released on 15 July 2005: two ready-built 15-card decks, 12 sideboard cards for changing them, a coin, damage counters and markers, a playmat, a how-to-play book and a CD-ROM. The CD-ROM taught the flow of a game, held a card encyclopedia of about 3,600 cards from the very first set to the Golden Sky, Silvery Ocean expansion, and had a deck builder for every card from the ADV series on.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 「マスターキット」",
-        "url": "https://web.archive.org/web/20090226205056/http://www.pokemon-card.com/products/pcg/pcg_25.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The deck with Torchic from the Master Kit, released on 15 July 2005: two ready-built 15-card decks, 12 sideboard cards for changing them, a coin, damage counters and markers, a playmat, a how-to-play book and a CD-ROM. The CD-ROM taught the flow of a game, held a card encyclopedia of about 3,600 cards from the very first set to the Golden Sky, Silvery Ocean expansion, and had a deck builder for every card from the ADV series on."
   },
   "tell": {
-    "text": "A red/purple/brown four-square symbol at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 「マスターキット」",
-        "url": "https://web.archive.org/web/20090226205056/http://www.pokemon-card.com/products/pcg/pcg_25.html"
-      }
-    ]
+    "text": "A red/purple/brown four-square symbol at the bottom right, and a number out of 015"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-holon-phantoms",
+      "id": "french/ex-holon-phantoms",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 5
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-holon-phantoms",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 5
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-holon-phantoms",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 5
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-holon-phantoms",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 5
@@ -72,11 +62,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "001",
-      "name": "Torchic",
+      "name": "アチャモ",
+      "englishName": "Torchic",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -84,7 +77,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -95,17 +88,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 255,
+          "id": 255,
           "name": "Torchic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 255,
-          "form": "255",
-          "name": "Torchic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -115,7 +99,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "001",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -134,49 +118,21 @@
             "front": {
               "image": "786cf1ea1212469a8c22a613c3d7ad3c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "83",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/master-kit-torchic",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "torchic-c8vc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "002",
-      "name": "Combusken",
+      "name": "ワカシャモ",
+      "englishName": "Combusken",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -184,7 +140,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -195,17 +151,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 256,
+          "id": 256,
           "name": "Combusken"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 256,
-          "form": "256",
-          "name": "Combusken",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -215,7 +162,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "002",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -234,49 +181,21 @@
             "front": {
               "image": "e59bf89a7e92b788cb3c1aac3b0e60ae"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/master-kit-torchic",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "combusken-3n5h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "003",
-      "name": "Wobbuffet",
+      "name": "ソーナンス",
+      "englishName": "Wobbuffet",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -284,7 +203,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "katsura-tabata",
+          "id": "katsura-tabata",
           "name": "Katsura Tabata"
         }
       ],
@@ -295,17 +214,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 202,
+          "id": 202,
           "name": "Wobbuffet"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 202,
-          "form": "202",
-          "name": "Wobbuffet",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -315,7 +225,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "003",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -334,49 +244,21 @@
             "front": {
               "image": "eebbcc052ba3b1465ddc13f45e0f6142"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "56",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/master-kit-torchic",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "wobbuffet-cscu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "004",
-      "name": "Phanpy",
+      "name": "ゴマゾウ",
+      "englishName": "Phanpy",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -384,7 +266,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hisao-nakamura",
+          "id": "hisao-nakamura",
           "name": "Hisao Nakamura"
         }
       ],
@@ -395,17 +277,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 231,
+          "id": 231,
           "name": "Phanpy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 231,
-          "form": "231",
-          "name": "Phanpy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -415,7 +288,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "004",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -434,49 +307,21 @@
             "front": {
               "image": "489d6daafbd00a1672823ec4ee794587"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "75",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/master-kit-torchic",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "phanpy-1xol" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "005",
-      "name": "Donphan",
+      "name": "ドンファン",
+      "englishName": "Donphan",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -484,7 +329,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hisao-nakamura",
+          "id": "hisao-nakamura",
           "name": "Hisao Nakamura"
         }
       ],
@@ -495,17 +340,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 232,
+          "id": 232,
           "name": "Donphan"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 232,
-          "form": "232",
-          "name": "Donphan",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -515,7 +351,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "005",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -534,49 +370,21 @@
             "front": {
               "image": "877417beecfb32fd989a9a08454bdf3f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/master-kit-torchic",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "donphan-d24i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "006",
-      "name": "Whismur",
+      "name": "ゴニョニョ",
+      "englishName": "Whismur",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -584,7 +392,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -595,17 +403,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 293,
+          "id": 293,
           "name": "Whismur"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 293,
-          "form": "293",
-          "name": "Whismur",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -615,7 +414,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "006",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -634,30 +433,20 @@
             "front": {
               "image": "6995b877b67be914d5b256df231e84e2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "007",
-      "name": "Loudred",
+      "name": "ドゴーム",
+      "englishName": "Loudred",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -665,7 +454,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -676,17 +465,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 294,
+          "id": 294,
           "name": "Loudred"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 294,
-          "form": "294",
-          "name": "Loudred",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -696,7 +476,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "007",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -715,30 +495,20 @@
             "front": {
               "image": "70d3b7c174d5155f9a2eb542b361a552"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "008",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -746,7 +516,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -761,7 +531,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "008",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -780,63 +550,21 @@
             "front": {
               "image": "e0bf75aaeec62fd6a35b4884eb88768a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "95",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/feraligatr-constructed-starter-deck",
-                "card": "010"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "010",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "potion-d5e3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "009",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -844,7 +572,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -859,7 +587,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "009",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -878,63 +606,21 @@
             "front": {
               "image": "3344901ab275b944a1f91ba7d5d3da3d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "92",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mudkip-constructed-starter-deck",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "switch-gzim" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "010",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "energy",
       "language": "ja",
@@ -949,7 +635,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "010",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -968,30 +654,20 @@
             "front": {
               "image": "c54301e3fce0dba6b6090a4882968c2f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "011",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1006,7 +682,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "011",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1025,30 +701,20 @@
             "front": {
               "image": "4be603011367f8c88928fb8b903f1b58"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "012",
-      "name": "Psychic Energy",
+      "name": "基本【超】エネルギー",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1063,7 +729,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "012",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1082,30 +748,20 @@
             "front": {
               "image": "e682f5c8df9ff5d6a8b96c586c5957ba"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "013",
-      "name": "Psychic Energy",
+      "name": "基本【超】エネルギー",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1120,7 +776,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "013",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1139,30 +795,20 @@
             "front": {
               "image": "1aaabc9aab31a8cadd417680b126e8eb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "014",
-      "name": "Fighting Energy",
+      "name": "基本【闘】エネルギー",
+      "englishName": "Fighting Energy",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1177,7 +823,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "014",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1196,30 +842,20 @@
             "front": {
               "image": "c3ce83eaea4d5d0483425329b48cca68"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/master-kit-torchic",
       "id": "015",
-      "name": "Fighting Energy",
+      "name": "基本【闘】エネルギー",
+      "englishName": "Fighting Energy",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1234,7 +870,7 @@
             "$kind": "variant",
             "set": "japanese/master-kit-torchic",
             "card": "015",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1253,23 +889,11 @@
             "front": {
               "image": "946a4e1275a07ec32f6355c4dafaf5a3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "first-edition-non-holo"
     }
-  ]
+  ],
+  "printedCode": null
 }

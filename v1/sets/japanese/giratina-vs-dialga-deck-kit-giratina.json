@@ -1,69 +1,35 @@
 {
   "id": "japanese/giratina-vs-dialga-deck-kit-giratina",
   "catalog": "japanese",
-  "name": "Giratina vs Dialga Deck Kit (Giratina)",
+  "name": "対戦スターターパック「ギラティナVSディアルガ」(ギラティナデッキ)",
+  "englishName": "Giratina vs Dialga Deck Kit (Giratina)",
   "era": {
     "$kind": "era",
-    "era": "japanese/diamond-pearl",
-    "name": "Diamond & Pearl"
+    "id": "japanese/diamond-pearl",
+    "name": "DP",
+    "englishName": "Diamond & Pearl"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/giratina-vs-dialga-deck-kit",
+    "id": "japanese/giratina-vs-dialga-deck-kit",
     "name": "Giratina vs Dialga Deck Kit",
     "part": "Giratina"
   },
   "printedTotal": 14,
   "actualTotal": 14,
   "cardCount": 14,
-  "productCount": 0,
   "released": {
     "date": "2008-07-10"
   },
   "logo": "282eb123ec8258b0e67c23f59c6f6614",
   "symbol": "f7ff59622b2ec965eb25fc70fec84c9c",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Giratina vs Dialga Deck Kit (Giratina)",
-      "released": {
-        "date": "2008-07-10"
-      },
-      "logo": "282eb123ec8258b0e67c23f59c6f6614",
-      "symbol": "f7ff59622b2ec965eb25fc70fec84c9c"
-    }
-  ],
   "description": {
-    "text": "The Giratina deck of Giratina VS Dialga, a Japanese Versus Starter Pack released on 10 July 2008, the same day as the Intense Fight in the Destroyed Sky expansion. Its two ready-built 30-card half decks hold four holo cards between them, and many of their cards differ in artwork and attacks from the expansion versions. Damage counters and markers, a coin and a how-to-play book came with it. This deck runs Giratina with Dusknoir and Shaymin, who got its first card in the expansion released that day.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 対戦スターターパック「ギラティナVSディアルガ」",
-        "url": "https://web.archive.org/web/20081120210952/http://www.pokemon-card.com/products/dp/dps_s.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック「破空の激闘」",
-        "url": "https://web.archive.org/web/20081120220607/http://www.pokemon-card.com/products/dp/dps_b.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Giratina deck of Giratina VS Dialga, a Japanese Versus Starter Pack released on 10 July 2008, the same day as the Intense Fight in the Destroyed Sky expansion. Its two ready-built 30-card half decks hold four holo cards between them, and many of their cards differ in artwork and attacks from the expansion versions. Damage counters and markers, a coin and a how-to-play book came with it. This deck runs Giratina with Dusknoir and Shaymin, who got its first card in the expansion released that day."
   },
   "tell": {
-    "text": "A purple tulip-shaped mark at the bottom right, and a number out of 014",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 対戦スターターパック「ギラティナVSディアルガ」",
-        "url": "https://web.archive.org/web/20081120210952/http://www.pokemon-card.com/products/dp/dps_s.html"
-      }
-    ]
+    "text": "A purple tulip-shaped mark at the bottom right, and a number out of 014"
   },
   "printRuns": [
     {
@@ -76,7 +42,35 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/stormfront",
+      "id": "french/stormfront",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "german/stormfront",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "english/stormfront",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "italian/stormfront",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/stormfront",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 7
@@ -84,11 +78,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "001",
-      "name": "Treecko",
+      "name": "キモリ",
+      "englishName": "Treecko",
       "number": {
         "printed": "001/014",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -96,7 +93,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -107,17 +104,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 252,
+          "id": 252,
           "name": "Treecko"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 252,
-          "form": "252",
-          "name": "Treecko",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -127,7 +115,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -145,8 +133,7 @@
             "front": {
               "image": "878dd075cdf181c08b0dc55e5d2b74c0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -166,65 +153,35 @@
             "front": {
               "image": "1b2d7ed95e8533c0d2340eec98228450"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "79",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "treecko-gl0o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "002",
-      "name": "Grovyle",
+      "name": "ジュプトル",
+      "englishName": "Grovyle",
       "number": {
         "printed": "002/014",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -232,7 +189,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -243,17 +200,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 253,
+          "id": 253,
           "name": "Grovyle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 253,
-          "form": "253",
-          "name": "Grovyle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -263,7 +211,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -281,8 +229,7 @@
             "front": {
               "image": "36d1aa6d7e873badbfe24ceb8f433c8f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -302,65 +249,35 @@
             "front": {
               "image": "18c235bb2005c3aead9913768d550ebb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "grovyle-yle6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "003",
-      "name": "Shaymin",
+      "name": "シェイミ",
+      "englishName": "Shaymin",
       "number": {
         "printed": "003/014",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -368,7 +285,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -379,17 +296,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 492,
+          "id": 492,
           "name": "Shaymin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 492,
-          "form": "492",
-          "name": "Shaymin",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -399,7 +307,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -417,8 +325,7 @@
             "front": {
               "image": "d9b8bb3090d165737b6ce5a34e512e0b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -438,65 +345,35 @@
             "front": {
               "image": "752977ea3c717239fc786d735cc563e5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "38",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "shaymin-23fx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "004",
-      "name": "Duskull",
+      "name": "ヨマワル",
+      "englishName": "Duskull",
       "number": {
         "printed": "004/014",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -504,7 +381,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sachiko-adachi",
+          "id": "sachiko-adachi",
           "name": "Sachiko Adachi"
         }
       ],
@@ -515,17 +392,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 355,
+          "id": 355,
           "name": "Duskull"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 355,
-          "form": "355",
-          "name": "Duskull",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -535,7 +403,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -553,8 +421,7 @@
             "front": {
               "image": "05dd2e684873c8095eb58c0dca09b981"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -574,65 +441,35 @@
             "front": {
               "image": "72c7fda52f6fdfd19d0e3b0c4d750656"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "60",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "duskull-3eoz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "005",
-      "name": "Dusclops",
+      "name": "サマヨール",
+      "englishName": "Dusclops",
       "number": {
         "printed": "005/014",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -640,7 +477,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -651,17 +488,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 356,
+          "id": 356,
           "name": "Dusclops"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 356,
-          "form": "356",
-          "name": "Dusclops",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -671,7 +499,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -689,8 +517,7 @@
             "front": {
               "image": "ed750de4a00159c67c885a3051bf496b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -710,65 +537,35 @@
             "front": {
               "image": "633e482916e608fb6611e6df5d1cb17d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "35",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dusclops-9uqs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "006",
-      "name": "Dusknoir",
+      "name": "ヨノワール",
+      "englishName": "Dusknoir",
       "number": {
         "printed": "006/014",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -776,7 +573,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomoaki-imakuni",
+          "id": "tomoaki-imakuni",
           "name": "Tomoaki Imakuni"
         }
       ],
@@ -787,17 +584,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 477,
+          "id": 477,
           "name": "Dusknoir"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 477,
-          "form": "477",
-          "name": "Dusknoir",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -807,7 +595,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -825,8 +613,7 @@
             "front": {
               "image": "2550968f659905a44a12c53fb57dfc0b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -846,65 +633,35 @@
             "front": {
               "image": "384b5e430e9907854bf39201dba4c581"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "006",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "006",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dusknoir-tflm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "007",
-      "name": "Giratina",
+      "name": "ギラティナ",
+      "englishName": "Giratina",
       "number": {
         "printed": "007/014",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -912,7 +669,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -923,17 +680,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 487,
+          "id": 487,
           "name": "Giratina"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 487,
-          "form": "487",
-          "name": "Giratina",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -943,7 +691,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "007",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -961,8 +709,7 @@
             "front": {
               "image": "1c5d773593783f7a4c3c4678c36ac176"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -982,65 +729,35 @@
             "front": {
               "image": "6273a05b297f805261a7ec642de08fce"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "007",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "007",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "9",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "giratina-enwh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "008",
-      "name": "Miltank",
+      "name": "ミルタンク",
+      "englishName": "Miltank",
       "number": {
         "printed": "008/014",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1048,7 +765,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1059,17 +776,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 241,
+          "id": 241,
           "name": "Miltank"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 241,
-          "form": "241",
-          "name": "Miltank",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1079,7 +787,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1097,8 +805,7 @@
             "front": {
               "image": "25eb35daee486890e96f7f8b4509baf4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1118,65 +825,35 @@
             "front": {
               "image": "88fa12c27804bbd3f2b569f40b353e30"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "44",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "miltank-hbjw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "009",
-      "name": "Energy Switch",
+      "name": "エネルギーつけかえ",
+      "englishName": "Energy Switch",
       "number": {
         "printed": "009/014",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1184,7 +861,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1199,7 +876,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1217,8 +894,7 @@
             "front": {
               "image": "58a4b54c290a287a3efa202cc7b178bf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1238,73 +914,35 @@
             "front": {
               "image": "4edede00ba4998d95e0604838b0056ec"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/stormfront",
-              "card": "84",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "energy-switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "energy-switch",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-switch-ysdy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "010",
-      "name": "Double Full Heal",
+      "name": "なんでもなおしW",
+      "englishName": "Double Full Heal",
       "number": {
         "printed": "010/014",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1312,7 +950,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1327,7 +965,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1345,8 +983,7 @@
             "front": {
               "image": "c22d984833e67518de9e067095d25631"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1366,80 +1003,35 @@
             "front": {
               "image": "5716373b9ee9b8a9cfb642b6b193d9db"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "86",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miracle-of-the-desert",
-                "card": "049"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miracle-of-the-desert",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "double-full-heal-14y2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "011",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "011/014",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1447,7 +1039,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1462,7 +1054,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1480,8 +1072,7 @@
             "front": {
               "image": "3cf3bbde4256cecaae896b23ee729316"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1501,79 +1092,35 @@
             "front": {
               "image": "5e68511e42795116fec330da7d3dea32"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "85",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/magmortar-vs-electivire-deck-kit",
-                "card": "021"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "021"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "021",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-jdps" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "012",
-      "name": "Warp Point",
+      "name": "ワープポイント",
+      "englishName": "Warp Point",
       "number": {
         "printed": "012/014",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1581,7 +1128,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1596,7 +1143,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1614,8 +1161,7 @@
             "front": {
               "image": "a1f7b5083623ed47593c6edc8cd0a69f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1635,79 +1181,35 @@
             "front": {
               "image": "b384fd39db628087a7ce3ee1b2ed0e30"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "88",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/magmortar-vs-electivire-deck-kit",
-                "card": "024"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "024"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "024",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "warp-point-xwek" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "013",
-      "name": "Mom's Kindness",
+      "name": "ママのきづかい",
+      "englishName": "Mom's Kindness",
       "number": {
         "printed": "013/014",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1715,7 +1217,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1723,10 +1225,10 @@
         "date": "2008-07-10",
         "sort": "2008-07-10.00 japanese/giratina-vs-dialga-deck-kit-giratina 00012"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mom",
+          "id": "mom",
           "name": "Mom",
           "role": "subject"
         }
@@ -1738,7 +1240,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1756,8 +1258,7 @@
             "front": {
               "image": "d3a35740a327b3adcdae8b2d311e58b3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1777,79 +1278,35 @@
             "front": {
               "image": "c22da91fa53583e76a841558036da05f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "83",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack-08",
-                "card": "041"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "041"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack-08",
-          "card": "041",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mom-s-kindness-nzji" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
       "id": "014",
-      "name": "Miasma Valley",
+      "name": "瘴気の谷",
+      "englishName": "Miasma Valley",
       "number": {
         "printed": "014/014",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1857,7 +1314,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1872,7 +1329,7 @@
             "$kind": "variant",
             "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1890,8 +1347,7 @@
             "front": {
               "image": "6d7a3a1b00dda3df8c5a3833f911b48e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1911,58 +1367,26 @@
             "front": {
               "image": "3d7e6ca79811d9bed9de96b830adde9a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "111",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-          "painting": "014"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "miasma-valley-ibqu" }
     }
-  ]
+  ],
+  "printedCode": null
 }

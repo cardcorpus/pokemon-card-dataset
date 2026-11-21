@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus sets with marketplace ids",
-  "description": "The ids of the sets that have a file in marketplaces/, in order (docs/static-api.md, \"Marketplace ids\").",
+  "description": "The ids of the sets that have a file in marketplaces/, in order (https://pokemon.cardcorpus.com/v1/docs/guide.md#marketplace-ids).",
   "type": "object",
   "required": [
     "sets",
@@ -9,10 +9,10 @@
   ],
   "properties": {
     "sets": {
-      "description": "The set ids, in sets.json's order.",
+      "description": "The set ids, in the sets' order (sets/{catalog}.json, catalog by catalog).",
       "type": "array",
       "items": {
-        "description": "The set's id (sets.json).",
+        "description": "The set's id (sets/{catalog}.json).",
         "type": "string"
       },
       "uniqueItems": true

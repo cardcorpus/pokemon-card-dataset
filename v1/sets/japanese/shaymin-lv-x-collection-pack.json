@@ -1,87 +1,48 @@
 {
   "id": "japanese/shaymin-lv-x-collection-pack",
   "catalog": "japanese",
-  "name": "Shaymin LV.X Collection Pack",
+  "name": "コレクションパック シェイミLV.X",
+  "englishName": "Shaymin LV.X Collection Pack",
   "era": {
     "$kind": "era",
-    "era": "japanese/platinum",
-    "name": "Platinum"
+    "id": "japanese/platinum",
+    "name": "DPt",
+    "englishName": "Platinum"
   },
   "type": "box",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/lv-x-collection-pack",
+    "id": "japanese/lv-x-collection-pack",
     "name": "LV.X Collection Pack",
     "part": "Shaymin"
   },
   "printedTotal": 12,
   "actualTotal": 12,
   "cardCount": 12,
-  "productCount": 0,
   "released": {
     "date": "2009-04-18"
   },
   "code": "PtS",
+  "printedCode": "PtS",
   "logo": "ecb8249ab101849b08078b24ecd88705",
   "symbol": "4d5a0f81d05b758b210b6bdaea4faaaa",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Shaymin LV.X Collection Pack",
-      "code": "PtS",
-      "released": {
-        "date": "2009-04-18"
-      },
-      "logo": "ecb8249ab101849b08078b24ecd88705",
-      "symbol": "4d5a0f81d05b758b210b6bdaea4faaaa"
-    }
-  ],
   "description": {
-    "text": "The Shaymin LV.X Collection Pack, one of three fixed packs of 12 cards released together on 18 April 2009. They brought back promotional cards that had become hard to get, alongside Pokémon LV.X, and half of each pack's cards are holo. Shaymin LV.X itself has the artwork of an English tin promo, which no Japanese card had used before. All three packs share a holo Time-Space Distortion.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム コレクションパック シェイミLV．X",
-        "url": "https://web.archive.org/web/20090322225511/http://www.pokemon-card.com/products/dpt/dpt_04.html"
-      },
-      {
-        "title": "PokéBeach: LV.X Pokemon Card Collection Packs (27 February 2009)",
-        "url": "https://www.pokebeach.com/2009/02/lvx-pokemon-card-collection-packs"
-      },
-      {
-        "title": "PokéBeach: New “LV.X Pokemon Card Collection Packs” Info (18 March 2009)",
-        "url": "https://www.pokebeach.com/2009/03/new-lvx-pokemon-card-collection-packs-info"
-      },
-      {
-        "title": "Pokumon: Shaymin LV.X (DP39 English Promo)",
-        "url": "https://pokumon.com/card/shaymin-lv-x-dp39-english-promo/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Shaymin LV.X Collection Pack, one of three fixed packs of 12 cards released together on 18 April 2009. They brought back promotional cards that had become hard to get, alongside Pokémon LV.X, and half of each pack's cards are holo. Shaymin LV.X itself has the artwork of an English tin promo, which no Japanese card had used before. All three packs share a holo Time-Space Distortion."
   },
   "tell": {
-    "text": "A green \"PtS\" mark at the bottom right, and a number out of 012",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲーム コレクションパック シェイミLV．X",
-        "url": "https://web.archive.org/web/20090322225511/http://www.pokemon-card.com/products/dpt/dpt_04.html"
-      }
-    ]
+    "text": "A green \"PtS\" mark at the bottom right, and a number out of 012"
   },
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "001",
-      "name": "Combee",
+      "name": "ミツハニー",
+      "englishName": "Combee",
       "number": {
         "printed": "001/012",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -89,7 +50,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -100,17 +61,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 415,
+          "id": 415,
           "name": "Combee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 415,
-          "form": "415",
-          "name": "Combee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -120,7 +72,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -134,64 +86,21 @@
             "front": {
               "image": "3cf021bdf2ca5ff4471e41897decd754"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "59",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "081"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "081"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "081",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "combee-5k2p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "002",
-      "name": "Yanmega",
+      "name": "メガヤンマ",
+      "englishName": "Yanmega",
       "number": {
         "printed": "002/012",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -199,7 +108,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -210,17 +119,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 469,
+          "id": 469,
           "name": "Yanmega"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 469,
-          "form": "469",
-          "name": "Yanmega",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -230,7 +130,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -244,64 +144,21 @@
             "front": {
               "image": "2bc14aaa795038e15d3391f0ab1256b0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/pop-series-8",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "082"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "082"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "082",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "yanmega-3zt6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "003",
-      "name": "Shaymin LV.X",
+      "name": "シェイミ LV.X",
+      "englishName": "Shaymin LV.X",
       "number": {
         "printed": "003/012",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -309,7 +166,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shizurow",
+          "id": "shizurow",
           "name": "Shizurow"
         }
       ],
@@ -320,17 +177,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 492,
-          "name": "Shaymin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 492,
-          "form": "492:sky",
-          "name": "Sky Forme Shaymin",
-          "role": "subject"
+          "id": 492,
+          "name": "Shaymin",
+          "forms": [
+            {
+              "id": "492:sky",
+              "name": "Sky Forme Shaymin"
+            }
+          ]
         }
       ],
       "picture": {
@@ -340,7 +194,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -354,49 +208,21 @@
             "front": {
               "image": "411c600f033cf9a952652ba8522d3a32"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dp-black-star-promos",
-              "card": "dp39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/dp-black-star-promos",
-          "painting": "dp39"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shaymin-lv-x-1tkt" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "004",
-      "name": "Chimchar",
+      "name": "ヒコザル",
+      "englishName": "Chimchar",
       "number": {
         "printed": "004/012",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -404,7 +230,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -415,17 +241,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 390,
+          "id": 390,
           "name": "Chimchar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 390,
-          "form": "390",
-          "name": "Chimchar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -435,7 +252,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -449,65 +266,21 @@
             "front": {
               "image": "1f9c0a464a3ed6fe4751c35790c82bf3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "57",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/ppp-promos",
-                "card": "002"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ppp-promos",
-          "painting": "002"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/ppp-promos",
-          "card": "002",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "chimchar-p8wh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "005",
-      "name": "Glaceon",
+      "name": "グレイシア",
+      "englishName": "Glaceon",
       "number": {
         "printed": "005/012",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -515,7 +288,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -526,17 +299,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 471,
+          "id": 471,
           "name": "Glaceon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 471,
-          "form": "471",
-          "name": "Glaceon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -546,7 +310,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -560,64 +324,21 @@
             "front": {
               "image": "decb957289d43f5d866a3dddb996df3b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "20",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "070"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "070"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "070",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "glaceon-hyz0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "006",
-      "name": "Palkia",
+      "name": "パルキア",
+      "englishName": "Palkia",
       "number": {
         "printed": "006/012",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -625,7 +346,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -636,17 +357,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 484,
+          "id": 484,
           "name": "Palkia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 484,
-          "form": "484",
-          "name": "Palkia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -656,7 +368,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -670,65 +382,21 @@
             "front": {
               "image": "97727be60f8c2414fd9cd730bcdf7561"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "11",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/ppp-promos",
-                "card": "006"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ppp-promos",
-          "painting": "006"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/ppp-promos",
-          "card": "006",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "palkia-ewlg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "007",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "007/012",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -736,7 +404,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -747,17 +415,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -767,7 +426,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -781,64 +440,21 @@
             "front": {
               "image": "da064096f00208186bf3ec6b2d1d8894"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/pop-series-9",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "113"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "113"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "113",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pikachu-rm13" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "008",
-      "name": "Raichu",
+      "name": "ライチュウ",
+      "englishName": "Raichu",
       "number": {
         "printed": "008/012",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -846,7 +462,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -857,17 +473,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 26,
+          "id": 26,
           "name": "Raichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 26,
-          "form": "26",
-          "name": "Raichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -877,7 +484,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -891,64 +498,21 @@
             "front": {
               "image": "4770c6a3659b3c7e74e330db8ae94596"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/pop-series-9",
-              "card": "3",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "114"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "114"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "114",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "raichu-qjju" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "009",
-      "name": "Stunky",
+      "name": "スカンプー",
+      "englishName": "Stunky",
       "number": {
         "printed": "009/012",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -956,7 +520,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -967,17 +531,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 434,
+          "id": 434,
           "name": "Stunky"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 434,
-          "form": "434",
-          "name": "Stunky",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -987,7 +542,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1001,64 +556,21 @@
             "front": {
               "image": "d744e2af90acd16612ee6ae995778ae4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "76",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "089"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "089"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "089",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "stunky-ks1i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "010",
-      "name": "Probopass",
+      "name": "ダイノーズ",
+      "englishName": "Probopass",
       "number": {
         "printed": "010/012",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1066,7 +578,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1077,17 +589,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 476,
+          "id": 476,
           "name": "Probopass"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 476,
-          "form": "476",
-          "name": "Probopass",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1097,7 +600,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "010",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1111,64 +614,21 @@
             "front": {
               "image": "af6ba0550d1408f6d607c2b8eca8f837"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/pop-series-8",
-              "card": "4",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "090"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "090"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "090",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "probopass-occp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "011",
-      "name": "Eevee",
+      "name": "イーブイ",
+      "englishName": "Eevee",
       "number": {
         "printed": "011/012",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1176,7 +636,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -1187,17 +647,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 133,
+          "id": 133,
           "name": "Eevee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 133,
-          "form": "133",
-          "name": "Eevee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1207,7 +658,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "011",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1221,64 +672,21 @@
             "front": {
               "image": "39fca2ac5ffaa682afc7f9d007d1b5a1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "63",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "067"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "067"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "067",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "eevee-6gvd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shaymin-lv-x-collection-pack",
       "id": "012",
-      "name": "Time-Space Distortion",
+      "name": "時空のゆがみ",
+      "englishName": "Time-Space Distortion",
       "number": {
         "printed": "012/012",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1286,7 +694,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shizurow",
+          "id": "shizurow",
           "name": "Shizurow"
         }
       ],
@@ -1301,7 +709,7 @@
             "$kind": "variant",
             "set": "japanese/shaymin-lv-x-collection-pack",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1315,57 +723,11 @@
             "front": {
               "image": "e22343ccf6f7b4056a7829f6685e7d07"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mysterious-treasures",
-              "card": "124",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miscellaneous-promos",
-                "card": "time-space-distortion"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/mysterious-treasures",
-          "painting": "124"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "time-space-distortion",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "time-space-distortion-geiz" }
     }
   ]
 }

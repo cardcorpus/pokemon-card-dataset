@@ -2,64 +2,33 @@
   "id": "japanese/fire-quick-construction-pack",
   "catalog": "japanese",
   "name": "Fire Quick Construction Pack",
+  "englishName": "Fire Quick Construction Pack",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/quick-construction-pack",
+    "id": "japanese/quick-construction-pack",
     "name": "Quick Construction Pack",
     "part": "Fire"
   },
   "printedTotal": 15,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2005-01-16"
   },
   "logo": "ab87e49935cb858287eaf2dbfa205f6f",
   "symbol": "ac71cefbdd5380dd3aaa63590e8307ac",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Fire Quick Construction Pack",
-      "released": {
-        "date": "2005-01-16"
-      },
-      "logo": "ab87e49935cb858287eaf2dbfa205f6f",
-      "symbol": "ac71cefbdd5380dd3aaa63590e8307ac"
-    }
-  ],
   "description": {
-    "text": "A Quick Construction Pack, Type Unit: Fire, released on 16 January 2005: a fixed pack of 15 cards built around Fire Pokémon, led by Camerupt ex, with a coin and a rules sheet. Two packs make a half deck and four make a 60-card deck; the six packs, one for each type, came out together.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: クイック・コンストラクション・パック「タイプユニット:炎」",
-        "url": "https://web.archive.org/web/20080704133902/http://www.pokemon-card.com/products/pcg/pcg_14.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "A Quick Construction Pack, Type Unit: Fire, released on 16 January 2005: a fixed pack of 15 cards built around Fire Pokémon, led by Camerupt ex, with a coin and a rules sheet. Two packs make a half deck and four make a 60-card deck; the six packs, one for each type, came out together."
   },
   "tell": {
-    "text": "A four-square black symbol at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: クイック・コンストラクション・パック「タイプユニット:炎」",
-        "url": "https://web.archive.org/web/20080704133902/http://www.pokemon-card.com/products/pcg/pcg_14.html"
-      }
-    ]
+    "text": "A four-square black symbol at the bottom right, and a number out of 015"
   },
   "printRuns": [
     {
@@ -72,19 +41,43 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-emerald",
+      "id": "french/ex-emerald",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 8
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "001",
-      "name": "Vulpix",
+      "name": "ロコン",
+      "englishName": "Vulpix",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -103,17 +96,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 37,
+          "id": 37,
           "name": "Vulpix"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 37,
-          "form": "37",
-          "name": "Vulpix",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +107,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +125,7 @@
             "front": {
               "image": "836e231696549ab5e74eff77bf5d1e35"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +145,35 @@
             "front": {
               "image": "29f45404aee6b5140845385c2cf5bf98"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "72",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "vulpix-m35w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "002",
-      "name": "Ninetales",
+      "name": "キュウコン",
+      "englishName": "Ninetales",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +181,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -239,17 +192,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 38,
+          "id": 38,
           "name": "Ninetales"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 38,
-          "form": "38",
-          "name": "Ninetales",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +203,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -277,8 +221,7 @@
             "front": {
               "image": "f0c1259f28a759fc70cfe4932105c21d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -298,65 +241,35 @@
             "front": {
               "image": "611a12a30f4002ffb72eff8b0d999b32"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "38",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "ninetales-m1ia" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "003",
-      "name": "Torchic",
+      "name": "アチャモ",
+      "englishName": "Torchic",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +277,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -375,17 +288,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 255,
+          "id": 255,
           "name": "Torchic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 255,
-          "form": "255",
-          "name": "Torchic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +299,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,8 +317,7 @@
             "front": {
               "image": "02aaa0a6b6bc523cf77addc2a969076d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -434,65 +337,35 @@
             "front": {
               "image": "996610fcc4689cc26687c12a7e6eaafa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "69",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "torchic-b3s8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "004",
-      "name": "Combusken",
+      "name": "ワカシャモ",
+      "englishName": "Combusken",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -500,7 +373,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -511,17 +384,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 256,
+          "id": 256,
           "name": "Combusken"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 256,
-          "form": "256",
-          "name": "Combusken",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +395,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -549,8 +413,7 @@
             "front": {
               "image": "c04dd30ab2a0f7e4da2044b30aa86941"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -570,65 +433,35 @@
             "front": {
               "image": "ec23074dcc532295dc0c62757618c4af"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "combusken-6g8z" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "005",
-      "name": "Numel",
+      "name": "ドンメル",
+      "englishName": "Numel",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -636,7 +469,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -647,17 +480,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 322,
+          "id": 322,
           "name": "Numel"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 322,
-          "form": "322",
-          "name": "Numel",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -667,7 +491,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -685,8 +509,7 @@
             "front": {
               "image": "672aada8849289589e303e59e63e829e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -706,65 +529,35 @@
             "front": {
               "image": "627250038bf274d85b1e602c92d8e2c9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "57",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "numel-4b8g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "006",
-      "name": "Camerupt ex",
+      "name": "バクーダex",
+      "englishName": "Camerupt ex",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -772,7 +565,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -783,17 +576,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 323,
+          "id": 323,
           "name": "Camerupt"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 323,
-          "form": "323",
-          "name": "Camerupt",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -803,7 +587,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -821,8 +605,7 @@
             "front": {
               "image": "064bf6ff1558262e9c346fd1283ac732"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -842,65 +625,35 @@
             "front": {
               "image": "cfa3994a92c2fd2dad45ccb050ecd47d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "006",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "006",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "92",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "camerupt-ex-uzls" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "007",
-      "name": "Zangoose",
+      "name": "ザングース",
+      "englishName": "Zangoose",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -908,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -919,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 335,
+          "id": 335,
           "name": "Zangoose"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 335,
-          "form": "335",
-          "name": "Zangoose",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -939,7 +683,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -957,8 +701,7 @@
             "front": {
               "image": "fc55ca00816d949e0856f0ccb47ee63b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -978,65 +721,35 @@
             "front": {
               "image": "a9267630deaae7e1dd8dff2800185a28"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fire-quick-construction-pack",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "zangoose-mfcl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "008",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1044,7 +757,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -1059,7 +772,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1077,8 +790,7 @@
             "front": {
               "image": "32238c15bf169cee70ea9f7c1ced611e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1098,79 +810,35 @@
             "front": {
               "image": "8bc0ee2c7fa756c5881374df14ee4752"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "92",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mudkip-constructed-starter-deck",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "switch-gzim" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "009",
-      "name": "Mr. Stone's Project",
+      "name": "ツワブキのプロジェクト",
+      "englishName": "Mr. Stone's Project",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1178,7 +846,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1186,10 +854,10 @@
         "date": "2005-01-16",
         "sort": "2005-01-16.00 japanese/fire-quick-construction-pack 00008"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mr-stone",
+          "id": "mr-stone",
           "name": "Mr. Stone",
           "role": "subject"
         }
@@ -1201,7 +869,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1219,8 +887,7 @@
             "front": {
               "image": "f2bde8c489ba8251c95ff2503f2cead4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1240,73 +907,35 @@
             "front": {
               "image": "4c892b47a897a5f93107f7a17a4e35c5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "79",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fighting-quick-construction-pack",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fighting-quick-construction-pack",
-          "card": "010",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mr-stone-s-project-i1dw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "010",
-      "name": "TV Reporter",
+      "name": "TVレポーター",
+      "englishName": "TV Reporter",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1314,7 +943,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1322,10 +951,10 @@
         "date": "2005-01-16",
         "sort": "2005-01-16.00 japanese/fire-quick-construction-pack 00009"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "tv-reporter",
+          "id": "tv-reporter",
           "name": "TV Reporter",
           "role": "subject"
         }
@@ -1337,7 +966,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1355,8 +984,7 @@
             "front": {
               "image": "828b24a7392b8ad4f01fae41ea1bd32b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1376,80 +1004,35 @@
             "front": {
               "image": "5d8298b45b9539dce7b4539c0aba7737"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-dragon",
-              "card": "88",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rulers-of-the-heavens",
-                "card": "051"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rulers-of-the-heavens",
-          "painting": "051"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rulers-of-the-heavens",
-          "card": "051",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "tv-reporter-db9n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "011",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1464,7 +1047,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1482,8 +1065,7 @@
             "front": {
               "image": "d3c84c760f1e6c1cea9bbdc90e1fcfce"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1503,46 +1085,34 @@
             "front": {
               "image": "19e56f3af9e4da0f5df9991f558fbd2d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "012",
       "name": "Fire Energy",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1557,7 +1127,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1575,8 +1145,7 @@
             "front": {
               "image": "cd4b05ac3b0f79e07326bb93dfcd7ec1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1599,49 +1168,37 @@
                 "$kind": "variant",
                 "set": "japanese/fire-quick-construction-pack",
                 "card": "012",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "013",
       "name": "Fire Energy",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1656,7 +1213,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1674,8 +1231,7 @@
             "front": {
               "image": "1fbd500750a3245dc3e5fc3198caf6dd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1698,49 +1254,37 @@
                 "$kind": "variant",
                 "set": "japanese/fire-quick-construction-pack",
                 "card": "013",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "014",
       "name": "Fire Energy",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1755,7 +1299,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1773,8 +1317,7 @@
             "front": {
               "image": "bb5b672c791ba0be45f5a398368689c7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1794,46 +1337,34 @@
             "front": {
               "image": "9a2a7505ff13578ca178f6c27b5ac837"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/fire-quick-construction-pack",
       "id": "015",
       "name": "Fire Energy",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1848,7 +1379,7 @@
             "$kind": "variant",
             "set": "japanese/fire-quick-construction-pack",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1866,8 +1397,7 @@
             "front": {
               "image": "96c09eff41172c5fe48884cb4d4fb5d0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1887,39 +1417,25 @@
             "front": {
               "image": "1c39d5dbb94b997c37a9820135d32267"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/fire-quick-construction-pack",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     }
-  ]
+  ],
+  "printedCode": null
 }

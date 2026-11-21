@@ -1,84 +1,78 @@
 {
   "id": "japanese/dpt-gift-box-pikachu",
   "catalog": "japanese",
-  "name": "DPt Gift Box (Pikachu)",
+  "name": "ギフトボックス（ピカチュウデッキ）",
+  "englishName": "DPt Gift Box (Pikachu)",
   "era": {
     "$kind": "era",
-    "era": "japanese/platinum",
-    "name": "Platinum"
+    "id": "japanese/platinum",
+    "name": "DPt",
+    "englishName": "Platinum"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/dpt-gift-box",
+    "id": "japanese/dpt-gift-box",
     "name": "DPt Gift Box",
     "part": "Pikachu"
   },
   "printedTotal": 15,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2008-11-20"
   },
   "code": "Pt",
+  "printedCode": "Pt",
   "logo": "dfb0c57af26fe61da7b8d834343a184a",
   "symbol": "767ad875e68a3555259978b2bccc3815",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "DPt Gift Box (Pikachu)",
-      "code": "Pt",
-      "released": {
-        "date": "2008-11-20"
-      },
-      "logo": "dfb0c57af26fe61da7b8d834343a184a",
-      "symbol": "767ad875e68a3555259978b2bccc3815"
-    }
-  ],
   "description": {
-    "text": "The Pikachu deck from the DPt Gift Box, released on 20 November 2008: four ready-built 30-card half decks, led by Chimchar, Turtwig, Piplup and Pikachu and set at different levels of difficulty, with four holo cards between them. The box also held a practice playmat, acrylic damage counters, paper markers and a case for them, a Pokémon coin die to throw in place of a coin, a how-to-play book and a sticker sheet, so it could be played the day it was opened.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームDPt ギフトボックス",
-        "url": "https://web.archive.org/web/20090227135601/http://www.pokemon-card.com/products/dpt/dpt_02.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Pikachu deck from the DPt Gift Box, released on 20 November 2008: four ready-built 30-card half decks, led by Chimchar, Turtwig, Piplup and Pikachu and set at different levels of difficulty, with four holo cards between them. The box also held a practice playmat, acrylic damage counters, paper markers and a case for them, a Pokémon coin die to throw in place of a coin, a how-to-play book and a sticker sheet, so it could be played the day it was opened."
   },
   "tell": {
-    "text": "An orange \"Pt\" mark at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームDPt ギフトボックス",
-        "url": "https://web.archive.org/web/20090227135601/http://www.pokemon-card.com/products/dpt/dpt_02.html"
-      }
-    ]
+    "text": "An orange \"Pt\" mark at the bottom right, and a number out of 015"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/supreme-victors",
+      "id": "french/supreme-victors",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "german/supreme-victors",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "english/supreme-victors",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "korean/torterra-infernape-empoleon-raichu-random-constructed-decks",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 6
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "001",
-      "name": "Cherubi",
+      "name": "チェリンボ",
+      "englishName": "Cherubi",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -86,7 +80,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "saya-tsuruta",
+          "id": "saya-tsuruta",
           "name": "Saya Tsuruta"
         }
       ],
@@ -97,17 +91,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 420,
+          "id": 420,
           "name": "Cherubi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 420,
-          "form": "420",
-          "name": "Cherubi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -117,7 +102,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -131,49 +116,21 @@
             "front": {
               "image": "5fd88abe42dacbf99c3d668e4b043d23"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "96",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cherubi-jv2g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "002",
-      "name": "Cherrim",
+      "name": "チェリム",
+      "englishName": "Cherrim",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -181,7 +138,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "saya-tsuruta",
+          "id": "saya-tsuruta",
           "name": "Saya Tsuruta"
         }
       ],
@@ -192,17 +149,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 421,
+          "id": 421,
           "name": "Cherrim"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 421,
-          "form": "421",
-          "name": "Cherrim",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -212,7 +160,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -226,49 +174,21 @@
             "front": {
               "image": "a111dd677f3b2d0ee5585c68d562d8bd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "55",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cherrim-06bo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "003",
-      "name": "Carnivine",
+      "name": "マスキッパ",
+      "englishName": "Carnivine",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -276,7 +196,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "satoshi-ohta",
+          "id": "satoshi-ohta",
           "name": "Satoshi Ohta"
         }
       ],
@@ -287,17 +207,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 455,
+          "id": 455,
           "name": "Carnivine"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 455,
-          "form": "455",
-          "name": "Carnivine",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -307,7 +218,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -321,49 +232,21 @@
             "front": {
               "image": "6bf1fb9a3139297ed6e2fc6c0d22da30"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "carnivine-23a9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "004",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -371,7 +254,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takao-unno",
+          "id": "takao-unno",
           "name": "Takao Unno"
         }
       ],
@@ -382,17 +265,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -402,7 +276,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -419,8 +293,7 @@
             "front": {
               "image": "c9e3fe9e87b866faf6603d567088e00b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "holo",
@@ -440,61 +313,24 @@
                 "$kind": "variant",
                 "set": "japanese/dpt-gift-box-pikachu",
                 "card": "004",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "120",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pikachu-2fkw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "005",
-      "name": "Raichu",
+      "name": "ライチュウ",
+      "englishName": "Raichu",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -502,7 +338,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takao-unno",
+          "id": "takao-unno",
           "name": "Takao Unno"
         }
       ],
@@ -513,17 +349,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 26,
+          "id": 26,
           "name": "Raichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 26,
-          "form": "26",
-          "name": "Raichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -533,7 +360,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -547,49 +374,21 @@
             "front": {
               "image": "d992fd03d0850b40e068bcec2dfb159b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "77",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "raichu-cjvn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "006",
-      "name": "Rotom",
+      "name": "ロトム",
+      "englishName": "Rotom",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -597,7 +396,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -608,17 +407,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 479,
+          "id": 479,
           "name": "Rotom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 479,
-          "form": "479",
-          "name": "Rotom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -628,7 +418,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -642,49 +432,21 @@
             "front": {
               "image": "7939bef4af9fcd1edc635b66e2eb1266"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "82",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "rotom-nfg7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "007",
-      "name": "Buneary",
+      "name": "ミミロル",
+      "englishName": "Buneary",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -692,7 +454,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kanako-eo",
+          "id": "kanako-eo",
           "name": "Kanako Eo"
         }
       ],
@@ -703,17 +465,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 427,
+          "id": 427,
           "name": "Buneary"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 427,
-          "form": "427",
-          "name": "Buneary",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -723,7 +476,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -737,49 +490,21 @@
             "front": {
               "image": "00c941eb23278fbd60420757239cc508"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "buneary-i66g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "008",
-      "name": "Lopunny",
+      "name": "ミミロップ",
+      "englishName": "Lopunny",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -787,7 +512,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kanako-eo",
+          "id": "kanako-eo",
           "name": "Kanako Eo"
         }
       ],
@@ -798,17 +523,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 428,
+          "id": 428,
           "name": "Lopunny"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 428,
-          "form": "428",
-          "name": "Lopunny",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -818,7 +534,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -832,49 +548,21 @@
             "front": {
               "image": "42140781995f54bf759b75f2ccafbdd6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "63",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "lopunny-b53z" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "009",
-      "name": "Chatot",
+      "name": "ペラップ",
+      "englishName": "Chatot",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -882,7 +570,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "satoshi-ohta",
+          "id": "satoshi-ohta",
           "name": "Satoshi Ohta"
         }
       ],
@@ -893,17 +581,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 441,
+          "id": 441,
           "name": "Chatot"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 441,
-          "form": "441",
-          "name": "Chatot",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -913,7 +592,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -927,49 +606,21 @@
             "front": {
               "image": "dc7dd20417370a153b510a8baa3cef36"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/supreme-victors",
-              "card": "95",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-gift-box-pikachu",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "chatot-6pno" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "010",
-      "name": "Energy Pickup",
+      "name": "エネルギーパッチ",
+      "englishName": "Energy Pickup",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -977,7 +628,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -992,7 +643,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1006,64 +657,21 @@
             "front": {
               "image": "79b229e72af1b1482d25f259e678b39e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legends-awakened",
-              "card": "132",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/temple-of-anger",
-                "card": "energy-pickup"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/temple-of-anger",
-          "painting": "energy-pickup"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/temple-of-anger",
-          "card": "energy-pickup",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-pickup-49pn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "011",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1071,7 +679,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -1086,7 +694,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1100,63 +708,21 @@
             "front": {
               "image": "f06e7329ba8aa4660ec9e99be4b8a396"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "95",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/feraligatr-constructed-starter-deck",
-                "card": "010"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "010",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "potion-d5e3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "012",
-      "name": "Double Full Heal",
+      "name": "なんでもなおしW",
+      "englishName": "Double Full Heal",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1164,7 +730,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1179,7 +745,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1193,64 +759,21 @@
             "front": {
               "image": "5909629e571597fc2cae77f2081153c8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "86",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miracle-of-the-desert",
-                "card": "049"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miracle-of-the-desert",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "double-full-heal-14y2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "013",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1258,7 +781,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1273,7 +796,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1287,63 +810,21 @@
             "front": {
               "image": "98df0266d35d65ecdf9b9c3d331619fd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/diamond-pearl",
-              "card": "119",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack",
-                "card": "switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "switch",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-jxlp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "014",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1351,7 +832,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1366,7 +847,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1380,63 +861,21 @@
             "front": {
               "image": "35ca1d15db6267539973fa5f8838ea0e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "85",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/magmortar-vs-electivire-deck-kit",
-                "card": "021"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "021"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "021",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "poke-ball-jdps" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-gift-box-pikachu",
       "id": "015",
-      "name": "Mom's Kindness",
+      "name": "ママのきづかい",
+      "englishName": "Mom's Kindness",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1444,7 +883,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1452,10 +891,10 @@
         "date": "2008-11-20",
         "sort": "2008-11-20.00 japanese/dpt-gift-box-pikachu 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mom",
+          "id": "mom",
           "name": "Mom",
           "role": "subject"
         }
@@ -1467,7 +906,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-gift-box-pikachu",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1481,56 +920,11 @@
             "front": {
               "image": "47be6db3d8ef15b78fc483ed5e91676c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "83",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack-08",
-                "card": "041"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "041"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack-08",
-          "card": "041",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "mom-s-kindness-nzji" }
     }
   ]
 }

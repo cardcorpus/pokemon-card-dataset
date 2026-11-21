@@ -1,80 +1,85 @@
 {
   "id": "japanese/mewtwo-ex-starter-set-terastal",
   "catalog": "japanese",
-  "name": "Mewtwo ex Starter Set Terastal",
+  "name": "スターターセット テラスタル ミュウツーex",
+  "englishName": "Mewtwo ex Starter Set Terastal",
   "era": {
     "$kind": "era",
-    "era": "japanese/scarlet-violet",
-    "name": "Scarlet & Violet"
+    "id": "japanese/scarlet-violet",
+    "name": "スカーレット＆バイオレット",
+    "englishName": "Scarlet & Violet"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/ex-starter-set-terastal",
+    "id": "japanese/ex-starter-set-terastal",
     "name": "ex Starter Set Terastal",
     "part": "Mewtwo"
   },
   "printedTotal": 20,
   "actualTotal": 20,
   "cardCount": 20,
-  "productCount": 0,
   "released": {
     "date": "2023-09-22"
   },
   "code": "SVEM",
+  "printedCode": "SVEM",
   "logo": "6059e1639d5f72dd569c3ceef93af6da",
   "symbol": "6be0639136e499e83c68f352a3052b77",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Mewtwo ex Starter Set Terastal",
-      "code": "SVEM",
-      "released": {
-        "date": "2023-09-22"
-      },
-      "logo": "6059e1639d5f72dd569c3ceef93af6da",
-      "symbol": "6be0639136e499e83c68f352a3052b77"
-    }
-  ],
   "description": {
-    "text": "Starter Set Terastal Mewtwo ex, released on 22 September 2023 with Skeledirge ex's: a ready-to-play 60-card deck with two copies of Mewtwo ex in its Lightning Tera form, which takes no attack damage while on the Bench. One of its attacks attaches up to two basic Psychic Energy from the discard pile to your Pokémon, and the other does 30 more damage for each Psychic Energy on your Pokémon. The box held damage counters, Poison and Burn markers, a coin, a paper playmat and a guide.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: スターターセット テラスタル 「ミュウツーex」「ラウドボーンex」",
-        "url": "https://web.archive.org/web/20230819054238/https://www.pokemon-card.com/products/sv/sve.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Starter Set Terastal Mewtwo ex, released on 22 September 2023 with Skeledirge ex's: a ready-to-play 60-card deck with two copies of Mewtwo ex in its Lightning Tera form, which takes no attack damage while on the Bench. One of its attacks attaches up to two basic Psychic Energy from the discard pile to your Pokémon, and the other does 30 more damage for each Psychic Energy on your Pokémon. The box held damage counters, Poison and Burn markers, a coin, a paper playmat and a guide."
   },
   "tell": {
-    "text": "An \"SVEM\" mark at the bottom left, and a number out of 020",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"SVEM\" mark at the bottom left, and a number out of 020"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "zh-hans/dark-crystal-blaze",
+      "id": "korean/mewtwo-ex-starter-set-terastal",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 20
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/ex-compact-decks",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "thai/ex-compact-decks",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hans/dark-crystal-blaze",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 6
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/mewtwo-ex-starter-set-terastal",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 20
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "001",
-      "name": "Mewtwo ex",
+      "name": "ミュウツーex",
+      "englishName": "Mewtwo ex",
       "number": {
         "printed": "001/020",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -82,7 +87,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aky-cg-works",
+          "id": "aky-cg-works",
           "name": "aky CG Works"
         }
       ],
@@ -93,17 +98,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 150,
+          "id": 150,
           "name": "Mewtwo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 150,
-          "form": "150",
-          "name": "Mewtwo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -113,7 +109,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -127,66 +123,21 @@
             "front": {
               "image": "fb2fb5f533811f0fe28690661206b6c4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paradox-rift",
-              "card": "058",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dark-crystal-blaze",
-              "card": "039",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/happy-set-dragonite-mewtwo-camerupt-sinistcha",
-              "card": "012",
-              "language": "zh-Hans",
-              "printCount": 2
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mewtwo-ex-6kvm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "002",
-      "name": "Exeggcute",
+      "name": "タマタマ",
+      "englishName": "Exeggcute",
       "number": {
         "printed": "002/020",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -194,7 +145,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kariya",
+          "id": "kariya",
           "name": "Kariya"
         }
       ],
@@ -205,17 +156,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 102,
+          "id": 102,
           "name": "Exeggcute"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 102,
-          "form": "102",
-          "name": "Exeggcute",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -225,7 +167,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -239,59 +181,21 @@
             "front": {
               "image": "17c7b2f7f185d35f78d203ef524c86f5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "023",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dark-crystal-blaze",
-              "card": "051",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "exeggcute-tf92" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "003",
-      "name": "Exeggutor",
+      "name": "ナッシー",
+      "englishName": "Exeggutor",
       "number": {
         "printed": "003/020",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -299,7 +203,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yoriyuki-ikegami",
+          "id": "yoriyuki-ikegami",
           "name": "Yoriyuki Ikegami"
         }
       ],
@@ -310,17 +214,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 103,
+          "id": 103,
           "name": "Exeggutor"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 103,
-          "form": "103",
-          "name": "Exeggutor",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -330,7 +225,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -344,59 +239,21 @@
             "front": {
               "image": "8ef67697adf2a13d7378c9587ec605df"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "024",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dark-crystal-blaze",
-              "card": "052",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "exeggutor-e8jp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "004",
-      "name": "Natu",
+      "name": "ネイティ",
+      "englishName": "Natu",
       "number": {
         "printed": "004/020",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -404,7 +261,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryoma-uratsuka",
+          "id": "ryoma-uratsuka",
           "name": "ryoma uratsuka"
         }
       ],
@@ -415,17 +272,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 177,
+          "id": 177,
           "name": "Natu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 177,
-          "form": "177",
-          "name": "Natu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -435,7 +283,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -452,8 +300,7 @@
             "front": {
               "image": "bac8a33eb4e3e6ff69f020d97571a0c8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "holo",
@@ -473,88 +320,24 @@
                 "$kind": "variant",
                 "set": "japanese/mewtwo-ex-starter-set-terastal",
                 "card": "004",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paradox-rift",
-              "card": "071",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dark-crystal-blaze",
-              "card": "053",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/happy-set-dragonite-mewtwo-camerupt-sinistcha",
-              "card": "014",
-              "language": "zh-Hans",
-              "printCount": 3
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "004"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/terastal-festival-ex",
-            "card": "060",
-            "differs": [
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "natu-cxp7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "005",
-      "name": "Xatu",
+      "name": "ネイティオ",
+      "englishName": "Xatu",
       "number": {
         "printed": "005/020",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -562,7 +345,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tetsu-kayama",
+          "id": "tetsu-kayama",
           "name": "Tetsu Kayama"
         }
       ],
@@ -573,17 +356,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 178,
+          "id": 178,
           "name": "Xatu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 178,
-          "form": "178",
-          "name": "Xatu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -593,7 +367,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -610,8 +384,7 @@
             "front": {
               "image": "544aaa2b32e52fcb0637715c2f543021"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "holo",
@@ -631,71 +404,24 @@
                 "$kind": "variant",
                 "set": "japanese/mewtwo-ex-starter-set-terastal",
                 "card": "005",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paradox-rift",
-              "card": "072",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dark-crystal-blaze",
-              "card": "054",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "xatu-38gf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "006",
-      "name": "Deoxys",
+      "name": "デオキシス",
+      "englishName": "Deoxys",
       "number": {
         "printed": "006/020",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -703,7 +429,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "saya-tsuruta",
+          "id": "saya-tsuruta",
           "name": "Saya Tsuruta"
         }
       ],
@@ -714,17 +440,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 386,
+          "id": 386,
           "name": "Deoxys"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 386,
-          "form": "386",
-          "name": "Deoxys",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -734,7 +451,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -748,66 +465,21 @@
             "front": {
               "image": "8e33d301465cf6be3e8cfa680a8eadf9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paradox-rift",
-              "card": "074",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dark-crystal-blaze",
-              "card": "055",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/happy-set-altaria-latios-infernape-maushold",
-              "card": "014",
-              "language": "zh-Hans",
-              "printCount": 2
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "deoxys-stn7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "007",
-      "name": "Cottonee",
+      "name": "モンメン",
+      "englishName": "Cottonee",
       "number": {
         "printed": "007/020",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -815,7 +487,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kurumitsu",
+          "id": "kurumitsu",
           "name": "kurumitsu"
         }
       ],
@@ -826,17 +498,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 546,
+          "id": 546,
           "name": "Cottonee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 546,
-          "form": "546",
-          "name": "Cottonee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -846,7 +509,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -860,59 +523,21 @@
             "front": {
               "image": "dd0c12d1769a80b591959bd2c5d61f40"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "034",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/bonus-round",
-              "card": "055",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cottonee-gmsr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "008",
-      "name": "Whimsicott",
+      "name": "エルフーン",
+      "englishName": "Whimsicott",
       "number": {
         "printed": "008/020",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -920,7 +545,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyupiyama",
+          "id": "kyupiyama",
           "name": "KYUPIYAMA"
         }
       ],
@@ -931,17 +556,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 547,
+          "id": 547,
           "name": "Whimsicott"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 547,
-          "form": "547",
-          "name": "Whimsicott",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -951,7 +567,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -965,59 +581,21 @@
             "front": {
               "image": "e4d482ec8b939ea4bae9f17b2c53cf93"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "035",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/bonus-round",
-              "card": "056",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "whimsicott-bf5h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "009",
-      "name": "Dedenne",
+      "name": "デデンネ",
+      "englishName": "Dedenne",
       "number": {
         "printed": "009/020",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1025,7 +603,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tika-matsuno",
+          "id": "tika-matsuno",
           "name": "Tika Matsuno"
         }
       ],
@@ -1036,17 +614,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 702,
+          "id": 702,
           "name": "Dedenne"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 702,
-          "form": "702",
-          "name": "Dedenne",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1056,7 +625,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1070,59 +639,21 @@
             "front": {
               "image": "807475f339e6f4ee176cdd74a9316441"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "036",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/bonus-round",
-              "card": "057",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-ex-starter-set-terastal",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "dedenne-rkyg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "010",
-      "name": "Fog Crystal",
+      "name": "霧の水晶",
+      "englishName": "Fog Crystal",
       "number": {
         "printed": "010/020",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1130,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sadaji",
+          "id": "sadaji",
           "name": "sadaji"
         }
       ],
@@ -1145,7 +676,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1159,106 +690,21 @@
             "front": {
               "image": "c8e14946399245a7a9ae7c8e141061ed"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/chilling-reign",
-              "card": "140",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/jet-black-spirit",
-                "card": "060"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/primordial-arts-overgrow",
-              "card": "109",
-              "language": "zh-Hans",
-              "printCount": 7,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/jet-black-spirit",
-                "card": "060"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/primordial-arts-v-starter-deck",
-              "card": "132",
-              "language": "zh-Hans",
-              "printCount": 7,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/jet-black-spirit",
-                "card": "060"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/start-deck-100",
-              "card": "371",
-              "language": "zh-Hans",
-              "printCount": 7,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/jet-black-spirit",
-                "card": "060"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/jet-black-spirit",
-          "painting": "060"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/jet-black-spirit",
-          "card": "060",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "fog-crystal-3uqz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "011",
-      "name": "Super Rod",
+      "name": "すごいつりざお",
+      "englishName": "Super Rod",
       "number": {
         "printed": "011/020",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1266,7 +712,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -1281,7 +727,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1295,80 +741,21 @@
             "front": {
               "image": "f70fca2b3c541fcfbf140b5bfc210545"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldea-evolved",
-              "card": "188",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/snow-hazard",
-                "card": "066"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/eternal-birth",
-              "card": "109",
-              "language": "zh-Hans",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/snow-hazard",
-                "card": "066"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/snow-hazard",
-          "painting": "066"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/snow-hazard",
-          "card": "066",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "super-rod-gm76" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "012",
-      "name": "Nest Ball",
+      "name": "ネストボール",
+      "englishName": "Nest Ball",
       "number": {
         "printed": "012/020",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1376,7 +763,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -1391,7 +778,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1405,80 +792,21 @@
             "front": {
               "image": "a651ab8f607fb7573b51a20daa922c7d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet",
-              "card": "181",
-              "language": "en",
-              "printCount": 16,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/scarlet-ex",
-                "card": "070"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/happy-set-pikachu-clefairy-turtwig-gimmighoul",
-              "card": "043",
-              "language": "zh-Hans",
-              "printCount": 19,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/scarlet-ex",
-                "card": "070"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/scarlet-ex",
-          "painting": "070"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/scarlet-ex",
-          "card": "070",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "nest-ball-p8lu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "013",
-      "name": "Ultra Ball",
+      "name": "ハイパーボール",
+      "englishName": "Ultra Ball",
       "number": {
         "printed": "013/020",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1486,7 +814,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -1501,7 +829,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1515,119 +843,21 @@
             "front": {
               "image": "0076fb2e455f60a9474e55453892742d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet",
-              "card": "196",
-              "language": "en",
-              "printCount": 17,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "070"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "091",
-              "language": "en",
-              "printCount": 17,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "070"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/eternal-birth",
-              "card": "112",
-              "language": "zh-Hans",
-              "printCount": 20,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "070"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/gem-pack-volume-1",
-              "card": "1703",
-              "language": "zh-Hans",
-              "printCount": 20,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "070"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/sv-chinese-promos",
-              "card": "217",
-              "language": "zh-Hans",
-              "printCount": 20,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "070"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/violet-ex",
-          "painting": "070"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/violet-ex",
-          "card": "070",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ultra-ball-d8u7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "014",
-      "name": "Pokégear 3.0",
+      "name": "ポケギア3.0",
+      "englishName": "Pokégear 3.0",
       "number": {
         "printed": "014/020",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1635,7 +865,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -1650,7 +880,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1664,92 +894,21 @@
             "front": {
               "image": "0d6862618c8cff3d959d25de3ada00e2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet",
-              "card": "186",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-                "card": "015"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/battle-party-dream-together",
-              "card": "122",
-              "language": "zh-Hans",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-                "card": "015"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/miracle-journey",
-              "card": "113",
-              "language": "zh-Hans",
-              "printCount": 6,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-                "card": "015"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-          "painting": "015"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-          "card": "015",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokegear-3-0-2h3h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "015",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "015/020",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1757,7 +916,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "studio-bora-inc",
+          "id": "studio-bora-inc",
           "name": "Studio Bora Inc."
         }
       ],
@@ -1772,7 +931,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1786,79 +945,21 @@
             "front": {
               "image": "6a1ffad0e06d8f6ba2f1002181f8a817"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet",
-              "card": "194",
-              "language": "en",
-              "printCount": 11,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-                "card": "016"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/eternal-birth",
-              "card": "113",
-              "language": "zh-Hans",
-              "printCount": 18,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fuecoco-ampharos-ex-starter-set-ex",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-93bb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "016",
-      "name": "Bravery Charm",
+      "name": "勇気のおまもり",
+      "englishName": "Bravery Charm",
       "number": {
         "printed": "016/020",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1866,7 +967,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -1881,7 +982,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1895,93 +996,21 @@
             "front": {
               "image": "4223450a210b2ad2f05bef7c84b052eb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldea-evolved",
-              "card": "173",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/clay-burst",
-                "card": "067"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/eternal-birth",
-              "card": "118",
-              "language": "zh-Hans",
-              "printCount": 11,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/clay-burst",
-                "card": "067"
-              }
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/sv-chinese-promos",
-              "card": "295",
-              "language": "zh-Hans",
-              "printCount": 11,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/clay-burst",
-                "card": "067"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/clay-burst",
-          "painting": "067"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/clay-burst",
-          "card": "067",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "bravery-charm-9jga" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "017",
-      "name": "Iono",
+      "name": "ナンジャモ",
+      "englishName": "Iono",
       "number": {
         "printed": "017/020",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1989,7 +1018,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -1997,10 +1026,10 @@
         "date": "2023-09-22",
         "sort": "2023-09-22.00 japanese/mewtwo-ex-starter-set-terastal 00016"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "iono",
+          "id": "iono",
           "name": "Iono",
           "role": "subject"
         }
@@ -2012,7 +1041,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2026,80 +1055,21 @@
             "front": {
               "image": "bbc3753e7c5a128830c23900b00de944"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldea-evolved",
-              "card": "185",
-              "language": "en",
-              "printCount": 12,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/clay-burst",
-                "card": "069"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/fearless-terastal",
-              "card": "123",
-              "language": "zh-Hans",
-              "printCount": 16,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/clay-burst",
-                "card": "069"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/clay-burst",
-          "painting": "069"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/clay-burst",
-          "card": "069",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "iono-n1is" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "018",
-      "name": "Nemona",
+      "name": "ネモ",
+      "englishName": "Nemona",
       "number": {
         "printed": "018/020",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2107,7 +1077,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -2115,10 +1085,10 @@
         "date": "2023-09-22",
         "sort": "2023-09-22.00 japanese/mewtwo-ex-starter-set-terastal 00017"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "nemona",
+          "id": "nemona",
           "name": "Nemona",
           "role": "subject"
         }
@@ -2130,7 +1100,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2144,80 +1114,23 @@
             "front": {
               "image": "9475973f9cc199ac3367234599117421"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldean-fates",
-              "card": "082",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/scarlet-violet-promos",
-                "card": "012"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/battle-academy",
-              "card": "062",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/scarlet-violet-promos",
-                "card": "012"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/scarlet-violet-promos",
-          "painting": "012"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/scarlet-violet-promos",
-          "card": "012",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "nemona-svec" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "019",
-      "name": "Professor's Research",
+      "name": "博士の研究",
+      "englishName": "Professor's Research",
+      "subtitle": "フトゥー博士",
+      "englishSubtitle": "Professor Turo",
       "number": {
         "printed": "019/020",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2225,7 +1138,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -2233,10 +1146,10 @@
         "date": "2023-09-22",
         "sort": "2023-09-22.00 japanese/mewtwo-ex-starter-set-terastal 00018"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-turo",
+          "id": "professor-turo",
           "name": "Professor Turo",
           "role": "subject"
         }
@@ -2248,7 +1161,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "019",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2262,81 +1175,23 @@
             "front": {
               "image": "e08998dc5994645ef1a508b07cbc482c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/scarlet-violet",
-              "card": "190",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "075"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/eternal-birth",
-              "card": "122",
-              "language": "zh-Hans",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/violet-ex",
-                "card": "075"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/violet-ex",
-          "painting": "075"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/violet-ex",
-          "card": "075",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "professor-s-research-5hlw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-ex-starter-set-terastal",
       "id": "020",
-      "name": "Boss's Orders",
+      "name": "ボスの指令",
+      "englishName": "Boss's Orders",
+      "subtitle": "ゲーチス",
+      "englishSubtitle": "Ghetsis",
       "number": {
         "printed": "020/020",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2344,7 +1199,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nc-empire",
+          "id": "nc-empire",
           "name": "NC Empire"
         }
       ],
@@ -2352,10 +1207,10 @@
         "date": "2023-09-22",
         "sort": "2023-09-22.00 japanese/mewtwo-ex-starter-set-terastal 00019"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "ghetsis",
+          "id": "ghetsis",
           "name": "Ghetsis",
           "role": "subject"
         }
@@ -2367,7 +1222,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-ex-starter-set-terastal",
             "card": "020",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2381,81 +1236,11 @@
             "front": {
               "image": "04db7f2e718c510a5c487483871e3613"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/paldea-evolved",
-              "card": "172",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/triplet-beat",
-                "card": "069"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/happy-set-pikachu-clefairy-turtwig-gimmighoul-modification-pack",
-              "card": "023",
-              "language": "zh-Hans",
-              "printCount": 18,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/triplet-beat",
-                "card": "069"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/triplet-beat",
-          "painting": "069"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/triplet-beat",
-          "card": "069",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/mega-evolution-base-set",
-            "card": "114"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "boss-s-orders-xq6e" }
     }
   ]
 }

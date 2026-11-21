@@ -2,68 +2,33 @@
   "id": "japanese/deoxys-constructed-starter-deck",
   "catalog": "japanese",
   "name": "Deoxys Constructed Starter Deck",
+  "englishName": "Deoxys Constructed Starter Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/constructed-starter-deck-2004",
+    "id": "japanese/constructed-starter-deck-2004",
     "name": "Constructed Starter Deck",
     "part": "Deoxys"
   },
   "printedTotal": 15,
   "actualTotal": 16,
   "cardCount": 16,
-  "productCount": 0,
   "released": {
     "date": "2004-07-01"
   },
   "logo": "a342cdfa18849aff44d02eeed1f254aa",
   "symbol": "53212f844b564a750e43f1858f55044d",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Deoxys Constructed Starter Deck",
-      "released": {
-        "date": "2004-07-01"
-      },
-      "logo": "a342cdfa18849aff44d02eeed1f254aa",
-      "symbol": "53212f844b564a750e43f1858f55044d"
-    }
-  ],
   "description": {
-    "text": "A starter deck built around Deoxys ex, released on 1 July 2004 alongside the Clash of the Blue Sky expansion, whose theme was the films Destiny Deoxys and Jirachi: Wish Maker. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「デオキシスデッキ」",
-        "url": "https://web.archive.org/web/20090310090417/http://www.pokemon-card.com/products/pcg/pcg_05.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック「蒼空の激突」",
-        "url": "https://web.archive.org/web/20090226205049/http://www.pokemon-card.com/products/pcg/pcg_07.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "A starter deck built around Deoxys ex, released on 1 July 2004 alongside the Clash of the Blue Sky expansion, whose theme was the films Destiny Deoxys and Jirachi: Wish Maker. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away."
   },
   "tell": {
-    "text": "A black split-oval symbol at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「デオキシスデッキ」",
-        "url": "https://web.archive.org/web/20090310090417/http://www.pokemon-card.com/products/pcg/pcg_05.html"
-      }
-    ]
+    "text": "A black split-oval symbol at the bottom right, and a number out of 015"
   },
   "printRuns": [
     {
@@ -76,19 +41,43 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-deoxys",
+      "id": "french/ex-deoxys",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 13
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-deoxys",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-deoxys",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-deoxys",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "001",
-      "name": "Seedot",
+      "name": "タネボー",
+      "englishName": "Seedot",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -96,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -107,17 +96,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 273,
+          "id": 273,
           "name": "Seedot"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 273,
-          "form": "273",
-          "name": "Seedot",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -127,7 +107,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -145,8 +125,7 @@
             "front": {
               "image": "9504d1698e76888db54813c5592ae0d1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -166,65 +145,35 @@
             "front": {
               "image": "89ec739c4c114272199823fd9ba3adcc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "71",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "seedot-ik1k" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "002",
-      "name": "Nuzleaf",
+      "name": "コノハナ",
+      "englishName": "Nuzleaf",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -232,7 +181,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -243,17 +192,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 274,
+          "id": 274,
           "name": "Nuzleaf"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 274,
-          "form": "274",
-          "name": "Nuzleaf",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -263,7 +203,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -281,8 +221,7 @@
             "front": {
               "image": "bc834a7422a2ed61a86f8db117d61cad"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -302,65 +241,35 @@
             "front": {
               "image": "a547f917732b1b25154215fefab0595a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "nuzleaf-ewcx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "003",
-      "name": "Shiftry",
+      "name": "ダーテング",
+      "englishName": "Shiftry",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -368,7 +277,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -379,17 +288,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 275,
+          "id": 275,
           "name": "Shiftry"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 275,
-          "form": "275",
-          "name": "Shiftry",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -399,7 +299,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -417,8 +317,7 @@
             "front": {
               "image": "4dadb4ba80cc204382fad1d1426e3475"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -438,65 +337,35 @@
             "front": {
               "image": "0ed4caf6ad025a8abda33b6244fb7cb1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "shiftry-cio0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "004",
-      "name": "Spoink",
+      "name": "バネブー",
+      "englishName": "Spoink",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -504,7 +373,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -515,17 +384,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 325,
+          "id": 325,
           "name": "Spoink"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 325,
-          "form": "325",
-          "name": "Spoink",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -535,7 +395,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -553,8 +413,7 @@
             "front": {
               "image": "d1a87fd164cf5c97e01c2fd35d0df22f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -574,65 +433,35 @@
             "front": {
               "image": "841c90bbc48bf9c7a1bbd132e9d9800c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "76",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "spoink-881y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "005",
-      "name": "Grumpig",
+      "name": "ブーピッグ",
+      "englishName": "Grumpig",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -640,7 +469,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -651,17 +480,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 326,
+          "id": 326,
           "name": "Grumpig"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 326,
-          "form": "326",
-          "name": "Grumpig",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -671,7 +491,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -689,8 +509,7 @@
             "front": {
               "image": "a20ed121ef7c96e80939f0d9f5a68344"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -710,65 +529,35 @@
             "front": {
               "image": "10f3248352067c214c474978da9612a9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "32",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "grumpig-k692" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "006",
-      "name": "Deoxys ex",
+      "name": "デオキシスex",
+      "englishName": "Deoxys ex",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -776,7 +565,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -787,17 +576,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 386,
+          "id": 386,
           "name": "Deoxys"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 386,
-          "form": "386",
-          "name": "Deoxys",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -807,7 +587,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -825,8 +605,7 @@
             "front": {
               "image": "b0de872e0c6f699e0e81cf9a4ac01404"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -846,65 +625,35 @@
             "front": {
               "image": "9696cce16753d468590dae82b93bdfd4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "006",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "006",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "97",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "deoxys-ex-y6ae" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "007",
-      "name": "Phanpy",
+      "name": "ゴマゾウ",
+      "englishName": "Phanpy",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -912,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yuka-morii",
+          "id": "yuka-morii",
           "name": "Yuka Morii"
         }
       ],
@@ -923,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 231,
+          "id": 231,
           "name": "Phanpy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 231,
-          "form": "231",
-          "name": "Phanpy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -943,7 +683,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -961,8 +701,7 @@
             "front": {
               "image": "eb21f6091c9ec387de02bbad32c63af9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -982,65 +721,35 @@
             "front": {
               "image": "50f1e1645b5b3af796adb73239f097e2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "69",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "phanpy-p1eg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "008",
-      "name": "Donphan",
+      "name": "ドンファン",
+      "englishName": "Donphan",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1048,7 +757,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yuka-morii",
+          "id": "yuka-morii",
           "name": "Yuka Morii"
         }
       ],
@@ -1059,17 +768,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 232,
+          "id": 232,
           "name": "Donphan"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 232,
-          "form": "232",
-          "name": "Donphan",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1079,7 +779,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1097,8 +797,7 @@
             "front": {
               "image": "40b1d4b15e41fc4668873fb2fb254c00"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1118,65 +817,35 @@
             "front": {
               "image": "55de5e5900aa44554ff76c355860bfb7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/deoxys-constructed-starter-deck",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "donphan-glej" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "009",
-      "name": "Energy Charge",
+      "name": "エネルギーチャージ",
+      "englishName": "Energy Charge",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1184,7 +853,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1199,7 +868,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1217,8 +886,7 @@
             "front": {
               "image": "258cd06d2155865791dce21868776155"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1238,75 +906,35 @@
             "front": {
               "image": "6ed1b56c5dcb9912addd75adec6bb9d5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "86",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-          "painting": "energy-charge"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-          "card": "energy-charge",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-charge-5gy0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "010",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1314,7 +942,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1329,7 +957,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1347,8 +975,7 @@
             "front": {
               "image": "340e7466cd6cb9131fa82f677f3767bf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1368,80 +995,35 @@
             "front": {
               "image": "008b666be12482b00de05e797129fe13"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/expedition-base-set",
-              "card": "156",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-e-starter-deck",
-                "card": "025"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "025"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "025",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-8utl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "011",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1449,7 +1031,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -1464,7 +1046,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1482,8 +1064,7 @@
             "front": {
               "image": "9053ae7bb059f776f5840e55ad4799c0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1503,79 +1084,35 @@
             "front": {
               "image": "8fce1869b25df3e5f99474e81e72b648"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "92",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mudkip-constructed-starter-deck",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "switch-gzim" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "012",
-      "name": "Master Ball",
+      "name": "マスターボール",
+      "englishName": "Master Ball",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1583,7 +1120,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1598,7 +1135,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1616,8 +1153,7 @@
             "front": {
               "image": "7325e276689af8aa4e3baba29b2020b5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1637,75 +1173,35 @@
             "front": {
               "image": "b9ed9ad852f494bc2391755d38b139f2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "88",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-2",
-          "painting": "master-ball"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-2",
-          "card": "master-ball",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "master-ball-yqcf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "013",
-      "name": "Lady Outing",
+      "name": "おじょうさまのお散歩",
+      "englishName": "Lady Outing",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1713,7 +1209,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1721,10 +1217,10 @@
         "date": "2004-07-01",
         "sort": "2004-07-01.00 japanese/deoxys-constructed-starter-deck 00012"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "lady",
+          "id": "lady",
           "name": "Lady",
           "role": "subject"
         }
@@ -1736,7 +1232,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1754,8 +1250,7 @@
             "front": {
               "image": "4ba40fad8306e4ab245bc201b45d34fd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1775,74 +1270,35 @@
             "front": {
               "image": "0d0dbd57095c89e505cf5c1ac5471c1f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "87",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lady-outing-fddv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "014",
-      "name": "Professor Cozmo's Discovery",
+      "name": "ソライシはかせの発見",
+      "englishName": "Professor Cozmo's Discovery",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1850,7 +1306,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1858,10 +1314,10 @@
         "date": "2004-07-01",
         "sort": "2004-07-01.00 japanese/deoxys-constructed-starter-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-cozmo",
+          "id": "professor-cozmo",
           "name": "Professor Cozmo",
           "role": "subject"
         }
@@ -1873,7 +1329,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1891,8 +1347,7 @@
             "front": {
               "image": "e4d976493b9e15d0957ee5402d3d9696"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1912,74 +1367,35 @@
             "front": {
               "image": "f7ebb1ab340d9d58c4785cb7bf778965"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "90",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/clash-of-the-blue-sky",
-          "painting": "076"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/clash-of-the-blue-sky",
-          "card": "076",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "professor-cozmo-s-discovery-aqpo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "015",
-      "name": "Strength Charm",
+      "name": "ちからのかけら",
+      "englishName": "Strength Charm",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1987,7 +1403,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2002,7 +1418,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2020,8 +1436,7 @@
             "front": {
               "image": "dbf5a3a4ab0a5687bdc5e3d56a520f5e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2041,79 +1456,39 @@
             "front": {
               "image": "840071fe6e4476184a806f41c83bd1bb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/deoxys-constructed-starter-deck",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-deoxys",
-              "card": "92",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expedition-expansion",
-          "painting": "056"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expedition-expansion",
-          "card": "056",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "strength-charm-9oky" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/deoxys-constructed-starter-deck",
       "id": "multi-energy",
-      "name": "Multi Energy",
+      "name": "マルチエネルギー",
+      "englishName": "Multi Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Takumi Akabane",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -2122,13 +1497,7 @@
         "sort": "2004-07-01.00 japanese/deoxys-constructed-starter-deck 00015"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -2137,7 +1506,7 @@
             "$kind": "variant",
             "set": "japanese/deoxys-constructed-starter-deck",
             "card": "multi-energy",
-            "variant": "first-edition"
+            "id": "first-edition"
           }
         }
       },
@@ -2156,57 +1525,12 @@
             "front": {
               "image": "7354f34e297e6fe93f7be7f34a82ac4b"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "first-edition",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "first-edition"
-          ],
-          "defaultCopy": "first-edition",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "93",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miracle-of-the-desert",
-                "card": "053"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miracle-of-the-desert",
-          "card": "053",
-          "differs": [
-            "no_number",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition",
+      "painting": { "$kind": "painting", "id": "multi-energy-6r5a" }
     }
-  ]
+  ],
+  "printedCode": null
 }

@@ -1,80 +1,99 @@
 {
   "id": "japanese/virizion-battle-strength-deck",
   "catalog": "japanese",
-  "name": "Virizion Battle Strength Deck",
+  "name": "バトル強化デッキ ビリジオン",
+  "englishName": "Virizion Battle Strength Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/battle-strength-deck-2011-03",
+    "id": "japanese/battle-strength-deck-2011-03",
     "name": "Battle Strength Deck",
     "part": "Virizion"
   },
   "printedTotal": 14,
   "actualTotal": 17,
   "cardCount": 17,
-  "productCount": 0,
   "released": {
     "date": "2011-03-18"
   },
   "code": "BK",
+  "printedCode": "BK",
   "logo": "ff3190043d5508790ce24539105b5852",
   "symbol": "f55a2577ee98d2aaee85462fad504fef",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Virizion Battle Strength Deck",
-      "code": "BK",
-      "released": {
-        "date": "2011-03-18"
-      },
-      "logo": "ff3190043d5508790ce24539105b5852",
-      "symbol": "f55a2577ee98d2aaee85462fad504fef"
-    }
-  ],
   "description": {
-    "text": "The Virizion deck of the Battle Strength Decks, three Japanese half decks released together on 18 March 2011 (Virizion, Terrakion and Cobalion) for players who had learned the game and wanted to battle better. Each held a 30-card half deck and three Battle Strength holo cards to swap in and strengthen it, among them the Legendary Pokémon Virizion and Bianca, the childhood friend from Pokémon Black and White, with a strengthening guide and a quick guide. Darmanitan, Swadloon and Basculin back it up, on Grass, Fire and Water Energy.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームBW　バトル強化デッキ ビリジオン・テラキオン・コバルオン",
-        "url": "https://web.archive.org/web/20110213062459/http://www.pokemon-card.com/products/bw/bk.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Virizion deck of the Battle Strength Decks, three Japanese half decks released together on 18 March 2011 (Virizion, Terrakion and Cobalion) for players who had learned the game and wanted to battle better. Each held a 30-card half deck and three Battle Strength holo cards to swap in and strengthen it, among them the Legendary Pokémon Virizion and Bianca, the childhood friend from Pokémon Black and White, with a strengthening guide and a quick guide. Darmanitan, Swadloon and Basculin back it up, on Grass, Fire and Water Energy."
   },
   "tell": {
-    "text": "A \"BK\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"BK\" mark at the bottom right"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/emerging-powers",
+      "id": "korean/virizion-battle-strength-deck",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "french/emerging-powers",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 12
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "german/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "english/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "italian/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/emerging-powers",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 8
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "001",
-      "name": "Sewaddle",
+      "name": "クルミル",
+      "englishName": "Sewaddle",
       "number": {
         "printed": "001/014",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -82,7 +101,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -93,17 +112,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 540,
+          "id": 540,
           "name": "Sewaddle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 540,
-          "form": "540",
-          "name": "Sewaddle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -113,7 +123,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -127,49 +137,21 @@
             "front": {
               "image": "fb50c582db1bf59af682056a70ed815b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "4",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "sewaddle-lbxh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "002",
-      "name": "Swadloon",
+      "name": "クルマユ",
+      "englishName": "Swadloon",
       "number": {
         "printed": "002/014",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -177,7 +159,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -188,17 +170,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 541,
+          "id": 541,
           "name": "Swadloon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 541,
-          "form": "541",
-          "name": "Swadloon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -208,7 +181,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -222,49 +195,21 @@
             "front": {
               "image": "f0288bd92d4fd72c4347d8d6b4c9a259"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "swadloon-un9y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "003",
-      "name": "Cottonee",
+      "name": "モンメン",
+      "englishName": "Cottonee",
       "number": {
         "printed": "003/014",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -272,7 +217,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -283,17 +228,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 546,
+          "id": 546,
           "name": "Cottonee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 546,
-          "form": "546",
-          "name": "Cottonee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -303,7 +239,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -317,49 +253,21 @@
             "front": {
               "image": "55b8d85127c2273d37569e40fd259593"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "9",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cottonee-h0nw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "004",
-      "name": "Darumaka",
+      "name": "ダルマッカ",
+      "englishName": "Darumaka",
       "number": {
         "printed": "004/014",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -367,7 +275,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -378,17 +286,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 554,
+          "id": 554,
           "name": "Darumaka"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 554,
-          "form": "554",
-          "name": "Darumaka",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -398,7 +297,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -412,49 +311,21 @@
             "front": {
               "image": "5171bf649b8883da0b1464b140911efc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "darumaka-59og" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "005",
-      "name": "Darmanitan",
+      "name": "ヒヒダルマ",
+      "englishName": "Darmanitan",
       "number": {
         "printed": "005/014",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -462,7 +333,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -473,17 +344,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 555,
+          "id": 555,
           "name": "Darmanitan"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 555,
-          "form": "555",
-          "name": "Darmanitan",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -493,7 +355,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -507,49 +369,21 @@
             "front": {
               "image": "5bd453973eda184e769d52485a5b5df8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "darmanitan-l8mr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "006",
-      "name": "Basculin",
+      "name": "バスラオ",
+      "englishName": "Basculin",
       "number": {
         "printed": "006/014",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -557,7 +391,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -568,17 +402,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 550,
+          "id": 550,
           "name": "Basculin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 550,
-          "form": "550",
-          "name": "Basculin",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -588,7 +413,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -602,49 +427,21 @@
             "front": {
               "image": "a59b512b861215e9e7919cbe10541df7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basculin-x7l1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "007",
-      "name": "Cubchoo",
+      "name": "クマシュン",
+      "englishName": "Cubchoo",
       "number": {
         "printed": "007/014",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -652,7 +449,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kanako-eo",
+          "id": "kanako-eo",
           "name": "Kanako Eo"
         }
       ],
@@ -663,17 +460,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 613,
+          "id": 613,
           "name": "Cubchoo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 613,
-          "form": "613",
-          "name": "Cubchoo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -683,7 +471,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -697,49 +485,21 @@
             "front": {
               "image": "d0a7027a0155a80295b6e9cb63958fb1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cubchoo-xsfa" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "008",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "008/014",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -747,7 +507,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -762,7 +522,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -776,61 +536,21 @@
             "front": {
               "image": "448842587fef53257302f6736edb0832"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "93",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cobalion-battle-strength-deck",
-                "card": "008"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "008"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "card": "008",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-search-04vl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "009",
-      "name": "Great Ball",
+      "name": "スーパーボール",
+      "englishName": "Great Ball",
       "number": {
         "printed": "009/014",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -838,7 +558,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -853,7 +573,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -867,58 +587,21 @@
             "front": {
               "image": "a4b94bacde08ed83338692a09a530661"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "great-ball-7wrs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "010",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "010/014",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -926,7 +609,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -941,7 +624,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -955,63 +638,21 @@
             "front": {
               "image": "b1345f84242eb97ca7ba5aed388df8b8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "104",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "35"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "35"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "35",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-9h3j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "011",
-      "name": "Pokémon Catcher",
+      "name": "ポケモンキャッチャー",
+      "englishName": "Pokémon Catcher",
       "number": {
         "printed": "011/014",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1019,7 +660,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1034,7 +675,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1048,58 +689,21 @@
             "front": {
               "image": "e5be87d88774857027d43455c6de2450"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "95",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-rd8f" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "012",
-      "name": "Cheren",
+      "name": "チェレン",
+      "englishName": "Cheren",
       "number": {
         "printed": "012/014",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1107,7 +711,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1115,10 +719,10 @@
         "date": "2011-03-18",
         "sort": "2011-03-18.00 japanese/virizion-battle-strength-deck 00011"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cheren",
+          "id": "cheren",
           "name": "Cheren",
           "role": "subject"
         }
@@ -1130,7 +734,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1144,58 +748,21 @@
             "front": {
               "image": "2eea25a23725301fae8dc9b03f4a573b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cheren-2as2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "013",
-      "name": "Virizion",
+      "name": "ビリジオン",
+      "englishName": "Virizion",
       "number": {
         "printed": "013/014",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1203,7 +770,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1214,17 +781,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 640,
+          "id": 640,
           "name": "Virizion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 640,
-          "form": "640",
-          "name": "Virizion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1234,7 +792,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1248,49 +806,21 @@
             "front": {
               "image": "9b1aa7adb48dd903f0bc0beeebe1b2c4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/virizion-battle-strength-deck",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "virizion-cgri" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "014",
-      "name": "Bianca",
+      "name": "ベル",
+      "englishName": "Bianca",
       "number": {
         "printed": "014/014",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1298,7 +828,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1306,10 +836,10 @@
         "date": "2011-03-18",
         "sort": "2011-03-18.00 japanese/virizion-battle-strength-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bianca",
+          "id": "bianca",
           "name": "Bianca",
           "role": "subject"
         }
@@ -1321,7 +851,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "014",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1335,52 +865,18 @@
             "front": {
               "image": "9eaf23c50758165380c12f9b18538323"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "90",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "014"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "card": "014",
-          "differs": []
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "bianca-vexp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "fire-energy",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1394,7 +890,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "fire-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1408,27 +904,17 @@
             "front": {
               "image": "f540c748bd2426880b96eceb57d6fd3a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "grass-energy",
-      "name": "Grass Energy",
+      "name": "基本【草】エネルギー",
+      "englishName": "Grass Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1442,7 +928,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "grass-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1456,27 +942,17 @@
             "front": {
               "image": "c1975f6f3143ead71bece8c6199c8e36"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/virizion-battle-strength-deck",
       "id": "water-energy",
-      "name": "Water Energy",
+      "name": "基本【水】エネルギー",
+      "englishName": "Water Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1490,7 +966,7 @@
             "$kind": "variant",
             "set": "japanese/virizion-battle-strength-deck",
             "card": "water-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1504,23 +980,10 @@
             "front": {
               "image": "e09c43691338f6a80123e285eb08d39d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
   ]
 }

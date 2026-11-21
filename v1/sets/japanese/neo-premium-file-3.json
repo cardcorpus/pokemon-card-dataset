@@ -1,55 +1,51 @@
 {
   "id": "japanese/neo-premium-file-3",
   "catalog": "japanese",
-  "name": "Neo Premium File 3",
+  "name": "プレミアムファイル3",
+  "englishName": "Neo Premium File 3",
   "era": {
     "$kind": "era",
-    "era": "japanese/neo-era",
+    "id": "japanese/neo-era",
     "name": "Neo Era"
   },
   "type": "box",
   "language": "ja",
   "actualTotal": 9,
   "cardCount": 9,
-  "productCount": 0,
   "released": {
     "date": "2000-11-23"
   },
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Neo Premium File 3",
-      "released": {
-        "date": "2000-11-23"
-      }
-    }
-  ],
   "description": {
-    "text": "A file of nine cards, each of a different type, whose art is cut from three panoramas: a forest painted by Sumiyoshi Kizuki (Celebi, Sudowoodo and Sneasel), the Burned Tower by Naoyo Kimura (Raikou, Entei and Suicune) and the sky by Aya Kusube (Lugia, Ho-Oh and Skarmory). Beside Celebi, a mythical Pokémon, are the five legendary Pokémon of Gold and Silver: Raikou, Entei, Suicune, Lugia and Ho-Oh.",
-    "sources": [
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "A file of nine cards, each of a different type, whose art is cut from three panoramas: a forest painted by Sumiyoshi Kizuki (Celebi, Sudowoodo and Sneasel), the Burned Tower by Naoyo Kimura (Raikou, Entei and Suicune) and the sky by Aya Kusube (Lugia, Ho-Oh and Skarmory). Beside Celebi, a mythical Pokémon, are the five legendary Pokémon of Gold and Silver: Raikou, Entei, Suicune, Lugia and Ho-Oh."
   },
   "tell": {
-    "text": "A black crown-like symbol",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "A black crown-like symbol"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/neo-revelation",
+      "id": "french/neo-revelation",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "german/neo-revelation",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "english/neo-revelation",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "italian/neo-revelation",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 9
@@ -57,11 +53,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-185",
-      "name": "Sudowoodo",
+      "name": "ウソッキー",
+      "englishName": "Sudowoodo",
       "number": {
         "printed": "No. 185",
-        "numerator": "No. 185"
+        "short": "No. 185"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -69,7 +68,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -80,17 +79,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 185,
+          "id": 185,
           "name": "Sudowoodo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 185,
-          "form": "185",
-          "name": "Sudowoodo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -100,7 +90,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-185",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -114,49 +104,21 @@
             "front": {
               "image": "f6507764de41cbfd82e916467690802a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "26",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-185"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "sudowoodo-0hre" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-215",
-      "name": "Sneasel",
+      "name": "ニューラ",
+      "englishName": "Sneasel",
       "number": {
         "printed": "No. 215",
-        "numerator": "No. 215"
+        "short": "No. 215"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -164,7 +126,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -175,17 +137,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 215,
+          "id": 215,
           "name": "Sneasel"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 215,
-          "form": "215",
-          "name": "Sneasel",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -195,7 +148,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-215",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -209,49 +162,21 @@
             "front": {
               "image": "a37d5fa13b6b5faa891ab8b086a860fa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "24",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-215"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "sneasel-ihe3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-227",
-      "name": "Skarmory",
+      "name": "エアームド",
+      "englishName": "Skarmory",
       "number": {
         "printed": "No. 227",
-        "numerator": "No. 227"
+        "short": "No. 227"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -259,7 +184,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aya-kusube",
+          "id": "aya-kusube",
           "name": "Aya Kusube"
         }
       ],
@@ -270,17 +195,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 227,
+          "id": 227,
           "name": "Skarmory"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 227,
-          "form": "227",
-          "name": "Skarmory",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -290,7 +206,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-227",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -304,49 +220,21 @@
             "front": {
               "image": "6a5e19e8f2b53985a1d89a739622def6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "23",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-227"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "skarmory-291n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-243",
-      "name": "Raikou",
+      "name": "ライコウ",
+      "englishName": "Raikou",
       "number": {
         "printed": "No. 243",
-        "numerator": "No. 243"
+        "short": "No. 243"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -354,7 +242,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -365,17 +253,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 243,
+          "id": 243,
           "name": "Raikou"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 243,
-          "form": "243",
-          "name": "Raikou",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -385,7 +264,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-243",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -399,49 +278,21 @@
             "front": {
               "image": "980a4a53982f5c3302dac0c3c3b0baff"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-243"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "raikou-7kzb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-244",
-      "name": "Entei",
+      "name": "エンテイ",
+      "englishName": "Entei",
       "number": {
         "printed": "No. 244",
-        "numerator": "No. 244"
+        "short": "No. 244"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -449,7 +300,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -460,17 +311,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 244,
+          "id": 244,
           "name": "Entei"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 244,
-          "form": "244",
-          "name": "Entei",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -480,7 +322,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-244",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -494,49 +336,21 @@
             "front": {
               "image": "d3f5f545bc8e50d1055482cf10a67b86"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-244"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "entei-hd5l" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-245",
-      "name": "Suicune",
+      "name": "スイクン",
+      "englishName": "Suicune",
       "number": {
         "printed": "No. 245",
-        "numerator": "No. 245"
+        "short": "No. 245"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -544,7 +358,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -555,17 +369,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 245,
+          "id": 245,
           "name": "Suicune"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 245,
-          "form": "245",
-          "name": "Suicune",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -575,7 +380,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-245",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -589,49 +394,21 @@
             "front": {
               "image": "4df4afecd58f440aeb4d002faa5eb597"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "27",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-245"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "suicune-a1cg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-249",
-      "name": "Lugia",
+      "name": "ルギア",
+      "englishName": "Lugia",
       "number": {
         "printed": "No. 249",
-        "numerator": "No. 249"
+        "short": "No. 249"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -639,7 +416,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aya-kusube",
+          "id": "aya-kusube",
           "name": "Aya Kusube"
         }
       ],
@@ -650,17 +427,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 249,
+          "id": 249,
           "name": "Lugia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 249,
-          "form": "249",
-          "name": "Lugia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -670,7 +438,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-249",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -684,49 +452,21 @@
             "front": {
               "image": "20c763ff5bbfa22739e6200d672e8861"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-249"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "lugia-nlnm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-250",
-      "name": "Ho-Oh",
+      "name": "ホウオウ",
+      "englishName": "Ho-Oh",
       "number": {
         "printed": "No. 250",
-        "numerator": "No. 250"
+        "short": "No. 250"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -734,7 +474,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aya-kusube",
+          "id": "aya-kusube",
           "name": "Aya Kusube"
         }
       ],
@@ -745,17 +485,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 250,
+          "id": 250,
           "name": "Ho-Oh"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 250,
-          "form": "250",
-          "name": "Ho-Oh",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -765,7 +496,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-250",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -779,56 +510,21 @@
             "front": {
               "image": "d0174df18d07179540664b805efbbb01"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-250"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "048"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "ho-oh-mmg3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/neo-premium-file-3",
       "id": "no-251",
-      "name": "Celebi",
+      "name": "セレビィ",
+      "englishName": "Celebi",
       "number": {
         "printed": "No. 251",
-        "numerator": "No. 251"
+        "short": "No. 251"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -836,7 +532,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -847,17 +543,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 251,
+          "id": 251,
           "name": "Celebi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 251,
-          "form": "251",
-          "name": "Celebi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -867,7 +554,7 @@
             "$kind": "variant",
             "set": "japanese/neo-premium-file-3",
             "card": "no-251",
-            "variant": "cosmos-holo"
+            "id": "cosmos-holo"
           }
         }
       },
@@ -881,42 +568,12 @@
             "front": {
               "image": "508af54c072d8a3e56d67c58379e0f1d"
             }
-          },
-          "collectingVariation": "v-ddb26e290c29bfa45166fd8a480ae461b0ed446f"
+          }
         }
       ],
-      "defaultCopy": "cosmos-holo",
-      "collectingVariations": [
-        {
-          "id": "v-ddb26e290c29bfa45166fd8a480ae461b0ed446f",
-          "name": "Cosmos holo",
-          "variants": [
-            "cosmos-holo"
-          ],
-          "defaultCopy": "cosmos-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-ddb26e290c29bfa45166fd8a480ae461b0ed446f",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-revelation",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/neo-premium-file-3",
-          "painting": "no-251"
-        }
-      }
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "celebi-uvej" }
     }
-  ]
+  ],
+  "printedCode": null
 }

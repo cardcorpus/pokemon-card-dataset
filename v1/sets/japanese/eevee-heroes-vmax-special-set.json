@@ -1,73 +1,85 @@
 {
   "id": "japanese/eevee-heroes-vmax-special-set",
   "catalog": "japanese",
-  "name": "Eevee Heroes VMAX Special Set",
+  "name": "VMAXスペシャルセット イーブイヒーローズ",
+  "englishName": "Eevee Heroes VMAX Special Set",
   "era": {
     "$kind": "era",
-    "era": "japanese/sword-shield",
-    "name": "Sword & Shield"
+    "id": "japanese/sword-shield",
+    "name": "ソード&シールド",
+    "englishName": "Sword & Shield"
   },
   "type": "box",
   "language": "ja",
   "printedTotal": 4,
   "actualTotal": 8,
   "cardCount": 8,
-  "productCount": 0,
   "released": {
     "date": "2021-05-28"
   },
   "code": "SP4",
+  "printedCode": "SP4",
   "logo": "08bccd6368867a0f535596d6b3941424",
   "symbol": "386fc861214a83e1b6e79239dea0fe78",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Eevee Heroes VMAX Special Set",
-      "code": "SP4",
-      "released": {
-        "date": "2021-05-28"
-      },
-      "logo": "08bccd6368867a0f535596d6b3941424",
-      "symbol": "386fc861214a83e1b6e79239dea0fe78"
-    }
-  ],
   "description": {
-    "text": "VMAX Special Set Eevee Heroes, released on 28 May 2021 with the Eevee Heroes expansion: eight Eevee Heroes packs and a VMAX promo card pack holding one of four card sets, Flareon VMAX, Vaporeon VMAX, Jolteon VMAX or Espeon VMAX, each with three holo basic Energy of its type.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: VMAXスペシャルセット イーブイヒーローズ",
-        "url": "https://web.archive.org/web/20210430020218/https://www.pokemon-card.com/products/s/sp4.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 商品情報 (product list, December 2022)",
-        "url": "https://web.archive.org/web/20221218063730/https://www.pokemon-card.com/products/"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "VMAX Special Set Eevee Heroes, released on 28 May 2021 with the Eevee Heroes expansion: eight Eevee Heroes packs and a VMAX promo card pack holding one of four card sets, Flareon VMAX, Vaporeon VMAX, Jolteon VMAX or Espeon VMAX, each with three holo basic Energy of its type."
   },
   "tell": {
-    "text": "An \"SP4\" mark at the bottom left",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"SP4\" mark at the bottom left"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/evolving-skies",
+      "id": "korean/eevee-heroes-vmax-special-set",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "french/evolving-skies",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 4
     },
     {
       "$kind": "set",
-      "set": "zh-hans/nine-colours-gathering-friend",
+      "id": "german/evolving-skies",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "english/evolving-skies",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "italian/evolving-skies",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/evolving-skies",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/evolving-skies",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 4
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hans/nine-colours-gathering-friend",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 4
@@ -75,11 +87,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "001",
-      "name": "Flareon VMAX",
+      "name": "ブースターVMAX",
+      "englishName": "Flareon VMAX",
       "number": {
         "printed": "001/004",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -87,7 +102,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -98,17 +113,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 136,
+          "id": 136,
           "name": "Flareon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 136,
-          "form": "136",
-          "name": "Flareon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -118,7 +124,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -132,84 +138,21 @@
             "front": {
               "image": "fc2646e8a88aace4777216236c9ff0e1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/evolving-skies",
-              "card": "018",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/nine-colours-gathering-friend",
-              "card": "021",
-              "language": "zh-Hans",
-              "printCount": 5,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/eevee-advanced-gift-boxes",
-              "card": "002",
-              "language": "zh-Hans",
-              "printCount": 5
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/start-deck-100",
-              "card": "052",
-              "language": "zh-Hans",
-              "printCount": 5
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/eevee-heroes-vmax-special-set",
-          "painting": "001"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/start-deck-100",
-            "card": "052",
-            "differs": [
-              "finish",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "flareon-vmax-sybn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "002",
-      "name": "Vaporeon VMAX",
+      "name": "シャワーズVMAX",
+      "englishName": "Vaporeon VMAX",
       "number": {
         "printed": "002/004",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -217,7 +160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -228,17 +171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 134,
+          "id": 134,
           "name": "Vaporeon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 134,
-          "form": "134",
-          "name": "Vaporeon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -248,7 +182,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -262,66 +196,21 @@
             "front": {
               "image": "bea8e034d74a03de87075143ff327544"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/evolving-skies",
-              "card": "030",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/nine-colours-gathering-friend",
-              "card": "027",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/eevee-advanced-gift-boxes",
-              "card": "005",
-              "language": "zh-Hans",
-              "printCount": 3
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/eevee-heroes-vmax-special-set",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "vaporeon-vmax-b79u" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "003",
-      "name": "Jolteon VMAX",
+      "name": "サンダースVMAX",
+      "englishName": "Jolteon VMAX",
       "number": {
         "printed": "003/004",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -329,7 +218,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -340,17 +229,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 135,
+          "id": 135,
           "name": "Jolteon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 135,
-          "form": "135",
-          "name": "Jolteon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -360,7 +240,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -374,66 +254,21 @@
             "front": {
               "image": "2a26b0aefd055df850bf883286cc2f43"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/evolving-skies",
-              "card": "051",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/nine-colours-gathering-friend",
-              "card": "049",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/eevee-advanced-gift-boxes",
-              "card": "008",
-              "language": "zh-Hans",
-              "printCount": 3
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/eevee-heroes-vmax-special-set",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "jolteon-vmax-dv2x" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "004",
-      "name": "Espeon VMAX",
+      "name": "エーフィVMAX",
+      "englishName": "Espeon VMAX",
       "number": {
         "printed": "004/004",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -441,7 +276,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -452,17 +287,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 196,
+          "id": 196,
           "name": "Espeon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 196,
-          "form": "196",
-          "name": "Espeon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -472,7 +298,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -486,77 +312,21 @@
             "front": {
               "image": "23353735648870461d9727e47b85c730"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/evolving-skies",
-              "card": "065",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/nine-colours-gathering-friend",
-              "card": "059",
-              "language": "zh-Hans",
-              "printCount": 3,
-              "preferred": true
-            },
-            {
-              "$kind": "card",
-              "set": "zh-hans/start-deck-100",
-              "card": "173",
-              "language": "zh-Hans",
-              "printCount": 3
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/eevee-heroes-vmax-special-set",
-          "painting": "004"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/start-deck-100",
-            "card": "173",
-            "differs": [
-              "finish",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "espeon-vmax-wav3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "fir",
-      "name": "Fire Energy",
+      "name": "基本炎エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "FIR",
-        "numerator": "FIR"
+        "short": "FIR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -571,7 +341,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "fir",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -585,30 +355,20 @@
             "front": {
               "image": "2f766bc96e1849d055e328fabf1bccbb"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "lig",
-      "name": "Lightning Energy",
+      "name": "基本雷エネルギー",
+      "englishName": "Lightning Energy",
       "number": {
         "printed": "LIG",
-        "numerator": "LIG"
+        "short": "LIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -623,7 +383,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "lig",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -637,30 +397,20 @@
             "front": {
               "image": "942da2cc418be588f13d973dff656e3b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "psy",
-      "name": "Psychic Energy",
+      "name": "基本超エネルギー",
+      "englishName": "Psychic Energy",
       "number": {
         "printed": "PSY",
-        "numerator": "PSY"
+        "short": "PSY"
       },
       "cardType": "energy",
       "language": "ja",
@@ -675,7 +425,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "psy",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -689,30 +439,20 @@
             "front": {
               "image": "91d775768d7fbe0f68668c71dc16b269"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/eevee-heroes-vmax-special-set",
       "id": "wat",
-      "name": "Water Energy",
+      "name": "基本水エネルギー",
+      "englishName": "Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "ja",
@@ -727,7 +467,7 @@
             "$kind": "variant",
             "set": "japanese/eevee-heroes-vmax-special-set",
             "card": "wat",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -741,23 +481,10 @@
             "front": {
               "image": "7b92c4ec114d6fe62835de92ae3c35de"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     }
   ]
 }

@@ -8,7 +8,7 @@
       "category": "Gulp Pokémon",
       "family": {
         "$kind": "pokemon-family",
-        "family": "cramorant"
+        "id": "cramorant"
       },
       "names": {
         "de": "Urgl",
@@ -25,13 +25,7 @@
       "description": {
         "fun": "A gluttonous, rather dim seabird that tries to swallow everything whole, ideally an Arrokuda. Sometimes it grabs a Pikachu by mistake and just carries on with it stuck in its throat. It can forget what it's battling mid-fight, but never forgets a Trainer it trusts. Its orange shiny colouring may come from British news stories about gulls dyed orange by falling into curry sauce.",
         "guide": "A Flying and Water-type seabird Pokémon based on the cormorant. Cramorant tries to swallow prey whole, and changes into Gulping Form with an Arrokuda in its mouth or Gorging Form with a Pikachu stuck in its throat. It is strong but forgetful.",
-        "tagline": "A forgetful seabird that swallows prey whole, Pikachu included",
-        "sources": [
-          {
-            "title": "Bulbapedia: Cramorant (Pokémon)",
-            "url": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
-          }
-        ]
+        "tagline": "A forgetful seabird that swallows prey whole, Pikachu included"
       },
       "forms": [
         {
@@ -43,8 +37,7 @@
             "water"
           ],
           "pictures": {
-            "official": "751b5624f1085226cf260b86f2f2aae9",
-            "home": "2710214ff510dc65221d4294bb2c8637"
+            "artwork": "751b5624f1085226cf260b86f2f2aae9"
           }
         },
         {
@@ -63,19 +56,11 @@
             "fr": "Nigosier Forme Gobe-Tout"
           },
           "pictures": {
-            "official": "8fbc6366cab92c4f78b3adeadc565b28",
-            "home": "a21aee1d068fa2287e5c95ea211a4e02"
+            "artwork": "8fbc6366cab92c4f78b3adeadc565b28"
           },
           "description": {
-            "fun": "Cramorant with an Arrokuda stuck in its throat. Hit it and it spits the thrashing fish out at high speed, a trick that may borrow from traditional cormorant fishing.",
-            "sources": [
-              {
-                "title": "Bulbapedia: Cramorant (Pokémon)",
-                "url": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
-              }
-            ]
-          },
-          "term": "form_change"
+            "fun": "Cramorant with an Arrokuda stuck in its throat. Hit it and it spits the thrashing fish out at high speed, a trick that may borrow from traditional cormorant fishing."
+          }
         },
         {
           "id": "845:gorging",
@@ -93,19 +78,11 @@
             "fr": "Nigosier Forme Gobe-Chu"
           },
           "pictures": {
-            "official": "9478a9e1a2c8a82281724f416873f7d2",
-            "home": "4db055df526f09777ba9f5b3277a85c4"
+            "artwork": "9478a9e1a2c8a82281724f416873f7d2"
           },
           "description": {
-            "fun": "Cramorant with a whole Pikachu lodged in its gullet. It's choking a little but won't let go, and the Pikachu's prickling electricity gives attackers a shock.",
-            "sources": [
-              {
-                "title": "Bulbapedia: Cramorant (Pokémon)",
-                "url": "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)"
-              }
-            ]
-          },
-          "term": "form_change"
+            "fun": "Cramorant with a whole Pikachu lodged in its gullet. It's choking a little but won't let go, and the Pikachu's prickling electricity gives attackers a shock."
+          }
         }
       ]
     }
@@ -115,12 +92,12 @@
       "from": {
         "$kind": "form",
         "species": 845,
-        "form": "845"
+        "id": "845"
       },
       "to": {
         "$kind": "form",
         "species": 845,
-        "form": "845:gulping"
+        "id": "845:gulping"
       },
       "change": "form_change"
     },
@@ -128,12 +105,12 @@
       "from": {
         "$kind": "form",
         "species": 845,
-        "form": "845"
+        "id": "845"
       },
       "to": {
         "$kind": "form",
         "species": 845,
-        "form": "845:gorging"
+        "id": "845:gorging"
       },
       "change": "form_change"
     }

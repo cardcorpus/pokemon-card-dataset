@@ -1,10 +1,11 @@
 {
   "id": "japanese/metagross-constructed-starter-deck",
   "catalog": "japanese",
-  "name": "Metagross Constructed Starter Deck",
+  "name": "構築済みスターター 「メタグロスデッキ」",
+  "englishName": "Metagross Constructed Starter Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/advanced-generation",
+    "id": "japanese/advanced-generation",
     "name": "Advanced Generation"
   },
   "type": "deck",
@@ -12,48 +13,16 @@
   "printedTotal": 19,
   "actualTotal": 20,
   "cardCount": 20,
-  "productCount": 0,
   "released": {
     "date": "2004-01-16"
   },
   "logo": "0e2a42f6f0868611260042050df7417c",
   "symbol": "ce2230252ecc6106927bb598ffa06fc5",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Metagross Constructed Starter Deck",
-      "released": {
-        "date": "2004-01-16"
-      },
-      "logo": "0e2a42f6f0868611260042050df7417c",
-      "symbol": "ce2230252ecc6106927bb598ffa06fc5"
-    }
-  ],
   "description": {
-    "text": "A starter deck built around Metagross, a Pokémon of both the Psychic and Metal types, released on 16 January 2004 alongside Undone Seal, the fourth ADV expansion. Jirachi is among its Pokémon. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「メタグロスデッキ」",
-        "url": "https://web.archive.org/web/20090227020405/http://www.pokemon-card.com/products/adv/adv_14.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 第4弾拡張パック「とかれた封印」",
-        "url": "https://web.archive.org/web/20081120042931/http://www.pokemon-card.com/products/adv/adv_15.html"
-      }
-    ]
+    "text": "A starter deck built around Metagross, a Pokémon of both the Psychic and Metal types, released on 16 January 2004 alongside Undone Seal, the fourth ADV expansion. Jirachi is among its Pokémon. It is a ready-built 30-card half deck with a coin, a sheet of paper damage counters and markers, and a rule book, so two players could each buy one and play straight away."
   },
   "tell": {
-    "text": "A black ring-and-dot symbol at the bottom right, and a number out of 019",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「メタグロスデッキ」",
-        "url": "https://web.archive.org/web/20090227020405/http://www.pokemon-card.com/products/adv/adv_14.html"
-      }
-    ]
+    "text": "A black ring-and-dot symbol at the bottom right, and a number out of 019"
   },
   "printRuns": [
     {
@@ -66,19 +35,36 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-hidden-legends",
+      "id": "french/ex-hidden-legends",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 15
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-hidden-legends",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-hidden-legends",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 12
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "001",
-      "name": "Meditite",
+      "name": "アサナン",
+      "englishName": "Meditite",
       "number": {
         "printed": "001/019",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -86,7 +72,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -97,17 +83,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 307,
+          "id": 307,
           "name": "Meditite"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 307,
-          "form": "307",
-          "name": "Meditite",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -117,7 +94,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -135,8 +112,7 @@
             "front": {
               "image": "91e3b684a93baeb29eafe4cf6757b82f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -156,65 +132,35 @@
             "front": {
               "image": "2bfb1bb3e4d3c1154becef1d1dd4ae42"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "65",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "meditite-v9ez" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "002",
-      "name": "Baltoy",
+      "name": "ヤジロン",
+      "englishName": "Baltoy",
       "number": {
         "printed": "002/019",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -222,7 +168,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-umemoto",
+          "id": "kyoko-umemoto",
           "name": "Kyoko Umemoto"
         }
       ],
@@ -233,17 +179,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 343,
+          "id": 343,
           "name": "Baltoy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 343,
-          "form": "343",
-          "name": "Baltoy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -253,7 +190,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -271,8 +208,7 @@
             "front": {
               "image": "12b91d50bef4f79e0d9b8c181a53d51c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -292,65 +228,35 @@
             "front": {
               "image": "1436b8df157e7da1e7f632251aa4a213"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "baltoy-p6f4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "003",
-      "name": "Beldum",
+      "name": "ダンバル",
+      "englishName": "Beldum",
       "number": {
         "printed": "003/019",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -358,7 +264,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -369,17 +275,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 374,
+          "id": 374,
           "name": "Beldum"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 374,
-          "form": "374",
-          "name": "Beldum",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -389,7 +286,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -407,8 +304,7 @@
             "front": {
               "image": "d3cd33722c880728bc1cbfe9eacf28ba"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -428,65 +324,35 @@
             "front": {
               "image": "8d7de438346e7786284e1023a93ca525"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "54",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "beldum-vixp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "004",
-      "name": "Metang",
+      "name": "メタング",
+      "englishName": "Metang",
       "number": {
         "printed": "004/019",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -494,7 +360,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -505,17 +371,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 375,
+          "id": 375,
           "name": "Metang"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 375,
-          "form": "375",
-          "name": "Metang",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -525,7 +382,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -543,8 +400,7 @@
             "front": {
               "image": "fd4cfc25b51cfaa5f84cd15a36c0c3de"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -564,65 +420,35 @@
             "front": {
               "image": "ecbb576a003e4c43ecf6c85d0fc0260c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "metang-rrgj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "005",
-      "name": "Metagross",
+      "name": "メタグロス",
+      "englishName": "Metagross",
       "number": {
         "printed": "005/019",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -630,7 +456,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -641,17 +467,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 376,
+          "id": 376,
           "name": "Metagross"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 376,
-          "form": "376",
-          "name": "Metagross",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -661,7 +478,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -679,8 +496,7 @@
             "front": {
               "image": "0834489800dd43450ae9a8daacc0373f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -700,65 +516,35 @@
             "front": {
               "image": "2168cfae2f54b01fbeb486ef32103475"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "005",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "005",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "11",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "metagross-wex9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "006",
-      "name": "Jirachi",
+      "name": "ジラーチ",
+      "englishName": "Jirachi",
       "number": {
         "printed": "006/019",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -766,7 +552,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -777,17 +563,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 385,
+          "id": 385,
           "name": "Jirachi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 385,
-          "form": "385",
-          "name": "Jirachi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -797,7 +574,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -815,8 +592,7 @@
             "front": {
               "image": "8c487f5147706a454ed7a77914b46458"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -836,65 +612,35 @@
             "front": {
               "image": "e966e87094b602e81b2176906e6d149c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "006",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "006",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "8",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "jirachi-ejfw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "007",
-      "name": "Meditite",
+      "name": "アサナン",
+      "englishName": "Meditite",
       "number": {
         "printed": "007/019",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -902,7 +648,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -913,17 +659,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 307,
+          "id": 307,
           "name": "Meditite"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 307,
-          "form": "307",
-          "name": "Meditite",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -933,7 +670,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -951,8 +688,7 @@
             "front": {
               "image": "b1941128a2330e7622a96596de0fb2de"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -972,65 +708,35 @@
             "front": {
               "image": "268f15fddb1c57ce64e0cd3660b586e2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "meditite-k1n2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "008",
-      "name": "Medicham",
+      "name": "チャーレム",
+      "englishName": "Medicham",
       "number": {
         "printed": "008/019",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1038,7 +744,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1049,17 +755,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 308,
+          "id": 308,
           "name": "Medicham"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 308,
-          "form": "308",
-          "name": "Medicham",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1069,7 +766,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1087,8 +784,7 @@
             "front": {
               "image": "c66f37628bc8133f61dcc31e2d41c0ae"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1108,65 +804,35 @@
             "front": {
               "image": "d6df0e391426a1c4b69d67daca1a082a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "42",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "medicham-c5r3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "009",
-      "name": "Baltoy",
+      "name": "ヤジロン",
+      "englishName": "Baltoy",
       "number": {
         "printed": "009/019",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1174,7 +840,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1185,17 +851,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 343,
+          "id": 343,
           "name": "Baltoy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 343,
-          "form": "343",
-          "name": "Baltoy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1205,7 +862,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1223,8 +880,7 @@
             "front": {
               "image": "48e97140476471bf708944aeb3b74776"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1244,65 +900,35 @@
             "front": {
               "image": "17df3a34673e209991f32d58be7fc65a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "009"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "baltoy-4sc2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "010",
-      "name": "Claydol",
+      "name": "ネンドール",
+      "englishName": "Claydol",
       "number": {
         "printed": "010/019",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1310,7 +936,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1321,17 +947,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 344,
+          "id": 344,
           "name": "Claydol"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 344,
-          "form": "344",
-          "name": "Claydol",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1341,7 +958,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1359,8 +976,7 @@
             "front": {
               "image": "1f6e2d26eb868b0c3826e445be065766"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1380,65 +996,35 @@
             "front": {
               "image": "d87663313cf1646cedb2b02f8aa2beff"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "31",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "010"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "claydol-4ftb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "011",
-      "name": "Beldum",
+      "name": "ダンバル",
+      "englishName": "Beldum",
       "number": {
         "printed": "011/019",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1446,7 +1032,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1457,17 +1043,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 374,
+          "id": 374,
           "name": "Beldum"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 374,
-          "form": "374",
-          "name": "Beldum",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1477,7 +1054,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1495,8 +1072,7 @@
             "front": {
               "image": "827503fbf45b8e0eed789af5860d8b66"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1516,65 +1092,35 @@
             "front": {
               "image": "26fd912672a1bea5aa2ec671d1d8e0d0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "28",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "011"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "beldum-nt7e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "012",
-      "name": "Metang",
+      "name": "メタング",
+      "englishName": "Metang",
       "number": {
         "printed": "012/019",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1582,7 +1128,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1593,17 +1139,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 375,
+          "id": 375,
           "name": "Metang"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 375,
-          "form": "375",
-          "name": "Metang",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1613,7 +1150,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1631,8 +1168,7 @@
             "front": {
               "image": "814fa642c1759b7e10d2a4ffd2e584d7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1652,65 +1188,35 @@
             "front": {
               "image": "5fee87a53baa231c9a5b0f05eeed2ce8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "44",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/metagross-constructed-starter-deck",
-          "painting": "012"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "metang-ri7x" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "013",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "013/019",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1718,7 +1224,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1733,7 +1239,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1751,8 +1257,7 @@
             "front": {
               "image": "15f59dbe02ab716cb03f65430e941b90"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1772,80 +1277,35 @@
             "front": {
               "image": "c20982af4864a0363a3854e0bdd7f990"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/expedition-base-set",
-              "card": "156",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-e-starter-deck",
-                "card": "025"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "025"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "025",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-8utl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "014",
-      "name": "Life Herb",
+      "name": "ふっかつそう",
+      "englishName": "Life Herb",
       "number": {
         "printed": "014/019",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1853,7 +1313,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1868,7 +1328,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1886,8 +1346,7 @@
             "front": {
               "image": "5768c57484be0a35b1e72bbf70d71869"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1907,81 +1366,35 @@
             "front": {
               "image": "bf4a6324e6f1a2852ecf256f9c5be621"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "90",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/undone-seal",
-          "painting": "073"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/undone-seal",
-          "card": "073",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "056"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "life-herb-wem5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "015",
-      "name": "PokéNav",
+      "name": "ポケナビ",
+      "englishName": "PokéNav",
       "number": {
         "printed": "015/019",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1989,7 +1402,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "katsura-tabata",
+          "id": "katsura-tabata",
           "name": "Katsura Tabata"
         }
       ],
@@ -2004,7 +1417,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2022,8 +1435,7 @@
             "front": {
               "image": "6e7f91bc231ad267146d65f671120df4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2043,96 +1455,35 @@
             "front": {
               "image": "5278485bf501aee193241ec6643f9745"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "88",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "052"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-abundant",
-              "card": "127",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "052"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pokenav-hqmg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "016",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "016/019",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2140,7 +1491,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -2155,7 +1506,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2173,8 +1524,7 @@
             "front": {
               "image": "f49c85b7762358a4cff2ef352c878e34"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2194,85 +1544,43 @@
             "front": {
               "image": "307deded033b03f34be99959723bcdca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "016",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "92",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mudkip-constructed-starter-deck",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "016",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "switch-gzim" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "017",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "017/019",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "trainer",
       "language": "ja",
-      "credit": "K. Hoshiba",
+      "credit": "K Hoshiba",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "k-hoshiba",
+          "id": "k-hoshiba",
           "name": "K. Hoshiba"
         }
       ],
@@ -2287,7 +1595,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "017",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2305,8 +1613,7 @@
             "front": {
               "image": "7817b22301c976fc8f855f8d21b8abeb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2326,77 +1633,35 @@
             "front": {
               "image": "9d657f4a6c43a14b1bb7e892b5359f41"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "017",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "017",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "86",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mudkip-constructed-starter-deck",
-                "card": "017"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "017"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "017",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-op4i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "018",
-      "name": "Steven's Advice",
+      "name": "ダイゴのアドバイス",
+      "englishName": "Steven's Advice",
       "number": {
         "printed": "018/019",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2404,7 +1669,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2412,10 +1677,10 @@
         "date": "2004-01-16",
         "sort": "2004-01-16.00 japanese/metagross-constructed-starter-deck 00017"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "steven",
+          "id": "steven",
           "name": "Steven",
           "role": "subject"
         }
@@ -2427,7 +1692,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2445,8 +1710,7 @@
             "front": {
               "image": "c4897a843903b63378057fb9bea7557c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2466,74 +1730,35 @@
             "front": {
               "image": "766776e9530731c56b3be55b7c0d8d03"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "018",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "92",
-              "language": "en",
-              "printCount": 18,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/undone-seal",
-          "painting": "074"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/undone-seal",
-          "card": "074",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "steven-s-advice-i56r" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "019",
-      "name": "Magnetic Storm",
+      "name": "磁気嵐",
+      "englishName": "Magnetic Storm",
       "number": {
         "printed": "019/019",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -2541,7 +1766,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -2556,7 +1781,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "019",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2574,8 +1799,7 @@
             "front": {
               "image": "b64730346def6778deef1223128f9378"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2595,78 +1819,39 @@
             "front": {
               "image": "c49342e1acd7c66bc3ae58de304f01e3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/metagross-constructed-starter-deck",
           "card": "019",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-hidden-legends",
-              "card": "91",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/undone-seal",
-          "painting": "083"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/undone-seal",
-          "card": "083",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "magnetic-storm-m3gt" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/metagross-constructed-starter-deck",
       "id": "metal-energy",
-      "name": "Metal Energy",
+      "name": "鋼エネルギー",
+      "englishName": "Metal Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Milky Isobe",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -2675,13 +1860,7 @@
         "sort": "2004-01-16.00 japanese/metagross-constructed-starter-deck 00019"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -2690,7 +1869,7 @@
             "$kind": "variant",
             "set": "japanese/metagross-constructed-starter-deck",
             "card": "metal-energy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -2704,54 +1883,12 @@
             "front": {
               "image": "207d587c4f902e0cb855f36d1195b7b7"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "metal-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "metal-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "metal-energy",
-          "differs": []
-        }
-      }
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "metal-energy-pdav" }
     }
-  ]
+  ],
+  "printedCode": null
 }

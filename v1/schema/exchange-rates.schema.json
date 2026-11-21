@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus exchange rates",
+  "description": "The newest exchange rates, per euro: a price in currency A is `amount / rates[A] * rates[B]` in currency B. Served by index.json's `prices.rates`, not in this tree (https://pokemon.cardcorpus.com/v1/docs/guide.md#prices).",
+  "type": "object",
+  "required": [
+    "day",
+    "source",
+    "base",
+    "rates"
+  ],
+  "properties": {
+    "day": {
+      "description": "The day the rates are for.",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "source": {
+      "description": "Who publishes them.",
+      "type": "string"
+    },
+    "base": {
+      "description": "The currency every rate is per one of.",
+      "const": "EUR"
+    },
+    "rates": {
+      "description": "Each currency, by its ISO 4217 code, with how many of it one euro buys.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "A rate.",
+        "type": "number",
+        "exclusiveMinimum": 0
+      }
+    }
+  }
+}

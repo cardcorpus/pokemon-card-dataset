@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus moved addresses",
-  "description": "Every address that was published and no longer resolves, and what became of it: merged into another, moved to another, split into several (every successor, none picked), or removed. An id never changes once published and a retired address is never given to anything else, so a consumer only needs this file when a stored pointer stops resolving. Each successor is the current address, any chain already followed (docs/static-api.md, \"Ids\").",
+  "description": "Every address that was published and no longer resolves, and what became of it: merged into another, moved to another, split into several (every successor, none picked), or removed. An id never changes once published and a retired address is never given to anything else, so a consumer only needs this file when a stored pointer stops resolving. Each successor is the current address, any chain already followed (https://pokemon.cardcorpus.com/v1/docs/guide.md#identifiers).",
   "type": "object",
   "required": [
     "moved"
@@ -21,48 +21,38 @@
             "type": "object",
             "x-cc": {
               "ref": [
+                "catalog",
                 "set",
                 "card",
-                "product",
                 "variant",
-                "product-variant",
                 "painting"
               ]
             },
             "required": [
               "$kind",
-              "set"
+              "id"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `catalog` or `set` or `card` or `variant` or `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "enum": [
+                  "catalog",
                   "set",
                   "card",
-                  "product",
                   "variant",
-                  "product-variant",
                   "painting"
                 ]
               },
               "set": {
-                "description": "The set's id (sets.json).",
+                "description": "The set's id (sets/{catalog}.json). On a `card` and a `variant`: the set it is in; on an old `painting` address, its first print's set.",
                 "type": "string"
               },
               "card": {
-                "description": "The card's id, unique in its set.",
+                "description": "The card's id, unique in its set. On a `variant`: the card it is of.",
                 "type": "string"
               },
-              "product": {
-                "description": "The sealed product's id, unique in its set.",
-                "type": "string"
-              },
-              "variant": {
-                "description": "The copy's id, unique among its card's (or product's) variants.",
-                "type": "string"
-              },
-              "painting": {
-                "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+              "id": {
+                "description": "Its own id: the catalog's (index.json's `catalogs`; every set, card and variant id under an old catalog's is read under the new one's), the set's (sets/{catalog}.json), the card's in its set, the variant's among its card's, or the painting's (a painting address with a `set` is an old one, named for its first print's card, from before paintings had ids of their own).",
                 "type": "string"
               }
             }
@@ -72,48 +62,38 @@
             "type": "object",
             "x-cc": {
               "ref": [
+                "catalog",
                 "set",
                 "card",
-                "product",
                 "variant",
-                "product-variant",
                 "painting"
               ]
             },
             "required": [
               "$kind",
-              "set"
+              "id"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `catalog` or `set` or `card` or `variant` or `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "enum": [
+                  "catalog",
                   "set",
                   "card",
-                  "product",
                   "variant",
-                  "product-variant",
                   "painting"
                 ]
               },
               "set": {
-                "description": "The set's id (sets.json).",
+                "description": "The set's id (sets/{catalog}.json). On a `card` and a `variant`: the set it is in; on an old `painting` address, its first print's set.",
                 "type": "string"
               },
               "card": {
-                "description": "The card's id, unique in its set.",
+                "description": "The card's id, unique in its set. On a `variant`: the card it is of.",
                 "type": "string"
               },
-              "product": {
-                "description": "The sealed product's id, unique in its set.",
-                "type": "string"
-              },
-              "variant": {
-                "description": "The copy's id, unique among its card's (or product's) variants.",
-                "type": "string"
-              },
-              "painting": {
-                "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+              "id": {
+                "description": "Its own id: the catalog's (index.json's `catalogs`; every set, card and variant id under an old catalog's is read under the new one's), the set's (sets/{catalog}.json), the card's in its set, the variant's among its card's, or the painting's (a painting address with a `set` is an old one, named for its first print's card, from before paintings had ids of their own).",
                 "type": "string"
               }
             }
@@ -123,48 +103,38 @@
             "type": "object",
             "x-cc": {
               "ref": [
+                "catalog",
                 "set",
                 "card",
-                "product",
                 "variant",
-                "product-variant",
                 "painting"
               ]
             },
             "required": [
               "$kind",
-              "set"
+              "id"
             ],
             "properties": {
               "$kind": {
-                "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                "description": "What the pointer points at: `catalog` or `set` or `card` or `variant` or `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                 "enum": [
+                  "catalog",
                   "set",
                   "card",
-                  "product",
                   "variant",
-                  "product-variant",
                   "painting"
                 ]
               },
               "set": {
-                "description": "The set's id (sets.json).",
+                "description": "The set's id (sets/{catalog}.json). On a `card` and a `variant`: the set it is in; on an old `painting` address, its first print's set.",
                 "type": "string"
               },
               "card": {
-                "description": "The card's id, unique in its set.",
+                "description": "The card's id, unique in its set. On a `variant`: the card it is of.",
                 "type": "string"
               },
-              "product": {
-                "description": "The sealed product's id, unique in its set.",
-                "type": "string"
-              },
-              "variant": {
-                "description": "The copy's id, unique among its card's (or product's) variants.",
-                "type": "string"
-              },
-              "painting": {
-                "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+              "id": {
+                "description": "Its own id: the catalog's (index.json's `catalogs`; every set, card and variant id under an old catalog's is read under the new one's), the set's (sets/{catalog}.json), the card's in its set, the variant's among its card's, or the painting's (a painting address with a `set` is an old one, named for its first print's card, from before paintings had ids of their own).",
                 "type": "string"
               }
             }
@@ -177,48 +147,38 @@
               "type": "object",
               "x-cc": {
                 "ref": [
+                  "catalog",
                   "set",
                   "card",
-                  "product",
                   "variant",
-                  "product-variant",
                   "painting"
                 ]
               },
               "required": [
                 "$kind",
-                "set"
+                "id"
               ],
               "properties": {
                 "$kind": {
-                  "description": "What the pointer points at: `set` or `card` or `product` or `variant` or `product-variant` or `painting`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "description": "What the pointer points at: `catalog` or `set` or `card` or `variant` or `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                   "enum": [
+                    "catalog",
                     "set",
                     "card",
-                    "product",
                     "variant",
-                    "product-variant",
                     "painting"
                   ]
                 },
                 "set": {
-                  "description": "The set's id (sets.json).",
+                  "description": "The set's id (sets/{catalog}.json). On a `card` and a `variant`: the set it is in; on an old `painting` address, its first print's set.",
                   "type": "string"
                 },
                 "card": {
-                  "description": "The card's id, unique in its set.",
+                  "description": "The card's id, unique in its set. On a `variant`: the card it is of.",
                   "type": "string"
                 },
-                "product": {
-                  "description": "The sealed product's id, unique in its set.",
-                  "type": "string"
-                },
-                "variant": {
-                  "description": "The copy's id, unique among its card's (or product's) variants.",
-                  "type": "string"
-                },
-                "painting": {
-                  "description": "The painting's id, unique in its set's paintings file: its first print's card id.",
+                "id": {
+                  "description": "Its own id: the catalog's (index.json's `catalogs`; every set, card and variant id under an old catalog's is read under the new one's), the set's (sets/{catalog}.json), the card's in its set, the variant's among its card's, or the painting's (a painting address with a `set` is an old one, named for its first print's card, from before paintings had ids of their own).",
                   "type": "string"
                 }
               }

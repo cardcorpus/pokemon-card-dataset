@@ -1,52 +1,51 @@
 {
   "id": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
   "catalog": "japanese",
-  "name": "Silver Lance & Jet-Black Spirit Jumbo Pack Set",
+  "name": "ジャンボパックセット 白銀のランス＆漆黒のガイスト",
+  "englishName": "Silver Lance & Jet-Black Spirit Jumbo Pack Set",
   "era": {
     "$kind": "era",
-    "era": "japanese/sword-shield",
-    "name": "Sword & Shield"
+    "id": "japanese/sword-shield",
+    "name": "ソード&シールド",
+    "englishName": "Sword & Shield"
   },
   "type": "box",
   "language": "ja",
   "printedTotal": 6,
   "actualTotal": 6,
   "cardCount": 6,
-  "productCount": 0,
   "released": {
     "date": "2021-04-23"
   },
   "code": "SP3",
+  "printedCode": "SP3",
   "logo": "06d78d3743725b86818087304ea6a46a",
   "symbol": "71b781dd3b02f5f38aea009a30fa7456",
-  "releases": [
+  "description": {
+    "text": "Released on 23 April 2021 alongside the twin expansions Silver Lance and Jet-Black Spirit. Each set held four booster packs, two of each expansion, a Calyrex coin in a matching colour and one of two fixed three-card packs: Ice Rider Calyrex V or Shadow Rider Calyrex V, the Legendary Pokémon merged with Glastrier or Spectrier, with a Trainer and a Special Energy card that support its type. The six cards carry their own set mark and number."
+  },
+  "tell": {
+    "text": "An \"SP3\" mark at the bottom left, and a number out of 006"
+  },
+  "links": [
     {
-      "language": "ja",
-      "name": "Silver Lance & Jet-Black Spirit Jumbo Pack Set",
-      "code": "SP3",
-      "released": {
-        "date": "2021-04-23"
-      },
-      "logo": "06d78d3743725b86818087304ea6a46a",
-      "symbol": "71b781dd3b02f5f38aea009a30fa7456"
+      "$kind": "set",
+      "id": "korean/silver-lance-jet-black-spirit-box",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 6
     }
   ],
-  "tell": {
-    "text": "An \"SP3\" mark at the bottom left, and a number out of 006",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
-  },
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
       "id": "001",
-      "name": "Ice Rider Calyrex V",
+      "name": "はくばバドレックスV",
+      "englishName": "Ice Rider Calyrex V",
       "number": {
         "printed": "001/006",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -54,7 +53,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -65,17 +64,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 898,
-          "name": "Calyrex"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 898,
-          "form": "898:ice",
-          "name": "Ice Rider Calyrex",
-          "role": "subject"
+          "id": 898,
+          "name": "Calyrex",
+          "forms": [
+            {
+              "id": "898:ice",
+              "name": "Ice Rider Calyrex"
+            }
+          ]
         }
       ],
       "picture": {
@@ -85,7 +81,7 @@
             "$kind": "variant",
             "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -99,59 +95,21 @@
             "front": {
               "image": "029d4da7196623277b72e8e01ef64d46"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/swsh-black-star-promos",
-              "card": "swsh130",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/primordial-arts-v-starter-deck",
-              "card": "044",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "ice-rider-calyrex-v-4llf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
       "id": "002",
-      "name": "Shadow Rider Calyrex V",
+      "name": "こくばバドレックスV",
+      "englishName": "Shadow Rider Calyrex V",
       "number": {
         "printed": "002/006",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -159,7 +117,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -170,17 +128,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 898,
-          "name": "Calyrex"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 898,
-          "form": "898:shadow",
-          "name": "Shadow Rider Calyrex",
-          "role": "subject"
+          "id": 898,
+          "name": "Calyrex",
+          "forms": [
+            {
+              "id": "898:shadow",
+              "name": "Shadow Rider Calyrex"
+            }
+          ]
         }
       ],
       "picture": {
@@ -190,7 +145,7 @@
             "$kind": "variant",
             "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -204,59 +159,21 @@
             "front": {
               "image": "8631e639e7c4cae633f29b7d8dfb42d5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/swsh-black-star-promos",
-              "card": "swsh131",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/primordial-arts-v-starter-deck",
-              "card": "073",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shadow-rider-calyrex-v-58wn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
       "id": "003",
-      "name": "Suspicious Food Tin",
+      "name": "妖しいカンヅメ",
+      "englishName": "Suspicious Food Tin",
       "number": {
         "printed": "003/006",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -264,7 +181,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -279,7 +196,7 @@
             "$kind": "variant",
             "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -293,81 +210,21 @@
             "front": {
               "image": "97c4ca93e8ca7c06a42421e56356661a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/champion-s-path",
-              "card": "066",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/explosive-flame-walker",
-                "card": "063"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-tactics",
-              "card": "042",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/explosive-flame-walker",
-                "card": "063"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/explosive-flame-walker",
-          "painting": "063"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/explosive-flame-walker",
-          "card": "063",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "suspicious-food-tin-ecp6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
       "id": "004",
-      "name": "Capacious Bucket",
+      "name": "たっぷりバケツ",
+      "englishName": "Capacious Bucket",
       "number": {
         "printed": "004/006",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -375,7 +232,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sadaji",
+          "id": "sadaji",
           "name": "sadaji"
         }
       ],
@@ -390,7 +247,7 @@
             "$kind": "variant",
             "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -404,81 +261,21 @@
             "front": {
               "image": "387ee5d72789c0ce26dc0fa8597e36f5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/rebel-clash",
-              "card": "156",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/vmax-rising",
-                "card": "063"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-tactics",
-              "card": "046",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/vmax-rising",
-                "card": "063"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-rising",
-          "painting": "063"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vmax-rising",
-          "card": "063",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "capacious-bucket-rf2a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
       "id": "005",
-      "name": "Wash Water Energy",
+      "name": "ウォッシュ水エネルギー",
+      "englishName": "Wash Water Energy",
       "number": {
         "printed": "005/006",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "energy",
       "language": "ja",
@@ -493,7 +290,7 @@
             "$kind": "variant",
             "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -507,81 +304,21 @@
             "front": {
               "image": "94745659c06e541d166660dc282bdad3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/vivid-voltage",
-              "card": "165",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/amazing-volt-tackle",
-                "card": "099"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/vivid-portrayals-indigo",
-              "card": "114",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/amazing-volt-tackle",
-                "card": "099"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/amazing-volt-tackle",
-          "painting": "099"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/amazing-volt-tackle",
-          "card": "099",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "wash-water-energy-p0sd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
       "id": "006",
-      "name": "Horror Psychic Energy",
+      "name": "ホラー超エネルギー",
+      "englishName": "Horror Psychic Energy",
       "number": {
         "printed": "006/006",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "energy",
       "language": "ja",
@@ -596,7 +333,7 @@
             "$kind": "variant",
             "set": "japanese/silver-lance-jet-black-spirit-jumbo-pack-set",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -610,74 +347,11 @@
             "front": {
               "image": "f82313825d571b10626fc9aeb5a084d5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/rebel-clash",
-              "card": "172",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rebellion-crash",
-                "card": "095"
-              }
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/dynamax-tactics",
-              "card": "054",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rebellion-crash",
-                "card": "095"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rebellion-crash",
-          "painting": "095"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rebellion-crash",
-          "card": "095",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "horror-psychic-energy-mk8e" }
     }
   ]
 }

@@ -2,54 +2,38 @@
   "id": "japanese/water-psychic-battle-strength-set",
   "catalog": "japanese",
   "name": "Water/Psychic Battle Strength Set",
+  "englishName": "Water/Psychic Battle Strength Set",
   "era": {
     "$kind": "era",
-    "era": "japanese/xy",
+    "id": "japanese/xy",
     "name": "XY"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/battle-strength-set",
+    "id": "japanese/battle-strength-set",
     "name": "Battle Strength Set",
     "part": "Water/Psychic"
   },
   "actualTotal": 8,
   "cardCount": 8,
-  "productCount": 0,
   "released": {
     "date": "2015-12-26"
   },
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Water/Psychic Battle Strength Set",
-      "released": {
-        "date": "2015-12-26"
-      }
-    }
-  ],
   "description": {
-    "text": "One of three Battle Strength Sets (バトル強化セット) released in Japan on 26 December 2015, each 16 cards and a player's guide built for two types, here Water and Psychic. The set has no symbol or number of its own: its eight reprints keep the number, set symbol and rarity of the expansions they come from, and its three new cards, Vaporeon-EX, Meowstic-EX and Olympia, are numbered as XY-P promos. Every card but the Pokémon-EX is a normal non-holo card. Its Lapras, a holo card in Collection Y, is non-holo here.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: 一挙公開！「バトル強化セット 水/超」",
-        "url": "https://www.pokemon-card.com/products/xy/battle/battle_000315.html"
-      },
-      {
-        "title": "Bulbapedia: Water/Psychic Battle Strength Set (TCG)",
-        "url": "https://bulbapedia.bulbagarden.net/wiki/Water/Psychic_Battle_Strength_Set_(TCG)"
-      }
-    ]
+    "text": "One of three Battle Strength Sets (バトル強化セット) released in Japan on 26 December 2015, each 16 cards and a player's guide built for two types, here Water and Psychic. The set has no symbol or number of its own: its eight reprints keep the number, set symbol and rarity of the expansions they come from, and its three new cards, Vaporeon-EX, Meowstic-EX and Olympia, are numbered as XY-P promos. Every card but the Pokémon-EX is a normal non-holo card. Its Lapras, a holo card in Collection Y, is non-holo here."
   },
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "018",
-      "name": "Lapras",
+      "name": "ラプラス",
+      "englishName": "Lapras",
       "number": {
         "printed": "018/060",
-        "numerator": "018"
+        "short": "018"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -58,7 +42,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -69,17 +53,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 131,
+          "id": 131,
           "name": "Lapras"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 131,
-          "form": "131",
-          "name": "Lapras",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -89,7 +64,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "018",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -103,63 +78,21 @@
             "front": {
               "image": "4523932807291b6eca9298b6b8c313ec"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "35",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-y",
-                "card": "018"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-y",
-          "painting": "018"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-y",
-          "card": "018",
-          "differs": [
-            "finish"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "lapras-v6as" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "026",
-      "name": "Spoink",
+      "name": "バネブー",
+      "englishName": "Spoink",
       "number": {
         "printed": "026/060",
-        "numerator": "026"
+        "short": "026"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -168,7 +101,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -179,17 +112,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 325,
+          "id": 325,
           "name": "Spoink"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 325,
-          "form": "325",
-          "name": "Spoink",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -199,7 +123,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "026",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -213,61 +137,21 @@
             "front": {
               "image": "f4317531b685d5382087f28b98e7531a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "49",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-x",
-                "card": "026"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-x",
-          "painting": "026"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-x",
-          "card": "026",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "spoink-hqqc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "027",
-      "name": "Grumpig",
+      "name": "ブーピッグ",
+      "englishName": "Grumpig",
       "number": {
         "printed": "027/060",
-        "numerator": "027"
+        "short": "027"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -276,7 +160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sui",
+          "id": "sui",
           "name": "sui"
         }
       ],
@@ -287,17 +171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 326,
+          "id": 326,
           "name": "Grumpig"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 326,
-          "form": "326",
-          "name": "Grumpig",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -307,7 +182,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "027",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -321,61 +196,21 @@
             "front": {
               "image": "a997e608442634d591db4e1996695afe"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-base-set",
-              "card": "50",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/collection-x",
-                "card": "027"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/collection-x",
-          "painting": "027"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/collection-x",
-          "card": "027",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "grumpig-wky5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "062",
-      "name": "Dive Ball",
+      "name": "ダイブボール",
+      "englishName": "Dive Ball",
       "number": {
         "printed": "062/070",
-        "numerator": "062"
+        "short": "062"
       },
       "rarity": "Uncommon (U)",
       "cardType": "trainer",
@@ -384,7 +219,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -399,7 +234,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "062",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,61 +248,21 @@
             "front": {
               "image": "2d1070cedff51491307119a17a8ae98c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/primal-clash",
-              "card": "125",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/tidal-storm",
-                "card": "062"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/tidal-storm",
-          "painting": "062"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/tidal-storm",
-          "card": "062",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "dive-ball-h6ms" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "068",
-      "name": "Rough Seas",
+      "name": "うねりの大海",
+      "englishName": "Rough Seas",
       "number": {
         "printed": "068/070",
-        "numerator": "068"
+        "short": "068"
       },
       "rarity": "Uncommon (U)",
       "cardType": "trainer",
@@ -476,7 +271,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -491,7 +286,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "068",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -505,61 +300,21 @@
             "front": {
               "image": "31bb28de7796f066cc2e4e8f8d41703a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/primal-clash",
-              "card": "137",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/tidal-storm",
-                "card": "068"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/tidal-storm",
-          "painting": "068"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/tidal-storm",
-          "card": "068",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "rough-seas-e4w5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "080",
-      "name": "Splash Energy",
+      "name": "スプラッシュエネルギー",
+      "englishName": "Splash Energy",
       "number": {
         "printed": "080/080",
-        "numerator": "080"
+        "short": "080"
       },
       "rarity": "Uncommon (U)",
       "cardType": "energy",
@@ -568,7 +323,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -583,7 +338,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "080",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -597,61 +352,21 @@
             "front": {
               "image": "612f3cbca208d6d5b703138257b9a682"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/breakpoint",
-              "card": "113",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rage-of-the-broken-heavens",
-                "card": "080"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "painting": "080"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rage-of-the-broken-heavens",
-          "card": "080",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "splash-energy-ya1o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "087",
-      "name": "Dimension Valley",
+      "name": "次元の谷",
+      "englishName": "Dimension Valley",
       "number": {
         "printed": "087/088",
-        "numerator": "087"
+        "short": "087"
       },
       "rarity": "Uncommon (U)",
       "cardType": "trainer",
@@ -660,7 +375,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -675,7 +390,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "087",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -689,61 +404,21 @@
             "front": {
               "image": "a1f98d382aef9a0e901778b738149fc7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/phantom-forces",
-              "card": "93",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/phantom-gate",
-                "card": "087"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/phantom-gate",
-          "painting": "087"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/phantom-gate",
-          "card": "087",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "dimension-valley-gzeh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-psychic-battle-strength-set",
       "id": "088",
-      "name": "Mystery Energy",
+      "name": "ミステリーエネルギー",
+      "englishName": "Mystery Energy",
       "number": {
         "printed": "088/088",
-        "numerator": "088"
+        "short": "088"
       },
       "rarity": "Uncommon (U)",
       "cardType": "energy",
@@ -752,7 +427,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -767,7 +442,7 @@
             "$kind": "variant",
             "set": "japanese/water-psychic-battle-strength-set",
             "card": "088",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -781,54 +456,12 @@
             "front": {
               "image": "b70b9becb7143e24613ca9cd289ab28b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/phantom-forces",
-              "card": "112",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/phantom-gate",
-                "card": "088"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/phantom-gate",
-          "painting": "088"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/phantom-gate",
-          "card": "088",
-          "differs": []
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "mystery-energy-hb06" }
     }
-  ]
+  ],
+  "printedCode": null
 }

@@ -1,10 +1,11 @@
 {
   "id": "japanese/mythical-legendary-dream-shine-collection",
   "catalog": "japanese",
-  "name": "Mythical & Legendary Dream Shine Collection",
+  "name": "幻・伝説ドリームキラコレクション",
+  "englishName": "Mythical & Legendary Dream Shine Collection",
   "era": {
     "$kind": "era",
-    "era": "japanese/xy",
+    "id": "japanese/xy",
     "name": "XY"
   },
   "type": "special_expansion",
@@ -12,63 +13,80 @@
   "printedTotal": 36,
   "actualTotal": 38,
   "cardCount": 38,
-  "productCount": 0,
   "released": {
     "date": "2016-07-16"
   },
   "code": "CP5",
+  "printedCode": "CP5",
   "logo": "b38f62b0e26c859a215f4ee00d163922",
   "symbol": "6e54b05c0fef82379656d1af840901d8",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Mythical & Legendary Dream Shine Collection",
-      "code": "CP5",
-      "released": {
-        "date": "2016-07-16"
-      },
-      "logo": "b38f62b0e26c859a215f4ee00d163922",
-      "symbol": "6e54b05c0fef82379656d1af840901d8"
-    }
-  ],
   "description": {
-    "text": "A concept pack of the XY BREAK series released on 16 July 2016, the day Volcanion's film opened, holding only mythical and legendary Pokémon, every one of them holo. Each four-card pack held a Pokémon-EX or a card drawn across the whole card, such as Celebi. Volcanion and Magearna from the film lead, with Darkrai, Mew, Jirachi, Genesect, Arceus and others. The cards are numbered to 36, followed by Yveltal-EX and Xerneas-EX.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: コンセプトパック「幻・伝説ドリームキラコレクション」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20161129121021/http://www.pokemon-card.com/products/xy/cp5.html"
-      },
-      {
-        "title": "Pokémon Card Game official site: 拡張パック「爆熱の闘士」「冷酷の反逆者」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20160925095733/http://www.pokemon-card.com/products/xy/xy11.html"
-      }
-    ]
+    "text": "A concept pack of the XY BREAK series released on 16 July 2016, the day Volcanion's film opened, holding only mythical and legendary Pokémon, every one of them holo. Each four-card pack held a Pokémon-EX or a card drawn across the whole card, such as Celebi. Volcanion and Magearna from the film lead, with Darkrai, Mew, Jirachi, Genesect, Arceus and others. The cards are numbered to 36, followed by Yveltal-EX and Xerneas-EX."
   },
   "tell": {
-    "text": "A \"CP5\" mark at the bottom right, and a number out of 036",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"CP5\" mark at the bottom right, and a number out of 036"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/xy-black-star-promos",
+      "id": "korean/mythical-legendary-dream-collection",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 38
+    },
+    {
+      "$kind": "set",
+      "id": "french/xy-black-star-promos",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 17
+    },
+    {
+      "$kind": "set",
+      "id": "german/xy-black-star-promos",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 20
+    },
+    {
+      "$kind": "set",
+      "id": "english/xy-black-star-promos",
       "relation": "subset_of",
       "direction": "outgoing",
       "sameCardCount": 37
+    },
+    {
+      "$kind": "set",
+      "id": "italian/xy-black-star-promos",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 18
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/xy-black-star-promos",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 19
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/xy-black-star-promos",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 17
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "001",
-      "name": "Celebi",
+      "name": "セレビィ",
+      "englishName": "Celebi",
       "number": {
         "printed": "001/036",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -76,7 +94,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -87,17 +105,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 251,
+          "id": 251,
           "name": "Celebi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 251,
-          "form": "251",
-          "name": "Celebi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -107,7 +116,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "001",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -126,49 +135,21 @@
             "front": {
               "image": "a823f933045e5fb6f6e79a63268d500a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy187",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "celebi-prw6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "002",
-      "name": "Celebi",
+      "name": "セレビィ",
+      "englishName": "Celebi",
       "number": {
         "printed": "002/036",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -176,7 +157,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -187,17 +168,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 251,
+          "id": 251,
           "name": "Celebi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 251,
-          "form": "251",
-          "name": "Celebi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -207,7 +179,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "002",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -226,49 +198,21 @@
             "front": {
               "image": "0d647a3e499916177c701f55599ef6c8"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy111",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy111"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "celebi-1wnc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "003",
-      "name": "Shaymin",
+      "name": "シェイミ",
+      "englishName": "Shaymin",
       "number": {
         "printed": "003/036",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -276,7 +220,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -287,17 +231,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 492,
+          "id": 492,
           "name": "Shaymin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 492,
-          "form": "492",
-          "name": "Shaymin",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -307,7 +242,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "003",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -326,49 +261,21 @@
             "front": {
               "image": "f838ca8eca8fc4a8d253649201a90a83"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy188",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "shaymin-yli6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "004",
-      "name": "Shaymin",
+      "name": "シェイミ",
+      "englishName": "Shaymin",
       "number": {
         "printed": "004/036",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -376,7 +283,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "you-iribi",
+          "id": "you-iribi",
           "name": "You Iribi"
         }
       ],
@@ -387,17 +294,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 492,
+          "id": 492,
           "name": "Shaymin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 492,
-          "form": "492",
-          "name": "Shaymin",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -407,7 +305,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "004",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -426,49 +324,21 @@
             "front": {
               "image": "694d7b373787d19ab06fdb9d2b519cb4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy115",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "shaymin-b6jm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "005",
-      "name": "Moltres",
+      "name": "ファイヤー",
+      "englishName": "Moltres",
       "number": {
         "printed": "005/036",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -476,7 +346,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ooyama",
+          "id": "ooyama",
           "name": "OOYAMA"
         }
       ],
@@ -487,17 +357,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 146,
+          "id": 146,
           "name": "Moltres"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 146,
-          "form": "146",
-          "name": "Moltres",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -507,7 +368,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "005",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -526,49 +387,21 @@
             "front": {
               "image": "d502ced634a3674e837e818f59564992"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy127",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "moltres-aic3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "006",
-      "name": "Victini",
+      "name": "ビクティニ",
+      "englishName": "Victini",
       "number": {
         "printed": "006/036",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -576,7 +409,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -587,17 +420,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 494,
+          "id": 494,
           "name": "Victini"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 494,
-          "form": "494",
-          "name": "Victini",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -607,7 +431,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "006",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -626,49 +450,21 @@
             "front": {
               "image": "23b3f5a8f8bb16649b0157a1ab4116d9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy189",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "victini-3ff4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "007",
-      "name": "Victini",
+      "name": "ビクティニ",
+      "englishName": "Victini",
       "number": {
         "printed": "007/036",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -676,7 +472,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -687,17 +483,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 494,
+          "id": 494,
           "name": "Victini"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 494,
-          "form": "494",
-          "name": "Victini",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -707,7 +494,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "007",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -726,49 +513,21 @@
             "front": {
               "image": "5d444541563184c38ddfd6a4fd1d2212"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy117",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "victini-j5b5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "008",
-      "name": "Volcanion",
+      "name": "ボルケニオン",
+      "englishName": "Volcanion",
       "number": {
         "printed": "008/036",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -776,7 +535,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tokiya",
+          "id": "tokiya",
           "name": "TOKIYA"
         }
       ],
@@ -787,17 +546,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 721,
+          "id": 721,
           "name": "Volcanion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 721,
-          "form": "721",
-          "name": "Volcanion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -807,7 +557,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "008",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -826,49 +576,21 @@
             "front": {
               "image": "f3c4f40f924b99076ef903e53aae617f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy164",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "volcanion-bg7i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "009",
-      "name": "Volcanion",
+      "name": "ボルケニオン",
+      "englishName": "Volcanion",
       "number": {
         "printed": "009/036",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -876,7 +598,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hasuno",
+          "id": "hasuno",
           "name": "Hasuno"
         }
       ],
@@ -887,17 +609,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 721,
+          "id": 721,
           "name": "Volcanion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 721,
-          "form": "721",
-          "name": "Volcanion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -907,7 +620,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "009",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -926,49 +639,21 @@
             "front": {
               "image": "8df88fafcfcf522eb5e5356eb03a9c15"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy185",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "volcanion-chi7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "010",
-      "name": "Suicune",
+      "name": "スイクン",
+      "englishName": "Suicune",
       "number": {
         "printed": "010/036",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -976,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yoshinobu-saito",
+          "id": "yoshinobu-saito",
           "name": "Yoshinobu Saito"
         }
       ],
@@ -987,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 245,
+          "id": 245,
           "name": "Suicune"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 245,
-          "form": "245",
-          "name": "Suicune",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1007,7 +683,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "010",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1026,30 +702,21 @@
             "front": {
               "image": "c251e5259e489991e0b220b2a3167b0d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "suicune-rrai" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "011",
-      "name": "Manaphy",
+      "name": "マナフィ",
+      "englishName": "Manaphy",
       "number": {
         "printed": "011/036",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1057,7 +724,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1068,17 +735,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 490,
+          "id": 490,
           "name": "Manaphy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 490,
-          "form": "490",
-          "name": "Manaphy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1088,7 +746,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "011",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1107,49 +765,21 @@
             "front": {
               "image": "5bf6b44a0b6c7cb2dd7afe705e852140"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy190",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "011"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "manaphy-nqj3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "012",
-      "name": "Manaphy",
+      "name": "マナフィ",
+      "englishName": "Manaphy",
       "number": {
         "printed": "012/036",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1157,7 +787,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -1168,17 +798,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 490,
+          "id": 490,
           "name": "Manaphy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 490,
-          "form": "490",
-          "name": "Manaphy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1188,7 +809,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "012",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1207,49 +828,21 @@
             "front": {
               "image": "cd16f4fa32f1cbb169fb6bb9065e8f9d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy113",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy113"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "manaphy-38mb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "013",
-      "name": "Keldeo",
+      "name": "ケルディオ",
+      "englishName": "Keldeo",
       "number": {
         "printed": "013/036",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1257,7 +850,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -1268,17 +861,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 647,
+          "id": 647,
           "name": "Keldeo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 647,
-          "form": "647",
-          "name": "Keldeo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1288,7 +872,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "013",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1307,49 +891,21 @@
             "front": {
               "image": "61e6c36fc7daf01278198d0b9b2e0d2e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy191",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "keldeo-3zsn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "014",
-      "name": "Keldeo",
+      "name": "ケルディオ",
+      "englishName": "Keldeo",
       "number": {
         "printed": "014/036",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1357,7 +913,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -1368,17 +924,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 647,
+          "id": 647,
           "name": "Keldeo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 647,
-          "form": "647",
-          "name": "Keldeo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1388,7 +935,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "014",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1407,49 +954,21 @@
             "front": {
               "image": "166ec487458cd087564a6879cca6ca81"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy118",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "keldeo-qb3a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "015",
-      "name": "White Kyurem",
+      "name": "ホワイトキュレム",
+      "englishName": "White Kyurem",
       "number": {
         "printed": "015/036",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1457,7 +976,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kawayoo",
+          "id": "kawayoo",
           "name": "kawayoo"
         }
       ],
@@ -1468,17 +987,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 646,
-          "name": "Kyurem"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 646,
-          "form": "646:white",
-          "name": "White Kyurem",
-          "role": "subject"
+          "id": 646,
+          "name": "Kyurem",
+          "forms": [
+            {
+              "id": "646:white",
+              "name": "White Kyurem"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1488,7 +1004,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "015",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1507,49 +1023,21 @@
             "front": {
               "image": "a87e9c4d0d68f76d2803daae5639eb20"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy128",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "015"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "white-kyurem-xuwu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "016",
-      "name": "Mew",
+      "name": "ミュウ",
+      "englishName": "Mew",
       "number": {
         "printed": "016/036",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1557,7 +1045,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "saya-tsuruta",
+          "id": "saya-tsuruta",
           "name": "Saya Tsuruta"
         }
       ],
@@ -1568,17 +1056,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1588,7 +1067,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "016",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1607,49 +1086,21 @@
             "front": {
               "image": "42440649acbfeb969801bf3c7539b105"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy192",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "016"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "mew-ervu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "017",
-      "name": "Mew",
+      "name": "ミュウ",
+      "englishName": "Mew",
       "number": {
         "printed": "017/036",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1657,7 +1108,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1668,17 +1119,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1688,7 +1130,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "017",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1707,49 +1149,21 @@
             "front": {
               "image": "29e83f6d6398f5a7be4de3a5693ff64b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy110",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "017"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "mew-mvwh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "018",
-      "name": "Meloetta",
+      "name": "メロエッタ",
+      "englishName": "Meloetta",
       "number": {
         "printed": "018/036",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1757,7 +1171,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hasuno",
+          "id": "hasuno",
           "name": "Hasuno"
         }
       ],
@@ -1768,17 +1182,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 648,
+          "id": 648,
           "name": "Meloetta"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 648,
-          "form": "648",
-          "name": "Meloetta",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1788,7 +1193,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "018",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1807,49 +1212,21 @@
             "front": {
               "image": "f1eb586f2d348c62443ff540b3a67c0f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy193",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "018"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "meloetta-ys2q" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "019",
-      "name": "Meloetta",
+      "name": "メロエッタ",
+      "englishName": "Meloetta",
       "number": {
         "printed": "019/036",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1857,7 +1234,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -1868,17 +1245,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 648,
+          "id": 648,
           "name": "Meloetta"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 648,
-          "form": "648",
-          "name": "Meloetta",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1888,7 +1256,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "019",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1907,49 +1275,21 @@
             "front": {
               "image": "39547fb7b3f866d0af698c5f22249e10"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy120",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "019"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "meloetta-emv6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "020",
-      "name": "Hoopa-EX",
+      "name": "フーパEX",
+      "englishName": "Hoopa-EX",
       "number": {
         "printed": "020/036",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1957,7 +1297,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -1968,17 +1308,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 720,
-          "name": "Hoopa"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 720,
-          "form": "720:unbound",
-          "name": "Hoopa Unbound",
-          "role": "subject"
+          "id": 720,
+          "name": "Hoopa",
+          "forms": [
+            {
+              "id": "720:unbound",
+              "name": "Hoopa Unbound"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1988,7 +1325,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "020",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2007,49 +1344,21 @@
             "front": {
               "image": "6dab008576871897fe60f45a8c5735c5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy71",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy71"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "hoopa-ex-tyx5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "021",
-      "name": "Zygarde",
+      "name": "ジガルデ",
+      "englishName": "Zygarde",
       "number": {
         "printed": "021/036",
-        "numerator": "021"
+        "short": "021"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2057,7 +1366,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2068,17 +1377,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 718,
+          "id": 718,
           "name": "Zygarde"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 718,
-          "form": "718",
-          "name": "Zygarde",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2088,7 +1388,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "021",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2107,49 +1407,21 @@
             "front": {
               "image": "d693e5597ce6b52f1bbeb4187f2f6b52"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy129",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "021"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "zygarde-ak2m" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "022",
-      "name": "Zygarde-EX",
+      "name": "ジガルデEX",
+      "englishName": "Zygarde-EX",
       "number": {
         "printed": "022/036",
-        "numerator": "022"
+        "short": "022"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2157,7 +1429,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -2168,17 +1440,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 718,
-          "name": "Zygarde"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 718,
-          "form": "718:complete",
-          "name": "Complete Forme Zygarde",
-          "role": "subject"
+          "id": 718,
+          "name": "Zygarde",
+          "forms": [
+            {
+              "id": "718:complete",
+              "name": "Complete Forme Zygarde"
+            }
+          ]
         }
       ],
       "picture": {
@@ -2188,7 +1457,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "022",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2207,49 +1476,21 @@
             "front": {
               "image": "a674dc6a2031d7d2f21b70d86e827bd8"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy151",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "022"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "zygarde-ex-u98i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "023",
-      "name": "Darkrai",
+      "name": "ダークライ",
+      "englishName": "Darkrai",
       "number": {
         "printed": "023/036",
-        "numerator": "023"
+        "short": "023"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2257,7 +1498,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2268,17 +1509,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 491,
+          "id": 491,
           "name": "Darkrai"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 491,
-          "form": "491",
-          "name": "Darkrai",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2288,7 +1520,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "023",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2307,49 +1539,21 @@
             "front": {
               "image": "6fded6d154f9c09636826660b71f7449"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy194",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "023"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "darkrai-d7ya" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "024",
-      "name": "Darkrai",
+      "name": "ダークライ",
+      "englishName": "Darkrai",
       "number": {
         "printed": "024/036",
-        "numerator": "024"
+        "short": "024"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2357,7 +1561,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kawayoo",
+          "id": "kawayoo",
           "name": "kawayoo"
         }
       ],
@@ -2368,17 +1572,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 491,
+          "id": 491,
           "name": "Darkrai"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 491,
-          "form": "491",
-          "name": "Darkrai",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2388,7 +1583,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "024",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2407,49 +1602,21 @@
             "front": {
               "image": "8b729004eb54e79775639d19c19e58f9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy114",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy114"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "darkrai-fxx8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "025",
-      "name": "Yveltal",
+      "name": "イベルタル",
+      "englishName": "Yveltal",
       "number": {
         "printed": "025/036",
-        "numerator": "025"
+        "short": "025"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2457,7 +1624,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2468,17 +1635,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 717,
+          "id": 717,
           "name": "Yveltal"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 717,
-          "form": "717",
-          "name": "Yveltal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2488,7 +1646,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "025",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2507,49 +1665,21 @@
             "front": {
               "image": "bfc3b858ecb8dd582135b03539d5bb69"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy06",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy06"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "yveltal-mirz" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "026",
-      "name": "Jirachi",
+      "name": "ジラーチ",
+      "englishName": "Jirachi",
       "number": {
         "printed": "026/036",
-        "numerator": "026"
+        "short": "026"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2557,7 +1687,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2568,17 +1698,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 385,
+          "id": 385,
           "name": "Jirachi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 385,
-          "form": "385",
-          "name": "Jirachi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2588,7 +1709,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "026",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2607,49 +1728,21 @@
             "front": {
               "image": "a7991609382582a9996fc402fd0a97b8"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy195",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "026"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "jirachi-mj72" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "027",
-      "name": "Jirachi",
+      "name": "ジラーチ",
+      "englishName": "Jirachi",
       "number": {
         "printed": "027/036",
-        "numerator": "027"
+        "short": "027"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2657,7 +1750,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2668,17 +1761,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 385,
+          "id": 385,
           "name": "Jirachi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 385,
-          "form": "385",
-          "name": "Jirachi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2688,7 +1772,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "027",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2707,49 +1791,21 @@
             "front": {
               "image": "d1fad6eebf1ccb620a1e3fa41e6b90f9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy112",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "027"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "jirachi-9w15" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "028",
-      "name": "Genesect",
+      "name": "ゲノセクト",
+      "englishName": "Genesect",
       "number": {
         "printed": "028/036",
-        "numerator": "028"
+        "short": "028"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2757,7 +1813,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -2768,17 +1824,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 649,
+          "id": 649,
           "name": "Genesect"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 649,
-          "form": "649",
-          "name": "Genesect",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2788,7 +1835,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "028",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2807,49 +1854,21 @@
             "front": {
               "image": "6e91c0580e37717262e90cef703055cd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy196",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "028"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "genesect-mv26" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "029",
-      "name": "Genesect",
+      "name": "ゲノセクト",
+      "englishName": "Genesect",
       "number": {
         "printed": "029/036",
-        "numerator": "029"
+        "short": "029"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2857,7 +1876,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta",
+          "id": "planeta",
           "name": "PLANETA"
         }
       ],
@@ -2868,17 +1887,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 649,
+          "id": 649,
           "name": "Genesect"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 649,
-          "form": "649",
-          "name": "Genesect",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2888,7 +1898,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "029",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2907,49 +1917,21 @@
             "front": {
               "image": "9caaef440051d7919a39a1bd325e8fa6"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy119",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "029"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "genesect-6nop" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "030",
-      "name": "Magearna",
+      "name": "マギアナ",
+      "englishName": "Magearna",
       "number": {
         "printed": "030/036",
-        "numerator": "030"
+        "short": "030"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2957,7 +1939,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -2968,17 +1950,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 801,
+          "id": 801,
           "name": "Magearna"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 801,
-          "form": "801",
-          "name": "Magearna",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2988,7 +1961,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "030",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3007,60 +1980,21 @@
             "front": {
               "image": "d18ed31c1e4953c34f09e5c8967018e6"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy165",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "030"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/the-best-of-xy",
-            "card": "088",
-            "differs": [
-              "finish",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "magearna-dure" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "031",
-      "name": "Magearna",
+      "name": "マギアナ",
+      "englishName": "Magearna",
       "number": {
         "printed": "031/036",
-        "numerator": "031"
+        "short": "031"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3068,7 +2002,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -3079,17 +2013,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 801,
+          "id": 801,
           "name": "Magearna"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 801,
-          "form": "801",
-          "name": "Magearna",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3099,7 +2024,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "031",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3118,49 +2043,21 @@
             "front": {
               "image": "4b3c5e34eab2cc8f5bbea1a1001ea7a0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy186",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "031"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "magearna-plsh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "032",
-      "name": "Xerneas",
+      "name": "ゼルネアス",
+      "englishName": "Xerneas",
       "number": {
         "printed": "032/036",
-        "numerator": "032"
+        "short": "032"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3168,7 +2065,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3179,17 +2076,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 716,
+          "id": 716,
           "name": "Xerneas"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 716,
-          "form": "716",
-          "name": "Xerneas",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3199,7 +2087,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "032",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3218,49 +2106,21 @@
             "front": {
               "image": "e25295c99f077e76abb63bcd8aa16322"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy05",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy05"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "xerneas-5sjv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "033",
-      "name": "Latios-EX",
+      "name": "ラティオスEX",
+      "englishName": "Latios-EX",
       "number": {
         "printed": "033/036",
-        "numerator": "033"
+        "short": "033"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3268,7 +2128,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -3279,17 +2139,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 381,
+          "id": 381,
           "name": "Latios"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 381,
-          "form": "381",
-          "name": "Latios",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3299,7 +2150,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "033",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3318,49 +2169,21 @@
             "front": {
               "image": "6d906ece1eb6bbd319b1ab678c8d9fef"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy72",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy72"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "latios-ex-qgb2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "034",
-      "name": "Rayquaza-EX",
+      "name": "レックウザEX",
+      "englishName": "Rayquaza-EX",
       "number": {
         "printed": "034/036",
-        "numerator": "034"
+        "short": "034"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3368,7 +2191,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta",
+          "id": "planeta",
           "name": "PLANETA"
         }
       ],
@@ -3379,17 +2202,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 384,
+          "id": 384,
           "name": "Rayquaza"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 384,
-          "form": "384",
-          "name": "Rayquaza",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3399,7 +2213,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "034",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3418,49 +2232,21 @@
             "front": {
               "image": "498804e1c6b717e4f90354ba15c092a3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy73",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/xy-black-star-promos",
-          "painting": "xy73"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "rayquaza-ex-xwy9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "035",
-      "name": "Arceus",
+      "name": "アルセウス",
+      "englishName": "Arceus",
       "number": {
         "printed": "035/036",
-        "numerator": "035"
+        "short": "035"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3468,7 +2254,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -3479,17 +2265,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 493,
+          "id": 493,
           "name": "Arceus"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 493,
-          "form": "493",
-          "name": "Arceus",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3499,7 +2276,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "035",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3518,49 +2295,21 @@
             "front": {
               "image": "80b1580a3848729ae92f1c4cf134e9bb"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy197",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "035"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "arceus-dbq0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "036",
-      "name": "Arceus",
+      "name": "アルセウス",
+      "englishName": "Arceus",
       "number": {
         "printed": "036/036",
-        "numerator": "036"
+        "short": "036"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3568,7 +2317,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -3579,17 +2328,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 493,
+          "id": 493,
           "name": "Arceus"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 493,
-          "form": "493",
-          "name": "Arceus",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3599,7 +2339,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "036",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3618,49 +2358,21 @@
             "front": {
               "image": "c7a1e391e600cefadd27c8cfd3ecbf45"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy116",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "036"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "arceus-792e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "037",
-      "name": "Yveltal-EX",
+      "name": "イベルタルEX",
+      "englishName": "Yveltal-EX",
       "number": {
         "printed": "037/036",
-        "numerator": "037"
+        "short": "037"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3668,7 +2380,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -3679,17 +2391,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 717,
+          "id": 717,
           "name": "Yveltal"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 717,
-          "form": "717",
-          "name": "Yveltal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3699,7 +2402,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "037",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3718,49 +2421,21 @@
             "front": {
               "image": "0008b89ef07bc0b84de2164459f0079e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy150",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "037"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "yveltal-ex-oqln" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mythical-legendary-dream-shine-collection",
       "id": "038",
-      "name": "Xerneas-EX",
+      "name": "ゼルネアスEX",
+      "englishName": "Xerneas-EX",
       "number": {
         "printed": "038/036",
-        "numerator": "038"
+        "short": "038"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3768,7 +2443,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -3779,17 +2454,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 716,
+          "id": 716,
           "name": "Xerneas"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 716,
-          "form": "716",
-          "name": "Xerneas",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3799,7 +2465,7 @@
             "$kind": "variant",
             "set": "japanese/mythical-legendary-dream-shine-collection",
             "card": "038",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3818,42 +2484,11 @@
             "front": {
               "image": "37e14b3ff3fea60ee9fb3a876a09462c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/xy-black-star-promos",
-              "card": "xy149",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mythical-legendary-dream-shine-collection",
-          "painting": "038"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "xerneas-ex-vpao" }
     }
   ]
 }

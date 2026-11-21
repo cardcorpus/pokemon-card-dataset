@@ -1,10 +1,11 @@
 {
   "id": "japanese/pewter-city-gym-deck",
   "catalog": "japanese",
-  "name": "Gym Deck: Pewter City Gym (Brock)",
+  "name": "ポケモンジム第1弾「ニビシティジム タケシ」",
+  "englishName": "Gym Deck: Pewter City Gym (Brock)",
   "era": {
     "$kind": "era",
-    "era": "japanese/original-era",
+    "id": "japanese/original-era",
     "name": "Original Era"
   },
   "type": "deck",
@@ -12,63 +13,27 @@
   "position": 1,
   "line": {
     "$kind": "line",
-    "line": "japanese/gym-decks",
+    "id": "japanese/gym-decks",
     "name": "Gym Decks",
     "part": "Pewter City Gym (Brock)"
   },
   "actualTotal": 25,
   "cardCount": 25,
-  "productCount": 0,
   "released": {
     "date": "1998-04-26"
   },
   "logo": "90f4603170fc61c48569a56a27b3a3b4",
   "symbol": "aed540d660d1782610cc75d49a882a9a",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Gym Deck: Pewter City Gym (Brock)",
-      "released": {
-        "date": "1998-04-26"
-      },
-      "logo": "90f4603170fc61c48569a56a27b3a3b4",
-      "symbol": "aed540d660d1782610cc75d49a882a9a"
-    }
-  ],
   "description": {
-    "text": "The Japanese Gym deck of Brock, Pewter City's Gym Leader, sold as ポケモンジム第1弾「ニビシティジム タケシ」 (Pokémon Gym 1: Nivi City Gym, Takeshi) on 26 April 1998 with Misty's deck, the first two of six. Its 64 cards are 25 different ones: Brock's own Pokémon, Brock as a holo Trainer, a holo Brock's Rhydon, the Pewter City Gym stadium, new Trainers, and reworded copies of older Trainers that the decks share. The cards carry the Gym series' symbol, as Leader's Stadium's and Challenge from the Darkness's do, but no card number or rarity mark. Leader's Stadium reprinted many of them with a rarity mark, and English players got them in Gym Heroes; the deck was the model for the English Brock theme deck. Besides his Fighting-type Pokémon it has the Vulpix and Zubat Brock uses in the anime. Its fixed rarities made Brock's Onix, Rhyhorn, Sandslash and Zubat four of Gym Heroes' \"common rares\" when the cards came to English. It came with a rule book, counters and a brown Onix coin.",
-    "sources": [
-      {
-        "title": "Bulbapedia: Nivi City Gym (TCG)",
-        "url": "https://bulbapedia.bulbagarden.net/wiki/Nivi_City_Gym_(TCG)"
-      },
-      {
-        "title": "artofpkm: the Pewter City Gym deck's card list",
-        "url": "https://www.artofpkm.com/sets/12"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Japanese Gym deck of Brock, Pewter City's Gym Leader, sold as ポケモンジム第1弾「ニビシティジム タケシ」 (Pokémon Gym 1: Nivi City Gym, Takeshi) on 26 April 1998 with Misty's deck, the first two of six. Its 64 cards are 25 different ones: Brock's own Pokémon, Brock as a holo Trainer, a holo Brock's Rhydon, the Pewter City Gym stadium, new Trainers, and reworded copies of older Trainers that the decks share. The cards carry the Gym series' symbol, as Leader's Stadium's and Challenge from the Darkness's do, but no card number or rarity mark. Leader's Stadium reprinted many of them with a rarity mark, and English players got them in Gym Heroes; the deck was the model for the English Brock theme deck. Besides his Fighting-type Pokémon it has the Vulpix and Zubat Brock uses in the anime. Its fixed rarities made Brock's Onix, Rhyhorn, Sandslash and Zubat four of Gym Heroes' \"common rares\" when the cards came to English. It came with a rule book, counters and a brown Onix coin."
   },
   "tell": {
-    "text": "A \"GYM\" symbol, and no rarity mark",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Bulbapedia: Nivi City Gym (TCG)",
-        "url": "https://bulbapedia.bulbagarden.net/wiki/Nivi_City_Gym_(TCG)"
-      }
-    ]
+    "text": "A \"GYM\" symbol, and no rarity mark"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/gym-heroes",
+      "id": "english/gym-heroes",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 17
@@ -76,11 +41,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-027",
-      "name": "Brock's Sandshrew",
+      "name": "タケシのサンド",
+      "englishName": "Brock's Sandshrew",
       "number": {
         "printed": "No. 027",
-        "numerator": "No. 027"
+        "short": "No. 027"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -88,7 +56,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -99,23 +67,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 27,
+          "id": 27,
           "name": "Sandshrew"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 27,
-          "form": "27",
-          "name": "Sandshrew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -125,7 +86,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-027",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -143,49 +104,21 @@
             "front": {
               "image": "684817d033a3011b2f21121f100239b0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "71",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-027"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-sandshrew-ynb3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-028",
-      "name": "Brock's Sandslash",
+      "name": "タケシのサンドパン",
+      "englishName": "Brock's Sandslash",
       "number": {
         "printed": "No. 028",
-        "numerator": "No. 028"
+        "short": "No. 028"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -193,7 +126,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -204,23 +137,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 28,
+          "id": 28,
           "name": "Sandslash"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 28,
-          "form": "28",
-          "name": "Sandslash",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -230,7 +156,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-028",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -248,49 +174,21 @@
             "front": {
               "image": "afa92aca6eb36169caeb4cd458480b1c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "23",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-028"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-sandslash-tcwx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-037",
-      "name": "Brock's Vulpix",
+      "name": "タケシのロコン",
+      "englishName": "Brock's Vulpix",
       "number": {
         "printed": "No. 037",
-        "numerator": "No. 037"
+        "short": "No. 037"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -298,7 +196,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -309,23 +207,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 37,
+          "id": 37,
           "name": "Vulpix"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 37,
-          "form": "37",
-          "name": "Vulpix",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -335,7 +226,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-037",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -353,59 +244,21 @@
             "front": {
               "image": "c6c7a09f4fadf17cc0d2c0f1be3e2648"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "73",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-037"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "no-037-brock-s-vulpix-v1",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-vulpix-ocpq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-041",
-      "name": "Brock's Zubat",
+      "name": "タケシのズバット",
+      "englishName": "Brock's Zubat",
       "number": {
         "printed": "No. 041",
-        "numerator": "No. 041"
+        "short": "No. 041"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -413,7 +266,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -424,23 +277,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 41,
+          "id": 41,
           "name": "Zubat"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 41,
-          "form": "41",
-          "name": "Zubat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -450,7 +296,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-041",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -468,8 +314,7 @@
             "front": {
               "image": "bbb58c83f5627de1aba069c806d7c7e6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "non-holo-pokedex-no-error",
@@ -491,60 +336,24 @@
                 "$kind": "variant",
                 "set": "japanese/pewter-city-gym-deck",
                 "card": "no-041",
-                "variant": "non-holo"
+                "id": "non-holo"
               }
             }
-          },
-          "collectingVariation": "v-6ead20f7913ea84827c8d6c3b61c431b150eed49"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-6ead20f7913ea84827c8d6c3b61c431b150eed49",
-          "name": "Non-holo · Pokédex number error",
-          "variants": [
-            "non-holo-pokedex-no-error"
-          ],
-          "defaultCopy": "non-holo-pokedex-no-error"
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "24",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-041"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-zubat-2v8s" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-056",
-      "name": "Brock's Mankey",
+      "name": "タケシのマンキー",
+      "englishName": "Brock's Mankey",
       "number": {
         "printed": "No. 056",
-        "numerator": "No. 056"
+        "short": "No. 056"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -552,7 +361,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -563,23 +372,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 56,
+          "id": 56,
           "name": "Mankey"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 56,
-          "form": "56",
-          "name": "Mankey",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -589,7 +391,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-056",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -607,49 +409,21 @@
             "front": {
               "image": "d38868a1dd7d6bbd5104323b4d3154d6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "67",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-056"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-mankey-1lzk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-074-brock-s-geodude-v1",
-      "name": "Brock's Geodude",
+      "name": "タケシのイシツブテ",
+      "englishName": "Brock's Geodude",
       "number": {
         "printed": "No. 074",
-        "numerator": "No. 074"
+        "short": "No. 074"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -657,7 +431,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -668,28 +442,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 74,
+          "id": 74,
           "name": "Geodude"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 74,
-          "form": "74",
-          "name": "Geodude",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "f7cc5d62df1256284380781144021067",
@@ -697,7 +462,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-074-brock-s-geodude-v1",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -715,59 +480,21 @@
             "front": {
               "image": "f7cc5d62df1256284380781144021067"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-074-brock-s-geodude-v1"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "no-074-brock-s-geodude-v2",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-geodude-zqce" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-074-brock-s-geodude-v2",
       "name": "Brock's Geodude",
+      "englishName": "Brock's Geodude",
       "number": {
         "printed": "No. 074",
-        "numerator": "No. 074"
+        "short": "No. 074"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -775,7 +502,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -786,28 +513,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 74,
+          "id": 74,
           "name": "Geodude"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 74,
-          "form": "74",
-          "name": "Geodude",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "a0328c0fd1bd72dca2fef35d8000213e",
@@ -815,7 +533,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-074-brock-s-geodude-v2",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -833,49 +551,21 @@
             "front": {
               "image": "a0328c0fd1bd72dca2fef35d8000213e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "38",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-074-brock-s-geodude-v2"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-geodude-ov9v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-075",
-      "name": "Brock's Graveler",
+      "name": "タケシのゴローン",
+      "englishName": "Brock's Graveler",
       "number": {
         "printed": "No. 075",
-        "numerator": "No. 075"
+        "short": "No. 075"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -883,7 +573,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -894,23 +584,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 75,
+          "id": 75,
           "name": "Graveler"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 75,
-          "form": "75",
-          "name": "Graveler",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -920,7 +603,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-075",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -938,49 +621,21 @@
             "front": {
               "image": "20cfdb4ad8d2b7e90e543533314dabc3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-075"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-graveler-njrn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-076",
-      "name": "Brock's Golem",
+      "name": "タケシのゴローニャ",
+      "englishName": "Brock's Golem",
       "number": {
         "printed": "No. 076",
-        "numerator": "No. 076"
+        "short": "No. 076"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -988,7 +643,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -999,23 +654,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 76,
+          "id": 76,
           "name": "Golem"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 76,
-          "form": "76",
-          "name": "Golem",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1025,7 +673,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-076",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1043,59 +691,21 @@
             "front": {
               "image": "898af8d97c39c2ceef4bdd86417fb7aa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-076"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "no-076",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-golem-zfwr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-095-brock-s-onix-v1",
-      "name": "Brock's Onix",
+      "name": "タケシのイワーク",
+      "englishName": "Brock's Onix",
       "number": {
         "printed": "No. 095",
-        "numerator": "No. 095"
+        "short": "No. 095"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1103,7 +713,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "benimaru-itoh",
+          "id": "benimaru-itoh",
           "name": "Benimaru Itoh"
         }
       ],
@@ -1114,28 +724,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 95,
+          "id": 95,
           "name": "Onix"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 95,
-          "form": "95",
-          "name": "Onix",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 1
-      },
+      "printVersion": 1,
       "picture": {
         "front": {
           "image": "0d4efb3dcd833573065c70de006750ba",
@@ -1143,7 +744,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-095-brock-s-onix-v1",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1161,49 +762,21 @@
             "front": {
               "image": "0d4efb3dcd833573065c70de006750ba"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-095-brock-s-onix-v1"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-onix-xe2w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-095-brock-s-onix-v2",
       "name": "Brock's Onix",
+      "englishName": "Brock's Onix",
       "number": {
         "printed": "No. 095",
-        "numerator": "No. 095"
+        "short": "No. 095"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1211,7 +784,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1222,28 +795,19 @@
       "species": [
         {
           "$kind": "species",
-          "species": 95,
+          "id": 95,
           "name": "Onix"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 95,
-          "form": "95",
-          "name": "Onix",
-          "role": "subject"
         }
       ],
-      "inSet": {
-        "printVersion": 2
-      },
+      "printVersion": 2,
       "picture": {
         "front": {
           "image": "c036d7130f10ed5149d3f2e5df1f5ca4",
@@ -1251,7 +815,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-095-brock-s-onix-v2",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1269,59 +833,21 @@
             "front": {
               "image": "c036d7130f10ed5149d3f2e5df1f5ca4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "69",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-095-brock-s-onix-v2"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "no-095",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-onix-5oy8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-111",
-      "name": "Brock's Rhyhorn",
+      "name": "タケシのサイホーン",
+      "englishName": "Brock's Rhyhorn",
       "number": {
         "printed": "No. 111",
-        "numerator": "No. 111"
+        "short": "No. 111"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1329,7 +855,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1340,23 +866,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 111,
+          "id": 111,
           "name": "Rhyhorn"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 111,
-          "form": "111",
-          "name": "Rhyhorn",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1366,7 +885,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-111",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1384,49 +903,21 @@
             "front": {
               "image": "d97c4d2186ea48a20818fe956d4b6f7e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-111"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-rhyhorn-2xsa" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "no-112",
-      "name": "Brock's Rhydon",
+      "name": "タケシのサイドン",
+      "englishName": "Brock's Rhydon",
       "number": {
         "printed": "No. 112",
-        "numerator": "No. 112"
+        "short": "No. 112"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1434,7 +925,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1445,23 +936,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 112,
+          "id": 112,
           "name": "Rhydon"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 112,
-          "form": "112",
-          "name": "Rhydon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1471,7 +955,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "no-112",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1489,63 +973,25 @@
             "front": {
               "image": "55f646ec459119e8aba0dd2bdeb77013"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "2",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "no-112"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "no-112",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "brock-s-rhydon-eumx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "brock",
-      "name": "Brock",
+      "name": "タケシ",
+      "englishName": "Brock",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1553,10 +999,10 @@
         "date": "1998-04-26",
         "sort": "1998-04-26.00 japanese/pewter-city-gym-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "subject"
         }
@@ -1568,7 +1014,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "brock",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1586,53 +1032,25 @@
             "front": {
               "image": "1a6b7df4e4c891def9dcfb7d70f9476c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "brock"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "brock-gqdm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "brock-s-training-method",
-      "name": "Brock's Training Method",
+      "name": "タケシの育て方",
+      "englishName": "Brock's Training Method",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Ken Sugimori",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1640,10 +1058,10 @@
         "date": "1998-04-26",
         "sort": "1998-04-26.00 japanese/pewter-city-gym-deck 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "brock",
+          "id": "brock",
           "name": "Brock",
           "role": "subject"
         }
@@ -1655,7 +1073,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "brock-s-training-method",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1673,63 +1091,25 @@
             "front": {
               "image": "ac7d176b7243ddbfa9c27dfde638a8f9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "106",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "brock-s-training-method"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "brock-s-training-method",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "brock-s-training-method-xoea" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "double-colorless-energy",
-      "name": "Double Colorless Energy",
+      "name": "無色2個エネルギー",
+      "englishName": "Double Colorless Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1744,7 +1124,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "double-colorless-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1762,68 +1142,25 @@
             "front": {
               "image": "6a069a7a19f801132455dfc7ccffd5ca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "96",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "double-colorless-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "double-colorless-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "double-colorless-energy",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "double-colorless-energy-g2rk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "energy-retrieval",
-      "name": "Energy Retrieval",
+      "name": "エネルギー回収",
+      "englishName": "Energy Retrieval",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1838,7 +1175,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "energy-retrieval",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1856,68 +1193,25 @@
             "front": {
               "image": "6366210f4b09d46f3f7c9c5f3f1e43d2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "81",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "energy-retrieval"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "energy-retrieval"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "energy-retrieval",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-retrieval-y5s1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "full-heal",
-      "name": "Full Heal",
+      "name": "なんでもなおし",
+      "englishName": "Full Heal",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1932,7 +1226,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "full-heal",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1950,68 +1244,25 @@
             "front": {
               "image": "daec68daa5263e464d12a3a11eb39dc9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "82",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "full-heal"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "full-heal"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "full-heal",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "full-heal-w1hg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "pewter-city-gym",
-      "name": "Pewter City Gym",
+      "name": "ニビシティジム",
+      "englishName": "Pewter City Gym",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2026,7 +1277,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "pewter-city-gym",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2044,63 +1295,25 @@
             "front": {
               "image": "b32dfc9d5816dd53cc56f2781b893afd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "115",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "pewter-city-gym"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "pewter-city-gym",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pewter-city-gym-pqpb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "pokedex",
-      "name": "Pokédex",
+      "name": "ポケモン図鑑",
+      "englishName": "Pokédex",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2115,7 +1328,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "pokedex",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2133,68 +1346,25 @@
             "front": {
               "image": "e9f060ec135a6d431dfc7ca68e063aef"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "87",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "pokedex"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "pokedex"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "pokedex",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokedex-0hfd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "pokemon-center",
       "name": "Pokémon Center",
+      "englishName": "Pokémon Center",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2209,7 +1379,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "pokemon-center",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2227,68 +1397,25 @@
             "front": {
               "image": "2102c1fa2e03f2aa906eb0bcb017923d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "85",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "pokemon-center"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "pokemon-center"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "pokemon-center",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokemon-center-jjip" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "potion",
       "name": "Potion",
+      "englishName": "Potion",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2303,7 +1430,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "potion",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2321,68 +1448,25 @@
             "front": {
               "image": "67a868fcd18a445166d4833e832d6668"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "94",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "potion"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "potion"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "potion",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "potion-gyu4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "recall",
-      "name": "Recall",
+      "name": "思い出させる",
+      "englishName": "Recall",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Sumiyoshi Kizuki",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -2397,7 +1481,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "recall",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2415,63 +1499,25 @@
             "front": {
               "image": "3e4b3eeb3771c9c0c224034265a0018e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-heroes",
-              "card": "116",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pewter-city-gym-deck",
-          "painting": "recall"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/leader-s-stadium-gym-heroes",
-            "card": "recall",
-            "differs": [
-              "rarity_mark"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "recall-wfvy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "revive",
       "name": "Revive",
+      "englishName": "Revive",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2486,7 +1532,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "revive",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2504,75 +1550,25 @@
             "front": {
               "image": "969805d10db51002dea81ccdc2a363b1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "89",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "revive"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "revive"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "revive",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "074"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "revive-wzs6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pewter-city-gym-deck",
       "id": "switch",
       "name": "Switch",
+      "englishName": "Switch",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Keiji Kinebuchi",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2587,7 +1583,7 @@
             "$kind": "variant",
             "set": "japanese/pewter-city-gym-deck",
             "card": "switch",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2605,57 +1601,12 @@
             "front": {
               "image": "7cad87338c8a11981ca37ebd3fda23a4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "95",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "switch",
-          "differs": [
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-jqev" }
     }
-  ]
+  ],
+  "printedCode": null
 }

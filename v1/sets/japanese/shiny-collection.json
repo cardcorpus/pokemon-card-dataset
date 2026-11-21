@@ -1,66 +1,43 @@
 {
   "id": "japanese/shiny-collection",
   "catalog": "japanese",
-  "name": "Shiny Collection",
+  "name": "シャイニーコレクション",
+  "englishName": "Shiny Collection",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "special_expansion",
   "language": "ja",
   "printedTotal": 20,
   "actualTotal": 25,
   "cardCount": 25,
-  "productCount": 0,
   "released": {
     "date": "2013-02-01"
   },
   "code": "SC",
+  "printedCode": "SC",
   "logo": "0324b7df679e26007f06f253399a098c",
   "symbol": "93567c7f4db53e6aa3802f23d8246c70",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Shiny Collection",
-      "code": "SC",
-      "released": {
-        "date": "2013-02-01"
-      },
-      "logo": "0324b7df679e26007f06f253399a098c",
-      "symbol": "93567c7f4db53e6aa3802f23d8246c70"
-    }
-  ],
   "description": {
-    "text": "A concept pack of the BW series released on 1 February 2013, with four cards a pack, all of them holo. It collects charming and playful pictures of Pokémon such as Pikachu, Eevee and Piplup, chosen for collectors, along with new Trainers, reprints and secret cards. The cards are numbered to 20, with Super Rare Shaymin-EX, Reshiram, Emolga, Mew-EX and Meloetta-EX beyond that. Many of its cards were reprinted in English in Legendary Treasures in November 2013.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: コンセプトパック「シャイニーコレクション」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20130103051134/http://www.pokemon-card.com/products/bw/sc.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      },
-      {
-        "title": "Wikipedia: List of Pokémon Trading Card Game sets",
-        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets"
-      }
-    ]
+    "text": "A concept pack of the BW series released on 1 February 2013, with four cards a pack, all of them holo. It collects charming and playful pictures of Pokémon such as Pikachu, Eevee and Piplup, chosen for collectors, along with new Trainers, reprints and secret cards. The cards are numbered to 20, with Super Rare Shaymin-EX, Reshiram, Emolga, Mew-EX and Meloetta-EX beyond that. Many of its cards were reprinted in English in Legendary Treasures in November 2013."
   },
   "tell": {
-    "text": "An \"SC\" mark at the bottom right, and a number out of 020",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"SC\" mark at the bottom right, and a number out of 020"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/legendary-treasures",
+      "id": "korean/shiny-collection",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
+      "id": "english/legendary-treasures",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 25
@@ -68,11 +45,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "001",
       "name": "Snivy",
+      "englishName": "Snivy",
       "number": {
         "printed": "001/020",
-        "numerator": "001"
+        "short": "001"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -81,7 +61,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -92,17 +72,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 495,
+          "id": 495,
           "name": "Snivy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 495,
-          "form": "495",
-          "name": "Snivy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -112,7 +83,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "001",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -131,49 +102,21 @@
             "front": {
               "image": "b4b024cc90da0e392d755a6faca6857c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "snivy-6s9p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "002",
       "name": "Servine",
+      "englishName": "Servine",
       "number": {
         "printed": "002/020",
-        "numerator": "002"
+        "short": "002"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -182,7 +125,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -193,17 +136,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 496,
+          "id": 496,
           "name": "Servine"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 496,
-          "form": "496",
-          "name": "Servine",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -213,7 +147,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "002",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -232,49 +166,21 @@
             "front": {
               "image": "880bd20bd8bc443274ac095f508a8db7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc2",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "servine-i5c0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "003",
-      "name": "Serperior",
+      "name": "ジャローダ",
+      "englishName": "Serperior",
       "number": {
         "printed": "003/020",
-        "numerator": "003"
+        "short": "003"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -283,7 +189,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -294,17 +200,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 497,
+          "id": 497,
           "name": "Serperior"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 497,
-          "form": "497",
-          "name": "Serperior",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -314,7 +211,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "003",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -333,49 +230,21 @@
             "front": {
               "image": "0a7756054f7bf6ecc1f9bed5c969a5bd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc3",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "serperior-pskr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "004",
-      "name": "Growlithe",
+      "name": "ガーディ",
+      "englishName": "Growlithe",
       "number": {
         "printed": "004/020",
-        "numerator": "004"
+        "short": "004"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -384,7 +253,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -395,17 +264,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 58,
+          "id": 58,
           "name": "Growlithe"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 58,
-          "form": "58",
-          "name": "Growlithe",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -415,7 +275,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "004",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -434,49 +294,21 @@
             "front": {
               "image": "abe40f9ee5e28cdf35c9af536cf2995e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc4",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "growlithe-fkwy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "005",
       "name": "Torchic",
+      "englishName": "Torchic",
       "number": {
         "printed": "005/020",
-        "numerator": "005"
+        "short": "005"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -485,7 +317,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kanako-eo",
+          "id": "kanako-eo",
           "name": "Kanako Eo"
         }
       ],
@@ -496,17 +328,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 255,
+          "id": 255,
           "name": "Torchic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 255,
-          "form": "255",
-          "name": "Torchic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -516,7 +339,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "005",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -535,49 +358,21 @@
             "front": {
               "image": "3c3f137a33f4b5964b38e7b2af8a5ba1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "torchic-abto" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "006",
-      "name": "Piplup",
+      "name": "ポッチャマ",
+      "englishName": "Piplup",
       "number": {
         "printed": "006/020",
-        "numerator": "006"
+        "short": "006"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -586,7 +381,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sui",
+          "id": "sui",
           "name": "sui"
         }
       ],
@@ -597,17 +392,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 393,
+          "id": 393,
           "name": "Piplup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 393,
-          "form": "393",
-          "name": "Piplup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -617,7 +403,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "006",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -636,49 +422,21 @@
             "front": {
               "image": "7c779e2409d5fc821acdf8218c72eb40"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc6",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "piplup-kr8m" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "007",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "007/020",
-        "numerator": "007"
+        "short": "007"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -687,7 +445,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -698,17 +456,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -718,7 +467,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "007",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -737,49 +486,21 @@
             "front": {
               "image": "807b2e9d23ab6605d98a8e5a3ecf33c3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc7",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "pikachu-hln4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "008",
       "name": "Ralts",
+      "englishName": "Ralts",
       "number": {
         "printed": "008/020",
-        "numerator": "008"
+        "short": "008"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -788,7 +509,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -799,17 +520,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 280,
+          "id": 280,
           "name": "Ralts"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 280,
-          "form": "280",
-          "name": "Ralts",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -819,7 +531,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "008",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -838,49 +550,21 @@
             "front": {
               "image": "1826074bea1f9633ce6afe7a895654d4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc8",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "ralts-y5s6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "009",
       "name": "Kirlia",
+      "englishName": "Kirlia",
       "number": {
         "printed": "009/020",
-        "numerator": "009"
+        "short": "009"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -889,7 +573,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -900,17 +584,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 281,
+          "id": 281,
           "name": "Kirlia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 281,
-          "form": "281",
-          "name": "Kirlia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -920,7 +595,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "009",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -939,49 +614,21 @@
             "front": {
               "image": "c54e0af3f0aed1868bcf3447ed813f1d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc9",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "kirlia-e1zc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "010",
-      "name": "Gardevoir",
+      "name": "サーナイト",
+      "englishName": "Gardevoir",
       "number": {
         "printed": "010/020",
-        "numerator": "010"
+        "short": "010"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -990,7 +637,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -1001,17 +648,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 282,
+          "id": 282,
           "name": "Gardevoir"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 282,
-          "form": "282",
-          "name": "Gardevoir",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1021,7 +659,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "010",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1040,49 +678,21 @@
             "front": {
               "image": "655f41c7ee48abeff7246cdda512d017"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc10",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "010"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "gardevoir-8ajw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "011",
-      "name": "Meloetta-EX",
+      "name": "メロエッタEX",
+      "englishName": "Meloetta-EX",
       "number": {
         "printed": "011/020",
-        "numerator": "011"
+        "short": "011"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -1091,7 +701,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -1102,17 +712,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 648,
+          "id": 648,
           "name": "Meloetta"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 648,
-          "form": "648",
-          "name": "Meloetta",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1122,7 +723,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "011",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1141,49 +742,21 @@
             "front": {
               "image": "89586c9429b54eea536fbdebb9a91544"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc11",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "011"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "meloetta-ex-sqx5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "012",
-      "name": "Stunfisk",
+      "name": "マッギョ",
+      "englishName": "Stunfisk",
       "number": {
         "printed": "012/020",
-        "numerator": "012"
+        "short": "012"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -1192,7 +765,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -1203,17 +776,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 618,
+          "id": 618,
           "name": "Stunfisk"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 618,
-          "form": "618",
-          "name": "Stunfisk",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1223,7 +787,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "012",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1242,49 +806,21 @@
             "front": {
               "image": "bd44b6184ed83edb34306ff3ff0fd600"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc12",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "012"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "stunfisk-p8lm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "013",
-      "name": "Purrloin",
+      "name": "チョロネコ",
+      "englishName": "Purrloin",
       "number": {
         "printed": "013/020",
-        "numerator": "013"
+        "short": "013"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -1293,7 +829,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -1304,17 +840,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 509,
+          "id": 509,
           "name": "Purrloin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 509,
-          "form": "509",
-          "name": "Purrloin",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1324,7 +851,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "013",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1343,49 +870,21 @@
             "front": {
               "image": "bb0995fec3f0c21e3a717fb118714c8c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "purrloin-2l9w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "014",
-      "name": "Eevee",
+      "name": "イーブイ",
+      "englishName": "Eevee",
       "number": {
         "printed": "014/020",
-        "numerator": "014"
+        "short": "014"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -1394,7 +893,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -1405,17 +904,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 133,
+          "id": 133,
           "name": "Eevee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 133,
-          "form": "133",
-          "name": "Eevee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1425,7 +915,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "014",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1444,49 +934,21 @@
             "front": {
               "image": "2f392cc59441bf8e19cac5f2dae89b18"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc14",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "eevee-ku7r" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "015",
       "name": "Teddiursa",
+      "englishName": "Teddiursa",
       "number": {
         "printed": "015/020",
-        "numerator": "015"
+        "short": "015"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1495,7 +957,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -1506,17 +968,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 216,
+          "id": 216,
           "name": "Teddiursa"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 216,
-          "form": "216",
-          "name": "Teddiursa",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1526,7 +979,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "015",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1545,49 +998,21 @@
             "front": {
               "image": "05bff2f0497acc3887b74cd852ed0799"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "015"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "teddiursa-nzef" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "016",
       "name": "Ursaring",
+      "englishName": "Ursaring",
       "number": {
         "printed": "016/020",
-        "numerator": "016"
+        "short": "016"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1596,7 +1021,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sanosuke-sakuma",
+          "id": "sanosuke-sakuma",
           "name": "Sanosuke Sakuma"
         }
       ],
@@ -1607,17 +1032,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 217,
+          "id": 217,
           "name": "Ursaring"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 217,
-          "form": "217",
-          "name": "Ursaring",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1627,7 +1043,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "016",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1646,49 +1062,21 @@
             "front": {
               "image": "175c1cd2f2526f6c29f3e38d654405a4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "016"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "ursaring-93cb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "017",
       "name": "Audino",
+      "englishName": "Audino",
       "number": {
         "printed": "017/020",
-        "numerator": "017"
+        "short": "017"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1697,7 +1085,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -1708,17 +1096,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 531,
+          "id": 531,
           "name": "Audino"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 531,
-          "form": "531",
-          "name": "Audino",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1728,7 +1107,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "017",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1747,49 +1126,21 @@
             "front": {
               "image": "7b4622a82a5fcac11dcb12e23e36a56d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "017"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "audino-efyj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "018",
       "name": "Minccino",
+      "englishName": "Minccino",
       "number": {
         "printed": "018/020",
-        "numerator": "018"
+        "short": "018"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1798,7 +1149,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sui",
+          "id": "sui",
           "name": "sui"
         }
       ],
@@ -1809,17 +1160,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 572,
+          "id": 572,
           "name": "Minccino"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 572,
-          "form": "572",
-          "name": "Minccino",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1829,7 +1171,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "018",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1848,49 +1190,21 @@
             "front": {
               "image": "aeff12991b7f347d49866c31cd273bd3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "018"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "minccino-h25f" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "019",
-      "name": "Cinccino",
+      "name": "チラチーノ",
+      "englishName": "Cinccino",
       "number": {
         "printed": "019/020",
-        "numerator": "019"
+        "short": "019"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -1899,7 +1213,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -1910,17 +1224,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 573,
+          "id": 573,
           "name": "Cinccino"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 573,
-          "form": "573",
-          "name": "Cinccino",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1930,7 +1235,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "019",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1949,49 +1254,21 @@
             "front": {
               "image": "b81db10b9046bb6edcc08da0e94ce8ac"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc19",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "019"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "cinccino-obon" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "020",
       "name": "Elesa",
+      "englishName": "Elesa",
       "number": {
         "printed": "020/020",
-        "numerator": "020"
+        "short": "020"
       },
       "rarity": "Common (C)",
       "cardType": "trainer",
@@ -2000,7 +1277,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -2008,10 +1285,10 @@
         "date": "2013-02-01",
         "sort": "2013-02-01.00 japanese/shiny-collection 00019"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "elesa",
+          "id": "elesa",
           "name": "Elesa",
           "role": "subject"
         }
@@ -2023,7 +1300,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "020",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2042,49 +1319,21 @@
             "front": {
               "image": "ed62b63b8e79795b6e609c61ec3300b5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "020"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "elesa-iy29" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "021",
-      "name": "Shaymin-EX",
+      "name": "シェイミEX",
+      "englishName": "Shaymin-EX",
       "number": {
         "printed": "021/020",
-        "numerator": "021"
+        "short": "021"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -2093,7 +1342,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kanako-eo",
+          "id": "kanako-eo",
           "name": "Kanako Eo"
         }
       ],
@@ -2104,17 +1353,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 492,
-          "name": "Shaymin"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 492,
-          "form": "492:sky",
-          "name": "Sky Forme Shaymin",
-          "role": "subject"
+          "id": 492,
+          "name": "Shaymin",
+          "forms": [
+            {
+              "id": "492:sky",
+              "name": "Sky Forme Shaymin"
+            }
+          ]
         }
       ],
       "picture": {
@@ -2124,7 +1370,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "021",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2143,49 +1389,21 @@
             "front": {
               "image": "aba92d7231d9349eb865c33283a06b12"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "021"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "shaymin-ex-exqi" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "022",
-      "name": "Reshiram",
+      "name": "レシラム",
+      "englishName": "Reshiram",
       "number": {
         "printed": "022/020",
-        "numerator": "022"
+        "short": "022"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -2194,7 +1412,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2205,17 +1423,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 643,
+          "id": 643,
           "name": "Reshiram"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 643,
-          "form": "643",
-          "name": "Reshiram",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2225,7 +1434,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "022",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2244,49 +1453,21 @@
             "front": {
               "image": "492e882b71f70bc87818c5e614ae86b7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "022"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "reshiram-ffxv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "023",
-      "name": "Emolga",
+      "name": "エモンガ",
+      "englishName": "Emolga",
       "number": {
         "printed": "023/020",
-        "numerator": "023"
+        "short": "023"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -2295,7 +1476,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -2306,17 +1487,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 587,
+          "id": 587,
           "name": "Emolga"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 587,
-          "form": "587",
-          "name": "Emolga",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2326,7 +1498,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "023",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2345,49 +1517,21 @@
             "front": {
               "image": "8aeff6d3bdd9a562a3fca530c6e2667d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc23",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "023"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "emolga-zcf8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "024",
-      "name": "Mew-EX",
+      "name": "ミュウEX",
+      "englishName": "Mew-EX",
       "number": {
         "printed": "024/020",
-        "numerator": "024"
+        "short": "024"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -2396,7 +1540,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -2407,17 +1551,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2427,7 +1562,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "024",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2446,49 +1581,21 @@
             "front": {
               "image": "419f8570542f65c20e47b58e7b547644"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc24",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "024"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "mew-ex-bm07" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/shiny-collection",
       "id": "025",
-      "name": "Meloetta-EX",
+      "name": "メロエッタEX",
+      "englishName": "Meloetta-EX",
       "number": {
         "printed": "025/020",
-        "numerator": "025"
+        "short": "025"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -2497,7 +1604,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -2508,17 +1615,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 648,
+          "id": 648,
           "name": "Meloetta"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 648,
-          "form": "648",
-          "name": "Meloetta",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2528,7 +1626,7 @@
             "$kind": "variant",
             "set": "japanese/shiny-collection",
             "card": "025",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2547,42 +1645,11 @@
             "front": {
               "image": "dbb06e0d375134d62c0d014f1b1603c3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "rc25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-collection",
-          "painting": "025"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "meloetta-ex-f27s" }
     }
   ]
 }

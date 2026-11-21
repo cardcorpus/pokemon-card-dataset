@@ -2,64 +2,33 @@
   "id": "japanese/water-quick-construction-pack",
   "catalog": "japanese",
   "name": "Water Quick Construction Pack",
+  "englishName": "Water Quick Construction Pack",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/quick-construction-pack",
+    "id": "japanese/quick-construction-pack",
     "name": "Quick Construction Pack",
     "part": "Water"
   },
   "printedTotal": 15,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2005-01-16"
   },
   "logo": "7cec6e14d1ae1dcae350cad8f9cff2fe",
   "symbol": "a315a2771354e83dc7291e2fb5b51e93",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Water Quick Construction Pack",
-      "released": {
-        "date": "2005-01-16"
-      },
-      "logo": "7cec6e14d1ae1dcae350cad8f9cff2fe",
-      "symbol": "a315a2771354e83dc7291e2fb5b51e93"
-    }
-  ],
   "description": {
-    "text": "A Quick Construction Pack, Type Unit: Water, released on 16 January 2005: a fixed pack of 15 cards built around Water Pokémon, led by Milotic ex, with a coin and a rules sheet. Two packs make a half deck and four make a 60-card deck; the six packs, one for each type, came out together.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: クイック・コンストラクション・パック「タイプユニット:水」",
-        "url": "https://web.archive.org/web/20080705151253/http://www.pokemon-card.com/products/pcg/pcg_15.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "A Quick Construction Pack, Type Unit: Water, released on 16 January 2005: a fixed pack of 15 cards built around Water Pokémon, led by Milotic ex, with a coin and a rules sheet. Two packs make a half deck and four make a 60-card deck; the six packs, one for each type, came out together."
   },
   "tell": {
-    "text": "A four-square black symbol at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: クイック・コンストラクション・パック「タイプユニット:水」",
-        "url": "https://web.archive.org/web/20080705151253/http://www.pokemon-card.com/products/pcg/pcg_15.html"
-      }
-    ]
+    "text": "A four-square black symbol at the bottom right, and a number out of 015"
   },
   "printRuns": [
     {
@@ -72,19 +41,43 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-emerald",
+      "id": "french/ex-emerald",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 8
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-emerald",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "001",
-      "name": "Mudkip",
+      "name": "ミズゴロウ",
+      "englishName": "Mudkip",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -103,17 +96,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 258,
+          "id": 258,
           "name": "Mudkip"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 258,
-          "form": "258",
-          "name": "Mudkip",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +107,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +125,7 @@
             "front": {
               "image": "a0a4f0dec386ec741298511365592662"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +145,35 @@
             "front": {
               "image": "1f7c3d84dd51df50147889b3cf9cb518"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "56",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mudkip-kd5q" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "002",
-      "name": "Marshtomp",
+      "name": "ヌマクロー",
+      "englishName": "Marshtomp",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +181,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -239,17 +192,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 259,
+          "id": 259,
           "name": "Marshtomp"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 259,
-          "form": "259",
-          "name": "Marshtomp",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +203,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -277,8 +221,7 @@
             "front": {
               "image": "6c7e37df07606a33f6f54bdc653f44a7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -298,65 +241,35 @@
             "front": {
               "image": "c66a330a178877d5552e0474543f872a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "36",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "marshtomp-f26n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "003",
-      "name": "Feebas",
+      "name": "ヒンバス",
+      "englishName": "Feebas",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +277,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -375,17 +288,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 349,
+          "id": 349,
           "name": "Feebas"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 349,
-          "form": "349",
-          "name": "Feebas",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +299,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,8 +317,7 @@
             "front": {
               "image": "f54d8c37a0c38339b4bb556036451e75"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -434,65 +337,35 @@
             "front": {
               "image": "0186e76ace7dabccfcefae0dd0a9217f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "49",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "feebas-g71b" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "004",
-      "name": "Milotic ex",
+      "name": "ミロカロスex",
+      "englishName": "Milotic ex",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -500,7 +373,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -511,17 +384,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 350,
+          "id": 350,
           "name": "Milotic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 350,
-          "form": "350",
-          "name": "Milotic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +395,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -549,8 +413,7 @@
             "front": {
               "image": "42cada5ccf2c113b332732b208f5b16c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -570,65 +433,35 @@
             "front": {
               "image": "3da1fbb47df54f1c5886db3561953614"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "004",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "004",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "96",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "milotic-ex-fure" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "005",
-      "name": "Snorunt",
+      "name": "ユキワラシ",
+      "englishName": "Snorunt",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -636,7 +469,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -647,17 +480,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 361,
+          "id": 361,
           "name": "Snorunt"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 361,
-          "form": "361",
-          "name": "Snorunt",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -667,7 +491,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -685,8 +509,7 @@
             "front": {
               "image": "96d02b69893923c0c828c07fce6ab19d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -706,65 +529,35 @@
             "front": {
               "image": "22b2eea10a561ae42455b4c9e0ed4537"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "snorunt-ymqf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "006",
-      "name": "Glalie",
+      "name": "オニゴーリ",
+      "englishName": "Glalie",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -772,7 +565,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -783,17 +576,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 362,
+          "id": 362,
           "name": "Glalie"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 362,
-          "form": "362",
-          "name": "Glalie",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -803,7 +587,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -821,8 +605,7 @@
             "front": {
               "image": "7769ef5393cdd7186e779e78a4a65aa1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -842,65 +625,35 @@
             "front": {
               "image": "05644358f3100d8e99d3bf7c99963783"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "006",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "glalie-z42w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "007",
-      "name": "Relicanth",
+      "name": "ジーランス",
+      "englishName": "Relicanth",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -908,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -919,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 369,
+          "id": 369,
           "name": "Relicanth"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 369,
-          "form": "369",
-          "name": "Relicanth",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -939,7 +683,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -957,8 +701,7 @@
             "front": {
               "image": "04ad3f8311ed5b942acd1a169a35db5f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -978,65 +721,35 @@
             "front": {
               "image": "e84a26d5bd8502af254dfa1d6285bf6b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/water-quick-construction-pack",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "relicanth-t7u7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "008",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1044,7 +757,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -1059,7 +772,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1077,8 +790,7 @@
             "front": {
               "image": "4990f2901b3ed0dd9c36870a11f33653"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1098,79 +810,35 @@
             "front": {
               "image": "9fc0b77e63d9568b0f2240d3659a2771"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "92",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/mudkip-constructed-starter-deck",
-                "card": "016"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "painting": "016"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/mudkip-constructed-starter-deck",
-          "card": "016",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "switch-gzim" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "009",
-      "name": "Mr. Stone's Project",
+      "name": "ツワブキのプロジェクト",
+      "englishName": "Mr. Stone's Project",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1178,7 +846,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1186,10 +854,10 @@
         "date": "2005-01-16",
         "sort": "2005-01-16.00 japanese/water-quick-construction-pack 00008"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mr-stone",
+          "id": "mr-stone",
           "name": "Mr. Stone",
           "role": "subject"
         }
@@ -1201,7 +869,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1219,8 +887,7 @@
             "front": {
               "image": "abf0c17c2f1fddc213cdcf1537af7521"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1240,73 +907,35 @@
             "front": {
               "image": "0432a479583046c0f05dae8ebf675b5d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-emerald",
-              "card": "79",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/fighting-quick-construction-pack",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/fighting-quick-construction-pack",
-          "card": "010",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mr-stone-s-project-i1dw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "010",
-      "name": "TV Reporter",
+      "name": "TVレポーター",
+      "englishName": "TV Reporter",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1314,7 +943,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1322,10 +951,10 @@
         "date": "2005-01-16",
         "sort": "2005-01-16.00 japanese/water-quick-construction-pack 00009"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "tv-reporter",
+          "id": "tv-reporter",
           "name": "TV Reporter",
           "role": "subject"
         }
@@ -1337,7 +966,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1355,8 +984,7 @@
             "front": {
               "image": "c2e06248c2c7c26a9078896f5c96b253"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1376,80 +1004,35 @@
             "front": {
               "image": "391f34bbff328c9e82d3c65413775afc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-dragon",
-              "card": "88",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rulers-of-the-heavens",
-                "card": "051"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rulers-of-the-heavens",
-          "painting": "051"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rulers-of-the-heavens",
-          "card": "051",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "tv-reporter-db9n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "011",
-      "name": "Water Energy",
+      "name": "基本【水】エネルギー",
+      "englishName": "Water Energy",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1464,7 +1047,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1482,8 +1065,7 @@
             "front": {
               "image": "cf386d0e285da2ce0f4edeac06c529b6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1503,46 +1085,34 @@
             "front": {
               "image": "a5f7bf95055ce2146c851b28421c2e9b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "012",
       "name": "Water Energy",
+      "englishName": "Water Energy",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1557,7 +1127,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1575,8 +1145,7 @@
             "front": {
               "image": "51a002a534e4c88ca1b16dff44ef2adb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1596,46 +1165,34 @@
             "front": {
               "image": "4b4b3880852f88649ad52cac0f3ad687"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "013",
       "name": "Water Energy",
+      "englishName": "Water Energy",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1650,7 +1207,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1668,8 +1225,7 @@
             "front": {
               "image": "50c59ab5096bb695ba41d58a45a66ec3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1689,46 +1245,34 @@
             "front": {
               "image": "301f5562f13ae30f04ecdc85bc45476f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "014",
       "name": "Water Energy",
+      "englishName": "Water Energy",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1743,7 +1287,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1761,8 +1305,7 @@
             "front": {
               "image": "d8ca92ecc13699d2c43101de7518b6b7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1782,46 +1325,34 @@
             "front": {
               "image": "1ff25ec632e8c441c64c7f703ef8eaee"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/water-quick-construction-pack",
       "id": "015",
       "name": "Water Energy",
+      "englishName": "Water Energy",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1836,7 +1367,7 @@
             "$kind": "variant",
             "set": "japanese/water-quick-construction-pack",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1854,8 +1385,7 @@
             "front": {
               "image": "95ef0f000ef50ed8b2277a1d5a6817c5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1875,39 +1405,25 @@
             "front": {
               "image": "07ec6f5ff399d8b087af2e6ba94e7b2d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/water-quick-construction-pack",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     }
-  ]
+  ],
+  "printedCode": null
 }

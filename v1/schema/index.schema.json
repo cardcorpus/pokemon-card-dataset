@@ -30,18 +30,13 @@
       "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
     },
     "pictures": {
-      "description": "How a picture id becomes a url: fill `{id}` (and `{width}`, one of `widths`) into `original` or `sized` (docs/static-api.md, \"Pictures\").",
+      "description": "How a picture id becomes a url: fill `{id}` and `{width}`, one of `widths`, into `sized` (https://pokemon.cardcorpus.com/v1/docs/guide.md#pictures).",
       "type": "object",
       "required": [
-        "original",
         "sized",
         "widths"
       ],
       "properties": {
-        "original": {
-          "description": "The url of the picture as we have it, with `{id}`.",
-          "type": "string"
-        },
         "sized": {
           "description": "The url of a copy at one of `widths`, with `{id}` and `{width}`.",
           "type": "string"
@@ -59,13 +54,14 @@
       }
     },
     "prices": {
-      "description": "Where prices are (docs/static-api.md, \"Prices\").",
+      "description": "Where prices are (https://pokemon.cardcorpus.com/v1/docs/guide.md#prices).",
       "type": "object",
       "required": [
         "latest",
         "sets",
         "history",
-        "rates"
+        "rates",
+        "schemas"
       ],
       "properties": {
         "latest": {
@@ -83,11 +79,57 @@
         "rates": {
           "description": "The day's exchange rates, to show prices in another currency.",
           "type": "string"
+        },
+        "schemas": {
+          "description": "The JSON Schema of what each url above answers, by its key here: a file in this tree.",
+          "type": "object",
+          "required": [
+            "latest",
+            "sets",
+            "history",
+            "rates"
+          ],
+          "properties": {
+            "latest": {
+              "description": "The schema of a set's prices.",
+              "type": "string"
+            },
+            "sets": {
+              "description": "The schema of many sets' prices.",
+              "type": "string"
+            },
+            "history": {
+              "description": "The schema of a card's price history.",
+              "type": "string"
+            },
+            "rates": {
+              "description": "The schema of the exchange rates.",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "docs": {
+      "description": "Where the documentation is, as Markdown: each a path in this tree, beside index.json.",
+      "type": "object",
+      "required": [
+        "guide",
+        "reference"
+      ],
+      "properties": {
+        "guide": {
+          "description": "The guide: the ideas the files share (pointers, copies, links, pictures, prices), which the schemas' descriptions cite by section.",
+          "type": "string"
+        },
+        "reference": {
+          "description": "The field reference: every field of every file, generated from the schemas.",
+          "type": "string"
         }
       }
     },
     "marketplaces": {
-      "description": "Where a card opens in a marketplace: fill a product id from marketplaces/ into `tcgplayer` or `cardmarket` (docs/static-api.md, \"Marketplace ids\").",
+      "description": "Where a card opens in a marketplace: fill a product id from marketplaces/ into `tcgplayer` or `cardmarket` (https://pokemon.cardcorpus.com/v1/docs/guide.md#marketplace-ids).",
       "type": "object",
       "required": [
         "tcgplayer",
@@ -95,25 +137,89 @@
       ],
       "properties": {
         "tcgplayer": {
-          "description": "A TCGplayer product's url, with `{id}`.",
+          "description": "A TCGplayer product's url, with `{product}`.",
           "type": "string"
         },
         "cardmarket": {
-          "description": "A Cardmarket product's url, with `{id}`.",
+          "description": "A Cardmarket product's url, with `{product}`.",
           "type": "string"
         }
       }
     },
     "catalogs": {
-      "description": "The catalogs, in the order lists use.",
+      "description": "The catalogs, in the order lists use. A catalog is one language's product line, with its own sets and numbering: `english`, `japanese`, `zh-hans` (Simplified Chinese), `zh-hant` (Traditional Chinese), `thai`, `indonesian`, `korean`, `french`, `german`, `italian`, `spanish`, `portuguese`, `latin-american-spanish` (Latin American Spanish), `dutch`, `russian` and `polish`. Its `language` is that language; a box such as the Pikachu World Collection holds cards in others, each with its own `language`. Each has its list of sets (sets/{catalog}.json) and of cards (cards/{catalog}.json).",
       "type": "array",
       "items": {
-        "description": "A catalog.",
-        "type": "string",
-        "x-cc": {
-          "vocabulary": "catalog"
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "language",
+          "languages",
+          "setCount",
+          "cardCount",
+          "variantCount"
+        ],
+        "properties": {
+          "id": {
+            "description": "The catalog's id, the first part of its sets' ids: `english`.",
+            "x-cc": {
+              "vocabulary": "catalog"
+            },
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.catalog"
+              }
+            ]
+          },
+          "name": {
+            "description": "Its name: \"International\".",
+            "type": "string"
+          },
+          "language": {
+            "description": "The language most of its cards are printed in: `en`.",
+            "x-cc": {
+              "vocabulary": "language"
+            },
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.language"
+              }
+            ]
+          },
+          "languages": {
+            "description": "Every language a card of it is printed in, the one with the most cards first: `en` and then the Pikachu World Collection's other languages for the english catalog.",
+            "type": "array",
+            "items": {
+              "description": "A language.",
+              "x-cc": {
+                "vocabulary": "language"
+              },
+              "allOf": [
+                {
+                  "$ref": "#/$defs/vocabulary.language"
+                }
+              ]
+            },
+            "uniqueItems": true
+          },
+          "setCount": {
+            "description": "How many sets; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "cardCount": {
+            "description": "How many cards; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "variantCount": {
+            "description": "How many variants; always present, 0 included.",
+            "type": "integer",
+            "minimum": 0
+          }
         },
-        "$ref": "#/$defs/vocabulary.catalog"
+        "additionalProperties": false
       }
     },
     "counts": {
@@ -151,7 +257,7 @@
       }
     },
     "pointers": {
-      "description": "How to find what a pointer points at, by its `$kind` (docs/static-api.md, \"Pointers\"): fill `file` from the pointer's ids and open it, then walk `path` in order, at each step picking from `list` the item whose `match` field equals the pointer's `by` field.",
+      "description": "How to find what a pointer points at, by its `$kind` (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers): fill `file` from the pointer's ids and open it, then walk `path` in order, at each step picking from `list` the item whose `match` field equals the pointer's `by` field.",
       "type": "object",
       "additionalProperties": {
         "type": "object",
@@ -199,11 +305,49 @@
   "additionalProperties": false,
   "$defs": {
     "vocabulary.catalog": {
+      "title": "Catalog",
       "description": "Every value of vocabulary.json's `catalog`.",
+      "type": "string",
       "enum": [
-        "international",
+        "english",
         "japanese",
-        "zh-hans"
+        "zh-hans",
+        "korean",
+        "zh-hant",
+        "thai",
+        "indonesian",
+        "french",
+        "german",
+        "italian",
+        "spanish",
+        "portuguese",
+        "latin-american-spanish",
+        "dutch",
+        "russian",
+        "polish"
+      ]
+    },
+    "vocabulary.language": {
+      "title": "Language",
+      "description": "Every value of vocabulary.json's `language`.",
+      "type": "string",
+      "enum": [
+        "ja",
+        "en",
+        "ko",
+        "de",
+        "it",
+        "fr",
+        "es",
+        "zh-Hant",
+        "pt",
+        "id",
+        "zh-Hans",
+        "th",
+        "es-419",
+        "ru",
+        "pl",
+        "nl"
       ]
     }
   }

@@ -1,9 +1,12 @@
 {
   "name": "CardCorpus",
-  "description": "Open Pokémon TCG dataset (sets, cards, Pokémon, and the links between them) as a static JSON API. Each picture is an id on our image mirror; `pictures` turns one into the url of its original or of a copy 240, 480 or 960 px wide. TCGplayer and Cardmarket product ids are in marketplaces/, `marketplaces` turns them into links, and `prices` names where each set's daily prices are served; other sources' ids are excluded. `files` lists every file with its JSON Schema, `pointers` how to find what a pointer points at, and `moved.json` every published address that no longer resolves.",
+  "description": "Open Pokémon TCG dataset (sets, cards, Pokémon, and the links between them) as a static JSON API. Each picture is an id on our image mirror; `pictures` turns one into the url of a copy 240, 480 or 960 px wide. TCGplayer and Cardmarket product ids are in marketplaces/, `marketplaces` turns them into links, and `prices` names where each set's daily prices are served; other sources' ids are excluded. `files` lists every file with its JSON Schema, `pointers` how to find what a pointer points at, and `moved.json` every published address that no longer resolves.",
   "version": "2.0.0",
+  "docs": {
+    "guide": "docs/guide.md",
+    "reference": "docs/reference.md"
+  },
   "pictures": {
-    "original": "https://img.cardcorpus.com/m/{id}",
     "sized": "https://img.cardcorpus.com/s1/{width}/{id}.avif",
     "widths": [
       240,
@@ -15,34 +18,230 @@
     "latest": "https://prices.cardcorpus.com/{set}.json",
     "sets": "https://prices.cardcorpus.com/sets.json?sets={sets}",
     "history": "https://prices.cardcorpus.com/history/{set}/{card}.json",
-    "rates": "https://prices.cardcorpus.com/rates.json"
+    "rates": "https://prices.cardcorpus.com/rates.json",
+    "schemas": {
+      "latest": "schema/prices.schema.json",
+      "sets": "schema/prices-sets.schema.json",
+      "history": "schema/price-history.schema.json",
+      "rates": "schema/exchange-rates.schema.json"
+    }
   },
   "marketplaces": {
     "tcgplayer": "https://www.tcgplayer.com/product/{product}",
     "cardmarket": "https://www.cardmarket.com/en/Pokemon/Products?idProduct={product}"
   },
   "catalogs": [
-    "international",
-    "japanese",
-    "zh-hans"
+    {
+      "id": "english",
+      "name": "English",
+      "language": "en",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "pt",
+        "ja",
+        "nl",
+        "pl",
+        "zh-Hant"
+      ],
+      "setCount": 324,
+      "cardCount": 25335,
+      "variantCount": 45019
+    },
+    {
+      "id": "japanese",
+      "name": "Japanese",
+      "language": "ja",
+      "languages": [
+        "ja",
+        "en",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "pl",
+        "pt"
+      ],
+      "setCount": 449,
+      "cardCount": 28359,
+      "variantCount": 37815
+    },
+    {
+      "id": "zh-hans",
+      "name": "Chinese",
+      "language": "zh-Hans",
+      "languages": [
+        "zh-Hans"
+      ],
+      "setCount": 141,
+      "cardCount": 13472,
+      "variantCount": 21118
+    },
+    {
+      "id": "korean",
+      "name": "Korean",
+      "language": "ko",
+      "languages": [
+        "ko"
+      ],
+      "setCount": 281,
+      "cardCount": 20471,
+      "variantCount": 21649
+    },
+    {
+      "id": "zh-hant",
+      "name": "Traditional Chinese",
+      "language": "zh-Hant",
+      "languages": [
+        "zh-Hant"
+      ],
+      "setCount": 136,
+      "cardCount": 15029,
+      "variantCount": 15998
+    },
+    {
+      "id": "thai",
+      "name": "Thai",
+      "language": "th",
+      "languages": [
+        "th"
+      ],
+      "setCount": 104,
+      "cardCount": 13187,
+      "variantCount": 13577
+    },
+    {
+      "id": "indonesian",
+      "name": "Indonesian",
+      "language": "id",
+      "languages": [
+        "id"
+      ],
+      "setCount": 95,
+      "cardCount": 13875,
+      "variantCount": 14298
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "language": "fr",
+      "languages": [
+        "fr"
+      ],
+      "setCount": 153,
+      "cardCount": 19328,
+      "variantCount": 32955
+    },
+    {
+      "id": "german",
+      "name": "German",
+      "language": "de",
+      "languages": [
+        "de"
+      ],
+      "setCount": 163,
+      "cardCount": 19795,
+      "variantCount": 33518
+    },
+    {
+      "id": "italian",
+      "name": "Italian",
+      "language": "it",
+      "languages": [
+        "it"
+      ],
+      "setCount": 164,
+      "cardCount": 19536,
+      "variantCount": 33067
+    },
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "language": "es",
+      "languages": [
+        "es"
+      ],
+      "setCount": 116,
+      "cardCount": 16315,
+      "variantCount": 26437
+    },
+    {
+      "id": "portuguese",
+      "name": "Portuguese",
+      "language": "pt",
+      "languages": [
+        "pt"
+      ],
+      "setCount": 91,
+      "cardCount": 14557,
+      "variantCount": 21854
+    },
+    {
+      "id": "latin-american-spanish",
+      "name": "Latin American Spanish",
+      "language": "es-419",
+      "languages": [
+        "es-419"
+      ],
+      "setCount": 13,
+      "cardCount": 2106,
+      "variantCount": 3725
+    },
+    {
+      "id": "dutch",
+      "name": "Dutch",
+      "language": "nl",
+      "languages": [
+        "nl"
+      ],
+      "setCount": 3,
+      "cardCount": 228,
+      "variantCount": 456
+    },
+    {
+      "id": "russian",
+      "name": "Russian",
+      "language": "ru",
+      "languages": [
+        "ru"
+      ],
+      "setCount": 9,
+      "cardCount": 1061,
+      "variantCount": 1779
+    },
+    {
+      "id": "polish",
+      "name": "Polish",
+      "language": "pl",
+      "languages": [
+        "pl"
+      ],
+      "setCount": 2,
+      "cardCount": 240,
+      "variantCount": 474
+    }
   ],
   "counts": {
-    "setCount": 916,
-    "cardCount": 67243,
-    "productCount": 1985,
-    "variantCount": 106101,
-    "subjectLinkCount": 58635,
-    "setLinkCount": 835,
-    "cardEquivalenceCount": 44702,
+    "setCount": 2244,
+    "cardCount": 222894,
+    "variantCount": 323739,
+    "subjectLinkCount": 199954,
+    "setLinkCount": 4840,
+    "cardEquivalenceCount": 914381,
     "speciesCount": 1025,
     "formCount": 1515,
     "pokemonFamilyCount": 540,
     "transitionCount": 780,
-    "characterCount": 428,
-    "artistCount": 494,
-    "paintingCount": 19390,
-    "distributionCount": 1604,
-    "distributionSeriesCount": 29,
+    "characterCount": 429,
+    "artistCount": 495,
+    "paintingCount": 20109,
+    "distributionCount": 2720,
+    "distributionSeriesCount": 47,
     "collectionCount": 4
   },
   "files": [
@@ -51,7 +250,7 @@
       "schema": "schema/index.schema.json"
     },
     {
-      "file": "sets.json",
+      "file": "sets/{catalog}.json",
       "schema": "schema/sets.schema.json"
     },
     {
@@ -59,7 +258,7 @@
       "schema": "schema/set.schema.json"
     },
     {
-      "file": "cards.json",
+      "file": "cards/{catalog}.json",
       "schema": "schema/cards.schema.json"
     },
     {
@@ -79,7 +278,7 @@
       "schema": "schema/pokemon-family.schema.json"
     },
     {
-      "file": "pokemon-cards/{species}.json",
+      "file": "pokemon-cards/{catalog}/{species}.json",
       "schema": "schema/pokemon-cards.schema.json"
     },
     {
@@ -87,7 +286,7 @@
       "schema": "schema/characters.schema.json"
     },
     {
-      "file": "characters/{character}.json",
+      "file": "characters/{catalog}/{character}.json",
       "schema": "schema/character.schema.json"
     },
     {
@@ -95,7 +294,7 @@
       "schema": "schema/artists.schema.json"
     },
     {
-      "file": "artists/{artist}.json",
+      "file": "artists/{catalog}/{artist}.json",
       "schema": "schema/artist.schema.json"
     },
     {
@@ -103,8 +302,8 @@
       "schema": "schema/painting-index.schema.json"
     },
     {
-      "file": "paintings/{set}.json",
-      "schema": "schema/paintings.schema.json"
+      "file": "paintings/{painting}.json",
+      "schema": "schema/painting.schema.json"
     },
     {
       "file": "marketplaces.json",
@@ -141,7 +340,7 @@
   ],
   "pointers": {
     "set": {
-      "file": "sets/{set}.json",
+      "file": "sets/{id}.json",
       "path": []
     },
     "card": {
@@ -150,7 +349,7 @@
         {
           "list": "cards",
           "match": "id",
-          "by": "card"
+          "by": "id"
         }
       ]
     },
@@ -165,32 +364,7 @@
         {
           "list": "variants",
           "match": "id",
-          "by": "variant"
-        }
-      ]
-    },
-    "product": {
-      "file": "sets/{set}.json",
-      "path": [
-        {
-          "list": "products",
-          "match": "id",
-          "by": "product"
-        }
-      ]
-    },
-    "product-variant": {
-      "file": "sets/{set}.json",
-      "path": [
-        {
-          "list": "products",
-          "match": "id",
-          "by": "product"
-        },
-        {
-          "list": "variants",
-          "match": "id",
-          "by": "variant"
+          "by": "id"
         }
       ]
     },
@@ -200,19 +374,13 @@
         {
           "list": "versions",
           "match": "id",
-          "by": "version"
+          "by": "id"
         }
       ]
     },
     "painting": {
-      "file": "paintings/{set}.json",
-      "path": [
-        {
-          "list": "paintings",
-          "match": "id",
-          "by": "painting"
-        }
-      ]
+      "file": "paintings/{id}.json",
+      "path": []
     },
     "era": {
       "file": "eras.json",
@@ -220,7 +388,7 @@
         {
           "list": "eras",
           "match": "id",
-          "by": "era"
+          "by": "id"
         }
       ]
     },
@@ -230,7 +398,7 @@
         {
           "list": "lines",
           "match": "id",
-          "by": "line"
+          "by": "id"
         }
       ]
     },
@@ -240,7 +408,7 @@
         {
           "list": "species",
           "match": "dex",
-          "by": "species"
+          "by": "id"
         }
       ]
     },
@@ -255,28 +423,40 @@
         {
           "list": "forms",
           "match": "id",
-          "by": "form"
+          "by": "id"
         }
       ]
     },
     "pokemon-family": {
-      "file": "pokemon-families/{family}.json",
+      "file": "pokemon-families/{id}.json",
       "path": []
     },
     "artist": {
-      "file": "artists/{artist}.json",
-      "path": []
+      "file": "artists.json",
+      "path": [
+        {
+          "list": "artists",
+          "match": "id",
+          "by": "id"
+        }
+      ]
     },
     "character": {
-      "file": "characters/{character}.json",
-      "path": []
+      "file": "characters.json",
+      "path": [
+        {
+          "list": "characters",
+          "match": "id",
+          "by": "id"
+        }
+      ]
     },
     "distribution": {
-      "file": "distributions/{distribution}.json",
+      "file": "distributions/{id}.json",
       "path": []
     },
     "distribution-series": {
-      "file": "distribution-series/{series}.json",
+      "file": "distribution-series/{id}.json",
       "path": []
     },
     "collection": {
@@ -285,7 +465,7 @@
         {
           "list": "collections",
           "match": "id",
-          "by": "collection"
+          "by": "id"
         }
       ]
     }

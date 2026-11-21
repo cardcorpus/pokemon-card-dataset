@@ -5,26 +5,26 @@ Simplified Chinese: every set, every card, its printings and variants, and
 the links between them (the same card in another language, reprints,
 shared paintings, Pokémon and characters, artists, distributions).
 
-This snapshot was published on **2026-11-12**. It holds:
+This snapshot was published on **2026-11-21**. It holds:
 
-- 916 sets
-- 67,243 cards
-- 106,101 variants (holo, reverse holo, stamps and the like)
-- 44,702 links between the same card in different languages
-- 19,390 paintings shared across cards
-- 1,604 promo distributions
+- 2,244 sets
+- 222,894 cards
+- 323,739 variants (holo, reverse holo, stamps and the like)
+- 914,381 links between the same card in different languages
+- 20,109 paintings shared across cards
+- 2,720 promo distributions
 - 1,025 Pokémon species
-- 428 characters
-- 494 artists
+- 429 characters
+- 495 artists
 
 ## Getting it
 
 - **Browse** the files here, under [`v1/`](v1/).
 - **Download everything** at once from the
   [latest release](../../releases/latest): `cardcorpus-dataset-<date>.zip`
-  (37 MB, 460 MB unpacked) with a `SHA256SUMS` file.
+  (127 MB, 1240 MB unpacked) with a `SHA256SUMS` file.
 - **Query the live copy** at
-  [cardcorpus.com/v1/index.json](https://cardcorpus.com/v1/index.json).
+  [pokemon.cardcorpus.com/v1/index.json](https://pokemon.cardcorpus.com/v1/index.json).
   It has the same layout and is updated more often than this repository.
 
 ## Layout
@@ -35,16 +35,21 @@ explains how a reference to a set, card or copy finds its file.
 
 | file | what it holds |
 |---|---|
-| `v1/sets.json`, `v1/sets/<catalog>/<set>.json` | every set, then each set's cards, printings and variants |
-| `v1/cards.json` | a compact list of every card |
+| `v1/sets/<catalog>.json`, `v1/sets/<catalog>/<set>.json` | every set, then each set's cards, printings and variants |
+| `v1/cards/<catalog>.json` | a compact list of every card of a catalog |
 | `v1/pokemon.json`, `v1/pokemon-cards/`, `v1/pokemon-families/` | Pokémon, their forms and evolutions, and their cards |
 | `v1/characters.json`, `v1/characters/` | trainers and other characters, and their cards |
 | `v1/artists.json`, `v1/artists/` | artists and their cards |
-| `v1/paintings.json`, `v1/paintings/` | cards that share a painting |
+| `v1/paintings.json`, `v1/paintings/<id>.json` | each painting with every print of it and the links between cards: the same card in other languages, reprints, parallels |
 | `v1/distributions.json`, `v1/distributions/`, `v1/distribution-series/` | how promos and stamped cards were given out |
 | `v1/collections.json` | curated collections |
 | `v1/marketplaces.json`, `v1/marketplaces/` | TCGplayer and Cardmarket product ids |
 | `v1/moved.json` | every earlier address that no longer resolves, and where it went |
+
+[`v1/docs/guide.md`](v1/docs/guide.md) explains the ideas the files share
+(pointers, ids, a card's copies, the links between cards, pictures and
+prices), and [`v1/docs/reference.md`](v1/docs/reference.md) lists every
+field of every file.
 
 Pictures are not included. Each picture is an id, and `v1/index.json`'s
 `pictures` turns it into an image url.

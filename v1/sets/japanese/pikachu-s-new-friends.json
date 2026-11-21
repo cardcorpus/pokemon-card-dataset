@@ -1,61 +1,42 @@
 {
   "id": "japanese/pikachu-s-new-friends",
   "catalog": "japanese",
-  "name": "Pikachu's New Friends",
+  "name": "ピカチュウと新しい仲間たち",
+  "englishName": "Pikachu's New Friends",
   "era": {
     "$kind": "era",
-    "era": "japanese/sun-moon",
-    "name": "Sun & Moon"
+    "id": "japanese/sun-moon",
+    "name": "サン&ムーン",
+    "englishName": "Sun & Moon"
   },
   "type": "box",
   "language": "ja",
   "printedTotal": 4,
   "actualTotal": 4,
   "cardCount": 4,
-  "productCount": 0,
   "released": {
     "date": "2016-11-18"
   },
   "code": "SM0",
+  "printedCode": "SM0",
   "logo": "2836554a1e735036422126a834028e98",
   "symbol": "56c8bddbbd22bce1a73a0e20b4d7c366",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Pikachu's New Friends",
-      "code": "SM0",
-      "released": {
-        "date": "2016-11-18"
-      },
-      "logo": "2836554a1e735036422126a834028e98",
-      "symbol": "56c8bddbbd22bce1a73a0e20b4d7c366"
-    }
-  ],
   "description": {
-    "text": "A small blister pack released on 18 November 2016, the day Pokémon Sun and Moon came out, holding the first four cards of Japan's Sun & Moon era: Pikachu with the three Alola first partner Pokémon, Rowlet, Litten and Popplio. They were the first cards with the new layout of the era, which moved the Pokédex details to the bottom right and the number, rarity and set symbol to the bottom left.",
-    "sources": [
-      {
-        "title": "Bulbapedia: Pikachu's New Friends (TCG) (Wayback Machine copy, 20 December 2025)",
-        "url": "https://web.archive.org/web/20251220042953/https://bulbapedia.bulbagarden.net/wiki/Pikachu%27s_New_Friends_(TCG)"
-      }
-    ]
+    "text": "A small blister pack released on 18 November 2016, the day Pokémon Sun and Moon came out, holding the first four cards of Japan's Sun & Moon era: Pikachu with the three Alola first partner Pokémon, Rowlet, Litten and Popplio. They were the first cards with the new layout of the era, which moved the Pokédex details to the bottom right and the number, rarity and set symbol to the bottom left."
   },
   "tell": {
-    "text": "An \"SM0\" mark at the bottom left, and a number out of 004",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"SM0\" mark at the bottom left, and a number out of 004"
   },
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/pikachu-s-new-friends",
       "id": "001",
-      "name": "Rowlet",
+      "name": "モクロー",
+      "englishName": "Rowlet",
       "number": {
         "printed": "001/004",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -63,7 +44,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -74,17 +55,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 722,
+          "id": 722,
           "name": "Rowlet"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 722,
-          "form": "722",
-          "name": "Rowlet",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -94,7 +66,7 @@
             "$kind": "variant",
             "set": "japanese/pikachu-s-new-friends",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -108,49 +80,21 @@
             "front": {
               "image": "6bdae92062bf9246c9e037d6a343971a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm01",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pikachu-s-new-friends",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "rowlet-1hdq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pikachu-s-new-friends",
       "id": "002",
-      "name": "Litten",
+      "name": "ニャビー",
+      "englishName": "Litten",
       "number": {
         "printed": "002/004",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -158,7 +102,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -169,17 +113,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 725,
+          "id": 725,
           "name": "Litten"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 725,
-          "form": "725",
-          "name": "Litten",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -189,7 +124,7 @@
             "$kind": "variant",
             "set": "japanese/pikachu-s-new-friends",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -203,49 +138,21 @@
             "front": {
               "image": "bbece251c5a71736e46a461a5c17b708"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm02",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pikachu-s-new-friends",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "litten-6mo4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pikachu-s-new-friends",
       "id": "003",
-      "name": "Popplio",
+      "name": "アシマリ",
+      "englishName": "Popplio",
       "number": {
         "printed": "003/004",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -253,7 +160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -264,17 +171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 728,
+          "id": 728,
           "name": "Popplio"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 728,
-          "form": "728",
-          "name": "Popplio",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -284,7 +182,7 @@
             "$kind": "variant",
             "set": "japanese/pikachu-s-new-friends",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -298,49 +196,21 @@
             "front": {
               "image": "eaa500d3127d635a569347b0cd0276bd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm03",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pikachu-s-new-friends",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "popplio-rfcl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pikachu-s-new-friends",
       "id": "004",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "004/004",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -348,7 +218,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -359,17 +229,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -379,7 +240,7 @@
             "$kind": "variant",
             "set": "japanese/pikachu-s-new-friends",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -393,63 +254,11 @@
             "front": {
               "image": "73aee015cfbaa761d68b5fe8d53f4762"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/sm-black-star-promos",
-              "card": "sm04",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/swsh-chinese-promos",
-              "card": "028",
-              "language": "zh-Hans",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pikachu-s-new-friends",
-          "painting": "004"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/sun-moon-promos",
-            "card": "114",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "pikachu-xszh" }
     }
   ]
 }

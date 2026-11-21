@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus lines",
-  "description": "The lines several of our sets make up together, each set with a checklist of its own (a year's World Championships decks, a Trainer Kit's two half decks), in the order their first set comes in sets.json; each with its sets in that order and the `part` that tells each from the others (docs/static-api.md, \"Lines\").",
+  "description": "Every line. A line is one product, or one range of products, that we list as several sets because each part has its own card list and numbering. The 2004 World Championships Decks are a line of four sets, one per deck (\"Blaziken Tech\", \"Magma Spirit\", \"Rocky Beach\", \"Team Rushdown\"); the EX Trainer Kit is a line of two, its Latias half deck and its Latios half deck. Use a line to show its sets together under one heading: each set carries the line's `name` and its own `part`, the words that tell it from the others. A set names its line in its `line`. Lines come catalog by catalog, in the order their first set comes in sets/{catalog}.json (https://pokemon.cardcorpus.com/v1/docs/guide.md#lines).",
   "type": "object",
   "required": [
     "lineCount",
@@ -14,7 +14,7 @@
       "minimum": 0
     },
     "lines": {
-      "description": "Every line.",
+      "description": "Every line, catalog by catalog, in the order its first set comes in sets/{catalog}.json.",
       "type": "array",
       "items": {
         "type": "object",
@@ -33,19 +33,22 @@
             "type": "string"
           },
           "catalog": {
-            "description": "Its catalog.",
-            "type": "string",
+            "description": "The catalog its sets are in.",
             "x-cc": {
               "vocabulary": "catalog"
             },
-            "$ref": "#/$defs/vocabulary.catalog"
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.catalog"
+              }
+            ]
           },
           "name": {
-            "description": "Its name.",
+            "description": "The name its sets share: \"2004 World Championships Decks\", \"EX Trainer Kit\".",
             "type": "string"
           },
           "sets": {
-            "description": "Its sets, in sets.json's order.",
+            "description": "The sets that make it up, two or more, in their catalog's order (sets/{catalog}.json).",
             "type": "array",
             "minItems": 2,
             "items": {
@@ -55,25 +58,29 @@
               },
               "required": [
                 "$kind",
-                "set",
+                "id",
                 "name",
                 "part"
               ],
               "properties": {
                 "$kind": {
-                  "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+                  "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
                   "const": "set"
                 },
-                "set": {
-                  "description": "The set's id (sets.json).",
+                "id": {
+                  "description": "The set's id (sets/{catalog}.json).",
                   "type": "string"
                 },
                 "name": {
                   "description": "A copy of the target's own `name`.",
                   "type": "string"
                 },
+                "englishName": {
+                  "description": "A copy of the target's own `englishName`.",
+                  "type": "string"
+                },
                 "part": {
-                  "description": "The words that tell this set from the line's others.",
+                  "description": "The words that tell this set from the line's others: \"Blaziken Tech\" for \"2004 World Championships Deck: Blaziken Tech\", \"Latias\" for \"EX Trainer Kit Latias\".",
                   "type": "string"
                 }
               },
@@ -88,11 +95,26 @@
   "additionalProperties": false,
   "$defs": {
     "vocabulary.catalog": {
+      "title": "Catalog",
       "description": "Every value of vocabulary.json's `catalog`.",
+      "type": "string",
       "enum": [
-        "international",
+        "english",
         "japanese",
-        "zh-hans"
+        "zh-hans",
+        "korean",
+        "zh-hant",
+        "thai",
+        "indonesian",
+        "french",
+        "german",
+        "italian",
+        "spanish",
+        "portuguese",
+        "latin-american-spanish",
+        "dutch",
+        "russian",
+        "polish"
       ]
     }
   }

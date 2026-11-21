@@ -1,10 +1,11 @@
 {
   "id": "japanese/pokemon-web",
   "catalog": "japanese",
-  "name": "Pokémon Web",
+  "name": "★web",
+  "englishName": "Pokémon Web",
   "era": {
     "$kind": "era",
-    "era": "japanese/web-era",
+    "id": "japanese/web-era",
     "name": "Web Era"
   },
   "type": "expansion",
@@ -12,56 +13,16 @@
   "printedTotal": 48,
   "actualTotal": 48,
   "cardCount": 48,
-  "productCount": 0,
   "released": {
     "date": "2001-10-20"
   },
   "logo": "918f3a5e9a0711c23fe5b29ac18c5f0b",
   "symbol": "bd8a7b177e1567a3098fd0d5388afb72",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Pokémon Web",
-      "released": {
-        "date": "2001-10-20"
-      },
-      "logo": "918f3a5e9a0711c23fe5b29ac18c5f0b",
-      "symbol": "bd8a7b177e1567a3098fd0d5388afb72"
-    }
-  ],
   "description": {
-    "text": "An expansion pack of the Pokémon Card ★web series, released on 20 October 2001 and sold online through Pokémon Center Online, where buyers could see what their packs held straight after buying them. Its 48 cards bring older cards back with a new design, along with promotional cards that had been hard to get and cards until then found only in the Game Boy games Pokémon Card GB and Pokémon Card GB2. Some came back changed for the newer rules, with a Weakness added or recast as Supporters.\n\nThe set was never released in English, but its Dark Ivysaur and Dark Venusaur reached English players as part of the Best of Game promotional set.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: Pocket Monster Card Game 製品情報リスト (December 2001, Internet Archive copy)",
-        "url": "https://web.archive.org/web/20020103201335/http://www.pokemon-card.com/products/top.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲーム",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      },
-      {
-        "title": "Wikipedia: List of Pokémon Trading Card Game sets",
-        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets"
-      }
-    ]
+    "text": "An expansion pack of the Pokémon Card ★web series, released on 20 October 2001 and sold online through Pokémon Center Online, where buyers could see what their packs held straight after buying them. Its 48 cards bring older cards back with a new design, along with promotional cards that had been hard to get and cards until then found only in the Game Boy games Pokémon Card GB and Pokémon Card GB2. Some came back changed for the newer rules, with a Weakness added or recast as Supporters.\n\nThe set was never released in English, but its Dark Ivysaur and Dark Venusaur reached English players as part of the Best of Game promotional set."
   },
   "tell": {
-    "text": "A gold \"Web\" logo at the bottom left, and a number out of 048",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site: Pocket Monster Card Game 製品情報リスト (December 2001, Internet Archive copy)",
-        "url": "https://web.archive.org/web/20020103201335/http://www.pokemon-card.com/products/top.html"
-      }
-    ]
+    "text": "A gold \"Web\" logo at the bottom left, and a number out of 048"
   },
   "printRuns": [
     {
@@ -73,11 +34,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "001",
-      "name": "Ivysaur",
+      "name": "フシギソウ",
+      "englishName": "Ivysaur",
       "number": {
         "printed": "001/048",
-        "numerator": "001"
+        "short": "001"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -86,7 +50,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -97,17 +61,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 2,
+          "id": 2,
           "name": "Ivysaur"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 2,
-          "form": "2",
-          "name": "Ivysaur",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -117,7 +72,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "001",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -137,8 +92,7 @@
             "front": {
               "image": "374a658d70a9c4cb7780b518457a3e86"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -159,64 +113,36 @@
             "front": {
               "image": "f0f3012a2fcf6607ed5bfad976e30be9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "001",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/intro-pack-bulbasaur",
-          "painting": "22"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/intro-pack-bulbasaur",
-          "card": "22",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "ivysaur-s94a" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "002",
-      "name": "Nidoran ♂",
+      "name": "ニドラン♂",
+      "englishName": "Nidoran ♂",
       "number": {
         "printed": "002/048",
-        "numerator": "002"
+        "short": "002"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -225,7 +151,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -236,17 +162,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 32,
+          "id": 32,
           "name": "Nidoran♂"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 32,
-          "form": "32",
-          "name": "Nidoran♂",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -256,7 +173,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "002",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -276,8 +193,7 @@
             "front": {
               "image": "f6156caecb6e3eff933b0d7368ab6602"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -300,66 +216,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "002",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "002",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-1",
-          "painting": "no-032"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-1",
-          "card": "no-032",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "nidoran-pvuy" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "003",
-      "name": "Venonat",
+      "name": "コンパン",
+      "englishName": "Venonat",
       "number": {
         "printed": "003/048",
-        "numerator": "003"
+        "short": "003"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -368,7 +257,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -379,17 +268,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 48,
+          "id": 48,
           "name": "Venonat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 48,
-          "form": "48",
-          "name": "Venonat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -399,7 +279,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "003",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -419,8 +299,7 @@
             "front": {
               "image": "a66792910beef4215dda797c4e7d4b16"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -441,63 +320,36 @@
             "front": {
               "image": "b628cb386bfb6d4f1cd8eaf8ecb9ea1c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "003",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-3",
-          "painting": "no-048"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-3",
-          "card": "no-048",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "venonat-ng13" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "004",
-      "name": "Exeggcute",
+      "name": "タマタマ",
+      "englishName": "Exeggcute",
       "number": {
         "printed": "004/048",
-        "numerator": "004"
+        "short": "004"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -506,7 +358,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -517,17 +369,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 102,
+          "id": 102,
           "name": "Exeggcute"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 102,
-          "form": "102",
-          "name": "Exeggcute",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -537,7 +380,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "004",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -557,8 +400,7 @@
             "front": {
               "image": "1868aedab20d80dfa4401688c5270871"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -581,84 +423,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "004",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "004",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/jungle",
-              "card": "52",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-jungle",
-                "card": "no-102"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-jungle",
-          "painting": "no-102"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-jungle",
-          "card": "no-102",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "exeggcute-9q1d" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "005",
-      "name": "Tangela",
+      "name": "モンジャラ",
+      "englishName": "Tangela",
       "number": {
         "printed": "005/048",
-        "numerator": "005"
+        "short": "005"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -667,7 +464,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -678,17 +475,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 114,
+          "id": 114,
           "name": "Tangela"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 114,
-          "form": "114",
-          "name": "Tangela",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -698,7 +486,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "005",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -718,8 +506,7 @@
             "front": {
               "image": "a4aab667aafc4a907d3d6ee5dd532c36"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -740,47 +527,35 @@
             "front": {
               "image": "d585827022fe7103ae8de2eece8b017e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "005",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "006",
-      "name": "Growlithe",
+      "name": "ガーディ",
+      "englishName": "Growlithe",
       "number": {
         "printed": "006/048",
-        "numerator": "006"
+        "short": "006"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -789,7 +564,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -800,17 +575,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 58,
+          "id": 58,
           "name": "Growlithe"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 58,
-          "form": "58",
-          "name": "Growlithe",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -820,7 +586,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "006",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -840,8 +606,7 @@
             "front": {
               "image": "5a4524fd64b4162c48f5da1bc1ba335e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -864,67 +629,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "006",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "006",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/intro-pack-squirtle",
-          "painting": "26"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/intro-pack-squirtle",
-          "card": "26",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "growlithe-y0rg" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "007",
-      "name": "Charmeleon",
+      "name": "リザード",
+      "englishName": "Charmeleon",
       "number": {
         "printed": "007/048",
-        "numerator": "007"
+        "short": "007"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -933,7 +670,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -944,17 +681,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 5,
+          "id": 5,
           "name": "Charmeleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 5,
-          "form": "5",
-          "name": "Charmeleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -964,7 +692,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "007",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -984,8 +712,7 @@
             "front": {
               "image": "3e1ce4c781c488215fb5ddf8c47bfc0a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1008,92 +735,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "007",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "007",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "24",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "no-005"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-005"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "no-005",
-          "differs": [
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "010"
-          }
-        ]
-      },
+      "painting": { "$kind": "painting", "id": "charmeleon-6hvo" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "008",
-      "name": "Vulpix",
+      "name": "ロコン",
+      "englishName": "Vulpix",
       "number": {
         "printed": "008/048",
-        "numerator": "008"
+        "short": "008"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1102,7 +776,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -1113,17 +787,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 37,
+          "id": 37,
           "name": "Vulpix"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 37,
-          "form": "37",
-          "name": "Vulpix",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1133,7 +798,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "008",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1153,8 +818,7 @@
             "front": {
               "image": "74a911f31486b9aaa42ab349ac8d8194"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1177,66 +841,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "008",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "008",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-3",
-          "painting": "no-037"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-3",
-          "card": "no-037",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "vulpix-dh4n" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "009",
-      "name": "Wartortle",
+      "name": "カメール",
+      "englishName": "Wartortle",
       "number": {
         "printed": "009/048",
-        "numerator": "009"
+        "short": "009"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1245,7 +882,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -1256,17 +893,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 8,
+          "id": 8,
           "name": "Wartortle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 8,
-          "form": "8",
-          "name": "Wartortle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1276,7 +904,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "009",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1296,8 +924,7 @@
             "front": {
               "image": "f35995a239f3b5b25994b294be76e66f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1318,64 +945,36 @@
             "front": {
               "image": "4e37141948bc07e153c9e913d5dbe76c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "009",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/intro-pack-squirtle",
-          "painting": "3"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/intro-pack-squirtle",
-          "card": "10",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "wartortle-h8yv" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "010",
-      "name": "Marill",
+      "name": "マリル",
+      "englishName": "Marill",
       "number": {
         "printed": "010/048",
-        "numerator": "010"
+        "short": "010"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1384,7 +983,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1395,17 +994,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 183,
+          "id": 183,
           "name": "Marill"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 183,
-          "form": "183",
-          "name": "Marill",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1415,7 +1005,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "010",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1435,8 +1025,7 @@
             "front": {
               "image": "66ec40c021b2cc0ccd454c8ef5b4e95e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1459,67 +1048,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "010",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "010",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/corocoro-comics",
-          "painting": "marill"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/corocoro-comics",
-          "card": "marill",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "marill-pp8y" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "011",
-      "name": "Voltorb",
+      "name": "ビリリダマ",
+      "englishName": "Voltorb",
       "number": {
         "printed": "011/048",
-        "numerator": "011"
+        "short": "011"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1528,7 +1089,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1539,17 +1100,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 100,
+          "id": 100,
           "name": "Voltorb"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 100,
-          "form": "100",
-          "name": "Voltorb",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1559,7 +1111,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "011",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1578,8 +1130,7 @@
             "front": {
               "image": "91fc583632f5c990605cee0dae9e0b4a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1602,89 +1153,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "011",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "011",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "67",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "no-100"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-100"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "no-100",
-          "differs": [
-            "number"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "037"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "voltorb-m1fr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "012",
-      "name": "Slowpoke",
+      "name": "ヤドン",
+      "englishName": "Slowpoke",
       "number": {
         "printed": "012/048",
-        "numerator": "012"
+        "short": "012"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1693,7 +1193,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1704,17 +1204,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 79,
+          "id": 79,
           "name": "Slowpoke"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 79,
-          "form": "79",
-          "name": "Slowpoke",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1724,7 +1215,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "012",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1744,8 +1235,7 @@
             "front": {
               "image": "3de889d42433107ead40df21ddb63199"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1766,64 +1256,36 @@
             "front": {
               "image": "2f1be7a1c81b515f59ae72ac6f941ef5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "012",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "slowpoke"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "slowpoke",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "slowpoke-nvsc" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "013",
-      "name": "Diglett",
+      "name": "ディグダ",
+      "englishName": "Diglett",
       "number": {
         "printed": "013/048",
-        "numerator": "013"
+        "short": "013"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1832,7 +1294,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "miki-tanaka",
+          "id": "miki-tanaka",
           "name": "Miki Tanaka"
         }
       ],
@@ -1843,17 +1305,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 50,
+          "id": 50,
           "name": "Diglett"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 50,
-          "form": "50",
-          "name": "Diglett",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1863,7 +1316,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "013",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1883,8 +1336,7 @@
             "front": {
               "image": "72113258f9a77bcdbd5e5586f8e927b0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1907,67 +1359,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "013",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "013",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "diglett"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "diglett",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "diglett-dhux" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "014",
-      "name": "Hitmonlee",
+      "name": "サワムラー",
+      "englishName": "Hitmonlee",
       "number": {
         "printed": "014/048",
-        "numerator": "014"
+        "short": "014"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1976,7 +1400,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshida",
+          "id": "shin-ichi-yoshida",
           "name": "Shin-ichi Yoshida"
         }
       ],
@@ -1987,17 +1411,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 106,
+          "id": 106,
           "name": "Hitmonlee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 106,
-          "form": "106",
-          "name": "Hitmonlee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2007,7 +1422,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "014",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2027,8 +1442,7 @@
             "front": {
               "image": "668b1836a4354ad67f6d29389bcd2567"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2051,67 +1465,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "014",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "014",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-2",
-          "painting": "no-106"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-2",
-          "card": "no-106",
-          "differs": [
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "hitmonlee-ro10" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "015",
-      "name": "Bill's Teleporter",
+      "name": "マサキの転送装置",
+      "englishName": "Bill's Teleporter",
       "number": {
         "printed": "015/048",
-        "numerator": "015"
+        "short": "015"
       },
       "rarity": "Common",
       "cardType": "trainer",
@@ -2120,7 +1506,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2128,10 +1514,10 @@
         "date": "2001-10-20",
         "sort": "2001-10-20.00 japanese/pokemon-web 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bill",
+          "id": "bill",
           "name": "Bill",
           "role": "subject"
         }
@@ -2143,7 +1529,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "015",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2162,8 +1548,7 @@
             "front": {
               "image": "4ff15de1b1f567ccfbc12b20d7da1718"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2186,63 +1571,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "015",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "015",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/intro-pack-bulbasaur",
-          "painting": "20"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/intro-pack-bulbasaur",
-            "card": "20"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "bill-s-teleporter-8w9y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "016",
-      "name": "New Pokédex",
+      "name": "新ポケモン図鑑",
+      "englishName": "New Pokédex",
       "number": {
         "printed": "016/048",
-        "numerator": "016"
+        "short": "016"
       },
       "rarity": "Common",
       "cardType": "trainer",
@@ -2251,7 +1611,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -2266,7 +1626,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "016",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2285,8 +1645,7 @@
             "front": {
               "image": "6301db123dc039a6062e2aea42a7b04a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2309,84 +1668,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "016",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "016",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-genesis",
-              "card": "95",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-                "card": "new-pokedex"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-          "painting": "new-pokedex"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/gold-silver-to-a-new-world-neo-genesis",
-          "card": "new-pokedex",
-          "differs": [
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "new-pokedex-94wa" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "017",
-      "name": "Dark Ivysaur",
+      "name": "わるいフシギソウ",
+      "englishName": "Dark Ivysaur",
       "number": {
         "printed": "017/048",
-        "numerator": "017"
+        "short": "017"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -2395,7 +1708,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshida",
+          "id": "shin-ichi-yoshida",
           "name": "Shin-ichi Yoshida"
         }
       ],
@@ -2406,17 +1719,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 2,
+          "id": 2,
           "name": "Ivysaur"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 2,
-          "form": "2",
-          "name": "Ivysaur",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2426,7 +1730,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "017",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2446,8 +1750,7 @@
             "front": {
               "image": "21f44e12a3ad93fcb26ee945f826efe1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2470,67 +1773,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "017",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "017",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "017",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "dark-ivysaur"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "dark-ivysaur",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-ivysaur-d49w" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "018",
-      "name": "Nidorino",
+      "name": "ニドリーノ",
+      "englishName": "Nidorino",
       "number": {
         "printed": "018/048",
-        "numerator": "018"
+        "short": "018"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -2539,7 +1814,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -2550,17 +1825,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 33,
+          "id": 33,
           "name": "Nidorino"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 33,
-          "form": "33",
-          "name": "Nidorino",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2570,7 +1836,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "018",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2590,8 +1856,7 @@
             "front": {
               "image": "e716d4568376b0ee582e29a69c14124d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2614,66 +1879,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "018",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "018",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-3",
-          "painting": "no-033"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-3",
-          "card": "no-033",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "nidorino-vi7s" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "019",
-      "name": "Venomoth",
+      "name": "モルフォン",
+      "englishName": "Venomoth",
       "number": {
         "printed": "019/048",
-        "numerator": "019"
+        "short": "019"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -2682,7 +1920,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -2693,17 +1931,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 49,
+          "id": 49,
           "name": "Venomoth"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 49,
-          "form": "49",
-          "name": "Venomoth",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2713,7 +1942,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "019",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2733,8 +1962,7 @@
             "front": {
               "image": "9bd1a07a8f01ba5d1956a0306323be67"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2757,67 +1985,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "019",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "019",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-2",
-          "painting": "no-049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-2",
-          "card": "no-049",
-          "differs": [
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "venomoth-qkkr" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "020",
       "name": "Exeggutor",
+      "englishName": "Exeggutor",
       "number": {
         "printed": "020/048",
-        "numerator": "020"
+        "short": "020"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -2826,7 +2026,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2837,17 +2037,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 103,
+          "id": 103,
           "name": "Exeggutor"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 103,
-          "form": "103",
-          "name": "Exeggutor",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2857,7 +2048,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "020",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2877,8 +2068,7 @@
             "front": {
               "image": "eacd353caa851a98911783df3ea13f12"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2901,84 +2091,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "020",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "020",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "020",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/jungle",
-              "card": "35",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/pokemon-jungle",
-                "card": "no-103"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-jungle",
-          "painting": "no-103"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-jungle",
-          "card": "no-103",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "exeggutor-m8fg" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "021",
-      "name": "Dark Weezing",
+      "name": "わるいマタドガス",
+      "englishName": "Dark Weezing",
       "number": {
         "printed": "021/048",
-        "numerator": "021"
+        "short": "021"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -2987,7 +2132,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshida",
+          "id": "shin-ichi-yoshida",
           "name": "Shin-ichi Yoshida"
         }
       ],
@@ -2998,17 +2143,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 110,
+          "id": 110,
           "name": "Weezing"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 110,
-          "form": "110",
-          "name": "Weezing",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3018,7 +2154,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "021",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3038,8 +2174,7 @@
             "front": {
               "image": "88c210a19c2065e7278e99b143f2abd7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3062,86 +2197,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "021",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "021",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "021",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "14",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-110"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-110"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-110",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-weezing-ed8y" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "022",
-      "name": "Dark Charmeleon",
+      "name": "わるいリザード",
+      "englishName": "Dark Charmeleon",
       "number": {
         "printed": "022/048",
-        "numerator": "022"
+        "short": "022"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -3150,7 +2238,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -3161,17 +2249,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 5,
+          "id": 5,
           "name": "Charmeleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 5,
-          "form": "5",
-          "name": "Charmeleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3181,7 +2260,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "022",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3201,8 +2280,7 @@
             "front": {
               "image": "f41f4396f869eec0a721c42433e12849"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3223,81 +2301,36 @@
             "front": {
               "image": "f7a9c2b67de7dd36de6c21f9affd8007"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "022",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "022",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "32",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-005"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-005"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-005",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-charmeleon-zxc8" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "023",
-      "name": "Arcanine",
+      "name": "ウインディ",
+      "englishName": "Arcanine",
       "number": {
         "printed": "023/048",
-        "numerator": "023"
+        "short": "023"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -3306,7 +2339,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -3317,17 +2350,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 59,
+          "id": 59,
           "name": "Arcanine"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 59,
-          "form": "59",
-          "name": "Arcanine",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3337,7 +2361,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "023",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3357,8 +2381,7 @@
             "front": {
               "image": "ca4cf2d68455b83e3205c93187912afc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3381,66 +2404,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "023",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "023",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "023",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/intro-pack-squirtle",
-          "painting": "32"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/intro-pack-squirtle",
-          "card": "32",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "arcanine-v5ht" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "024",
-      "name": "Dark Wartortle",
+      "name": "わるいカメール",
+      "englishName": "Dark Wartortle",
       "number": {
         "printed": "024/048",
-        "numerator": "024"
+        "short": "024"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -3449,7 +2445,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -3460,17 +2456,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 8,
+          "id": 8,
           "name": "Wartortle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 8,
-          "form": "8",
-          "name": "Wartortle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3480,7 +2467,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "024",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3500,8 +2487,7 @@
             "front": {
               "image": "4d2a9991e73270f721d37df503f18efa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3524,84 +2510,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "024",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "024",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "024",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "46",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-008"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-008"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-008",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-wartortle-sfbx" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "025",
-      "name": "Surfing Pikachu",
+      "name": "なみのりピカチュウ",
+      "englishName": "Surfing Pikachu",
       "number": {
         "printed": "025/048",
-        "numerator": "025"
+        "short": "025"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -3610,7 +2551,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toshinao-aoki",
+          "id": "toshinao-aoki",
           "name": "Toshinao Aoki"
         }
       ],
@@ -3621,17 +2562,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3641,7 +2573,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "025",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3660,8 +2592,7 @@
             "front": {
               "image": "477abdcb798464343ffd95e0c67926cc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3681,81 +2612,35 @@
             "front": {
               "image": "fe10c69c4ffe93edf9aac24e7a853095"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "025",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "025",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/wizards-black-star-promos",
-              "card": "28",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/corocoro-comics",
-                "card": "no-025-surfing-pikachu"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/corocoro-comics",
-          "painting": "no-025-surfing-pikachu"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/corocoro-comics",
-          "card": "no-025-surfing-pikachu",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "surfing-pikachu-oc5v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "026",
-      "name": "Electrode",
+      "name": "マルマイン",
+      "englishName": "Electrode",
       "number": {
         "printed": "026/048",
-        "numerator": "026"
+        "short": "026"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -3764,7 +2649,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -3775,17 +2660,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 101,
+          "id": 101,
           "name": "Electrode"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 101,
-          "form": "101",
-          "name": "Electrode",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3795,7 +2671,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "026",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3814,8 +2690,7 @@
             "front": {
               "image": "988a66cb5c4bbb7acce86f8e0254d7f4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3835,46 +2710,34 @@
             "front": {
               "image": "a9eecc2b9b597ca6c2469115d6b82369"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "026",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "026",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ]
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "027",
       "name": "Dark Kadabra",
+      "englishName": "Dark Kadabra",
       "number": {
         "printed": "027/048",
-        "numerator": "027"
+        "short": "027"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -3883,7 +2746,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -3894,17 +2757,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 64,
+          "id": 64,
           "name": "Kadabra"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 64,
-          "form": "64",
-          "name": "Kadabra",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3914,7 +2768,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "027",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3934,8 +2788,7 @@
             "front": {
               "image": "8e717da28a4be4da068c743722d58811"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3958,84 +2811,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "027",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "027",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "027",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-064"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-064"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-064",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-kadabra-jmdd" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "028",
-      "name": "Dark Slowbro",
+      "name": "わるいヤドラン",
+      "englishName": "Dark Slowbro",
       "number": {
         "printed": "028/048",
-        "numerator": "028"
+        "short": "028"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -4044,7 +2852,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -4055,17 +2863,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 80,
+          "id": 80,
           "name": "Slowbro"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 80,
-          "form": "80",
-          "name": "Slowbro",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4075,7 +2874,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "028",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4095,8 +2894,7 @@
             "front": {
               "image": "d1a139706459af6fd4ccff0552fffb9d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4117,83 +2915,36 @@
             "front": {
               "image": "35a465724e72e21ce1c38414516b4d57"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "028",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "028",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "12",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-080"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-080"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-080",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-slowbro-y37w" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "029",
-      "name": "Dugtrio",
+      "name": "ダグトリオ",
+      "englishName": "Dugtrio",
       "number": {
         "printed": "029/048",
-        "numerator": "029"
+        "short": "029"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -4202,7 +2953,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "miki-tanaka",
+          "id": "miki-tanaka",
           "name": "Miki Tanaka"
         }
       ],
@@ -4213,17 +2964,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 51,
+          "id": 51,
           "name": "Dugtrio"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 51,
-          "form": "51",
-          "name": "Dugtrio",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4233,7 +2975,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "029",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4253,8 +2995,7 @@
             "front": {
               "image": "4cfc6cbe0985059d55f579645983594b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4275,64 +3016,36 @@
             "front": {
               "image": "e1f2fed6b5411fd9963d6f7b12a65892"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "029",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "029",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "dugtrio"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "dugtrio",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dugtrio-ck1s" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "030",
-      "name": "Max Revive",
+      "name": "元気のかたまり",
+      "englishName": "Max Revive",
       "number": {
         "printed": "030/048",
-        "numerator": "030"
+        "short": "030"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -4341,7 +3054,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -4356,7 +3069,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "030",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4375,8 +3088,7 @@
             "front": {
               "image": "6e9e8e2e7b893f102de59719cc8306fc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4399,93 +3111,47 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "030",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "030",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "030",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/gym-challenge",
-              "card": "117",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/vending-sheet-2",
-                "card": "max-revive"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-2",
-          "painting": "max-revive"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-2",
-          "card": "max-revive",
-          "differs": [
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "max-revive-ak6t" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "031",
-      "name": "Hyper Devolution Spray",
+      "name": "退化スプレーHYPER",
+      "englishName": "Hyper Devolution Spray",
       "number": {
         "printed": "031/048",
-        "numerator": "031"
+        "short": "031"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
       "language": "ja",
-      "credit": "K. Hoshiba",
+      "credit": "K Hoshiba",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "k-hoshiba",
+          "id": "k-hoshiba",
           "name": "K. Hoshiba"
         }
       ],
@@ -4500,7 +3166,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "031",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4519,8 +3185,7 @@
             "front": {
               "image": "70e89a1d95ea450542c1b2275de9f29d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4543,83 +3208,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "031",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "031",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "031",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/neo-discovery",
-              "card": "73",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/crossing-the-ruins-neo-discovery",
-                "card": "no-000-hyper-devolution-spray"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/crossing-the-ruins-neo-discovery",
-          "painting": "no-000-hyper-devolution-spray"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/crossing-the-ruins-neo-discovery",
-          "card": "no-000-hyper-devolution-spray",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "hyper-devolution-spray-b7kq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "032",
       "name": "Pokémon Retransfer",
+      "englishName": "Pokémon Retransfer",
       "number": {
         "printed": "032/048",
-        "numerator": "032"
+        "short": "032"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -4628,7 +3248,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -4643,7 +3263,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "032",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4665,11 +3285,10 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "032",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4689,63 +3308,35 @@
             "front": {
               "image": "09fd004f018a671f8333a9477a8f304c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "032",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "032",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vending-sheet-3",
-          "painting": "pokemon-retransfer"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/vending-sheet-3",
-          "card": "pokemon-retransfer",
-          "differs": [
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pokemon-retransfer-5j4c" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "033",
-      "name": "Nidoking",
+      "name": "ニドキング",
+      "englishName": "Nidoking",
       "number": {
         "printed": "033/048",
-        "numerator": "033"
+        "short": "033"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -4754,7 +3345,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -4765,17 +3356,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 34,
+          "id": 34,
           "name": "Nidoking"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 34,
-          "form": "34",
-          "name": "Nidoking",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4785,7 +3367,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "033",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4805,8 +3387,7 @@
             "front": {
               "image": "cb55497eb9519b9845a5cd746c73fdd3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4827,90 +3408,36 @@
             "front": {
               "image": "15095d782503bb5f09d9c5a21ecc4f8b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "033",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "033",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "11",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "no-034"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-034"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "no-034",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "043"
-          }
-        ]
-      },
+      "painting": { "$kind": "painting", "id": "nidoking-nzc1" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "034",
-      "name": "Ninetales",
+      "name": "キュウコン",
+      "englishName": "Ninetales",
       "number": {
         "printed": "034/048",
-        "numerator": "034"
+        "short": "034"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -4919,7 +3446,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -4930,17 +3457,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 38,
+          "id": 38,
           "name": "Ninetales"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 38,
-          "form": "38",
-          "name": "Ninetales",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4950,7 +3468,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "034",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4970,8 +3488,7 @@
             "front": {
               "image": "b04a248ef049b580073d7a52da7eaaba"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4992,90 +3509,36 @@
             "front": {
               "image": "3828767c2df653eb7f7637075c7daa59"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "034",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "034",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "12",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "no-038"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-038"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "no-038",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "015"
-          }
-        ]
-      },
+      "painting": { "$kind": "painting", "id": "ninetales-4zzn" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "035",
-      "name": "Magikarp",
+      "name": "コイキング",
+      "englishName": "Magikarp",
       "number": {
         "printed": "035/048",
-        "numerator": "035"
+        "short": "035"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -5084,7 +3547,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5095,17 +3558,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 129,
+          "id": 129,
           "name": "Magikarp"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 129,
-          "form": "129",
-          "name": "Magikarp",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5115,7 +3569,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "035",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -5135,8 +3589,7 @@
             "front": {
               "image": "ac6d2a1ed0a09e48606166d06b81f3bd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5159,67 +3612,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "035",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "035",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "035",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "magikarp"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "magikarp",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "magikarp-mff4" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "036",
-      "name": "Raichu",
+      "name": "ライチュウ",
+      "englishName": "Raichu",
       "number": {
         "printed": "036/048",
-        "numerator": "036"
+        "short": "036"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -5228,7 +3653,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5239,17 +3664,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 26,
+          "id": 26,
           "name": "Raichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 26,
-          "form": "26",
-          "name": "Raichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5259,7 +3675,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "036",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -5278,8 +3694,7 @@
             "front": {
               "image": "cac14d198caaaccf857f3c10e4df19ef"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5299,89 +3714,35 @@
             "front": {
               "image": "c546819a7978b4a7d993b8c01b4c216b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "036",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "036",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/base-set",
-              "card": "14",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/expansion-pack-base-set",
-                "card": "no-026"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expansion-pack-base-set",
-          "painting": "no-026"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expansion-pack-base-set",
-          "card": "no-026",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/expansion-pack-20th-anniversary",
-            "card": "034"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "raichu-8a3y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "037",
-      "name": "Dark Alakazam",
+      "name": "わるいフーディン",
+      "englishName": "Dark Alakazam",
       "number": {
         "printed": "037/048",
-        "numerator": "037"
+        "short": "037"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -5390,7 +3751,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5401,17 +3762,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 65,
+          "id": 65,
           "name": "Alakazam"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 65,
-          "form": "65",
-          "name": "Alakazam",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5421,7 +3773,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "037",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -5441,8 +3793,7 @@
             "front": {
               "image": "fb319b538464cd64d768f434ea6e94c3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5465,86 +3816,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "037",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "037",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "037",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "1",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-065"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-065"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-065",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-alakazam-mgfk" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "038",
-      "name": "Dragonite",
+      "name": "カイリュー",
+      "englishName": "Dragonite",
       "number": {
         "printed": "038/048",
-        "numerator": "038"
+        "short": "038"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -5553,7 +3857,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toshinao-aoki",
+          "id": "toshinao-aoki",
           "name": "Toshinao Aoki"
         }
       ],
@@ -5564,17 +3868,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 149,
+          "id": 149,
           "name": "Dragonite"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 149,
-          "form": "149",
-          "name": "Dragonite",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5584,7 +3879,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "038",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -5603,8 +3898,7 @@
             "front": {
               "image": "bc0aed7d0606b7a221a079955927b6af"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5625,47 +3919,35 @@
             "front": {
               "image": "70bd89d984b486a55542deaea61ffb82"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "038",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "038",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "039",
-      "name": "Team Rocket's Meowth",
+      "name": "ロケット団のニャース",
+      "englishName": "Team Rocket's Meowth",
       "number": {
         "printed": "039/048",
-        "numerator": "039"
+        "short": "039"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -5674,7 +3956,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kunihiko-yuyama",
+          "id": "kunihiko-yuyama",
           "name": "Kunihiko Yuyama"
         }
       ],
@@ -5685,23 +3967,16 @@
       "species": [
         {
           "$kind": "species",
-          "species": 52,
+          "id": 52,
           "name": "Meowth"
         }
       ],
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-rocket",
+          "id": "team-rocket",
           "name": "Team Rocket",
           "role": "owner"
-        },
-        {
-          "$kind": "form",
-          "species": 52,
-          "form": "52",
-          "name": "Meowth",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5711,7 +3986,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "039",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -5730,8 +4005,7 @@
             "front": {
               "image": "d064dc48bb9550502f2f90fe36f44f29"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5752,82 +4026,36 @@
             "front": {
               "image": "41a96bc09c1295b58400832e920ae346"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "039",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "039",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/wizards-black-star-promos",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miscellaneous-promos",
-                "card": "team-rocket-s-meowth"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "team-rocket-s-meowth"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "team-rocket-s-meowth",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "team-rocket-s-meowth-2bkn" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "040",
-      "name": "Rocket's Sneak Attack",
+      "name": "ロケット団のおねーさん",
+      "englishName": "Rocket's Sneak Attack",
       "number": {
         "printed": "040/048",
-        "numerator": "040"
+        "short": "040"
       },
       "rarity": "Rare",
       "cardType": "trainer",
@@ -5836,7 +4064,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5844,10 +4072,10 @@
         "date": "2001-10-20",
         "sort": "2001-10-20.00 japanese/pokemon-web 00039"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "team-rocket",
+          "id": "team-rocket",
           "name": "Team Rocket",
           "role": "subject"
         }
@@ -5859,7 +4087,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "040",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -5878,8 +4106,7 @@
             "front": {
               "image": "ff9f0e4fbefcd2c20f5bed10c363584d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5902,63 +4129,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "040",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "040",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "040",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "rocket-s-sneak-attack"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/rocket-gang",
-            "card": "rocket-s-sneak-attack"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "rocket-s-sneak-attack-kij6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "041",
-      "name": "Dark Venusaur",
+      "name": "わるいフシギバナ",
+      "englishName": "Dark Venusaur",
       "number": {
         "printed": "041/048",
-        "numerator": "041"
+        "short": "041"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -5967,7 +4169,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshida",
+          "id": "shin-ichi-yoshida",
           "name": "Shin-ichi Yoshida"
         }
       ],
@@ -5978,17 +4180,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 3,
+          "id": 3,
           "name": "Venusaur"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 3,
-          "form": "3",
-          "name": "Venusaur",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5998,7 +4191,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "041",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6018,8 +4211,7 @@
             "front": {
               "image": "9941be4fdb38fd59343b114c5b9a0072"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6040,65 +4232,36 @@
             "front": {
               "image": "2547e4f001030a68a2e474f881d5d96a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "041",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "041",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "dark-venusaur"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "dark-venusaur",
-          "differs": [
-            "finish",
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-venusaur-h5yp" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "042",
-      "name": "Dark Charizard",
+      "name": "わるいリザードン",
+      "englishName": "Dark Charizard",
       "number": {
         "printed": "042/048",
-        "numerator": "042"
+        "short": "042"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6107,7 +4270,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -6118,17 +4281,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 6,
+          "id": 6,
           "name": "Charizard"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 6,
-          "form": "6",
-          "name": "Charizard",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6138,7 +4292,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "042",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6158,8 +4312,7 @@
             "front": {
               "image": "dc52b9ed10eb946b08be068987b0797b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6180,81 +4333,36 @@
             "front": {
               "image": "576dd9c71564c749135d871026e873a1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "042",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "042",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "4",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-006"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-006"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-006",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-charizard-s7re" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "043",
-      "name": "Moltres",
+      "name": "ファイヤー",
+      "englishName": "Moltres",
       "number": {
         "printed": "043/048",
-        "numerator": "043"
+        "short": "043"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6263,7 +4371,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -6274,17 +4382,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 146,
+          "id": 146,
           "name": "Moltres"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 146,
-          "form": "146",
-          "name": "Moltres",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6294,7 +4393,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "043",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6314,8 +4413,7 @@
             "front": {
               "image": "7d8250b3df4f1d4ea02e478a15949711"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6336,47 +4434,35 @@
             "front": {
               "image": "155180c17ec8b423703c9324e60fdf27"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "043",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "043",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "044",
-      "name": "Dark Blastoise",
+      "name": "わるいカメックス",
+      "englishName": "Dark Blastoise",
       "number": {
         "printed": "044/048",
-        "numerator": "044"
+        "short": "044"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6385,7 +4471,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -6396,17 +4482,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 9,
+          "id": 9,
           "name": "Blastoise"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 9,
-          "form": "9",
-          "name": "Blastoise",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6416,7 +4493,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "044",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6436,8 +4513,7 @@
             "front": {
               "image": "71b1908c8966157df593566d4dd0a406"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6458,81 +4534,36 @@
             "front": {
               "image": "1a3a74096caaa9edb3dcf4af7c3388cd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "044",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "044",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/team-rocket",
-              "card": "3",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/rocket-gang",
-                "card": "no-009"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/rocket-gang",
-          "painting": "no-009"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/rocket-gang",
-          "card": "no-009",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "dark-blastoise-ytzu" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "045",
-      "name": "Articuno",
+      "name": "フリーザー",
+      "englishName": "Articuno",
       "number": {
         "printed": "045/048",
-        "numerator": "045"
+        "short": "045"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6541,7 +4572,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -6552,17 +4583,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 144,
+          "id": 144,
           "name": "Articuno"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 144,
-          "form": "144",
-          "name": "Articuno",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6572,7 +4594,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "045",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6592,8 +4614,7 @@
             "front": {
               "image": "0edd50035d2aac329abdbc4f3473c223"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6616,50 +4637,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "045",
-                "variant": "unlimited-holo"
+                "id": "unlimited-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "045",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "045",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "046",
-      "name": "Zapdos",
+      "name": "サンダー",
+      "englishName": "Zapdos",
       "number": {
         "printed": "046/048",
-        "numerator": "046"
+        "short": "046"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6668,7 +4677,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -6679,17 +4688,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 145,
+          "id": 145,
           "name": "Zapdos"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 145,
-          "form": "145",
-          "name": "Zapdos",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6699,7 +4699,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "046",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6719,8 +4719,7 @@
             "front": {
               "image": "84a704f88473ee1cc82a019416ccd108"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6743,50 +4742,38 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "046",
-                "variant": "unlimited-holo"
+                "id": "unlimited-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "046",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "046",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "047",
-      "name": "Gengar",
+      "name": "ゲンガー",
+      "englishName": "Gengar",
       "number": {
         "printed": "047/048",
-        "numerator": "047"
+        "short": "047"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6795,7 +4782,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hironobu-yoshida",
+          "id": "hironobu-yoshida",
           "name": "Hironobu Yoshida"
         }
       ],
@@ -6806,17 +4793,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 94,
+          "id": 94,
           "name": "Gengar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 94,
-          "form": "94",
-          "name": "Gengar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6826,7 +4804,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "047",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6846,8 +4824,7 @@
             "front": {
               "image": "306c6679081a910f0bdb3c2903a02c2a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -6870,67 +4847,39 @@
                 "$kind": "variant",
                 "set": "japanese/pokemon-web",
                 "card": "047",
-                "variant": "unlimited-holo"
+                "id": "unlimited-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "047",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "047",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "gengar"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "gengar",
-          "differs": [
-            "finish",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "gengar-aywn" },
       "eReaderLayout": "e_card"
     },
     {
+      "$kind": "card",
+      "set": "japanese/pokemon-web",
       "id": "048",
-      "name": "Machamp",
+      "name": "カイリキー",
+      "englishName": "Machamp",
       "number": {
         "printed": "048/048",
-        "numerator": "048"
+        "short": "048"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6939,7 +4888,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -6950,17 +4899,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 68,
+          "id": 68,
           "name": "Machamp"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 68,
-          "form": "68",
-          "name": "Machamp",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6970,7 +4910,7 @@
             "$kind": "variant",
             "set": "japanese/pokemon-web",
             "card": "048",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -6990,8 +4930,7 @@
             "front": {
               "image": "863db5af6e62263a5d173ee9e0a11c56"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -7012,75 +4951,27 @@
             "front": {
               "image": "090707be1ccc927f81decbd2f45df1d5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "048",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/pokemon-web",
           "card": "048",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/wizards-black-star-promos",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miscellaneous-promos",
-                "card": "machamp"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miscellaneous-promos",
-          "painting": "machamp"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miscellaneous-promos",
-          "card": "machamp",
-          "differs": [
-            "finish",
-            "number",
-            "text"
-          ]
-        }
-      },
+      "painting": { "$kind": "painting", "id": "machamp-sxsr" },
       "eReaderLayout": "e_card"
     }
-  ]
+  ],
+  "printedCode": null
 }

@@ -2,64 +2,33 @@
   "id": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
   "catalog": "japanese",
   "name": "Ocean's Kyogre ex Constructed Starter Deck",
+  "englishName": "Ocean's Kyogre ex Constructed Starter Deck",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/constructed-starter-deck-2006",
+    "id": "japanese/constructed-starter-deck-2006",
     "name": "Constructed Starter Deck",
     "part": "Ocean's Kyogre ex"
   },
   "printedTotal": 16,
   "actualTotal": 16,
   "cardCount": 16,
-  "productCount": 0,
   "released": {
     "date": "2006-03-03"
   },
   "logo": "829890a4efe61c5a557af0cf435630e0",
   "symbol": "21e23e7d20e4093f21a835d7f23c449b",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Ocean's Kyogre ex Constructed Starter Deck",
-      "released": {
-        "date": "2006-03-03"
-      },
-      "logo": "829890a4efe61c5a557af0cf435630e0",
-      "symbol": "21e23e7d20e4093f21a835d7f23c449b"
-    }
-  ],
   "description": {
-    "text": "A starter deck built around Kyogre ex, sold at Pokémon Centers from 3 March 2006 and in shops from 10 March, the same days as the Miracle Crystal expansion. Blastoise's evolution line and δ Delta Species Treecko and Grovyle back it up. It is a ready-built 30-card half deck with a coin, damage counters and markers, and a rule book.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「大海のカイオーガex」",
-        "url": "https://web.archive.org/web/20081120214924/http://www.pokemon-card.com/products/pcg/pcg_34.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック「きせきの結晶」",
-        "url": "https://web.archive.org/web/20090226204924/http://www.pokemon-card.com/products/pcg/pcg_35.html"
-      }
-    ]
+    "text": "A starter deck built around Kyogre ex, sold at Pokémon Centers from 3 March 2006 and in shops from 10 March, the same days as the Miracle Crystal expansion. Blastoise's evolution line and δ Delta Species Treecko and Grovyle back it up. It is a ready-built 30-card half deck with a coin, damage counters and markers, and a rule book."
   },
   "tell": {
-    "text": "A black looped-fork symbol at the bottom right, and a number out of 016",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 構築済みスターター「大海のカイオーガex」",
-        "url": "https://web.archive.org/web/20081120214924/http://www.pokemon-card.com/products/pcg/pcg_34.html"
-      }
-    ]
+    "text": "A black looped-fork symbol at the bottom right, and a number out of 016"
   },
   "printRuns": [
     {
@@ -72,7 +41,28 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-crystal-guardians",
+      "id": "french/ex-crystal-guardians",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-crystal-guardians",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-crystal-guardians",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-crystal-guardians",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 15
@@ -80,11 +70,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "001",
-      "name": "Torchic",
+      "name": "アチャモ",
+      "englishName": "Torchic",
       "number": {
         "printed": "001/016",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -92,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sachiko-adachi",
+          "id": "sachiko-adachi",
           "name": "Sachiko Adachi"
         }
       ],
@@ -103,17 +96,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 255,
+          "id": 255,
           "name": "Torchic"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 255,
-          "form": "255",
-          "name": "Torchic",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -123,7 +107,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -141,8 +125,7 @@
             "front": {
               "image": "b8dc1e386bf807a02745a2279559906d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -162,65 +145,35 @@
             "front": {
               "image": "b03e669e61ae6b228fec1a7a3bb57860"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "65",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "torchic-sv9p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "002",
-      "name": "Combusken",
+      "name": "ワカシャモ",
+      "englishName": "Combusken",
       "number": {
         "printed": "002/016",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -228,7 +181,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sachiko-adachi",
+          "id": "sachiko-adachi",
           "name": "Sachiko Adachi"
         }
       ],
@@ -239,17 +192,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 256,
+          "id": 256,
           "name": "Combusken"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 256,
-          "form": "256",
-          "name": "Combusken",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -259,7 +203,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -277,8 +221,7 @@
             "front": {
               "image": "13c00a3f60fa6b7a1c808d8886920153"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -298,65 +241,35 @@
             "front": {
               "image": "e67561cbd5dfb1a5b1540906b6d7001d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "31",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "combusken-ttlj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "003",
-      "name": "Squirtle",
+      "name": "ゼニガメ",
+      "englishName": "Squirtle",
       "number": {
         "printed": "003/016",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -364,7 +277,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -375,17 +288,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 7,
+          "id": 7,
           "name": "Squirtle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 7,
-          "form": "7",
-          "name": "Squirtle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -395,7 +299,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -413,8 +317,7 @@
             "front": {
               "image": "386675ab6352f8cb8abd0559070b8d92"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -434,65 +337,35 @@
             "front": {
               "image": "3be37abc76e28bb17084ff68a5c25026"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "63",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "squirtle-2kuf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "004",
-      "name": "Wartortle",
+      "name": "カメール",
+      "englishName": "Wartortle",
       "number": {
         "printed": "004/016",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -500,7 +373,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -511,17 +384,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 8,
+          "id": 8,
           "name": "Wartortle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 8,
-          "form": "8",
-          "name": "Wartortle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -531,7 +395,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -549,8 +413,7 @@
             "front": {
               "image": "a462d6bf11a9d873de3eadf14d65f52d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -570,65 +433,35 @@
             "front": {
               "image": "1a6f271df2a2c038eaef2c2477202fc8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "004",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "42",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "wartortle-pr8a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "005",
-      "name": "Blastoise",
+      "name": "カメックス",
+      "englishName": "Blastoise",
       "number": {
         "printed": "005/016",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -636,7 +469,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -647,17 +480,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 9,
+          "id": 9,
           "name": "Blastoise"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 9,
-          "form": "9",
-          "name": "Blastoise",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -667,7 +491,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -685,8 +509,7 @@
             "front": {
               "image": "8442742a7f72540c47ffafb7638c84f6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -706,65 +529,35 @@
             "front": {
               "image": "4c7bc9cc40a9146b258e458dbd4faff6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "005",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "blastoise-b9bw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "006",
-      "name": "Kyogre ex",
+      "name": "カイオーガex",
+      "englishName": "Kyogre ex",
       "number": {
         "printed": "006/016",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -772,7 +565,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yasuki-watanabe",
+          "id": "yasuki-watanabe",
           "name": "Yasuki Watanabe"
         }
       ],
@@ -783,17 +576,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 382,
+          "id": 382,
           "name": "Kyogre"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 382,
-          "form": "382",
-          "name": "Kyogre",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -803,7 +587,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -821,8 +605,7 @@
             "front": {
               "image": "5ccd40bc0745eaf4818d9ed4184fbabc"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -842,65 +625,35 @@
             "front": {
               "image": "1a7c84c8731cbba2469f27cadafb6a78"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "006",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "006",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "95",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "kyogre-ex-tty5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "007",
-      "name": "Treecko δ",
+      "name": "キモリ",
+      "englishName": "Treecko δ",
       "number": {
         "printed": "007/016",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -908,7 +661,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -919,17 +672,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 252,
+          "id": 252,
           "name": "Treecko"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 252,
-          "form": "252",
-          "name": "Treecko",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -939,7 +683,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -957,8 +701,7 @@
             "front": {
               "image": "89d3b2d6304f537092e6a699ccb1d0d9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -978,65 +721,35 @@
             "front": {
               "image": "2546384b21f3d9ca83ab0065b90ea10e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "68",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "treecko-pidq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "008",
-      "name": "Grovyle δ",
+      "name": "ジュプトル",
+      "englishName": "Grovyle δ",
       "number": {
         "printed": "008/016",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1044,7 +757,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -1055,17 +768,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 253,
+          "id": 253,
           "name": "Grovyle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 253,
-          "form": "253",
-          "name": "Grovyle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1075,7 +779,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1093,8 +797,7 @@
             "front": {
               "image": "a03b36070dec5368e5efd7ae556e920a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1114,65 +817,35 @@
             "front": {
               "image": "abe3635db85ef68afb2475bc94ed5a12"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "19",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "grovyle-rlbj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "009",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "009/016",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1180,7 +853,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kai-ishikawa",
+          "id": "kai-ishikawa",
           "name": "Kai Ishikawa"
         }
       ],
@@ -1195,7 +868,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1213,8 +886,7 @@
             "front": {
               "image": "10b448cee4c7d6e63c65730152fa6721"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1234,74 +906,35 @@
             "front": {
               "image": "ae8832fbfabc5e66855a1189bd7f3856"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "86",
-              "language": "en",
-              "printCount": 12,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-e-starter-deck",
-          "painting": "028"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-e-starter-deck",
-          "card": "028",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-search-6yjv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "010",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "number": {
         "printed": "010/016",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1309,7 +942,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -1324,7 +957,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1342,8 +975,7 @@
             "front": {
               "image": "6f0fe59afd486f5fcc5cef59c2671b5d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1363,71 +995,35 @@
             "front": {
               "image": "286375ba1bf667e833f2ecd4a543b106"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "87",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "010",
-          "differs": []
-        }
-      }
+      "painting": { "$kind": "painting", "id": "potion-d5e3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "011",
-      "name": "PokéNav",
+      "name": "ポケナビ",
+      "englishName": "PokéNav",
       "number": {
         "printed": "011/016",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1435,7 +1031,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "katsura-tabata",
+          "id": "katsura-tabata",
           "name": "Katsura Tabata"
         }
       ],
@@ -1450,7 +1046,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1468,8 +1064,7 @@
             "front": {
               "image": "34c0dd26eb6313c238ad9ea5ef47bd9c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1489,90 +1084,35 @@
             "front": {
               "image": "2f85db484af56d1c5b8ecf3e7635f9f5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "83",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ],
-          "zh-hans": [
-            {
-              "$kind": "card",
-              "set": "zh-hans/storming-emergence-abundant",
-              "card": "127",
-              "language": "zh-Hans",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "052"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pokenav-hqmg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "012",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "012/016",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1580,7 +1120,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -1595,7 +1135,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1613,8 +1153,7 @@
             "front": {
               "image": "bb944e6eeb687f053dfaccea622fae61"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1634,73 +1173,35 @@
             "front": {
               "image": "743ae1de8b935517d84ff3f01d796812"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "82",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "011"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "011",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-1csg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "013",
-      "name": "Warp Point",
+      "name": "ワープポイント",
+      "englishName": "Warp Point",
       "number": {
         "printed": "013/016",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1708,7 +1209,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "keiji-kinebuchi",
+          "id": "keiji-kinebuchi",
           "name": "Keiji Kinebuchi"
         }
       ],
@@ -1723,7 +1224,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1741,8 +1242,7 @@
             "front": {
               "image": "1e9c738f66ceb8c01faf88c35996faed"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1762,74 +1262,35 @@
             "front": {
               "image": "ab927119d0233a1a4cf9f69c036657d0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "84",
-              "language": "en",
-              "printCount": 12,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/saffron-city-gym-deck",
-          "painting": "warp-point"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/saffron-city-gym-deck",
-          "card": "warp-point",
-          "differs": [
-            "number",
-            "text"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "warp-point-zjub" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "014",
-      "name": "Celio's Network",
+      "name": "ニシキのネットワーク",
+      "englishName": "Celio's Network",
       "number": {
         "printed": "014/016",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1837,7 +1298,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1845,10 +1306,10 @@
         "date": "2006-03-03",
         "sort": "2006-03-03.00 japanese/ocean-s-kyogre-ex-constructed-starter-deck 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "celio",
+          "id": "celio",
           "name": "Celio",
           "role": "subject"
         }
@@ -1860,7 +1321,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1878,8 +1339,7 @@
             "front": {
               "image": "f516e7e4ed2e7f6c6b4c48ac02c958be"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1899,74 +1359,35 @@
             "front": {
               "image": "4cb031898cd04c2655a6aecc1b4ec982"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "014",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "73",
-              "language": "en",
-              "printCount": 14,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/flight-of-legends",
-          "painting": "079"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/flight-of-legends",
-          "card": "079",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "celio-s-network-p5dw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "015",
-      "name": "Bill's Maintenance",
+      "name": "マサキのメンテナンス",
+      "englishName": "Bill's Maintenance",
       "number": {
         "printed": "015/016",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1974,7 +1395,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -1982,10 +1403,10 @@
         "date": "2006-03-03",
         "sort": "2006-03-03.00 japanese/ocean-s-kyogre-ex-constructed-starter-deck 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bill",
+          "id": "bill",
           "name": "Bill",
           "role": "subject"
         }
@@ -1997,7 +1418,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2015,8 +1436,7 @@
             "front": {
               "image": "fcf75b9cf60b264b32d9576e98a339c7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2036,75 +1456,35 @@
             "front": {
               "image": "f9a0d613754b85ffe76c291b549c73fd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "015",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-crystal-guardians",
-              "card": "71",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/expedition-expansion",
-          "painting": "060"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/expedition-expansion",
-          "card": "060",
-          "differs": [
-            "number",
-            "text",
-            "rarity_mark"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "bill-s-maintenance-ntbc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
       "id": "016",
-      "name": "Multi Energy",
+      "name": "マルチエネルギー",
+      "englishName": "Multi Energy",
       "number": {
         "printed": "016/016",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "energy",
       "language": "ja",
@@ -2112,7 +1492,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -2127,7 +1507,7 @@
             "$kind": "variant",
             "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -2145,8 +1525,7 @@
             "front": {
               "image": "6c485a05c4e6590e467028754ac90840"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2166,39 +1545,25 @@
             "front": {
               "image": "bf137d0251bdc496ea97e3e9de127ff1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/ocean-s-kyogre-ex-constructed-starter-deck",
           "card": "016",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ]
     }
-  ]
+  ],
+  "printedCode": null
 }

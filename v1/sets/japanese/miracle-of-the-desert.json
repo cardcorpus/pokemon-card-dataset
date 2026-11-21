@@ -1,10 +1,11 @@
 {
   "id": "japanese/miracle-of-the-desert",
   "catalog": "japanese",
-  "name": "Miracle of the Desert",
+  "name": "砂漠のきせき",
+  "englishName": "Miracle of the Desert",
   "era": {
     "$kind": "era",
-    "era": "japanese/advanced-generation",
+    "id": "japanese/advanced-generation",
     "name": "Advanced Generation"
   },
   "type": "expansion",
@@ -12,67 +13,21 @@
   "printedTotal": 53,
   "actualTotal": 55,
   "cardCount": 55,
-  "productCount": 0,
   "released": {
     "date": "2003-04-18"
   },
   "logo": "49d808454555046f6ca9133445bd74a2",
   "symbol": "f899c6ad097c62dcc79e36d0f915b2ea",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Miracle of the Desert",
-      "released": {
-        "date": "2003-04-18"
-      },
-      "logo": "49d808454555046f6ca9133445bd74a2",
-      "symbol": "f899c6ad097c62dcc79e36d0f915b2ea"
-    }
-  ],
   "description": {
-    "text": "The second expansion pack of the ADV series, released on 18 April 2003. It is set in the desert of Hoenn's Route 111 and brings the fossil Pokémon Anorith and Lileep, along with Cacnea, Wynaut and Azurill. The cards are numbered to 53. In English it became EX Sandstorm in September 2003.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: 拡張パック「砂漠のきせき」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20071118124314/http://www.pokemon-card.com/products/adv/adv_05.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      },
-      {
-        "title": "Wikipedia: List of Pokémon Trading Card Game sets",
-        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets"
-      }
-    ]
+    "text": "The second expansion pack of the ADV series, released on 18 April 2003. It is set in the desert of Hoenn's Route 111 and brings the fossil Pokémon Anorith and Lileep, along with Cacnea, Wynaut and Azurill. The cards are numbered to 53. In English it became EX Sandstorm in September 2003."
   },
   "tell": {
-    "text": "A black footprint symbol at the bottom right, and a number out of 053",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site: 拡張パック「砂漠のきせき」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20071118124314/http://www.pokemon-card.com/products/adv/adv_05.html"
-      }
-    ]
+    "text": "A black footprint symbol at the bottom right, and a number out of 053"
   },
   "printRuns": [
     {
       "edition": "first_edition",
-      "standard": true,
-      "sources": [
-        {
-          "title": "Elite Fourum: Is Unlimited more rare than 1st Ed. in Japanese? (an era-by-era answer)",
-          "url": "https://www.elitefourum.com/t/is-unlimited-more-rare-than-1st-ed-in-japanese/27621/4"
-        },
-        {
-          "title": "CGC: How to Tell if a Pokémon Card is a First Edition",
-          "url": "https://www.cgcgrading.com/news/articles/pokemon-first-editions-3RuIuDcH5mM8koeRHgmzrx/"
-        }
-      ]
+      "standard": true
     },
     {
       "edition": "unlimited"
@@ -81,7 +36,28 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-sandstorm",
+      "id": "french/ex-sandstorm",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 53
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-sandstorm",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 53
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-sandstorm",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 53
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-sandstorm",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 53
@@ -89,11 +65,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "001",
-      "name": "Seedot",
+      "name": "タネボー",
+      "englishName": "Seedot",
       "number": {
         "printed": "001/053",
-        "numerator": "001"
+        "short": "001"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -102,7 +81,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -113,17 +92,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 273,
+          "id": 273,
           "name": "Seedot"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 273,
-          "form": "273",
-          "name": "Seedot",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -133,7 +103,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "001",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -153,8 +123,7 @@
             "front": {
               "image": "79d11c7a1947168d7c4704801bf2426a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -176,68 +145,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "001",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "001",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "76",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "seedot-l2ml" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "002",
-      "name": "Nuzleaf",
+      "name": "コノハナ",
+      "englishName": "Nuzleaf",
       "number": {
         "printed": "002/053",
-        "numerator": "002"
+        "short": "002"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -246,7 +185,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -257,17 +196,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 274,
+          "id": 274,
           "name": "Nuzleaf"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 274,
-          "form": "274",
-          "name": "Nuzleaf",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -277,7 +207,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "002",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -297,8 +227,7 @@
             "front": {
               "image": "0c7dfbe1df0450c567c87001b6b96835"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -320,68 +249,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "002",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "002",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "48",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "nuzleaf-c2hs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "003",
-      "name": "Shiftry",
+      "name": "ダーテング",
+      "englishName": "Shiftry",
       "number": {
         "printed": "003/053",
-        "numerator": "003"
+        "short": "003"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -390,7 +289,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -401,17 +300,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 275,
+          "id": 275,
           "name": "Shiftry"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 275,
-          "form": "275",
-          "name": "Shiftry",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -421,7 +311,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "003",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -441,8 +331,7 @@
             "front": {
               "image": "3936c051d1ecb2ae3cdfc7b60cf590b4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -464,68 +353,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "003",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "003",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "003",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "12",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "shiftry-jlif" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "004",
-      "name": "Volbeat",
+      "name": "バルビート",
+      "englishName": "Volbeat",
       "number": {
         "printed": "004/053",
-        "numerator": "004"
+        "short": "004"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -534,7 +393,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-umemoto",
+          "id": "kyoko-umemoto",
           "name": "Kyoko Umemoto"
         }
       ],
@@ -545,17 +404,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 313,
+          "id": 313,
           "name": "Volbeat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 313,
-          "form": "313",
-          "name": "Volbeat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -565,7 +415,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "004",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -585,8 +435,7 @@
             "front": {
               "image": "1ba69a5d8be117eee9a1ad7d68c0ad4b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -608,68 +457,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "004",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "004",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "volbeat-cyq0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "005",
-      "name": "Illumise",
+      "name": "イルミーゼ",
+      "englishName": "Illumise",
       "number": {
         "printed": "005/053",
-        "numerator": "005"
+        "short": "005"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -678,7 +497,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-umemoto",
+          "id": "kyoko-umemoto",
           "name": "Kyoko Umemoto"
         }
       ],
@@ -689,17 +508,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 314,
+          "id": 314,
           "name": "Illumise"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 314,
-          "form": "314",
-          "name": "Illumise",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -709,7 +519,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "005",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -729,8 +539,7 @@
             "front": {
               "image": "f229f5ba207afa422c588c0b7aaa2011"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -752,68 +561,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "005",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "005",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "38",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "illumise-luao" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "006",
-      "name": "Cacnea",
+      "name": "サボネア",
+      "englishName": "Cacnea",
       "number": {
         "printed": "006/053",
-        "numerator": "006"
+        "short": "006"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -822,7 +601,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -833,17 +612,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 331,
+          "id": 331,
           "name": "Cacnea"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 331,
-          "form": "331",
-          "name": "Cacnea",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -853,7 +623,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "006",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -873,8 +643,7 @@
             "front": {
               "image": "1cf9a50fff29771457e85999e8c47637"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -896,75 +665,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "006",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "006",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "57",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "006"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "007"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "cacnea-swl4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "007",
-      "name": "Cacturne",
+      "name": "ノクタス",
+      "englishName": "Cacturne",
       "number": {
         "printed": "007/053",
-        "numerator": "007"
+        "short": "007"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -973,7 +705,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -984,17 +716,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 332,
+          "id": 332,
           "name": "Cacturne"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 332,
-          "form": "332",
-          "name": "Cacturne",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1004,7 +727,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "007",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1024,8 +747,7 @@
             "front": {
               "image": "0a2433b97867a5367a2e62ca8263a1b8"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -1047,75 +769,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "007",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "007",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "007",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "2",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "007"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "008"
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "cacturne-lxi4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "008",
-      "name": "Seviper",
+      "name": "ハブネーク",
+      "englishName": "Seviper",
       "number": {
         "printed": "008/053",
-        "numerator": "008"
+        "short": "008"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -1124,7 +809,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -1135,17 +820,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 336,
+          "id": 336,
           "name": "Seviper"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 336,
-          "form": "336",
-          "name": "Seviper",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1155,7 +831,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "008",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1175,8 +851,7 @@
             "front": {
               "image": "00d2a13c815c5e5c9c30a477061ebcbf"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -1198,68 +873,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "008",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "008",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "008",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "11",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "seviper-b4qd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "009",
-      "name": "Lileep",
+      "name": "リリーラ",
+      "englishName": "Lileep",
       "number": {
         "printed": "009/053",
-        "numerator": "009"
+        "short": "009"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -1268,7 +913,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -1279,17 +924,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 345,
+          "id": 345,
           "name": "Lileep"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 345,
-          "form": "345",
-          "name": "Lileep",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1299,7 +935,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "009",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1319,8 +955,7 @@
             "front": {
               "image": "4e5a0b1aaed7e54e483523e0f63618d7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -1342,68 +977,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "009",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "009",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "42",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "009"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lileep-74pj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "010",
-      "name": "Cradily",
+      "name": "ユレイドル",
+      "englishName": "Cradily",
       "number": {
         "printed": "010/053",
-        "numerator": "010"
+        "short": "010"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -1412,7 +1017,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -1423,17 +1028,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 346,
+          "id": 346,
           "name": "Cradily"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 346,
-          "form": "346",
-          "name": "Cradily",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1443,7 +1039,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "010",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1463,8 +1059,7 @@
             "front": {
               "image": "38a044ee60aab6e655d58e6c9e288c62"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -1486,68 +1081,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "010",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "010",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "010",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "3",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "010"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "cradily-d5ll" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "011",
-      "name": "Cyndaquil",
+      "name": "ヒノアラシ",
+      "englishName": "Cyndaquil",
       "number": {
         "printed": "011/053",
-        "numerator": "011"
+        "short": "011"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1556,7 +1121,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -1567,17 +1132,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 155,
+          "id": 155,
           "name": "Cyndaquil"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 155,
-          "form": "155",
-          "name": "Cyndaquil",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1587,7 +1143,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "011",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1607,8 +1163,7 @@
             "front": {
               "image": "5ae5cf179a8b343ed62b415f98ba9416"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -1630,68 +1185,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "011",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "011",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "59",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "011"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "cyndaquil-wt5x" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "012",
-      "name": "Quilava",
+      "name": "マグマラシ",
+      "englishName": "Quilava",
       "number": {
         "printed": "012/053",
-        "numerator": "012"
+        "short": "012"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -1700,7 +1225,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -1711,17 +1236,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 156,
+          "id": 156,
           "name": "Quilava"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 156,
-          "form": "156",
-          "name": "Quilava",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1731,7 +1247,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "012",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1751,8 +1267,7 @@
             "front": {
               "image": "4cd6be72cce5465b649114b757d0ab39"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -1774,68 +1289,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "012",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "012",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "51",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "012"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "quilava-nvqh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "013",
-      "name": "Typhlosion ex",
+      "name": "バクフーンex",
+      "englishName": "Typhlosion ex",
       "number": {
         "printed": "013/053",
-        "numerator": "013"
+        "short": "013"
       },
       "rarity": "Ultra Rare",
       "cardType": "pokemon",
@@ -1844,7 +1329,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -1855,17 +1340,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 157,
+          "id": 157,
           "name": "Typhlosion"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 157,
-          "form": "157",
-          "name": "Typhlosion",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1875,7 +1351,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "013",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1895,8 +1371,7 @@
             "front": {
               "image": "efd39e5e9ddb09025c59dcdbd404ee2b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -1918,68 +1393,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "013",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "013",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "013",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "99",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "013"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "typhlosion-ex-npb6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "014",
-      "name": "Psyduck",
+      "name": "コダック",
+      "englishName": "Psyduck",
       "number": {
         "printed": "014/053",
-        "numerator": "014"
+        "short": "014"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -1988,7 +1433,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1999,17 +1444,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 54,
+          "id": 54,
           "name": "Psyduck"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 54,
-          "form": "54",
-          "name": "Psyduck",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2019,7 +1455,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "014",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2039,8 +1475,7 @@
             "front": {
               "image": "26ee2e70b20bd7748dac9e50af4c93a7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -2062,68 +1497,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "014",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "014",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "73",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "014"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "psyduck-xm67" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "015",
-      "name": "Golduck",
+      "name": "ゴルダック",
+      "englishName": "Golduck",
       "number": {
         "printed": "015/053",
-        "numerator": "015"
+        "short": "015"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -2132,7 +1537,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -2143,17 +1548,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 55,
+          "id": 55,
           "name": "Golduck"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 55,
-          "form": "55",
-          "name": "Golduck",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2163,7 +1559,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "015",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2183,8 +1579,7 @@
             "front": {
               "image": "247cc3fb20435677347783b338ed5329"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -2206,68 +1601,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "015",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "015",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "015"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "golduck-4spl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "016",
-      "name": "Marill",
+      "name": "マリル",
+      "englishName": "Marill",
       "number": {
         "printed": "016/053",
-        "numerator": "016"
+        "short": "016"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -2276,7 +1641,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -2287,17 +1652,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 183,
+          "id": 183,
           "name": "Marill"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 183,
-          "form": "183",
-          "name": "Marill",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2307,7 +1663,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "016",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2327,8 +1683,7 @@
             "front": {
               "image": "7bba438891a818536c1070f175d02c1f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -2350,68 +1705,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "016",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "016",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "68",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "016"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "marill-vcw7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "017",
-      "name": "Azumarill",
+      "name": "マリルリ",
+      "englishName": "Azumarill",
       "number": {
         "printed": "017/053",
-        "numerator": "017"
+        "short": "017"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -2420,7 +1745,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -2431,17 +1756,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 184,
+          "id": 184,
           "name": "Azumarill"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 184,
-          "form": "184",
-          "name": "Azumarill",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2451,7 +1767,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "017",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2471,8 +1787,7 @@
             "front": {
               "image": "1f4355710a4bcdcb0337c2667da4f68a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -2494,68 +1809,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "017",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "017",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "017",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "017"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "azumarill-l2ju" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "018",
-      "name": "Lotad",
+      "name": "ハスボー",
+      "englishName": "Lotad",
       "number": {
         "printed": "018/053",
-        "numerator": "018"
+        "short": "018"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -2564,7 +1849,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -2575,17 +1860,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 270,
+          "id": 270,
           "name": "Lotad"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 270,
-          "form": "270",
-          "name": "Lotad",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2595,7 +1871,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "018",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2615,8 +1891,7 @@
             "front": {
               "image": "beb00691afecdbbb6f06c97ff30db963"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -2638,68 +1913,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "018",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "018",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "66",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "018"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lotad-b3mw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "019",
-      "name": "Lombre",
+      "name": "ハスブレロ",
+      "englishName": "Lombre",
       "number": {
         "printed": "019/053",
-        "numerator": "019"
+        "short": "019"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -2708,7 +1953,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -2719,17 +1964,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 271,
+          "id": 271,
           "name": "Lombre"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 271,
-          "form": "271",
-          "name": "Lombre",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2739,7 +1975,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "019",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2759,8 +1995,7 @@
             "front": {
               "image": "89dc7099ac707e2e39718bf72cf409cc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -2782,68 +2017,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "019",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "019",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "45",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "019"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lombre-15q6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "020",
-      "name": "Ludicolo",
+      "name": "ルンパッパ",
+      "englishName": "Ludicolo",
       "number": {
         "printed": "020/053",
-        "numerator": "020"
+        "short": "020"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -2852,7 +2057,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -2863,17 +2068,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 272,
+          "id": 272,
           "name": "Ludicolo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 272,
-          "form": "272",
-          "name": "Ludicolo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2883,7 +2079,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "020",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2903,8 +2099,7 @@
             "front": {
               "image": "f5fc4860b7d3bcbef35f781cd895929f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -2926,80 +2121,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "020",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "020",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "020",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "7",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "020"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/gift-box-latias",
-            "card": "007",
-            "differs": [
-              "finish",
-              "rarity_mark",
-              "number"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "ludicolo-2pqq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "021",
-      "name": "Wailord ex",
+      "name": "ホエルオーex",
+      "englishName": "Wailord ex",
       "number": {
         "printed": "021/053",
-        "numerator": "021"
+        "short": "021"
       },
       "rarity": "Ultra Rare",
       "cardType": "pokemon",
@@ -3008,7 +2161,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -3019,17 +2172,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 321,
+          "id": 321,
           "name": "Wailord"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 321,
-          "form": "321",
-          "name": "Wailord",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3039,7 +2183,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "021",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3059,8 +2203,7 @@
             "front": {
               "image": "5b1f94b27452974a9a16f14fd1f5869f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -3082,68 +2225,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "021",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "021",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "021",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "100",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "021"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "wailord-ex-vbjg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "022",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "022/053",
-        "numerator": "022"
+        "short": "022"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -3152,7 +2265,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -3163,17 +2276,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3183,7 +2287,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "022",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3203,8 +2307,7 @@
             "front": {
               "image": "1b5b08e9871ded18a8664cb4a9c66502"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -3226,68 +2329,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "022",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "022",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "022",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "72",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "022"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pikachu-fagg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "023",
-      "name": "Raichu ex",
+      "name": "ライチュウex",
+      "englishName": "Raichu ex",
       "number": {
         "printed": "023/053",
-        "numerator": "023"
+        "short": "023"
       },
       "rarity": "Ultra Rare",
       "cardType": "pokemon",
@@ -3296,7 +2369,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -3307,17 +2380,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 26,
+          "id": 26,
           "name": "Raichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 26,
-          "form": "26",
-          "name": "Raichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3327,7 +2391,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "023",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3347,8 +2411,7 @@
             "front": {
               "image": "cb6471193a0f694a3e41bc292269e98b"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -3370,68 +2433,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "023",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "023",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "023",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "98",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "023"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "raichu-ex-qvxh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "024",
-      "name": "Pichu",
+      "name": "ピチュー",
+      "englishName": "Pichu",
       "number": {
         "printed": "024/053",
-        "numerator": "024"
+        "short": "024"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -3440,7 +2473,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -3451,17 +2484,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 172,
+          "id": 172,
           "name": "Pichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 172,
-          "form": "172",
-          "name": "Pichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3471,7 +2495,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "024",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3491,8 +2515,7 @@
             "front": {
               "image": "01aa82941fc1aed316099582218ba094"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -3514,68 +2537,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "024",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "024",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "024",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "024"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pichu-6rn1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "025",
-      "name": "Natu",
+      "name": "ネイティ",
+      "englishName": "Natu",
       "number": {
         "printed": "025/053",
-        "numerator": "025"
+        "short": "025"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -3584,7 +2577,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -3595,17 +2588,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 177,
+          "id": 177,
           "name": "Natu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 177,
-          "form": "177",
-          "name": "Natu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3615,7 +2599,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "025",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3635,8 +2619,7 @@
             "front": {
               "image": "a00df5716155adfe5127d29b81baf133"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -3658,68 +2641,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "025",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "025",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "025",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "69",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "025"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "natu-u6qk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "026",
-      "name": "Xatu",
+      "name": "ネイティオ",
+      "englishName": "Xatu",
       "number": {
         "printed": "026/053",
-        "numerator": "026"
+        "short": "026"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -3728,7 +2681,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -3739,17 +2692,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 178,
+          "id": 178,
           "name": "Xatu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 178,
-          "form": "178",
-          "name": "Xatu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3759,7 +2703,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "026",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3779,8 +2723,7 @@
             "front": {
               "image": "e49e961c509b22e8273dd0515a36b0f0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -3802,68 +2745,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "026",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "026",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "026",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "55",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "026"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "xatu-c8r2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "027",
-      "name": "Wobbuffet",
+      "name": "ソーナンス",
+      "englishName": "Wobbuffet",
       "number": {
         "printed": "027/053",
-        "numerator": "027"
+        "short": "027"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -3872,7 +2785,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -3883,17 +2796,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 202,
+          "id": 202,
           "name": "Wobbuffet"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 202,
-          "form": "202",
-          "name": "Wobbuffet",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3903,7 +2807,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "027",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3923,8 +2827,7 @@
             "front": {
               "image": "4ea38bb45c83a04cf304e3a49cf75a7b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -3946,68 +2849,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "027",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "027",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "027",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "26",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "027"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "wobbuffet-eg9a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "028",
-      "name": "Gardevoir ex",
+      "name": "サーナイトex",
+      "englishName": "Gardevoir ex",
       "number": {
         "printed": "028/053",
-        "numerator": "028"
+        "short": "028"
       },
       "rarity": "Ultra Rare",
       "cardType": "pokemon",
@@ -4016,7 +2889,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -4027,17 +2900,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 282,
+          "id": 282,
           "name": "Gardevoir"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 282,
-          "form": "282",
-          "name": "Gardevoir",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4047,7 +2911,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "028",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -4067,8 +2931,7 @@
             "front": {
               "image": "edc1cc51c0d5edee8c7d8b6b2175a435"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -4090,68 +2953,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "028",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "028",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "028",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "96",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "028"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "gardevoir-ex-88il" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "029",
-      "name": "Lunatone",
+      "name": "ルナトーン",
+      "englishName": "Lunatone",
       "number": {
         "printed": "029/053",
-        "numerator": "029"
+        "short": "029"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -4160,7 +2993,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -4171,17 +3004,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 337,
+          "id": 337,
           "name": "Lunatone"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 337,
-          "form": "337",
-          "name": "Lunatone",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4191,7 +3015,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "029",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -4211,8 +3035,7 @@
             "front": {
               "image": "4d240843c02375e1c51c8bfecaaea750"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -4234,68 +3057,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "029",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "029",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "029",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "8",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "029"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lunatone-ebm0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "030",
-      "name": "Duskull",
+      "name": "ヨマワル",
+      "englishName": "Duskull",
       "number": {
         "printed": "030/053",
-        "numerator": "030"
+        "short": "030"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -4304,7 +3097,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -4315,17 +3108,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 355,
+          "id": 355,
           "name": "Duskull"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 355,
-          "form": "355",
-          "name": "Duskull",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4335,7 +3119,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "030",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4355,8 +3139,7 @@
             "front": {
               "image": "092ebc9a792b95a99bb21921bfd55346"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -4378,68 +3161,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "030",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "030",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "030",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "61",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "030"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "duskull-kq0o" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "031",
-      "name": "Dusclops",
+      "name": "サマヨール",
+      "englishName": "Dusclops",
       "number": {
         "printed": "031/053",
-        "numerator": "031"
+        "short": "031"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -4448,7 +3201,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -4459,17 +3212,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 356,
+          "id": 356,
           "name": "Dusclops"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 356,
-          "form": "356",
-          "name": "Dusclops",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4479,7 +3223,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "031",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -4499,8 +3243,7 @@
             "front": {
               "image": "171118dba7d9e2d1933aa129794f202a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -4522,68 +3265,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "031",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "031",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "031",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "4",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "031"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "dusclops-5o4w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "032",
-      "name": "Wynaut",
+      "name": "ソーナノ",
+      "englishName": "Wynaut",
       "number": {
         "printed": "032/053",
-        "numerator": "032"
+        "short": "032"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -4592,7 +3305,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -4603,17 +3316,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 360,
+          "id": 360,
           "name": "Wynaut"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 360,
-          "form": "360",
-          "name": "Wynaut",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4623,7 +3327,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "032",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4643,8 +3347,7 @@
             "front": {
               "image": "fc3200c090798ebf772a75e5edd679e1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -4666,68 +3369,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "032",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "032",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "032",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "54",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "032"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "wynaut-13r9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "033",
-      "name": "Sandshrew",
+      "name": "サンド",
+      "englishName": "Sandshrew",
       "number": {
         "printed": "033/053",
-        "numerator": "033"
+        "short": "033"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -4736,7 +3409,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -4747,17 +3420,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 27,
+          "id": 27,
           "name": "Sandshrew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 27,
-          "form": "27",
-          "name": "Sandshrew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4767,7 +3431,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "033",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4787,8 +3451,7 @@
             "front": {
               "image": "3e236b568e00a72eeeae26c7d6f1bcb0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -4810,68 +3473,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "033",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "033",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "033",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "75",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "033"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "sandshrew-jkpj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "034",
-      "name": "Sandslash",
+      "name": "サンドパン",
+      "englishName": "Sandslash",
       "number": {
         "printed": "034/053",
-        "numerator": "034"
+        "short": "034"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -4880,7 +3513,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -4891,17 +3524,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 28,
+          "id": 28,
           "name": "Sandslash"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 28,
-          "form": "28",
-          "name": "Sandslash",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4911,7 +3535,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "034",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4931,8 +3555,7 @@
             "front": {
               "image": "fd8b2fa3adcd287b375a190a61706e4d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -4954,68 +3577,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "034",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "034",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "034",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "034"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "sandslash-a1cv" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "035",
-      "name": "Trapinch",
+      "name": "ナックラー",
+      "englishName": "Trapinch",
       "number": {
         "printed": "035/053",
-        "numerator": "035"
+        "short": "035"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -5024,7 +3617,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -5035,17 +3628,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 328,
+          "id": 328,
           "name": "Trapinch"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 328,
-          "form": "328",
-          "name": "Trapinch",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5055,7 +3639,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "035",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5075,8 +3659,7 @@
             "front": {
               "image": "06a24e29bb362349c8c55df08f94eab8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -5098,68 +3681,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "035",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "035",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "035",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "82",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "035"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "trapinch-v8t0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "036",
-      "name": "Solrock",
+      "name": "ソルロック",
+      "englishName": "Solrock",
       "number": {
         "printed": "036/053",
-        "numerator": "036"
+        "short": "036"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -5168,7 +3721,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -5179,17 +3732,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 338,
+          "id": 338,
           "name": "Solrock"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 338,
-          "form": "338",
-          "name": "Solrock",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5199,7 +3743,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "036",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5219,8 +3763,7 @@
             "front": {
               "image": "6442bbfd52e8ac6bd58e22c3cc3ab4f0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -5242,68 +3785,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "036",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "036",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "036",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "036"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "solrock-gcxn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "037",
-      "name": "Baltoy",
+      "name": "ヤジロン",
+      "englishName": "Baltoy",
       "number": {
         "printed": "037/053",
-        "numerator": "037"
+        "short": "037"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -5312,7 +3825,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -5323,17 +3836,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 343,
+          "id": 343,
           "name": "Baltoy"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 343,
-          "form": "343",
-          "name": "Baltoy",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5343,7 +3847,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "037",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5363,8 +3867,7 @@
             "front": {
               "image": "be79886318943b44dfa69a96cf0c308d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -5386,68 +3889,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "037",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "037",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "037",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "32",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "037"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "baltoy-kag9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "038",
-      "name": "Anorith",
+      "name": "アノプス",
+      "englishName": "Anorith",
       "number": {
         "printed": "038/053",
-        "numerator": "038"
+        "short": "038"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -5456,7 +3929,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -5467,17 +3940,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 347,
+          "id": 347,
           "name": "Anorith"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 347,
-          "form": "347",
-          "name": "Anorith",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5487,7 +3951,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "038",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5507,8 +3971,7 @@
             "front": {
               "image": "3d6a98a8e40449552085fe6e07258252"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -5530,68 +3993,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "038",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "038",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "038",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "27",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "038"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "anorith-x9ys" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "039",
-      "name": "Armaldo",
+      "name": "アーマルド",
+      "englishName": "Armaldo",
       "number": {
         "printed": "039/053",
-        "numerator": "039"
+        "short": "039"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -5600,7 +4033,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -5611,17 +4044,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 348,
+          "id": 348,
           "name": "Armaldo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 348,
-          "form": "348",
-          "name": "Armaldo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5631,7 +4055,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "039",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5651,8 +4075,7 @@
             "front": {
               "image": "5d1cfcd6565eba3ebbd2d82418d61798"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -5671,65 +4094,35 @@
             "front": {
               "image": "2d2a1bf05344052e44137fcf8cc2d087"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "039",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "039",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "039"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "armaldo-37kx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "040",
-      "name": "Zigzagoon",
+      "name": "ジグザグマ",
+      "englishName": "Zigzagoon",
       "number": {
         "printed": "040/053",
-        "numerator": "040"
+        "short": "040"
       },
       "rarity": "Common",
       "cardType": "pokemon",
@@ -5738,7 +4131,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -5749,17 +4142,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 263,
+          "id": 263,
           "name": "Zigzagoon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 263,
-          "form": "263",
-          "name": "Zigzagoon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5769,7 +4153,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "040",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5789,8 +4173,7 @@
             "front": {
               "image": "5ca132da9681ba621ebe18cf5e42caf3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -5812,68 +4195,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "040",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "040",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "040",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "85",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "040"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "zigzagoon-16ey" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "041",
-      "name": "Azurill",
+      "name": "ルリリ",
+      "englishName": "Azurill",
       "number": {
         "printed": "041/053",
-        "numerator": "041"
+        "short": "041"
       },
       "rarity": "Uncommon",
       "cardType": "pokemon",
@@ -5882,7 +4235,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -5893,17 +4246,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 298,
+          "id": 298,
           "name": "Azurill"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 298,
-          "form": "298",
-          "name": "Azurill",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5913,7 +4257,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "041",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5933,8 +4277,7 @@
             "front": {
               "image": "d95b0454eef89baea376bea73503cdfe"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -5956,68 +4299,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "041",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "041",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "041",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "31",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "041"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "azurill-vksd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "042",
-      "name": "Zangoose",
+      "name": "ザングース",
+      "englishName": "Zangoose",
       "number": {
         "printed": "042/053",
-        "numerator": "042"
+        "short": "042"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6026,7 +4339,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -6037,17 +4350,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 335,
+          "id": 335,
           "name": "Zangoose"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 335,
-          "form": "335",
-          "name": "Zangoose",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6057,7 +4361,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "042",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -6077,8 +4381,7 @@
             "front": {
               "image": "3dfc3e670c0f8e14c1578a9d1755b438"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -6100,68 +4403,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "042",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "042",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "042",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "042"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "zangoose-rpp5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "043",
-      "name": "Kecleon",
+      "name": "カクレオン",
+      "englishName": "Kecleon",
       "number": {
         "printed": "043/053",
-        "numerator": "043"
+        "short": "043"
       },
       "rarity": "Rare",
       "cardType": "pokemon",
@@ -6170,7 +4443,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -6181,17 +4454,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 352,
+          "id": 352,
           "name": "Kecleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 352,
-          "form": "352",
-          "name": "Kecleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6201,7 +4465,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "043",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -6221,8 +4485,7 @@
             "front": {
               "image": "023b5971b74b3259f198f4cf1aebfe03"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -6244,68 +4507,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "043",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "043",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "043",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "043"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "kecleon-psuj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "044",
-      "name": "Sableye",
+      "name": "ヤミラミ",
+      "englishName": "Sableye",
       "number": {
         "printed": "044/053",
-        "numerator": "044"
+        "short": "044"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6314,7 +4547,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -6325,17 +4558,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 302,
+          "id": 302,
           "name": "Sableye"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 302,
-          "form": "302",
-          "name": "Sableye",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6345,7 +4569,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "044",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -6365,8 +4589,7 @@
             "front": {
               "image": "5f5203781dc7aa8316bb22140c9713bd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -6385,65 +4608,35 @@
             "front": {
               "image": "a8a13554250d8a82fdb9ee5dc4619210"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "044",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "044",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "10",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "044"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "sableye-hcjb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "045",
-      "name": "Mawile",
+      "name": "クチート",
+      "englishName": "Mawile",
       "number": {
         "printed": "045/053",
-        "numerator": "045"
+        "short": "045"
       },
       "rarity": "Holo Rare",
       "cardType": "pokemon",
@@ -6452,7 +4645,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -6463,17 +4656,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 303,
+          "id": 303,
           "name": "Mawile"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 303,
-          "form": "303",
-          "name": "Mawile",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6483,7 +4667,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "045",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -6503,8 +4687,7 @@
             "front": {
               "image": "212272395528933a07344f4454720e71"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -6526,68 +4709,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "045",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "045",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "045",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "9",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "045"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "mawile-4vx3" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "046",
-      "name": "Aggron ex",
+      "name": "ボスゴドラex",
+      "englishName": "Aggron ex",
       "number": {
         "printed": "046/053",
-        "numerator": "046"
+        "short": "046"
       },
       "rarity": "Ultra Rare",
       "cardType": "pokemon",
@@ -6596,7 +4749,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hikaru-koike",
+          "id": "hikaru-koike",
           "name": "Hikaru Koike"
         }
       ],
@@ -6607,17 +4760,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 306,
+          "id": 306,
           "name": "Aggron"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 306,
-          "form": "306",
-          "name": "Aggron",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -6627,7 +4771,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "046",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -6647,8 +4791,7 @@
             "front": {
               "image": "a109c710cdf55ab202cc23c48b0f5a00"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -6670,68 +4813,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "046",
-                "variant": "first-edition-holo"
+                "id": "first-edition-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "first-edition-holo",
+      "defaultVariant": "first-edition-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "046",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "046",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "95",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "046"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "aggron-ex-a204" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "047",
-      "name": "Claw Fossil",
+      "name": "ツメの化石",
+      "englishName": "Claw Fossil",
       "number": {
         "printed": "047/053",
-        "numerator": "047"
+        "short": "047"
       },
       "rarity": "Common",
       "cardType": "trainer",
@@ -6740,7 +4853,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -6755,7 +4868,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "047",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -6775,8 +4888,7 @@
             "front": {
               "image": "2327c4ada8d56fff3bf54a73ae93ee12"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -6798,68 +4910,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "047",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "047",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "047",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "90",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "047"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "claw-fossil-hc75" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "048",
-      "name": "Root Fossil",
+      "name": "ねっこの化石",
+      "englishName": "Root Fossil",
       "number": {
         "printed": "048/053",
-        "numerator": "048"
+        "short": "048"
       },
       "rarity": "Common",
       "cardType": "trainer",
@@ -6868,7 +4950,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -6883,7 +4965,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "048",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -6903,8 +4985,7 @@
             "front": {
               "image": "6b4f49c4f93942d252e5c7a12f6973fb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -6926,68 +5007,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "048",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "048",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "048",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "92",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "048"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "root-fossil-vdg5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "049",
-      "name": "Double Full Heal",
+      "name": "なんでもなおしW",
+      "englishName": "Double Full Heal",
       "number": {
         "printed": "049/053",
-        "numerator": "049"
+        "short": "049"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -6996,7 +5047,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -7011,7 +5062,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "049",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -7031,8 +5082,7 @@
             "front": {
               "image": "3ce08682e52628b220f1bb11040cc18e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -7051,174 +5101,35 @@
             "front": {
               "image": "f803c6351cb2cf99d10cfcbfdbaf8d79"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "049",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "049",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "86",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "049"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/aqua-deck-kit",
-            "card": "025",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/magma-deck-kit",
-            "card": "025",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/gift-box-latias",
-            "card": "015",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/gift-box-latios",
-            "card": "015",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/earth-s-groudon-ex-constructed-starter-deck",
-            "card": "012",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/entry-pack",
-            "card": "double-full-heal",
-            "differs": [
-              "rarity_mark",
-              "no_number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/space-time-creation",
-            "card": "double-full-heal",
-            "differs": [
-              "no_number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/entry-pack-08",
-            "card": "032",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/giratina-vs-dialga-deck-kit-dialga",
-            "card": "010",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-            "card": "010",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/dpt-gift-box-pikachu",
-            "card": "012",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/dpt-gift-box-piplup",
-            "card": "012",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "double-full-heal-14y2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "050",
-      "name": "Rare Candy",
+      "name": "ふしぎなアメ",
+      "englishName": "Rare Candy",
       "number": {
         "printed": "050/053",
-        "numerator": "050"
+        "short": "050"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -7227,7 +5138,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -7242,7 +5153,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "050",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -7262,8 +5173,7 @@
             "front": {
               "image": "c0de2c4b64eb518cfdc6a454210cf458"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -7285,79 +5195,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "050",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "050",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "050",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "88",
-              "language": "en",
-              "printCount": 9,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "050"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/champion-road",
-            "card": "055",
-            "differs": [
-              "number",
-              "text"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "rare-candy-z3px" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "051",
-      "name": "Lanette's Net Search",
+      "name": "マユミのネットサーチ",
+      "englishName": "Lanette's Net Search",
       "number": {
         "printed": "051/053",
-        "numerator": "051"
+        "short": "051"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -7366,7 +5235,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -7374,10 +5243,10 @@
         "date": "2003-04-18",
         "sort": "2003-04-18.00 japanese/miracle-of-the-desert 00050"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "lanette",
+          "id": "lanette",
           "name": "Lanette",
           "role": "subject"
         }
@@ -7389,7 +5258,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "051",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -7409,8 +5278,7 @@
             "front": {
               "image": "dead3c4f227839a66c517fc073c5b4f2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -7432,68 +5300,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "051",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "051",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "051",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "87",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "051"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lanette-s-net-search-b9vo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "052",
-      "name": "Wally's Training",
+      "name": "ミツルの育成",
+      "englishName": "Wally's Training",
       "number": {
         "printed": "052/053",
-        "numerator": "052"
+        "short": "052"
       },
       "rarity": "Uncommon",
       "cardType": "trainer",
@@ -7502,7 +5340,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -7510,10 +5348,10 @@
         "date": "2003-04-18",
         "sort": "2003-04-18.00 japanese/miracle-of-the-desert 00051"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "wally",
+          "id": "wally",
           "name": "Wally",
           "role": "subject"
         }
@@ -7525,7 +5363,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "052",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -7545,8 +5383,7 @@
             "front": {
               "image": "dc91b3d290ee9c9c0bbef427ec9b17ab"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -7568,68 +5405,38 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "052",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "052",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "052",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "89",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "052"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "wally-s-training-n5pp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "053",
-      "name": "Multi Energy",
+      "name": "マルチエネルギー",
+      "englishName": "Multi Energy",
       "number": {
         "printed": "053/053",
-        "numerator": "053"
+        "short": "053"
       },
       "rarity": "Rare",
       "cardType": "energy",
@@ -7638,7 +5445,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -7653,7 +5460,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "053",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -7673,8 +5480,7 @@
             "front": {
               "image": "b651fdda0648cfc63b9f3c410ce8270e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "unlimited-non-holo",
@@ -7696,118 +5502,42 @@
                 "$kind": "variant",
                 "set": "japanese/miracle-of-the-desert",
                 "card": "053",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo",
-            "unlimited-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "first-edition-non-holo",
+      "defaultVariant": "first-edition-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "053",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/miracle-of-the-desert",
           "card": "053",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "93",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "053"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/deoxys-constructed-starter-deck",
-            "card": "multi-energy",
-            "differs": [
-              "no_number",
-              "rarity_mark"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/rayquaza-constructed-starter-deck",
-            "card": "multi-energy",
-            "differs": [
-              "no_number",
-              "rarity_mark"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/movie-commemoration-vs-pack-sky-splitting-deoxys",
-            "card": "multi-energy",
-            "differs": [
-              "no_number",
-              "rarity_mark"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/bastiodon-the-defender-rampardos-the-attacker-constructed-half-decks",
-            "card": "multi-energy",
-            "differs": [
-              "rarity_mark"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/secret-of-the-lakes",
-            "card": "multi-energy",
-            "differs": [
-              "rarity_mark",
-              "no_number"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "multi-energy-6r5a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "darkness-energy",
-      "name": "Darkness Energy",
+      "name": "悪エネルギー",
+      "englishName": "Darkness Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Milky Isobe",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -7816,13 +5546,7 @@
         "sort": "2003-04-18.00 japanese/miracle-of-the-desert 00053"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -7831,7 +5555,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "darkness-energy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -7845,65 +5569,25 @@
             "front": {
               "image": "828e7a85d0a268a9789cb48c0379b45c"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "darkness-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/ex-ruby-sapphire",
-          "painting": "93"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "darkness-energy",
-          "differs": []
-        }
-      }
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "darkness-energy-3gij" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/miracle-of-the-desert",
       "id": "metal-energy",
-      "name": "Metal Energy",
+      "name": "鋼エネルギー",
+      "englishName": "Metal Energy",
       "cardType": "energy",
       "language": "ja",
       "credit": "Milky Isobe",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -7912,13 +5596,7 @@
         "sort": "2003-04-18.00 japanese/miracle-of-the-desert 00054"
       },
       "tell": {
-        "text": null,
-        "sources": [
-          {
-            "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-            "url": "https://www.30tharchive.pokemon-card.com/"
-          }
-        ]
+        "text": null
       },
       "picture": {
         "front": {
@@ -7927,7 +5605,7 @@
             "$kind": "variant",
             "set": "japanese/miracle-of-the-desert",
             "card": "metal-energy",
-            "variant": "plain"
+            "id": "plain"
           }
         }
       },
@@ -7941,54 +5619,12 @@
             "front": {
               "image": "7def7e0f8bce9fd800d9499918fa9784"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "plain",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "plain"
-          ],
-          "defaultCopy": "plain",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-ruby-sapphire",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/adv-expansion-pack",
-                "card": "metal-energy"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/adv-expansion-pack",
-          "painting": "metal-energy"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/adv-expansion-pack",
-          "card": "metal-energy",
-          "differs": []
-        }
-      }
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "metal-energy-pdav" }
     }
-  ]
+  ],
+  "printedCode": null
 }

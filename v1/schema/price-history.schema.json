@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus price history of a card",
+  "description": "One card's daily `price` for each of its copies, from its first priced day to the newest. Served by index.json's `prices.history`, not in this tree; 404 for a card with none (https://pokemon.cardcorpus.com/v1/docs/guide.md#prices).",
+  "type": "object",
+  "required": [
+    "set",
+    "card",
+    "through",
+    "currency",
+    "days",
+    "copies",
+    "change30d"
+  ],
+  "properties": {
+    "set": {
+      "description": "The set's id (sets/{catalog}.json).",
+      "type": "string"
+    },
+    "card": {
+      "description": "The card's id in its set.",
+      "type": "string"
+    },
+    "through": {
+      "description": "The newest day either marketplace has: where the history ends.",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "currency": {
+      "description": "The currency of each marketplace's series.",
+      "type": "object",
+      "required": [
+        "tcgplayer",
+        "cardmarket"
+      ],
+      "properties": {
+        "tcgplayer": {
+          "description": "US dollars.",
+          "const": "USD"
+        },
+        "cardmarket": {
+          "description": "Euros.",
+          "const": "EUR"
+        }
+      }
+    },
+    "days": {
+      "description": "Every day from the card's first priced day through `through`, in order.",
+      "type": "array",
+      "items": {
+        "description": "A day.",
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      }
+    },
+    "copies": {
+      "description": "Each copy that ever had a price, by copy id.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "The copy's series on each marketplace that priced it.",
+        "type": "object",
+        "properties": {
+          "tcgplayer": {
+            "description": "The copy's `price` on TCGplayer, one entry per day of `days`.",
+            "type": "array",
+            "items": {
+              "description": "The price that day, or null when it had none.",
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "cardmarket": {
+            "description": "The copy's `price` on Cardmarket, one entry per day of `days`.",
+            "type": "array",
+            "items": {
+              "description": "The price that day, or null when it had none.",
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "change30d": {
+      "description": "How each copy's price moved over the last 30 days, by copy id.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "How the copy's price moved over 30 days on each marketplace, as a fraction: 0.045 is up 4.5%, 0 is less than 2% either way. A marketplace is left out when there is too little to compare.",
+        "type": "object",
+        "properties": {
+          "tcgplayer": {
+            "description": "The change on TCGplayer.",
+            "type": "number"
+          },
+          "cardmarket": {
+            "description": "The change on Cardmarket.",
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

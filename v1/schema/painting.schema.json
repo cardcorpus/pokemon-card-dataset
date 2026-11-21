@@ -1,0 +1,723 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus painting",
+  "description": "One painting, with every print of it in every language and how each links to the others. A painting is one piece of card art, with an id of its own that never changes, its file paintings/{id}.json; its `firstPrint` is the card that first printed it, such as Expansion Pack's No. 006 for the Charizard painting. Its `prints` are keyed by set and then card id, so a card finds its own print as `prints[card.set][card.id]`, and each print's `links` say which print is the same card in each other catalog, what it reprints and its reprints, and its parallels. Every card a link names is in `prints` too, found the same way. `cards` lists the prints card by card: one list for each different card that uses the painting, which is one card with its reprints, its parallels and the same card in other languages, all of which play the same. That Charizard painting has two, the original Base Set Charizard with every reprint of it, and the Evolutions Charizard, which reuses the picture on a card with other HP and attacks. A card's `painting` names this file (https://pokemon.cardcorpus.com/v1/docs/guide.md#links).",
+  "type": "object",
+  "required": [
+    "id",
+    "firstPrint",
+    "printCount",
+    "cardCount",
+    "cards",
+    "prints"
+  ],
+  "properties": {
+    "id": {
+      "description": "The painting's own id, which never changes: its first print's English name and a short code, such as `charizard-k3f9`. Where it was first printed is `firstPrint`'s to say, corrected there when research finds an earlier print.",
+      "type": "string"
+    },
+    "firstPrint": {
+      "description": "The card that first printed it: its earliest print that reprints nothing, the Japanese one where prints came out the same day. Corrected when research finds an earlier print; the painting's `id` stays the same.",
+      "type": "object",
+      "x-cc": {
+        "ref": "card"
+      },
+      "required": [
+        "$kind",
+        "set",
+        "id"
+      ],
+      "properties": {
+        "$kind": {
+          "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+          "const": "card"
+        },
+        "set": {
+          "description": "The set's id (sets/{catalog}.json).",
+          "type": "string"
+        },
+        "id": {
+          "description": "The card's id, unique in its set.",
+          "type": "string"
+        }
+      }
+    },
+    "printCount": {
+      "description": "How many prints carry it, in every language.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "cardCount": {
+      "description": "How many different cards those prints are: the length of `cards`.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "cards": {
+      "description": "Its prints card by card: the card that holds the painting's first print first, then in the order each card first came out. A card is one card with its reprints, its parallels and the same card in other languages, which all play the same; a card that reuses the painting with other game text is another. Most paintings have one. For \"other cards with this picture\", take the cards that do not hold yours.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "description": "One card's prints, in every language: the painting's first print first, then oldest first. Each is in `prints`.",
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "description": "A print.",
+          "type": "object",
+          "x-cc": {
+            "ref": "card"
+          },
+          "required": [
+            "$kind",
+            "set",
+            "id"
+          ],
+          "properties": {
+            "$kind": {
+              "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+              "const": "card"
+            },
+            "set": {
+              "description": "The set's id (sets/{catalog}.json).",
+              "type": "string"
+            },
+            "id": {
+              "description": "The card's id, unique in its set.",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "prints": {
+      "description": "Every print in `cards`, by its set's id and then its card id, each with how it links to other cards; and the prints of other paintings those links name, the same card redrawn for another language, which say their own `painting` and are in no list of `cards`.",
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "description": "A set's prints, by card id.",
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": {
+          "unevaluatedProperties": false,
+          "allOf": [
+            {
+              "$ref": "#/$defs/cardSummary"
+            },
+            {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "links": {
+                  "description": "How it links to other cards: each card a link names is in this file's `prints`.",
+                  "type": "object",
+                  "properties": {
+                    "counterparts": {
+                      "description": "The card it is the same card as in each other catalog, by the catalog's id (index.json's `catalogs`), one a catalog, in the catalogs' order: `counterparts.french` is its French print. Each names a print in the same painting file (https://pokemon.cardcorpus.com/v1/docs/guide.md#counterparts).",
+                      "type": "object",
+                      "minProperties": 1,
+                      "additionalProperties": {
+                        "type": "object",
+                        "x-cc": {
+                          "ref": "card"
+                        },
+                        "required": [
+                          "$kind",
+                          "set",
+                          "id",
+                          "printCount"
+                        ],
+                        "properties": {
+                          "$kind": {
+                            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                            "const": "card"
+                          },
+                          "set": {
+                            "description": "The set's id (sets/{catalog}.json).",
+                            "type": "string"
+                          },
+                          "id": {
+                            "description": "The card's id, unique in its set.",
+                            "type": "string"
+                          },
+                          "printCount": {
+                            "description": "The card's prints in its language: the card it reprints (or itself), their parallels, and every reprint of those and theirs.",
+                            "type": "integer",
+                            "minimum": 1
+                          },
+                          "via": {
+                            "description": "Where the link is borrowed: `original`, from the card this one reprints; `reprint`, from its first print in its set.",
+                            "enum": [
+                              "original",
+                              "reprint"
+                            ]
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    },
+                    "reprintOf": {
+                      "description": "The card it reprints: the first print in its language (https://pokemon.cardcorpus.com/v1/docs/guide.md#reprints).",
+                      "type": "object",
+                      "x-cc": {
+                        "ref": "card"
+                      },
+                      "required": [
+                        "$kind",
+                        "set",
+                        "id",
+                        "differs"
+                      ],
+                      "properties": {
+                        "$kind": {
+                          "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                          "const": "card"
+                        },
+                        "set": {
+                          "description": "The set's id (sets/{catalog}.json).",
+                          "type": "string"
+                        },
+                        "id": {
+                          "description": "The card's id, unique in its set.",
+                          "type": "string"
+                        },
+                        "differs": {
+                          "description": "What sets the reprint apart from the original; empty when nothing we compare differs, which is itself a fact.",
+                          "type": "array",
+                          "items": {
+                            "description": "One difference.",
+                            "x-cc": {
+                              "vocabulary": "differs"
+                            },
+                            "allOf": [
+                              {
+                                "$ref": "#/$defs/vocabulary.differs"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    "reprints": {
+                      "description": "The later prints of it in other sets of its language, oldest first.",
+                      "type": "array",
+                      "items": {
+                        "description": "A reprint.",
+                        "type": "object",
+                        "x-cc": {
+                          "ref": "card"
+                        },
+                        "required": [
+                          "$kind",
+                          "set",
+                          "id",
+                          "differs"
+                        ],
+                        "properties": {
+                          "$kind": {
+                            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                            "const": "card"
+                          },
+                          "set": {
+                            "description": "The set's id (sets/{catalog}.json).",
+                            "type": "string"
+                          },
+                          "id": {
+                            "description": "The card's id, unique in its set.",
+                            "type": "string"
+                          },
+                          "differs": {
+                            "description": "What sets the reprint apart from the original; empty when nothing we compare differs, which is itself a fact.",
+                            "type": "array",
+                            "items": {
+                              "description": "One difference.",
+                              "x-cc": {
+                                "vocabulary": "differs"
+                              },
+                              "allOf": [
+                                {
+                                  "$ref": "#/$defs/vocabulary.differs"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "parallels": {
+                      "description": "Its other prints in its own set, in number order (https://pokemon.cardcorpus.com/v1/docs/guide.md#parallels).",
+                      "type": "array",
+                      "items": {
+                        "description": "A parallel.",
+                        "type": "object",
+                        "x-cc": {
+                          "ref": "card"
+                        },
+                        "required": [
+                          "$kind",
+                          "set",
+                          "id"
+                        ],
+                        "properties": {
+                          "$kind": {
+                            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                            "const": "card"
+                          },
+                          "set": {
+                            "description": "The set's id (sets/{catalog}.json).",
+                            "type": "string"
+                          },
+                          "id": {
+                            "description": "The card's id, unique in its set.",
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "cardSummary": {
+      "title": "CardSummary",
+      "description": "A card as every list gives it: where it is (`$kind`, `set`, `id`, the pointer to it) and what a tile draws from, each field the card's own, whole. A card in its set's file has every one of these, and the rest of its fields.",
+      "type": "object",
+      "x-cc": {
+        "ref": "card",
+        "label": "name"
+      },
+      "required": [
+        "$kind",
+        "set",
+        "id",
+        "name",
+        "language",
+        "released",
+        "defaultVariant"
+      ],
+      "properties": {
+        "$kind": {
+          "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+          "const": "card"
+        },
+        "set": {
+          "description": "The set's id (sets/{catalog}.json).",
+          "type": "string"
+        },
+        "id": {
+          "description": "The card's id, unique in its set. Treat it as opaque: it never changes once published.",
+          "type": "string"
+        },
+        "name": {
+          "description": "The card's name as it prints it, in its language: \"リザードン\" on a Japanese Charizard. Where no source gives the printed name yet, its English name (https://pokemon.cardcorpus.com/v1/docs/guide.md#names).",
+          "type": "string"
+        },
+        "englishName": {
+          "description": "The card's name in English, on every card, the same as `name` on an English card: \"Charizard\". What to search and sort by across languages (https://pokemon.cardcorpus.com/v1/docs/guide.md#names).",
+          "type": "string"
+        },
+        "subtitle": {
+          "description": "The smaller name the card prints beside its own, as it prints it, in its language, where it prints one: \"Professeur Chen\" on a French Professor's Research, \"オーキド博士\" on a Japanese one. Where we have no printed subtitle, the English one on a card whose `name` is its English one (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles).",
+          "type": "string"
+        },
+        "englishSubtitle": {
+          "description": "The smaller name the card prints beside its own, in English, where it prints one: the professor on a Professor's Research (\"Professor Oak\"), the boss on a Boss's Orders (\"Ghetsis\"). It says which of the cards sharing a name this is, but isn't part of the name: a deck counts them all as one card. Always one of the card's `characters` (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles). Our own pages show it joined to the name: \"Professor's Research (Professor Oak)\".",
+          "type": "string"
+        },
+        "number": {
+          "description": "Its number as printed (\"4/102\", \"SWSH001\"), and that number without its set total.",
+          "type": "object",
+          "required": [
+            "short"
+          ],
+          "properties": {
+            "printed": {
+              "description": "The number as printed, where the card prints one.",
+              "type": "string"
+            },
+            "short": {
+              "description": "The number without its set total: \"4\" of \"4/102\", and the whole number where it prints no total (\"SWSH001\"). What a tile shows and a sort reads.",
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        "rarity": {
+          "description": "Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity).",
+          "x-cc": {
+            "vocabulary": "rarity"
+          },
+          "allOf": [
+            {
+              "$ref": "#/$defs/vocabulary.rarity"
+            }
+          ]
+        },
+        "cardType": {
+          "description": "Pokémon, Trainer or Energy.",
+          "x-cc": {
+            "vocabulary": "cardType"
+          },
+          "allOf": [
+            {
+              "$ref": "#/$defs/vocabulary.cardType"
+            }
+          ]
+        },
+        "language": {
+          "description": "The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one.",
+          "x-cc": {
+            "vocabulary": "language"
+          },
+          "allOf": [
+            {
+              "$ref": "#/$defs/vocabulary.language"
+            }
+          ]
+        },
+        "released": {
+          "description": "When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates).",
+          "type": "object",
+          "required": [
+            "sort"
+          ],
+          "properties": {
+            "date": {
+              "description": "The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known.",
+              "type": "string",
+              "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+            },
+            "sort": {
+              "description": "Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one.",
+              "type": "string"
+            },
+            "inferred": {
+              "description": "`true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise.",
+              "const": true
+            }
+          },
+          "additionalProperties": false
+        },
+        "credit": {
+          "description": "The credit as printed (\"CR CG gangs & K. Hoshiba\").",
+          "type": "string"
+        },
+        "artists": {
+          "description": "The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "x-cc": {
+              "ref": "artist"
+            },
+            "required": [
+              "$kind",
+              "id",
+              "name"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `artist`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                "const": "artist"
+              },
+              "id": {
+                "description": "The artist's id (artists.json).",
+                "type": "string"
+              },
+              "name": {
+                "description": "The artist's name as this card prints it.",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "species": {
+          "description": "The species it shows, each once, in the order the card shows them, each with the forms of it the card shows where that is more than its ordinary form.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "x-cc": {
+              "ref": "species"
+            },
+            "required": [
+              "$kind",
+              "id",
+              "name"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `species`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                "const": "species"
+              },
+              "id": {
+                "description": "The species' National Pokédex number.",
+                "type": "integer",
+                "minimum": 1
+              },
+              "name": {
+                "description": "A copy of the target's own `name`.",
+                "type": "string"
+              },
+              "forms": {
+                "description": "The forms of the species the card shows, in the card's order, where it shows something other than the species' ordinary form alone (a Gigantamax, a regional form, two forms at once): every form it shows then, the ordinary one included. Usually absent: the card shows the ordinary form alone. One entry on a card of a single other form (a Mega, a Gigantamax, a regional form). Two or more where the card shows several forms of the species, the ordinary one listed with the others where it is among them (Tatsugiri's three: `978`, `978:droopy`, `978:stretchy`).",
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "name"
+                  ],
+                  "properties": {
+                    "id": {
+                      "description": "The form's id: the dex number, with \":<key>\" for a form other than the default (\"52\", \"52:galar\"). With the entry's own `id` as `species` it is a form pointer.",
+                      "type": "string"
+                    },
+                    "name": {
+                      "description": "The form's name as this card gives it.",
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "picture": {
+          "description": "The picture to show for the card (https://pokemon.cardcorpus.com/v1/docs/guide.md#pictures): `front.image`, and `front.of`, the variant it is a picture of (its default variant, another variant standing in, or, for a reprint with no picture of any variant, its original's); `back`, where its back is unlike the usual one; `oversized` where the card only came as a jumbo or its picture is a jumbo variant's.",
+          "type": "object",
+          "properties": {
+            "front": {
+              "description": "The front: a picture id, and whose picture it is.",
+              "type": "object",
+              "required": [
+                "image"
+              ],
+              "properties": {
+                "image": {
+                  "description": "The picture's id.",
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{32}$",
+                  "x-cc": {
+                    "picture": true
+                  }
+                },
+                "of": {
+                  "description": "The variant it is a picture of, where that isn't the variant it is on (on a card, always).",
+                  "type": "object",
+                  "x-cc": {
+                    "ref": "variant"
+                  },
+                  "required": [
+                    "$kind",
+                    "set",
+                    "card",
+                    "id"
+                  ],
+                  "properties": {
+                    "$kind": {
+                      "description": "What the pointer points at: `variant`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                      "const": "variant"
+                    },
+                    "set": {
+                      "description": "The set's id (sets/{catalog}.json).",
+                      "type": "string"
+                    },
+                    "card": {
+                      "description": "The card's id, unique in its set.",
+                      "type": "string"
+                    },
+                    "id": {
+                      "description": "The variant's id, unique among its card's variants.",
+                      "type": "string"
+                    },
+                    "relation": {
+                      "description": "Whose card it is, where not the card's own: `original`, the card a reprint with no picture of its own reprints. Label the picture by it (\"the original's picture\") without following the card's links.",
+                      "enum": [
+                        "original"
+                      ]
+                    }
+                  }
+                },
+                "watermark": {
+                  "description": "Whose watermark the picture carries, where it carries one.",
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "back": {
+              "description": "Its back, where that is unlike the usual one.",
+              "type": "object",
+              "required": [
+                "image"
+              ],
+              "properties": {
+                "image": {
+                  "description": "The picture's id.",
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{32}$",
+                  "x-cc": {
+                    "picture": true
+                  }
+                }
+              },
+              "additionalProperties": false
+            },
+            "oversized": {
+              "description": "Present where the card only came as a jumbo or its picture is a jumbo variant's.",
+              "const": true
+            }
+          },
+          "additionalProperties": false
+        },
+        "defaultVariant": {
+          "description": "The variant that stands for the card where one must (prices, a tile): by id in `variants`. Whose photo the card's picture is can be another variant's: read `picture.front.of` for that.",
+          "type": "string"
+        },
+        "painting": {
+          "description": "The painting it prints, where another card prints it too. Its file (paintings/{id}.json) holds the card's links: the same card in other languages, the card it reprints and its reprints, and its parallels, with every card they name (https://pokemon.cardcorpus.com/v1/docs/guide.md#links).",
+          "type": "object",
+          "x-cc": {
+            "ref": "painting"
+          },
+          "required": [
+            "$kind",
+            "id"
+          ],
+          "properties": {
+            "$kind": {
+              "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+              "const": "painting"
+            },
+            "id": {
+              "description": "The painting's own id, which never changes: its first print's English name and a short code, such as `charizard-k3f9`. Where it was first printed is `firstPrint`'s to say, corrected there when research finds an earlier print.",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "vocabulary.differs": {
+      "title": "Differs",
+      "description": "Every value of vocabulary.json's `differs`.",
+      "type": "string",
+      "enum": [
+        "stamp",
+        "finish",
+        "rarity_mark",
+        "no_e_reader_strip",
+        "no_number",
+        "number",
+        "border",
+        "signature",
+        "back",
+        "text",
+        "size",
+        "material",
+        "language"
+      ]
+    },
+    "vocabulary.rarity": {
+      "title": "Rarity",
+      "description": "Every value of vocabulary.json's `rarity`.",
+      "type": "string",
+      "enum": [
+        "Common",
+        "Uncommon",
+        "Common (C)",
+        "Rare",
+        "Ultra Rare",
+        "Uncommon (U)",
+        "Promo",
+        "Holo Rare",
+        "Super Rare (SR)",
+        "Rare (R)",
+        "Double Rare (RR)",
+        "Illustration Rare",
+        "Art Rare (AR)",
+        "Double Rare",
+        "Shiny Rare",
+        "Rainbow Rare",
+        "Secret Rare",
+        "Special Art Rare (SAR)",
+        "Special Illustration Rare",
+        "Hyper Rare (HR)",
+        "Ultra Rare (UR)",
+        "Shiny Rare (S)",
+        "Triple Rare (RRR)",
+        "Classic Collection",
+        "Hyper Rare",
+        "Pikachu Rare",
+        "Shiny Super Rare (SSR)",
+        "ACE SPEC Rare",
+        "Character Rare (CHR)",
+        "Character Super Rare (CSR)",
+        "Prism Rare (PR)",
+        "ACE SPEC Rare (ACE)",
+        "Trainer Rare (TR)",
+        "Prism Rare",
+        "Triple Rare",
+        "Gold Star",
+        "LEGEND",
+        "Radiant Rare (K)",
+        "Radiant Rare",
+        "Shiny Ultra Rare",
+        "Shining Rare",
+        "Mega Hyper Rare",
+        "Amazing Rare",
+        "Amazing Rare (A)",
+        "Mega Attack Rare (MA)",
+        "Mega Attack Rare",
+        "Mega Ultra Rare (MUR)",
+        "Black White Rare",
+        "RGB Rare",
+        "Futuristic Rare",
+        "Black White Rare (BWR)",
+        "Futuristic Rare (FUR)"
+      ]
+    },
+    "vocabulary.cardType": {
+      "title": "CardType",
+      "description": "Every value of vocabulary.json's `cardType`.",
+      "type": "string",
+      "enum": [
+        "pokemon",
+        "trainer",
+        "energy"
+      ]
+    },
+    "vocabulary.language": {
+      "title": "Language",
+      "description": "Every value of vocabulary.json's `language`.",
+      "type": "string",
+      "enum": [
+        "ja",
+        "en",
+        "ko",
+        "de",
+        "it",
+        "fr",
+        "es",
+        "zh-Hant",
+        "pt",
+        "id",
+        "zh-Hans",
+        "th",
+        "es-419",
+        "ru",
+        "pl",
+        "nl"
+      ]
+    }
+  }
+}

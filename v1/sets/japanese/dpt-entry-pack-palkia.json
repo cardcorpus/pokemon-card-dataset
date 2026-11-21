@@ -1,69 +1,35 @@
 {
   "id": "japanese/dpt-entry-pack-palkia",
   "catalog": "japanese",
-  "name": "DPt Entry Pack (Palkia)",
+  "name": "エントリーパック(パルキアデッキ)",
+  "englishName": "DPt Entry Pack (Palkia)",
   "era": {
     "$kind": "era",
-    "era": "japanese/platinum",
-    "name": "Platinum"
+    "id": "japanese/platinum",
+    "name": "DPt",
+    "englishName": "Platinum"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/dpt-entry-pack",
+    "id": "japanese/dpt-entry-pack",
     "name": "DPt Entry Pack",
     "part": "Palkia"
   },
   "printedTotal": 13,
   "actualTotal": 13,
   "cardCount": 13,
-  "productCount": 0,
   "released": {
     "date": "2008-10-10"
   },
   "logo": "2f98a695f248f8f635faa1694f5b4bbf",
   "symbol": "7f974e22867d1c08f01e0f964e2748dc",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "DPt Entry Pack (Palkia)",
-      "released": {
-        "date": "2008-10-10"
-      },
-      "logo": "2f98a695f248f8f635faa1694f5b4bbf",
-      "symbol": "7f974e22867d1c08f01e0f964e2748dc"
-    }
-  ],
   "description": {
-    "text": "The Palkia deck of the DPt Entry Pack, released on 10 October 2008 with the first expansion of the Platinum series, Galactic's Conquest. For newcomers it held three ready-built 30-card half decks led by Dialga, Palkia and Giratina, the Pokémon on the boxes of Pokémon Diamond, Pearl and Platinum, with a coin, damage counters and markers, a how-to-play sheet and a practice playmat. It had no Pokémon LV.X and no SP Pokémon. This deck pairs Palkia with Empoleon.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームDPt エントリーパック",
-        "url": "https://web.archive.org/web/20081120202329/http://www.pokemon-card.com/products/dpt/dpt_ep.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 拡張パック「ギンガの覇道」",
-        "url": "https://web.archive.org/web/20081208071309/http://www.pokemon-card.com/products/dpt/dpt1_bs.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Palkia deck of the DPt Entry Pack, released on 10 October 2008 with the first expansion of the Platinum series, Galactic's Conquest. For newcomers it held three ready-built 30-card half decks led by Dialga, Palkia and Giratina, the Pokémon on the boxes of Pokémon Diamond, Pearl and Platinum, with a coin, damage counters and markers, a how-to-play sheet and a practice playmat. It had no Pokémon LV.X and no SP Pokémon. This deck pairs Palkia with Empoleon."
   },
   "tell": {
-    "text": "A black Piplup-head mark at the bottom right, and a number out of 013",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: ポケモンカードゲームDPt エントリーパック",
-        "url": "https://web.archive.org/web/20081120202329/http://www.pokemon-card.com/products/dpt/dpt_ep.html"
-      }
-    ]
+    "text": "A black Piplup-head mark at the bottom right, and a number out of 013"
   },
   "printRuns": [
     {
@@ -76,7 +42,35 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/platinum",
+      "id": "french/platinum",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "german/platinum",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "english/platinum",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "italian/platinum",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/platinum",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 10
@@ -84,11 +78,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "001",
-      "name": "Lapras",
+      "name": "ラプラス",
+      "englishName": "Lapras",
       "number": {
         "printed": "001/013",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -96,7 +93,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -107,17 +104,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 131,
+          "id": 131,
           "name": "Lapras"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 131,
-          "form": "131",
-          "name": "Lapras",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -127,7 +115,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -145,8 +133,7 @@
             "front": {
               "image": "c4b2c5003ac20e6975475ddc59c8475b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -166,65 +153,35 @@
             "front": {
               "image": "7bf736415fd0a5c681cda709945d36be"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "001",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "79",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "001"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lapras-ickn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "002",
-      "name": "Piplup",
+      "name": "ポッチャマ",
+      "englishName": "Piplup",
       "number": {
         "printed": "002/013",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -232,7 +189,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -243,17 +200,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 393,
+          "id": 393,
           "name": "Piplup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 393,
-          "form": "393",
-          "name": "Piplup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -263,7 +211,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -281,8 +229,7 @@
             "front": {
               "image": "dc85a9b37a69660bba2bb6761dfc9055"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -302,65 +249,35 @@
             "front": {
               "image": "bb54114df58388cef7241cde3dcece99"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "002",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "85",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "piplup-z9pr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "003",
-      "name": "Prinplup",
+      "name": "ポッタイシ",
+      "englishName": "Prinplup",
       "number": {
         "printed": "003/013",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -368,7 +285,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -379,17 +296,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 394,
+          "id": 394,
           "name": "Prinplup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 394,
-          "form": "394",
-          "name": "Prinplup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -399,7 +307,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -417,8 +325,7 @@
             "front": {
               "image": "eddd533b5ee620d73e697bdf1be9d600"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -438,65 +345,35 @@
             "front": {
               "image": "ef459741488328cb43bcc53f8ee3a616"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "003",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "003",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "59",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "prinplup-zy9e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "004",
-      "name": "Empoleon",
+      "name": "エンペルト",
+      "englishName": "Empoleon",
       "number": {
         "printed": "004/013",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -504,7 +381,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -515,17 +392,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 395,
+          "id": 395,
           "name": "Empoleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 395,
-          "form": "395",
-          "name": "Empoleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -535,7 +403,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -553,8 +421,7 @@
             "front": {
               "image": "2d0eca0f2f8fb91005d57b3a81baefb5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -574,65 +441,35 @@
             "front": {
               "image": "36accb6db74a30b70a43ed5f0dc41453"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "004",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "004",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "26",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "empoleon-12e2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "005",
-      "name": "Palkia",
+      "name": "パルキア",
+      "englishName": "Palkia",
       "number": {
         "printed": "005/013",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -640,7 +477,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -651,17 +488,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 484,
+          "id": 484,
           "name": "Palkia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 484,
-          "form": "484",
-          "name": "Palkia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -671,7 +499,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -689,8 +517,7 @@
             "front": {
               "image": "e03e20d69793cf2ebce18e513f0a9e94"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -710,65 +537,35 @@
             "front": {
               "image": "f42a60a62bf83f8bc630e1bf7c53dc8d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "holo",
+      "defaultVariant": "holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "005",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "005",
-          "variant": "holo"
+          "id": "holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "37",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "palkia-lkmb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "006",
-      "name": "Nosepass",
+      "name": "ノズパス",
+      "englishName": "Nosepass",
       "number": {
         "printed": "006/013",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -776,7 +573,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -787,17 +584,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 299,
+          "id": 299,
           "name": "Nosepass"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 299,
-          "form": "299",
-          "name": "Nosepass",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -807,7 +595,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -825,8 +613,7 @@
             "front": {
               "image": "8a5ba7baea517ba61096904d9d940a71"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -846,65 +633,35 @@
             "front": {
               "image": "5000508ab9e8aedce1515defe4c21435"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "006",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "84",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "nosepass-kgru" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "007",
-      "name": "Probopass",
+      "name": "ダイノーズ",
+      "englishName": "Probopass",
       "number": {
         "printed": "007/013",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -912,7 +669,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -923,17 +680,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 476,
+          "id": 476,
           "name": "Probopass"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 476,
-          "form": "476",
-          "name": "Probopass",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -943,7 +691,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -961,8 +709,7 @@
             "front": {
               "image": "c822c24a12e5a5cb81c345c671e89319"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -982,65 +729,35 @@
             "front": {
               "image": "99a9f6b1c542c09e2f074fbcedb31e32"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "007",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "60",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "probopass-ecb9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "008",
-      "name": "Tauros",
+      "name": "ケンタロス",
+      "englishName": "Tauros",
       "number": {
         "printed": "008/013",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1048,7 +765,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -1059,17 +776,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 128,
+          "id": 128,
           "name": "Tauros"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 128,
-          "form": "128",
-          "name": "Tauros",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1079,7 +787,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1097,8 +805,7 @@
             "front": {
               "image": "32c9e61ec2bf795cebd329e5307c88f2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1118,65 +825,35 @@
             "front": {
               "image": "a6fb8d61227420ed3f4d868c39a3d44d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "008",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "98",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dpt-entry-pack-palkia",
-          "painting": "008"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "tauros-u4d0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "009",
-      "name": "Energy Switch",
+      "name": "エネルギーつけかえ",
+      "englishName": "Energy Switch",
       "number": {
         "printed": "009/013",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1184,7 +861,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1199,7 +876,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1217,8 +894,7 @@
             "front": {
               "image": "e58f8ca1d4be9063661d09a460421dd0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1238,79 +914,35 @@
             "front": {
               "image": "231aa6e789fe72c7cc60708aed9d3be0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "009",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/diamond-pearl",
-              "card": "107",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack",
-                "card": "energy-switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "energy-switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "energy-switch",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-switch-ysdy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "010",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "010/013",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1318,7 +950,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1333,7 +965,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1351,8 +983,7 @@
             "front": {
               "image": "94b23dc1f1e2e69ea21d5137f3ca3fdf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1372,79 +1003,35 @@
             "front": {
               "image": "1e912f2cff60bd2c01a8bbf04f66bb7e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "010",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "010",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "90",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/magmortar-vs-electivire-deck-kit",
-                "card": "019"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "019"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "019",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-search-m3gb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "011",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "011/013",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1452,7 +1039,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1467,7 +1054,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1485,8 +1072,7 @@
             "front": {
               "image": "84afccbf8def2e730b17bfe6ac19d559"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1506,79 +1092,35 @@
             "front": {
               "image": "11dec219057dafd6684e98ad10570967"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "011",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/diamond-pearl",
-              "card": "119",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack",
-                "card": "switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "switch",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "switch-jxlp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "012",
-      "name": "Pokédex HANDY910is",
+      "name": "ポケモン図鑑",
+      "englishName": "Pokédex HANDY910is",
       "number": {
         "printed": "012/013",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1586,7 +1128,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1601,7 +1143,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1619,8 +1161,7 @@
             "front": {
               "image": "6d85fdd8fb7ae11dcdf35c018b827c23"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1640,73 +1181,35 @@
             "front": {
               "image": "7e35ebffc13ccef4452f4366a2262147"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "012",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "114",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "pokedex-handy910is"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "pokedex-handy910is",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pokedex-handy910is-yif4" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dpt-entry-pack-palkia",
       "id": "013",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "013/013",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1714,7 +1217,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1729,7 +1232,7 @@
             "$kind": "variant",
             "set": "japanese/dpt-entry-pack-palkia",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1747,8 +1250,7 @@
             "front": {
               "image": "64a101ef65da9f68fe5db0334bafe07f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1768,66 +1270,26 @@
             "front": {
               "image": "831fc19c9b1190b13778a0b3fa3eca76"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "non-holo",
+      "defaultVariant": "non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/dpt-entry-pack-palkia",
           "card": "013",
-          "variant": "non-holo"
+          "id": "non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/platinum",
-              "card": "113",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "021"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "021",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-jdps" }
     }
-  ]
+  ],
+  "printedCode": null
 }

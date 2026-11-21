@@ -2,69 +2,59 @@
   "id": "japanese/mew-lucario-gift-box-mightyena",
   "catalog": "japanese",
   "name": "Mew • Lucario Gift Box (Mightyena)",
+  "englishName": "Mew • Lucario Gift Box (Mightyena)",
   "era": {
     "$kind": "era",
-    "era": "japanese/pcg-era",
+    "id": "japanese/pcg-era",
     "name": "PCG Era"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/mew-lucario-gift-box",
+    "id": "japanese/mew-lucario-gift-box",
     "name": "Mew • Lucario Gift Box",
     "part": "Mightyena"
   },
   "printedTotal": 15,
   "actualTotal": 15,
   "cardCount": 15,
-  "productCount": 0,
   "released": {
     "date": "2005-11-16"
   },
   "logo": "db0eb2582efb797d0136e680e50f9f77",
   "symbol": "b0343f213c3bd3a4e8679c791c62bf0e",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Mew • Lucario Gift Box (Mightyena)",
-      "released": {
-        "date": "2005-11-16"
-      },
-      "logo": "db0eb2582efb797d0136e680e50f9f77",
-      "symbol": "b0343f213c3bd3a4e8679c791c62bf0e"
-    }
-  ],
   "description": {
-    "text": "The Mightyena ex deck from the Gift Box Mew・Lucario ver., released on 16 November 2005 and themed on the film Lucario and the Mystery of Mew. The box held four ready-built 15-card decks, built around Mew ex, Folklore's Lucario ex, Crawdaunt ex and Mightyena ex, two Pokémon ☆ cards, a coin, damage counters and markers, a playmat, a rule book and a tin carrying case.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 「ギフトボックス　ミュウ・ルカリオver.」",
-        "url": "https://web.archive.org/web/20090226204914/http://www.pokemon-card.com/products/pcg/pcg_31.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Mightyena ex deck from the Gift Box Mew・Lucario ver., released on 16 November 2005 and themed on the film Lucario and the Mystery of Mew. The box held four ready-built 15-card decks, built around Mew ex, Folklore's Lucario ex, Crawdaunt ex and Mightyena ex, two Pokémon ☆ cards, a coin, damage counters and markers, a playmat, a rule book and a tin carrying case."
   },
   "tell": {
-    "text": "A black gift-box symbol at the bottom right, and a number out of 015",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: 「ギフトボックス　ミュウ・ルカリオver.」",
-        "url": "https://web.archive.org/web/20090226204914/http://www.pokemon-card.com/products/pcg/pcg_31.html"
-      }
-    ]
+    "text": "A black gift-box symbol at the bottom right, and a number out of 015"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/ex-holon-phantoms",
+      "id": "french/ex-holon-phantoms",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "german/ex-holon-phantoms",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "english/ex-holon-phantoms",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "italian/ex-holon-phantoms",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 7
@@ -72,11 +62,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "001",
-      "name": "Numel",
+      "name": "ドンメル",
+      "englishName": "Numel",
       "number": {
         "printed": "001/015",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -84,7 +77,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -95,17 +88,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 322,
+          "id": 322,
           "name": "Numel"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 322,
-          "form": "322",
-          "name": "Numel",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -115,7 +99,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -129,49 +113,21 @@
             "front": {
               "image": "c186a5eebb57b34a1266d61a9cd59a06"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "72",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "numel-buqe" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "002",
-      "name": "Camerupt",
+      "name": "バクーダ",
+      "englishName": "Camerupt",
       "number": {
         "printed": "002/015",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -179,7 +135,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -190,17 +146,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 323,
+          "id": 323,
           "name": "Camerupt"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 323,
-          "form": "323",
-          "name": "Camerupt",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -210,7 +157,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -224,49 +171,21 @@
             "front": {
               "image": "0d53aa2d6c75d096c6752c211b1c6ac4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "36",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "camerupt-pjoc" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "003",
-      "name": "Torkoal",
+      "name": "コータス",
+      "englishName": "Torkoal",
       "number": {
         "printed": "003/015",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -274,7 +193,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -285,17 +204,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 324,
+          "id": 324,
           "name": "Torkoal"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 324,
-          "form": "324",
-          "name": "Torkoal",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -305,7 +215,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -319,49 +229,21 @@
             "front": {
               "image": "ee969b4ad2a05402c6007cbbbd86bfb6"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "33",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "torkoal-rwyg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "004",
-      "name": "Poochyena",
+      "name": "ポチエナ",
+      "englishName": "Poochyena",
       "number": {
         "printed": "004/015",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -369,7 +251,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -380,17 +262,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 261,
+          "id": 261,
           "name": "Poochyena"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 261,
-          "form": "261",
-          "name": "Poochyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -400,7 +273,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -414,49 +287,21 @@
             "front": {
               "image": "24402c3565ba6621748f1e7ac4cfbf81"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "80",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "poochyena-1yqd" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "005",
-      "name": "Mightyena ex",
+      "name": "グラエナex",
+      "englishName": "Mightyena ex",
       "number": {
         "printed": "005/015",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -464,7 +309,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -475,17 +320,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 262,
+          "id": 262,
           "name": "Mightyena"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 262,
-          "form": "262",
-          "name": "Mightyena",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -495,7 +331,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -509,49 +345,21 @@
             "front": {
               "image": "c48ac7ece45ad60962ab45154f03977c"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "101",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mightyena-ex-3jop" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "006",
-      "name": "Absol",
+      "name": "アブソル",
+      "englishName": "Absol",
       "number": {
         "printed": "006/015",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -559,7 +367,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -570,17 +378,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 359,
+          "id": 359,
           "name": "Absol"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 359,
-          "form": "359",
-          "name": "Absol",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -590,7 +389,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -604,49 +403,21 @@
             "front": {
               "image": "87d2e038fa4d41844df695e46193eaf7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "absol-dqza" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "007",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "007/015",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -654,7 +425,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiromichi-sugiyama",
+          "id": "hiromichi-sugiyama",
           "name": "Hiromichi Sugiyama"
         }
       ],
@@ -669,7 +440,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -683,30 +454,20 @@
             "front": {
               "image": "5466ea1f8c28e8bb468bd49873b755bc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "008",
-      "name": "Professor Birch",
+      "name": "オダマキはかせ",
+      "englishName": "Professor Birch",
       "number": {
         "printed": "008/015",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -714,7 +475,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -722,10 +483,10 @@
         "date": "2005-11-16",
         "sort": "2005-11-16.00 japanese/mew-lucario-gift-box-mightyena 00007"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-birch",
+          "id": "professor-birch",
           "name": "Professor Birch",
           "role": "subject"
         }
@@ -737,7 +498,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "008",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -751,30 +512,20 @@
             "front": {
               "image": "bb6bcf7c4f4ca2c969b631a98d8906b8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "009",
-      "name": "Professor Cozmo's Discovery",
+      "name": "ソライシはかせの発見",
+      "englishName": "Professor Cozmo's Discovery",
       "number": {
         "printed": "009/015",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -782,7 +533,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -790,10 +541,10 @@
         "date": "2005-11-16",
         "sort": "2005-11-16.00 japanese/mew-lucario-gift-box-mightyena 00008"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "professor-cozmo",
+          "id": "professor-cozmo",
           "name": "Professor Cozmo",
           "role": "subject"
         }
@@ -805,7 +556,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -819,30 +570,20 @@
             "front": {
               "image": "44f2f8c9d0347edab2ea2f791560a07c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "010",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "010/015",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "energy",
       "language": "ja",
@@ -857,7 +598,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -871,30 +612,20 @@
             "front": {
               "image": "09206fa8b17ad65ebc43414c59d2bc5d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "011",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "011/015",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "energy",
       "language": "ja",
@@ -909,7 +640,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -923,30 +654,20 @@
             "front": {
               "image": "f4989df1e89c9d9bcb29eaf1f9a9c987"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "012",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "012/015",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "energy",
       "language": "ja",
@@ -961,7 +682,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -975,30 +696,20 @@
             "front": {
               "image": "e342a88afe289dac6a9f7949c405e0e4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "013",
-      "name": "Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "013/015",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1013,7 +724,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1027,30 +738,20 @@
             "front": {
               "image": "f3cd57c8500a36cd04e6573ecf7a6ee7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "014",
-      "name": "Darkness Energy",
+      "name": "悪エネルギー",
+      "englishName": "Darkness Energy",
       "number": {
         "printed": "014/015",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1058,7 +759,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "milky-isobe",
+          "id": "milky-isobe",
           "name": "Milky Isobe"
         }
       ],
@@ -1073,7 +774,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1087,49 +788,21 @@
             "front": {
               "image": "ffdec82da4f7e34ef1df3a0eb17da572"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-holon-phantoms",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mew-lucario-gift-box-mightyena",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "darkness-energy-umb2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mew-lucario-gift-box-mightyena",
       "id": "015",
-      "name": "Rainbow Energy",
+      "name": "レインボーエネルギー",
+      "englishName": "Rainbow Energy",
       "number": {
         "printed": "015/015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1137,7 +810,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "takumi-akabane",
+          "id": "takumi-akabane",
           "name": "Takumi Akabane"
         }
       ],
@@ -1152,7 +825,7 @@
             "$kind": "variant",
             "set": "japanese/mew-lucario-gift-box-mightyena",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1166,23 +839,11 @@
             "front": {
               "image": "a52525b6821cd30b5cc68b4f53fee3bc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
-  ]
+  ],
+  "printedCode": null
 }

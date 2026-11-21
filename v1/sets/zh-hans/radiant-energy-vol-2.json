@@ -1,69 +1,58 @@
 {
   "id": "zh-hans/radiant-energy-vol-2",
   "catalog": "zh-hans",
-  "name": "Radiant Energy Vol. 2",
+  "name": "辉耀能量系列礼盒 第二弹",
+  "englishName": "Radiant Energy Vol. 2",
   "era": {
     "$kind": "era",
-    "era": "zh-hans/sword-shield",
-    "name": "Sword & Shield"
+    "id": "zh-hans/sword-shield",
+    "name": "剑&盾",
+    "englishName": "Sword & Shield"
   },
   "type": "box",
   "language": "zh-Hans",
   "printedTotal": 4,
   "actualTotal": 23,
   "cardCount": 23,
-  "productCount": 0,
   "released": {
     "date": "2024-07-12"
   },
   "code": "CS5.1C",
+  "printedCode": "CS5.1C",
   "logo": "a6dced7f9a25e29b95508e8549e16338",
   "symbol": "fcf8481ef0d02265d974d1ef2dbd2751",
-  "releases": [
-    {
-      "language": "zh-Hans",
-      "name": "Radiant Energy Vol. 2",
-      "code": "CS5.1C",
-      "released": {
-        "date": "2024-07-12"
-      },
-      "logo": "a6dced7f9a25e29b95508e8549e16338",
-      "symbol": "fcf8481ef0d02265d974d1ef2dbd2751"
-    }
-  ],
   "description": {
-    "text": "The second Radiant Energy (辉耀能量) theme pack holds two cards. One is one of four made in equal numbers: Sobble, Pikachu and Eevee with new artwork, or Celebratory Fanfare, whose art shows Pokémon celebrating together. The other is a holo basic Energy with a radiant border, here Fire, Fighting or Darkness, or a holo Trainer or Pokémon; with luck it is a special-art Hoopa V or a black and gold Pokémon. Some of its cards can't be used in the Standard format.\n\nThe packs came only in gift boxes. Five art sleeve gift boxes, Mew, Ice Rider Calyrex, Shadow Rider Calyrex, Single Strike Urshifu and Rapid Strike Urshifu, came out on 12 July 2024, each with one pack, black and gold sleeves, a coin die, damage-counter dice, a storage box and 30 five-card Brave Stars packs; the Fusion Strike Deck Building Advanced Gift Box held one too. Three Radiant Energy binder gift boxes, for the Fire, Fighting and Darkness types, followed on 2 August 2024 with a pack, a binder, a storage box and six 25-card Brave Stars packs. Its four main cards are numbered out of 4; the Energy, the full-art Trainers and Pokémon V, the black and gold VMAX cards and a gold Battle VIP Pass are numbered past it, up to 023.",
-    "sources": [
-      {
-        "title": "Pokémon China: The second Radiant Energy theme pack and the Fusion Strike deck building box (9 June 2024)",
-        "url": "https://www.pokemon.cn/tcg/product/15806.html"
-      },
-      {
-        "title": "Pokémon China: New products with Shadow of Glory, including the Radiant Energy binder boxes (10 July 2024)",
-        "url": "https://www.pokemon.cn/tcg/product/15764.html"
-      }
-    ]
+    "text": "The second Radiant Energy (辉耀能量) theme pack holds two cards. One is one of four made in equal numbers: Sobble, Pikachu and Eevee with new artwork, or Celebratory Fanfare, whose art shows Pokémon celebrating together. The other is a holo basic Energy with a radiant border, here Fire, Fighting or Darkness, or a holo Trainer or Pokémon; with luck it is a special-art Hoopa V or a black and gold Pokémon. Some of its cards can't be used in the Standard format.\n\nThe packs came only in gift boxes. Five art sleeve gift boxes, Mew, Ice Rider Calyrex, Shadow Rider Calyrex, Single Strike Urshifu and Rapid Strike Urshifu, came out on 12 July 2024, each with one pack, black and gold sleeves, a coin die, damage-counter dice, a storage box and 30 five-card Brave Stars packs; the Fusion Strike Deck Building Advanced Gift Box held one too. Three Radiant Energy binder gift boxes, for the Fire, Fighting and Darkness types, followed on 2 August 2024 with a pack, a binder, a storage box and six 25-card Brave Stars packs. Its four main cards are numbered out of 4; the Energy, the full-art Trainers and Pokémon V, the black and gold VMAX cards and a gold Battle VIP Pass are numbered past it, up to 023."
   },
   "tell": {
-    "text": "A \"CS5.1C\" mark at the bottom left, and a number out of 004",
-    "sources": [
-      {
-        "title": "Pokémon China: The second Radiant Energy theme pack and the Fusion Strike deck building box (9 June 2024)",
-        "url": "https://www.pokemon.cn/tcg/product/15806.html"
-      },
-      {
-        "title": "Pokémon China: New products with Shadow of Glory, including the Radiant Energy binder boxes (10 July 2024)",
-        "url": "https://www.pokemon.cn/tcg/product/15764.html"
-      }
-    ]
+    "text": "A \"CS5.1C\" mark at the bottom left, and a number out of 004"
   },
+  "links": [
+    {
+      "$kind": "set",
+      "id": "japanese/vmax-climax",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "korean/vmax-climax",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    }
+  ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "001",
       "name": "Sobble",
+      "englishName": "Sobble",
       "number": {
         "printed": "001/004",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -71,7 +60,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "fuzichoco",
+          "id": "fuzichoco",
           "name": "Fuzichoco"
         }
       ],
@@ -82,17 +71,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 816,
+          "id": 816,
           "name": "Sobble"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 816,
-          "form": "816",
-          "name": "Sobble",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -102,7 +82,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "001",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -116,49 +96,21 @@
             "front": {
               "image": "4599de40c75e04c3c7fafebf922e3d9d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/sword-shield-promos",
-              "card": "146",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sword-shield-promos",
-          "painting": "146"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "sobble-iuxn" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "002",
       "name": "Pikachu",
+      "englishName": "Pikachu",
       "number": {
         "printed": "002/004",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -166,7 +118,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "nagimiso",
+          "id": "nagimiso",
           "name": "nagimiso"
         }
       ],
@@ -177,17 +129,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -197,7 +140,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "002",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -211,59 +154,21 @@
             "front": {
               "image": "c754d08bfc4c072c20243dc86c2ac330"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/unbroken-bonds",
-              "card": "54",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/night-unison",
-              "card": "014",
-              "language": "ja",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/night-unison",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "pikachu-khl2" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "003",
       "name": "Eevee",
+      "englishName": "Eevee",
       "number": {
         "printed": "003/004",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -271,7 +176,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -282,17 +187,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 133,
+          "id": 133,
           "name": "Eevee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 133,
-          "form": "133",
-          "name": "Eevee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -302,7 +198,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "003",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -316,59 +212,21 @@
             "front": {
               "image": "0cea84b610e19211a459dcfc8898a9c6"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/swsh-black-star-promos",
-              "card": "swsh095",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/sword-shield-promos",
-              "card": "100",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/sword-shield-promos",
-          "painting": "100"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "eevee-d8n7" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "004",
       "name": "Celebratory Fanfare",
+      "englishName": "Celebratory Fanfare",
       "number": {
         "printed": "004/004",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -376,7 +234,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -391,7 +249,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "004",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -405,30 +263,20 @@
             "front": {
               "image": "7cd3ac84759379578ea267c9fcb6d916"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "005",
       "name": "Fire Energy",
+      "englishName": "Fire Energy",
       "number": {
         "printed": "005/004",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -443,7 +291,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "005",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -457,30 +305,20 @@
             "front": {
               "image": "0b781db249447d457929a5891c60a437"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "006",
       "name": "Fighting Energy",
+      "englishName": "Fighting Energy",
       "number": {
         "printed": "006/004",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -495,7 +333,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "006",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -509,30 +347,20 @@
             "front": {
               "image": "db16a9f0602aebefbc8ebc3e8c34c685"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "007",
       "name": "Darkness Energy",
+      "englishName": "Darkness Energy",
       "number": {
         "printed": "007/004",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "energy",
       "language": "zh-Hans",
@@ -547,7 +375,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "007",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -561,30 +389,20 @@
             "front": {
               "image": "c98db04e5c058debf1d93766c223228a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "008",
       "name": "Cara Liss",
+      "englishName": "Cara Liss",
       "number": {
         "printed": "008/004",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -592,7 +410,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hitoshi-ariga",
+          "id": "hitoshi-ariga",
           "name": "Hitoshi Ariga"
         }
       ],
@@ -600,10 +418,10 @@
         "date": "2024-07-12",
         "sort": "2024-07-12.00 zh-hans/radiant-energy-vol-2 00007"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cara-liss",
+          "id": "cara-liss",
           "name": "Cara Liss",
           "role": "subject"
         }
@@ -615,7 +433,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "008",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -629,59 +447,21 @@
             "front": {
               "image": "89ce7f62b0b210a244514bf9fbabbee7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/shining-fates",
-              "card": "067",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/shiny-star-v",
-              "card": "191",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/shiny-star-v",
-          "painting": "191"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "cara-liss-ce1j" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "009",
       "name": "Elesa's Sparkle",
+      "englishName": "Elesa's Sparkle",
       "number": {
         "printed": "009/004",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -689,7 +469,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "megumi-mizutani",
+          "id": "megumi-mizutani",
           "name": "Megumi Mizutani"
         }
       ],
@@ -697,10 +477,10 @@
         "date": "2024-07-12",
         "sort": "2024-07-12.00 zh-hans/radiant-energy-vol-2 00008"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "elesa",
+          "id": "elesa",
           "name": "Elesa",
           "role": "subject"
         }
@@ -712,7 +492,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "009",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -726,59 +506,21 @@
             "front": {
               "image": "e2e147526280a53f8cce9e37f805e764"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/crown-zenith",
-              "card": "147",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vstar-universe",
-              "card": "246",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vstar-universe",
-          "painting": "246"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "elesa-s-sparkle-pvgr" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "010",
       "name": "Gym Trainer",
+      "englishName": "Gym Trainer",
       "number": {
         "printed": "010/004",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -786,7 +528,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hideki-ishikawa",
+          "id": "hideki-ishikawa",
           "name": "Hideki Ishikawa"
         }
       ],
@@ -801,7 +543,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "010",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -815,49 +557,21 @@
             "front": {
               "image": "0f136b34f245540aed7e01e7ba56d34e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/silver-tempest",
-              "card": "191",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "international/silver-tempest",
-          "painting": "191"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "gym-trainer-8p3u" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "011",
       "name": "Single Strike Style Mustard",
+      "englishName": "Single Strike Style Mustard",
       "number": {
         "printed": "011/004",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -865,7 +579,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "souichirou-gunjima",
+          "id": "souichirou-gunjima",
           "name": "Souichirou Gunjima"
         }
       ],
@@ -873,10 +587,10 @@
         "date": "2024-07-12",
         "sort": "2024-07-12.00 zh-hans/radiant-energy-vol-2 00010"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mustard",
+          "id": "mustard",
           "name": "Mustard",
           "role": "subject"
         }
@@ -888,7 +602,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "011",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -902,59 +616,21 @@
             "front": {
               "image": "1203bbde6de02cf48dd874ccd58013a9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg28",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "272",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "272"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "single-strike-style-mustard-7m0d" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "012",
       "name": "Rapid Strike Style Mustard",
+      "englishName": "Rapid Strike Style Mustard",
       "number": {
         "printed": "012/004",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -962,7 +638,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kiyotaka-oshiyama",
+          "id": "kiyotaka-oshiyama",
           "name": "KIYOTAKA OSHIYAMA"
         }
       ],
@@ -970,10 +646,10 @@
         "date": "2024-07-12",
         "sort": "2024-07-12.00 zh-hans/radiant-energy-vol-2 00011"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mustard",
+          "id": "mustard",
           "name": "Mustard",
           "role": "subject"
         }
@@ -985,7 +661,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "012",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -999,59 +675,21 @@
             "front": {
               "image": "567721ad1ee4c20e3c2da7a7d56dc0d8"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg27",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "273",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "273"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "rapid-strike-style-mustard-u6rx" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "013",
       "name": "Serperior V",
+      "englishName": "Serperior V",
       "number": {
         "printed": "013/004",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1059,7 +697,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "teeziro",
+          "id": "teeziro",
           "name": "Teeziro"
         }
       ],
@@ -1070,17 +708,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 497,
+          "id": 497,
           "name": "Serperior"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 497,
-          "form": "497",
-          "name": "Serperior",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1090,7 +719,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "013",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1104,59 +733,21 @@
             "front": {
               "image": "c6f4fcb89389cbb7f3ed0d3695ac8fcd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/silver-tempest",
-              "card": "tg13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/incandescent-arcana",
-              "card": "084",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/incandescent-arcana",
-          "painting": "084"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "serperior-v-8yul" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "014",
       "name": "Boltund V",
+      "englishName": "Boltund V",
       "number": {
         "printed": "014/004",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1164,7 +755,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "gidora",
+          "id": "gidora",
           "name": "GIDORA"
         }
       ],
@@ -1175,17 +766,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 836,
+          "id": 836,
           "name": "Boltund"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 836,
-          "form": "836",
-          "name": "Boltund",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1195,7 +777,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "014",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1209,59 +791,21 @@
             "front": {
               "image": "5ac5ad5c923a4b849a301ca3c351bdde"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "225",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "225"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "boltund-v-zm1n" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "015",
       "name": "Gallade V",
+      "englishName": "Gallade V",
       "number": {
         "printed": "015/004",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1269,7 +813,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "souichirou-gunjima",
+          "id": "souichirou-gunjima",
           "name": "Souichirou Gunjima"
         }
       ],
@@ -1280,17 +824,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 475,
+          "id": 475,
           "name": "Gallade"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 475,
-          "form": "475",
-          "name": "Gallade",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1300,7 +835,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "015",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1314,59 +849,21 @@
             "front": {
               "image": "ce634cc9e33d185f840140ca435ea4e7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/lost-origin",
-              "card": "tg19",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/dark-phantasma",
-              "card": "089",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dark-phantasma",
-          "painting": "089"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "gallade-v-y48v" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "016",
       "name": "Crobat V",
+      "englishName": "Crobat V",
       "number": {
         "printed": "016/004",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1374,7 +871,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "gossan",
+          "id": "gossan",
           "name": "GOSSAN"
         }
       ],
@@ -1385,17 +882,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 169,
+          "id": 169,
           "name": "Crobat"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 169,
-          "form": "169",
-          "name": "Crobat",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1405,7 +893,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "016",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1419,59 +907,21 @@
             "front": {
               "image": "39adeb1b07c63514f75dcde0145f1d27"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/lost-origin",
-              "card": "tg20",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "243",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "243"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "crobat-v-xo58" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "017",
       "name": "Hoopa V",
+      "englishName": "Hoopa V",
       "number": {
         "printed": "017/004",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1479,7 +929,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "okacheke",
+          "id": "okacheke",
           "name": "OKACHEKE"
         }
       ],
@@ -1490,17 +940,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 720,
-          "name": "Hoopa"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 720,
-          "form": "720:unbound",
-          "name": "Hoopa Unbound",
-          "role": "subject"
+          "id": 720,
+          "name": "Hoopa",
+          "forms": [
+            {
+              "id": "720:unbound",
+              "name": "Hoopa Unbound"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1510,7 +957,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "017",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1524,59 +971,21 @@
             "front": {
               "image": "a6d71c09625b432be6aeae238c09960d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/crown-zenith",
-              "card": "gg53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vstar-universe",
-              "card": "231",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vstar-universe",
-          "painting": "231"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "hoopa-v-c7rx" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "018",
       "name": "Ice Rider Calyrex VMAX",
+      "englishName": "Ice Rider Calyrex VMAX",
       "number": {
         "printed": "018/004",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1584,7 +993,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1595,17 +1004,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 898,
-          "name": "Calyrex"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 898,
-          "form": "898:ice",
-          "name": "Ice Rider Calyrex",
-          "role": "subject"
+          "id": 898,
+          "name": "Calyrex",
+          "forms": [
+            {
+              "id": "898:ice",
+              "name": "Ice Rider Calyrex"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1615,7 +1021,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "018",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1629,59 +1035,21 @@
             "front": {
               "image": "76618c0b3d3192f4d5029fc5e1d922bf"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/astral-radiance",
-              "card": "tg29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "278",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "278"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "ice-rider-calyrex-vmax-ldcg" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "019",
       "name": "Mew VMAX",
+      "englishName": "Mew VMAX",
       "number": {
         "printed": "019/004",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1689,7 +1057,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1700,17 +1068,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 151,
+          "id": 151,
           "name": "Mew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 151,
-          "form": "151",
-          "name": "Mew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1720,7 +1079,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "019",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1734,59 +1093,21 @@
             "front": {
               "image": "16bd29c122a79ef49fda412bf3ca0746"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/lost-origin",
-              "card": "tg30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "280",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "280"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mew-vmax-ovlm" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "020",
       "name": "Shadow Rider Calyrex VMAX",
+      "englishName": "Shadow Rider Calyrex VMAX",
       "number": {
         "printed": "020/004",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1794,7 +1115,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1805,17 +1126,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 898,
-          "name": "Calyrex"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 898,
-          "form": "898:shadow",
-          "name": "Shadow Rider Calyrex",
-          "role": "subject"
+          "id": 898,
+          "name": "Calyrex",
+          "forms": [
+            {
+              "id": "898:shadow",
+              "name": "Shadow Rider Calyrex"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1825,7 +1143,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "020",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1839,59 +1157,21 @@
             "front": {
               "image": "66343eeb4fd68253922f9497b2e190dd"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/astral-radiance",
-              "card": "tg30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "281",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "281"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "shadow-rider-calyrex-vmax-3ld6" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "021",
       "name": "Single Strike Urshifu VMAX",
+      "englishName": "Single Strike Urshifu VMAX",
       "number": {
         "printed": "021/004",
-        "numerator": "021"
+        "short": "021"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -1899,7 +1179,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-tsuji",
+          "id": "planeta-tsuji",
           "name": "PLANETA Tsuji"
         }
       ],
@@ -1910,17 +1190,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 892,
-          "name": "Urshifu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 892,
-          "form": "892:single-strike-gmax",
-          "name": "Gigantamax Single Strike Urshifu",
-          "role": "subject"
+          "id": 892,
+          "name": "Urshifu",
+          "forms": [
+            {
+              "id": "892:single-strike-gmax",
+              "name": "Gigantamax Single Strike Urshifu"
+            }
+          ]
         }
       ],
       "picture": {
@@ -1930,7 +1207,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "021",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -1944,59 +1221,21 @@
             "front": {
               "image": "24f840b882a26eaf80a109af18471ba1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg29",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "282",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "282"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "single-strike-urshifu-vmax-liw0" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "022",
       "name": "Rapid Strike Urshifu VMAX",
+      "englishName": "Rapid Strike Urshifu VMAX",
       "number": {
         "printed": "022/004",
-        "numerator": "022"
+        "short": "022"
       },
       "cardType": "pokemon",
       "language": "zh-Hans",
@@ -2004,7 +1243,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "planeta-tsuji",
+          "id": "planeta-tsuji",
           "name": "PLANETA Tsuji"
         }
       ],
@@ -2015,17 +1254,14 @@
       "species": [
         {
           "$kind": "species",
-          "species": 892,
-          "name": "Urshifu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 892,
-          "form": "892:rapid-strike-gmax",
-          "name": "Gigantamax Rapid Strike Urshifu",
-          "role": "subject"
+          "id": 892,
+          "name": "Urshifu",
+          "forms": [
+            {
+              "id": "892:rapid-strike-gmax",
+              "name": "Gigantamax Rapid Strike Urshifu"
+            }
+          ]
         }
       ],
       "picture": {
@@ -2035,7 +1271,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "022",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -2049,59 +1285,21 @@
             "front": {
               "image": "410bd4aa7bd0e555942388d5098fc72d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/brilliant-stars",
-              "card": "tg30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ],
-          "japanese": [
-            {
-              "$kind": "card",
-              "set": "japanese/vmax-climax",
-              "card": "283",
-              "language": "ja",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/vmax-climax",
-          "painting": "283"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "rapid-strike-urshifu-vmax-f1fy" }
     },
     {
+      "$kind": "card",
+      "set": "zh-hans/radiant-energy-vol-2",
       "id": "023",
       "name": "Battle VIP Pass",
+      "englishName": "Battle VIP Pass",
       "number": {
         "printed": "023/004",
-        "numerator": "023"
+        "short": "023"
       },
       "cardType": "trainer",
       "language": "zh-Hans",
@@ -2109,7 +1307,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -2124,7 +1322,7 @@
             "$kind": "variant",
             "set": "zh-hans/radiant-energy-vol-2",
             "card": "023",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -2138,23 +1336,10 @@
             "front": {
               "image": "3f96f36d5fd9ec89b995fd6c40f6a3e9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+      "defaultVariant": "holo"
     }
   ]
 }

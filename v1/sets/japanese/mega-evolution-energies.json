@@ -2,57 +2,45 @@
   "id": "japanese/mega-evolution-energies",
   "catalog": "japanese",
   "name": "Mega Evolution Energies",
+  "englishName": "Mega Evolution Energies",
   "era": {
     "$kind": "era",
-    "era": "japanese/mega-evolution",
-    "name": "Mega Evolution"
+    "id": "japanese/mega-evolution",
+    "name": "MEGA",
+    "englishName": "Mega Evolution"
   },
   "type": "energy",
   "language": "ja",
   "actualTotal": 8,
   "cardCount": 8,
-  "productCount": 0,
   "released": {
     "date": "2025-08-01"
   },
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Mega Evolution Energies",
-      "released": {
-        "date": "2025-08-01"
-      }
-    }
-  ],
   "description": {
-    "text": "Japanese basic Energy cards of the MEGA series, marked with a three-letter type code (GRA, FIR, WAT and so on) where other cards carry a set symbol and number. They came in the Premium Trainer Box MEGA, one of the series' launch products, released with Mega Brave and Mega Symphonia on 1 August 2025: twelve of each type among its 172 cards, the only cards in the box without the product's symbol and collection number. The design is the one English cards use for Mega Evolution basic Energy.",
-    "sources": [
-      {
-        "title": "Bulbapedia: Premium Trainer Box MEGA (TCG) (Wayback Machine copy, 26 August 2026)",
-        "url": "https://web.archive.org/web/20260826025909/https://bulbapedia.bulbagarden.net/wiki/Premium_Trainer_Box_MEGA_(TCG)"
-      }
-    ]
+    "text": "Japanese basic Energy cards of the MEGA series, marked with a three-letter type code (GRA, FIR, WAT and so on) where other cards carry a set symbol and number. They came in the Premium Trainer Box MEGA, one of the series' launch products, released with Mega Brave and Mega Symphonia on 1 August 2025: twelve of each type among its 172 cards, the only cards in the box without the product's symbol and collection number. The design is the one English cards use for Mega Evolution basic Energy."
   },
   "tell": {
-    "text": "No mark or number, only a three-letter type code at the bottom left",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Bulbapedia: Premium Trainer Box MEGA (TCG) (Wayback Machine copy, 26 August 2026)",
-        "url": "https://web.archive.org/web/20260826025909/https://bulbapedia.bulbagarden.net/wiki/Premium_Trainer_Box_MEGA_(TCG)"
-      }
-    ]
+    "text": "No mark or number, only a three-letter type code at the bottom left"
   },
+  "links": [
+    {
+      "$kind": "set",
+      "id": "korean/mega-premium-trainer-box",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 5
+    }
+  ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "gra",
-      "name": "Basic Grass Energy",
+      "name": "基本【草】エネルギー",
+      "englishName": "Basic Grass Energy",
       "number": {
         "printed": "GRA",
-        "numerator": "GRA"
+        "short": "GRA"
       },
       "cardType": "energy",
       "language": "ja",
@@ -67,7 +55,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "gra",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -81,49 +69,21 @@
             "front": {
               "image": "59dc8afc8273319109cb1e86e5943e52"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "001",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "gra"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-grass-energy-q0om" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "fir",
-      "name": "Basic Fire Energy",
+      "name": "基本【炎】エネルギー",
+      "englishName": "Basic Fire Energy",
       "number": {
         "printed": "FIR",
-        "numerator": "FIR"
+        "short": "FIR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -138,7 +98,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "fir",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -152,49 +112,21 @@
             "front": {
               "image": "c25917b7a3ad0ca58d13a7385604f46b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "002",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "fir"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-fire-energy-jvga" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "wat",
-      "name": "Basic Water Energy",
+      "name": "基本【水】エネルギー",
+      "englishName": "Basic Water Energy",
       "number": {
         "printed": "WAT",
-        "numerator": "WAT"
+        "short": "WAT"
       },
       "cardType": "energy",
       "language": "ja",
@@ -209,7 +141,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "wat",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -223,49 +155,21 @@
             "front": {
               "image": "bdc3bae259a9bd05f5f854ebafd2872b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "003",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "wat"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-water-energy-g5s0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "lig",
-      "name": "Basic Lightning Energy",
+      "name": "基本【雷】エネルギー",
+      "englishName": "Basic Lightning Energy",
       "number": {
         "printed": "LIG",
-        "numerator": "LIG"
+        "short": "LIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -280,7 +184,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "lig",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -294,49 +198,21 @@
             "front": {
               "image": "174d466c9e58416405390522bf4ff911"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "004",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "lig"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-lightning-energy-qcex" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "psy",
-      "name": "Basic Psychic Energy",
+      "name": "基本【超】エネルギー",
+      "englishName": "Basic Psychic Energy",
       "number": {
         "printed": "PSY",
-        "numerator": "PSY"
+        "short": "PSY"
       },
       "cardType": "energy",
       "language": "ja",
@@ -351,7 +227,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "psy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -365,49 +241,21 @@
             "front": {
               "image": "f8cd295eb486b0a4b9ea3fd4a41318bd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "005",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "psy"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-psychic-energy-7at2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "fig",
-      "name": "Basic Fighting Energy",
+      "name": "基本【闘】エネルギー",
+      "englishName": "Basic Fighting Energy",
       "number": {
         "printed": "FIG",
-        "numerator": "FIG"
+        "short": "FIG"
       },
       "cardType": "energy",
       "language": "ja",
@@ -422,7 +270,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "fig",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -436,49 +284,21 @@
             "front": {
               "image": "077f7337070bdcbcbcab80452919fb90"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "006",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "fig"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-fighting-energy-stdk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "dar",
-      "name": "Basic Darkness Energy",
+      "name": "基本【悪】エネルギー",
+      "englishName": "Basic Darkness Energy",
       "number": {
         "printed": "DAR",
-        "numerator": "DAR"
+        "short": "DAR"
       },
       "cardType": "energy",
       "language": "ja",
@@ -493,7 +313,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "dar",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -507,49 +327,21 @@
             "front": {
               "image": "89f0d1d4d0abd2363ca227110345ed9a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/mega-evolution-basic-energy",
-              "card": "007",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mega-evolution-energies",
-          "painting": "dar"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-darkness-energy-tt9w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mega-evolution-energies",
       "id": "met",
-      "name": "Basic Metal Energy",
+      "name": "基本【鋼】エネルギー",
+      "englishName": "Basic Metal Energy",
       "number": {
         "printed": "MET",
-        "numerator": "MET"
+        "short": "MET"
       },
       "cardType": "energy",
       "language": "ja",
@@ -564,7 +356,7 @@
             "$kind": "variant",
             "set": "japanese/mega-evolution-energies",
             "card": "met",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -578,37 +370,11 @@
             "front": {
               "image": "55ed1d0929930f16d600ab88ed46b337"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "painting": {
-          "$kind": "painting",
-          "set": "international/mega-evolution-basic-energy",
-          "painting": "008"
-        },
-        "samePainting": [
-          {
-            "$kind": "card",
-            "set": "international/mega-evolution-basic-energy",
-            "card": "008"
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "basic-metal-energy-dtvn" }
     }
   ]
 }

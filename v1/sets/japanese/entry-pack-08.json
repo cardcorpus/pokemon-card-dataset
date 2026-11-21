@@ -1,60 +1,27 @@
 {
   "id": "japanese/entry-pack-08",
   "catalog": "japanese",
-  "name": "Entry Pack '08",
+  "name": "エントリーパック’08",
+  "englishName": "Entry Pack '08",
   "era": {
     "$kind": "era",
-    "era": "japanese/diamond-pearl",
-    "name": "Diamond & Pearl"
+    "id": "japanese/diamond-pearl",
+    "name": "DP",
+    "englishName": "Diamond & Pearl"
   },
   "type": "deck",
   "language": "ja",
   "actualTotal": 42,
   "cardCount": 42,
-  "productCount": 0,
   "released": {
     "date": "2007-11-30"
   },
   "symbol": "0f6fbf06afec66c9fcff1e73273a343e",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Entry Pack '08",
-      "released": {
-        "date": "2007-11-30"
-      },
-      "symbol": "0f6fbf06afec66c9fcff1e73273a343e"
-    }
-  ],
   "description": {
-    "text": "Entry Pack '08, the second Entry Pack for newcomers, released on 30 November 2007. It renewed the first pack's artwork, attacks and deck lists, again with three ready-built 30-card half decks led by Torterra, Infernape and Empoleon, of three different types, and a coin, damage counters and markers, a how-to-play sheet and a practice playmat. Entry Pack '08 DX, released the same day, added a fourth deck led by Raichu, a first-steps guide book, acrylic damage counters and a sticker sheet, all in a small trunk-shaped case.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: エントリーパック‘08",
-        "url": "https://web.archive.org/web/20071219123246/http://www.pokemon-card.com/products/dp/dp_04.html"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: エントリーパック’08DX",
-        "url": "https://web.archive.org/web/20071219123331/http://www.pokemon-card.com/products/dp/dp_05.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "Entry Pack '08, the second Entry Pack for newcomers, released on 30 November 2007. It renewed the first pack's artwork, attacks and deck lists, again with three ready-built 30-card half decks led by Torterra, Infernape and Empoleon, of three different types, and a coin, damage counters and markers, a how-to-play sheet and a practice playmat. Entry Pack '08 DX, released the same day, added a fourth deck led by Raichu, a first-steps guide book, acrylic damage counters and a sticker sheet, all in a small trunk-shaped case."
   },
   "tell": {
-    "text": "A multicolored \"DP\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      },
-      {
-        "title": "Pokémon Card Game official site, archived: エントリーパック‘08",
-        "url": "https://web.archive.org/web/20071219123246/http://www.pokemon-card.com/products/dp/dp_04.html"
-      }
-    ]
+    "text": "A multicolored \"DP\" mark at the bottom right"
   },
   "printRuns": [
     {
@@ -67,19 +34,50 @@
   "links": [
     {
       "$kind": "set",
-      "set": "international/majestic-dawn",
+      "id": "french/majestic-dawn",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 33
+      "sameCardCount": 30
+    },
+    {
+      "$kind": "set",
+      "id": "german/majestic-dawn",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 30
+    },
+    {
+      "$kind": "set",
+      "id": "english/majestic-dawn",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 30
+    },
+    {
+      "$kind": "set",
+      "id": "italian/majestic-dawn",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 30
+    },
+    {
+      "$kind": "set",
+      "id": "korean/start-of-an-adventure",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 11
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "001",
-      "name": "Turtwig",
+      "name": "ナエトル",
+      "englishName": "Turtwig",
       "number": {
         "printed": "001",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -87,7 +85,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -98,17 +96,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 387,
+          "id": 387,
           "name": "Turtwig"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 387,
-          "form": "387",
-          "name": "Turtwig",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -118,7 +107,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "001",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -137,8 +126,7 @@
             "front": {
               "image": "4cbae6cfc78f9abc45860dd9589c74a2"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -158,80 +146,35 @@
             "front": {
               "image": "ab8f20a4b196ad5cf91fd2566d6cdb21"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "001",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "001",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "77",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "072"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "072"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "072",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "turtwig-pc5n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "002",
-      "name": "Grotle",
+      "name": "ハヤシガメ",
+      "englishName": "Grotle",
       "number": {
         "printed": "002",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -239,7 +182,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -250,17 +193,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 388,
+          "id": 388,
           "name": "Grotle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 388,
-          "form": "388",
-          "name": "Grotle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -270,7 +204,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "002",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -289,8 +223,7 @@
             "front": {
               "image": "ff61a43bcfa17984ca2371a4d834a74d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -310,65 +243,35 @@
             "front": {
               "image": "333b5c11d00a1fdbd896a24d6c5c7c7f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "002",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "002",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "37",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "002"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "grotle-94ga" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "003",
-      "name": "Torterra",
+      "name": "ドダイトス",
+      "englishName": "Torterra",
       "number": {
         "printed": "003",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -376,7 +279,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -387,17 +290,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 389,
+          "id": 389,
           "name": "Torterra"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 389,
-          "form": "389",
-          "name": "Torterra",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -407,7 +301,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "003",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -426,8 +320,7 @@
             "front": {
               "image": "d0f8473c9443601b69cf62b59da9962e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -447,65 +340,35 @@
             "front": {
               "image": "eded90f71ad9cac7b82af97e07421145"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "003",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "003",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "30",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "003"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "torterra-0gh5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "004",
-      "name": "Sudowoodo",
+      "name": "ウソッキー",
+      "englishName": "Sudowoodo",
       "number": {
         "printed": "004",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -513,7 +376,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -524,17 +387,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 185,
+          "id": 185,
           "name": "Sudowoodo"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 185,
-          "form": "185",
-          "name": "Sudowoodo",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -544,7 +398,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "004",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -563,8 +417,7 @@
             "front": {
               "image": "a184bc2e81169dbcd4aeedc753962074"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -584,65 +437,35 @@
             "front": {
               "image": "13a6aaf6c7c60347825a22a654d5ca77"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "004",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "004",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "48",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "004"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "sudowoodo-s2ts" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "005",
-      "name": "Hippopotas",
+      "name": "ヒポポタス",
+      "englishName": "Hippopotas",
       "number": {
         "printed": "005",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -650,7 +473,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -661,17 +484,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 449,
+          "id": 449,
           "name": "Hippopotas"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 449,
-          "form": "449",
-          "name": "Hippopotas",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -681,7 +495,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "005",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -700,8 +514,7 @@
             "front": {
               "image": "b780343917e532821cf1043f7b74c6a9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -721,65 +534,35 @@
             "front": {
               "image": "1f68c9f9dfc4e6134957e2d5ee2ea4bb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "005",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "005",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "005"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "hippopotas-iup6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "006",
-      "name": "Hippowdon",
+      "name": "カバルドン",
+      "englishName": "Hippowdon",
       "number": {
         "printed": "006",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -787,7 +570,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -798,17 +581,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 450,
+          "id": 450,
           "name": "Hippowdon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 450,
-          "form": "450",
-          "name": "Hippowdon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -818,7 +592,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "006",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -837,8 +611,7 @@
             "front": {
               "image": "1576eb181c80f8f1bc4a0b64388b0e24"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -858,65 +631,35 @@
             "front": {
               "image": "af30b64116210119c5b6fa9c7612a076"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "006",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "006",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "21",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "006"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "hippowdon-lzsx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "007",
-      "name": "Buneary",
+      "name": "ミミロル",
+      "englishName": "Buneary",
       "number": {
         "printed": "007",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -924,7 +667,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -935,17 +678,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 427,
+          "id": 427,
           "name": "Buneary"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 427,
-          "form": "427",
-          "name": "Buneary",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -955,7 +689,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "007",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -974,8 +708,7 @@
             "front": {
               "image": "3e5eea09778e41eeeef27096c1afca7f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -995,65 +728,35 @@
             "front": {
               "image": "04658d7f9e304dfb6421dfacabcb4933"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "007",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "007",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "53",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "007"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "buneary-cbbl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "008",
-      "name": "Chimchar",
+      "name": "ヒコザル",
+      "englishName": "Chimchar",
       "number": {
         "printed": "008",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1061,7 +764,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -1072,17 +775,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 390,
+          "id": 390,
           "name": "Chimchar"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 390,
-          "form": "390",
-          "name": "Chimchar",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1092,7 +786,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "008",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1111,8 +805,7 @@
             "front": {
               "image": "902c8e76f1653e4333d60b066bd2f3f4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1132,80 +825,35 @@
             "front": {
               "image": "068f141aa7f9662ed32ad2a242b7697e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "008",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "008",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "56",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "073"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "073"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "073",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "chimchar-8351" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "009",
-      "name": "Monferno",
+      "name": "モウカザル",
+      "englishName": "Monferno",
       "number": {
         "printed": "009",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1213,7 +861,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -1224,17 +872,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 391,
+          "id": 391,
           "name": "Monferno"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 391,
-          "form": "391",
-          "name": "Monferno",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1244,7 +883,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "009",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1263,8 +902,7 @@
             "front": {
               "image": "884c2ac2c02a67780a2fb115c4ee864f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1284,65 +922,35 @@
             "front": {
               "image": "9e8d5c7e90982fe253a50d1cc4304718"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "009",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "009",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "41",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "009"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "monferno-cwrh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "010",
-      "name": "Infernape",
+      "name": "ゴウカザル",
+      "englishName": "Infernape",
       "number": {
         "printed": "010",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1350,7 +958,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -1361,17 +969,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 392,
+          "id": 392,
           "name": "Infernape"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 392,
-          "form": "392",
-          "name": "Infernape",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1381,7 +980,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "010",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -1400,8 +999,7 @@
             "front": {
               "image": "8025c0d3acf298d23ea21532ac52ac98"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -1421,65 +1019,35 @@
             "front": {
               "image": "ceab7e396b04c6026cddd0a9ee93dd1d"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "010",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "010",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "22",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "010"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "infernape-zjmg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "011",
-      "name": "Electrike",
+      "name": "ラクライ",
+      "englishName": "Electrike",
       "number": {
         "printed": "011",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1487,7 +1055,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -1498,17 +1066,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 309,
+          "id": 309,
           "name": "Electrike"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 309,
-          "form": "309",
-          "name": "Electrike",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1518,7 +1077,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "011",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1537,8 +1096,7 @@
             "front": {
               "image": "7a51a95cc758d0f01540597a507d982d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1558,65 +1116,35 @@
             "front": {
               "image": "186ac0bd0858623c8cb84632312b932b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "011",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "011",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "64",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "011"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "electrike-wk7b" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "012",
-      "name": "Manectric",
+      "name": "ライボルト",
+      "englishName": "Manectric",
       "number": {
         "printed": "012",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1624,7 +1152,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -1635,17 +1163,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 310,
+          "id": 310,
           "name": "Manectric"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 310,
-          "form": "310",
-          "name": "Manectric",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1655,7 +1174,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "012",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1674,8 +1193,7 @@
             "front": {
               "image": "a51dc41b85e73fefac1661b665f9f690"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1695,65 +1213,35 @@
             "front": {
               "image": "159e9519c128b7d6decd25491f84dc5d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "012",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "012",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "012"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "manectric-u5dh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "013",
-      "name": "Rotom",
+      "name": "ロトム",
+      "englishName": "Rotom",
       "number": {
         "printed": "013",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1761,7 +1249,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -1772,17 +1260,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 479,
+          "id": 479,
           "name": "Rotom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 479,
-          "form": "479",
-          "name": "Rotom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1792,7 +1271,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "013",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1811,8 +1290,7 @@
             "front": {
               "image": "1fe055bc02c35faed1188fd69399cfc5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1832,65 +1310,35 @@
             "front": {
               "image": "07c67cbb1111ade8cbfb536d0c10c292"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "013",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "013",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "013"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "rotom-io2m" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "014",
-      "name": "Lickitung",
+      "name": "ベロリンガ",
+      "englishName": "Lickitung",
       "number": {
         "printed": "014",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1898,7 +1346,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -1909,17 +1357,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 108,
+          "id": 108,
           "name": "Lickitung"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 108,
-          "form": "108",
-          "name": "Lickitung",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1929,7 +1368,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "014",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -1948,8 +1387,7 @@
             "front": {
               "image": "c85dd6153530bbca766bc4d5ef9f092b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -1969,65 +1407,35 @@
             "front": {
               "image": "3db64534acd6fde63a69b34ef2a67b2b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "014",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "014",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "014"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "lickitung-03zx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "015",
-      "name": "Piplup",
+      "name": "ポッチャマ",
+      "englishName": "Piplup",
       "number": {
         "printed": "015",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2035,7 +1443,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -2046,17 +1454,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 393,
+          "id": 393,
           "name": "Piplup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 393,
-          "form": "393",
-          "name": "Piplup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2066,7 +1465,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "015",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2085,8 +1484,7 @@
             "front": {
               "image": "2d8d5988f8f6bd6528323a0dcb515f89"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2106,80 +1504,35 @@
             "front": {
               "image": "893e475078ace36c79f1099ef36eda55"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "015",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "015",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "71",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/diamond-pearl-promos",
-                "card": "074"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/diamond-pearl-promos",
-          "painting": "074"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/diamond-pearl-promos",
-          "card": "074",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "piplup-uxsi" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "016",
-      "name": "Prinplup",
+      "name": "ポッタイシ",
+      "englishName": "Prinplup",
       "number": {
         "printed": "016",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2187,7 +1540,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -2198,17 +1551,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 394,
+          "id": 394,
           "name": "Prinplup"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 394,
-          "form": "394",
-          "name": "Prinplup",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2218,7 +1562,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "016",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2237,8 +1581,7 @@
             "front": {
               "image": "bfe7d4aedc45c85ec225f770374d757e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2258,65 +1601,35 @@
             "front": {
               "image": "3bd0850259b6f415671a4e24694a054f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "016",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "016",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "44",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "016"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "prinplup-ziie" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "017",
-      "name": "Empoleon",
+      "name": "エンペルト",
+      "englishName": "Empoleon",
       "number": {
         "printed": "017",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2324,7 +1637,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -2335,17 +1648,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 395,
+          "id": 395,
           "name": "Empoleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 395,
-          "form": "395",
-          "name": "Empoleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2355,7 +1659,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "017",
-            "variant": "unlimited-holo"
+            "id": "unlimited-holo"
           }
         }
       },
@@ -2374,8 +1678,7 @@
             "front": {
               "image": "ec56f34ed3310d9a210cf2d10561cf06"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -2395,65 +1698,35 @@
             "front": {
               "image": "56977138fdcf503c8b957f3f440fa1f5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "unlimited-holo",
-            "first-edition-holo"
-          ],
-          "defaultCopy": "unlimited-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "defaultCollectingCopy": "unlimited-holo",
+      "defaultVariant": "unlimited-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "017",
-          "variant": "first-edition-holo"
+          "id": "first-edition-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "017",
-          "variant": "unlimited-holo"
+          "id": "unlimited-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "17",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "017"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "empoleon-pie5" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "018",
-      "name": "Drifloon",
+      "name": "フワンテ",
+      "englishName": "Drifloon",
       "number": {
         "printed": "018",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2461,7 +1734,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -2472,17 +1745,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 425,
+          "id": 425,
           "name": "Drifloon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 425,
-          "form": "425",
-          "name": "Drifloon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2492,7 +1756,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "018",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2511,8 +1775,7 @@
             "front": {
               "image": "0845a8752b405d68a5cd30e019344258"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2532,65 +1795,35 @@
             "front": {
               "image": "5adadef07b071573c582034d1fdc2e29"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "018",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "018",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "61",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "018"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "drifloon-096y" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "019",
-      "name": "Bronzor",
+      "name": "ドーミラー",
+      "englishName": "Bronzor",
       "number": {
         "printed": "019",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2598,7 +1831,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -2609,17 +1842,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 436,
+          "id": 436,
           "name": "Bronzor"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 436,
-          "form": "436",
-          "name": "Bronzor",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2629,7 +1853,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "019",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2648,8 +1872,7 @@
             "front": {
               "image": "030db6c407fdf3f92fc9c584c733afe5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2669,65 +1892,35 @@
             "front": {
               "image": "8df6b2c657fc79dc9e58e2e31a9ba92b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "019",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "019",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "52",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "019"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "bronzor-zttj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "020",
-      "name": "Croagunk",
+      "name": "グレッグル",
+      "englishName": "Croagunk",
       "number": {
         "printed": "020",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2735,7 +1928,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -2746,17 +1939,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 453,
+          "id": 453,
           "name": "Croagunk"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 453,
-          "form": "453",
-          "name": "Croagunk",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2766,7 +1950,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "020",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2785,8 +1969,7 @@
             "front": {
               "image": "e246d452f60997453c34b5ec11c575c5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2806,65 +1989,35 @@
             "front": {
               "image": "4b6263680d1393d2937733787cba29d7"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "020",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "020",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "60",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "020"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "croagunk-0upf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "021",
-      "name": "Toxicroak",
+      "name": "ドクロッグ",
+      "englishName": "Toxicroak",
       "number": {
         "printed": "021",
-        "numerator": "021"
+        "short": "021"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -2872,7 +2025,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -2883,17 +2036,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 454,
+          "id": 454,
           "name": "Toxicroak"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 454,
-          "form": "454",
-          "name": "Toxicroak",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2903,7 +2047,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "021",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -2922,8 +2066,7 @@
             "front": {
               "image": "aded0317328cb0818590432b5f921e4e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -2943,65 +2086,35 @@
             "front": {
               "image": "a34a1e95e44f41979ad36cbbcc39528c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "021",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "021",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "31",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "021"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "toxicroak-t288" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "022",
-      "name": "Glameow",
+      "name": "ニャルマー",
+      "englishName": "Glameow",
       "number": {
         "printed": "022",
-        "numerator": "022"
+        "short": "022"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3009,7 +2122,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -3020,17 +2133,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 431,
+          "id": 431,
           "name": "Glameow"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 431,
-          "form": "431",
-          "name": "Glameow",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3040,7 +2144,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "022",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3059,8 +2163,7 @@
             "front": {
               "image": "b8f9905c1f793536137785c14f1ebd79"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3080,65 +2183,35 @@
             "front": {
               "image": "a359f7c7582f1e1eb46dcd3a96e731cc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "022",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "022",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "65",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "022"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "glameow-k0fn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "023",
-      "name": "Pikachu",
+      "name": "ピカチュウ",
+      "englishName": "Pikachu",
       "number": {
         "printed": "023",
-        "numerator": "023"
+        "short": "023"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3146,7 +2219,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -3157,17 +2230,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 25,
+          "id": 25,
           "name": "Pikachu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 25,
-          "form": "25",
-          "name": "Pikachu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3177,7 +2241,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "023",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3192,60 +2256,21 @@
             "front": {
               "image": "8f90e8b75cc9df8f53fc6c6b6499e543"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "70",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "023"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/diamond-pearl-promos",
-            "card": "095",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pikachu-xm84" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "024",
-      "name": "Raichu",
+      "name": "ライチュウ",
+      "englishName": "Raichu",
       "number": {
         "printed": "024",
-        "numerator": "024"
+        "short": "024"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3253,7 +2278,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "daisuke-ito",
+          "id": "daisuke-ito",
           "name": "Daisuke Ito"
         }
       ],
@@ -3264,17 +2289,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 26,
+          "id": 26,
           "name": "Raichu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 26,
-          "form": "26",
-          "name": "Raichu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3284,7 +2300,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "024",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -3303,8 +2319,7 @@
             "front": {
               "image": "020a169ce11a34a484183507ba9422aa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -3327,11 +2342,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "024",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-holo",
@@ -3355,11 +2369,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "024",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         },
         {
           "id": "unlimited-holo",
@@ -3381,78 +2394,38 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "024",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        },
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo",
-            "unlimited-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "024",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "024",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "45",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "024"
-        }
-      }
+      "painting": { "$kind": "painting", "id": "raichu-y94n" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "025",
-      "name": "Plusle",
+      "name": "プラスル",
+      "englishName": "Plusle",
       "number": {
         "printed": "025",
-        "numerator": "025"
+        "short": "025"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3460,7 +2433,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "suwama-chiaki",
+          "id": "suwama-chiaki",
           "name": "Suwama Chiaki"
         }
       ],
@@ -3471,17 +2444,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 311,
+          "id": 311,
           "name": "Plusle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 311,
-          "form": "311",
-          "name": "Plusle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3491,7 +2455,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "025",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3506,49 +2470,21 @@
             "front": {
               "image": "03aef4d02319657c3ac421c4a78af1bf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "28",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "025"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "plusle-4y8h" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "026",
-      "name": "Minun",
+      "name": "マイナン",
+      "englishName": "Minun",
       "number": {
         "printed": "026",
-        "numerator": "026"
+        "short": "026"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3556,7 +2492,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "suwama-chiaki",
+          "id": "suwama-chiaki",
           "name": "Suwama Chiaki"
         }
       ],
@@ -3567,17 +2503,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 312,
+          "id": 312,
           "name": "Minun"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 312,
-          "form": "312",
-          "name": "Minun",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3587,7 +2514,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "026",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3602,49 +2529,21 @@
             "front": {
               "image": "dda62667b6a02c1d01c5fc0dd48e2b3a"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "026"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "minun-4aeo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "027",
-      "name": "Pachirisu",
+      "name": "パチリス",
+      "englishName": "Pachirisu",
       "number": {
         "printed": "027",
-        "numerator": "027"
+        "short": "027"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3652,7 +2551,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -3663,17 +2562,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 417,
+          "id": 417,
           "name": "Pachirisu"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 417,
-          "form": "417",
-          "name": "Pachirisu",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3683,7 +2573,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "027",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3698,49 +2588,21 @@
             "front": {
               "image": "fd42b2e60b1393ec2c80d349bf6c9762"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "43",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "027"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pachirisu-r3ur" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "028",
-      "name": "Aipom",
+      "name": "エイパム",
+      "englishName": "Aipom",
       "number": {
         "printed": "028",
-        "numerator": "028"
+        "short": "028"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3748,7 +2610,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tomokazu-komiya",
+          "id": "tomokazu-komiya",
           "name": "Tomokazu Komiya"
         }
       ],
@@ -3759,17 +2621,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 190,
+          "id": 190,
           "name": "Aipom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 190,
-          "form": "190",
-          "name": "Aipom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3779,7 +2632,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "028",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3794,49 +2647,21 @@
             "front": {
               "image": "b7bb86b56803bc93dc44f88b2132a8e8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "50",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "028"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "aipom-bh6t" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "029",
-      "name": "Starly",
+      "name": "ムックル",
+      "englishName": "Starly",
       "number": {
         "printed": "029",
-        "numerator": "029"
+        "short": "029"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3844,7 +2669,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -3855,17 +2680,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 396,
+          "id": 396,
           "name": "Starly"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 396,
-          "form": "396",
-          "name": "Starly",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3875,7 +2691,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "029",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3890,49 +2706,21 @@
             "front": {
               "image": "f8d322c3ff943127f6c8bbda407523d0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "75",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "029"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "starly-ja94" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "030",
-      "name": "Staravia",
+      "name": "ムクバード",
+      "englishName": "Staravia",
       "number": {
         "printed": "030",
-        "numerator": "030"
+        "short": "030"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -3940,7 +2728,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -3951,17 +2739,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 397,
+          "id": 397,
           "name": "Staravia"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 397,
-          "form": "397",
-          "name": "Staravia",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3971,7 +2750,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "030",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -3986,49 +2765,21 @@
             "front": {
               "image": "a49e4ecb189447cfdfda75d3a54f5540"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "47",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "030"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "staravia-gphe" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "031",
-      "name": "Super Scoop Up",
+      "name": "スーパーポケモン回収",
+      "englishName": "Super Scoop Up",
       "number": {
         "printed": "031",
-        "numerator": "031"
+        "short": "031"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4036,7 +2787,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shizurow",
+          "id": "shizurow",
           "name": "Shizurow"
         }
       ],
@@ -4051,7 +2802,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "031",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4073,11 +2824,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "031",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4097,73 +2847,35 @@
             "front": {
               "image": "bb32b6398ea132ea6fd31302b8d14592"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "031",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "031",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "87",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "super-scoop-up"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "super-scoop-up",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "super-scoop-up-g2qx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "032",
-      "name": "Double Full Heal",
+      "name": "なんでもなおしW",
+      "englishName": "Double Full Heal",
       "number": {
         "printed": "032",
-        "numerator": "032"
+        "short": "032"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4171,7 +2883,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4186,7 +2898,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "032",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4208,11 +2920,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "032",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4232,80 +2943,35 @@
             "front": {
               "image": "19b0525ddf59059aefe0d7e210fdd761"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "032",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "032",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-sandstorm",
-              "card": "86",
-              "language": "en",
-              "printCount": 5,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/miracle-of-the-desert",
-                "card": "049"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/miracle-of-the-desert",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/miracle-of-the-desert",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "double-full-heal-14y2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "033",
-      "name": "Energy Restore",
+      "name": "エネルギー再生",
+      "englishName": "Energy Restore",
       "number": {
         "printed": "033",
-        "numerator": "033"
+        "short": "033"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4313,7 +2979,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hideyuki-nakajima",
+          "id": "hideyuki-nakajima",
           "name": "Hideyuki Nakajima"
         }
       ],
@@ -4328,7 +2994,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "033",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4347,8 +3013,7 @@
             "front": {
               "image": "9633206802a084a4f69026b23b0fe600"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4371,77 +3036,38 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "033",
-                "variant": "unlimited-non-holo"
+                "id": "unlimited-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "033",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "033",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "81",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/pokemon-vs",
-          "painting": "140"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/pokemon-vs",
-          "card": "140",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-restore-t6cn" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "034",
-      "name": "Energy Switch",
+      "name": "エネルギーつけかえ",
+      "englishName": "Energy Switch",
       "number": {
         "printed": "034",
-        "numerator": "034"
+        "short": "034"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4449,7 +3075,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4464,7 +3090,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "034",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4486,11 +3112,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "034",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4510,79 +3135,35 @@
             "front": {
               "image": "e069cd8337b96d480f504c274a221a4e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "034",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "034",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/diamond-pearl",
-              "card": "107",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack",
-                "card": "energy-switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "energy-switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "energy-switch",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-switch-ysdy" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "035",
-      "name": "Energy Search",
+      "name": "エネルギー転送",
+      "englishName": "Energy Search",
       "number": {
         "printed": "035",
-        "numerator": "035"
+        "short": "035"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4590,7 +3171,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4605,7 +3186,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "035",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4624,8 +3205,7 @@
             "front": {
               "image": "0156ce7e8a263b289fe3b56e4049e501"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4645,73 +3225,35 @@
             "front": {
               "image": "ee3e22f4090fbaeab76b93fb50ba88cd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "035",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "035",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "90",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "019"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "019",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "energy-search-m3gb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "036",
-      "name": "PlusPower",
+      "name": "プラスパワー",
+      "englishName": "PlusPower",
       "number": {
         "printed": "036",
-        "numerator": "036"
+        "short": "036"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4719,7 +3261,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4734,7 +3276,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "036",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4756,11 +3298,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "036",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4780,79 +3321,35 @@
             "front": {
               "image": "8f101fd0986831e42f19eef050529f98"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "036",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "036",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/diamond-pearl",
-              "card": "109",
-              "language": "en",
-              "printCount": 4,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack",
-                "card": "pluspower"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "pluspower"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "pluspower",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "pluspower-2p2c" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "037",
-      "name": "Poké Ball",
+      "name": "モンスターボール",
+      "englishName": "Poké Ball",
       "number": {
         "printed": "037",
-        "numerator": "037"
+        "short": "037"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4860,7 +3357,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -4875,7 +3372,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "037",
-            "variant": "unlimited-non-holo"
+            "id": "unlimited-non-holo"
           }
         }
       },
@@ -4894,8 +3391,7 @@
             "front": {
               "image": "568255a1ee6366f4924ae28fe035091c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -4915,73 +3411,35 @@
             "front": {
               "image": "48c24cbd0d5d3bac824fbd6befd0f48e"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "037",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "037",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "85",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "021"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "021",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "poke-ball-jdps" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "038",
-      "name": "Pokédex HANDY910is",
+      "name": "ポケモン図鑑",
+      "englishName": "Pokédex HANDY910is",
       "number": {
         "printed": "038",
-        "numerator": "038"
+        "short": "038"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -4989,7 +3447,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -5004,7 +3462,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "038",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -5019,30 +3477,20 @@
             "front": {
               "image": "cd755e877bb84161e3563dfcfdd66bfd"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "039",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "039",
-        "numerator": "039"
+        "short": "039"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5050,7 +3498,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -5065,7 +3513,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "039",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5087,11 +3535,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "039",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5111,79 +3558,35 @@
             "front": {
               "image": "77b365321d2e6717effa3ecd7fe52928"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "039",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "039",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/diamond-pearl",
-              "card": "119",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/entry-pack",
-                "card": "switch"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack",
-          "painting": "switch"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/entry-pack",
-          "card": "switch",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "painting": { "$kind": "painting", "id": "switch-jxlp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "040",
-      "name": "Warp Point",
+      "name": "ワープポイント",
+      "englishName": "Warp Point",
       "number": {
         "printed": "040",
-        "numerator": "040"
+        "short": "040"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5191,7 +3594,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -5206,7 +3609,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "040",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -5221,57 +3624,21 @@
             "front": {
               "image": "55c8c42da5c6588fb9032e26ca3399fc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "88",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "painting": "024"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/magmortar-vs-electivire-deck-kit",
-          "card": "024",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "warp-point-xwek" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "041",
-      "name": "Mom's Kindness",
+      "name": "ママのきづかい",
+      "englishName": "Mom's Kindness",
       "number": {
         "printed": "041",
-        "numerator": "041"
+        "short": "041"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -5279,7 +3646,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ken-sugimori",
+          "id": "ken-sugimori",
           "name": "Ken Sugimori"
         }
       ],
@@ -5287,10 +3654,10 @@
         "date": "2007-11-30",
         "sort": "2007-11-30.00 japanese/entry-pack-08 00040"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "mom",
+          "id": "mom",
           "name": "Mom",
           "role": "subject"
         }
@@ -5302,7 +3669,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "041",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5324,11 +3691,10 @@
                 "$kind": "variant",
                 "set": "japanese/entry-pack-08",
                 "card": "041",
-                "variant": "first-edition-non-holo"
+                "id": "first-edition-non-holo"
               }
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         },
         {
           "id": "first-edition-non-holo",
@@ -5348,119 +3714,39 @@
             "front": {
               "image": "cd81abfdd8db56a77c9487a54cb74da9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "unlimited-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "unlimited-non-holo",
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "unlimited-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "defaultCollectingCopy": "unlimited-non-holo",
+      "defaultVariant": "unlimited-non-holo",
       "printRuns": [
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "041",
-          "variant": "first-edition-non-holo"
+          "id": "first-edition-non-holo"
         },
         {
           "$kind": "variant",
           "set": "japanese/entry-pack-08",
           "card": "041",
-          "variant": "unlimited-non-holo"
+          "id": "unlimited-non-holo"
         }
       ],
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/majestic-dawn",
-              "card": "83",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/entry-pack-08",
-          "painting": "041"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/giratina-vs-dialga-deck-kit-dialga",
-            "card": "013",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/giratina-vs-dialga-deck-kit-giratina",
-            "card": "013",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/dpt-gift-box-pikachu",
-            "card": "015",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/dpt-gift-box-piplup",
-            "card": "015",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/arceus-lv-x-deck-grass-fire",
-            "card": "017",
-            "differs": [
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/arceus-lv-x-deck-lightning-psychic",
-            "card": "017",
-            "differs": [
-              "number"
-            ]
-          }
-        ]
-      }
+      "painting": { "$kind": "painting", "id": "mom-s-kindness-nzji" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/entry-pack-08",
       "id": "potion",
-      "name": "Potion",
+      "name": "きずぐすり",
+      "englishName": "Potion",
       "cardType": "trainer",
       "language": "ja",
       "credit": "Shin-ichi Yoshikawa",
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-ichi-yoshikawa",
+          "id": "shin-ichi-yoshikawa",
           "name": "Shin-ichi Yoshikawa"
         }
       ],
@@ -5475,7 +3761,7 @@
             "$kind": "variant",
             "set": "japanese/entry-pack-08",
             "card": "potion",
-            "variant": "first-edition"
+            "id": "first-edition"
           }
         }
       },
@@ -5494,57 +3780,11 @@
             "front": {
               "image": "2f13afe860cc11e2b2a12d75203ba76f"
             }
-          },
-          "collectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1"
+          }
         }
       ],
-      "defaultCopy": "first-edition",
-      "collectingVariations": [
-        {
-          "id": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-          "name": "Unspecified finish",
-          "variants": [
-            "first-edition"
-          ],
-          "defaultCopy": "first-edition",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-51ae02424785be958be1dcc6fdcb451bf16855a1",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/ex-unseen-forces",
-              "card": "95",
-              "language": "en",
-              "printCount": 8,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/feraligatr-constructed-starter-deck",
-                "card": "010"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "painting": "010"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/feraligatr-constructed-starter-deck",
-          "card": "010",
-          "differs": [
-            "text",
-            "no_number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition",
+      "painting": { "$kind": "painting", "id": "potion-d5e3" }
     }
   ]
 }

@@ -1,66 +1,78 @@
 {
   "id": "japanese/spiral-force",
   "catalog": "japanese",
-  "name": "Spiral Force",
+  "name": "ラセンフォース",
+  "englishName": "Spiral Force",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "expansion",
   "language": "ja",
   "printedTotal": 51,
   "actualTotal": 58,
   "cardCount": 58,
-  "productCount": 0,
   "released": {
     "date": "2012-12-14"
   },
   "code": "BW8",
+  "printedCode": "BW8",
   "logo": "ddbf5c4ec7cf09402bc02a494b20f0b8",
   "symbol": "1c91b272cf86c872474ef2a16fdc6802",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Spiral Force",
-      "code": "BW8",
-      "released": {
-        "date": "2012-12-14"
-      },
-      "logo": "ddbf5c4ec7cf09402bc02a494b20f0b8",
-      "symbol": "1c91b272cf86c872474ef2a16fdc6802"
-    }
-  ],
   "description": {
-    "text": "One of the two BW8 expansions released together on 14 December 2012, with the mythical Deoxys on the wrapper. The two packs build up the Team Plasma cards begun in Plasma Gale: Deoxys, Thundurus and Tornadus in Therian Forme, and every evolution of Eevee appear as Team Plasma Pokémon, and the once hard-to-get Team Plasma Ball came back. Spiral Force's Pokémon-EX are Deoxys-EX, Heatran-EX and Latios-EX. The cards are numbered to 51. In English most of its cards came out in Plasma Freeze in May 2013.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: 拡張パック「ラセンフォース」「ライデンナックル」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20121105052713/http://www.pokemon-card.com/products/bw/bw8.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      },
-      {
-        "title": "Wikipedia: List of Pokémon Trading Card Game sets",
-        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets"
-      }
-    ]
+    "text": "One of the two BW8 expansions released together on 14 December 2012, with the mythical Deoxys on the wrapper. The two packs build up the Team Plasma cards begun in Plasma Gale: Deoxys, Thundurus and Tornadus in Therian Forme, and every evolution of Eevee appear as Team Plasma Pokémon, and the once hard-to-get Team Plasma Ball came back. Spiral Force's Pokémon-EX are Deoxys-EX, Heatran-EX and Latios-EX. The cards are numbered to 51. In English most of its cards came out in Plasma Freeze in May 2013."
   },
   "tell": {
-    "text": "A \"BW8\" mark at the bottom right, and a number out of 051",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"BW8\" mark at the bottom right, and a number out of 051"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/plasma-freeze",
+      "id": "korean/spiral-force",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 58
+    },
+    {
+      "$kind": "set",
+      "id": "french/plasma-freeze",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 57
+    },
+    {
+      "$kind": "set",
+      "id": "german/plasma-freeze",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 57
+    },
+    {
+      "$kind": "set",
+      "id": "english/plasma-freeze",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 57
+    },
+    {
+      "$kind": "set",
+      "id": "italian/plasma-freeze",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 57
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/plasma-freeze",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 57
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/plasma-freeze",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 57
@@ -68,11 +80,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "001",
-      "name": "Exeggcute",
+      "name": "タマタマ",
+      "englishName": "Exeggcute",
       "number": {
         "printed": "001/051",
-        "numerator": "001"
+        "short": "001"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -81,7 +96,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shigenori-negishi",
+          "id": "shigenori-negishi",
           "name": "Shigenori Negishi"
         }
       ],
@@ -92,17 +107,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 102,
+          "id": 102,
           "name": "Exeggcute"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 102,
-          "form": "102",
-          "name": "Exeggcute",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -112,7 +118,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "001",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -131,69 +137,21 @@
             "front": {
               "image": "043c4551887b059cc6dffe11fd24f331"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
-        }
-      ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "4",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "001"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/extra-regulation-box",
-            "card": "001",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
-          },
-          {
-            "$kind": "card",
-            "set": "japanese/sword-shield-promos",
-            "card": "341",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "exeggcute-806w" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "002",
-      "name": "Exeggutor",
+      "name": "ナッシー",
+      "englishName": "Exeggutor",
       "number": {
         "printed": "002/051",
-        "numerator": "002"
+        "short": "002"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -202,7 +160,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -213,17 +171,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 103,
+          "id": 103,
           "name": "Exeggutor"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 103,
-          "form": "103",
-          "name": "Exeggutor",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -233,7 +182,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "002",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -252,49 +201,21 @@
             "front": {
               "image": "67c6f82c78242bf0ad3307cb838fcaf3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "exeggutor-p6an" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "003",
-      "name": "Treecko",
+      "name": "キモリ",
+      "englishName": "Treecko",
       "number": {
         "printed": "003/051",
-        "numerator": "003"
+        "short": "003"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -303,7 +224,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -314,17 +235,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 252,
+          "id": 252,
           "name": "Treecko"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 252,
-          "form": "252",
-          "name": "Treecko",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -334,7 +246,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "003",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -353,49 +265,21 @@
             "front": {
               "image": "ebf2e566d204805110f2c59b0f2bff29"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "6",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "treecko-bslj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "004",
-      "name": "Grovyle",
+      "name": "ジュプトル",
+      "englishName": "Grovyle",
       "number": {
         "printed": "004/051",
-        "numerator": "004"
+        "short": "004"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -404,7 +288,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "suwama-chiaki",
+          "id": "suwama-chiaki",
           "name": "Suwama Chiaki"
         }
       ],
@@ -415,17 +299,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 253,
+          "id": 253,
           "name": "Grovyle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 253,
-          "form": "253",
-          "name": "Grovyle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -435,7 +310,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "004",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -454,49 +329,21 @@
             "front": {
               "image": "1e18d945156f655e3a9d0c329fd2ef69"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "7",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "grovyle-mnxj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "005",
-      "name": "Sceptile",
+      "name": "ジュカイン",
+      "englishName": "Sceptile",
       "number": {
         "printed": "005/051",
-        "numerator": "005"
+        "short": "005"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -505,7 +352,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kawayoo",
+          "id": "kawayoo",
           "name": "kawayoo"
         }
       ],
@@ -516,17 +363,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 254,
+          "id": 254,
           "name": "Sceptile"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 254,
-          "form": "254",
-          "name": "Sceptile",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -536,7 +374,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "005",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -555,49 +393,21 @@
             "front": {
               "image": "0a62bb6514130faa0e5fd417cd9b2f73"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "8",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "sceptile-58i1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "006",
-      "name": "Heatran-EX",
+      "name": "ヒードランEX",
+      "englishName": "Heatran-EX",
       "number": {
         "printed": "006/051",
-        "numerator": "006"
+        "short": "006"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -606,7 +416,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -617,17 +427,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 485,
+          "id": 485,
           "name": "Heatran"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 485,
-          "form": "485",
-          "name": "Heatran",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -637,7 +438,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "006",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -656,49 +457,21 @@
             "front": {
               "image": "fcd20961ae71bed5b297ae502395468f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "heatran-ex-wu4i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "007",
-      "name": "Litwick",
+      "name": "ヒトモシ",
+      "englishName": "Litwick",
       "number": {
         "printed": "007/051",
-        "numerator": "007"
+        "short": "007"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -707,7 +480,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -718,17 +491,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 607,
+          "id": 607,
           "name": "Litwick"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 607,
-          "form": "607",
-          "name": "Litwick",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -738,7 +502,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "007",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -757,49 +521,21 @@
             "front": {
               "image": "83bf5702372f3fea939a164cedc77302"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "litwick-yt91" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "008",
-      "name": "Lampent",
+      "name": "ランプラー",
+      "englishName": "Lampent",
       "number": {
         "printed": "008/051",
-        "numerator": "008"
+        "short": "008"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -808,7 +544,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -819,17 +555,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 608,
+          "id": 608,
           "name": "Lampent"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 608,
-          "form": "608",
-          "name": "Lampent",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -839,7 +566,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "008",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -858,49 +585,21 @@
             "front": {
               "image": "2bd4b2e09068c698e1e948a1c90312f1"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "lampent-4w3z" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "009",
-      "name": "Chandelure",
+      "name": "シャンデラ",
+      "englishName": "Chandelure",
       "number": {
         "printed": "009/051",
-        "numerator": "009"
+        "short": "009"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -909,7 +608,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -920,17 +619,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 609,
+          "id": 609,
           "name": "Chandelure"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 609,
-          "form": "609",
-          "name": "Chandelure",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -940,7 +630,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "009",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -959,49 +649,21 @@
             "front": {
               "image": "095ef8d98cd749f9b2b849f71316dcdf"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "chandelure-qw8i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "010",
-      "name": "Horsea",
+      "name": "タッツー",
+      "englishName": "Horsea",
       "number": {
         "printed": "010/051",
-        "numerator": "010"
+        "short": "010"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1010,7 +672,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -1021,17 +683,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 116,
+          "id": 116,
           "name": "Horsea"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 116,
-          "form": "116",
-          "name": "Horsea",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1041,7 +694,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "010",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1060,49 +713,21 @@
             "front": {
               "image": "809d1f9a3bc5d03f7bc6c9287da447ea"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "18",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "010"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "horsea-wi5e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "011",
-      "name": "Seadra",
+      "name": "シードラ",
+      "englishName": "Seadra",
       "number": {
         "printed": "011/051",
-        "numerator": "011"
+        "short": "011"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1111,7 +736,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kyoko-umemoto",
+          "id": "kyoko-umemoto",
           "name": "Kyoko Umemoto"
         }
       ],
@@ -1122,17 +747,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 117,
+          "id": 117,
           "name": "Seadra"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 117,
-          "form": "117",
-          "name": "Seadra",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1142,7 +758,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "011",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1161,49 +777,21 @@
             "front": {
               "image": "8b86533bc1b4124775604ee6679c831f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "19",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "011"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "seadra-54yj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "012",
-      "name": "Glaceon",
+      "name": "グレイシア",
+      "englishName": "Glaceon",
       "number": {
         "printed": "012/051",
-        "numerator": "012"
+        "short": "012"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -1212,7 +800,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1223,17 +811,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 471,
+          "id": 471,
           "name": "Glaceon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 471,
-          "form": "471",
-          "name": "Glaceon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1243,7 +822,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "012",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1262,49 +841,21 @@
             "front": {
               "image": "b65dd399f73e3264a2bff5620954eef3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "23",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "012"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "glaceon-xv0x" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "013",
-      "name": "Tympole",
+      "name": "オタマロ",
+      "englishName": "Tympole",
       "number": {
         "printed": "013/051",
-        "numerator": "013"
+        "short": "013"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1313,7 +864,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -1324,17 +875,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 535,
+          "id": 535,
           "name": "Tympole"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 535,
-          "form": "535",
-          "name": "Tympole",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1344,7 +886,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "013",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1363,49 +905,21 @@
             "front": {
               "image": "5d422809fc8f6025a453cfac2ded675d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "24",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "tympole-afbu" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "014",
-      "name": "Palpitoad",
+      "name": "ガマガル",
+      "englishName": "Palpitoad",
       "number": {
         "printed": "014/051",
-        "numerator": "014"
+        "short": "014"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1414,7 +928,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -1425,17 +939,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 536,
+          "id": 536,
           "name": "Palpitoad"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 536,
-          "form": "536",
-          "name": "Palpitoad",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1445,7 +950,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "014",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1464,49 +969,21 @@
             "front": {
               "image": "f6a340114580620f325b0445b6e08078"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "25",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "palpitoad-ajhq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "015",
-      "name": "Seismitoad",
+      "name": "ガマゲロゲ",
+      "englishName": "Seismitoad",
       "number": {
         "printed": "015/051",
-        "numerator": "015"
+        "short": "015"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -1515,7 +992,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1526,17 +1003,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 537,
+          "id": 537,
           "name": "Seismitoad"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 537,
-          "form": "537",
-          "name": "Seismitoad",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1546,7 +1014,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "015",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1565,49 +1033,21 @@
             "front": {
               "image": "b77bfadd999df6c3ae4d1d5746646b20"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "26",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "015"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "seismitoad-mnfr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "016",
-      "name": "Jolteon",
+      "name": "サンダース",
+      "englishName": "Jolteon",
       "number": {
         "printed": "016/051",
-        "numerator": "016"
+        "short": "016"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -1616,7 +1056,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1627,17 +1067,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 135,
+          "id": 135,
           "name": "Jolteon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 135,
-          "form": "135",
-          "name": "Jolteon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1647,7 +1078,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "016",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1666,49 +1097,21 @@
             "front": {
               "image": "49b8e983778f23870dba090b0fc34dca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "34",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "016"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "jolteon-2gwl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "017",
-      "name": "Chinchou",
+      "name": "チョンチー",
+      "englishName": "Chinchou",
       "number": {
         "printed": "017/051",
-        "numerator": "017"
+        "short": "017"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1717,7 +1120,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -1728,17 +1131,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 170,
+          "id": 170,
           "name": "Chinchou"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 170,
-          "form": "170",
-          "name": "Chinchou",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1748,7 +1142,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "017",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1767,49 +1161,21 @@
             "front": {
               "image": "e6626cd2237b55ad16b442675a90a70c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "35",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "017"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "chinchou-bg7t" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "018",
-      "name": "Lanturn",
+      "name": "ランターン",
+      "englishName": "Lanturn",
       "number": {
         "printed": "018/051",
-        "numerator": "018"
+        "short": "018"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -1818,7 +1184,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -1829,17 +1195,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 171,
+          "id": 171,
           "name": "Lanturn"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 171,
-          "form": "171",
-          "name": "Lanturn",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1849,7 +1206,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "018",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -1868,49 +1225,21 @@
             "front": {
               "image": "85dbbe8c5420e3a7c970a4a95b3d0047"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "36",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "018"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "lanturn-at3k" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "019",
-      "name": "Zekrom",
+      "name": "ゼクロム",
+      "englishName": "Zekrom",
       "number": {
         "printed": "019/051",
-        "numerator": "019"
+        "short": "019"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -1919,7 +1248,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -1930,17 +1259,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 644,
+          "id": 644,
           "name": "Zekrom"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 644,
-          "form": "644",
-          "name": "Zekrom",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1950,7 +1270,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "019",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1969,49 +1289,21 @@
             "front": {
               "image": "f2443c319eb5d2d6859f832966a43f38"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "39",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "019"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "zekrom-yb1c" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "020",
-      "name": "Nidoran ♀",
+      "name": "ニドラン♀",
+      "englishName": "Nidoran ♀",
       "number": {
         "printed": "020/051",
-        "numerator": "020"
+        "short": "020"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -2020,7 +1312,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "aya-kusube",
+          "id": "aya-kusube",
           "name": "Aya Kusube"
         }
       ],
@@ -2031,17 +1323,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 29,
+          "id": 29,
           "name": "Nidoran♀"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 29,
-          "form": "29",
-          "name": "Nidoran♀",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2051,7 +1334,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "020",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2070,49 +1353,21 @@
             "front": {
               "image": "dee08472354c60fcb18555f357ea1d51"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "40",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "020"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "nidoran-fbf8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "021",
-      "name": "Nidorina",
+      "name": "ニドリーナ",
+      "englishName": "Nidorina",
       "number": {
         "printed": "021/051",
-        "numerator": "021"
+        "short": "021"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -2121,7 +1376,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -2132,17 +1387,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 30,
+          "id": 30,
           "name": "Nidorina"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 30,
-          "form": "30",
-          "name": "Nidorina",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2152,7 +1398,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "021",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2171,49 +1417,21 @@
             "front": {
               "image": "31b65b42152a7f5395fd164fa61f70c0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "41",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "021"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "nidorina-7eb9" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "022",
-      "name": "Nidoqueen",
+      "name": "ニドクイン",
+      "englishName": "Nidoqueen",
       "number": {
         "printed": "022/051",
-        "numerator": "022"
+        "short": "022"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -2222,7 +1440,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -2233,17 +1451,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 31,
+          "id": 31,
           "name": "Nidoqueen"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 31,
-          "form": "31",
-          "name": "Nidoqueen",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2253,7 +1462,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "022",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2272,49 +1481,21 @@
             "front": {
               "image": "d22c87b35f7024c5bcb5d53c73c4d686"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "42",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "022"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "nidoqueen-315r" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "023",
-      "name": "Mr. Mime",
+      "name": "バリヤード",
+      "englishName": "Mr. Mime",
       "number": {
         "printed": "023/051",
-        "numerator": "023"
+        "short": "023"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -2323,7 +1504,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiroki-asanuma",
+          "id": "hiroki-asanuma",
           "name": "Hiroki Asanuma"
         }
       ],
@@ -2334,17 +1515,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 122,
+          "id": 122,
           "name": "Mr. Mime"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 122,
-          "form": "122",
-          "name": "Mr. Mime",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2354,7 +1526,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "023",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2373,49 +1545,21 @@
             "front": {
               "image": "854080c086f326da1cfe68399ed71f5b"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "47",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "023"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "mr-mime-ong7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "024",
-      "name": "Espeon",
+      "name": "エーフィ",
+      "englishName": "Espeon",
       "number": {
         "printed": "024/051",
-        "numerator": "024"
+        "short": "024"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -2424,7 +1568,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2435,17 +1579,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 196,
+          "id": 196,
           "name": "Espeon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 196,
-          "form": "196",
-          "name": "Espeon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2455,7 +1590,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "024",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2474,49 +1609,21 @@
             "front": {
               "image": "7e39a2879b156f1ddd8f24bfa85fc436"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "48",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "024"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "espeon-wrqq" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "025",
-      "name": "Deoxys-EX",
+      "name": "デオキシスEX",
+      "englishName": "Deoxys-EX",
       "number": {
         "printed": "025/051",
-        "numerator": "025"
+        "short": "025"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -2525,7 +1632,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -2536,17 +1643,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 386,
+          "id": 386,
           "name": "Deoxys"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 386,
-          "form": "386",
-          "name": "Deoxys",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2556,7 +1654,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "025",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2575,49 +1673,21 @@
             "front": {
               "image": "c45144a5c42011c7da69240d12cf4062"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "53",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "025"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "deoxys-ex-yt8p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "026",
-      "name": "Yamask",
+      "name": "デスマス",
+      "englishName": "Yamask",
       "number": {
         "printed": "026/051",
-        "numerator": "026"
+        "short": "026"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -2626,7 +1696,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -2637,17 +1707,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 562,
+          "id": 562,
           "name": "Yamask"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 562,
-          "form": "562",
-          "name": "Yamask",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2657,7 +1718,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "026",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2676,49 +1737,21 @@
             "front": {
               "image": "56cd088ea3eba63115566694d2cfeaa9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "54",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "026"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "yamask-g1nh" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "027",
-      "name": "Cofagrigus",
+      "name": "デスカーン",
+      "englishName": "Cofagrigus",
       "number": {
         "printed": "027/051",
-        "numerator": "027"
+        "short": "027"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -2727,7 +1760,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -2738,17 +1771,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 563,
+          "id": 563,
           "name": "Cofagrigus"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 563,
-          "form": "563",
-          "name": "Cofagrigus",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2758,7 +1782,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "027",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2777,49 +1801,21 @@
             "front": {
               "image": "d31f5cdc31ab76b8073d18400f293de1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "56",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "027"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "cofagrigus-4ytp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "028",
-      "name": "Mankey",
+      "name": "マンキー",
+      "englishName": "Mankey",
       "number": {
         "printed": "028/051",
-        "numerator": "028"
+        "short": "028"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -2828,7 +1824,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -2839,17 +1835,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 56,
+          "id": 56,
           "name": "Mankey"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 56,
-          "form": "56",
-          "name": "Mankey",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2859,7 +1846,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "028",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2878,49 +1865,21 @@
             "front": {
               "image": "77316accbee03ad1d44ab794492b9390"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "59",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "028"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "mankey-w901" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "029",
-      "name": "Primeape",
+      "name": "オコリザル",
+      "englishName": "Primeape",
       "number": {
         "printed": "029/051",
-        "numerator": "029"
+        "short": "029"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -2929,7 +1888,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -2940,17 +1899,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 57,
+          "id": 57,
           "name": "Primeape"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 57,
-          "form": "57",
-          "name": "Primeape",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -2960,7 +1910,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "029",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -2979,49 +1929,21 @@
             "front": {
               "image": "796fef08d11cca373750bac2e8817176"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "60",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "029"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "primeape-fy78" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "030",
-      "name": "Onix",
+      "name": "イワーク",
+      "englishName": "Onix",
       "number": {
         "printed": "030/051",
-        "numerator": "030"
+        "short": "030"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -3030,7 +1952,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -3041,17 +1963,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 95,
+          "id": 95,
           "name": "Onix"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 95,
-          "form": "95",
-          "name": "Onix",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3061,7 +1974,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "030",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3080,49 +1993,21 @@
             "front": {
               "image": "ccd40263494753dd949f8d069cb45108"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "61",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "030"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "onix-tlj7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "031",
-      "name": "Sneasel",
+      "name": "ニューラ",
+      "englishName": "Sneasel",
       "number": {
         "printed": "031/051",
-        "numerator": "031"
+        "short": "031"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -3131,7 +2016,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sumiyoshi-kizuki",
+          "id": "sumiyoshi-kizuki",
           "name": "Sumiyoshi Kizuki"
         }
       ],
@@ -3142,17 +2027,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 215,
+          "id": 215,
           "name": "Sneasel"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 215,
-          "form": "215",
-          "name": "Sneasel",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3162,7 +2038,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "031",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3181,49 +2057,21 @@
             "front": {
               "image": "4ae578544e6aefe077f4f5780affef52"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "65",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "031"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "sneasel-a0y0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "032",
-      "name": "Weavile",
+      "name": "マニューラ",
+      "englishName": "Weavile",
       "number": {
         "printed": "032/051",
-        "numerator": "032"
+        "short": "032"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -3232,7 +2080,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3243,17 +2091,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 461,
+          "id": 461,
           "name": "Weavile"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 461,
-          "form": "461",
-          "name": "Weavile",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3263,7 +2102,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "032",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3282,49 +2121,21 @@
             "front": {
               "image": "f92c6097ededfd35a4f46d9da2a08ed8"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "66",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "032"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "weavile-rpht" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "033",
-      "name": "Absol",
+      "name": "アブソル",
+      "englishName": "Absol",
       "number": {
         "printed": "033/051",
-        "numerator": "033"
+        "short": "033"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -3333,7 +2144,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3344,17 +2155,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 359,
+          "id": 359,
           "name": "Absol"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 359,
-          "form": "359",
-          "name": "Absol",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3364,7 +2166,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "033",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3383,49 +2185,21 @@
             "front": {
               "image": "1badd96cf9646b4a3293f596c6f2e2f0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "67",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "033"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "absol-03ov" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "034",
-      "name": "Sandile",
+      "name": "メグロコ",
+      "englishName": "Sandile",
       "number": {
         "printed": "034/051",
-        "numerator": "034"
+        "short": "034"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -3434,7 +2208,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sui",
+          "id": "sui",
           "name": "sui"
         }
       ],
@@ -3445,17 +2219,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 551,
+          "id": 551,
           "name": "Sandile"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 551,
-          "form": "551",
-          "name": "Sandile",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3465,7 +2230,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "034",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3484,49 +2249,21 @@
             "front": {
               "image": "22b9de2941c2091c72e47c94b5f60fdf"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "68",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "034"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "sandile-zrfl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "035",
-      "name": "Krokorok",
+      "name": "ワルビル",
+      "englishName": "Krokorok",
       "number": {
         "printed": "035/051",
-        "numerator": "035"
+        "short": "035"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -3535,7 +2272,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "midori-harada",
+          "id": "midori-harada",
           "name": "Midori Harada"
         }
       ],
@@ -3546,17 +2283,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 552,
+          "id": 552,
           "name": "Krokorok"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 552,
-          "form": "552",
-          "name": "Krokorok",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3566,7 +2294,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "035",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3585,49 +2313,21 @@
             "front": {
               "image": "019cc869fa4f10294bd2d92cd95c62dc"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "69",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "035"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "krokorok-vp25" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "036",
-      "name": "Krookodile",
+      "name": "ワルビアル",
+      "englishName": "Krookodile",
       "number": {
         "printed": "036/051",
-        "numerator": "036"
+        "short": "036"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -3636,7 +2336,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3647,17 +2347,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 553,
+          "id": 553,
           "name": "Krookodile"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 553,
-          "form": "553",
-          "name": "Krookodile",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3667,7 +2358,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "036",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3686,49 +2377,21 @@
             "front": {
               "image": "92e3b7ce1fa127cbf0e18ce08cc71202"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "70",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "036"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "krookodile-jihj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "037",
-      "name": "Steelix",
+      "name": "ハガネール",
+      "englishName": "Steelix",
       "number": {
         "printed": "037/051",
-        "numerator": "037"
+        "short": "037"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -3737,7 +2400,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -3748,17 +2411,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 208,
+          "id": 208,
           "name": "Steelix"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 208,
-          "form": "208",
-          "name": "Steelix",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3768,7 +2422,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "037",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -3787,49 +2441,21 @@
             "front": {
               "image": "e2b986b11f245b66829b6112549418c4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "79",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "037"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "steelix-0hxo" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "038",
-      "name": "Kingdra",
+      "name": "キングドラ",
+      "englishName": "Kingdra",
       "number": {
         "printed": "038/051",
-        "numerator": "038"
+        "short": "038"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -3838,7 +2464,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoyo-kimura",
+          "id": "naoyo-kimura",
           "name": "Naoyo Kimura"
         }
       ],
@@ -3849,17 +2475,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 230,
+          "id": 230,
           "name": "Kingdra"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 230,
-          "form": "230",
-          "name": "Kingdra",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3869,7 +2486,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "038",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3888,49 +2505,21 @@
             "front": {
               "image": "8c2847b05af29b592f4c7d51ce62c7a4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "84",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "038"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "kingdra-etgk" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "039",
-      "name": "Latios-EX",
+      "name": "ラティオスEX",
+      "englishName": "Latios-EX",
       "number": {
         "printed": "039/051",
-        "numerator": "039"
+        "short": "039"
       },
       "rarity": "Rare (R)",
       "cardType": "pokemon",
@@ -3939,7 +2528,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -3950,17 +2539,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 381,
+          "id": 381,
           "name": "Latios"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 381,
-          "form": "381",
-          "name": "Latios",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -3970,7 +2550,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "039",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -3989,49 +2569,21 @@
             "front": {
               "image": "192b8b5c43c5a447b4d7c2aad042a075"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "86",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "039"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "latios-ex-yp8e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "040",
-      "name": "Rattata",
+      "name": "コラッタ",
+      "englishName": "Rattata",
       "number": {
         "printed": "040/051",
-        "numerator": "040"
+        "short": "040"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -4040,7 +2592,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -4051,17 +2603,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 19,
+          "id": 19,
           "name": "Rattata"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 19,
-          "form": "19",
-          "name": "Rattata",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4071,7 +2614,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "040",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4090,49 +2633,21 @@
             "front": {
               "image": "92b423873b9499a6f673c54f77cccab3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "87",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "040"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "rattata-695g" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "041",
-      "name": "Raticate",
+      "name": "ラッタ",
+      "englishName": "Raticate",
       "number": {
         "printed": "041/051",
-        "numerator": "041"
+        "short": "041"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -4141,7 +2656,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4152,17 +2667,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 20,
+          "id": 20,
           "name": "Raticate"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 20,
-          "form": "20",
-          "name": "Raticate",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4172,7 +2678,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "041",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4191,49 +2697,21 @@
             "front": {
               "image": "96cfbbd38c9535700b35eb035ffdf591"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "88",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "041"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "raticate-op0v" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "042",
-      "name": "Eevee",
+      "name": "イーブイ",
+      "englishName": "Eevee",
       "number": {
         "printed": "042/051",
-        "numerator": "042"
+        "short": "042"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -4242,7 +2720,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -4253,17 +2731,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 133,
+          "id": 133,
           "name": "Eevee"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 133,
-          "form": "133",
-          "name": "Eevee",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4273,7 +2742,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "042",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4292,49 +2761,21 @@
             "front": {
               "image": "e845a80039600e1f4e5125de91fb49c5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "89",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "042"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "eevee-aa5e" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "043",
-      "name": "Hoothoot",
+      "name": "ホーホー",
+      "englishName": "Hoothoot",
       "number": {
         "printed": "043/051",
-        "numerator": "043"
+        "short": "043"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -4343,7 +2784,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -4354,17 +2795,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 163,
+          "id": 163,
           "name": "Hoothoot"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 163,
-          "form": "163",
-          "name": "Hoothoot",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4374,7 +2806,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "043",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4393,49 +2825,21 @@
             "front": {
               "image": "190e29877d2137c4902f1a64ab764788"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "043"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "hoothoot-xjlb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "044",
-      "name": "Noctowl",
+      "name": "ヨルノズク",
+      "englishName": "Noctowl",
       "number": {
         "printed": "044/051",
-        "numerator": "044"
+        "short": "044"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -4444,7 +2848,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -4455,17 +2859,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 164,
+          "id": 164,
           "name": "Noctowl"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 164,
-          "form": "164",
-          "name": "Noctowl",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4475,7 +2870,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "044",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4494,49 +2889,21 @@
             "front": {
               "image": "47d8ca8e462ee4eaa2ef4241944ea145"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "92",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "044"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "noctowl-melx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "045",
-      "name": "Miltank",
+      "name": "ミルタンク",
+      "englishName": "Miltank",
       "number": {
         "printed": "045/051",
-        "numerator": "045"
+        "short": "045"
       },
       "rarity": "Common (C)",
       "cardType": "pokemon",
@@ -4545,7 +2912,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mahou",
+          "id": "mahou",
           "name": "MAHOU"
         }
       ],
@@ -4556,17 +2923,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 241,
+          "id": 241,
           "name": "Miltank"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 241,
-          "form": "241",
-          "name": "Miltank",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4576,7 +2934,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "045",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4595,49 +2953,21 @@
             "front": {
               "image": "602901bef85f5c9bc12bbd5337c09c1d"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "93",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "045"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "miltank-y2sb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "046",
-      "name": "Kecleon",
+      "name": "カクレオン",
+      "englishName": "Kecleon",
       "number": {
         "printed": "046/051",
-        "numerator": "046"
+        "short": "046"
       },
       "rarity": "Uncommon (U)",
       "cardType": "pokemon",
@@ -4646,7 +2976,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "toyste-beach",
+          "id": "toyste-beach",
           "name": "Toyste Beach"
         }
       ],
@@ -4657,17 +2987,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 352,
+          "id": 352,
           "name": "Kecleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 352,
-          "form": "352",
-          "name": "Kecleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -4677,7 +2998,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "046",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4696,49 +3017,21 @@
             "front": {
               "image": "d038d7f1392e7dc2b623cce05f9bb6e0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "94",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "046"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "kecleon-ld6a" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "047",
-      "name": "Superior Energy Retrieval",
+      "name": "スーパーエネルギー回収",
+      "englishName": "Superior Energy Retrieval",
       "number": {
         "printed": "047/051",
-        "numerator": "047"
+        "short": "047"
       },
       "rarity": "Uncommon (U)",
       "cardType": "trainer",
@@ -4747,7 +3040,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4762,7 +3055,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "047",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4781,49 +3074,21 @@
             "front": {
               "image": "b4e448ce4740c5f0a2fa928037e7dce5"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "103",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "047"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "superior-energy-retrieval-turg" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "048",
-      "name": "Ghetsis",
+      "name": "ゲーチス",
+      "englishName": "Ghetsis",
       "number": {
         "printed": "048/051",
-        "numerator": "048"
+        "short": "048"
       },
       "rarity": "Uncommon (U)",
       "cardType": "trainer",
@@ -4832,7 +3097,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -4840,10 +3105,10 @@
         "date": "2012-12-14",
         "sort": "2012-12-14.00 japanese/spiral-force 00047"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "ghetsis",
+          "id": "ghetsis",
           "name": "Ghetsis",
           "role": "subject"
         }
@@ -4855,7 +3120,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "048",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4874,65 +3139,21 @@
             "front": {
               "image": "4aba85fa78d87ea1279012e479f8219f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "101",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/team-plasma-battle-gift-set",
-                "card": "013"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/team-plasma-battle-gift-set",
-          "painting": "013"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/team-plasma-battle-gift-set",
-          "card": "013",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "ghetsis-v2r1" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "049",
-      "name": "Frozen City",
+      "name": "凍てついた街",
+      "englishName": "Frozen City",
       "number": {
         "printed": "049/051",
-        "numerator": "049"
+        "short": "049"
       },
       "rarity": "Uncommon (U)",
       "cardType": "trainer",
@@ -4941,7 +3162,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -4956,7 +3177,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "049",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -4975,49 +3196,21 @@
             "front": {
               "image": "63f632291444ff3d6fb1ce717a504deb"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "100",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "049"
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "frozen-city-t7cj" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "050",
-      "name": "Rock Guard",
+      "name": "ロックガード",
+      "englishName": "Rock Guard",
       "number": {
         "printed": "050/051",
-        "numerator": "050"
+        "short": "050"
       },
       "rarity": "Rare (R)",
       "cardType": "trainer",
@@ -5026,7 +3219,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -5041,7 +3234,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "050",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5060,49 +3253,21 @@
             "front": {
               "image": "cce454062c236784712330e4dcc66a80"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "108",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "050"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "rock-guard-9tjl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "051",
-      "name": "Plasma Energy",
+      "name": "プラズマエネルギー",
+      "englishName": "Plasma Energy",
       "number": {
         "printed": "051/051",
-        "numerator": "051"
+        "short": "051"
       },
       "rarity": "Uncommon (U)",
       "cardType": "energy",
@@ -5111,7 +3276,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -5126,7 +3291,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "051",
-            "variant": "first-edition-non-holo"
+            "id": "first-edition-non-holo"
           }
         }
       },
@@ -5145,57 +3310,21 @@
             "front": {
               "image": "d71de1a0056c7a7d1da09f5246679be4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "first-edition-non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "first-edition-non-holo"
-          ],
-          "defaultCopy": "first-edition-non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "106",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/plasma-gale",
-          "painting": "067"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/plasma-gale",
-          "card": "067",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-non-holo",
+      "painting": { "$kind": "painting", "id": "plasma-energy-fq7d" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "052",
-      "name": "Heatran-EX",
+      "name": "ヒードランEX",
+      "englishName": "Heatran-EX",
       "number": {
         "printed": "052/051",
-        "numerator": "052"
+        "short": "052"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -5204,7 +3333,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -5215,17 +3344,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 485,
+          "id": 485,
           "name": "Heatran"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 485,
-          "form": "485",
-          "name": "Heatran",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5235,7 +3355,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "052",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5254,49 +3374,21 @@
             "front": {
               "image": "3cf5e82fc978b12f146a996ca0ab640f"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "109",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "052"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "heatran-ex-tsv6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "053",
-      "name": "Deoxys-EX",
+      "name": "デオキシスEX",
+      "englishName": "Deoxys-EX",
       "number": {
         "printed": "053/051",
-        "numerator": "053"
+        "short": "053"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -5305,7 +3397,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -5316,17 +3408,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 386,
+          "id": 386,
           "name": "Deoxys"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 386,
-          "form": "386",
-          "name": "Deoxys",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5336,7 +3419,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "053",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5355,49 +3438,21 @@
             "front": {
               "image": "ef31069e53155a9a5d844f5f799407eb"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "111",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "053"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "deoxys-ex-fko6" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "054",
-      "name": "Latios-EX",
+      "name": "ラティオスEX",
+      "englishName": "Latios-EX",
       "number": {
         "printed": "054/051",
-        "numerator": "054"
+        "short": "054"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "pokemon",
@@ -5406,7 +3461,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -5417,17 +3472,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 381,
+          "id": 381,
           "name": "Latios"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 381,
-          "form": "381",
-          "name": "Latios",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5437,7 +3483,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "054",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5456,49 +3502,21 @@
             "front": {
               "image": "b078989baa9b2b6b58ddc99d47ada349"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "113",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "054"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "latios-ex-bgih" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "055",
-      "name": "Ghetsis",
+      "name": "ゲーチス",
+      "englishName": "Ghetsis",
       "number": {
         "printed": "055/051",
-        "numerator": "055"
+        "short": "055"
       },
       "rarity": "Super Rare (SR)",
       "cardType": "trainer",
@@ -5507,7 +3525,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kanako-eo",
+          "id": "kanako-eo",
           "name": "Kanako Eo"
         }
       ],
@@ -5515,10 +3533,10 @@
         "date": "2012-12-14",
         "sort": "2012-12-14.00 japanese/spiral-force 00054"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "ghetsis",
+          "id": "ghetsis",
           "name": "Ghetsis",
           "role": "subject"
         }
@@ -5530,7 +3548,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "055",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5549,49 +3567,21 @@
             "front": {
               "image": "8d7ef1db9cddbf7918b9056675b58ca3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "115",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "055"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "ghetsis-30cm" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "056",
-      "name": "Empoleon",
+      "name": "エンペルト",
+      "englishName": "Empoleon",
       "number": {
         "printed": "056/051",
-        "numerator": "056"
+        "short": "056"
       },
       "rarity": "Ultra Rare (UR)",
       "cardType": "pokemon",
@@ -5600,7 +3590,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -5611,17 +3601,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 395,
+          "id": 395,
           "name": "Empoleon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 395,
-          "form": "395",
-          "name": "Empoleon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5631,7 +3612,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "056",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5650,49 +3631,21 @@
             "front": {
               "image": "8934ce4a792e2903ce06cb6e890278c5"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "117",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "056"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "empoleon-d08m" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "057",
-      "name": "Sigilyph",
+      "name": "シンボラー",
+      "englishName": "Sigilyph",
       "number": {
         "printed": "057/051",
-        "numerator": "057"
+        "short": "057"
       },
       "rarity": "Ultra Rare (UR)",
       "cardType": "pokemon",
@@ -5701,7 +3654,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -5712,17 +3665,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 561,
+          "id": 561,
           "name": "Sigilyph"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 561,
-          "form": "561",
-          "name": "Sigilyph",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -5732,7 +3676,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "057",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5751,49 +3695,21 @@
             "front": {
               "image": "4746f7cac3179b0de229a0252b989032"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "118",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "057"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "sigilyph-kxox" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/spiral-force",
       "id": "058",
-      "name": "Ultra Ball",
+      "name": "ハイパーボール",
+      "englishName": "Ultra Ball",
       "number": {
         "printed": "058/051",
-        "numerator": "058"
+        "short": "058"
       },
       "rarity": "Ultra Rare (UR)",
       "cardType": "trainer",
@@ -5802,7 +3718,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -5817,7 +3733,7 @@
             "$kind": "variant",
             "set": "japanese/spiral-force",
             "card": "058",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -5836,42 +3752,11 @@
             "front": {
               "image": "910521db28ad7ad57def009724bf86c0"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/plasma-freeze",
-              "card": "122",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/spiral-force",
-          "painting": "058"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "ultra-ball-1vh2" }
     }
   ]
 }

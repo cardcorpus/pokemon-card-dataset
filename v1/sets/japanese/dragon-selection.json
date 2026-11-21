@@ -1,66 +1,57 @@
 {
   "id": "japanese/dragon-selection",
   "catalog": "japanese",
-  "name": "Dragon Selection",
+  "name": "ドラゴンセレクション",
+  "englishName": "Dragon Selection",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "special_expansion",
   "language": "ja",
   "printedTotal": 20,
   "actualTotal": 20,
   "cardCount": 20,
-  "productCount": 0,
   "released": {
     "date": "2012-01-27"
   },
   "code": "DS",
+  "printedCode": "DS",
   "logo": "c07a45ce8d07242413bb07f448d31e5b",
   "symbol": "55f03f30f6d14e2e51cc17e3157df4a0",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Dragon Selection",
-      "code": "DS",
-      "released": {
-        "date": "2012-01-27"
-      },
-      "logo": "c07a45ce8d07242413bb07f448d31e5b",
-      "symbol": "55f03f30f6d14e2e51cc17e3157df4a0"
-    }
-  ],
   "description": {
-    "text": "A special expansion of the BW series released on 27 January 2012, in which every card is holo and every Pokémon is a Dragon. It introduced the Dragon type, a tenth type beside the nine before it, led by a powerful Rayquaza. Packs held five holo cards, and the cards are numbered to 20. Many of its cards were reprinted in English in Dragon Vault, another small all-holo set, in October 2012.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site: 拡張パック「ドラゴンセレクション」 (Internet Archive copy)",
-        "url": "https://web.archive.org/web/20120109085951/http://www.pokemon-card.com/products/bw/ds.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      },
-      {
-        "title": "Wikipedia: List of Pokémon Trading Card Game sets",
-        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_sets"
-      }
-    ]
+    "text": "A special expansion of the BW series released on 27 January 2012, in which every card is holo and every Pokémon is a Dragon. It introduced the Dragon type, a tenth type beside the nine before it, led by a powerful Rayquaza. Packs held five holo cards, and the cards are numbered to 20. Many of its cards were reprinted in English in Dragon Vault, another small all-holo set, in October 2012."
   },
   "tell": {
-    "text": "A \"DS\" mark at the bottom right, and a number out of 020",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "A \"DS\" mark at the bottom right, and a number out of 020"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/dragon-vault",
+      "id": "korean/dragon-collection",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 20
+    },
+    {
+      "$kind": "set",
+      "id": "french/dragon-vault",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 20
+    },
+    {
+      "$kind": "set",
+      "id": "english/dragon-vault",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 20
+    },
+    {
+      "$kind": "set",
+      "id": "italian/dragon-vault",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 20
@@ -68,11 +59,14 @@
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "001",
-      "name": "Dratini",
+      "name": "ミニリュウ",
+      "englishName": "Dratini",
       "number": {
         "printed": "001/020",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -80,7 +74,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "masakazu-fukuda",
+          "id": "masakazu-fukuda",
           "name": "Masakazu Fukuda"
         }
       ],
@@ -91,17 +85,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 147,
+          "id": 147,
           "name": "Dratini"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 147,
-          "form": "147",
-          "name": "Dratini",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -111,7 +96,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "001",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -130,49 +115,21 @@
             "front": {
               "image": "54009002766b568024cf05f87615d0af"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "dratini-uyex" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "002",
-      "name": "Dratini",
+      "name": "ミニリュウ",
+      "englishName": "Dratini",
       "number": {
         "printed": "002/020",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -180,7 +137,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -191,17 +148,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 147,
+          "id": 147,
           "name": "Dratini"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 147,
-          "form": "147",
-          "name": "Dratini",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -211,7 +159,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "002",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -230,49 +178,21 @@
             "front": {
               "image": "2cf8c4c0a2e5a80bc9a23cfb15683355"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "2",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "dratini-3wye" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "003",
-      "name": "Dragonair",
+      "name": "ハクリュー",
+      "englishName": "Dragonair",
       "number": {
         "printed": "003/020",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -280,7 +200,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hajime-kusajima",
+          "id": "hajime-kusajima",
           "name": "Hajime Kusajima"
         }
       ],
@@ -291,17 +211,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 148,
+          "id": 148,
           "name": "Dragonair"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 148,
-          "form": "148",
-          "name": "Dragonair",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -311,7 +222,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "003",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -330,49 +241,21 @@
             "front": {
               "image": "e4cd724d908f739ea66775b8f55f79b1"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "3",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "dragonair-h16u" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "004",
-      "name": "Dragonair",
+      "name": "ハクリュー",
+      "englishName": "Dragonair",
       "number": {
         "printed": "004/020",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -380,7 +263,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -391,17 +274,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 148,
+          "id": 148,
           "name": "Dragonair"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 148,
-          "form": "148",
-          "name": "Dragonair",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -411,7 +285,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "004",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -430,49 +304,21 @@
             "front": {
               "image": "e14d093be72eac4c490e4f1f53695b9a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "4",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "dragonair-y5xi" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "005",
-      "name": "Dragonite",
+      "name": "カイリュー",
+      "englishName": "Dragonite",
       "number": {
         "printed": "005/020",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -480,7 +326,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -491,17 +337,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 149,
+          "id": 149,
           "name": "Dragonite"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 149,
-          "form": "149",
-          "name": "Dragonite",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -511,7 +348,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "005",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -530,49 +367,21 @@
             "front": {
               "image": "224e165c7c104458a1e7d5da55daa4af"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "dragonite-egmf" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "006",
-      "name": "Bagon",
+      "name": "タツベイ",
+      "englishName": "Bagon",
       "number": {
         "printed": "006/020",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -580,7 +389,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kouki-saitou",
+          "id": "kouki-saitou",
           "name": "Kouki Saitou"
         }
       ],
@@ -591,17 +400,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 371,
+          "id": 371,
           "name": "Bagon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 371,
-          "form": "371",
-          "name": "Bagon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -611,7 +411,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "006",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -630,60 +430,21 @@
             "front": {
               "image": "6a49acda1f881720a0f7e84dc9e4f5a2"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "6",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "006"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/black-white-promos",
-            "card": "193",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "bagon-kj0d" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "007",
-      "name": "Shelgon",
+      "name": "コモルー",
+      "englishName": "Shelgon",
       "number": {
         "printed": "007/020",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -691,7 +452,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "akira-komayama",
+          "id": "akira-komayama",
           "name": "Akira Komayama"
         }
       ],
@@ -702,17 +463,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 372,
+          "id": 372,
           "name": "Shelgon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 372,
-          "form": "372",
-          "name": "Shelgon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -722,7 +474,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "007",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -741,60 +493,21 @@
             "front": {
               "image": "942d9f26aaf98b099272f0133203fe92"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
-        }
-      ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "7",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "007"
-        },
-        "reprints": [
-          {
-            "$kind": "card",
-            "set": "japanese/black-white-promos",
-            "card": "194",
-            "differs": [
-              "rarity_mark",
-              "number"
-            ]
           }
-        ]
-      }
+        }
+      ],
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "shelgon-nq8i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "008",
-      "name": "Salamence",
+      "name": "ボーマンダ",
+      "englishName": "Salamence",
       "number": {
         "printed": "008/020",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -802,7 +515,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "beruburi",
+          "id": "beruburi",
           "name": "BERUBURI"
         }
       ],
@@ -813,17 +526,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 373,
+          "id": 373,
           "name": "Salamence"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 373,
-          "form": "373",
-          "name": "Salamence",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -833,7 +537,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "008",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -852,49 +556,21 @@
             "front": {
               "image": "6c3e0be93ec291b66a3bbc38d4e1304e"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "8",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "salamence-pw0p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "009",
-      "name": "Latias",
+      "name": "ラティアス",
+      "englishName": "Latias",
       "number": {
         "printed": "009/020",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -902,7 +578,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hideaki-hakozaki",
+          "id": "hideaki-hakozaki",
           "name": "Hideaki Hakozaki"
         }
       ],
@@ -913,17 +589,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 380,
+          "id": 380,
           "name": "Latias"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 380,
-          "form": "380",
-          "name": "Latias",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -933,7 +600,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "009",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -952,49 +619,21 @@
             "front": {
               "image": "60d7180f869d008381d38ab906936f75"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "9",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "009"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "latias-db7i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "010",
-      "name": "Latios",
+      "name": "ラティオス",
+      "englishName": "Latios",
       "number": {
         "printed": "010/020",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1002,7 +641,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1013,17 +652,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 381,
+          "id": 381,
           "name": "Latios"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 381,
-          "form": "381",
-          "name": "Latios",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1033,7 +663,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "010",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1052,49 +682,21 @@
             "front": {
               "image": "d759d0e1b84e5deaac2cb7085bc2c2b9"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "10",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "010"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "latios-ig5j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "011",
-      "name": "Rayquaza",
+      "name": "レックウザ",
+      "englishName": "Rayquaza",
       "number": {
         "printed": "011/020",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1102,7 +704,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1113,17 +715,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 384,
+          "id": 384,
           "name": "Rayquaza"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 384,
-          "form": "384",
-          "name": "Rayquaza",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1133,7 +726,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "011",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1152,49 +745,21 @@
             "front": {
               "image": "499966b2a1d48893fb70060a977684e4"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "11",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "011"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "rayquaza-b6qr" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "012",
-      "name": "Axew",
+      "name": "キバゴ",
+      "englishName": "Axew",
       "number": {
         "printed": "012/020",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1202,7 +767,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mizue",
+          "id": "mizue",
           "name": "Mizue"
         }
       ],
@@ -1213,17 +778,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 610,
+          "id": 610,
           "name": "Axew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 610,
-          "form": "610",
-          "name": "Axew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1233,7 +789,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "012",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1252,49 +808,21 @@
             "front": {
               "image": "a7a9271415b779b155f6359ebead9ae3"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "12",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "012"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "axew-syp0" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "013",
-      "name": "Axew",
+      "name": "キバゴ",
+      "englishName": "Axew",
       "number": {
         "printed": "013/020",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1302,7 +830,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "tokiya",
+          "id": "tokiya",
           "name": "TOKIYA"
         }
       ],
@@ -1313,17 +841,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 610,
+          "id": 610,
           "name": "Axew"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 610,
-          "form": "610",
-          "name": "Axew",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1333,7 +852,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "013",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1352,49 +871,21 @@
             "front": {
               "image": "c721ddc345747e1544a1bba732056101"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "013"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "axew-0u05" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "014",
-      "name": "Fraxure",
+      "name": "オノンド",
+      "englishName": "Fraxure",
       "number": {
         "printed": "014/020",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1402,7 +893,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "shin-nagasawa",
+          "id": "shin-nagasawa",
           "name": "Shin Nagasawa"
         }
       ],
@@ -1413,17 +904,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 611,
+          "id": 611,
           "name": "Fraxure"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 611,
-          "form": "611",
-          "name": "Fraxure",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1433,7 +915,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "014",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1452,49 +934,21 @@
             "front": {
               "image": "7648359006624e5d209928359ad87eca"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "014"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "fraxure-i49b" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "015",
-      "name": "Fraxure",
+      "name": "オノンド",
+      "englishName": "Fraxure",
       "number": {
         "printed": "015/020",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1502,7 +956,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "match",
+          "id": "match",
           "name": "match"
         }
       ],
@@ -1513,17 +967,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 611,
+          "id": 611,
           "name": "Fraxure"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 611,
-          "form": "611",
-          "name": "Fraxure",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1533,7 +978,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "015",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1552,49 +997,21 @@
             "front": {
               "image": "1e5fe8d46a148c97aae90302da1cd9ce"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "15",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "015"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "fraxure-wqke" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "016",
-      "name": "Haxorus",
+      "name": "オノノクス",
+      "englishName": "Haxorus",
       "number": {
         "printed": "016/020",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1602,7 +1019,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "eske-yoshinob",
+          "id": "eske-yoshinob",
           "name": "Eske Yoshinob"
         }
       ],
@@ -1613,17 +1030,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 612,
+          "id": 612,
           "name": "Haxorus"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 612,
-          "form": "612",
-          "name": "Haxorus",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1633,7 +1041,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "016",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1652,49 +1060,21 @@
             "front": {
               "image": "3f42880cfaad0e6a94c01198a3ebb9d7"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "016"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "haxorus-m0pb" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "017",
-      "name": "Druddigon",
+      "name": "クリムガン",
+      "englishName": "Druddigon",
       "number": {
         "printed": "017/020",
-        "numerator": "017"
+        "short": "017"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -1702,7 +1082,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kawayoo",
+          "id": "kawayoo",
           "name": "kawayoo"
         }
       ],
@@ -1713,17 +1093,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 621,
+          "id": 621,
           "name": "Druddigon"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 621,
-          "form": "621",
-          "name": "Druddigon",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -1733,7 +1104,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "017",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1752,49 +1123,21 @@
             "front": {
               "image": "a319ca3d4320ea3284affc63b3b59460"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "17",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "017"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "druddigon-nwt8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "018",
-      "name": "Super Rod",
+      "name": "すごいつりざお",
+      "englishName": "Super Rod",
       "number": {
         "printed": "018/020",
-        "numerator": "018"
+        "short": "018"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1802,7 +1145,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1817,7 +1160,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "018",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1836,59 +1179,21 @@
             "front": {
               "image": "7189bb6e833106508df10e8525447e9a"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "20",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/red-collection",
-          "painting": "060"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/red-collection",
-          "card": "060",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "super-rod-4pof" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "019",
-      "name": "First Ticket",
+      "name": "ファーストチケット",
+      "englishName": "First Ticket",
       "number": {
         "printed": "019/020",
-        "numerator": "019"
+        "short": "019"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1896,7 +1201,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1911,7 +1216,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "019",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -1930,49 +1235,21 @@
             "front": {
               "image": "414ab91904ed6805ca80a29fef481266"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "19",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-selection",
-          "painting": "019"
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "first-ticket-dqdl" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/dragon-selection",
       "id": "020",
-      "name": "Exp. Share",
+      "name": "学習装置",
+      "englishName": "Exp. Share",
       "number": {
         "printed": "020/020",
-        "numerator": "020"
+        "short": "020"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1980,7 +1257,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1995,7 +1272,7 @@
             "$kind": "variant",
             "set": "japanese/dragon-selection",
             "card": "020",
-            "variant": "first-edition-holo"
+            "id": "first-edition-holo"
           }
         }
       },
@@ -2014,52 +1291,11 @@
             "front": {
               "image": "3703649b04ef5a7a5055eb63a270eb52"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "first-edition-holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "first-edition-holo"
-          ],
-          "defaultCopy": "first-edition-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragon-vault",
-              "card": "18",
-              "language": "en",
-              "printCount": 3,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/psycho-drive",
-          "painting": "050"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/psycho-drive",
-          "card": "050",
-          "differs": [
-            "finish",
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "first-edition-holo",
+      "painting": { "$kind": "painting", "id": "exp-share-q6q8" }
     }
   ]
 }

@@ -9,7 +9,7 @@
       "status": "legendary",
       "family": {
         "$kind": "pokemon-family",
-        "family": "necrozma"
+        "id": "necrozma"
       },
       "names": {
         "de": "Necrozma",
@@ -26,13 +26,7 @@
       "description": {
         "fun": "Necrozma was once a radiant being of light, until it was badly wounded and lost its light; the shards that rained down on Alola may be the Z-Crystals people use today. Now black with impurities and in constant, maddening pain, it steals light wherever it can, and ancient people feared it as the 'pillager of light'. It hunts Solgaleo and Lunala for their endless energy, and they chase it to win their light back.",
         "guide": "Necrozma is a Psychic-type Legendary Pokémon from Ultra Space and the mascot of Ultra Sun and Ultra Moon. It absorbs light to survive and can fuse with Solgaleo or Lunala to become Dusk Mane or Dawn Wings Necrozma. With the Ultranecrozium Z, it can return to its true form, Ultra Necrozma.",
-        "tagline": "A shattered prism creature desperate to steal back its light",
-        "sources": [
-          {
-            "title": "Bulbapedia: Necrozma (Pokémon)",
-            "url": "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)"
-          }
-        ]
+        "tagline": "A shattered prism creature desperate to steal back its light"
       },
       "forms": [
         {
@@ -43,8 +37,7 @@
             "psychic"
           ],
           "pictures": {
-            "official": "d7627c6bdd78e51c4efa389cd0cae7e2",
-            "home": "70a660d9785f8d8c9c4110990ecda124"
+            "artwork": "d7627c6bdd78e51c4efa389cd0cae7e2"
           }
         },
         {
@@ -62,19 +55,11 @@
             "fr": "Necrozma Crinière du Couchant"
           },
           "pictures": {
-            "official": "937f194d0f429c33c6d822bd17d2a875",
-            "home": "01124e59827d4a95df13e71036d17dce"
+            "artwork": "937f194d0f429c33c6d822bd17d2a875"
           },
           "description": {
-            "fun": "Using the N-Solarizer, Necrozma fuses with Solgaleo, wrapping it in armour made of its own body and taking over its mind. It feeds on Solgaleo's limitless energy and pounces on foes with six powered-up claws, a form that may represent a solar eclipse.",
-            "sources": [
-              {
-                "title": "Bulbapedia: Necrozma (Pokémon)",
-                "url": "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)"
-              }
-            ]
-          },
-          "term": "fusion"
+            "fun": "Using the N-Solarizer, Necrozma fuses with Solgaleo, wrapping it in armour made of its own body and taking over its mind. It feeds on Solgaleo's limitless energy and pounces on foes with six powered-up claws, a form that may represent a solar eclipse."
+          }
         },
         {
           "id": "800:dawn",
@@ -91,19 +76,11 @@
             "fr": "Necrozma Ailes de l’Aurore"
           },
           "pictures": {
-            "official": "01539fe04437c292af0cd55f364772a1",
-            "home": "5b3c3081e73974988d4a13ab8433b4ec"
+            "artwork": "01539fe04437c292af0cd55f364772a1"
           },
           "description": {
-            "fun": "Using the N-Lunarizer, Necrozma fuses with Lunala, covering it in armour and seizing its mind. It fires dark energy from its spines and rushes at enemies, and the form may represent a lunar eclipse.",
-            "sources": [
-              {
-                "title": "Bulbapedia: Necrozma (Pokémon)",
-                "url": "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)"
-              }
-            ]
-          },
-          "term": "fusion"
+            "fun": "Using the N-Lunarizer, Necrozma fuses with Lunala, covering it in armour and seizing its mind. It fires dark energy from its spines and rushes at enemies, and the form may represent a lunar eclipse."
+          }
         },
         {
           "id": "800:ultra",
@@ -121,19 +98,11 @@
             "fr": "Ultra-Necrozma"
           },
           "pictures": {
-            "official": "232f1f365304a184b1975a463db5806b",
-            "home": "e78a56f8d6800a3eeac086d7087e22c0"
+            "artwork": "232f1f365304a184b1975a463db5806b"
           },
           "description": {
-            "fun": "Necrozma's true form, released when Dusk Mane or Dawn Wings Necrozma uses Ultra Burst with the Ultranecrozium Z: a colossal dragon of pure light, hotter than 5,500 °C, that can fire lasers from every part of its body. It's known as the 'blinding one'.",
-            "sources": [
-              {
-                "title": "Bulbapedia: Necrozma (Pokémon)",
-                "url": "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)"
-              }
-            ]
-          },
-          "term": "form_change"
+            "fun": "Necrozma's true form, released when Dusk Mane or Dawn Wings Necrozma uses Ultra Burst with the Ultranecrozium Z: a colossal dragon of pure light, hotter than 5,500 °C, that can fire lasers from every part of its body. It's known as the 'blinding one'."
+          }
         }
       ]
     }
@@ -143,12 +112,12 @@
       "from": {
         "$kind": "form",
         "species": 800,
-        "form": "800"
+        "id": "800"
       },
       "to": {
         "$kind": "form",
         "species": 800,
-        "form": "800:dusk"
+        "id": "800:dusk"
       },
       "change": "fuses",
       "with": "791"
@@ -157,12 +126,12 @@
       "from": {
         "$kind": "form",
         "species": 800,
-        "form": "800"
+        "id": "800"
       },
       "to": {
         "$kind": "form",
         "species": 800,
-        "form": "800:dawn"
+        "id": "800:dawn"
       },
       "change": "fuses",
       "with": "792"
@@ -171,12 +140,12 @@
       "from": {
         "$kind": "form",
         "species": 800,
-        "form": "800"
+        "id": "800"
       },
       "to": {
         "$kind": "form",
         "species": 800,
-        "form": "800:ultra"
+        "id": "800:ultra"
       },
       "change": "form_change"
     }

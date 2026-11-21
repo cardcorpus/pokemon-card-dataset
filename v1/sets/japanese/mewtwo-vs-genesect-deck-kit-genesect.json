@@ -1,80 +1,64 @@
 {
   "id": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
   "catalog": "japanese",
-  "name": "Mewtwo vs Genesect Deck Kit (Genesect)",
+  "name": "30枚デッキ対戦set「ミュウツーVSゲノセクト」",
+  "englishName": "Mewtwo vs Genesect Deck Kit (Genesect)",
   "era": {
     "$kind": "era",
-    "era": "japanese/black-white",
-    "name": "Black & White"
+    "id": "japanese/black-white",
+    "name": "BW",
+    "englishName": "Black & White"
   },
   "type": "deck",
   "language": "ja",
   "line": {
     "$kind": "line",
-    "line": "japanese/mewtwo-vs-genesect-deck-kit",
+    "id": "japanese/mewtwo-vs-genesect-deck-kit",
     "name": "Mewtwo vs Genesect Deck Kit",
     "part": "Genesect"
   },
   "printedTotal": 16,
   "actualTotal": 17,
   "cardCount": 17,
-  "productCount": 0,
   "released": {
     "date": "2013-07-13"
   },
   "code": "MG",
+  "printedCode": "MG",
   "logo": "6de018b373f29b8cdcd01e6b6898123a",
   "symbol": "e95ab35ed5e6502588bc05fb241e4051",
-  "releases": [
-    {
-      "language": "ja",
-      "name": "Mewtwo vs Genesect Deck Kit (Genesect)",
-      "code": "MG",
-      "released": {
-        "date": "2013-07-13"
-      },
-      "logo": "6de018b373f29b8cdcd01e6b6898123a",
-      "symbol": "e95ab35ed5e6502588bc05fb241e4051"
-    }
-  ],
   "description": {
-    "text": "The Genesect deck of 30-card deck VS set Mewtwo VS Genesect, released on 13 July 2013 and themed on the film Genesect and the Legend Awakened: two ready-built 30-card half decks, one led by Mewtwo and one by Genesect, with a playmat, a coin, damage counters and markers and a battle guide, so two people could play straight away. Genesect leads a Grass deck with Tangrowth and Crustle.",
-    "sources": [
-      {
-        "title": "Pokémon Card Game official site, archived: 30枚デッキ対戦set「ミュウツーVSゲノセクト」",
-        "url": "https://web.archive.org/web/20130623024906/http://www.pokemon-card.com/products/bw/mg.html"
-      },
-      {
-        "title": "Wikipedia (Japanese): ポケモンカードゲームの発売タイトル一覧",
-        "url": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E7%99%BA%E5%A3%B2%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E4%B8%80%E8%A6%A7"
-      }
-    ]
+    "text": "The Genesect deck of 30-card deck VS set Mewtwo VS Genesect, released on 13 July 2013 and themed on the film Genesect and the Legend Awakened: two ready-built 30-card half decks, one led by Mewtwo and one by Genesect, with a playmat, a coin, damage counters and markers and a battle guide, so two people could play straight away. Genesect leads a Grass deck with Tangrowth and Crustle."
   },
   "tell": {
-    "text": "An \"MG\" mark at the bottom right",
-    "sources": [
-      {
-        "title": "Pokémon Card Game 30th Anniversary Archive (The Pokémon Company): each card's expansion mark",
-        "url": "https://www.30tharchive.pokemon-card.com/"
-      }
-    ]
+    "text": "An \"MG\" mark at the bottom right"
   },
   "links": [
     {
       "$kind": "set",
-      "set": "international/legendary-treasures",
+      "id": "english/legendary-treasures",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 10
+    },
+    {
+      "$kind": "set",
+      "id": "korean/mewtwo-vs-genesect-deck-kit-mewtwo",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
     }
   ],
   "cards": [
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "001",
-      "name": "Tangela",
+      "name": "モンジャラ",
+      "englishName": "Tangela",
       "number": {
         "printed": "001/016",
-        "numerator": "001"
+        "short": "001"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -82,7 +66,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kirisaki",
+          "id": "kirisaki",
           "name": "kirisAki"
         }
       ],
@@ -93,17 +77,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 114,
+          "id": 114,
           "name": "Tangela"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 114,
-          "form": "114",
-          "name": "Tangela",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -113,7 +88,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "001",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -127,49 +102,21 @@
             "front": {
               "image": "7d51d04171effaa829fc9e5806d51086"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "1",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "001"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "tangela-vpg7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "002",
-      "name": "Tangrowth",
+      "name": "モジャンボ",
+      "englishName": "Tangrowth",
       "number": {
         "printed": "002/016",
-        "numerator": "002"
+        "short": "002"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -177,7 +124,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kagemaru-himeno",
+          "id": "kagemaru-himeno",
           "name": "Kagemaru Himeno"
         }
       ],
@@ -188,17 +135,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 465,
+          "id": 465,
           "name": "Tangrowth"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 465,
-          "form": "465",
-          "name": "Tangrowth",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -208,7 +146,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "002",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -222,49 +160,21 @@
             "front": {
               "image": "72a123ad63cc970712eab613863c69ca"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "2",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "002"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "tangrowth-0hi8" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "003",
-      "name": "Cherubi",
+      "name": "チェリンボ",
+      "englishName": "Cherubi",
       "number": {
         "printed": "003/016",
-        "numerator": "003"
+        "short": "003"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -272,7 +182,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "atsuko-nishida",
+          "id": "atsuko-nishida",
           "name": "Atsuko Nishida"
         }
       ],
@@ -283,17 +193,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 420,
+          "id": 420,
           "name": "Cherubi"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 420,
-          "form": "420",
-          "name": "Cherubi",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -303,7 +204,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "003",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -317,49 +218,21 @@
             "front": {
               "image": "58622314e61605d167af5027fa91f850"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "4",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "003"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cherubi-odsp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "004",
-      "name": "Carnivine",
+      "name": "マスキッパ",
+      "englishName": "Carnivine",
       "number": {
         "printed": "004/016",
-        "numerator": "004"
+        "short": "004"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -367,7 +240,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "hiron",
+          "id": "hiron",
           "name": "HiRON"
         }
       ],
@@ -378,17 +251,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 455,
+          "id": 455,
           "name": "Carnivine"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 455,
-          "form": "455",
-          "name": "Carnivine",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -398,7 +262,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "004",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -412,49 +276,21 @@
             "front": {
               "image": "e45ab263a999c121e5809ed4106e46c0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "5",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "004"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "carnivine-bp3u" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "005",
-      "name": "Sewaddle",
+      "name": "クルミル",
+      "englishName": "Sewaddle",
       "number": {
         "printed": "005/016",
-        "numerator": "005"
+        "short": "005"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -462,7 +298,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "mitsuhiro-arita",
+          "id": "mitsuhiro-arita",
           "name": "Mitsuhiro Arita"
         }
       ],
@@ -473,17 +309,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 540,
+          "id": 540,
           "name": "Sewaddle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 540,
-          "form": "540",
-          "name": "Sewaddle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -493,7 +320,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "005",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -507,49 +334,21 @@
             "front": {
               "image": "daee031bf7357fa710ba0fe566c077e0"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "10",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "005"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "sewaddle-lmma" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "006",
-      "name": "Dwebble",
+      "name": "イシズマイ",
+      "englishName": "Dwebble",
       "number": {
         "printed": "006/016",
-        "numerator": "006"
+        "short": "006"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -557,7 +356,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "sui",
+          "id": "sui",
           "name": "sui"
         }
       ],
@@ -568,17 +367,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 557,
+          "id": 557,
           "name": "Dwebble"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 557,
-          "form": "557",
-          "name": "Dwebble",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -588,7 +378,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "006",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -602,49 +392,21 @@
             "front": {
               "image": "e84aede121017dfb7525ef8edadf6de3"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "13",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "006"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "dwebble-566i" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "007",
-      "name": "Crustle",
+      "name": "イワパレス",
+      "englishName": "Crustle",
       "number": {
         "printed": "007/016",
-        "numerator": "007"
+        "short": "007"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -652,7 +414,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "naoki-saito",
+          "id": "naoki-saito",
           "name": "Naoki Saito"
         }
       ],
@@ -663,17 +425,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 558,
+          "id": 558,
           "name": "Crustle"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 558,
-          "form": "558",
-          "name": "Crustle",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -683,7 +436,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "007",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -697,49 +450,21 @@
             "front": {
               "image": "83653138c9598e469a5513833a75625f"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "14",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "007"
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "crustle-592t" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "008",
-      "name": "Genesect",
+      "name": "ゲノセクト",
+      "englishName": "Genesect",
       "number": {
         "printed": "008/016",
-        "numerator": "008"
+        "short": "008"
       },
       "cardType": "pokemon",
       "language": "ja",
@@ -747,7 +472,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -758,17 +483,8 @@
       "species": [
         {
           "$kind": "species",
-          "species": 649,
+          "id": 649,
           "name": "Genesect"
-        }
-      ],
-      "subjects": [
-        {
-          "$kind": "form",
-          "species": 649,
-          "form": "649",
-          "name": "Genesect",
-          "role": "subject"
         }
       ],
       "picture": {
@@ -778,7 +494,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "008",
-            "variant": "holo"
+            "id": "holo"
           }
         }
       },
@@ -792,49 +508,21 @@
             "front": {
               "image": "71cbeab09ab852515df5c0c4c8ac0b74"
             }
-          },
-          "collectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8"
+          }
         }
       ],
-      "defaultCopy": "holo",
-      "collectingVariations": [
-        {
-          "id": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-          "name": "Holo",
-          "variants": [
-            "holo"
-          ],
-          "defaultCopy": "holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-4d0fdc31d7ae6929e42ce51c4427d9f9713161d8",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "16",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
-          "painting": "008"
-        }
-      }
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "genesect-0ubw" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "009",
-      "name": "Energy Switch",
+      "name": "エネルギーつけかえ",
+      "englishName": "Energy Switch",
       "number": {
         "printed": "009/016",
-        "numerator": "009"
+        "short": "009"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -842,7 +530,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "kent-kanetsuna",
+          "id": "kent-kanetsuna",
           "name": "Kent Kanetsuna"
         }
       ],
@@ -857,7 +545,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "009",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -871,57 +559,21 @@
             "front": {
               "image": "0347d491b7990cdf1e5b5fd760f46ae4"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "112",
-              "language": "en",
-              "printCount": 6,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "32"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "32",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "energy-switch-kaj7" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "010",
-      "name": "Great Ball",
+      "name": "スーパーボール",
+      "englishName": "Great Ball",
       "number": {
         "printed": "010/016",
-        "numerator": "010"
+        "short": "010"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -929,7 +581,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -944,7 +596,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "010",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -958,64 +610,21 @@
             "front": {
               "image": "a5fb164545ef9d432143f92262a41c69"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "93",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "049"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "great-ball-7wrs" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "011",
-      "name": "Switch",
+      "name": "ポケモンいれかえ",
+      "englishName": "Switch",
       "number": {
         "printed": "011/016",
-        "numerator": "011"
+        "short": "011"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1023,7 +632,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ayaka-yoshida",
+          "id": "ayaka-yoshida",
           "name": "Ayaka Yoshida"
         }
       ],
@@ -1038,7 +647,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "011",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1052,63 +661,21 @@
             "front": {
               "image": "c52462b4f8555b800d1c89df495cfbfa"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/black-white",
-              "card": "104",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/beginning-set-black-white",
-                "card": "35"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/beginning-set-black-white",
-          "painting": "35"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/beginning-set-black-white",
-          "card": "35",
-          "differs": [
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "switch-9h3j" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "012",
-      "name": "Pokémon Catcher",
+      "name": "ポケモンキャッチャー",
+      "englishName": "Pokémon Catcher",
       "number": {
         "printed": "012/016",
-        "numerator": "012"
+        "short": "012"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1116,7 +683,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1131,7 +698,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "012",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1145,64 +712,21 @@
             "front": {
               "image": "98921a3f66d8971b8d8085c6fd2c259c"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "95",
-              "language": "en",
-              "printCount": 10,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "052"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-rd8f" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "013",
-      "name": "Giant Cape",
+      "name": "大きなマント",
+      "englishName": "Giant Cape",
       "number": {
         "printed": "013/016",
-        "numerator": "013"
+        "short": "013"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1210,7 +734,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "ryo-ueda",
+          "id": "ryo-ueda",
           "name": "Ryo Ueda"
         }
       ],
@@ -1225,7 +749,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "013",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1239,64 +763,21 @@
             "front": {
               "image": "3418d30b982c7d877b3c2620a8cf58e9"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/dragons-exalted",
-              "card": "114",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/dragon-blade",
-                "card": "049"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/dragon-blade",
-          "painting": "049"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/dragon-blade",
-          "card": "049",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "giant-cape-bh8p" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "014",
-      "name": "Cheren",
+      "name": "チェレン",
+      "englishName": "Cheren",
       "number": {
         "printed": "014/016",
-        "numerator": "014"
+        "short": "014"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1304,7 +785,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1312,10 +793,10 @@
         "date": "2013-07-13",
         "sort": "2013-07-13.00 japanese/mewtwo-vs-genesect-deck-kit-genesect 00013"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "cheren",
+          "id": "cheren",
           "name": "Cheren",
           "role": "subject"
         }
@@ -1327,7 +808,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "014",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1341,64 +822,21 @@
             "front": {
               "image": "e471a317a185d62096d97f2ac4847eed"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "91",
-              "language": "en",
-              "printCount": 1,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/white-collection",
-                "card": "053"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/white-collection",
-          "painting": "053"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/white-collection",
-          "card": "053",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "cheren-2as2" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "015",
-      "name": "Bianca",
+      "name": "ベル",
+      "englishName": "Bianca",
       "number": {
         "printed": "015/016",
-        "numerator": "015"
+        "short": "015"
       },
       "cardType": "trainer",
       "language": "ja",
@@ -1406,7 +844,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "yusuke-ohmura",
+          "id": "yusuke-ohmura",
           "name": "Yusuke Ohmura"
         }
       ],
@@ -1414,10 +852,10 @@
         "date": "2013-07-13",
         "sort": "2013-07-13.00 japanese/mewtwo-vs-genesect-deck-kit-genesect 00014"
       },
-      "subjects": [
+      "characters": [
         {
           "$kind": "character",
-          "character": "bianca",
+          "id": "bianca",
           "name": "Bianca",
           "role": "subject"
         }
@@ -1429,7 +867,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "015",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1443,64 +881,21 @@
             "front": {
               "image": "c9c0b2fab0230108ce5ab463f6f19371"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/emerging-powers",
-              "card": "90",
-              "language": "en",
-              "printCount": 2,
-              "preferred": true,
-              "via": "original",
-              "through": {
-                "$kind": "card",
-                "set": "japanese/cobalion-battle-strength-deck",
-                "card": "014"
-              }
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "painting": "014"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/cobalion-battle-strength-deck",
-          "card": "014",
-          "differs": [
-            "finish",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "bianca-vexp" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "016",
-      "name": "Double Colorless Energy",
+      "name": "ダブル無色エネルギー",
+      "englishName": "Double Colorless Energy",
       "number": {
         "printed": "016/016",
-        "numerator": "016"
+        "short": "016"
       },
       "cardType": "energy",
       "language": "ja",
@@ -1508,7 +903,7 @@
       "artists": [
         {
           "$kind": "artist",
-          "artist": "5ban-graphics",
+          "id": "5ban-graphics",
           "name": "5ban Graphics"
         }
       ],
@@ -1523,7 +918,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "016",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1537,55 +932,18 @@
             "front": {
               "image": "20191d11bbb829a895d1685e7eb7c768"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-      "links": {
-        "counterparts": {
-          "international": [
-            {
-              "$kind": "card",
-              "set": "international/legendary-treasures",
-              "card": "113",
-              "language": "en",
-              "printCount": 7,
-              "preferred": true
-            }
-          ]
-        },
-        "painting": {
-          "$kind": "painting",
-          "set": "japanese/hail-blizzard",
-          "painting": "052"
-        },
-        "reprintOf": {
-          "$kind": "card",
-          "set": "japanese/hail-blizzard",
-          "card": "052",
-          "differs": [
-            "rarity_mark",
-            "number"
-          ]
-        }
-      }
+      "defaultVariant": "non-holo",
+      "painting": { "$kind": "painting", "id": "double-colorless-energy-9xrx" }
     },
     {
+      "$kind": "card",
+      "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
       "id": "grass-energy",
-      "name": "Grass Energy",
+      "name": "基本草エネルギー",
+      "englishName": "Grass Energy",
       "cardType": "energy",
       "language": "ja",
       "released": {
@@ -1599,7 +957,7 @@
             "$kind": "variant",
             "set": "japanese/mewtwo-vs-genesect-deck-kit-genesect",
             "card": "grass-energy",
-            "variant": "non-holo"
+            "id": "non-holo"
           }
         }
       },
@@ -1613,23 +971,10 @@
             "front": {
               "image": "894d2ae6cf37caf1b72be47c9acebc45"
             }
-          },
-          "collectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+          }
         }
       ],
-      "defaultCopy": "non-holo",
-      "collectingVariations": [
-        {
-          "id": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2",
-          "name": "Non-holo",
-          "variants": [
-            "non-holo"
-          ],
-          "defaultCopy": "non-holo",
-          "masterSet": true
-        }
-      ],
-      "defaultCollectingVariation": "v-35b6e82d3888c2017007fe78baf0b3af07c09dc2"
+      "defaultVariant": "non-holo"
     }
   ]
 }

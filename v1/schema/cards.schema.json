@@ -1,20 +1,32 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "CardCorpus card list",
-  "description": "Every card in one slim list, so a card can be found by name or number without opening every set file: its pointer, with copies of its name, number, language and front picture, in sets.json's order and then its set's (docs/static-api.md, \"Card lists\").",
+  "description": "Every card of one catalog in one slim list (`cards/english.json`, `cards/japanese.json` and so on, one a catalog), so a card can be found, filtered and sorted by name, number, rarity, type or date without opening every set file: its pointer, with copies of its name, number, rarity, card type, language, release date and front picture, in its sets' order (sets/{catalog}.json) and then its set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#card-lists). A set's name is in sets/{catalog}.json, by the pointer's `set`.",
   "type": "object",
   "required": [
+    "catalog",
     "cardCount",
     "cards"
   ],
   "properties": {
+    "catalog": {
+      "description": "The catalog whose cards these are.",
+      "x-cc": {
+        "vocabulary": "catalog"
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/vocabulary.catalog"
+        }
+      ]
+    },
     "cardCount": {
       "description": "How many cards; always present, 0 included.",
       "type": "integer",
       "minimum": 0
     },
     "cards": {
-      "description": "Every card, in sets.json's order and then its set's.",
+      "description": "Every card of the catalog, in its sets' order (sets/{catalog}.json) and then its set's.",
       "type": "array",
       "items": {
         "type": "object",
@@ -25,20 +37,20 @@
         "required": [
           "$kind",
           "set",
-          "card",
+          "id",
           "name",
           "language"
         ],
         "properties": {
           "$kind": {
-            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (docs/static-api.md, \"Pointers\").",
+            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
             "const": "card"
           },
           "set": {
-            "description": "The set's id (sets.json).",
+            "description": "The set's id (sets/{catalog}.json).",
             "type": "string"
           },
-          "card": {
+          "id": {
             "description": "The card's id, unique in its set.",
             "type": "string"
           },
@@ -46,31 +58,83 @@
             "description": "A copy of the target's own `name`.",
             "type": "string"
           },
+          "englishName": {
+            "description": "A copy of the target's own `englishName`.",
+            "type": "string"
+          },
+          "subtitle": {
+            "description": "A copy of the target's own `subtitle`. The smaller name the card prints beside its own, as it prints it, in its language, where it prints one: \"Professeur Chen\" on a French Professor's Research, \"オーキド博士\" on a Japanese one. Where we have no printed subtitle, the English one on a card whose `name` is its English one (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles).",
+            "type": "string"
+          },
+          "englishSubtitle": {
+            "description": "A copy of the target's own `englishSubtitle`. The smaller name the card prints beside its own, in English, where it prints one: the professor on a Professor's Research (\"Professor Oak\"), the boss on a Boss's Orders (\"Ghetsis\"). It says which of the cards sharing a name this is, but isn't part of the name: a deck counts them all as one card. Always one of the card's `characters` (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles). Our own pages show it joined to the name: \"Professor's Research (Professor Oak)\".",
+            "type": "string"
+          },
           "number": {
-            "description": "A copy of the target's own `number`. Its number as printed (\"4/102\", \"SWSH001\"), and the part of it a sort reads.",
+            "description": "A copy of the target's own `number`. Its number as printed (\"4/102\", \"SWSH001\"), and that number without its set total.",
             "type": "object",
             "required": [
-              "numerator"
+              "short"
             ],
             "properties": {
               "printed": {
                 "description": "The number as printed, where the card prints one.",
                 "type": "string"
               },
-              "numerator": {
-                "description": "The part of the number a sort reads.",
+              "short": {
+                "description": "The number without its set total: \"4\" of \"4/102\", and the whole number where it prints no total (\"SWSH001\"). What a tile shows and a sort reads.",
                 "type": "string"
               }
             },
             "additionalProperties": false
           },
+          "rarity": {
+            "description": "A copy of the target's own `rarity`. Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity).",
+            "x-cc": {
+              "vocabulary": "rarity"
+            },
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.rarity"
+              }
+            ]
+          },
+          "cardType": {
+            "description": "A copy of the target's own `cardType`. Pokémon, Trainer or Energy.",
+            "x-cc": {
+              "vocabulary": "cardType"
+            },
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.cardType"
+              }
+            ]
+          },
           "language": {
             "description": "A copy of the target's own `language`.",
-            "type": "string",
             "x-cc": {
               "vocabulary": "language"
             },
-            "$ref": "#/$defs/vocabulary.language"
+            "allOf": [
+              {
+                "$ref": "#/$defs/vocabulary.language"
+              }
+            ]
+          },
+          "released": {
+            "description": "A copy of the card's `released`, holding only its `date`: when it first came out, as precisely as is known. Absent where the date isn't known.",
+            "type": "object",
+            "required": [
+              "date"
+            ],
+            "properties": {
+              "date": {
+                "description": "The date: 1999, 1999-06 or 1999-06-16.",
+                "type": "string",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              }
+            },
+            "additionalProperties": false
           },
           "picture": {
             "description": "A copy of the card's front picture id.",
@@ -107,21 +171,119 @@
   },
   "additionalProperties": false,
   "$defs": {
+    "vocabulary.catalog": {
+      "title": "Catalog",
+      "description": "Every value of vocabulary.json's `catalog`.",
+      "type": "string",
+      "enum": [
+        "english",
+        "japanese",
+        "zh-hans",
+        "korean",
+        "zh-hant",
+        "thai",
+        "indonesian",
+        "french",
+        "german",
+        "italian",
+        "spanish",
+        "portuguese",
+        "latin-american-spanish",
+        "dutch",
+        "russian",
+        "polish"
+      ]
+    },
+    "vocabulary.rarity": {
+      "title": "Rarity",
+      "description": "Every value of vocabulary.json's `rarity`.",
+      "type": "string",
+      "enum": [
+        "Common",
+        "Uncommon",
+        "Common (C)",
+        "Rare",
+        "Ultra Rare",
+        "Uncommon (U)",
+        "Promo",
+        "Holo Rare",
+        "Super Rare (SR)",
+        "Rare (R)",
+        "Double Rare (RR)",
+        "Illustration Rare",
+        "Art Rare (AR)",
+        "Double Rare",
+        "Shiny Rare",
+        "Rainbow Rare",
+        "Secret Rare",
+        "Special Art Rare (SAR)",
+        "Special Illustration Rare",
+        "Hyper Rare (HR)",
+        "Ultra Rare (UR)",
+        "Shiny Rare (S)",
+        "Triple Rare (RRR)",
+        "Classic Collection",
+        "Hyper Rare",
+        "Pikachu Rare",
+        "Shiny Super Rare (SSR)",
+        "ACE SPEC Rare",
+        "Character Rare (CHR)",
+        "Character Super Rare (CSR)",
+        "Prism Rare (PR)",
+        "ACE SPEC Rare (ACE)",
+        "Trainer Rare (TR)",
+        "Prism Rare",
+        "Triple Rare",
+        "Gold Star",
+        "LEGEND",
+        "Radiant Rare (K)",
+        "Radiant Rare",
+        "Shiny Ultra Rare",
+        "Shining Rare",
+        "Mega Hyper Rare",
+        "Amazing Rare",
+        "Amazing Rare (A)",
+        "Mega Attack Rare (MA)",
+        "Mega Attack Rare",
+        "Mega Ultra Rare (MUR)",
+        "Black White Rare",
+        "RGB Rare",
+        "Futuristic Rare",
+        "Black White Rare (BWR)",
+        "Futuristic Rare (FUR)"
+      ]
+    },
+    "vocabulary.cardType": {
+      "title": "CardType",
+      "description": "Every value of vocabulary.json's `cardType`.",
+      "type": "string",
+      "enum": [
+        "pokemon",
+        "trainer",
+        "energy"
+      ]
+    },
     "vocabulary.language": {
+      "title": "Language",
       "description": "Every value of vocabulary.json's `language`.",
+      "type": "string",
       "enum": [
         "ja",
         "en",
-        "zh-Hans",
-        "fr",
-        "de",
-        "es",
-        "it",
         "ko",
+        "de",
+        "it",
+        "fr",
+        "es",
+        "zh-Hant",
         "pt",
+        "id",
+        "zh-Hans",
+        "th",
+        "es-419",
+        "ru",
         "pl",
-        "nl",
-        "zh-Hant"
+        "nl"
       ]
     }
   }
