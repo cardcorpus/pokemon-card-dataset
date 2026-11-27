@@ -29,77 +29,16 @@
   "links": [
     {
       "$kind": "set",
-      "id": "french/perfect-order",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 124
-    },
-    {
-      "$kind": "set",
-      "id": "german/perfect-order",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 124
-    },
-    {
-      "$kind": "set",
-      "id": "indonesian/void-blast",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 116
-    },
-    {
-      "$kind": "set",
-      "id": "italian/perfect-order",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 124
-    },
-    {
-      "$kind": "set",
       "id": "japanese/nihil-zero",
+      "catalog": "japanese",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 116
-    },
-    {
-      "$kind": "set",
-      "id": "korean/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 2
     },
     {
       "$kind": "set",
       "id": "korean/nullifying-zero",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 116
-    },
-    {
-      "$kind": "set",
-      "id": "latin-american-spanish/perfect-order",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 124
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/perfect-order",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 124
-    },
-    {
-      "$kind": "set",
-      "id": "spanish/perfect-order",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 124
-    },
-    {
-      "$kind": "set",
-      "id": "thai/void-blast",
+      "catalog": "korean",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 116
@@ -107,9 +46,82 @@
     {
       "$kind": "set",
       "id": "zh-hant/nihil-zero",
+      "catalog": "zh-hant",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 116
+    },
+    {
+      "$kind": "set",
+      "id": "thai/void-blast",
+      "catalog": "thai",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 116
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/void-blast",
+      "catalog": "indonesian",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 116
+    },
+    {
+      "$kind": "set",
+      "id": "french/perfect-order",
+      "catalog": "french",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 124
+    },
+    {
+      "$kind": "set",
+      "id": "german/perfect-order",
+      "catalog": "german",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 124
+    },
+    {
+      "$kind": "set",
+      "id": "italian/perfect-order",
+      "catalog": "italian",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 124
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/perfect-order",
+      "catalog": "spanish",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 124
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/perfect-order",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 124
+    },
+    {
+      "$kind": "set",
+      "id": "latin-american-spanish/perfect-order",
+      "catalog": "latin-american-spanish",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 124
+    },
+    {
+      "$kind": "set",
+      "id": "korean/mega-evolution-promos",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 2
     }
   ],
   "cards": [
@@ -652,7 +664,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "serperior-gznt" }
+      "painting": { "$kind": "painting", "id": "serperior-gznt" },
+      "play": {
+        "$kind": "play",
+        "id": "serperior-058c"
+      }
     },
     {
       "$kind": "card",
@@ -822,7 +838,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "spewpa-4ge4" }
+      "painting": { "$kind": "painting", "id": "spewpa-4ge4" },
+      "play": {
+        "$kind": "play",
+        "id": "spewpa-9d65"
+      }
     },
     {
       "$kind": "card",
@@ -992,7 +1012,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "rowlet-foig" }
+      "painting": { "$kind": "painting", "id": "rowlet-foig" },
+      "play": {
+        "$kind": "play",
+        "id": "rowlet-2dde"
+      }
     },
     {
       "$kind": "card",
@@ -1136,7 +1160,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "decidueye-ex-d4p3" }
+      "painting": { "$kind": "painting", "id": "decidueye-ex-d4p3" },
+      "play": {
+        "$kind": "play",
+        "id": "decidueye-ex-5082"
+      }
     },
     {
       "$kind": "card",
@@ -1306,7 +1334,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "talonflame-hdac" }
+      "painting": { "$kind": "painting", "id": "talonflame-hdac" },
+      "play": {
+        "$kind": "play",
+        "id": "talonflame-fd59"
+      }
     },
     {
       "$kind": "card",
@@ -1450,7 +1482,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "salazzle-ex-mr95" }
+      "painting": { "$kind": "painting", "id": "salazzle-ex-mr95" },
+      "play": {
+        "$kind": "play",
+        "id": "salazzle-ex-cc96"
+      }
     },
     {
       "$kind": "card",
@@ -1705,7 +1741,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "dewgong-yu1b" }
+      "painting": { "$kind": "painting", "id": "dewgong-yu1b" },
+      "play": {
+        "$kind": "play",
+        "id": "dewgong-4e14"
+      }
     },
     {
       "$kind": "card",
@@ -1855,7 +1895,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-starmie-ex-fm4k" }
+      "painting": { "$kind": "painting", "id": "mega-starmie-ex-fm4k" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-starmie-ex-4882"
+      }
     },
     {
       "$kind": "card",
@@ -2181,7 +2225,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "aurorus-m1kz" }
+      "painting": { "$kind": "painting", "id": "aurorus-m1kz" },
+      "play": {
+        "$kind": "play",
+        "id": "aurorus-8a59"
+      }
     },
     {
       "$kind": "card",
@@ -2715,7 +2763,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "dedenne-ik73" }
+      "painting": { "$kind": "painting", "id": "dedenne-ik73" },
+      "play": {
+        "$kind": "play",
+        "id": "dedenne-e42c"
+      }
     },
     {
       "$kind": "card",
@@ -2800,7 +2852,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "clefairy-znjp" }
+      "painting": { "$kind": "painting", "id": "clefairy-znjp" },
+      "play": {
+        "$kind": "play",
+        "id": "clefairy-a1b0"
+      }
     },
     {
       "$kind": "card",
@@ -2865,7 +2921,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-clefable-ex-jgr0" }
+      "painting": { "$kind": "painting", "id": "mega-clefable-ex-jgr0" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-clefable-ex-c145"
+      }
     },
     {
       "$kind": "card",
@@ -3035,7 +3095,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "espurr-1apq" }
+      "painting": { "$kind": "painting", "id": "espurr-1apq" },
+      "play": {
+        "$kind": "play",
+        "id": "espurr-957d"
+      }
     },
     {
       "$kind": "card",
@@ -3466,7 +3530,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "probopass-gqae" }
+      "painting": { "$kind": "painting", "id": "probopass-gqae" },
+      "play": {
+        "$kind": "play",
+        "id": "probopass-2907"
+      }
     },
     {
       "$kind": "card",
@@ -3831,7 +3899,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "binacle-p82e" }
+      "painting": { "$kind": "painting", "id": "binacle-p82e" },
+      "play": {
+        "$kind": "play",
+        "id": "binacle-e04b"
+      }
     },
     {
       "$kind": "card",
@@ -3916,7 +3988,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "barbaracle-lw7e" }
+      "painting": { "$kind": "painting", "id": "barbaracle-lw7e" },
+      "play": {
+        "$kind": "play",
+        "id": "barbaracle-a144"
+      }
     },
     {
       "$kind": "card",
@@ -4001,7 +4077,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "tyrunt-n0d6" }
+      "painting": { "$kind": "painting", "id": "tyrunt-n0d6" },
+      "play": {
+        "$kind": "play",
+        "id": "tyrunt-af58"
+      }
     },
     {
       "$kind": "card",
@@ -4139,7 +4219,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "tyrantrum-gebb" }
+      "painting": { "$kind": "painting", "id": "tyrantrum-gebb" },
+      "play": {
+        "$kind": "play",
+        "id": "tyrantrum-8cd1"
+      }
     },
     {
       "$kind": "card",
@@ -4289,7 +4373,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-pwp0" }
+      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-pwp0" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-zygarde-ex-0e69"
+      }
     },
     {
       "$kind": "card",
@@ -4374,7 +4462,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "gastly-tit8" }
+      "painting": { "$kind": "painting", "id": "gastly-tit8" },
+      "play": {
+        "$kind": "play",
+        "id": "gastly-e029"
+      }
     },
     {
       "$kind": "card",
@@ -4459,7 +4551,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "haunter-s6g7" }
+      "painting": { "$kind": "painting", "id": "haunter-s6g7" },
+      "play": {
+        "$kind": "play",
+        "id": "haunter-4838"
+      }
     },
     {
       "$kind": "card",
@@ -4665,7 +4761,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "gengar-bsf7" }
+      "painting": { "$kind": "painting", "id": "gengar-bsf7" },
+      "play": {
+        "$kind": "play",
+        "id": "gengar-e214"
+      }
     },
     {
       "$kind": "card",
@@ -4835,7 +4935,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "drapion-t9b0" }
+      "painting": { "$kind": "painting", "id": "drapion-t9b0" },
+      "play": {
+        "$kind": "play",
+        "id": "drapion-69ff"
+      }
     },
     {
       "$kind": "card",
@@ -4894,7 +4998,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "yveltal-ex-4ei4" }
+      "painting": { "$kind": "painting", "id": "yveltal-ex-4ei4" },
+      "play": {
+        "$kind": "play",
+        "id": "yveltal-ex-cf2f"
+      }
     },
     {
       "$kind": "card",
@@ -5044,7 +5152,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-skarmory-ex-vvby" }
+      "painting": { "$kind": "painting", "id": "mega-skarmory-ex-vvby" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-skarmory-ex-64aa"
+      }
     },
     {
       "$kind": "card",
@@ -5214,7 +5326,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "doublade-l0yv" }
+      "painting": { "$kind": "painting", "id": "doublade-l0yv" },
+      "play": {
+        "$kind": "play",
+        "id": "doublade-b8c0"
+      }
     },
     {
       "$kind": "card",
@@ -5560,7 +5676,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "raticate-6q7z" }
+      "painting": { "$kind": "painting", "id": "raticate-6q7z" },
+      "play": {
+        "$kind": "play",
+        "id": "raticate-4025"
+      }
     },
     {
       "$kind": "card",
@@ -5619,7 +5739,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "meowth-ex-3h91" }
+      "painting": { "$kind": "painting", "id": "meowth-ex-3h91" },
+      "play": {
+        "$kind": "play",
+        "id": "meowth-ex-3da4"
+      }
     },
     {
       "$kind": "card",
@@ -6278,7 +6402,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "core-memory-5bxh" }
+      "painting": { "$kind": "painting", "id": "core-memory-5bxh" },
+      "play": {
+        "$kind": "play",
+        "id": "core-memory-4762"
+      }
     },
     {
       "$kind": "card",
@@ -6356,7 +6484,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "crushing-hammer-wzet" }
+      "painting": { "$kind": "painting", "id": "crushing-hammer-wzet" },
+      "play": {
+        "$kind": "play",
+        "id": "crushing-hammer-f84a"
+      }
     },
     {
       "$kind": "card",
@@ -6434,7 +6566,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "energy-search-cd7z" }
+      "painting": { "$kind": "painting", "id": "energy-search-cd7z" },
+      "play": {
+        "$kind": "play",
+        "id": "energy-search-2267"
+      }
     },
     {
       "$kind": "card",
@@ -6676,7 +6812,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "jacinthe-wzd1" }
+      "painting": { "$kind": "painting", "id": "jacinthe-wzd1" },
+      "play": {
+        "$kind": "play",
+        "id": "jacinthe-e530"
+      }
     },
     {
       "$kind": "card",
@@ -6792,7 +6932,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "judge-3ydl" }
+      "painting": { "$kind": "painting", "id": "judge-3ydl" },
+      "play": {
+        "$kind": "play",
+        "id": "judge-52a0"
+      }
     },
     {
       "$kind": "card",
@@ -6870,7 +7014,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "lumiose-city-wjvm" }
+      "painting": { "$kind": "painting", "id": "lumiose-city-wjvm" },
+      "play": {
+        "$kind": "play",
+        "id": "lumiose-city-3fdc"
+      }
     },
     {
       "$kind": "card",
@@ -7034,7 +7182,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "naveen-zxhr" }
+      "painting": { "$kind": "painting", "id": "naveen-zxhr" },
+      "play": {
+        "$kind": "play",
+        "id": "naveen-c7cd"
+      }
     },
     {
       "$kind": "card",
@@ -7112,7 +7264,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "poke-ball-5ani" }
+      "painting": { "$kind": "painting", "id": "poke-ball-5ani" },
+      "play": {
+        "$kind": "play",
+        "id": "poke-ball-5bd6"
+      }
     },
     {
       "$kind": "card",
@@ -7190,7 +7346,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "poke-pad-z7pj" }
+      "painting": { "$kind": "painting", "id": "poke-pad-z7pj" },
+      "play": {
+        "$kind": "play",
+        "id": "poke-pad-48a1"
+      }
     },
     {
       "$kind": "card",
@@ -7268,7 +7428,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "pokemon-catcher-vpew" }
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-vpew" },
+      "play": {
+        "$kind": "play",
+        "id": "pokemon-catcher-3583"
+      }
     },
     {
       "$kind": "card",
@@ -7346,7 +7510,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "potion-nd0o" }
+      "painting": { "$kind": "painting", "id": "potion-nd0o" },
+      "play": {
+        "$kind": "play",
+        "id": "potion-3362"
+      }
     },
     {
       "$kind": "card",
@@ -7459,7 +7627,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "rosa-s-encouragement-ik4n" }
+      "painting": { "$kind": "painting", "id": "rosa-s-encouragement-ik4n" },
+      "play": {
+        "$kind": "play",
+        "id": "rosa-s-encouragement-6552"
+      }
     },
     {
       "$kind": "card",
@@ -7545,7 +7717,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "tarragon-4gt1" }
+      "painting": { "$kind": "painting", "id": "tarragon-4gt1" },
+      "play": {
+        "$kind": "play",
+        "id": "tarragon-d8a9"
+      }
     },
     {
       "$kind": "card",
@@ -7640,7 +7816,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "growing-grass-energy-xose" }
+      "painting": { "$kind": "painting", "id": "growing-grass-energy-xose" },
+      "play": {
+        "$kind": "play",
+        "id": "growing-grass-energy-9e14"
+      }
     },
     {
       "$kind": "card",
@@ -7735,7 +7915,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "rocky-fighting-energy-g4r5" }
+      "painting": { "$kind": "painting", "id": "rocky-fighting-energy-g4r5" },
+      "play": {
+        "$kind": "play",
+        "id": "rocky-fighting-energy-253e"
+      }
     },
     {
       "$kind": "card",
@@ -7836,7 +8020,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "telepathic-psychic-energy-4rwp" }
+      "painting": { "$kind": "painting", "id": "telepathic-psychic-energy-4rwp" },
+      "play": {
+        "$kind": "play",
+        "id": "telepathic-psychic-energy-deff"
+      }
     },
     {
       "$kind": "card",
@@ -7895,7 +8083,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "spewpa-hv8l" }
+      "painting": { "$kind": "painting", "id": "spewpa-hv8l" },
+      "play": {
+        "$kind": "play",
+        "id": "spewpa-9d65"
+      }
     },
     {
       "$kind": "card",
@@ -7954,7 +8146,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "rowlet-qi2l" }
+      "painting": { "$kind": "painting", "id": "rowlet-qi2l" },
+      "play": {
+        "$kind": "play",
+        "id": "rowlet-2dde"
+      }
     },
     {
       "$kind": "card",
@@ -8013,7 +8209,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "talonflame-2t5j" }
+      "painting": { "$kind": "painting", "id": "talonflame-2t5j" },
+      "play": {
+        "$kind": "play",
+        "id": "talonflame-fd59"
+      }
     },
     {
       "$kind": "card",
@@ -8072,7 +8272,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "aurorus-o760" }
+      "painting": { "$kind": "painting", "id": "aurorus-o760" },
+      "play": {
+        "$kind": "play",
+        "id": "aurorus-8a59"
+      }
     },
     {
       "$kind": "card",
@@ -8131,7 +8335,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "dedenne-154s" }
+      "painting": { "$kind": "painting", "id": "dedenne-154s" },
+      "play": {
+        "$kind": "play",
+        "id": "dedenne-e42c"
+      }
     },
     {
       "$kind": "card",
@@ -8190,7 +8398,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "clefairy-zz42" }
+      "painting": { "$kind": "painting", "id": "clefairy-zz42" },
+      "play": {
+        "$kind": "play",
+        "id": "clefairy-a1b0"
+      }
     },
     {
       "$kind": "card",
@@ -8249,7 +8461,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "espurr-y1p3" }
+      "painting": { "$kind": "painting", "id": "espurr-y1p3" },
+      "play": {
+        "$kind": "play",
+        "id": "espurr-957d"
+      }
     },
     {
       "$kind": "card",
@@ -8308,7 +8524,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "probopass-5rx6" }
+      "painting": { "$kind": "painting", "id": "probopass-5rx6" },
+      "play": {
+        "$kind": "play",
+        "id": "probopass-2907"
+      }
     },
     {
       "$kind": "card",
@@ -8367,7 +8587,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "drapion-9czz" }
+      "painting": { "$kind": "painting", "id": "drapion-9czz" },
+      "play": {
+        "$kind": "play",
+        "id": "drapion-69ff"
+      }
     },
     {
       "$kind": "card",
@@ -8426,7 +8650,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "doublade-gu7n" }
+      "painting": { "$kind": "painting", "id": "doublade-gu7n" },
+      "play": {
+        "$kind": "play",
+        "id": "doublade-b8c0"
+      }
     },
     {
       "$kind": "card",
@@ -8485,7 +8713,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "raticate-k3ii" }
+      "painting": { "$kind": "painting", "id": "raticate-k3ii" },
+      "play": {
+        "$kind": "play",
+        "id": "raticate-4025"
+      }
     },
     {
       "$kind": "card",
@@ -8544,7 +8776,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "decidueye-ex-z3i8" }
+      "painting": { "$kind": "painting", "id": "decidueye-ex-z3i8" },
+      "play": {
+        "$kind": "play",
+        "id": "decidueye-ex-5082"
+      }
     },
     {
       "$kind": "card",
@@ -8603,7 +8839,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "salazzle-ex-43vu" }
+      "painting": { "$kind": "painting", "id": "salazzle-ex-43vu" },
+      "play": {
+        "$kind": "play",
+        "id": "salazzle-ex-cc96"
+      }
     },
     {
       "$kind": "card",
@@ -8668,7 +8908,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-starmie-ex-ns10" }
+      "painting": { "$kind": "painting", "id": "mega-starmie-ex-ns10" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-starmie-ex-4882"
+      }
     },
     {
       "$kind": "card",
@@ -8733,7 +8977,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-clefable-ex-w0k8" }
+      "painting": { "$kind": "painting", "id": "mega-clefable-ex-w0k8" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-clefable-ex-c145"
+      }
     },
     {
       "$kind": "card",
@@ -8798,7 +9046,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-iakz" }
+      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-iakz" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-zygarde-ex-0e69"
+      }
     },
     {
       "$kind": "card",
@@ -8857,7 +9109,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "yveltal-ex-utxf" }
+      "painting": { "$kind": "painting", "id": "yveltal-ex-utxf" },
+      "play": {
+        "$kind": "play",
+        "id": "yveltal-ex-cf2f"
+      }
     },
     {
       "$kind": "card",
@@ -8922,7 +9178,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-skarmory-ex-9gdy" }
+      "painting": { "$kind": "painting", "id": "mega-skarmory-ex-9gdy" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-skarmory-ex-64aa"
+      }
     },
     {
       "$kind": "card",
@@ -8981,7 +9241,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "meowth-ex-846t" }
+      "painting": { "$kind": "painting", "id": "meowth-ex-846t" },
+      "play": {
+        "$kind": "play",
+        "id": "meowth-ex-3da4"
+      }
     },
     {
       "$kind": "card",
@@ -9033,7 +9297,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "energy-recycler-7cuu" }
+      "painting": { "$kind": "painting", "id": "energy-recycler-7cuu" },
+      "play": {
+        "$kind": "play",
+        "id": "energy-recycler-e8bf"
+      }
     },
     {
       "$kind": "card",
@@ -9085,7 +9353,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "forest-of-vitality-j13u" }
+      "painting": { "$kind": "painting", "id": "forest-of-vitality-j13u" },
+      "play": {
+        "$kind": "play",
+        "id": "forest-of-vitality-425f"
+      }
     },
     {
       "$kind": "card",
@@ -9145,7 +9417,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "jacinthe-6if4" }
+      "painting": { "$kind": "painting", "id": "jacinthe-6if4" },
+      "play": {
+        "$kind": "play",
+        "id": "jacinthe-e530"
+      }
     },
     {
       "$kind": "card",
@@ -9197,7 +9473,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "lumiose-city-ixcz" }
+      "painting": { "$kind": "painting", "id": "lumiose-city-ixcz" },
+      "play": {
+        "$kind": "play",
+        "id": "lumiose-city-3fdc"
+      }
     },
     {
       "$kind": "card",
@@ -9257,7 +9537,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "naveen-m446" }
+      "painting": { "$kind": "painting", "id": "naveen-m446" },
+      "play": {
+        "$kind": "play",
+        "id": "naveen-c7cd"
+      }
     },
     {
       "$kind": "card",
@@ -9309,7 +9593,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "poke-pad-hx46" }
+      "painting": { "$kind": "painting", "id": "poke-pad-hx46" },
+      "play": {
+        "$kind": "play",
+        "id": "poke-pad-48a1"
+      }
     },
     {
       "$kind": "card",
@@ -9369,7 +9657,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "rosa-s-encouragement-8vz2" }
+      "painting": { "$kind": "painting", "id": "rosa-s-encouragement-8vz2" },
+      "play": {
+        "$kind": "play",
+        "id": "rosa-s-encouragement-6552"
+      }
     },
     {
       "$kind": "card",
@@ -9421,7 +9713,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "sacred-ash-bjms" }
+      "painting": { "$kind": "painting", "id": "sacred-ash-bjms" },
+      "play": {
+        "$kind": "play",
+        "id": "sacred-ash-d1d1"
+      }
     },
     {
       "$kind": "card",
@@ -9481,7 +9777,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "tarragon-240p" }
+      "painting": { "$kind": "painting", "id": "tarragon-240p" },
+      "play": {
+        "$kind": "play",
+        "id": "tarragon-d8a9"
+      }
     },
     {
       "$kind": "card",
@@ -9533,7 +9833,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "wondrous-patch-3nq8" }
+      "painting": { "$kind": "painting", "id": "wondrous-patch-3nq8" },
+      "play": {
+        "$kind": "play",
+        "id": "wondrous-patch-ada3"
+      }
     },
     {
       "$kind": "card",
@@ -9598,7 +9902,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-starmie-ex-jwz3" }
+      "painting": { "$kind": "painting", "id": "mega-starmie-ex-jwz3" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-starmie-ex-4882"
+      }
     },
     {
       "$kind": "card",
@@ -9663,7 +9971,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-clefable-ex-ye9i" }
+      "painting": { "$kind": "painting", "id": "mega-clefable-ex-ye9i" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-clefable-ex-c145"
+      }
     },
     {
       "$kind": "card",
@@ -9728,7 +10040,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-7z9v" }
+      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-7z9v" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-zygarde-ex-0e69"
+      }
     },
     {
       "$kind": "card",
@@ -9787,7 +10103,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "meowth-ex-8k3a" }
+      "painting": { "$kind": "painting", "id": "meowth-ex-8k3a" },
+      "play": {
+        "$kind": "play",
+        "id": "meowth-ex-3da4"
+      }
     },
     {
       "$kind": "card",
@@ -9847,7 +10167,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "jacinthe-33bt" }
+      "painting": { "$kind": "painting", "id": "jacinthe-33bt" },
+      "play": {
+        "$kind": "play",
+        "id": "jacinthe-e530"
+      }
     },
     {
       "$kind": "card",
@@ -9907,7 +10231,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "rosa-s-encouragement-2h7k" }
+      "painting": { "$kind": "painting", "id": "rosa-s-encouragement-2h7k" },
+      "play": {
+        "$kind": "play",
+        "id": "rosa-s-encouragement-6552"
+      }
     },
     {
       "$kind": "card",
@@ -9972,7 +10300,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-t1mg" }
+      "painting": { "$kind": "painting", "id": "mega-zygarde-ex-t1mg" },
+      "play": {
+        "$kind": "play",
+        "id": "mega-zygarde-ex-0e69"
+      }
     }
   ]
 }

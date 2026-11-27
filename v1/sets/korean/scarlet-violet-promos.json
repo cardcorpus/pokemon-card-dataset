@@ -26,63 +26,8 @@
   "links": [
     {
       "$kind": "set",
-      "id": "japanese/scarlet-violet-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 121
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/terastal-festival-ex",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "thai/scarlet-violet-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 78
-    },
-    {
-      "$kind": "set",
-      "id": "zh-hant/scarlet-violet-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 84
-    },
-    {
-      "$kind": "set",
-      "id": "indonesian/scarlet-violet-promos",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 77
-    },
-    {
-      "$kind": "set",
-      "id": "indonesian/terastal-festival-ex",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "thai/terastal-festival-ex",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "zh-hans/fearless-terastal",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 5
-    },
-    {
-      "$kind": "set",
       "id": "zh-hans/sv-chinese-promos",
+      "catalog": "zh-hans",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 59
@@ -90,16 +35,82 @@
     {
       "$kind": "set",
       "id": "zh-hans/terastal-gathering",
+      "catalog": "zh-hans",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 9
     },
     {
       "$kind": "set",
+      "id": "zh-hans/fearless-terastal",
+      "catalog": "zh-hans",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 5
+    },
+    {
+      "$kind": "set",
       "id": "zh-hant/terastal-festival-ex",
+      "catalog": "zh-hant",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "thai/terastal-festival-ex",
+      "catalog": "thai",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/scarlet-violet-promos",
+      "catalog": "indonesian",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 77
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/terastal-festival-ex",
+      "catalog": "indonesian",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/scarlet-violet-promos",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 121
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/terastal-festival-ex",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/scarlet-violet-promos",
+      "catalog": "zh-hant",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 86
+    },
+    {
+      "$kind": "set",
+      "id": "thai/scarlet-violet-promos",
+      "catalog": "thai",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 78
     }
   ],
   "cards": [
@@ -1576,6 +1587,9 @@
         "date": "2023-05-19",
         "sort": "2023-05-19.00 korean/scarlet-violet-promos 00022"
       },
+      "differsInSet": {
+        "stamp": "sealed_battle_stamp"
+      },
       "picture": {
         "front": {
           "image": "db3e9b35b239e135c68af6454f448bf9",
@@ -1646,6 +1660,9 @@
           "role": "subject"
         }
       ],
+      "differsInSet": {
+        "stamp": "sealed_battle_stamp"
+      },
       "picture": {
         "front": {
           "image": "c4088f34152ff2ef2cb2cf5448aabb6e",
@@ -1681,7 +1698,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "nemona-miro" }
     },
     {
       "$kind": "card",
@@ -3653,6 +3671,7 @@
           "role": "subject"
         }
       ],
+      "differsInSet": {},
       "picture": {
         "front": {
           "image": "4b525f9a964466f178952fbc29b36969",
@@ -3684,7 +3703,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "nemona-miro" }
     },
     {
       "$kind": "card",
@@ -5039,6 +5059,9 @@
           "role": "subject"
         }
       ],
+      "differsInSet": {
+        "stamp": "sealed_battle_stamp"
+      },
       "picture": {
         "front": {
           "image": "8f83e5b2ce9081c8a412793390973e5e",
@@ -5074,7 +5097,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "nemona-miro" }
     },
     {
       "$kind": "card",
@@ -5559,6 +5583,7 @@
         "date": "2024-06-22",
         "sort": "2024-06-22.00 korean/scarlet-violet-promos 00082"
       },
+      "differsInSet": {},
       "picture": {
         "front": {
           "image": "777924522f9ea93d44e042c4c49da513",
@@ -5590,7 +5615,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "rare-candy-t44l" }
     },
     {
       "$kind": "card",
@@ -6576,7 +6602,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "super-rod-gm76" }
     },
     {
       "$kind": "card",
@@ -7085,6 +7112,9 @@
           "role": "subject"
         }
       ],
+      "differsInSet": {
+        "stamp": "sealed_battle_stamp"
+      },
       "picture": {
         "front": {
           "image": "6107974c64ca546dc332b7c3ef06b7da",
@@ -7120,7 +7150,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "nemona-miro" }
     },
     {
       "$kind": "card",
@@ -10129,7 +10160,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "lillie-s-ribombee-3uiy" }
     },
     {
       "$kind": "card",
@@ -11036,6 +11068,9 @@
           "role": "subject"
         }
       ],
+      "differsInSet": {
+        "stamp": "sealed_battle_stamp"
+      },
       "picture": {
         "front": {
           "image": "0dd9bcd5e62deb78e8f205268928ea97",
@@ -11578,7 +11613,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "psyduck-n56o" }
     },
     {
       "$kind": "card",
@@ -11642,7 +11678,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "golduck-e1ef" }
     },
     {
       "$kind": "card",
@@ -11838,7 +11875,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "night-stretcher-ja75" }
     },
     {
       "$kind": "card",
@@ -13621,7 +13659,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -13674,7 +13713,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -13727,7 +13767,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -13780,7 +13821,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -13833,7 +13875,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -13886,7 +13929,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -13939,7 +13983,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -13992,7 +14037,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14045,7 +14091,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -14098,7 +14145,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -14151,7 +14199,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14204,7 +14253,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -14257,7 +14307,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -14310,7 +14361,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14363,7 +14415,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -14416,7 +14469,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -14469,7 +14523,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14522,7 +14577,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -14575,7 +14631,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -14628,7 +14685,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14681,7 +14739,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -14734,7 +14793,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -14787,7 +14847,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14840,7 +14901,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -14893,7 +14955,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -14946,7 +15009,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -14999,7 +15063,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -15052,7 +15117,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -15105,7 +15171,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -15158,7 +15225,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -15211,7 +15279,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -15264,7 +15333,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -15317,7 +15387,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -15370,7 +15441,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -15423,7 +15495,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -15476,7 +15549,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     },
     {
       "$kind": "card",
@@ -15529,7 +15603,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-kcne" }
     },
     {
       "$kind": "card",
@@ -15582,7 +15657,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-13ru" }
     },
     {
       "$kind": "card",
@@ -15635,7 +15711,8 @@
           ]
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "victory-symbol-xsgf" }
     }
   ]
 }

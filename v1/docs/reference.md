@@ -89,8 +89,9 @@ Every set of one catalog (`sets/english.json`, `sets/japanese.json` and so on, o
 | `sets[].printedTotal`? | integer | The total its card numbers print (the 102 of 4/102), where they print one. |
 | `sets[].actualTotal`? | integer | How many cards the set has by its own count, secret cards included, where known. |
 | `sets[].cardCount` | integer | How many cards the set has in its `cards`; always present, 0 included. |
-| `sets[].released`? | object | When the set came out came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
+| `sets[].released`? | object | When the set came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `sets[].released.date`? | date | The date: 1999, 1999-06 or 1999-06-16. |
+| `sets[].released.inferred`? | `true` | `true` where the date is an estimate: no page dates the set's print in its language, so its year is borrowed from another language's print (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `sets[].code`? | string | The set code it prints. |
 | `sets[].printedCode`? | string or null | The set code and language mark its cards print where they name their set, as printed (in the set code's letter case): "PBL FR", "M6a F", "CSV3C", "SV9a". Null where the cards print no code of their own (Base Set); absent where nobody has checked yet (https://pokemon.cardcorpus.com/v1/docs/guide.md#printed-codes). |
 | `sets[].logo`? | picture id | Its logo. |
@@ -123,8 +124,9 @@ One set: its description, tell, print runs, versions and links, and every card w
 | `printedTotal`? | integer | The total its card numbers print (the 102 of 4/102), where they print one. |
 | `actualTotal`? | integer | How many cards the set has by its own count, secret cards included, where known. |
 | `cardCount` | integer | How many cards the set has in its `cards`; always present, 0 included. |
-| `released`? | object | When the set came out came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
+| `released`? | object | When the set came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `released.date`? | date | The date: 1999, 1999-06 or 1999-06-16. |
+| `released.inferred`? | `true` | `true` where the date is an estimate: no page dates the set's print in its language, so its year is borrowed from another language's print (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `code`? | string | The set code it prints. |
 | `printedCode`? | string or null | The set code and language mark its cards print where they name their set, as printed (in the set code's letter case): "PBL FR", "M6a F", "CSV3C", "SV9a". Null where the cards print no code of their own (Base Set); absent where nobody has checked yet (https://pokemon.cardcorpus.com/v1/docs/guide.md#printed-codes). |
 | `logo`? | picture id | Its logo. |
@@ -154,8 +156,9 @@ One set: its description, tell, print runs, versions and links, and every card w
 | `distributions[].as`? | vocabulary `distribution` | How the variant came out of a distribution that also handed out others: as a `prize` or to `staff`. |
 | `distributions[].region`? | string | Where it was handed out, where only in some places. |
 | `backImage`? | picture id | The back every card of the set shares, where that is unlike the usual one (a World Championships Deck's). |
-| `links`? | list of pointer → set | The set's links to other sets. |
+| `links`? | list of pointer → set | The set's links to other sets, in the order to show them: by `relation` (`equivalent`, `merged_into`, `subset_of`, `companion`), outgoing before incoming, by catalog in the vocabulary's order, then the most cards in common first. |
 | `links[].id` | string | The set's id (sets/{catalog}.json). |
+| `links[].catalog` | vocabulary `catalog` | The catalog the other set is in: whether it is in another language, and which, without reading its id. |
 | `links[].relation` | vocabulary `setLink` | What the other set is to this one. |
 | `links[].direction` | `incoming`, `outgoing` | Which way the link reads: `outgoing` from this set to the other, or `incoming` from the other to this one. |
 | `links[].sameCardCount` | integer | How many of the two sets' cards are linked as the same card; always present, 0 included. |
@@ -176,7 +179,7 @@ One set: its description, tell, print runs, versions and links, and every card w
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `cards[].released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `cards[].released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `cards[].released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `cards[].released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `cards[].credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `cards[].artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `cards[].artists[].id` | string | The artist's id (artists.json). |
@@ -267,6 +270,8 @@ One set: its description, tell, print runs, versions and links, and every card w
 | `cards[].variants[].distributions[].region`? | string | Where it was handed out, where only in some places. |
 | `cards[].printRuns`? | list of pointer → variant | On a card printed in more than one run: its standard variant and print runs, in printing order (https://pokemon.cardcorpus.com/v1/docs/guide.md#telling-variants-apart). |
 | `cards[].printRuns[].id` | string | The variant's id, unique among its card's variants. |
+| `cards[].play`? | pointer → play | The cards that play the same as it, whatever their picture, where there are others: the same name and text that works the same, so one may stand in for another in a deck. Its file (plays/{id}.json) lists them all. English cards only, for now (https://pokemon.cardcorpus.com/v1/docs/guide.md#plays). |
+| `cards[].play.id` | string | The play's own id: its cards' English name and a short code, such as `switch-4175`. It stays the same as cards join the play. |
 
 ## CardCorpus eras
 
@@ -584,7 +589,7 @@ One distribution in full: one way cards reached people other than in booster pac
 | `variants[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `variants[].released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `variants[].released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `variants[].released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `variants[].released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `variants[].credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `variants[].artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `variants[].artists[].id` | string | The artist's id (artists.json). |
@@ -685,7 +690,7 @@ One artist's cards in one catalog: every card of it whose credit names them (the
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `cards[].released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `cards[].released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `cards[].released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `cards[].released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `cards[].credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `cards[].artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `cards[].artists[].id` | string | The artist's id (artists.json). |
@@ -749,7 +754,7 @@ Every card of one species in one catalog, oldest first (https://pokemon.cardcorp
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `cards[].released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `cards[].released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `cards[].released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `cards[].released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `cards[].credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `cards[].artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `cards[].artists[].id` | string | The artist's id (artists.json). |
@@ -791,7 +796,7 @@ Every card of one species in one catalog, oldest first (https://pokemon.cardcorp
 | `forms[].cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `forms[].cards[].released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `forms[].cards[].released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `forms[].cards[].released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `forms[].cards[].released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `forms[].cards[].credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `forms[].cards[].artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `forms[].cards[].artists[].id` | string | The artist's id (artists.json). |
@@ -840,7 +845,7 @@ One person's cards in one catalog: every card of it they're on, oldest first, ea
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `cards[].released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `cards[].released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `cards[].released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `cards[].released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `cards[].credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `cards[].artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `cards[].artists[].id` | string | The artist's id (artists.json). |
@@ -985,7 +990,7 @@ One painting, with every print of it in every language and how each links to the
 | `prints.{key}.{key}.released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
 | `prints.{key}.{key}.released.date`? | date | The date, as precisely as is known: 2001, 2001-09 or 2001-09-22; absent where neither the card's nor the set's is known. |
 | `prints.{key}.{key}.released.sort` | string | Sorts cards oldest first, every list alike: compare as plain strings. An ordering convention, not a date; every card has one. |
-| `prints.{key}.{key}.released.inferred`? | `true` | `true` where the card's own date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
+| `prints.{key}.{key}.released.inferred`? | `true` | `true` where the card's date is an estimate: no page dates the card itself, so its year is borrowed from another language's print or worked out from its neighbours, its copyright line or its product, or it takes its set's date, which is one (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise. |
 | `prints.{key}.{key}.credit`? | string | The credit as printed ("CR CG gangs & K. Hoshiba"). |
 | `prints.{key}.{key}.artists`? | list of pointer → artist | The people the credit names, in credit order, each by pointer with the name as this card prints it; a director's credit names no one. |
 | `prints.{key}.{key}.artists[].id` | string | The artist's id (artists.json). |
@@ -1020,6 +1025,91 @@ One painting, with every print of it in every language and how each links to the
 | `prints.{key}.{key}.links.reprints[].differs` | list of vocabulary `differs` | What sets the reprint apart from the original; empty when nothing we compare differs, which is itself a fact. |
 | `prints.{key}.{key}.links.parallels`? | list of pointer → card | Its other prints in its own set, in number order (https://pokemon.cardcorpus.com/v1/docs/guide.md#parallels). |
 | `prints.{key}.{key}.links.parallels[].id` | string | The card's id, unique in its set. |
+
+## CardCorpus play
+
+`/v1/schema/play.schema.json`
+
+The cards that play the same, whatever their picture: one name and one text that works the same way, so an older print may stand in for a newer one in a deck. Base Set's Switch and Scarlet & Violet's are one play though their wording differs; a card that shuffles 3 cards and one that shuffles up to 3 are two. Official errata count: every Potion heals 30, so every Potion is one play. A card's `play` names this file, plays/{id}.json; only plays of more than one card have one. English cards only, for now: a translation sometimes words a card so it plays differently (https://pokemon.cardcorpus.com/v1/docs/guide.md#plays).
+
+| Field | Type | Description |
+| --- | --- | --- |
+| `id` | string | The play's own id: its cards' English name and a short code, such as `switch-4175`. It stays the same as cards join the play. |
+| `name` | string | The name its cards share. |
+| `cardCount` | integer | How many cards are in it: the length of `cards`. |
+| `errata`? | list of object | The official errata its cards play by, where any do: an erratum to the name rewrites every card of it (every Potion heals 30), one to a printing corrects that printing only. Its cards whose `basis` is `errata` play by them. |
+| `errata[].id` | string | The erratum's id, such as `potion`. |
+| `errata[].scope` | `name`, `printing`, `rule` | What it corrects: `name`, every card of that name; `printing`, the printing named; `rule`, a kind of card. |
+| `errata[].name` | string | The card name it corrects. |
+| `errata[].text`? | list of string | The corrected text, one string a paragraph, for an erratum to a name. |
+| `errata[].parts`? | object | For an erratum to a printing, the parts it corrects, as the card's printed text names them (`attack1 text`, `ability1 text`, `attack2 cost`, `retreat`, `effect`), with their corrected value. |
+| `errata[].change` | string | What it changed, in Pokémon's words. |
+| `errata[].listed` | string | When Pokémon's errata page that lists it was last updated, YYYY-MM-DD. |
+| `cards` | list of pointer → card | Every card in it, oldest first. |
+| `cards[].id` | string | The card's id, unique in its set. |
+| `cards[].name` | string | A copy of the target's own `name`. |
+| `cards[].englishName`? | string | A copy of the target's own `englishName`. |
+| `cards[].subtitle`? | string | A copy of the target's own `subtitle`. The smaller name the card prints beside its own, as it prints it, in its language, where it prints one: "Professeur Chen" on a French Professor's Research, "オーキド博士" on a Japanese one. Where we have no printed subtitle, the English one on a card whose `name` is its English one (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles). |
+| `cards[].englishSubtitle`? | string | A copy of the target's own `englishSubtitle`. The smaller name the card prints beside its own, in English, where it prints one: the professor on a Professor's Research ("Professor Oak"), the boss on a Boss's Orders ("Ghetsis"). It says which of the cards sharing a name this is, but isn't part of the name: a deck counts them all as one card. Always one of the card's `characters` (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles). Our own pages show it joined to the name: "Professor's Research (Professor Oak)". |
+| `cards[].number` | object | A copy of the target's own `number`. Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
+| `cards[].number.printed`? | string | The number as printed, where the card prints one. |
+| `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
+| `cards[].picture`? | object | A copy of the card's front picture id. |
+| `cards[].picture.front` | object | Its front. |
+| `cards[].picture.front.image` | picture id | The picture's id. |
+| `cards[].basis`? | `identical`, `wording`, `errata`, `unread` | Why it is in the play, from its printed text, read off its picture: `identical`, it prints the play's wording (the one most of its cards print); `wording`, it words it differently in a way that plays the same; `errata`, an official erratum (`errata`) makes it play the same; `unread`, its own text isn't read yet, so it is here by being a reprint or by its sources' text. |
+
+## CardCorpus printed text of a set
+
+`/v1/schema/text.schema.json`
+
+What each card of a set prints, word for word: names, levels, attacks, abilities, trainer and energy text, rule boxes and rule lines, weakness and resistance as printed, and flavor text. English cards are read off their pictures; other languages' text comes from official and other card lists and is not yet checked against the cards (`checked`: `source`). It is the print, not how the card plays now: official errata are in the play files (plays/{id}.json). A card we have no text for is not listed. text/{set}.json, by the set's id (https://pokemon.cardcorpus.com/v1/docs/guide.md#printed-text).
+
+| Field | Type | Description |
+| --- | --- | --- |
+| `set` | pointer → set | The set. |
+| `set.id` | string | The set's id (sets/{catalog}.json). |
+| `cardCount` | integer | How many cards are listed: the length of `cards`. |
+| `cards` | list of pointer → card | Its cards whose text is read, in the set file's order. |
+| `cards[].id` | string | The card's id, unique in its set. |
+| `cards[].name` | string | A copy of the target's own `name`. |
+| `cards[].number`? | object | A copy of the target's own `number`. Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
+| `cards[].number.printed`? | string | The number as printed, where the card prints one. |
+| `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
+| `cards[].text` | object | What the card prints, as printed (case and punctuation kept, italics dropped). Energy symbols are type names: in costs and `types` as `Lightning`, `Colorless`; inside text in braces, `{Darkness}`. |
+| `cards[].text.name`? | string | The name as printed, with its suffix (`ex`, `EX`, `GX`, `V`, `LV.X`, `δ`); empty for a basic Energy that prints only ENERGY and its symbol. |
+| `cards[].text.level`? | integer or null | A printed level, such as 42 for LV.42; null where none is printed. |
+| `cards[].text.kind`? | string | `pokemon`, `trainer` or `energy`. |
+| `cards[].text.subtype`? | string or null | The category of a trainer or energy, in English in every language: `Item`, `Supporter`, `Stadium`, `Pokémon Tool`, `Trainer`, `Basic Energy`, `Special Energy`, … |
+| `cards[].text.stage`? | string or null | A Pokémon's stage, in English in every language: `Basic`, `Stage 1`, `Stage 2`, `BREAK`, `VMAX`, … |
+| `cards[].text.evolvesFrom`? | string or null | The printed Evolves from name. |
+| `cards[].text.hp`? | integer or null | Printed HP. |
+| `cards[].text.types`? | list of string | The type symbols printed beside the HP. |
+| `cards[].text.markers`? | list of string | Printed labels that are neither text nor stage: `Future`, `Ancient`, `Tera`, `Rapid Strike`, `Prism Star`, `ACE SPEC`, `Team Plasma`, … |
+| `cards[].text.abilities`? | list of object | Abilities, Poké-Powers, Poké-Bodies, Pokémon Powers, Ancient Traits and the like, in printed order. |
+| `cards[].text.abilities[].label`? | string or null | Its printed label: `Ability`, `Poké-Power`, `Poké-Body`, `Pokémon Power`, `Ancient Trait`, `VSTAR Power`, … |
+| `cards[].text.abilities[].name`? | string | Its name. |
+| `cards[].text.abilities[].text`? | string | Its text. |
+| `cards[].text.attacks`? | list of object | Attacks, in printed order. |
+| `cards[].text.attacks[].label`? | string or null | `GX` or `VSTAR` for a GX attack or VSTAR Power attack, else null; the name leaves the logo out. |
+| `cards[].text.attacks[].cost`? | list of string | Its Energy cost, one type a symbol; empty for a free attack. |
+| `cards[].text.attacks[].name`? | string | Its name. |
+| `cards[].text.attacks[].damage`? | string | Damage as printed (`30`, `30+`, `20×`), empty where none. |
+| `cards[].text.attacks[].text`? | string | Its text. |
+| `cards[].text.effect`? | list of string | A trainer's or energy's text, one string a printed paragraph. |
+| `cards[].text.rules`? | list of object | Rule boxes and rule lines as printed (the Pokémon ex rule, You may play only 1 Supporter card during your turn., …). |
+| `cards[].text.rules[].label`? | string or null | Its printed label, where it has one. |
+| `cards[].text.rules[].text`? | string | Its text. |
+| `cards[].text.weakness`? | list of object | Weakness as printed. |
+| `cards[].text.weakness[].type`? | string | The type. |
+| `cards[].text.weakness[].value`? | string | The value as printed (`×2`, `+20`); empty where the card prints only the type. |
+| `cards[].text.resistance`? | list of object | Resistance as printed. |
+| `cards[].text.resistance[].type`? | string | The type. |
+| `cards[].text.resistance[].value`? | string | The value as printed (`-30`); empty where none is printed. |
+| `cards[].text.retreat`? | integer | How many retreat symbols are printed. |
+| `cards[].text.flavor`? | string or null | The Pokédex text, where printed. |
+| `cards[].checked` | `agreed`, `judged`, `picture`, `source` | How the text is known: `agreed`, a blind read of the picture matches the text other transcriptions give on every part; `judged`, they differed and each difference was settled by a closer look at the picture; `picture`, only the picture read gives it; `source`, a card list gives it and it is not yet checked against the card (languages other than English). |
+| `cards[].unsure`? | list of string | Parts a closer look could not settle; `text` keeps the read. |
 
 ## CardCorpus prices of a set
 

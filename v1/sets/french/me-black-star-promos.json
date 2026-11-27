@@ -11,8 +11,8 @@
   },
   "type": "promo",
   "language": "fr",
-  "actualTotal": 94,
-  "cardCount": 94,
+  "actualTotal": 105,
+  "cardCount": 105,
   "released": {
     "date": "2025-10-10"
   },
@@ -26,66 +26,75 @@
   "links": [
     {
       "$kind": "set",
-      "id": "japanese/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 38
-    },
-    {
-      "$kind": "set",
-      "id": "zh-hant/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 58
+      "id": "english/me-black-star-promos",
+      "catalog": "english",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 105
     },
     {
       "$kind": "set",
       "id": "german/me-black-star-promos",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 94
-    },
-    {
-      "$kind": "set",
-      "id": "indonesian/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 40
-    },
-    {
-      "$kind": "set",
-      "id": "english/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 94
+      "sameCardCount": 105
     },
     {
       "$kind": "set",
       "id": "italian/me-black-star-promos",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 94
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 85
+      "sameCardCount": 105
     },
     {
       "$kind": "set",
       "id": "spanish/me-black-star-promos",
+      "catalog": "spanish",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 94
+      "sameCardCount": 105
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/me-black-star-promos",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 96
     },
     {
       "$kind": "set",
       "id": "thai/mega-evolution-promos",
+      "catalog": "thai",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 36
+      "sameCardCount": 38
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/mega-evolution-promos",
+      "catalog": "indonesian",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 42
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/mega-evolution-promos",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 40
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/mega-evolution-promos",
+      "catalog": "zh-hant",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 64
     }
   ],
   "cards": [
@@ -1994,6 +2003,82 @@
     {
       "$kind": "card",
       "set": "french/me-black-star-promos",
+      "id": "032",
+      "name": "Méga-Gardevoir-ex",
+      "englishName": "Mega Gardevoir ex",
+      "number": {
+        "printed": "032",
+        "short": "032"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Saboteri",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "saboteri",
+          "name": "Saboteri"
+        }
+      ],
+      "released": {
+        "date": "2026-03-20",
+        "sort": "2026-03-20.00 french/me-black-star-promos 00026"
+      },
+      "description": {
+        "text": "The French print of this promo came in the Collection poster Premium Méga-Évolution Héros Transcendants Méga-Gardevoir, the French release of the Ascended Heroes Premium Poster Collection—Mega Gardevoir, sold from 20 March 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 282,
+          "name": "Gardevoir",
+          "forms": [
+            {
+              "id": "282:mega",
+              "name": "Mega Gardevoir"
+            }
+          ]
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "724977c57aac05cd3235bed2c486ce21",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "032",
+            "id": "holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "picture": {
+            "front": {
+              "image": "724977c57aac05cd3235bed2c486ce21"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "ascended-heroes-premium-poster-collection-mega-gardevoir",
+              "name": "Ascended Heroes Premium Poster Collection—Mega Gardevoir",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mega-gardevoir-ex-9zzy" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
       "id": "033",
       "name": "Méga Lucario ex",
       "englishName": "Mega Lucario ex",
@@ -2014,7 +2099,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00026"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00027"
       },
       "description": {
         "text": "The French print of this promo came in the Collection poster Premium Méga-Évolution Héros Transcendants Méga-Lucario, the French release of the Ascended Heroes Premium Poster Collection Mega Lucario, sold from 20 March 2026."
@@ -2082,7 +2167,7 @@
       ],
       "released": {
         "date": "2026-04-24",
-        "sort": "2026-04-24.00 french/me-black-star-promos 00027"
+        "sort": "2026-04-24.00 french/me-black-star-promos 00028"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Méga-Évolution Héros Transcendants Méga-Méganium-ex, the French release of the Mega Evolution Ascended Heroes Mega Meganium ex Box, sold from 24 April 2026."
@@ -2158,7 +2243,7 @@
       ],
       "released": {
         "date": "2026-04-24",
-        "sort": "2026-04-24.00 french/me-black-star-promos 00028"
+        "sort": "2026-04-24.00 french/me-black-star-promos 00029"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Méga-Évolution Héros Transcendants Méga-Roitiflam-ex, the French release of the Mega Evolution Ascended Heroes Mega Emboar ex Box, sold from 24 April 2026."
@@ -2234,7 +2319,7 @@
       ],
       "released": {
         "date": "2026-04-24",
-        "sort": "2026-04-24.00 french/me-black-star-promos 00029"
+        "sort": "2026-04-24.00 french/me-black-star-promos 00030"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Méga-Évolution Héros Transcendants Méga-Aligatueur-ex, the French release of the Mega Evolution Ascended Heroes Mega Feraligatr ex Box, sold from 24 April 2026."
@@ -2310,7 +2395,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00030"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00031"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Charmander and Squirtle promos make one long picture of Kanto."
@@ -2384,7 +2469,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00031"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00032"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Bulbasaur and Squirtle promos make one long picture of Kanto."
@@ -2458,7 +2543,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00032"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00033"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Bulbasaur and Charmander promos make one long picture of Kanto."
@@ -2532,7 +2617,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00033"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00034"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Chimchar and Piplup promos make one long picture of Sinnoh."
@@ -2606,7 +2691,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00034"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00035"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Turtwig and Piplup promos make one long picture of Sinnoh."
@@ -2680,7 +2765,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00035"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00036"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Turtwig and Chimchar promos make one long picture of Sinnoh."
@@ -2754,7 +2839,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00036"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00037"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Litten and Popplio promos make one long picture of Alola."
@@ -2828,7 +2913,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00037"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00038"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Rowlet and Popplio promos make one long picture of Alola."
@@ -2902,7 +2987,7 @@
       ],
       "released": {
         "date": "2026-03-20",
-        "sort": "2026-03-20.00 french/me-black-star-promos 00038"
+        "sort": "2026-03-20.00 french/me-black-star-promos 00039"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 1, launched 20 March 2026. Each collection held a pack of three of the nine, the first partners of Kanto, Sinnoh and Alola, with two more booster packs and a sticker sheet. Side by side, this card and the Rowlet and Litten promos make one long picture of Alola."
@@ -2976,7 +3061,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00039"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00040"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Cyndaquil and Totodile promos make one long picture of Johto."
@@ -3050,7 +3135,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00040"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00041"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Chikorita and Totodile promos make one long picture of Johto."
@@ -3124,7 +3209,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00041"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00042"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Chikorita and Cyndaquil promos make one long picture of Johto."
@@ -3198,7 +3283,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00042"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00043"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Tepig and Oshawott promos make one long picture of Unova."
@@ -3272,7 +3357,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00043"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00044"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Snivy and Oshawott promos make one long picture of Unova."
@@ -3346,7 +3431,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00044"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00045"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Snivy and Tepig promos make one long picture of Unova."
@@ -3420,7 +3505,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00045"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00046"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Scorbunny and Sobble promos make one long picture of Galar."
@@ -3494,7 +3579,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00046"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00047"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Grookey and Sobble promos make one long picture of Galar."
@@ -3568,7 +3653,7 @@
       ],
       "released": {
         "date": "2026-06-19",
-        "sort": "2026-06-19.00 french/me-black-star-promos 00047"
+        "sort": "2026-06-19.00 french/me-black-star-promos 00048"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 2, launched 19 June 2026. Each collection held a pack of three of the nine, the first partners of Johto, Unova and Galar, with two more booster packs and a sticker sheet. Side by side, this card and the Grookey and Scorbunny promos make one long picture of Galar."
@@ -3642,7 +3727,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00048"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00049"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Torchic and Mudkip promos make one long picture of Hoenn."
@@ -3716,7 +3801,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00049"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00050"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Treecko and Mudkip promos make one long picture of Hoenn."
@@ -3790,7 +3875,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00050"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00051"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Treecko and Torchic promos make one long picture of Hoenn."
@@ -3864,7 +3949,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00051"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00052"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Fennekin and Froakie promos make one long picture of Kalos."
@@ -3938,7 +4023,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00052"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00053"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Chespin and Froakie promos make one long picture of Kalos."
@@ -4012,7 +4097,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00053"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00054"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Chespin and Fennekin promos make one long picture of Kalos."
@@ -4086,7 +4171,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00054"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00055"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Fuecoco and Quaxly promos make one long picture of Paldea."
@@ -4160,7 +4245,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00055"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00056"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Sprigatito and Quaxly promos make one long picture of Paldea."
@@ -4234,7 +4319,7 @@
       ],
       "released": {
         "date": "2026-08-07",
-        "sort": "2026-08-07.00 french/me-black-star-promos 00056"
+        "sort": "2026-08-07.00 french/me-black-star-promos 00057"
       },
       "description": {
         "text": "One of nine illustration rare–style promos in the First Partner Illustration Collection—Series 3, launched 7 August 2026. Each collection held a pack of three of the nine, the first partners of Hoenn, Kalos and Paldea, with two more booster packs and a sticker sheet. Side by side, this card and the Sprigatito and Fuecoco promos make one long picture of Paldea."
@@ -4308,7 +4393,7 @@
       ],
       "released": {
         "date": "2026-03-14",
-        "sort": "2026-03-14.00 french/me-black-star-promos 00057"
+        "sort": "2026-03-14.00 french/me-black-star-promos 00058"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Équilibre Parfait, the French release of the Mega Evolution Perfect Order Build & Battle Box, sold from 14 March 2026."
@@ -4382,7 +4467,7 @@
       ],
       "released": {
         "date": "2026-03-14",
-        "sort": "2026-03-14.00 french/me-black-star-promos 00058"
+        "sort": "2026-03-14.00 french/me-black-star-promos 00059"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Équilibre Parfait, the French release of the Mega Evolution Perfect Order Build & Battle Box, sold from 14 March 2026."
@@ -4456,7 +4541,7 @@
       ],
       "released": {
         "date": "2026-03-14",
-        "sort": "2026-03-14.00 french/me-black-star-promos 00059"
+        "sort": "2026-03-14.00 french/me-black-star-promos 00060"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Équilibre Parfait, the French release of the Mega Evolution Perfect Order Build & Battle Box, sold from 14 March 2026."
@@ -4530,7 +4615,7 @@
       ],
       "released": {
         "date": "2026-03-14",
-        "sort": "2026-03-14.00 french/me-black-star-promos 00060"
+        "sort": "2026-03-14.00 french/me-black-star-promos 00061"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Équilibre Parfait, the French release of the Mega Evolution Perfect Order Build & Battle Box, sold from 14 March 2026."
@@ -4604,7 +4689,7 @@
       ],
       "released": {
         "date": "2026-03-27",
-        "sort": "2026-03-27.00 french/me-black-star-promos 00061"
+        "sort": "2026-03-27.00 french/me-black-star-promos 00062"
       },
       "description": {
         "text": "The French print of this promo came in the Tripack ME03 Germignon, the French release of the Perfect Order Three Pack Blisters Chikorita, sold from 27 March 2026."
@@ -4666,7 +4751,7 @@
       ],
       "released": {
         "date": "2026-03-27",
-        "sort": "2026-03-27.00 french/me-black-star-promos 00062"
+        "sort": "2026-03-27.00 french/me-black-star-promos 00063"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Dresseur d'élite Méga-Évolution Équilibre Parfait, the French release of the Mega Evolution Perfect Order Elite Trainer Box, sold from 27 March 2026."
@@ -4736,7 +4821,7 @@
       ],
       "released": {
         "date": "2026-05-01",
-        "sort": "2026-05-01.00 french/me-black-star-promos 00063"
+        "sort": "2026-05-01.00 french/me-black-star-promos 00064"
       },
       "description": {
         "text": "The French print of this promo came in the Collection Premium Méga-Zygarde-ex, the French release of the Mega Zygarde ex Premium Collection, sold from 1 May 2026."
@@ -4812,7 +4897,7 @@
       ],
       "released": {
         "date": "2026-06-05",
-        "sort": "2026-06-05.00 french/me-black-star-promos 00064"
+        "sort": "2026-06-05.00 french/me-black-star-promos 00065"
       },
       "description": {
         "text": "The French print of this promo came in the Boîte Méga Clair de Lune Méga-Mélodelfe-ex, the French release of the Mega Moonlit Tin Mega Clefable ex, sold from 5 June 2026."
@@ -4888,7 +4973,7 @@
       ],
       "released": {
         "date": "2026-06-05",
-        "sort": "2026-06-05.00 french/me-black-star-promos 00065"
+        "sort": "2026-06-05.00 french/me-black-star-promos 00066"
       },
       "description": {
         "text": "The French print of this promo came in the Boîte Méga Clair de Lune Méga-Ectoplasma-ex, the French release of the Mega Moonlit Tin Mega Gengar ex, sold from 5 June 2026."
@@ -4964,7 +5049,7 @@
       ],
       "released": {
         "date": "2026-05-09",
-        "sort": "2026-05-09.00 french/me-black-star-promos 00066"
+        "sort": "2026-05-09.00 french/me-black-star-promos 00067"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Chaos Ascendant, the Build & Battle Box of Méga-Évolution Chaos Ascendant (Chaos Rising), the kit used at prerelease tournaments for the expansion, which reached French shops on 22 May 2026."
@@ -5038,7 +5123,7 @@
       ],
       "released": {
         "date": "2026-05-09",
-        "sort": "2026-05-09.00 french/me-black-star-promos 00067"
+        "sort": "2026-05-09.00 french/me-black-star-promos 00068"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Chaos Ascendant, the Build & Battle Box of Méga-Évolution Chaos Ascendant (Chaos Rising), the kit used at prerelease tournaments for the expansion, which reached French shops on 22 May 2026."
@@ -5112,7 +5197,7 @@
       ],
       "released": {
         "date": "2026-05-09",
-        "sort": "2026-05-09.00 french/me-black-star-promos 00068"
+        "sort": "2026-05-09.00 french/me-black-star-promos 00069"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Chaos Ascendant, the Build & Battle Box of Méga-Évolution Chaos Ascendant (Chaos Rising), the kit used at prerelease tournaments for the expansion, which reached French shops on 22 May 2026."
@@ -5186,7 +5271,7 @@
       ],
       "released": {
         "date": "2026-05-09",
-        "sort": "2026-05-09.00 french/me-black-star-promos 00069"
+        "sort": "2026-05-09.00 french/me-black-star-promos 00070"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Chaos Ascendant, the Build & Battle Box of Méga-Évolution Chaos Ascendant (Chaos Rising), the kit used at prerelease tournaments for the expansion, which reached French shops on 22 May 2026."
@@ -5240,6 +5325,76 @@
     {
       "$kind": "card",
       "set": "french/me-black-star-promos",
+      "id": "079",
+      "name": "Reptincel",
+      "englishName": "Charmeleon",
+      "number": {
+        "printed": "079",
+        "short": "079"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Teeziro",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "teeziro",
+          "name": "Teeziro"
+        }
+      ],
+      "released": {
+        "date": "2026-05-22",
+        "sort": "2026-05-22.00 french/me-black-star-promos 00071"
+      },
+      "description": {
+        "text": "The French print of this promo came in the Tripack ME04 Reptincel, the French release of the Chaos Rising Triple Pack Blister, sold from 22 May 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 5,
+          "name": "Charmeleon"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "d33fe179c0628839c94c57c7e3dc46ee",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "079",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "d33fe179c0628839c94c57c7e3dc46ee"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "chaos-rising-triple-pack-blister",
+              "name": "Chaos Rising Triple Pack Blister",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "charmeleon-5ye2" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
       "id": "080",
       "name": "Feunnec",
       "englishName": "Fennekin",
@@ -5260,7 +5415,7 @@
       ],
       "released": {
         "date": "2026-05-22",
-        "sort": "2026-05-22.00 french/me-black-star-promos 00070"
+        "sort": "2026-05-22.00 french/me-black-star-promos 00072"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Dresseur d'élite Méga-Évolution Chaos Ascendant, the French release of the Mega Evolution Chaos Rising Elite Trainer Box, sold from 22 May 2026."
@@ -5330,7 +5485,7 @@
       ],
       "released": {
         "date": "2026-07-03",
-        "sort": "2026-07-03.00 french/me-black-star-promos 00071"
+        "sort": "2026-07-03.00 french/me-black-star-promos 00073"
       },
       "description": {
         "text": "The French print of this promo came in the Collection Premium Méga-Amphinobi-ex, the French release of the Mega Greninja ex Premium Collection, sold from 3 July 2026."
@@ -5406,7 +5561,7 @@
       ],
       "released": {
         "date": "2026-07-04",
-        "sort": "2026-07-04.00 french/me-black-star-promos 00072"
+        "sort": "2026-07-04.00 french/me-black-star-promos 00074"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Nuit Noire, the Build & Battle Box of Méga-Évolution Nuit Noire (Pitch Black), the kit used at prerelease tournaments for the expansion, which reached French shops on 17 July 2026."
@@ -5480,7 +5635,7 @@
       ],
       "released": {
         "date": "2026-07-04",
-        "sort": "2026-07-04.00 french/me-black-star-promos 00073"
+        "sort": "2026-07-04.00 french/me-black-star-promos 00075"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Nuit Noire, the Build & Battle Box of Méga-Évolution Nuit Noire (Pitch Black), the kit used at prerelease tournaments for the expansion, which reached French shops on 17 July 2026."
@@ -5554,7 +5709,7 @@
       ],
       "released": {
         "date": "2026-07-04",
-        "sort": "2026-07-04.00 french/me-black-star-promos 00074"
+        "sort": "2026-07-04.00 french/me-black-star-promos 00076"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Nuit Noire, the Build & Battle Box of Méga-Évolution Nuit Noire (Pitch Black), the kit used at prerelease tournaments for the expansion, which reached French shops on 17 July 2026."
@@ -5628,7 +5783,7 @@
       ],
       "released": {
         "date": "2026-07-04",
-        "sort": "2026-07-04.00 french/me-black-star-promos 00075"
+        "sort": "2026-07-04.00 french/me-black-star-promos 00077"
       },
       "description": {
         "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Nuit Noire, the Build & Battle Box of Méga-Évolution Nuit Noire (Pitch Black), the kit used at prerelease tournaments for the expansion, which reached French shops on 17 July 2026."
@@ -5702,7 +5857,7 @@
       ],
       "released": {
         "date": "2026-07-17",
-        "sort": "2026-07-17.00 french/me-black-star-promos 00076"
+        "sort": "2026-07-17.00 french/me-black-star-promos 00078"
       },
       "description": {
         "text": "The French print of this promo came in the Tripack ME05 Opermine, the French release of the Mega Evolution Pitch Black Three Pack Blisters Binacle, sold from 17 July 2026."
@@ -5764,7 +5919,7 @@
       ],
       "released": {
         "date": "2026-07-17",
-        "sort": "2026-07-17.00 french/me-black-star-promos 00077"
+        "sort": "2026-07-17.00 french/me-black-star-promos 00079"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Dresseur d'élite Méga-Évolution Nuit Noire, the French release of the Mega Evolution Pitch Black Elite Trainer Box, sold from 17 July 2026."
@@ -5834,7 +5989,7 @@
       ],
       "released": {
         "date": "2026-08-28",
-        "sort": "2026-08-28.00 french/me-black-star-promos 00078"
+        "sort": "2026-08-28.00 french/me-black-star-promos 00080"
       },
       "species": [
         {
@@ -5899,7 +6054,7 @@
       ],
       "released": {
         "date": "2026-08-28",
-        "sort": "2026-08-28.00 french/me-black-star-promos 00079"
+        "sort": "2026-08-28.00 french/me-black-star-promos 00081"
       },
       "description": {
         "text": "Paradise Resort was the promo card of the 2026 Pokémon World Championships in San Francisco, held from 28 to 30 August 2026 and the first Worlds split across two venues, the Moscone Center for the main event and the Chase Center for Championship Sunday. Naoki Saito's art features Gimmighoul, Psyduck, Sudowoodo, Klawf, Fidough, Charjabug, Spheal, Archaludon and Sylveon; it was revealed in June 2026 along with the competitors' welcome kits. Competitors received the card, staff got a Staff copy, and the top finishers got copies stamped with their placement."
@@ -5962,7 +6117,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00080",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00082",
         "inferred": true
       },
       "description": {
@@ -6043,7 +6198,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00081",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00083",
         "inferred": true
       },
       "species": [
@@ -6115,7 +6270,7 @@
       ],
       "released": {
         "date": "2026-09-16",
-        "sort": "2026-09-16.00 french/me-black-star-promos 00082"
+        "sort": "2026-09-16.00 french/me-black-star-promos 00084"
       },
       "description": {
         "text": "The French print of this promo came in the Collection poster 30e Anniversaire, the French release of the 30th Celebration Poster Collection, sold from 16 September 2026."
@@ -6189,7 +6344,7 @@
       ],
       "released": {
         "date": "2026-09-16",
-        "sort": "2026-09-16.00 french/me-black-star-promos 00083"
+        "sort": "2026-09-16.00 french/me-black-star-promos 00085"
       },
       "description": {
         "text": "The French print of this promo came in the Collection poster 30e Anniversaire, the French release of the 30th Celebration Poster Collection, sold from 16 September 2026."
@@ -6263,7 +6418,7 @@
       ],
       "released": {
         "date": "2026-09-16",
-        "sort": "2026-09-16.00 french/me-black-star-promos 00084"
+        "sort": "2026-09-16.00 french/me-black-star-promos 00086"
       },
       "description": {
         "text": "The French print of this promo came in the Collection poster 30e Anniversaire, the French release of the 30th Celebration Poster Collection, sold from 16 September 2026."
@@ -6337,7 +6492,7 @@
       ],
       "released": {
         "date": "2026-09-16",
-        "sort": "2026-09-16.00 french/me-black-star-promos 00085"
+        "sort": "2026-09-16.00 french/me-black-star-promos 00087"
       },
       "description": {
         "text": "The night-themed card of the 30th Celebration Pokémon ex Boxes, launched 16 September 2026: the Greninja ex Box held it as a foil promo and as a foil oversize card, with four 30th Celebration boosters, and the day-themed Sylveon ex Box held Sylveon ex. In mainland China the same art came in the Greninja ex version of the 30th Celebration Card Display Set."
@@ -6411,7 +6566,7 @@
       ],
       "released": {
         "date": "2026-09-16",
-        "sort": "2026-09-16.00 french/me-black-star-promos 00086"
+        "sort": "2026-09-16.00 french/me-black-star-promos 00088"
       },
       "description": {
         "text": "The day-themed card of the 30th Celebration Pokémon ex Boxes, launched 16 September 2026: the Sylveon ex Box held it as a foil promo and as a foil oversize card, with four 30th Celebration boosters, and the night-themed Greninja ex Box held Greninja ex. In mainland China the same art came in the Sylveon ex version of the 30th Celebration Card Display Set."
@@ -6485,7 +6640,7 @@
       ],
       "released": {
         "date": "2026-09-16",
-        "sort": "2026-09-16.00 french/me-black-star-promos 00087"
+        "sort": "2026-09-16.00 french/me-black-star-promos 00089"
       },
       "description": {
         "text": "The French print of this promo came in the Coffret Dresseur d'élite 30e Anniversaire, the French release of the 30th Celebration Elite Trainer Box, sold from 16 September 2026."
@@ -6555,7 +6710,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00088",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00090",
         "inferred": true
       },
       "species": [
@@ -6627,7 +6782,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00089",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00091",
         "inferred": true
       },
       "species": [
@@ -6679,6 +6834,231 @@
     {
       "$kind": "card",
       "set": "french/me-black-star-promos",
+      "id": "104",
+      "name": "Mewtwo",
+      "englishName": "Mewtwo",
+      "number": {
+        "printed": "104",
+        "short": "104"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Nisota Niso",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "nisota-niso",
+          "name": "Nisota Niso"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00092",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Collection avec figurine 30e Anniversaire Mewtwo, the French release of the 30th Celebration Figure Collection — Mewtwo."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 150,
+          "name": "Mewtwo"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "8628ca8dcdc8458c6a7a613127a069af",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "104",
+            "id": "cosmos-holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "8628ca8dcdc8458c6a7a613127a069af"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-figure-collection-mewtwo",
+              "name": "30th Celebration Figure Collection—Mewtwo",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mewtwo-0hnf" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "105",
+      "name": "Mew",
+      "englishName": "Mew",
+      "number": {
+        "printed": "105",
+        "short": "105"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Cona Nitanda",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "cona-nitanda",
+          "name": "Cona Nitanda"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00093",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Collection avec figurine 30e Anniversaire Mew, the French release of the 30th Celebration Figure Collection — Mew."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 151,
+          "name": "Mew"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "1c821b5a3e041ca5f70c689ead959e7f",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "105",
+            "id": "cosmos-holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "1c821b5a3e041ca5f70c689ead959e7f"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-figure-collection-mew",
+              "name": "30th Celebration Figure Collection—Mew",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mew-4lei" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "106",
+      "name": "Métamorph",
+      "englishName": "Ditto",
+      "number": {
+        "printed": "106",
+        "short": "106"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Ounishi",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "ounishi",
+          "name": "Ounishi"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00094",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Collection Premium Métamorph 30e Anniversaire, the French release of the 30th Celebration Ditto Premium Collection, sold from 6 November 2026 with eight 30th Celebration booster packs."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 132,
+          "name": "Ditto"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "49267ee86260d3cd23388947ebd88e8a",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "106",
+            "id": "holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "49267ee86260d3cd23388947ebd88e8a"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-ditto-premium-collection",
+              "name": "30th Celebration Ditto Premium Collection",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "ditto-bdqh" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
       "id": "107",
       "name": "Pikachu ex",
       "englishName": "Pikachu ex",
@@ -6699,7 +7079,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00090",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00095",
         "inferred": true
       },
       "species": [
@@ -6771,7 +7151,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00091",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00096",
         "inferred": true
       },
       "species": [
@@ -6843,7 +7223,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00092",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00097",
         "inferred": true
       },
       "species": [
@@ -6915,7 +7295,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 french/me-black-star-promos 00093",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00098",
         "inferred": true
       },
       "species": [
@@ -6963,6 +7343,446 @@
       ],
       "defaultVariant": "holo-30th-anniversary-stamp",
       "painting": { "$kind": "painting", "id": "umbreon-ex-7l5h" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "111",
+      "name": "Maskadra",
+      "englishName": "Masquerain",
+      "number": {
+        "printed": "111",
+        "short": "111"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Anderson",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "anderson",
+          "name": "Anderson"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00099",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Règne Delta, the French release of the Delta Reign Build & Battle Box."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 284,
+          "name": "Masquerain"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "40a008746347a1af964631def51268a4",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "111",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "40a008746347a1af964631def51268a4"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "masquerain-vi09" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "112",
+      "name": "Maganon",
+      "englishName": "Magmortar",
+      "number": {
+        "printed": "112",
+        "short": "112"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Kazumasa Yasukuni",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "kazumasa-yasukuni",
+          "name": "Kazumasa Yasukuni"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00100",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Règne Delta, the French release of the Delta Reign Build & Battle Box."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 467,
+          "name": "Magmortar"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "2753b8079c65d4354a1407a8dae550c1",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "112",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "2753b8079c65d4354a1407a8dae550c1"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "magmortar-n464" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "113",
+      "name": "Amovénus",
+      "englishName": "Enamorus",
+      "number": {
+        "printed": "113",
+        "short": "113"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "CHORISO",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "choriso",
+          "name": "CHORISO"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00101",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Règne Delta, the French release of the Delta Reign Build & Battle Box."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 905,
+          "name": "Enamorus"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "4bd73a0a8a5b1d125877003a5498d44d",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "113",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "4bd73a0a8a5b1d125877003a5498d44d"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "enamorus-qgaa" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "114",
+      "name": "Ékaïser",
+      "englishName": "Kommo-o",
+      "number": {
+        "printed": "114",
+        "short": "114"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Kazuki Minami",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "kazuki-minami",
+          "name": "Kazuki Minami"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 french/me-black-star-promos 00102",
+        "inferred": true
+      },
+      "description": {
+        "text": "The French print of this promo came in the Boîtier Stratégies et Combats Méga-Évolution Règne Delta, the French release of the Delta Reign Build & Battle Box."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 784,
+          "name": "Kommo-o"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "0d3ce67cf22468bc00e87457220b938a",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "114",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "0d3ce67cf22468bc00e87457220b938a"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "kommo-o-bjrs" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "116",
+      "name": "Otaria",
+      "englishName": "Seel",
+      "number": {
+        "printed": "116",
+        "short": "116"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "cochi8i",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "cochi8i",
+          "name": "cochi8i"
+        }
+      ],
+      "released": {
+        "date": "2026-11-06",
+        "sort": "2026-11-06.00 french/me-black-star-promos 00103"
+      },
+      "description": {
+        "text": "The French print of this promo came in the Tripack ME06 Otaria, the French release of the Delta Reign Triple Pack Blister, sold from 6 November 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 86,
+          "name": "Seel"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "1a1c9d14c140ddb4810add8b89964b51",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "116",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "1a1c9d14c140ddb4810add8b89964b51"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-triple-pack-blister",
+              "name": "Delta Reign Triple Pack Blister",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "seel-p9t7" }
+    },
+    {
+      "$kind": "card",
+      "set": "french/me-black-star-promos",
+      "id": "117",
+      "name": "Kyogre",
+      "englishName": "Kyogre",
+      "number": {
+        "printed": "117",
+        "short": "117"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "fr",
+      "credit": "Nurikabe",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "nurikabe",
+          "name": "Nurikabe"
+        }
+      ],
+      "released": {
+        "date": "2026-11-06",
+        "sort": "2026-11-06.00 french/me-black-star-promos 00104"
+      },
+      "description": {
+        "text": "The French print of this promo came in the Coffret Dresseur d'élite Méga-Évolution Règne Delta, the French release of the Delta Reign Elite Trainer Box, sold from 6 November 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 382,
+          "name": "Kyogre"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "e9b3a6f6399fa98970985efa51f7c9de",
+          "of": {
+            "$kind": "variant",
+            "set": "french/me-black-star-promos",
+            "card": "117",
+            "id": "holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "picture": {
+            "front": {
+              "image": "e9b3a6f6399fa98970985efa51f7c9de"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-elite-trainer-box",
+              "name": "Delta Reign Elite Trainer Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "kyogre-r03c" }
     }
   ]
 }

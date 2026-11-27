@@ -30,6 +30,7 @@
     {
       "$kind": "set",
       "id": "french/unleashed",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 95
@@ -37,6 +38,7 @@
     {
       "$kind": "set",
       "id": "german/unleashed",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 95
@@ -44,69 +46,7 @@
     {
       "$kind": "set",
       "id": "italian/unleashed",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 95
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/battle-starter-deck-blastoise",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 8
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/battle-starter-deck-magmortar",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 7
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/battle-starter-deck-torterra",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 7
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/heartgold-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 11
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/leafeon-vs-metagross-expert-deck-leafeon",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/leafeon-vs-metagross-expert-deck-metagross",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/reviving-legends",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 18
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/soulsilver-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 16
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/unleashed",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 95
@@ -114,9 +54,82 @@
     {
       "$kind": "set",
       "id": "spanish/unleashed",
+      "catalog": "spanish",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 95
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/unleashed",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 95
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/reviving-legends",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 18
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/soulsilver-collection",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 16
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/heartgold-collection",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/leafeon-vs-metagross-expert-deck-leafeon",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/leafeon-vs-metagross-expert-deck-metagross",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/battle-starter-deck-blastoise",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/battle-starter-deck-magmortar",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 7
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/battle-starter-deck-torterra",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 7
     }
   ],
   "cards": [
@@ -203,7 +216,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "jirachi-awa1" }
+      "painting": { "$kind": "painting", "id": "jirachi-awa1" },
+      "play": {
+        "$kind": "play",
+        "id": "jirachi-3256"
+      }
     },
     {
       "$kind": "card",
@@ -316,7 +333,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "magmortar-ty08" }
+      "painting": { "$kind": "painting", "id": "magmortar-ty08" },
+      "play": {
+        "$kind": "play",
+        "id": "magmortar-8d73"
+      }
     },
     {
       "$kind": "card",
@@ -946,7 +967,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "shaymin-znep" }
+      "painting": { "$kind": "painting", "id": "shaymin-znep" },
+      "play": {
+        "$kind": "play",
+        "id": "shaymin-ce9a"
+      }
     },
     {
       "$kind": "card",
@@ -2893,7 +2918,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "ursaring-upx5" }
+      "painting": { "$kind": "painting", "id": "ursaring-upx5" },
+      "play": {
+        "$kind": "play",
+        "id": "ursaring-50ab"
+      }
     },
     {
       "$kind": "card",
@@ -3488,7 +3517,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "minun-5q0s" }
+      "painting": { "$kind": "painting", "id": "minun-5q0s" },
+      "play": {
+        "$kind": "play",
+        "id": "minun-61f7"
+      }
     },
     {
       "$kind": "card",
@@ -3658,7 +3691,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "plusle-bnzl" }
+      "painting": { "$kind": "painting", "id": "plusle-bnzl" },
+      "play": {
+        "$kind": "play",
+        "id": "plusle-8106"
+      }
     },
     {
       "$kind": "card",
@@ -4059,7 +4096,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "seadra-iyz6" }
+      "painting": { "$kind": "painting", "id": "seadra-iyz6" },
+      "play": {
+        "$kind": "play",
+        "id": "seadra-de68"
+      }
     },
     {
       "$kind": "card",
@@ -4850,7 +4891,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "horsea-7d2e" }
+      "painting": { "$kind": "painting", "id": "horsea-7d2e" },
+      "play": {
+        "$kind": "play",
+        "id": "horsea-0552"
+      }
     },
     {
       "$kind": "card",
@@ -5105,7 +5150,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "magmar-9z8y" }
+      "painting": { "$kind": "painting", "id": "magmar-9z8y" },
+      "play": {
+        "$kind": "play",
+        "id": "magmar-dacd"
+      }
     },
     {
       "$kind": "card",
@@ -6774,7 +6823,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "cheerleader-s-cheer-nwye" }
+      "painting": { "$kind": "painting", "id": "cheerleader-s-cheer-nwye" },
+      "play": {
+        "$kind": "play",
+        "id": "cheerleader-s-cheer-950b"
+      }
     },
     {
       "$kind": "card",
@@ -6852,7 +6905,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "dual-ball-kjc8" }
+      "painting": { "$kind": "painting", "id": "dual-ball-kjc8" },
+      "play": {
+        "$kind": "play",
+        "id": "dual-ball-bb4c"
+      }
     },
     {
       "$kind": "card",
@@ -7086,7 +7143,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "engineer-s-adjustments-d7o1" }
+      "painting": { "$kind": "painting", "id": "engineer-s-adjustments-d7o1" },
+      "play": {
+        "$kind": "play",
+        "id": "engineer-s-adjustments-b29e"
+      }
     },
     {
       "$kind": "card",
@@ -7242,7 +7303,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "interviewer-s-questions-t0dm" }
+      "painting": { "$kind": "painting", "id": "interviewer-s-questions-t0dm" },
+      "play": {
+        "$kind": "play",
+        "id": "interviewer-s-questions-1d3b"
+      }
     },
     {
       "$kind": "card",
@@ -7356,7 +7421,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "judge-kaky" }
+      "painting": { "$kind": "painting", "id": "judge-kaky" },
+      "play": {
+        "$kind": "play",
+        "id": "judge-52a0"
+      }
     },
     {
       "$kind": "card",
@@ -7434,7 +7503,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "life-herb-dokl" }
+      "painting": { "$kind": "painting", "id": "life-herb-dokl" },
+      "play": {
+        "$kind": "play",
+        "id": "life-herb-a431"
+      }
     },
     {
       "$kind": "card",
@@ -7512,7 +7585,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "pluspower-9eet" }
+      "painting": { "$kind": "painting", "id": "pluspower-9eet" },
+      "play": {
+        "$kind": "play",
+        "id": "pluspower-70e2"
+      }
     },
     {
       "$kind": "card",
@@ -7695,7 +7772,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "rare-candy-ss2y" }
+      "painting": { "$kind": "painting", "id": "rare-candy-ss2y" },
+      "play": {
+        "$kind": "play",
+        "id": "rare-candy-05b3"
+      }
     },
     {
       "$kind": "card",
@@ -7800,7 +7881,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "super-scoop-up-pliv" }
+      "painting": { "$kind": "painting", "id": "super-scoop-up-pliv" },
+      "play": {
+        "$kind": "play",
+        "id": "super-scoop-up-ad0b"
+      }
     },
     {
       "$kind": "card",
@@ -7918,7 +8003,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "kingdra-bi34" }
+      "painting": { "$kind": "painting", "id": "kingdra-bi34" },
+      "play": {
+        "$kind": "play",
+        "id": "kingdra-220d"
+      }
     },
     {
       "$kind": "card",
@@ -8579,7 +8668,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "suicune-entei-legend-wcs8" }
+      "painting": { "$kind": "painting", "id": "suicune-entei-legend-wcs8" },
+      "play": {
+        "$kind": "play",
+        "id": "suicune-entei-legend-c8c7"
+      }
     },
     {
       "$kind": "card",
@@ -8664,7 +8757,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "suicune-entei-legend-5tx8" }
+      "painting": { "$kind": "painting", "id": "suicune-entei-legend-5tx8" },
+      "play": {
+        "$kind": "play",
+        "id": "suicune-entei-legend-553a"
+      }
     },
     {
       "$kind": "card",

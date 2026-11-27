@@ -30,6 +30,7 @@
     {
       "$kind": "set",
       "id": "french/emerging-powers",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 98
@@ -37,6 +38,7 @@
     {
       "$kind": "set",
       "id": "german/emerging-powers",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 98
@@ -44,90 +46,7 @@
     {
       "$kind": "set",
       "id": "italian/emerging-powers",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 98
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/black-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 21
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/black-white-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 27
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/cobalion-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 8
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/terrakion-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 8
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/virizion-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 8
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/white-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 13
-    },
-    {
-      "$kind": "set",
-      "id": "korean/black-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 21
-    },
-    {
-      "$kind": "set",
-      "id": "korean/cobalion-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 7
-    },
-    {
-      "$kind": "set",
-      "id": "korean/terrakion-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 8
-    },
-    {
-      "$kind": "set",
-      "id": "korean/virizion-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 8
-    },
-    {
-      "$kind": "set",
-      "id": "korean/white-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 11
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/emerging-powers",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 98
@@ -135,9 +54,106 @@
     {
       "$kind": "set",
       "id": "spanish/emerging-powers",
+      "catalog": "spanish",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 98
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/emerging-powers",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 98
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/black-white-promos",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 27
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/black-collection",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 21
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/white-collection",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 13
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/cobalion-battle-strength-deck",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/terrakion-battle-strength-deck",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/virizion-battle-strength-deck",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "korean/black-collection",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 21
+    },
+    {
+      "$kind": "set",
+      "id": "korean/white-collection",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "korean/terrakion-battle-strength-deck",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "korean/virizion-battle-strength-deck",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 8
+    },
+    {
+      "$kind": "set",
+      "id": "korean/cobalion-battle-strength-deck",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 7
     }
   ],
   "cards": [
@@ -224,7 +240,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "pansage-18bm" }
+      "painting": { "$kind": "painting", "id": "pansage-18bm" },
+      "play": {
+        "$kind": "play",
+        "id": "pansage-f44c"
+      }
     },
     {
       "$kind": "card",
@@ -2915,7 +2935,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "emolga-nq82" }
+      "painting": { "$kind": "painting", "id": "emolga-nq82" },
+      "play": {
+        "$kind": "play",
+        "id": "emolga-c787"
+      }
     },
     {
       "$kind": "card",
@@ -3170,7 +3194,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "thundurus-rgtx" }
+      "painting": { "$kind": "painting", "id": "thundurus-rgtx" },
+      "play": {
+        "$kind": "play",
+        "id": "thundurus-740e"
+      }
     },
     {
       "$kind": "card",
@@ -3255,7 +3283,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "woobat-zsu6" }
+      "painting": { "$kind": "painting", "id": "woobat-zsu6" },
+      "play": {
+        "$kind": "play",
+        "id": "woobat-ee87"
+      }
     },
     {
       "$kind": "card",
@@ -3875,7 +3907,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "gothita-rrhj" }
+      "painting": { "$kind": "painting", "id": "gothita-rrhj" },
+      "play": {
+        "$kind": "play",
+        "id": "gothita-6fad"
+      }
     },
     {
       "$kind": "card",
@@ -4045,7 +4081,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "gothorita-ow0q" }
+      "painting": { "$kind": "painting", "id": "gothorita-ow0q" },
+      "play": {
+        "$kind": "play",
+        "id": "gothorita-f456"
+      }
     },
     {
       "$kind": "card",
@@ -4130,7 +4170,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "gothorita-m9iw" }
+      "painting": { "$kind": "painting", "id": "gothorita-m9iw" },
+      "play": {
+        "$kind": "play",
+        "id": "gothorita-8296"
+      }
     },
     {
       "$kind": "card",
@@ -4215,7 +4259,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "gothitelle-azs6" }
+      "painting": { "$kind": "painting", "id": "gothitelle-azs6" },
+      "play": {
+        "$kind": "play",
+        "id": "gothitelle-b806"
+      }
     },
     {
       "$kind": "card",
@@ -4953,7 +5001,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "drilbur-81tl" }
+      "painting": { "$kind": "painting", "id": "drilbur-81tl" },
+      "play": {
+        "$kind": "play",
+        "id": "drilbur-9a57"
+      }
     },
     {
       "$kind": "card",
@@ -5151,7 +5203,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "excadrill-e19r" }
+      "painting": { "$kind": "painting", "id": "excadrill-e19r" },
+      "play": {
+        "$kind": "play",
+        "id": "excadrill-2e73"
+      }
     },
     {
       "$kind": "card",
@@ -5856,7 +5912,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "purrloin-5lwq" }
+      "painting": { "$kind": "painting", "id": "purrloin-5lwq" },
+      "play": {
+        "$kind": "play",
+        "id": "purrloin-8628"
+      }
     },
     {
       "$kind": "card",
@@ -6111,7 +6171,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "zoroark-erf2" }
+      "painting": { "$kind": "painting", "id": "zoroark-erf2" },
+      "play": {
+        "$kind": "play",
+        "id": "zoroark-4d63"
+      }
     },
     {
       "$kind": "card",
@@ -6791,7 +6855,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "klang-a6ph" }
+      "painting": { "$kind": "painting", "id": "klang-a6ph" },
+      "play": {
+        "$kind": "play",
+        "id": "klang-c9c8"
+      }
     },
     {
       "$kind": "card",
@@ -7046,7 +7114,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "patrat-3twp" }
+      "painting": { "$kind": "painting", "id": "patrat-3twp" },
+      "play": {
+        "$kind": "play",
+        "id": "patrat-c907"
+      }
     },
     {
       "$kind": "card",
@@ -7216,7 +7288,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "pidove-e6rr" }
+      "painting": { "$kind": "painting", "id": "pidove-e6rr" },
+      "play": {
+        "$kind": "play",
+        "id": "pidove-b513"
+      }
     },
     {
       "$kind": "card",
@@ -8011,7 +8087,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "tornadus-m370" }
+      "painting": { "$kind": "painting", "id": "tornadus-m370" },
+      "play": {
+        "$kind": "play",
+        "id": "tornadus-a074"
+      }
     },
     {
       "$kind": "card",
@@ -8097,7 +8177,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "bianca-vexp" }
+      "painting": { "$kind": "painting", "id": "bianca-vexp" },
+      "play": {
+        "$kind": "play",
+        "id": "bianca-e4ed"
+      }
     },
     {
       "$kind": "card",
@@ -8183,7 +8267,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "cheren-2as2" }
+      "painting": { "$kind": "painting", "id": "cheren-2as2" },
+      "play": {
+        "$kind": "play",
+        "id": "cheren-2c2b"
+      }
     },
     {
       "$kind": "card",
@@ -8261,7 +8349,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "crushing-hammer-u3nq" }
+      "painting": { "$kind": "painting", "id": "crushing-hammer-u3nq" },
+      "play": {
+        "$kind": "play",
+        "id": "crushing-hammer-f84a"
+      }
     },
     {
       "$kind": "card",
@@ -8339,7 +8431,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "great-ball-7wrs" }
+      "painting": { "$kind": "painting", "id": "great-ball-7wrs" },
+      "play": {
+        "$kind": "play",
+        "id": "great-ball-9af8"
+      }
     },
     {
       "$kind": "card",
@@ -8417,7 +8513,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "max-potion-zmch" }
+      "painting": { "$kind": "painting", "id": "max-potion-zmch" },
+      "play": {
+        "$kind": "play",
+        "id": "max-potion-526e"
+      }
     },
     {
       "$kind": "card",
@@ -8522,7 +8622,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "pokemon-catcher-rd8f" }
+      "painting": { "$kind": "painting", "id": "pokemon-catcher-rd8f" },
+      "play": {
+        "$kind": "play",
+        "id": "pokemon-catcher-3583"
+      }
     },
     {
       "$kind": "card",
@@ -8600,7 +8704,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "recycle-mix4" }
+      "painting": { "$kind": "painting", "id": "recycle-mix4" },
+      "play": {
+        "$kind": "play",
+        "id": "recycle-71fd"
+      }
     },
     {
       "$kind": "card",
@@ -8659,7 +8767,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "thundurus-skef" }
+      "painting": { "$kind": "painting", "id": "thundurus-skef" },
+      "play": {
+        "$kind": "play",
+        "id": "thundurus-740e"
+      }
     },
     {
       "$kind": "card",
@@ -8718,7 +8830,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "tornadus-lv8o" }
+      "painting": { "$kind": "painting", "id": "tornadus-lv8o" },
+      "play": {
+        "$kind": "play",
+        "id": "tornadus-a074"
+      }
     }
   ]
 }

@@ -29,7 +29,24 @@
   "links": [
     {
       "$kind": "set",
+      "id": "japanese/plasma-gale",
+      "catalog": "japanese",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 78
+    },
+    {
+      "$kind": "set",
+      "id": "korean/plasma-gale",
+      "catalog": "korean",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 78
+    },
+    {
+      "$kind": "set",
       "id": "french/plasma-storm",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 138
@@ -37,6 +54,7 @@
     {
       "$kind": "set",
       "id": "german/plasma-storm",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 138
@@ -44,83 +62,7 @@
     {
       "$kind": "set",
       "id": "italian/plasma-storm",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 138
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/black-kyurem-ex-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/cold-flare",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 14
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/plasma-gale",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 78
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/team-plasma-powered-half-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 11
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/white-kyurem-ex-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "korean/black-kyurem-ex-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "korean/cold-flare",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 14
-    },
-    {
-      "$kind": "set",
-      "id": "korean/plasma-gale",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 78
-    },
-    {
-      "$kind": "set",
-      "id": "korean/team-plasma-power-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 15
-    },
-    {
-      "$kind": "set",
-      "id": "korean/white-kyurem-ex-battle-strength-deck",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/plasma-storm",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 138
@@ -128,9 +70,82 @@
     {
       "$kind": "set",
       "id": "spanish/plasma-storm",
+      "catalog": "spanish",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 138
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/plasma-storm",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 138
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/cold-flare",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 14
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/team-plasma-powered-half-deck",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 11
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/black-kyurem-ex-battle-strength-deck",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/white-kyurem-ex-battle-strength-deck",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "korean/team-plasma-power-deck",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 15
+    },
+    {
+      "$kind": "set",
+      "id": "korean/cold-flare",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 14
+    },
+    {
+      "$kind": "set",
+      "id": "korean/black-kyurem-ex-battle-strength-deck",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "korean/white-kyurem-ex-battle-strength-deck",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 9
     }
   ],
   "cards": [
@@ -1669,7 +1684,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "victini-ex-63nt" }
+      "painting": { "$kind": "painting", "id": "victini-ex-63nt" },
+      "play": {
+        "$kind": "play",
+        "id": "victini-ex-5ce4"
+      }
     },
     {
       "$kind": "card",
@@ -2272,7 +2291,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "articuno-ex-k2e0" }
+      "painting": { "$kind": "painting", "id": "articuno-ex-k2e0" },
+      "play": {
+        "$kind": "play",
+        "id": "articuno-ex-9e39"
+      }
     },
     {
       "$kind": "card",
@@ -4685,7 +4708,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "zubat-9o8c" }
+      "painting": { "$kind": "painting", "id": "zubat-9o8c" },
+      "play": {
+        "$kind": "play",
+        "id": "zubat-5644"
+      }
     },
     {
       "$kind": "card",
@@ -4855,7 +4882,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "crobat-6b8o" }
+      "painting": { "$kind": "painting", "id": "crobat-6b8o" },
+      "play": {
+        "$kind": "play",
+        "id": "crobat-c2ff"
+      }
     },
     {
       "$kind": "card",
@@ -5528,7 +5559,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "giratina-ujiw" }
+      "painting": { "$kind": "painting", "id": "giratina-ujiw" },
+      "play": {
+        "$kind": "play",
+        "id": "giratina-7362"
+      }
     },
     {
       "$kind": "card",
@@ -8137,7 +8172,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "cobalion-ex-w9sq" }
+      "painting": { "$kind": "painting", "id": "cobalion-ex-w9sq" },
+      "play": {
+        "$kind": "play",
+        "id": "cobalion-ex-de3c"
+      }
     },
     {
       "$kind": "card",
@@ -9445,7 +9484,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "lugia-ex-xx52" }
+      "painting": { "$kind": "painting", "id": "lugia-ex-xx52" },
+      "play": {
+        "$kind": "play",
+        "id": "lugia-ex-0626"
+      }
     },
     {
       "$kind": "card",
@@ -10203,7 +10246,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "bicycle-4bge" }
+      "painting": { "$kind": "painting", "id": "bicycle-4bge" },
+      "play": {
+        "$kind": "play",
+        "id": "bicycle-ac01"
+      }
     },
     {
       "$kind": "card",
@@ -10316,7 +10363,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "colress-o1qd" }
+      "painting": { "$kind": "painting", "id": "colress-o1qd" },
+      "play": {
+        "$kind": "play",
+        "id": "colress-bf48"
+      }
     },
     {
       "$kind": "card",
@@ -10394,7 +10445,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "colress-machine-no4u" }
+      "painting": { "$kind": "painting", "id": "colress-machine-no4u" },
+      "play": {
+        "$kind": "play",
+        "id": "colress-machine-897e"
+      }
     },
     {
       "$kind": "card",
@@ -10502,7 +10557,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "escape-rope-rgxx" }
+      "painting": { "$kind": "painting", "id": "escape-rope-rgxx" },
+      "play": {
+        "$kind": "play",
+        "id": "escape-rope-505b"
+      }
     },
     {
       "$kind": "card",
@@ -10658,7 +10717,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "eviolite-3pv6" }
+      "painting": { "$kind": "painting", "id": "eviolite-3pv6" },
+      "play": {
+        "$kind": "play",
+        "id": "eviolite-69cb"
+      }
     },
     {
       "$kind": "card",
@@ -10763,7 +10826,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "hypnotoxic-laser-4hvv" }
+      "painting": { "$kind": "painting", "id": "hypnotoxic-laser-4hvv" },
+      "play": {
+        "$kind": "play",
+        "id": "hypnotoxic-laser-4033"
+      }
     },
     {
       "$kind": "card",
@@ -10997,7 +11064,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "virbank-city-gym-6p9f" }
+      "painting": { "$kind": "painting", "id": "virbank-city-gym-6p9f" },
+      "play": {
+        "$kind": "play",
+        "id": "virbank-city-gym-820c"
+      }
     },
     {
       "$kind": "card",
@@ -11075,7 +11146,11 @@
         }
       ],
       "defaultVariant": "non-holo",
-      "painting": { "$kind": "painting", "id": "plasma-energy-fq7d" }
+      "painting": { "$kind": "painting", "id": "plasma-energy-fq7d" },
+      "play": {
+        "$kind": "play",
+        "id": "plasma-energy-76a8"
+      }
     },
     {
       "$kind": "card",
@@ -11127,7 +11202,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "dowsing-machine-z890" }
+      "painting": { "$kind": "painting", "id": "dowsing-machine-z890" },
+      "play": {
+        "$kind": "play",
+        "id": "dowsing-machine-5bd6"
+      }
     },
     {
       "$kind": "card",
@@ -11179,7 +11258,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "scramble-switch-lahk" }
+      "painting": { "$kind": "painting", "id": "scramble-switch-lahk" },
+      "play": {
+        "$kind": "play",
+        "id": "scramble-switch-d791"
+      }
     },
     {
       "$kind": "card",
@@ -11290,7 +11373,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "victini-ex-3q7t" }
+      "painting": { "$kind": "painting", "id": "victini-ex-3q7t" },
+      "play": {
+        "$kind": "play",
+        "id": "victini-ex-5ce4"
+      }
     },
     {
       "$kind": "card",
@@ -11349,7 +11436,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "articuno-ex-08mh" }
+      "painting": { "$kind": "painting", "id": "articuno-ex-08mh" },
+      "play": {
+        "$kind": "play",
+        "id": "articuno-ex-9e39"
+      }
     },
     {
       "$kind": "card",
@@ -11408,7 +11499,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "cobalion-ex-4cug" }
+      "painting": { "$kind": "painting", "id": "cobalion-ex-4cug" },
+      "play": {
+        "$kind": "play",
+        "id": "cobalion-ex-de3c"
+      }
     },
     {
       "$kind": "card",
@@ -11467,7 +11562,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "lugia-ex-gbx4" }
+      "painting": { "$kind": "painting", "id": "lugia-ex-gbx4" },
+      "play": {
+        "$kind": "play",
+        "id": "lugia-ex-0626"
+      }
     },
     {
       "$kind": "card",
@@ -11527,7 +11626,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "colress-w5qv" }
+      "painting": { "$kind": "painting", "id": "colress-w5qv" },
+      "play": {
+        "$kind": "play",
+        "id": "colress-bf48"
+      }
     },
     {
       "$kind": "card",
@@ -11586,7 +11689,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "charizard-llgc" }
+      "painting": { "$kind": "painting", "id": "charizard-llgc" },
+      "play": {
+        "$kind": "play",
+        "id": "charizard-4f04"
+      }
     },
     {
       "$kind": "card",
@@ -11645,7 +11752,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "blastoise-3efg" }
+      "painting": { "$kind": "painting", "id": "blastoise-3efg" },
+      "play": {
+        "$kind": "play",
+        "id": "blastoise-eefa"
+      }
     },
     {
       "$kind": "card",
@@ -11697,7 +11808,11 @@
         }
       ],
       "defaultVariant": "holo",
-      "painting": { "$kind": "painting", "id": "random-receiver-tzz1" }
+      "painting": { "$kind": "painting", "id": "random-receiver-tzz1" },
+      "play": {
+        "$kind": "play",
+        "id": "random-receiver-8bb4"
+      }
     }
   ]
 }

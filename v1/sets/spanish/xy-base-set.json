@@ -26,35 +26,16 @@
   "links": [
     {
       "$kind": "set",
-      "id": "japanese/collection-x",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 63
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/collection-y",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 62
-    },
-    {
-      "$kind": "set",
-      "id": "korean/collection-x",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 62
-    },
-    {
-      "$kind": "set",
-      "id": "korean/collection-y",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 62
+      "id": "english/xy-base-set",
+      "catalog": "english",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 146
     },
     {
       "$kind": "set",
       "id": "french/xy-base-set",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 146
@@ -62,13 +43,7 @@
     {
       "$kind": "set",
       "id": "german/xy-base-set",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 146
-    },
-    {
-      "$kind": "set",
-      "id": "english/xy-base-set",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 146
@@ -76,6 +51,7 @@
     {
       "$kind": "set",
       "id": "italian/xy-base-set",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 146
@@ -83,6 +59,7 @@
     {
       "$kind": "set",
       "id": "portuguese/xy-base-set",
+      "catalog": "portuguese",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 146
@@ -90,9 +67,42 @@
     {
       "$kind": "set",
       "id": "russian/xy-base-set",
+      "catalog": "russian",
       "relation": "equivalent",
       "direction": "outgoing",
       "sameCardCount": 146
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/collection-x",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 63
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/collection-y",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 62
+    },
+    {
+      "$kind": "set",
+      "id": "korean/collection-x",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 62
+    },
+    {
+      "$kind": "set",
+      "id": "korean/collection-y",
+      "catalog": "korean",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 62
     }
   ],
   "cards": [

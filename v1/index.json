@@ -49,8 +49,8 @@
         "zh-Hant"
       ],
       "setCount": 324,
-      "cardCount": 25335,
-      "variantCount": 45019
+      "cardCount": 25336,
+      "variantCount": 45021
     },
     {
       "id": "japanese",
@@ -101,8 +101,8 @@
         "zh-Hant"
       ],
       "setCount": 136,
-      "cardCount": 15029,
-      "variantCount": 15998
+      "cardCount": 15112,
+      "variantCount": 16087
     },
     {
       "id": "thai",
@@ -134,8 +134,8 @@
         "fr"
       ],
       "setCount": 153,
-      "cardCount": 19328,
-      "variantCount": 32955
+      "cardCount": 19339,
+      "variantCount": 32966
     },
     {
       "id": "german",
@@ -145,8 +145,8 @@
         "de"
       ],
       "setCount": 163,
-      "cardCount": 19795,
-      "variantCount": 33518
+      "cardCount": 19806,
+      "variantCount": 33529
     },
     {
       "id": "italian",
@@ -156,8 +156,8 @@
         "it"
       ],
       "setCount": 164,
-      "cardCount": 19536,
-      "variantCount": 33067
+      "cardCount": 19547,
+      "variantCount": 33078
     },
     {
       "id": "spanish",
@@ -167,8 +167,8 @@
         "es"
       ],
       "setCount": 116,
-      "cardCount": 16315,
-      "variantCount": 26437
+      "cardCount": 16326,
+      "variantCount": 26448
     },
     {
       "id": "portuguese",
@@ -178,8 +178,8 @@
         "pt"
       ],
       "setCount": 91,
-      "cardCount": 14557,
-      "variantCount": 21854
+      "cardCount": 14570,
+      "variantCount": 21867
     },
     {
       "id": "latin-american-spanish",
@@ -228,19 +228,19 @@
   ],
   "counts": {
     "setCount": 2244,
-    "cardCount": 222894,
-    "variantCount": 323739,
-    "subjectLinkCount": 199954,
+    "cardCount": 223035,
+    "variantCount": 323887,
+    "subjectLinkCount": 200083,
     "setLinkCount": 4840,
-    "cardEquivalenceCount": 914381,
+    "cardEquivalenceCount": 915834,
     "speciesCount": 1025,
     "formCount": 1515,
     "pokemonFamilyCount": 540,
     "transitionCount": 780,
     "characterCount": 429,
     "artistCount": 495,
-    "paintingCount": 20109,
-    "distributionCount": 2720,
+    "paintingCount": 20105,
+    "distributionCount": 2761,
     "distributionSeriesCount": 47,
     "collectionCount": 4
   },
@@ -304,6 +304,14 @@
     {
       "file": "paintings/{painting}.json",
       "schema": "schema/painting.schema.json"
+    },
+    {
+      "file": "plays/{play}.json",
+      "schema": "schema/play.schema.json"
+    },
+    {
+      "file": "text/{set}.json",
+      "schema": "schema/text.schema.json"
     },
     {
       "file": "marketplaces.json",
@@ -380,6 +388,10 @@
     },
     "painting": {
       "file": "paintings/{id}.json",
+      "path": []
+    },
+    "play": {
+      "file": "plays/{id}.json",
       "path": []
     },
     "era": {

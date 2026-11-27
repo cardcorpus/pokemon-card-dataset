@@ -172,13 +172,17 @@
             "minimum": 0
           },
           "released": {
-            "description": "When the set came out came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates).",
+            "description": "When the set came out, as precisely as is known (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates).",
             "type": "object",
             "properties": {
               "date": {
                 "description": "The date: 1999, 1999-06 or 1999-06-16.",
                 "type": "string",
                 "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              },
+              "inferred": {
+                "description": "`true` where the date is an estimate: no page dates the set's print in its language, so its year is borrowed from another language's print (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). Absent otherwise.",
+                "const": true
               }
             },
             "additionalProperties": false

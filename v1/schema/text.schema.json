@@ -1,0 +1,317 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus printed text of a set",
+  "description": "What each card of a set prints, word for word: names, levels, attacks, abilities, trainer and energy text, rule boxes and rule lines, weakness and resistance as printed, and flavor text. English cards are read off their pictures; other languages' text comes from official and other card lists and is not yet checked against the cards (`checked`: `source`). It is the print, not how the card plays now: official errata are in the play files (plays/{id}.json). A card we have no text for is not listed. text/{set}.json, by the set's id (https://pokemon.cardcorpus.com/v1/docs/guide.md#printed-text).",
+  "type": "object",
+  "required": [
+    "set",
+    "cardCount",
+    "cards"
+  ],
+  "properties": {
+    "set": {
+      "description": "The set.",
+      "type": "object",
+      "x-cc": {
+        "ref": "set"
+      },
+      "required": [
+        "$kind",
+        "id"
+      ],
+      "properties": {
+        "$kind": {
+          "description": "What the pointer points at: `set`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+          "const": "set"
+        },
+        "id": {
+          "description": "The set's id (sets/{catalog}.json).",
+          "type": "string"
+        }
+      }
+    },
+    "cardCount": {
+      "description": "How many cards are listed: the length of `cards`.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "cards": {
+      "description": "Its cards whose text is read, in the set file's order.",
+      "type": "array",
+      "items": {
+        "description": "A card and what it prints.",
+        "type": "object",
+        "x-cc": {
+          "ref": "card"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "id",
+          "name",
+          "text",
+          "checked"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+            "const": "card"
+          },
+          "set": {
+            "description": "The set's id (sets/{catalog}.json).",
+            "type": "string"
+          },
+          "id": {
+            "description": "The card's id, unique in its set.",
+            "type": "string"
+          },
+          "name": {
+            "description": "A copy of the target's own `name`.",
+            "type": "string"
+          },
+          "number": {
+            "description": "A copy of the target's own `number`. Its number as printed (\"4/102\", \"SWSH001\"), and that number without its set total.",
+            "type": "object",
+            "required": [
+              "short"
+            ],
+            "properties": {
+              "printed": {
+                "description": "The number as printed, where the card prints one.",
+                "type": "string"
+              },
+              "short": {
+                "description": "The number without its set total: \"4\" of \"4/102\", and the whole number where it prints no total (\"SWSH001\"). What a tile shows and a sort reads.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "text": {
+            "description": "What the card prints, as printed (case and punctuation kept, italics dropped). Energy symbols are type names: in costs and `types` as `Lightning`, `Colorless`; inside text in braces, `{Darkness}`.",
+            "type": "object",
+            "properties": {
+              "name": {
+                "description": "The name as printed, with its suffix (`ex`, `EX`, `GX`, `V`, `LV.X`, `δ`); empty for a basic Energy that prints only ENERGY and its symbol.",
+                "type": "string"
+              },
+              "level": {
+                "description": "A printed level, such as 42 for LV.42; null where none is printed.",
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "kind": {
+                "description": "`pokemon`, `trainer` or `energy`.",
+                "type": "string"
+              },
+              "subtype": {
+                "description": "The category of a trainer or energy, in English in every language: `Item`, `Supporter`, `Stadium`, `Pokémon Tool`, `Trainer`, `Basic Energy`, `Special Energy`, …",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "stage": {
+                "description": "A Pokémon's stage, in English in every language: `Basic`, `Stage 1`, `Stage 2`, `BREAK`, `VMAX`, …",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "evolvesFrom": {
+                "description": "The printed Evolves from name.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hp": {
+                "description": "Printed HP.",
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "types": {
+                "description": "The type symbols printed beside the HP.",
+                "type": "array",
+                "items": {
+                  "description": "A type.",
+                  "type": "string"
+                }
+              },
+              "markers": {
+                "description": "Printed labels that are neither text nor stage: `Future`, `Ancient`, `Tera`, `Rapid Strike`, `Prism Star`, `ACE SPEC`, `Team Plasma`, …",
+                "type": "array",
+                "items": {
+                  "description": "A label.",
+                  "type": "string"
+                }
+              },
+              "abilities": {
+                "description": "Abilities, Poké-Powers, Poké-Bodies, Pokémon Powers, Ancient Traits and the like, in printed order.",
+                "type": "array",
+                "items": {
+                  "description": "One.",
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "description": "Its printed label: `Ability`, `Poké-Power`, `Poké-Body`, `Pokémon Power`, `Ancient Trait`, `VSTAR Power`, …",
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "name": {
+                      "description": "Its name.",
+                      "type": "string"
+                    },
+                    "text": {
+                      "description": "Its text.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "attacks": {
+                "description": "Attacks, in printed order.",
+                "type": "array",
+                "items": {
+                  "description": "One.",
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "description": "`GX` or `VSTAR` for a GX attack or VSTAR Power attack, else null; the name leaves the logo out.",
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "cost": {
+                      "description": "Its Energy cost, one type a symbol; empty for a free attack.",
+                      "type": "array",
+                      "items": {
+                        "description": "A type.",
+                        "type": "string"
+                      }
+                    },
+                    "name": {
+                      "description": "Its name.",
+                      "type": "string"
+                    },
+                    "damage": {
+                      "description": "Damage as printed (`30`, `30+`, `20×`), empty where none.",
+                      "type": "string"
+                    },
+                    "text": {
+                      "description": "Its text.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "effect": {
+                "description": "A trainer's or energy's text, one string a printed paragraph.",
+                "type": "array",
+                "items": {
+                  "description": "A paragraph.",
+                  "type": "string"
+                }
+              },
+              "rules": {
+                "description": "Rule boxes and rule lines as printed (the Pokémon ex rule, You may play only 1 Supporter card during your turn., …).",
+                "type": "array",
+                "items": {
+                  "description": "One.",
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "description": "Its printed label, where it has one.",
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "text": {
+                      "description": "Its text.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "weakness": {
+                "description": "Weakness as printed.",
+                "type": "array",
+                "items": {
+                  "description": "One.",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "description": "The type.",
+                      "type": "string"
+                    },
+                    "value": {
+                      "description": "The value as printed (`×2`, `+20`); empty where the card prints only the type.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "resistance": {
+                "description": "Resistance as printed.",
+                "type": "array",
+                "items": {
+                  "description": "One.",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "description": "The type.",
+                      "type": "string"
+                    },
+                    "value": {
+                      "description": "The value as printed (`-30`); empty where none is printed.",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "retreat": {
+                "description": "How many retreat symbols are printed.",
+                "type": "integer",
+                "minimum": 0
+              },
+              "flavor": {
+                "description": "The Pokédex text, where printed.",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "checked": {
+            "description": "How the text is known: `agreed`, a blind read of the picture matches the text other transcriptions give on every part; `judged`, they differed and each difference was settled by a closer look at the picture; `picture`, only the picture read gives it; `source`, a card list gives it and it is not yet checked against the card (languages other than English).",
+            "type": "string",
+            "enum": [
+              "agreed",
+              "judged",
+              "picture",
+              "source"
+            ]
+          },
+          "unsure": {
+            "description": "Parts a closer look could not settle; `text` keeps the read.",
+            "type": "array",
+            "items": {
+              "description": "A part, such as `attack1 cost`.",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -11,8 +11,8 @@
   },
   "type": "promo",
   "language": "pt",
-  "actualTotal": 91,
-  "cardCount": 91,
+  "actualTotal": 104,
+  "cardCount": 104,
   "released": {
     "date": "2025-09-26"
   },
@@ -26,66 +26,75 @@
   "links": [
     {
       "$kind": "set",
-      "id": "japanese/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 31
-    },
-    {
-      "$kind": "set",
-      "id": "zh-hant/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 51
+      "id": "english/me-black-star-promos",
+      "catalog": "english",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 104
     },
     {
       "$kind": "set",
       "id": "french/me-black-star-promos",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 85
+      "sameCardCount": 96
     },
     {
       "$kind": "set",
       "id": "german/me-black-star-promos",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 91
+      "sameCardCount": 102
     },
     {
       "$kind": "set",
-      "id": "indonesian/mega-evolution-promos",
+      "id": "italian/me-black-star-promos",
+      "catalog": "italian",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 102
+    },
+    {
+      "$kind": "set",
+      "id": "spanish/me-black-star-promos",
+      "catalog": "spanish",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 102
+    },
+    {
+      "$kind": "set",
+      "id": "thai/mega-evolution-promos",
+      "catalog": "thai",
       "relation": "merged_into",
       "direction": "outgoing",
       "sameCardCount": 33
     },
     {
       "$kind": "set",
-      "id": "english/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 91
-    },
-    {
-      "$kind": "set",
-      "id": "italian/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 91
-    },
-    {
-      "$kind": "set",
-      "id": "spanish/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 91
-    },
-    {
-      "$kind": "set",
-      "id": "thai/mega-evolution-promos",
+      "id": "indonesian/mega-evolution-promos",
+      "catalog": "indonesian",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 29
+      "sameCardCount": 37
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/mega-evolution-promos",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 35
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/mega-evolution-promos",
+      "catalog": "zh-hant",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 59
     }
   ],
   "cards": [
@@ -2073,6 +2082,83 @@
     {
       "$kind": "card",
       "set": "portuguese/me-black-star-promos",
+      "id": "032",
+      "name": "Mega Gardevoir ex",
+      "englishName": "Mega Gardevoir ex",
+      "number": {
+        "printed": "032",
+        "short": "032"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Saboteri",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "saboteri",
+          "name": "Saboteri"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00030",
+        "inferred": true
+      },
+      "description": {
+        "text": "The Portuguese print of this promo came in the Brazilian Mega Gardevoir collection of Megaevolução – Heróis Excelsos, the Brazilian release of the Ascended Heroes Premium Poster Collection."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 282,
+          "name": "Gardevoir",
+          "forms": [
+            {
+              "id": "282:mega",
+              "name": "Mega Gardevoir"
+            }
+          ]
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "661ae24829eb54309a8c9cefc837b15b",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "032",
+            "id": "holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "picture": {
+            "front": {
+              "image": "661ae24829eb54309a8c9cefc837b15b"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "ascended-heroes-premium-poster-collection-mega-gardevoir",
+              "name": "Ascended Heroes Premium Poster Collection—Mega Gardevoir",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mega-gardevoir-ex-9zzy" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
       "id": "033",
       "name": "Mega Lucario ex",
       "englishName": "Mega Lucario ex",
@@ -2093,7 +2179,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00030",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00031",
         "inferred": true
       },
       "species": [
@@ -2159,7 +2245,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00031",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00032",
         "inferred": true
       },
       "species": [
@@ -2233,7 +2319,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00032",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00033",
         "inferred": true
       },
       "species": [
@@ -2307,7 +2393,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00033",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00034",
         "inferred": true
       },
       "species": [
@@ -2381,7 +2467,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00034",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00035",
         "inferred": true
       },
       "description": {
@@ -2456,7 +2542,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00035",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00036",
         "inferred": true
       },
       "description": {
@@ -2531,7 +2617,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00036",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00037",
         "inferred": true
       },
       "description": {
@@ -2606,7 +2692,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00037",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00038",
         "inferred": true
       },
       "description": {
@@ -2681,7 +2767,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00038",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00039",
         "inferred": true
       },
       "description": {
@@ -2756,7 +2842,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00039",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00040",
         "inferred": true
       },
       "description": {
@@ -2831,7 +2917,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00040",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00041",
         "inferred": true
       },
       "description": {
@@ -2906,7 +2992,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00041",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00042",
         "inferred": true
       },
       "description": {
@@ -2981,7 +3067,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00042",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00043",
         "inferred": true
       },
       "description": {
@@ -3056,7 +3142,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00043",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00044",
         "inferred": true
       },
       "description": {
@@ -3131,7 +3217,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00044",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00045",
         "inferred": true
       },
       "description": {
@@ -3206,7 +3292,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00045",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00046",
         "inferred": true
       },
       "description": {
@@ -3281,7 +3367,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00046",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00047",
         "inferred": true
       },
       "description": {
@@ -3356,7 +3442,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00047",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00048",
         "inferred": true
       },
       "description": {
@@ -3431,7 +3517,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00048",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00049",
         "inferred": true
       },
       "description": {
@@ -3506,7 +3592,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00049",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00050",
         "inferred": true
       },
       "description": {
@@ -3581,7 +3667,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00050",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00051",
         "inferred": true
       },
       "description": {
@@ -3656,7 +3742,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00051",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00052",
         "inferred": true
       },
       "description": {
@@ -3731,7 +3817,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00052",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00053",
         "inferred": true
       },
       "species": [
@@ -3803,7 +3889,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00053",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00054",
         "inferred": true
       },
       "species": [
@@ -3875,7 +3961,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00054",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00055",
         "inferred": true
       },
       "species": [
@@ -3947,7 +4033,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00055",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00056",
         "inferred": true
       },
       "species": [
@@ -4019,7 +4105,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00056",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00057",
         "inferred": true
       },
       "species": [
@@ -4079,7 +4165,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00057",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00058",
         "inferred": true
       },
       "species": [
@@ -4139,7 +4225,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00058",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00059",
         "inferred": true
       },
       "species": [
@@ -4199,7 +4285,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00059",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00060",
         "inferred": true
       },
       "species": [
@@ -4273,7 +4359,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00060",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00061",
         "inferred": true
       },
       "species": [
@@ -4339,7 +4425,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00061",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00062",
         "inferred": true
       },
       "species": [
@@ -4405,7 +4491,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00062",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00063",
         "inferred": true
       },
       "species": [
@@ -4477,7 +4563,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00063",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00064",
         "inferred": true
       },
       "species": [
@@ -4549,7 +4635,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00064",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00065",
         "inferred": true
       },
       "species": [
@@ -4621,7 +4707,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00065",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00066",
         "inferred": true
       },
       "species": [
@@ -4673,6 +4759,148 @@
     {
       "$kind": "card",
       "set": "portuguese/me-black-star-promos",
+      "id": "078",
+      "name": "Toxel",
+      "englishName": "Toxel",
+      "number": {
+        "printed": "078",
+        "short": "078"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Mina Nakai",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "mina-nakai",
+          "name": "Mina Nakai"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00067",
+        "inferred": true
+      },
+      "description": {
+        "text": "The Portuguese print of this promo came in a Brazilian blister of four Caos Ascendente booster packs; the English card came in a single-pack blister."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 848,
+          "name": "Toxel"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "9780abb240b4464e7df9c7d612dd0b3e",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "078",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "9780abb240b4464e7df9c7d612dd0b3e"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "brazil-chaos-rising-quadruple-pack-blister",
+              "name": "Caos Ascendente Quadruple Pack Blister (Brazil)",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "toxel-4mxc" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "079",
+      "name": "Charmeleon",
+      "englishName": "Charmeleon",
+      "number": {
+        "printed": "079",
+        "short": "079"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Teeziro",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "teeziro",
+          "name": "Teeziro"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00068",
+        "inferred": true
+      },
+      "description": {
+        "text": "The Portuguese print of this promo came in the Brazilian Blister Triplo Megaevolução – Caos Ascendente, a triple pack blister like the English one."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 5,
+          "name": "Charmeleon"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "825a0178fe10792b172beade336ec7b6",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "079",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "825a0178fe10792b172beade336ec7b6"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "chaos-rising-triple-pack-blister",
+              "name": "Chaos Rising Triple Pack Blister",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "charmeleon-5ye2" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
       "id": "080",
       "name": "Fennekin",
       "englishName": "Fennekin",
@@ -4693,7 +4921,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00066",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00069",
         "inferred": true
       },
       "species": [
@@ -4753,7 +4981,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00067",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00070",
         "inferred": true
       },
       "species": [
@@ -4827,7 +5055,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00068",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00071",
         "inferred": true
       },
       "species": [
@@ -4899,7 +5127,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00069",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00072",
         "inferred": true
       },
       "species": [
@@ -4971,7 +5199,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00070",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00073",
         "inferred": true
       },
       "species": [
@@ -5043,7 +5271,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00071",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00074",
         "inferred": true
       },
       "species": [
@@ -5115,7 +5343,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00072",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00075",
         "inferred": true
       },
       "species": [
@@ -5175,7 +5403,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00073",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00076",
         "inferred": true
       },
       "species": [
@@ -5235,7 +5463,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00074",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00077",
         "inferred": true
       },
       "species": [
@@ -5295,7 +5523,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00075",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00078",
         "inferred": true
       },
       "species": [
@@ -5361,7 +5589,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00076",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00079",
         "inferred": true
       },
       "description": {
@@ -5425,7 +5653,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00077",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00080",
         "inferred": true
       },
       "description": {
@@ -5506,7 +5734,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00078",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00081",
         "inferred": true
       },
       "species": [
@@ -5578,7 +5806,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00079",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00082",
         "inferred": true
       },
       "species": [
@@ -5650,7 +5878,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00080",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00083",
         "inferred": true
       },
       "species": [
@@ -5722,7 +5950,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00081",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00084",
         "inferred": true
       },
       "species": [
@@ -5794,7 +6022,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00082",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00085",
         "inferred": true
       },
       "description": {
@@ -5869,7 +6097,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00083",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00086",
         "inferred": true
       },
       "description": {
@@ -5944,7 +6172,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00084",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00087",
         "inferred": true
       },
       "species": [
@@ -6012,7 +6240,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00085",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00088",
         "inferred": true
       },
       "species": [
@@ -6084,7 +6312,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00086",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00089",
         "inferred": true
       },
       "species": [
@@ -6136,6 +6364,222 @@
     {
       "$kind": "card",
       "set": "portuguese/me-black-star-promos",
+      "id": "104",
+      "name": "Mewtwo",
+      "englishName": "Mewtwo",
+      "number": {
+        "printed": "104",
+        "short": "104"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Nisota Niso",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "nisota-niso",
+          "name": "Nisota Niso"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00090",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 150,
+          "name": "Mewtwo"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "382c74545c81b82ba0884c3be71ce92a",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "104",
+            "id": "cosmos-holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "382c74545c81b82ba0884c3be71ce92a"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-figure-collection-mewtwo",
+              "name": "30th Celebration Figure Collection—Mewtwo",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mewtwo-0hnf" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "105",
+      "name": "Mew",
+      "englishName": "Mew",
+      "number": {
+        "printed": "105",
+        "short": "105"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Cona Nitanda",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "cona-nitanda",
+          "name": "Cona Nitanda"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00091",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 151,
+          "name": "Mew"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "39048f4a41a77f70568ac39aef28f7ea",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "105",
+            "id": "cosmos-holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "39048f4a41a77f70568ac39aef28f7ea"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-figure-collection-mew",
+              "name": "30th Celebration Figure Collection—Mew",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mew-4lei" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "106",
+      "name": "Ditto",
+      "englishName": "Ditto",
+      "number": {
+        "printed": "106",
+        "short": "106"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Ounishi",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "ounishi",
+          "name": "Ounishi"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00092",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 132,
+          "name": "Ditto"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "dafd12d74707cb59f2ebeada965d7e68",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "106",
+            "id": "holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "dafd12d74707cb59f2ebeada965d7e68"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-ditto-premium-collection",
+              "name": "30th Celebration Ditto Premium Collection",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "ditto-bdqh" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
       "id": "107",
       "name": "Pikachu ex",
       "englishName": "Pikachu ex",
@@ -6156,7 +6600,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00087",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00093",
         "inferred": true
       },
       "species": [
@@ -6228,7 +6672,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00088",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00094",
         "inferred": true
       },
       "species": [
@@ -6300,7 +6744,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00089",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00095",
         "inferred": true
       },
       "species": [
@@ -6372,7 +6816,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00090",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00096",
         "inferred": true
       },
       "species": [
@@ -6420,6 +6864,506 @@
       ],
       "defaultVariant": "holo-30th-anniversary-stamp",
       "painting": { "$kind": "painting", "id": "umbreon-ex-7l5h" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "111",
+      "name": "Masquerain",
+      "englishName": "Masquerain",
+      "number": {
+        "printed": "111",
+        "short": "111"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Anderson",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "anderson",
+          "name": "Anderson"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00097",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 284,
+          "name": "Masquerain"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "e61b49e33b334fddfe0f29bd72e94d16",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "111",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "e61b49e33b334fddfe0f29bd72e94d16"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "masquerain-vi09" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "112",
+      "name": "Magmortar",
+      "englishName": "Magmortar",
+      "number": {
+        "printed": "112",
+        "short": "112"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Kazumasa Yasukuni",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "kazumasa-yasukuni",
+          "name": "Kazumasa Yasukuni"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00098",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 467,
+          "name": "Magmortar"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "0f2a0e580f8535a2d4296a73c7cf7b77",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "112",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "0f2a0e580f8535a2d4296a73c7cf7b77"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "magmortar-n464" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "113",
+      "name": "Enamorus",
+      "englishName": "Enamorus",
+      "number": {
+        "printed": "113",
+        "short": "113"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "CHORISO",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "choriso",
+          "name": "CHORISO"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00099",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 905,
+          "name": "Enamorus"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "b3ef8dc32bb9f9a9ce52832c53255e83",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "113",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "b3ef8dc32bb9f9a9ce52832c53255e83"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "enamorus-qgaa" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "114",
+      "name": "Kommo-o",
+      "englishName": "Kommo-o",
+      "number": {
+        "printed": "114",
+        "short": "114"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Kazuki Minami",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "kazuki-minami",
+          "name": "Kazuki Minami"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00100",
+        "inferred": true
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 784,
+          "name": "Kommo-o"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "c393fad50a2394a69539ecd479a34d3f",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "114",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "c393fad50a2394a69539ecd479a34d3f"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "kommo-o-bjrs" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "115",
+      "name": "Spritzee",
+      "englishName": "Spritzee",
+      "number": {
+        "printed": "115",
+        "short": "115"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Terada Tera",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "terada-tera",
+          "name": "Terada Tera"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00101",
+        "inferred": true
+      },
+      "description": {
+        "text": "The Portuguese print of this promo came in a Brazilian blister of three Reinado Delta booster packs; the English card came in a single-pack blister."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 682,
+          "name": "Spritzee"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "2819795d0d65c9f0bfcbb079541e3f80",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "115",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "2819795d0d65c9f0bfcbb079541e3f80"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "brazil-delta-reign-triple-pack-blister",
+              "name": "Reinado Delta Triple Pack Blister (Brazil)",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "spritzee-oib7" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "116",
+      "name": "Seel",
+      "englishName": "Seel",
+      "number": {
+        "printed": "116",
+        "short": "116"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "cochi8i",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "cochi8i",
+          "name": "cochi8i"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 portuguese/me-black-star-promos 00102",
+        "inferred": true
+      },
+      "description": {
+        "text": "The Portuguese print of this promo came in a Brazilian blister of four Reinado Delta booster packs; the English card came in a triple-pack blister."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 86,
+          "name": "Seel"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "f75974c61cbd2d1f1e3afc90f160104f",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "116",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "f75974c61cbd2d1f1e3afc90f160104f"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "brazil-delta-reign-quadruple-pack-blister",
+              "name": "Reinado Delta Quadruple Pack Blister (Brazil)",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "seel-p9t7" }
+    },
+    {
+      "$kind": "card",
+      "set": "portuguese/me-black-star-promos",
+      "id": "117",
+      "name": "Kyogre",
+      "englishName": "Kyogre",
+      "number": {
+        "printed": "117",
+        "short": "117"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "pt",
+      "credit": "Nurikabe",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "nurikabe",
+          "name": "Nurikabe"
+        }
+      ],
+      "released": {
+        "date": "2026-11-06",
+        "sort": "2026-11-06.00 portuguese/me-black-star-promos 00103"
+      },
+      "description": {
+        "text": "The Portuguese print of this promo came in the Coleção Treinador Avançado de Megaevolução – Reinado Delta, the Brazilian Delta Reign Elite Trainer Box, out 6 November 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 382,
+          "name": "Kyogre"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "522f7b457dfc543754c9143da87b696c",
+          "of": {
+            "$kind": "variant",
+            "set": "portuguese/me-black-star-promos",
+            "card": "117",
+            "id": "holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "picture": {
+            "front": {
+              "image": "522f7b457dfc543754c9143da87b696c"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-elite-trainer-box",
+              "name": "Delta Reign Elite Trainer Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "kyogre-r03c" }
     }
   ]
 }

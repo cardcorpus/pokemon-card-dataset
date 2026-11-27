@@ -102,6 +102,7 @@
     {
       "$kind": "set",
       "id": "french/celebrations",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 50
@@ -109,6 +110,7 @@
     {
       "$kind": "set",
       "id": "german/celebrations",
+      "catalog": "german",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 50
@@ -116,13 +118,63 @@
     {
       "$kind": "set",
       "id": "italian/celebrations",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "incoming",
       "sameCardCount": 50
     },
     {
       "$kind": "set",
+      "id": "spanish/celebrations",
+      "catalog": "spanish",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 50
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/celebrations",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "incoming",
+      "sameCardCount": 49
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/25th-anniversary-collection",
+      "catalog": "zh-hant",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 24
+    },
+    {
+      "$kind": "set",
+      "id": "thai/25th-anniversary-collection",
+      "catalog": "thai",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/25th-anniversary-collection",
+      "catalog": "indonesian",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
       "id": "japanese/25th-anniversary-collection",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 25
+    },
+    {
+      "$kind": "set",
+      "id": "korean/25th-anniversary-collection",
+      "catalog": "korean",
       "relation": "merged_into",
       "direction": "incoming",
       "sameCardCount": 25
@@ -130,65 +182,26 @@
     {
       "$kind": "set",
       "id": "japanese/promo-card-pack-25th-anniversary-edition",
+      "catalog": "japanese",
       "relation": "subset_of",
       "direction": "incoming",
       "sameCardCount": 26
     },
     {
       "$kind": "set",
-      "id": "korean/25th-anniversary-collection",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 25
-    },
-    {
-      "$kind": "set",
-      "id": "korean/promo-card-pack-25th-anniversary-edition",
-      "relation": "subset_of",
-      "direction": "incoming",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/celebrations",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 49
-    },
-    {
-      "$kind": "set",
-      "id": "spanish/celebrations",
-      "relation": "equivalent",
-      "direction": "incoming",
-      "sameCardCount": 50
-    },
-    {
-      "$kind": "set",
       "id": "zh-hans/pikachu-legendary-celebration-gift-boxes",
+      "catalog": "zh-hans",
       "relation": "subset_of",
       "direction": "incoming",
       "sameCardCount": 23
     },
     {
       "$kind": "set",
-      "id": "indonesian/25th-anniversary-collection",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 25
-    },
-    {
-      "$kind": "set",
-      "id": "thai/25th-anniversary-collection",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 25
-    },
-    {
-      "$kind": "set",
-      "id": "zh-hant/25th-anniversary-collection",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 24
+      "id": "korean/promo-card-pack-25th-anniversary-edition",
+      "catalog": "korean",
+      "relation": "subset_of",
+      "direction": "incoming",
+      "sameCardCount": 9
     }
   ],
   "cards": [
@@ -379,7 +392,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "kyogre-nk6o" }
+      "painting": { "$kind": "painting", "id": "kyogre-nk6o" },
+      "play": {
+        "$kind": "play",
+        "id": "kyogre-08db"
+      }
     },
     {
       "$kind": "card",
@@ -568,7 +585,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "flying-pikachu-v-xxic" }
+      "painting": { "$kind": "painting", "id": "flying-pikachu-v-xxic" },
+      "play": {
+        "$kind": "play",
+        "id": "flying-pikachu-v-4251"
+      }
     },
     {
       "$kind": "card",
@@ -631,7 +652,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "flying-pikachu-vmax-gf1g" }
+      "painting": { "$kind": "painting", "id": "flying-pikachu-vmax-gf1g" },
+      "play": {
+        "$kind": "play",
+        "id": "flying-pikachu-vmax-05f9"
+      }
     },
     {
       "$kind": "card",
@@ -883,7 +908,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "mew-xmmp" }
+      "painting": { "$kind": "painting", "id": "mew-xmmp" },
+      "play": {
+        "$kind": "play",
+        "id": "mew-2900"
+      }
     },
     {
       "$kind": "card",
@@ -1204,7 +1233,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "zacian-v-ej33" }
+      "painting": { "$kind": "painting", "id": "zacian-v-ej33" },
+      "play": {
+        "$kind": "play",
+        "id": "zacian-v-7f93"
+      }
     },
     {
       "$kind": "card",
@@ -1654,7 +1687,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "professor-s-research-m7rn" }
+      "painting": { "$kind": "painting", "id": "professor-s-research-m7rn" },
+      "play": {
+        "$kind": "play",
+        "id": "professor-s-research-2c7c"
+      }
     },
     {
       "$kind": "card",
@@ -1720,7 +1757,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "professor-s-research-4y03" }
+      "painting": { "$kind": "painting", "id": "professor-s-research-4y03" },
+      "play": {
+        "$kind": "play",
+        "id": "professor-s-research-2c7c"
+      }
     },
     {
       "$kind": "card",
@@ -1783,7 +1824,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "mew-ano6" }
+      "painting": { "$kind": "painting", "id": "mew-ano6" },
+      "play": {
+        "$kind": "play",
+        "id": "mew-2900"
+      }
     },
     {
       "$kind": "card",
@@ -1846,7 +1891,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "blastoise-k3ax" }
+      "painting": { "$kind": "painting", "id": "blastoise-k3ax" },
+      "play": {
+        "$kind": "play",
+        "id": "blastoise-ce57"
+      }
     },
     {
       "$kind": "card",
@@ -1913,7 +1962,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "charizard-2dke" }
+      "painting": { "$kind": "painting", "id": "charizard-2dke" },
+      "play": {
+        "$kind": "play",
+        "id": "charizard-5005"
+      }
     },
     {
       "$kind": "card",
@@ -1976,7 +2029,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "venusaur-l8w8" }
+      "painting": { "$kind": "painting", "id": "venusaur-l8w8" },
+      "play": {
+        "$kind": "play",
+        "id": "venusaur-9aca"
+      }
     },
     {
       "$kind": "card",
@@ -2032,7 +2089,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "impostor-professor-oak-s94n" }
+      "painting": { "$kind": "painting", "id": "impostor-professor-oak-s94n" },
+      "play": {
+        "$kind": "play",
+        "id": "impostor-professor-oak-ff4a"
+      }
     },
     {
       "$kind": "card",
@@ -2095,7 +2156,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "dark-gyarados-bukh" }
+      "painting": { "$kind": "painting", "id": "dark-gyarados-bukh" },
+      "play": {
+        "$kind": "play",
+        "id": "dark-gyarados-dbd3"
+      }
     },
     {
       "$kind": "card",
@@ -2159,7 +2224,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "here-comes-team-rocket-wcyu" }
+      "painting": { "$kind": "painting", "id": "here-comes-team-rocket-wcyu" },
+      "play": {
+        "$kind": "play",
+        "id": "here-comes-team-rocket-703e"
+      }
     },
     {
       "$kind": "card",
@@ -2230,7 +2299,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "rocket-s-zapdos-hlwx" }
+      "painting": { "$kind": "painting", "id": "rocket-s-zapdos-hlwx" },
+      "play": {
+        "$kind": "play",
+        "id": "rocket-s-zapdos-b077"
+      }
     },
     {
       "$kind": "card",
@@ -2301,7 +2374,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "s-pikachu-birthday-pikachu-rim4" }
+      "painting": { "$kind": "painting", "id": "s-pikachu-birthday-pikachu-rim4" },
+      "play": {
+        "$kind": "play",
+        "id": "s-pikachu-birthday-pikachu-1522"
+      }
     },
     {
       "$kind": "card",
@@ -2364,7 +2441,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "cleffa-bkx9" }
+      "painting": { "$kind": "painting", "id": "cleffa-bkx9" },
+      "play": {
+        "$kind": "play",
+        "id": "cleffa-6179"
+      }
     },
     {
       "$kind": "card",
@@ -2427,7 +2508,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "shining-magikarp-gk1s" }
+      "painting": { "$kind": "painting", "id": "shining-magikarp-gk1s" },
+      "play": {
+        "$kind": "play",
+        "id": "shining-magikarp-6407"
+      }
     },
     {
       "$kind": "card",
@@ -2498,7 +2583,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "team-magma-s-groudon-c9pz" }
+      "painting": { "$kind": "painting", "id": "team-magma-s-groudon-c9pz" },
+      "play": {
+        "$kind": "play",
+        "id": "team-magma-s-groudon-bd5a"
+      }
     },
     {
       "$kind": "card",
@@ -2562,7 +2651,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "rocket-s-admin-nkf0" }
+      "painting": { "$kind": "painting", "id": "rocket-s-admin-nkf0" },
+      "play": {
+        "$kind": "play",
+        "id": "rocket-s-admin-dcb5"
+      }
     },
     {
       "$kind": "card",
@@ -2625,7 +2718,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "mew-ex-iexk" }
+      "painting": { "$kind": "painting", "id": "mew-ex-iexk" },
+      "play": {
+        "$kind": "play",
+        "id": "mew-ex-832e"
+      }
     },
     {
       "$kind": "card",
@@ -2688,7 +2785,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "gardevoir-ex-5gbb" }
+      "painting": { "$kind": "painting", "id": "gardevoir-ex-5gbb" },
+      "play": {
+        "$kind": "play",
+        "id": "gardevoir-ex-00dd"
+      }
     },
     {
       "$kind": "card",
@@ -2751,7 +2852,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "umbreon-2t2i" }
+      "painting": { "$kind": "painting", "id": "umbreon-2t2i" },
+      "play": {
+        "$kind": "play",
+        "id": "umbreon-d413"
+      }
     },
     {
       "$kind": "card",
@@ -2814,7 +2919,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "claydol-d94e" }
+      "painting": { "$kind": "painting", "id": "claydol-d94e" },
+      "play": {
+        "$kind": "play",
+        "id": "claydol-4092"
+      }
     },
     {
       "$kind": "card",
@@ -2877,7 +2986,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "luxray-gl-lv-x-oc61" }
+      "painting": { "$kind": "painting", "id": "luxray-gl-lv-x-oc61" },
+      "play": {
+        "$kind": "play",
+        "id": "luxray-gl-lv-x-0a42"
+      }
     },
     {
       "$kind": "card",
@@ -2940,7 +3053,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "garchomp-c-lv-x-1704" }
+      "painting": { "$kind": "painting", "id": "garchomp-c-lv-x-1704" },
+      "play": {
+        "$kind": "play",
+        "id": "garchomp-c-lv-x-ed0c"
+      }
     },
     {
       "$kind": "card",
@@ -3003,7 +3120,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "donphan-8d8h" }
+      "painting": { "$kind": "painting", "id": "donphan-8d8h" },
+      "play": {
+        "$kind": "play",
+        "id": "donphan-2de2"
+      }
     },
     {
       "$kind": "card",
@@ -3066,7 +3187,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "reshiram-s1oz" }
+      "painting": { "$kind": "painting", "id": "reshiram-s1oz" },
+      "play": {
+        "$kind": "play",
+        "id": "reshiram-5a23"
+      }
     },
     {
       "$kind": "card",
@@ -3129,7 +3254,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "zekrom-t6op" }
+      "painting": { "$kind": "painting", "id": "zekrom-t6op" },
+      "play": {
+        "$kind": "play",
+        "id": "zekrom-cee5"
+      }
     },
     {
       "$kind": "card",
@@ -3192,7 +3321,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "mewtwo-ex-3abn" }
+      "painting": { "$kind": "painting", "id": "mewtwo-ex-3abn" },
+      "play": {
+        "$kind": "play",
+        "id": "mewtwo-ex-a78d"
+      }
     },
     {
       "$kind": "card",
@@ -3255,7 +3388,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "xerneas-ex-of2l" }
+      "painting": { "$kind": "painting", "id": "xerneas-ex-of2l" },
+      "play": {
+        "$kind": "play",
+        "id": "xerneas-ex-4b6e"
+      }
     },
     {
       "$kind": "card",
@@ -3324,7 +3461,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "m-rayquaza-ex-qc2s" }
+      "painting": { "$kind": "painting", "id": "m-rayquaza-ex-qc2s" },
+      "play": {
+        "$kind": "play",
+        "id": "m-rayquaza-ex-f932"
+      }
     },
     {
       "$kind": "card",
@@ -3387,7 +3528,11 @@
         }
       ],
       "defaultVariant": "holo-25th-anniversary-stamp",
-      "painting": { "$kind": "painting", "id": "tapu-lele-gx-pxft" }
+      "painting": { "$kind": "painting", "id": "tapu-lele-gx-pxft" },
+      "play": {
+        "$kind": "play",
+        "id": "tapu-lele-gx-0a8f"
+      }
     },
     {
       "$kind": "card",
@@ -3460,7 +3605,11 @@
         }
       ],
       "defaultVariant": "metal",
-      "painting": { "$kind": "painting", "id": "charizard-2dke" }
+      "painting": { "$kind": "painting", "id": "charizard-2dke" },
+      "play": {
+        "$kind": "play",
+        "id": "charizard-5005"
+      }
     },
     {
       "$kind": "card",
@@ -3530,7 +3679,11 @@
         }
       ],
       "defaultVariant": "metal",
-      "painting": { "$kind": "painting", "id": "pikachu-m07e" }
+      "painting": { "$kind": "painting", "id": "pikachu-m07e" },
+      "play": {
+        "$kind": "play",
+        "id": "pikachu-1ae2"
+      }
     }
   ]
 }

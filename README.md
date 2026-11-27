@@ -1,18 +1,18 @@
 # CardCorpus dataset
 
-An open dataset of Pokémon Trading Card Game cards in English, Japanese and
-Simplified Chinese: every set, every card, its printings and variants, and
+An open dataset of Pokémon Trading Card Game cards in every
+language they have been printed in: every set, every card, its printings and variants, and
 the links between them (the same card in another language, reprints,
 shared paintings, Pokémon and characters, artists, distributions).
 
-This snapshot was published on **2026-11-21**. It holds:
+This snapshot was published on **2026-11-26**. It holds:
 
 - 2,244 sets
-- 222,894 cards
-- 323,739 variants (holo, reverse holo, stamps and the like)
-- 914,381 links between the same card in different languages
-- 20,109 paintings shared across cards
-- 2,720 promo distributions
+- 223,035 cards
+- 323,887 variants (holo, reverse holo, stamps and the like)
+- 915,834 links between the same card in different languages
+- 20,105 paintings shared across cards
+- 2,761 promo distributions
 - 1,025 Pokémon species
 - 429 characters
 - 495 artists
@@ -22,7 +22,7 @@ This snapshot was published on **2026-11-21**. It holds:
 - **Browse** the files here, under [`v1/`](v1/).
 - **Download everything** at once from the
   [latest release](../../releases/latest): `cardcorpus-dataset-<date>.zip`
-  (127 MB, 1240 MB unpacked) with a `SHA256SUMS` file.
+  (148 MB, 1413 MB unpacked) with a `SHA256SUMS` file.
 - **Query the live copy** at
   [pokemon.cardcorpus.com/v1/index.json](https://pokemon.cardcorpus.com/v1/index.json).
   It has the same layout and is updated more often than this repository.

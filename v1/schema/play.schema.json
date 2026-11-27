@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardCorpus play",
+  "description": "The cards that play the same, whatever their picture: one name and one text that works the same way, so an older print may stand in for a newer one in a deck. Base Set's Switch and Scarlet & Violet's are one play though their wording differs; a card that shuffles 3 cards and one that shuffles up to 3 are two. Official errata count: every Potion heals 30, so every Potion is one play. A card's `play` names this file, plays/{id}.json; only plays of more than one card have one. English cards only, for now: a translation sometimes words a card so it plays differently (https://pokemon.cardcorpus.com/v1/docs/guide.md#plays).",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "cardCount",
+    "cards"
+  ],
+  "properties": {
+    "id": {
+      "description": "The play's own id: its cards' English name and a short code, such as `switch-4175`. It stays the same as cards join the play.",
+      "type": "string"
+    },
+    "name": {
+      "description": "The name its cards share.",
+      "type": "string"
+    },
+    "cardCount": {
+      "description": "How many cards are in it: the length of `cards`.",
+      "type": "integer",
+      "minimum": 2
+    },
+    "errata": {
+      "description": "The official errata its cards play by, where any do: an erratum to the name rewrites every card of it (every Potion heals 30), one to a printing corrects that printing only. Its cards whose `basis` is `errata` play by them.",
+      "type": "array",
+      "items": {
+        "description": "An official erratum.",
+        "type": "object",
+        "required": [
+          "id",
+          "scope",
+          "name",
+          "change",
+          "listed"
+        ],
+        "properties": {
+          "id": {
+            "description": "The erratum's id, such as `potion`.",
+            "type": "string"
+          },
+          "scope": {
+            "description": "What it corrects: `name`, every card of that name; `printing`, the printing named; `rule`, a kind of card.",
+            "type": "string",
+            "enum": [
+              "name",
+              "printing",
+              "rule"
+            ]
+          },
+          "name": {
+            "description": "The card name it corrects.",
+            "type": "string"
+          },
+          "text": {
+            "description": "The corrected text, one string a paragraph, for an erratum to a name.",
+            "type": "array",
+            "items": {
+              "description": "A paragraph.",
+              "type": "string"
+            }
+          },
+          "parts": {
+            "description": "For an erratum to a printing, the parts it corrects, as the card's printed text names them (`attack1 text`, `ability1 text`, `attack2 cost`, `retreat`, `effect`), with their corrected value.",
+            "type": "object"
+          },
+          "change": {
+            "description": "What it changed, in Pokémon's words.",
+            "type": "string"
+          },
+          "listed": {
+            "description": "When Pokémon's errata page that lists it was last updated, YYYY-MM-DD.",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "cards": {
+      "description": "Every card in it, oldest first.",
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "description": "A card, with what a tile draws, and the painting it prints where another card prints it too.",
+        "type": "object",
+        "x-cc": {
+          "ref": "card"
+        },
+        "required": [
+          "$kind",
+          "set",
+          "id",
+          "name",
+          "number"
+        ],
+        "properties": {
+          "$kind": {
+            "description": "What the pointer points at: `card`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+            "const": "card"
+          },
+          "set": {
+            "description": "The set's id (sets/{catalog}.json).",
+            "type": "string"
+          },
+          "id": {
+            "description": "The card's id, unique in its set.",
+            "type": "string"
+          },
+          "name": {
+            "description": "A copy of the target's own `name`.",
+            "type": "string"
+          },
+          "englishName": {
+            "description": "A copy of the target's own `englishName`.",
+            "type": "string"
+          },
+          "subtitle": {
+            "description": "A copy of the target's own `subtitle`. The smaller name the card prints beside its own, as it prints it, in its language, where it prints one: \"Professeur Chen\" on a French Professor's Research, \"オーキド博士\" on a Japanese one. Where we have no printed subtitle, the English one on a card whose `name` is its English one (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles).",
+            "type": "string"
+          },
+          "englishSubtitle": {
+            "description": "A copy of the target's own `englishSubtitle`. The smaller name the card prints beside its own, in English, where it prints one: the professor on a Professor's Research (\"Professor Oak\"), the boss on a Boss's Orders (\"Ghetsis\"). It says which of the cards sharing a name this is, but isn't part of the name: a deck counts them all as one card. Always one of the card's `characters` (https://pokemon.cardcorpus.com/v1/docs/guide.md#subtitles). Our own pages show it joined to the name: \"Professor's Research (Professor Oak)\".",
+            "type": "string"
+          },
+          "number": {
+            "description": "A copy of the target's own `number`. Its number as printed (\"4/102\", \"SWSH001\"), and that number without its set total.",
+            "type": "object",
+            "required": [
+              "short"
+            ],
+            "properties": {
+              "printed": {
+                "description": "The number as printed, where the card prints one.",
+                "type": "string"
+              },
+              "short": {
+                "description": "The number without its set total: \"4\" of \"4/102\", and the whole number where it prints no total (\"SWSH001\"). What a tile shows and a sort reads.",
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "picture": {
+            "description": "A copy of the card's front picture id.",
+            "type": "object",
+            "properties": {
+              "front": {
+                "description": "Its front.",
+                "type": "object",
+                "properties": {
+                  "image": {
+                    "description": "The picture's id.",
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{32}$",
+                    "x-cc": {
+                      "picture": true
+                    }
+                  }
+                },
+                "required": [
+                  "image"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "front"
+            ],
+            "additionalProperties": false
+          },
+          "painting": {
+            "description": "The painting it prints, where another card prints it too.",
+            "type": "object",
+            "x-cc": {
+              "ref": "painting"
+            },
+            "required": [
+              "$kind",
+              "id"
+            ],
+            "properties": {
+              "$kind": {
+                "description": "What the pointer points at: `painting`. index.json's `pointers` say where to find it (https://pokemon.cardcorpus.com/v1/docs/guide.md#pointers).",
+                "const": "painting"
+              },
+              "id": {
+                "description": "The painting's own id, which never changes: its first print's English name and a short code, such as `charizard-k3f9`. Where it was first printed is `firstPrint`'s to say, corrected there when research finds an earlier print.",
+                "type": "string"
+              }
+            }
+          },
+          "basis": {
+            "description": "Why it is in the play, from its printed text, read off its picture: `identical`, it prints the play's wording (the one most of its cards print); `wording`, it words it differently in a way that plays the same; `errata`, an official erratum (`errata`) makes it play the same; `unread`, its own text isn't read yet, so it is here by being a reprint or by its sources' text.",
+            "type": "string",
+            "enum": [
+              "identical",
+              "wording",
+              "errata",
+              "unread"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

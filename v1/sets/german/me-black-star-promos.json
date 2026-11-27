@@ -11,8 +11,8 @@
   },
   "type": "promo",
   "language": "de",
-  "actualTotal": 100,
-  "cardCount": 100,
+  "actualTotal": 111,
+  "cardCount": 111,
   "released": {
     "date": "2025-10-10"
   },
@@ -26,66 +26,75 @@
   "links": [
     {
       "$kind": "set",
-      "id": "japanese/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 40
-    },
-    {
-      "$kind": "set",
-      "id": "zh-hant/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "incoming",
-      "sameCardCount": 60
+      "id": "english/me-black-star-promos",
+      "catalog": "english",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 111
     },
     {
       "$kind": "set",
       "id": "french/me-black-star-promos",
+      "catalog": "french",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 94
-    },
-    {
-      "$kind": "set",
-      "id": "indonesian/mega-evolution-promos",
-      "relation": "merged_into",
-      "direction": "outgoing",
-      "sameCardCount": 42
-    },
-    {
-      "$kind": "set",
-      "id": "english/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 100
+      "sameCardCount": 105
     },
     {
       "$kind": "set",
       "id": "italian/me-black-star-promos",
+      "catalog": "italian",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 100
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/me-black-star-promos",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 91
+      "sameCardCount": 111
     },
     {
       "$kind": "set",
       "id": "spanish/me-black-star-promos",
+      "catalog": "spanish",
       "relation": "equivalent",
       "direction": "outgoing",
-      "sameCardCount": 100
+      "sameCardCount": 111
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/me-black-star-promos",
+      "catalog": "portuguese",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 102
     },
     {
       "$kind": "set",
       "id": "thai/mega-evolution-promos",
+      "catalog": "thai",
       "relation": "merged_into",
       "direction": "outgoing",
-      "sameCardCount": 38
+      "sameCardCount": 40
+    },
+    {
+      "$kind": "set",
+      "id": "indonesian/mega-evolution-promos",
+      "catalog": "indonesian",
+      "relation": "merged_into",
+      "direction": "outgoing",
+      "sameCardCount": 44
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/mega-evolution-promos",
+      "catalog": "japanese",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 42
+    },
+    {
+      "$kind": "set",
+      "id": "zh-hant/mega-evolution-promos",
+      "catalog": "zh-hant",
+      "relation": "merged_into",
+      "direction": "incoming",
+      "sameCardCount": 66
     }
   ],
   "cards": [
@@ -2148,6 +2157,82 @@
     {
       "$kind": "card",
       "set": "german/me-black-star-promos",
+      "id": "032",
+      "name": "Mega-Guardevoir-ex",
+      "englishName": "Mega Gardevoir ex",
+      "number": {
+        "printed": "032",
+        "short": "032"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Saboteri",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "saboteri",
+          "name": "Saboteri"
+        }
+      ],
+      "released": {
+        "date": "2026-03-20",
+        "sort": "2026-03-20.00 german/me-black-star-promos 00030"
+      },
+      "description": {
+        "text": "The German print of this promo came in the Premium-Poster-Kollektion Mega-Entwicklung – Erhabene Helden (Mega-Guardevoir), the German release of the Ascended Heroes Premium Poster Collection, out 20 March 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 282,
+          "name": "Gardevoir",
+          "forms": [
+            {
+              "id": "282:mega",
+              "name": "Mega Gardevoir"
+            }
+          ]
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "77b290cc7a3f24d5ab0ec9182c0c25ad",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "032",
+            "id": "holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "picture": {
+            "front": {
+              "image": "77b290cc7a3f24d5ab0ec9182c0c25ad"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "ascended-heroes-premium-poster-collection-mega-gardevoir",
+              "name": "Ascended Heroes Premium Poster Collection—Mega Gardevoir",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "mega-gardevoir-ex-9zzy" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
       "id": "033",
       "name": "Mega Lucario ex",
       "englishName": "Mega Lucario ex",
@@ -2168,7 +2253,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00030",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00031",
         "inferred": true
       },
       "description": {
@@ -2237,7 +2322,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00031",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00032",
         "inferred": true
       },
       "description": {
@@ -2314,7 +2399,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00032",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00033",
         "inferred": true
       },
       "description": {
@@ -2391,7 +2476,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00033",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00034",
         "inferred": true
       },
       "description": {
@@ -2468,7 +2553,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00034",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00035",
         "inferred": true
       },
       "description": {
@@ -2543,7 +2628,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00035",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00036",
         "inferred": true
       },
       "description": {
@@ -2618,7 +2703,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00036",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00037",
         "inferred": true
       },
       "description": {
@@ -2693,7 +2778,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00037",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00038",
         "inferred": true
       },
       "description": {
@@ -2768,7 +2853,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00038",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00039",
         "inferred": true
       },
       "description": {
@@ -2843,7 +2928,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00039",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00040",
         "inferred": true
       },
       "description": {
@@ -2918,7 +3003,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00040",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00041",
         "inferred": true
       },
       "description": {
@@ -2993,7 +3078,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00041",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00042",
         "inferred": true
       },
       "description": {
@@ -3068,7 +3153,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00042",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00043",
         "inferred": true
       },
       "description": {
@@ -3143,7 +3228,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00043",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00044",
         "inferred": true
       },
       "description": {
@@ -3218,7 +3303,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00044",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00045",
         "inferred": true
       },
       "description": {
@@ -3293,7 +3378,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00045",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00046",
         "inferred": true
       },
       "description": {
@@ -3368,7 +3453,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00046",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00047",
         "inferred": true
       },
       "description": {
@@ -3443,7 +3528,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00047",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00048",
         "inferred": true
       },
       "description": {
@@ -3518,7 +3603,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00048",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00049",
         "inferred": true
       },
       "description": {
@@ -3593,7 +3678,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00049",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00050",
         "inferred": true
       },
       "description": {
@@ -3668,7 +3753,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00050",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00051",
         "inferred": true
       },
       "description": {
@@ -3743,7 +3828,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00051",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00052",
         "inferred": true
       },
       "description": {
@@ -3818,7 +3903,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00052",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00053",
         "inferred": true
       },
       "description": {
@@ -3893,7 +3978,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00053",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00054",
         "inferred": true
       },
       "description": {
@@ -3968,7 +4053,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00054",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00055",
         "inferred": true
       },
       "description": {
@@ -4043,7 +4128,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00055",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00056",
         "inferred": true
       },
       "description": {
@@ -4118,7 +4203,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00056",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00057",
         "inferred": true
       },
       "description": {
@@ -4193,7 +4278,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00057",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00058",
         "inferred": true
       },
       "description": {
@@ -4268,7 +4353,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00058",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00059",
         "inferred": true
       },
       "description": {
@@ -4343,7 +4428,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00059",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00060",
         "inferred": true
       },
       "description": {
@@ -4418,7 +4503,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00060",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00061",
         "inferred": true
       },
       "description": {
@@ -4493,7 +4578,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00061",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00062",
         "inferred": true
       },
       "description": {
@@ -4568,7 +4653,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00062",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00063",
         "inferred": true
       },
       "description": {
@@ -4643,7 +4728,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00063",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00064",
         "inferred": true
       },
       "description": {
@@ -4718,7 +4803,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00064",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00065",
         "inferred": true
       },
       "description": {
@@ -4793,7 +4878,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00065",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00066",
         "inferred": true
       },
       "description": {
@@ -4856,7 +4941,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00066",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00067",
         "inferred": true
       },
       "description": {
@@ -4919,7 +5004,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00067",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00068",
         "inferred": true
       },
       "description": {
@@ -4982,7 +5067,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00068",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00069",
         "inferred": true
       },
       "description": {
@@ -5059,7 +5144,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00069",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00070",
         "inferred": true
       },
       "description": {
@@ -5128,7 +5213,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00070",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00071",
         "inferred": true
       },
       "description": {
@@ -5197,7 +5282,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00071",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00072",
         "inferred": true
       },
       "description": {
@@ -5272,7 +5357,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00072",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00073",
         "inferred": true
       },
       "description": {
@@ -5347,7 +5432,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00073",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00074",
         "inferred": true
       },
       "description": {
@@ -5422,7 +5507,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00074",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00075",
         "inferred": true
       },
       "description": {
@@ -5477,6 +5562,76 @@
     {
       "$kind": "card",
       "set": "german/me-black-star-promos",
+      "id": "079",
+      "name": "Glutexo",
+      "englishName": "Charmeleon",
+      "number": {
+        "printed": "079",
+        "short": "079"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Teeziro",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "teeziro",
+          "name": "Teeziro"
+        }
+      ],
+      "released": {
+        "date": "2026-05-22",
+        "sort": "2026-05-22.00 german/me-black-star-promos 00076"
+      },
+      "description": {
+        "text": "The German print of this promo came in the 3er-Pack Mega-Entwicklung – Wachsendes Chaos, the German Chaos Rising triple pack blister, out 22 May 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 5,
+          "name": "Charmeleon"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "71f1d7d7c78b12454d520a3322b23df0",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "079",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "71f1d7d7c78b12454d520a3322b23df0"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "chaos-rising-triple-pack-blister",
+              "name": "Chaos Rising Triple Pack Blister",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "charmeleon-5ye2" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
       "id": "080",
       "name": "Fynx",
       "englishName": "Fennekin",
@@ -5497,7 +5652,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00075",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00077",
         "inferred": true
       },
       "description": {
@@ -5560,7 +5715,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00076",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00078",
         "inferred": true
       },
       "description": {
@@ -5637,7 +5792,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00077",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00079",
         "inferred": true
       },
       "description": {
@@ -5712,7 +5867,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00078",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00080",
         "inferred": true
       },
       "description": {
@@ -5787,7 +5942,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00079",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00081",
         "inferred": true
       },
       "description": {
@@ -5862,7 +6017,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00080",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00082",
         "inferred": true
       },
       "description": {
@@ -5937,7 +6092,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00081",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00083",
         "inferred": true
       },
       "species": [
@@ -5997,7 +6152,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00082",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00084",
         "inferred": true
       },
       "description": {
@@ -6060,7 +6215,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00083",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00085",
         "inferred": true
       },
       "description": {
@@ -6123,7 +6278,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00084",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00086",
         "inferred": true
       },
       "description": {
@@ -6192,7 +6347,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00085",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00087",
         "inferred": true
       },
       "description": {
@@ -6256,7 +6411,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00086",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00088",
         "inferred": true
       },
       "description": {
@@ -6337,7 +6492,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00087",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00089",
         "inferred": true
       },
       "description": {
@@ -6412,7 +6567,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00088",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00090",
         "inferred": true
       },
       "description": {
@@ -6487,7 +6642,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00089",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00091",
         "inferred": true
       },
       "description": {
@@ -6562,7 +6717,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00090",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00092",
         "inferred": true
       },
       "description": {
@@ -6637,7 +6792,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00091",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00093",
         "inferred": true
       },
       "description": {
@@ -6712,7 +6867,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00092",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00094",
         "inferred": true
       },
       "description": {
@@ -6787,7 +6942,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00093",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00095",
         "inferred": true
       },
       "description": {
@@ -6858,7 +7013,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00094",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00096",
         "inferred": true
       },
       "description": {
@@ -6933,7 +7088,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00095",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00097",
         "inferred": true
       },
       "description": {
@@ -6988,6 +7143,231 @@
     {
       "$kind": "card",
       "set": "german/me-black-star-promos",
+      "id": "104",
+      "name": "Mewtu",
+      "englishName": "Mewtwo",
+      "number": {
+        "printed": "104",
+        "short": "104"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Nisota Niso",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "nisota-niso",
+          "name": "Nisota Niso"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00098",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the Mewtwo version of the 30th Celebration Figure Collection."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 150,
+          "name": "Mewtwo"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "83e2cafc8607fa8a768cead5a16aa2f3",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "104",
+            "id": "cosmos-holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "83e2cafc8607fa8a768cead5a16aa2f3"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-figure-collection-mewtwo",
+              "name": "30th Celebration Figure Collection—Mewtwo",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mewtwo-0hnf" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "105",
+      "name": "Mew",
+      "englishName": "Mew",
+      "number": {
+        "printed": "105",
+        "short": "105"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Cona Nitanda",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "cona-nitanda",
+          "name": "Cona Nitanda"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00099",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the Mew version of the 30th Celebration Figure Collection."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 151,
+          "name": "Mew"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "0b16967a094df4837457fd290f6882a5",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "105",
+            "id": "cosmos-holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "0b16967a094df4837457fd290f6882a5"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-figure-collection-mew",
+              "name": "30th Celebration Figure Collection—Mew",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "mew-4lei" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "106",
+      "name": "Ditto",
+      "englishName": "Ditto",
+      "number": {
+        "printed": "106",
+        "short": "106"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Ounishi",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "ounishi",
+          "name": "Ounishi"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00100",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the 30th Celebration Ditto Premium Collection."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 132,
+          "name": "Ditto"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "51c580364f2538e39e4ba88c4ee78543",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "106",
+            "id": "holo-30th-anniversary-stamp"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-30th-anniversary-stamp",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "30th_anniversary_stamp",
+          "tell": {
+            "text": "The 30th anniversary logo on the card."
+          },
+          "picture": {
+            "front": {
+              "image": "51c580364f2538e39e4ba88c4ee78543"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "30th-celebration-ditto-premium-collection",
+              "name": "30th Celebration Ditto Premium Collection",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-30th-anniversary-stamp",
+      "painting": { "$kind": "painting", "id": "ditto-bdqh" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
       "id": "107",
       "name": "Pikachu ex",
       "englishName": "Pikachu ex",
@@ -7008,7 +7388,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00096",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00101",
         "inferred": true
       },
       "description": {
@@ -7083,7 +7463,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00097",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00102",
         "inferred": true
       },
       "description": {
@@ -7158,7 +7538,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00098",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00103",
         "inferred": true
       },
       "description": {
@@ -7233,7 +7613,7 @@
       ],
       "released": {
         "date": "2026",
-        "sort": "2026-12-31.21 german/me-black-star-promos 00099",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00104",
         "inferred": true
       },
       "description": {
@@ -7284,6 +7664,447 @@
       ],
       "defaultVariant": "holo-30th-anniversary-stamp",
       "painting": { "$kind": "painting", "id": "umbreon-ex-7l5h" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "111",
+      "name": "Maskeregen",
+      "englishName": "Masquerain",
+      "number": {
+        "printed": "111",
+        "short": "111"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Anderson",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "anderson",
+          "name": "Anderson"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00105",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the Delta Reign Build & Battle Box, the kit used at prerelease tournaments for Delta Reign."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 284,
+          "name": "Masquerain"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "ef67172219d19e83a9114bc2f54ea143",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "111",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "ef67172219d19e83a9114bc2f54ea143"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "masquerain-vi09" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "112",
+      "name": "Magbrant",
+      "englishName": "Magmortar",
+      "number": {
+        "printed": "112",
+        "short": "112"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Kazumasa Yasukuni",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "kazumasa-yasukuni",
+          "name": "Kazumasa Yasukuni"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00106",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the Delta Reign Build & Battle Box, the kit used at prerelease tournaments for Delta Reign."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 467,
+          "name": "Magmortar"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "5c0982fb822538b881bb8b0568c6b2fe",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "112",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "5c0982fb822538b881bb8b0568c6b2fe"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "magmortar-n464" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "113",
+      "name": "Cupidos",
+      "englishName": "Enamorus",
+      "number": {
+        "printed": "113",
+        "short": "113"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "CHORISO",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "choriso",
+          "name": "CHORISO"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00107",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the Delta Reign Build & Battle Box, the kit used at prerelease tournaments for Delta Reign."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 905,
+          "name": "Enamorus"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "9f9de183c52366ec94e7a8b7c38d6c1e",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "113",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "9f9de183c52366ec94e7a8b7c38d6c1e"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "enamorus-qgaa" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "114",
+      "name": "Grandiras",
+      "englishName": "Kommo-o",
+      "number": {
+        "printed": "114",
+        "short": "114"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Kazuki Minami",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "kazuki-minami",
+          "name": "Kazuki Minami"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00108",
+        "inferred": true
+      },
+      "description": {
+        "text": "This promo came in the Delta Reign Build & Battle Box, the kit used at prerelease tournaments for Delta Reign."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 784,
+          "name": "Kommo-o"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "7910139b9d7d680e08107b89fd661a73",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "114",
+            "id": "holo-prerelease"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo-prerelease",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "stamp": "prerelease",
+          "tell": {
+            "text": "The expansion's logo stamped in foil at the bottom right of the picture."
+          },
+          "picture": {
+            "front": {
+              "image": "7910139b9d7d680e08107b89fd661a73"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-build-battle-box",
+              "name": "Delta Reign Build & Battle Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo-prerelease",
+      "painting": { "$kind": "painting", "id": "kommo-o-bjrs" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "116",
+      "name": "Jurob",
+      "englishName": "Seel",
+      "number": {
+        "printed": "116",
+        "short": "116"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "cochi8i",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "cochi8i",
+          "name": "cochi8i"
+        }
+      ],
+      "released": {
+        "date": "2026",
+        "sort": "2026-12-31.21 german/me-black-star-promos 00109",
+        "inferred": true
+      },
+      "description": {
+        "text": "The German print of this promo came in the 3er-Pack Mega-Entwicklung – Delta-Herrschaft, the German Delta Reign triple pack blister."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 86,
+          "name": "Seel"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "c83fc193fc53399800279cc8a41e04c8",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "116",
+            "id": "cosmos-holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "cosmos-holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "cosmos_holo",
+          "picture": {
+            "front": {
+              "image": "c83fc193fc53399800279cc8a41e04c8"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-triple-pack-blister",
+              "name": "Delta Reign Triple Pack Blister",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "cosmos-holo",
+      "painting": { "$kind": "painting", "id": "seel-p9t7" }
+    },
+    {
+      "$kind": "card",
+      "set": "german/me-black-star-promos",
+      "id": "117",
+      "name": "Kyogre",
+      "englishName": "Kyogre",
+      "number": {
+        "printed": "117",
+        "short": "117"
+      },
+      "rarity": "Promo",
+      "cardType": "pokemon",
+      "language": "de",
+      "credit": "Nurikabe",
+      "artists": [
+        {
+          "$kind": "artist",
+          "id": "nurikabe",
+          "name": "Nurikabe"
+        }
+      ],
+      "released": {
+        "date": "2026-11-06",
+        "sort": "2026-11-06.00 german/me-black-star-promos 00110"
+      },
+      "description": {
+        "text": "The German print of this promo came in the Top-Trainer-Box Mega-Entwicklung – Delta-Herrschaft, the German Delta Reign Elite Trainer Box, out 6 November 2026."
+      },
+      "species": [
+        {
+          "$kind": "species",
+          "id": 382,
+          "name": "Kyogre"
+        }
+      ],
+      "picture": {
+        "front": {
+          "image": "b5f6b0a13082e186baf9b2c7c80ab659",
+          "of": {
+            "$kind": "variant",
+            "set": "german/me-black-star-promos",
+            "card": "117",
+            "id": "holo"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "holo",
+          "name": "Standard",
+          "role": "standard",
+          "finish": "holo",
+          "picture": {
+            "front": {
+              "image": "b5f6b0a13082e186baf9b2c7c80ab659"
+            }
+          },
+          "distributions": [
+            {
+              "$kind": "distribution",
+              "id": "delta-reign-elite-trainer-box",
+              "name": "Delta Reign Elite Trainer Box",
+              "category": "product_promotion"
+            }
+          ]
+        }
+      ],
+      "defaultVariant": "holo",
+      "painting": { "$kind": "painting", "id": "kyogre-r03c" }
     }
   ]
 }

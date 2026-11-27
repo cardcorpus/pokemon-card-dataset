@@ -336,6 +336,11 @@ later card reusing an old picture, is another card of the painting. Those
 are not listed on the card: follow `painting` and read the painting's other
 `cards` ([Paintings](#paintings)).
 
+**It plays the same.** A card with the same name and text that works the
+same, whatever its picture, so one may stand in for the other in a deck:
+
+- `play`: a pointer to the play, which lists every such card ([Plays](#plays)).
+
 ### Links
 
 A card's `painting` is in its set file. Its links (`counterparts`,
@@ -422,6 +427,66 @@ Set's Charizard and its reprints in one list (38 prints) and Evolutions'
 Charizard in another (7 prints). To show "other cards with this picture" on
 a card page, find the list holding the card and show the others, each by one
 of its prints (`prints[set][id]`).
+
+## Plays
+
+A card's `play` names the cards that play the same as it, whatever their
+picture: the same name, and text that works the same way. The official
+rules let an older print stand in for a card with the same name only when
+its text is functionally identical, and a play is the cards that pass that
+test together. Base Set's Switch ("Switch 1 of your own Benched Pokémon with
+your Active Pokémon") and Scarlet & Violet's ("Switch your Active Pokémon
+with 1 of your Benched Pokémon") are one play, with every other Switch
+printed in between. Cards whose effects differ are separate plays, even
+when the difference is small: Rainbow Energy that does 10 damage and one
+that places a damage counter are two. An official erratum counts as the
+card's text: Pokémon has corrected Potion to heal 30, so the old Potion that
+removes 2 damage counters plays as the new one, and every Potion is one
+play.
+
+A play has an id of its own, its cards' English name and a short code, such
+as `switch-4175`, and its file is `plays/{id}.json`: its `name`, its
+`cardCount` and its `cards`, oldest first, each a card pointer with what a
+tile draws and the `painting` it prints. Only plays of more than one card
+have a file; a card with no `play` plays like no other card. A painting's
+`cards` and a play cut the same prints two ways: a painting is one picture
+on any text, a play one text under any picture.
+
+Plays are English only for now. A translation sometimes words a card so it
+plays differently from the English, so other languages' cards join plays
+once their own text has been read.
+
+
+Each card in a play file says why it is there, in `basis`, judged from what
+it prints, read off its picture: `identical`, it prints the play's wording;
+`wording`, it words it differently in a way that plays the same; `errata`, an
+official erratum makes it play the same; `unread`, its picture isn't read
+yet, so it is there as a reprint. A play whose cards play by an official
+erratum lists it in `errata`, with the corrected `text` (an erratum to every
+card of a name) or `parts` (one to a printing) and what it `change`d.
+
+## Printed text
+
+`text/{set}.json` lists what each card of an English set prints, word for
+word, read off its picture: its name and level as printed, abilities with
+their printed labels (Poké-Power, Ability, …), attacks with their cost and
+damage, trainer and energy text one paragraph a string, rule boxes and rule
+lines, weakness and resistance values only where printed, retreat, and the
+Pokédex flavor text. `checked` says how sure it is: `agreed` (a blind read
+matches other transcriptions), `judged` (they differed and a closer look at
+the picture settled each part) or `picture` (only the read gives it); `unsure`
+names any part a closer look couldn't settle. It is the print, so an older
+card keeps its old wording; how it plays now, errata included, is its play's.
+
+Other languages have their text too, in the same shape, from official card
+lists and other card databases, not yet checked against the cards:
+`checked` is `source`. The words are the card's language; `kind`, `subtype`,
+`stage`, types, costs, weakness and resistance use the English words, so the
+same card compares part by part across languages. A source sometimes leaves
+a part out (what a card evolves from, flavor text, a rule box) or runs a
+trainer's rule line into its text. Where a source leaves out a Pokémon's stage or what it
+evolves from, it is taken from the same card's English print when the
+Pokémon's evolution line agrees.
 
 ## Pieces
 

@@ -40,21 +40,24 @@
   "links": [
     {
       "$kind": "set",
-      "id": "japanese/25th-anniversary-collection",
-      "relation": "companion",
-      "direction": "incoming",
-      "sameCardCount": 0
+      "id": "japanese/promo-card-pack-25th-anniversary-edition",
+      "catalog": "japanese",
+      "relation": "equivalent",
+      "direction": "outgoing",
+      "sameCardCount": 15
     },
     {
       "$kind": "set",
-      "id": "japanese/25th-anniversary-golden-box",
-      "relation": "companion",
-      "direction": "incoming",
-      "sameCardCount": 0
+      "id": "english/celebrations",
+      "catalog": "english",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 9
     },
     {
       "$kind": "set",
       "id": "french/celebrations",
+      "catalog": "french",
       "relation": "subset_of",
       "direction": "outgoing",
       "sameCardCount": 9
@@ -62,13 +65,7 @@
     {
       "$kind": "set",
       "id": "german/celebrations",
-      "relation": "subset_of",
-      "direction": "outgoing",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "english/celebrations",
+      "catalog": "german",
       "relation": "subset_of",
       "direction": "outgoing",
       "sameCardCount": 9
@@ -76,20 +73,7 @@
     {
       "$kind": "set",
       "id": "italian/celebrations",
-      "relation": "subset_of",
-      "direction": "outgoing",
-      "sameCardCount": 9
-    },
-    {
-      "$kind": "set",
-      "id": "japanese/promo-card-pack-25th-anniversary-edition",
-      "relation": "equivalent",
-      "direction": "outgoing",
-      "sameCardCount": 15
-    },
-    {
-      "$kind": "set",
-      "id": "portuguese/celebrations",
+      "catalog": "italian",
       "relation": "subset_of",
       "direction": "outgoing",
       "sameCardCount": 9
@@ -97,9 +81,34 @@
     {
       "$kind": "set",
       "id": "spanish/celebrations",
+      "catalog": "spanish",
       "relation": "subset_of",
       "direction": "outgoing",
       "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "portuguese/celebrations",
+      "catalog": "portuguese",
+      "relation": "subset_of",
+      "direction": "outgoing",
+      "sameCardCount": 9
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/25th-anniversary-collection",
+      "catalog": "japanese",
+      "relation": "companion",
+      "direction": "incoming",
+      "sameCardCount": 0
+    },
+    {
+      "$kind": "set",
+      "id": "japanese/25th-anniversary-golden-box",
+      "catalog": "japanese",
+      "relation": "companion",
+      "direction": "incoming",
+      "sameCardCount": 0
     }
   ],
   "cards": [
@@ -160,7 +169,8 @@
           }
         }
       ],
-      "defaultVariant": "plain"
+      "defaultVariant": "plain",
+      "painting": { "$kind": "painting", "id": "charizard-2dke" }
     },
     {
       "$kind": "card",
