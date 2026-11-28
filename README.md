@@ -5,12 +5,12 @@ language they have been printed in: every set, every card, its printings and var
 the links between them (the same card in another language, reprints,
 shared paintings, Pokémon and characters, artists, distributions).
 
-This snapshot was published on **2026-11-26**. It holds:
+This snapshot was published on **2026-11-27**. It holds:
 
 - 2,244 sets
 - 223,035 cards
 - 323,887 variants (holo, reverse holo, stamps and the like)
-- 915,834 links between the same card in different languages
+- 915,703 links between the same card in different languages
 - 20,105 paintings shared across cards
 - 2,761 promo distributions
 - 1,025 Pokémon species
@@ -21,8 +21,9 @@ This snapshot was published on **2026-11-26**. It holds:
 
 - **Browse** the files here, under [`v1/`](v1/).
 - **Download everything** at once from the
-  [latest release](../../releases/latest): `cardcorpus-dataset-<date>.zip`
-  (148 MB, 1413 MB unpacked) with a `SHA256SUMS` file.
+  [latest release](../../releases/latest), always at
+  https://github.com/cardcorpus/pokemon-card-dataset/releases/latest/download/cardcorpus-dataset.zip
+  (148 MB, 1415 MB unpacked) with a `SHA256SUMS` file.
 - **Query the live copy** at
   [pokemon.cardcorpus.com/v1/index.json](https://pokemon.cardcorpus.com/v1/index.json).
   It has the same layout and is updated more often than this repository.

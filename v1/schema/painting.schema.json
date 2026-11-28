@@ -349,13 +349,20 @@
           "additionalProperties": false
         },
         "rarity": {
-          "description": "Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity).",
+          "description": "Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet.",
           "x-cc": {
             "vocabulary": "rarity"
           },
-          "allOf": [
+          "type": [
+            "string",
+            "null"
+          ],
+          "anyOf": [
             {
               "$ref": "#/$defs/vocabulary.rarity"
+            },
+            {
+              "type": "null"
             }
           ]
         },

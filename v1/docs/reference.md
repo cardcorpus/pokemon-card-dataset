@@ -173,7 +173,7 @@ One set: its description, tell, print runs, versions and links, and every card w
 | `cards[].number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `cards[].number.printed`? | string | The number as printed, where the card prints one. |
 | `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `cards[].cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `cards[].language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
@@ -583,7 +583,7 @@ One distribution in full: one way cards reached people other than in booster pac
 | `variants[].number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `variants[].number.printed`? | string | The number as printed, where the card prints one. |
 | `variants[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `variants[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `variants[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `variants[].cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `variants[].language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `variants[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
@@ -684,7 +684,7 @@ One artist's cards in one catalog: every card of it whose credit names them (the
 | `cards[].number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `cards[].number.printed`? | string | The number as printed, where the card prints one. |
 | `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `cards[].cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `cards[].language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
@@ -748,7 +748,7 @@ Every card of one species in one catalog, oldest first (https://pokemon.cardcorp
 | `cards[].number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `cards[].number.printed`? | string | The number as printed, where the card prints one. |
 | `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `cards[].cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `cards[].language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
@@ -790,7 +790,7 @@ Every card of one species in one catalog, oldest first (https://pokemon.cardcorp
 | `forms[].cards[].number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `forms[].cards[].number.printed`? | string | The number as printed, where the card prints one. |
 | `forms[].cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `forms[].cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `forms[].cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `forms[].cards[].cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `forms[].cards[].language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `forms[].cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
@@ -839,7 +839,7 @@ One person's cards in one catalog: every card of it they're on, oldest first, ea
 | `cards[].number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `cards[].number.printed`? | string | The number as printed, where the card prints one. |
 | `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `cards[].rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `cards[].cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `cards[].language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `cards[].released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
@@ -919,7 +919,7 @@ Every card of one catalog in one slim list (`cards/english.json`, `cards/japanes
 | `cards[].number`? | object | A copy of the target's own `number`. Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `cards[].number.printed`? | string | The number as printed, where the card prints one. |
 | `cards[].number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `cards[].rarity`? | vocabulary `rarity` | A copy of the target's own `rarity`. Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `cards[].rarity`? | vocabulary `rarity` | A copy of the target's own `rarity`. Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `cards[].cardType`? | vocabulary `cardType` | A copy of the target's own `cardType`. Pokémon, Trainer or Energy. |
 | `cards[].language` | vocabulary `language` | A copy of the target's own `language`. |
 | `cards[].released`? | object | A copy of the card's `released`, holding only its `date`: when it first came out, as precisely as is known. Absent where the date isn't known. |
@@ -984,7 +984,7 @@ One painting, with every print of it in every language and how each links to the
 | `prints.{key}.{key}.number`? | object | Its number as printed ("4/102", "SWSH001"), and that number without its set total. |
 | `prints.{key}.{key}.number.printed`? | string | The number as printed, where the card prints one. |
 | `prints.{key}.{key}.number.short` | string | The number without its set total: "4" of "4/102", and the whole number where it prints no total ("SWSH001"). What a tile shows and a sort reads. |
-| `prints.{key}.{key}.rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). |
+| `prints.{key}.{key}.rarity`? | vocabulary `rarity` | Its rarity, as its mark reads (https://pokemon.cardcorpus.com/v1/docs/guide.md#rarity). Null where the card prints no rarity mark (a deck card, a McDonald's card, a Basic Energy); absent where we don't know its rarity yet. |
 | `prints.{key}.{key}.cardType`? | vocabulary `cardType` | Pokémon, Trainer or Energy. |
 | `prints.{key}.{key}.language` | vocabulary `language` | The language its text is printed in: its set's, or another where its product held a foreign print (https://pokemon.cardcorpus.com/v1/docs/guide.md#foreign-prints). Every card has one. |
 | `prints.{key}.{key}.released` | object | When the card first came out, in any of its variants: its own date, or, in a set whose cards came out together, the set's (https://pokemon.cardcorpus.com/v1/docs/guide.md#release-dates). |
